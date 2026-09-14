@@ -39,6 +39,10 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SINTA = "https://sinta.kemdiktisaintek.go.id"
 
+# Opsional: kalau diisi, daftar Scopus diambil lengkap lewat API Elsevier
+# alih-alih 10 entri dari SINTA. Simpan sebagai secret SCOPUS_API_KEY.
+SCOPUS_KEY = os.environ.get("SCOPUS_API_KEY", "").strip()
+
 # Jeda antar request. Jangan diturunkan — ini yang membuat scraper tidak
 # dianggap serangan dan tidak membuat IP diblokir.
 JEDA = (2.5, 5.0)
@@ -144,6 +148,10 @@ def parse_profil(h):
 
     m = re.search(r'<img\s+src="([^"]+)"[^>]*alt="avatar"', h)
     d["foto"] = html_mod.unescape(m.group(1)) if m else None
+
+    # SINTA memuat foto dari Google Scholar, dan URL-nya membawa user id.
+    m = re.search(r'scholar\.google[^"\']*?[?&](?:amp;)?user=([A-Za-z0-9_-]{8,})', h)
+    d["scholar_id"] = m.group(1) if m else None
 
     m = re.search(r'<ul class="subject-list">(.*?)</ul>', h, re.S)
     d["subjects"] = ([bersih(x) for x in re.findall(r'<li>(.*?)</li>', m.group(1), re.S)]
@@ -410,13 +418,18 @@ def rakit(row, profil, artikel):
         "afiliasi": profil.get("afiliasi"),
         "foto_url": row.get("foto_url", "").strip() or profil.get("foto"),
         "diperbarui": time.strftime("%Y-%m-%dT%H:%M:%S+07:00"),
+        # SINTA hanya menampilkan 10 entri per tab untuk pengunjung tanpa login
+        # (tombol "View more" mengarah ke halaman login). Ditandai di sini supaya
+        # widget bisa menyampaikannya apa adanya ke pembaca.
+        "batas_daftar": {"sumber": "sinta", "per_kategori": 10,
+                         "lengkap": bool(SCOPUS_KEY)},
         "tautan": {
             "sinta": f"{SINTA}/authors/profile/{sinta_id}",
             "scopus": (f"https://www.scopus.com/authid/detail.uri?authorId={row['scopus_id'].strip()}"
                        if row.get("scopus_id", "").strip() else None),
             "garuda": f"{SINTA}/authors/profile/{sinta_id}/?view=garuda",
-            "scholar": (f"https://scholar.google.com/citations?user={row['scholar_id'].strip()}"
-                        if row.get("scholar_id", "").strip() else None),
+            "scholar": (lambda sid: f"https://scholar.google.com/citations?user={sid}" if sid else None)(
+                row.get("scholar_id", "").strip() or profil.get("scholar_id")),
         },
         "skor": profil.get("skor", {}),
         "metrik": m,
@@ -522,6 +535,74 @@ def periksa(sinta_id):
     return 0
 
 
+# ------------------------------------------------------- Scopus API (opsional)
+
+def get_json_scopus(url):
+    req = urllib.request.Request(url, headers={
+        "X-ELS-APIKey": SCOPUS_KEY, "Accept": "application/json", "User-Agent": UA})
+    try:
+        with OPENER.open(req, timeout=45) as r:
+            return json.loads(r.read().decode())
+    except Exception as e:
+        print(f"      ! Scopus API: {e}", file=sys.stderr)
+        return None
+
+
+def scopus_publikasi(scopus_id, maks=200):
+    """Daftar lengkap artikel dari Scopus Search API.
+
+    Ini jalur sah untuk melewati batas 10 entri SINTA: Scopus mendisambiguasi
+    penulis lewat Author ID, bukan nama, jadi hasilnya bersih dan lengkap.
+    Butuh SCOPUS_API_KEY (minta ke perpustakaan/DSSDI UGM) dan kolom scopus_id
+    terisi di dosen.csv. Tanpa itu fungsi ini dilewati dan sistem memakai
+    10 entri dari SINTA seperti biasa.
+    """
+    if not SCOPUS_KEY or not scopus_id:
+        return []
+
+    hasil, mulai = [], 0
+    while mulai < maks:
+        q = urllib.parse.urlencode({
+            "query": f"AU-ID({scopus_id})",
+            "count": 25, "start": mulai,
+            "field": ("dc:title,prism:publicationName,prism:coverDate,prism:doi,"
+                      "citedby-count,subtypeDescription,eid"),
+        })
+        d = get_json_scopus(f"https://api.elsevier.com/content/search/scopus?{q}")
+        if not d:
+            break
+        hasilnya = d.get("search-results") or {}
+        entri = hasilnya.get("entry") or []
+        if not entri or "error" in entri[0]:
+            break
+        for e in entri:
+            tahun = (e.get("prism:coverDate") or "")[:4]
+            jenis = (e.get("subtypeDescription") or "").lower()
+            hasil.append({
+                "judul": e.get("dc:title"),
+                "url": (f"https://doi.org/{e['prism:doi']}" if e.get("prism:doi")
+                        else (f"https://www.scopus.com/record/display.uri?eid={e['eid']}"
+                              if e.get("eid") else None)),
+                "sumber": "scopus",
+                "venue": e.get("prism:publicationName"),
+                "tahun": angka(tahun) if tahun.isdigit() else None,
+                "sitasi": angka(e.get("citedby-count")) or 0,
+                "urutan_penulis": None, "kreator": None,
+                "kuartil": None,
+                "jenis_venue": ("Conference Proceeding" if "conference" in jenis
+                                else "Book" if "book" in jenis else "Journal"),
+                "info": None,
+            })
+        total = int(hasilnya.get("opensearch:totalResults") or 0)
+        mulai += 25
+        if mulai >= total:
+            break
+        time.sleep(0.5)
+
+    print(f"      [scopus-api] {len(hasil)} artikel")
+    return hasil
+
+
 def main():
     if len(sys.argv) > 2 and sys.argv[1] == "--periksa":
         return periksa(sys.argv[2].strip())
@@ -564,8 +645,14 @@ def main():
         # patokan supaya paginasi tahu kapan benar-benar sudah lengkap.
         harapan = {"scopus": ((profil.get("metrik") or {}).get("scopus") or {}).get("artikel")}
 
-        artikel = []
+        # Kalau API key Scopus tersedia, daftar Scopus diambil dari sana
+        # (lengkap & terdisambiguasi) dan tab Scopus SINTA dilewati.
+        lengkap_scopus = scopus_publikasi(row.get("scopus_id", "").strip())
+
+        artikel = list(lengkap_scopus)
         for view, sumber, _label in VIEWS:
+            if sumber == "scopus" and lengkap_scopus:
+                continue
             artikel += ambil_semua_artikel(sid, view, sumber, harapan.get(sumber))
             santai()
 
