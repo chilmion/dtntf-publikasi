@@ -9,7 +9,7 @@
  "prodi": "S2 - Magister Teknik Fisika",
  "afiliasi": "Universitas Gadjah Mada",
  "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ALYyCBUAAAAJ&citpid=1",
- "diperbarui": "2026-09-14T16:04:06+07:00",
+ "diperbarui": "2026-09-14T16:18:27+07:00",
  "tautan": {
   "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6016573",
   "scopus": null,
@@ -173,32 +173,6 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
-   "url": "#!",
-   "sumber": "ppm",
-   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
-   "kuartil": "Rp. 10.000.000",
-   "jenis_venue": null,
-   "tahun": 2025,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
-   "url": "#!",
-   "sumber": "ppm",
-   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
-   "kuartil": "Rp. 10.000.000",
-   "jenis_venue": null,
-   "tahun": 2025,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
    "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
    "url": "#!",
    "sumber": "ppm",
@@ -230,6 +204,32 @@
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
    "kuartil": "Rp. 1.000.000",
+   "jenis_venue": null,
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": "#!",
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "jenis_venue": null,
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": "#!",
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
    "jenis_venue": null,
    "tahun": 2025,
    "sitasi": 0,
@@ -290,19 +290,6 @@
    "kategori": "Penelitian"
   },
   {
-   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
-   "url": "#!",
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "kuartil": "Rp. 10.000.000",
-   "jenis_venue": null,
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
    "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
    "url": "#!",
    "sumber": "ppm",
@@ -317,6 +304,19 @@
   },
   {
    "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": "#!",
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "jenis_venue": null,
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
    "url": "#!",
    "sumber": "ppm",
    "venue": "PKM ( PKM )",

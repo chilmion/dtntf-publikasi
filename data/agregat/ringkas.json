@@ -2,10 +2,10 @@
  "diperbarui": "2026-09-14",
  "jumlah_dosen": 2,
  "total": {
-  "semua": 78,
+  "semua": 79,
   "publikasi_ilmiah": 33,
-  "sitasi": 127467048879872,
-  "paten": 11,
+  "sitasi": 127467250940659,
+  "paten": 12,
   "ppm": 20,
   "penelitian": 14
  },
@@ -32,7 +32,7 @@
   },
   {
    "nama": "Paten & HKI",
-   "jumlah": 11
+   "jumlah": 12
   },
   {
    "nama": "Penelitian",
@@ -66,7 +66,7 @@
   },
   {
    "nama": "Hak Cipta",
-   "jumlah": 5
+   "jumlah": 6
   },
   {
    "nama": "ISBN : 9786023869374",
@@ -239,13 +239,13 @@
   {
    "tahun": 2020,
    "berkas": "2020",
-   "jumlah": 8,
-   "sitasi": 404064181,
+   "jumlah": 9,
+   "sitasi": 606124968,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 3,
     "Book Chapter / Book Series": 2,
-    "Paten & HKI": 2
+    "Paten & HKI": 3
    }
   }
  ],
@@ -256,7 +256,7 @@
    "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
    "sinta_id": "6010146",
    "skor_sinta": 3798,
-   "publikasi": 56,
+   "publikasi": 57,
    "sitasi_scopus": 418,
    "hindex_scopus": 11
   },

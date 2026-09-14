@@ -9,7 +9,7 @@
  "prodi": "S1 - Teknik Fisika",
  "afiliasi": "Universitas Gadjah Mada",
  "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UwuzB_gAAAAJ&citpid=1",
- "diperbarui": "2026-09-14T16:03:06+07:00",
+ "diperbarui": "2026-09-14T16:17:03+07:00",
  "tautan": {
   "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6010146",
   "scopus": null,
@@ -55,8 +55,8 @@
   "sitasi_scholar": 2334,
   "hindex_scopus": 11,
   "hindex_scholar": 20,
-  "hindex_terdaftar": 20,
-  "paten": 11,
+  "hindex_terdaftar": 21,
+  "paten": 12,
   "ppm": 12,
   "buku": 3,
   "penelitian": 10
@@ -65,7 +65,7 @@
   "scopus": 10,
   "garuda": 10,
   "buku": 3,
-  "paten": 11,
+  "paten": 12,
   "ppm": 12,
   "penelitian": 10
  },
@@ -128,11 +128,11 @@
    "jumlah": 2
   },
   {
-   "nama": "Hardwarex",
+   "nama": "Journal Europeen Des Systemes Automatises",
    "jumlah": 1
   },
   {
-   "nama": "Journal Europeen Des Systemes Automatises",
+   "nama": "Hardwarex",
    "jumlah": 1
   },
   {
@@ -275,19 +275,6 @@
    "kategori": "Jurnal Nasional"
   },
   {
-   "judul": "An open-source BLDC motor test bed utilizing ESC telemetry for cost-effective educational laboratories",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105040626820&origin=resultslist",
-   "sumber": "scopus",
-   "venue": "Hardwarex",
-   "kuartil": "Q2",
-   "jenis_venue": "Journal",
-   "tahun": 2026,
-   "sitasi": 0,
-   "urutan_penulis": "2 of 3",
-   "kreator": "Kurniawan U.T.Y.",
-   "kategori": "Jurnal Internasional"
-  },
-  {
    "judul": "PPG-ECG Validation of a 25 Hz Board-Level Photoplethysmography Sensor for Future Thermal Comfort Experiments Under Resting Low-Motion Conditions",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105046315987&origin=resultslist",
    "sumber": "scopus",
@@ -325,6 +312,19 @@
    "urutan_penulis": "2 of 6",
    "kreator": "Setiawan F.",
    "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "An open-source BLDC motor test bed utilizing ESC telemetry for cost-effective educational laboratories",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105040626820&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Hardwarex",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Kurniawan U.T.Y.",
+   "kategori": "Jurnal Internasional"
   },
   {
    "judul": "Pengaruh Strategi Komunikasi Dakwah terhadap Peningkatkan Minat Beribadah Dan Keterlibatan Pelajar Dalam Kegiatan Rohis di SMA Dharmawangsa Medan",
@@ -665,7 +665,7 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "PEMBANGUNAN TPS3R FT UGM (PEMANDATAN)",
+   "judul": "PENANGANAN TERHADAP SEGMEN JALAN AMBLAS DI WUNUT, SRIHARJO, IMOGIRI, BANTUL, YOGYAKARTA (PEMANDATAN)",
    "url": "#!",
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -678,7 +678,7 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "PENYELENGGARAAN KLINIK RUMAH SWADAYA (PEMANDATAN)",
+   "judul": "PENANGANAN TERHADAP SEGMEN JALAN AMBLAS DI WUNUT, SRIHARJO, IMOGIRI, BANTUL, YOGYAKARTA (PEMANDATAN 2)",
    "url": "#!",
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -858,6 +858,19 @@
    "urutan_penulis": null,
    "kreator": null,
    "kategori": "Buku"
+  },
+  {
+   "judul": "Video Tutorial Pemahaman Algoritma Random Forest dalam Analisis Sistem",
+   "url": "#!",
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian UGM",
+   "kuartil": "Hak Cipta",
+   "jenis_venue": null,
+   "tahun": 2020,
+   "sitasi": 202060787,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kategori": "Paten & HKI"
   },
   {
    "judul": "Video Tutorial Pemahaman Algoritma Artificial Neural Network (ANN) dalam Analisis Sistem",
