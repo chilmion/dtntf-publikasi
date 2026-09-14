@@ -1,0 +1,76 @@
+name: Perbarui data publikasi
+
+on:
+  workflow_dispatch:            # tombol "Run workflow" — dipakai saat beta
+    inputs:
+      dosen:
+        description: "Slug/ID dosen dipisah koma. Kosongkan untuk semua."
+        required: false
+        default: "faridah,widya-rosita"
+  schedule:
+    - cron: "0 20 * * 0"        # Minggu 20:00 UTC = Senin 03:00 WIB
+  push:
+    paths:
+      - "dosen.csv"
+      - "scripts/**"
+      - "widget/**"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Saat beta: hanya dosen yang disebut. Jadwal mingguan tetap terbatas
+      # ke daftar beta sampai kamu mengosongkan BETA_DEFAULT di bawah.
+      - name: Scrape SINTA
+        env:
+          BETA_DOSEN: ${{ github.event.inputs.dosen || 'faridah,widya-rosita' }}
+        run: python scripts/build.py
+
+      - name: Simpan hasil ke repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            git add data/
+            git commit -m "Perbarui data publikasi $(date -u '+%Y-%m-%d')"
+            git push
+          else
+            echo "tidak ada perubahan"
+          fi
+
+      - name: Siapkan folder publish
+        run: |
+          mkdir -p _site/data
+          cp -r data/. _site/data/
+          # Izinkan fetch lintas-domain dari tf.ugm.ac.id (GitHub Pages sudah
+          # mengirim Access-Control-Allow-Origin: * untuk file statis).
+          echo '{"ok":true}' > _site/health.json
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
