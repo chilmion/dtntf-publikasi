@@ -1,0 +1,334 @@
+<!-- =========================================================================
+     WIDGET PUBLIKASI & PPM DEPARTEMEN — halaman /publikasi/
+     Tempel ke Elementor > widget "HTML".
+
+       data-base : URL folder data di GitHub Pages
+       data-awal : berapa tahun terbaru yang dimuat saat halaman dibuka
+                   (sisanya dimuat saat tombol ditekan atau filter dipakai)
+       data-profil : pola URL halaman profil dosen; {slug} diganti otomatis.
+                     kosongkan kalau nama dosen tidak perlu jadi tautan.
+     ========================================================================= -->
+
+<div class="dtntf-dep"
+     data-base="https://NAMA-AKUN.github.io/dtntf-profil/data"
+     data-awal="3"
+     data-profil="/dosen/{slug}/">
+  <div class="dd-loading">Memuat data publikasi departemen…</div>
+</div>
+
+<style>
+.dtntf-dep{
+  --dd-navy:#073C64; --dd-navy-2:#1A2C43; --dd-ink:#0B0B16;
+  --dd-ink-2:#4a5264; --dd-ink-3:#858c9c;
+  --dd-surface:#fff; --dd-surface-2:#F7F7FB; --dd-line:#e3e4ec;
+  --dd-lime:#C8E86D; --dd-navy-soft:#e8eef4; --dd-radius:10px;
+  font-family:'Plus Jakarta Sans','Jakarta Sans',inherit,system-ui,sans-serif;
+  color:var(--dd-ink); line-height:1.55; max-width:1140px; margin:0 auto;
+}
+.dtntf-dep *{box-sizing:border-box}
+.dtntf-dep .dd-loading,.dtntf-dep .dd-error{padding:28px;text-align:center;color:var(--dd-ink-2);
+  background:var(--dd-surface-2);border-radius:var(--dd-radius)}
+.dtntf-dep .dd-error{color:#8a2b2b;background:#fdf1f1}
+
+.dtntf-dep .dd-judul{font-size:.76rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--dd-navy-2);margin:0 0 15px;padding-bottom:9px;position:relative;border-bottom:1px solid var(--dd-line)}
+.dtntf-dep .dd-judul::after{content:"";position:absolute;left:0;bottom:-1px;width:44px;height:3px;background:var(--dd-lime)}
+.dtntf-dep .dd-blok{margin-bottom:36px}
+.dtntf-dep .dd-dua{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+
+/* highlight */
+.dtntf-dep .dd-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(134px,1fr));gap:11px}
+.dtntf-dep .dd-stat{background:var(--dd-surface-2);border-radius:var(--dd-radius);padding:16px 18px}
+.dtntf-dep .dd-stat-angka{font-size:1.85rem;font-weight:700;line-height:1.1;
+  font-variant-numeric:tabular-nums;color:var(--dd-navy)}
+.dtntf-dep .dd-stat-label{font-size:.77rem;color:var(--dd-ink-2);margin-top:4px;font-weight:500}
+
+.dtntf-dep .dd-chart-judul{font-size:.83rem;font-weight:600;margin-bottom:10px;color:var(--dd-navy-2)}
+.dtntf-dep .dd-chart{width:100%;height:150px;overflow:visible}
+.dtntf-dep .dd-bar{fill:var(--dd-navy);transition:opacity .12s;cursor:pointer}
+.dtntf-dep .dd-bar:hover{opacity:.62}
+.dtntf-dep .dd-grid{stroke:var(--dd-line);stroke-width:1}
+.dtntf-dep .dd-sumbu{display:flex;justify-content:space-between;font-size:.72rem;color:var(--dd-ink-3);margin-top:5px}
+
+.dtntf-dep .dd-komposisi{display:flex;flex-direction:column;gap:7px}
+.dtntf-dep .dd-komp-baris{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;font-size:.84rem}
+.dtntf-dep .dd-komp-bar{height:7px;border-radius:4px;background:var(--dd-navy);min-width:3px}
+.dtntf-dep .dd-komp-track{background:var(--dd-surface-2);border-radius:4px;margin-top:4px}
+.dtntf-dep .dd-komp-n{color:var(--dd-ink-2);font-variant-numeric:tabular-nums;font-size:.8rem;white-space:nowrap}
+
+/* filter */
+.dtntf-dep .dd-filter{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px}
+.dtntf-dep .dd-filter input,.dtntf-dep .dd-filter select{
+  padding:8px 12px;border:1px solid var(--dd-line);border-radius:8px;font-size:.86rem;
+  font-family:inherit;color:var(--dd-ink);background:var(--dd-surface);min-height:38px}
+.dtntf-dep .dd-filter input{flex:1 1 230px}
+.dtntf-dep .dd-filter input:focus,.dtntf-dep .dd-filter select:focus{outline:2px solid var(--dd-navy);outline-offset:-1px}
+.dtntf-dep .dd-hitung{font-size:.79rem;color:var(--dd-ink-2);margin-bottom:16px}
+
+/* daftar per tahun */
+.dtntf-dep .dd-tahun{margin-bottom:30px}
+.dtntf-dep .dd-tahun-kepala{display:flex;align-items:baseline;gap:12px;margin-bottom:4px;
+  padding-bottom:8px;border-bottom:2px solid var(--dd-navy)}
+.dtntf-dep .dd-tahun-angka{font-size:1.45rem;font-weight:700;color:var(--dd-navy);line-height:1.2}
+.dtntf-dep .dd-tahun-n{font-size:.78rem;color:var(--dd-ink-3)}
+.dtntf-dep .dd-kat{font-size:.75rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--dd-ink-2);margin:20px 0 8px}
+.dtntf-dep .dd-entri{padding:9px 0 9px 14px;border-left:2px solid var(--dd-line);margin-bottom:2px;font-size:.89rem;line-height:1.5}
+.dtntf-dep .dd-entri:hover{border-left-color:var(--dd-lime);background:var(--dd-surface-2)}
+.dtntf-dep .dd-nama{font-weight:600;color:var(--dd-navy-2)}
+.dtntf-dep .dd-nama a{color:inherit;text-decoration:none}
+.dtntf-dep .dd-nama a:hover{text-decoration:underline}
+.dtntf-dep .dd-entri-judul{color:var(--dd-ink)}
+.dtntf-dep .dd-entri-judul a{color:inherit;text-decoration:none}
+.dtntf-dep .dd-entri-judul a:hover{color:var(--dd-navy);text-decoration:underline}
+.dtntf-dep .dd-entri-venue{font-style:italic;color:var(--dd-ink-2)}
+.dtntf-dep .dd-meta{font-size:.76rem;color:var(--dd-ink-3);margin-top:3px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.dtntf-dep .dd-tag{background:var(--dd-surface-2);border-radius:4px;padding:1px 7px}
+.dtntf-dep .dd-tag-q{background:var(--dd-navy-soft);color:var(--dd-navy);font-weight:600}
+
+.dtntf-dep .dd-lagi{display:block;width:100%;margin-top:10px;padding:12px;background:var(--dd-surface-2);
+  border:1px solid var(--dd-line);border-radius:8px;cursor:pointer;font-size:.87rem;
+  font-family:inherit;font-weight:500;color:var(--dd-navy);transition:.15s}
+.dtntf-dep .dd-lagi:hover{background:var(--dd-navy-soft);border-color:var(--dd-navy)}
+.dtntf-dep .dd-lagi[disabled]{opacity:.6;cursor:default}
+.dtntf-dep .dd-kaki{font-size:.73rem;color:var(--dd-ink-3);margin-top:24px;text-align:right}
+
+@media (max-width:600px){ .dtntf-dep .dd-stat-angka{font-size:1.45rem} }
+</style>
+
+<script>
+(function () {
+  var akar = document.currentScript.parentNode.querySelector('.dtntf-dep')
+          || document.querySelector('.dtntf-dep:not([data-dd-siap])');
+  if (!akar || akar.dataset.ddSiap) return;
+  akar.dataset.ddSiap = '1';
+
+  var BASE = (akar.dataset.base || '').replace(/\/$/, '');
+  var AWAL = parseInt(akar.dataset.awal || '3', 10);
+  var POLA = akar.dataset.profil || '';
+
+  var esc = function (s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  };
+  var num = function (n) { return (n == null) ? '–' : Number(n).toLocaleString('id-ID'); };
+
+  var ringkas = null;          // ringkas.json
+  var muat = {};               // tahun → array entri yang sudah diunduh
+  var semuaTerunduh = false;
+
+  fetch(BASE + '/agregat/ringkas.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (d) {
+      ringkas = d;
+      var awal = d.per_tahun.slice(0, Math.max(1, AWAL));
+      return Promise.all(awal.map(unduhTahun));
+    })
+    .then(render)
+    .catch(function (e) {
+      akar.innerHTML = '<div class="dd-error">Data publikasi belum tersedia. (' + esc(e.message) + ')</div>';
+    });
+
+  function unduhTahun(t) {
+    if (muat[t.berkas]) return Promise.resolve();
+    return fetch(BASE + '/agregat/' + t.berkas + '.json', { cache: 'no-cache' })
+      .then(function (r) { return r.ok ? r.json() : { entri: [] }; })
+      .then(function (d) { muat[t.berkas] = d.entri || []; });
+  }
+
+  function unduhSemua() {
+    if (semuaTerunduh) return Promise.resolve();
+    return Promise.all(ringkas.per_tahun.map(unduhTahun))
+      .then(function () { semuaTerunduh = true; });
+  }
+
+  function batang(data, ambilNilai, label, onKlik) {
+    if (!data || data.length < 2) return '';
+    var W = 100, H = 100, n = data.length;
+    var nilai = data.map(ambilNilai);
+    var maks = Math.max.apply(null, nilai) || 1;
+    var lebar = W / n, pad = Math.min(lebar * 0.2, 1.2);
+    var bar = data.map(function (d, i) {
+      var t = (nilai[i] / maks) * (H - 14);
+      return '<rect class="dd-bar" data-tahun="' + esc(d.tahun) + '" x="' + (i * lebar + pad).toFixed(2) +
+             '" y="' + (H - 10 - t).toFixed(2) + '" width="' + Math.max(lebar - pad * 2, 0.4).toFixed(2) +
+             '" height="' + Math.max(t, 0.6).toFixed(2) + '"><title>' + esc(d.tahun) + ' · ' +
+             num(nilai[i]) + ' ' + esc(label) + '</title></rect>';
+    }).join('');
+    return '<svg class="dd-chart" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" role="img" ' +
+      'aria-label="' + esc(label) + ' per tahun ' + esc(data[0].tahun) + '–' + esc(data[n - 1].tahun) + '">' +
+      '<line class="dd-grid" x1="0" y1="' + (H - 10) + '" x2="' + W + '" y2="' + (H - 10) +
+      '" vector-effect="non-scaling-stroke"/>' + bar + '</svg>' +
+      '<div class="dd-sumbu"><span>' + esc(data[0].tahun) + '</span><span>tertinggi ' + num(maks) +
+      '</span><span>' + esc(data[n - 1].tahun) + '</span></div>';
+  }
+
+  function render() {
+    var d = ringkas, T = d.total || {}, h = [];
+
+    h.push('<div class="dd-blok"><h3 class="dd-judul">Rekam jejak departemen</h3><div class="dd-stats">' +
+      [[num(T.publikasi_ilmiah), 'Publikasi ilmiah'],
+       [num(T.sitasi), 'Total sitasi'],
+       [num(T.paten), 'Paten & HKI'],
+       [num(T.ppm), 'Pengabdian'],
+       [num(T.penelitian), 'Penelitian'],
+       [num(d.jumlah_dosen), 'Dosen']].map(function (k) {
+        return '<div class="dd-stat"><div class="dd-stat-angka">' + k[0] + '</div>' +
+               '<div class="dd-stat-label">' + k[1] + '</div></div>';
+      }).join('') + '</div></div>');
+
+    var kronologis = d.per_tahun.filter(function (t) { return t.tahun; })
+                                .slice().sort(function (a, b) { return a.tahun - b.tahun; });
+    h.push('<div class="dd-blok"><div class="dd-dua">' +
+      '<div><h3 class="dd-judul">Luaran per tahun</h3>' +
+      '<div class="dd-chart-judul">Jumlah luaran</div>' +
+      batang(kronologis, function (t) { return t.jumlah; }, 'luaran') + '</div>' +
+      '<div><h3 class="dd-judul">Komposisi luaran</h3><div class="dd-komposisi">' +
+      (d.per_kategori || []).map(function (k) {
+        var maks = d.per_kategori[0].jumlah || 1;
+        return '<div><div class="dd-komp-baris"><span>' + esc(k.nama) + '</span>' +
+               '<span class="dd-komp-n">' + num(k.jumlah) + '</span></div>' +
+               '<div class="dd-komp-track"><div class="dd-komp-bar" style="width:' +
+               Math.max(2, (k.jumlah / maks) * 100).toFixed(1) + '%"></div></div></div>';
+      }).join('') + '</div></div></div></div>');
+
+    var kategori = (d.per_kategori || []).map(function (k) { return k.nama; });
+    h.push('<div class="dd-blok"><h3 class="dd-judul">Daftar luaran</h3><div class="dd-filter">' +
+      '<input type="search" class="dd-cari" placeholder="Cari judul, jurnal, atau nama dosen…" aria-label="Cari">' +
+      '<select class="dd-f-kat" aria-label="Filter jenis"><option value="">Semua jenis</option>' +
+      kategori.map(function (k) { return '<option value="' + esc(k) + '">' + esc(k) + '</option>'; }).join('') + '</select>' +
+      '<select class="dd-f-tahun" aria-label="Filter tahun"><option value="">Semua tahun</option>' +
+      d.per_tahun.filter(function (t) { return t.tahun; })
+        .map(function (t) { return '<option value="' + t.tahun + '">' + t.tahun + '</option>'; }).join('') + '</select>' +
+      '<select class="dd-f-dosen" aria-label="Filter dosen"><option value="">Semua dosen</option>' +
+      (d.dosen || []).map(function (x) {
+        return '<option value="' + esc(x.slug) + '">' + esc(x.nama) + '</option>';
+      }).join('') + '</select>' +
+      '</div><div class="dd-hitung"></div><div class="dd-daftar"></div>' +
+      '<button class="dd-lagi" type="button">Muat tahun sebelumnya</button></div>');
+
+    h.push('<div class="dd-kaki">Ditarik otomatis dari SINTA · ' + esc(d.diperbarui || '') +
+           ' · ' + num(d.jumlah_dosen) + ' dosen</div>');
+
+    akar.innerHTML = h.join('');
+
+    var elCari = akar.querySelector('.dd-cari'),
+        elKat = akar.querySelector('.dd-f-kat'),
+        elTahun = akar.querySelector('.dd-f-tahun'),
+        elDosen = akar.querySelector('.dd-f-dosen'),
+        elDaftar = akar.querySelector('.dd-daftar'),
+        elHitung = akar.querySelector('.dd-hitung'),
+        elLagi = akar.querySelector('.dd-lagi'),
+        tampil = Math.max(1, AWAL);
+
+    function adaFilter() {
+      return !!(elCari.value.trim() || elKat.value || elTahun.value || elDosen.value);
+    }
+
+    function entriHTML(e) {
+      var nama = e.dosen.map(function (x) {
+        return POLA
+          ? '<a href="' + esc(POLA.replace('{slug}', x.slug)) + '">' + esc(x.nama) + '</a>'
+          : esc(x.nama);
+      }).join(', ');
+      var judul = e.url
+        ? '<a href="' + esc(e.url) + '" target="_blank" rel="noopener">' + esc(e.judul) + '</a>'
+        : esc(e.judul);
+      return '<div class="dd-entri"><span class="dd-nama">' + nama + '</span>. ' +
+        '<span class="dd-entri-judul">"' + judul + '"</span>' +
+        (e.venue ? ' <span class="dd-entri-venue">' + esc(e.venue) + '</span>' : '') +
+        (e.tahun ? ', ' + e.tahun : '') + '.' +
+        '<div class="dd-meta">' +
+        (e.kuartil ? '<span class="dd-tag dd-tag-q">' + esc(e.kuartil) + '</span>' : '') +
+        '<span class="dd-tag">' + esc(e.kategori) + '</span>' +
+        (e.sitasi ? '<span>' + num(e.sitasi) + ' sitasi</span>' : '') +
+        (e.dosen.length > 1 ? '<span>' + e.dosen.length + ' dosen DTNTF</span>' : '') +
+        '</div></div>';
+    }
+
+    function cocok(e) {
+      if (elKat.value && e.kategori !== elKat.value) return false;
+      if (elTahun.value && String(e.tahun) !== elTahun.value) return false;
+      if (elDosen.value && !e.dosen.some(function (x) { return x.slug === elDosen.value; })) return false;
+      var q = elCari.value.toLowerCase().trim();
+      if (!q) return true;
+      return ((e.judul || '') + ' ' + (e.venue || '') + ' ' +
+              e.dosen.map(function (x) { return x.nama; }).join(' ')).toLowerCase().indexOf(q) > -1;
+    }
+
+    function gambar() {
+      var daftarTahun = ringkas.per_tahun.filter(function (t) { return muat[t.berkas]; });
+      if (!adaFilter()) daftarTahun = daftarTahun.slice(0, tampil);
+
+      var total = 0, blokHTML = [];
+      daftarTahun.forEach(function (t) {
+        var entri = (muat[t.berkas] || []).filter(cocok);
+        if (!entri.length) return;
+        total += entri.length;
+
+        var perKat = {}, urutKat = [];
+        entri.forEach(function (e) {
+          if (!perKat[e.kategori]) { perKat[e.kategori] = []; urutKat.push(e.kategori); }
+          perKat[e.kategori].push(e);
+        });
+
+        blokHTML.push('<div class="dd-tahun"><div class="dd-tahun-kepala">' +
+          '<span class="dd-tahun-angka">' + (t.tahun || 'Tanpa tahun') + '</span>' +
+          '<span class="dd-tahun-n">' + entri.length + ' luaran</span></div>' +
+          urutKat.map(function (k) {
+            return '<div class="dd-kat">' + esc(k) + '</div>' + perKat[k].map(entriHTML).join('');
+          }).join('') + '</div>');
+      });
+
+      elHitung.textContent = adaFilter()
+        ? total + ' luaran cocok'
+        : total + ' luaran ditampilkan dari ' + num(ringkas.total.semua) + ' total';
+      elDaftar.innerHTML = blokHTML.length ? blokHTML.join('')
+        : '<p style="color:var(--dd-ink-2);padding:20px 0">Tidak ada luaran yang cocok.</p>';
+
+      var sisa = ringkas.per_tahun.length - tampil;
+      if (adaFilter() || sisa <= 0) { elLagi.style.display = 'none'; }
+      else {
+        elLagi.style.display = '';
+        elLagi.disabled = false;
+        elLagi.textContent = 'Muat tahun sebelumnya (' + sisa + ' tahun tersisa)';
+      }
+    }
+
+    elLagi.addEventListener('click', function () {
+      elLagi.disabled = true;
+      elLagi.textContent = 'Memuat…';
+      var berikut = ringkas.per_tahun.slice(tampil, tampil + 3);
+      Promise.all(berikut.map(unduhTahun)).then(function () {
+        tampil += berikut.length;
+        gambar();
+      });
+    });
+
+    function saatFilter() {
+      if (adaFilter() && !semuaTerunduh) {
+        elHitung.textContent = 'Memuat seluruh tahun…';
+        unduhSemua().then(gambar);
+      } else { gambar(); }
+    }
+
+    [elKat, elTahun, elDosen].forEach(function (el) { el.addEventListener('change', saatFilter); });
+    var tunda;
+    elCari.addEventListener('input', function () {
+      clearTimeout(tunda); tunda = setTimeout(saatFilter, 200);
+    });
+
+    // klik batang grafik = filter tahun itu
+    akar.addEventListener('click', function (ev) {
+      var bar = ev.target.closest ? ev.target.closest('.dd-bar') : null;
+      if (!bar) return;
+      elTahun.value = bar.getAttribute('data-tahun');
+      saatFilter();
+      akar.querySelector('.dd-filter').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    gambar();
+  }
+})();
+</script>

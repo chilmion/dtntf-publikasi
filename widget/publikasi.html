@@ -1,0 +1,291 @@
+<!-- =========================================================================
+     WIDGET PUBLIKASI DOSEN DTNTF
+     Tempel ke Elementor > widget "HTML", di BAWAH bagian profil yang
+     kamu desain sendiri. Widget ini hanya mengurus daftar paper.
+
+     Ubah di baris <div> bawah:
+       data-base   : URL folder data di GitHub Pages
+       data-slug   : slug dosen untuk halaman ini
+       data-tampil : bagian yang ingin ditampilkan, dipisah koma.
+                     pilihan: statistik, tren, publikasi
+                     (hapus salah satu kalau tidak mau tampil)
+
+     Warna & font mengikuti Brand Guideline DTNTF 2026:
+       UGM Navy #073C64 · Dark Navy #1A2C43 · Cinder #0B0B16
+       White Lilac #F7F7FB · Mute Lime #C8E86D · Plus Jakarta Sans
+     ========================================================================= -->
+
+<div class="dtntf-pub"
+     data-base="https://NAMA-AKUN.github.io/dtntf-profil/data"
+     data-slug="faridah"
+     data-tampil="statistik,tren,publikasi">
+  <div class="dp-loading">Memuat data publikasi…</div>
+</div>
+
+<style>
+.dtntf-pub{
+  /* ---- token brand DTNTF ---- */
+  --dp-navy:#073C64;          /* UGM Navy — aksen utama */
+  --dp-navy-2:#1A2C43;        /* Dark Navy */
+  --dp-ink:#0B0B16;           /* Cinder */
+  --dp-ink-2:#4a5264;
+  --dp-ink-3:#858c9c;
+  --dp-surface:#ffffff;
+  --dp-surface-2:#F7F7FB;     /* White Lilac */
+  --dp-line:#e3e4ec;
+  --dp-lime:#C8E86D;          /* Mute Lime — aksen kecil saja */
+  --dp-navy-soft:#e8eef4;
+  --dp-radius:10px;
+
+  /* Font mengikuti tema. Kalau tema belum memakai Plus Jakarta Sans,
+     fallback di bawah ini yang dipakai. */
+  font-family:'Plus Jakarta Sans','Jakarta Sans',inherit,system-ui,sans-serif;
+  color:var(--dp-ink); line-height:1.55; max-width:1080px; margin:0 auto;
+}
+.dtntf-pub *{box-sizing:border-box}
+.dtntf-pub .dp-loading,.dtntf-pub .dp-error{padding:26px;text-align:center;color:var(--dp-ink-2);
+  background:var(--dp-surface-2);border-radius:var(--dp-radius)}
+.dtntf-pub .dp-error{color:#8a2b2b;background:#fdf1f1}
+
+/* ---- judul bagian ---- */
+.dtntf-pub .dp-judul{font-size:.76rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--dp-navy-2);margin:0 0 15px;padding-bottom:9px;position:relative;border-bottom:1px solid var(--dp-line)}
+.dtntf-pub .dp-judul::after{content:"";position:absolute;left:0;bottom:-1px;width:44px;height:3px;background:var(--dp-lime)}
+.dtntf-pub .dp-blok{margin-bottom:34px}
+.dtntf-pub .dp-blok:last-child{margin-bottom:0}
+.dtntf-pub .dp-dua{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:26px}
+
+/* ---- statistik ---- */
+.dtntf-pub .dp-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:11px}
+.dtntf-pub .dp-stat{background:var(--dp-surface-2);border-radius:var(--dp-radius);padding:15px 17px}
+.dtntf-pub .dp-stat-angka{font-size:1.7rem;font-weight:700;line-height:1.1;
+  font-variant-numeric:tabular-nums;color:var(--dp-navy)}
+.dtntf-pub .dp-stat-label{font-size:.77rem;color:var(--dp-ink-2);margin-top:4px;font-weight:500}
+.dtntf-pub .dp-stat-sumber{font-size:.69rem;color:var(--dp-ink-3);margin-top:2px}
+
+/* ---- grafik ---- */
+.dtntf-pub .dp-chart-judul{font-size:.83rem;font-weight:600;margin-bottom:10px;color:var(--dp-navy-2)}
+.dtntf-pub .dp-chart{width:100%;height:135px;overflow:visible}
+.dtntf-pub .dp-bar{fill:var(--dp-navy);transition:opacity .12s}
+.dtntf-pub .dp-bar:hover{opacity:.65}
+.dtntf-pub .dp-grid{stroke:var(--dp-line);stroke-width:1}
+.dtntf-pub .dp-sumbu{display:flex;justify-content:space-between;font-size:.72rem;color:var(--dp-ink-3);margin-top:5px}
+
+/* ---- kuartil & venue ---- */
+.dtntf-pub .dp-q{display:flex;gap:9px;flex-wrap:wrap}
+.dtntf-pub .dp-q-item{flex:1 1 70px;background:var(--dp-surface-2);border-radius:8px;padding:12px 14px;
+  border-left:3px solid var(--dp-navy)}
+.dtntf-pub .dp-q-n{font-size:1.3rem;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums}
+.dtntf-pub .dp-q-nama{font-size:.74rem;color:var(--dp-ink-2);font-weight:600}
+.dtntf-pub .dp-venue-item{display:flex;justify-content:space-between;gap:12px;align-items:baseline;
+  padding:8px 0;border-bottom:1px solid var(--dp-line);font-size:.85rem}
+.dtntf-pub .dp-venue-item:last-child{border-bottom:0}
+.dtntf-pub .dp-venue-n{color:var(--dp-ink-3);font-size:.77rem;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* ---- filter ---- */
+.dtntf-pub .dp-filter{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:15px}
+.dtntf-pub .dp-filter input,.dtntf-pub .dp-filter select{
+  padding:8px 12px;border:1px solid var(--dp-line);border-radius:8px;font-size:.86rem;
+  font-family:inherit;color:var(--dp-ink);background:var(--dp-surface);min-height:38px}
+.dtntf-pub .dp-filter input{flex:1 1 210px}
+.dtntf-pub .dp-filter input:focus,.dtntf-pub .dp-filter select:focus{
+  outline:2px solid var(--dp-navy);outline-offset:-1px}
+.dtntf-pub .dp-hitung{font-size:.79rem;color:var(--dp-ink-2);margin-bottom:12px}
+
+/* ---- daftar publikasi ---- */
+.dtntf-pub .dp-pub{padding:14px 0;border-bottom:1px solid var(--dp-line)}
+.dtntf-pub .dp-pub:last-of-type{border-bottom:0}
+.dtntf-pub .dp-pub-judul{font-weight:600;font-size:.95rem;margin:0 0 5px;line-height:1.42}
+.dtntf-pub .dp-pub-judul a{color:var(--dp-ink);text-decoration:none}
+.dtntf-pub .dp-pub-judul a:hover{color:var(--dp-navy);text-decoration:underline}
+.dtntf-pub .dp-pub-meta{font-size:.78rem;color:var(--dp-ink-3);display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.dtntf-pub .dp-tag{background:var(--dp-surface-2);border-radius:4px;padding:1px 7px}
+.dtntf-pub .dp-tag-q{background:var(--dp-navy-soft);color:var(--dp-navy);font-weight:600}
+.dtntf-pub .dp-tag-garuda{background:#f1f6e2;color:#4a6115}
+.dtntf-pub .dp-lagi{display:block;width:100%;margin-top:18px;padding:11px;background:var(--dp-surface-2);
+  border:1px solid var(--dp-line);border-radius:8px;cursor:pointer;font-size:.86rem;
+  font-family:inherit;font-weight:500;color:var(--dp-navy);transition:.15s}
+.dtntf-pub .dp-lagi:hover{background:var(--dp-navy-soft);border-color:var(--dp-navy)}
+.dtntf-pub .dp-kaki{font-size:.73rem;color:var(--dp-ink-3);margin-top:22px;
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.dtntf-pub .dp-kaki a{color:var(--dp-navy);text-decoration:none}
+.dtntf-pub .dp-kaki a:hover{text-decoration:underline}
+
+@media (max-width:600px){ .dtntf-pub .dp-stat-angka{font-size:1.35rem} }
+</style>
+
+<script>
+(function () {
+  var akar = document.currentScript.parentNode.querySelector('.dtntf-pub')
+          || document.querySelector('.dtntf-pub:not([data-dp-siap])');
+  if (!akar || akar.dataset.dpSiap) return;
+  akar.dataset.dpSiap = '1';
+
+  var BASE = (akar.dataset.base || '').replace(/\/$/, '');
+  var SLUG = akar.dataset.slug || '';
+  var TAMPIL = (akar.dataset.tampil || 'statistik,tren,publikasi')
+                 .split(',').map(function (s) { return s.trim(); });
+  var mau = function (n) { return TAMPIL.indexOf(n) > -1; };
+
+  var esc = function (s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  };
+  var num = function (n) { return (n == null) ? '–' : Number(n).toLocaleString('id-ID'); };
+
+  fetch(BASE + '/' + encodeURIComponent(SLUG) + '.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(render)
+    .catch(function (e) {
+      akar.innerHTML = '<div class="dp-error">Data publikasi belum tersedia. (' + esc(e.message) + ')</div>';
+    });
+
+  function batang(data, kunci, label) {
+    if (!data || data.length < 2) return '';
+    var W = 100, H = 100, n = data.length;
+    var maks = Math.max.apply(null, data.map(function (d) { return d[kunci]; })) || 1;
+    var lebar = W / n, pad = Math.min(lebar * 0.22, 1.2);
+    var bar = data.map(function (d, i) {
+      var t = (d[kunci] / maks) * (H - 14);
+      return '<rect class="dp-bar" x="' + (i * lebar + pad).toFixed(2) + '" y="' + (H - 10 - t).toFixed(2) +
+             '" width="' + Math.max(lebar - pad * 2, 0.4).toFixed(2) + '" height="' + Math.max(t, 0.6).toFixed(2) +
+             '"><title>' + esc(d.tahun) + ' · ' + num(d[kunci]) + ' ' + esc(label) + '</title></rect>';
+    }).join('');
+    return '<svg class="dp-chart" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" role="img" ' +
+      'aria-label="' + esc(label) + ' per tahun ' + esc(data[0].tahun) + '–' + esc(data[n - 1].tahun) + '">' +
+      '<line class="dp-grid" x1="0" y1="' + (H - 10) + '" x2="' + W + '" y2="' + (H - 10) +
+      '" vector-effect="non-scaling-stroke"/>' + bar + '</svg>' +
+      '<div class="dp-sumbu"><span>' + esc(data[0].tahun) + '</span><span>tertinggi ' + num(maks) +
+      '</span><span>' + esc(data[n - 1].tahun) + '</span></div>';
+  }
+
+  function render(d) {
+    var r = d.ringkas || {}, t = d.tautan || {}, h = [];
+
+    if (mau('statistik')) {
+      var kartu = [
+        [num(r.publikasi_scopus), 'Artikel Scopus'],
+        [num(r.sitasi_scopus), 'Sitasi Scopus'],
+        [num(r.hindex_scopus), 'h-index Scopus']
+      ];
+      if (r.publikasi_garuda) kartu.push([num(r.publikasi_garuda), 'Artikel Garuda']);
+      if (r.sitasi_scholar != null) kartu.push([num(r.sitasi_scholar), 'Sitasi Scholar']);
+      if ((d.skor || {}).overall != null) kartu.push([num(d.skor.overall), 'Skor SINTA']);
+      h.push('<div class="dp-blok"><h3 class="dp-judul">Rekam jejak publikasi</h3><div class="dp-stats">' +
+        kartu.map(function (k) {
+          return '<div class="dp-stat"><div class="dp-stat-angka">' + k[0] + '</div>' +
+                 '<div class="dp-stat-label">' + k[1] + '</div>' +
+                 '<div class="dp-stat-sumber">via SINTA</div></div>';
+        }).join('') + '</div></div>');
+    }
+
+    if (mau('tren') && (d.per_tahun || []).length > 1) {
+      h.push('<div class="dp-blok"><h3 class="dp-judul">Tren per tahun</h3><div class="dp-dua">' +
+        '<div><div class="dp-chart-judul">Publikasi</div>' + batang(d.per_tahun, 'publikasi', 'publikasi') + '</div>' +
+        '<div><div class="dp-chart-judul">Sitasi yang diterima</div>' + batang(d.per_tahun, 'sitasi', 'sitasi') + '</div>' +
+        '</div></div>');
+    }
+
+    if (mau('tren')) {
+      var adaQ = (d.kuartil || []).length, adaV = (d.venue_teratas || []).length;
+      if (adaQ || adaV) {
+        h.push('<div class="dp-blok"><div class="dp-dua">');
+        if (adaQ) h.push('<div><h3 class="dp-judul">Kuartil Scopus</h3><div class="dp-q">' +
+          d.kuartil.map(function (q) {
+            return '<div class="dp-q-item"><div class="dp-q-n">' + q.jumlah + '</div>' +
+                   '<div class="dp-q-nama">' + esc(q.nama) + '</div></div>';
+          }).join('') + '</div></div>');
+        if (adaV) h.push('<div><h3 class="dp-judul">Jurnal & prosiding tersering</h3><div>' +
+          d.venue_teratas.slice(0, 7).map(function (v) {
+            return '<div class="dp-venue-item"><span>' + esc(v.nama) + '</span>' +
+                   '<span class="dp-venue-n">' + v.jumlah + '×</span></div>';
+          }).join('') + '</div></div>');
+        h.push('</div></div>');
+      }
+    }
+
+    var pub = d.publikasi || [];
+    if (mau('publikasi') && pub.length) {
+      var tahun = Array.from(new Set(pub.map(function (p) { return p.tahun; }).filter(Boolean)))
+                    .sort(function (a, b) { return b - a; });
+      var quart = Array.from(new Set(pub.map(function (p) { return p.kuartil; }).filter(Boolean))).sort();
+      h.push('<div class="dp-blok"><h3 class="dp-judul">Daftar publikasi</h3><div class="dp-filter">' +
+        '<input type="search" class="dp-cari" placeholder="Cari judul atau nama jurnal…" aria-label="Cari publikasi">' +
+        '<select class="dp-f-sumber" aria-label="Filter sumber"><option value="">Scopus + Garuda</option>' +
+        '<option value="scopus">Scopus saja</option><option value="garuda">Garuda saja</option></select>' +
+        '<select class="dp-f-tahun" aria-label="Filter tahun"><option value="">Semua tahun</option>' +
+        tahun.map(function (y) { return '<option value="' + y + '">' + y + '</option>'; }).join('') + '</select>' +
+        (quart.length ? '<select class="dp-f-q" aria-label="Filter kuartil"><option value="">Semua kuartil</option>' +
+          quart.map(function (q) { return '<option value="' + esc(q) + '">' + esc(q) + '</option>'; }).join('') + '</select>' : '') +
+        '<select class="dp-f-urut" aria-label="Urutkan"><option value="tahun">Terbaru</option>' +
+        '<option value="sitasi">Paling disitasi</option></select>' +
+        '</div><div class="dp-hitung"></div><div class="dp-daftar"></div></div>');
+    }
+
+    var tautan = [];
+    if (t.sinta) tautan.push('<a href="' + esc(t.sinta) + '" target="_blank" rel="noopener">Profil SINTA ↗</a>');
+    if (t.scopus) tautan.push('<a href="' + esc(t.scopus) + '" target="_blank" rel="noopener">Scopus ↗</a>');
+    if (t.scholar) tautan.push('<a href="' + esc(t.scholar) + '" target="_blank" rel="noopener">Google Scholar ↗</a>');
+    h.push('<div class="dp-kaki"><span>' + tautan.join(' · ') + '</span>' +
+           '<span>Diperbarui otomatis dari SINTA · ' + esc((d.diperbarui || '').slice(0, 10)) + '</span></div>');
+
+    akar.innerHTML = h.join('');
+    if (!mau('publikasi') || !pub.length) return;
+
+    var elCari = akar.querySelector('.dp-cari'),
+        elSumber = akar.querySelector('.dp-f-sumber'),
+        elTahun = akar.querySelector('.dp-f-tahun'),
+        elQ = akar.querySelector('.dp-f-q'),
+        elUrut = akar.querySelector('.dp-f-urut'),
+        elDaftar = akar.querySelector('.dp-daftar'),
+        elHitung = akar.querySelector('.dp-hitung'),
+        batas = 20;
+
+    function kartuPub(p) {
+      return '<div class="dp-pub"><p class="dp-pub-judul">' +
+        (p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.judul) + '</a>' : esc(p.judul)) +
+        '</p><div class="dp-pub-meta">' +
+        (p.venue ? '<span>' + esc(p.venue) + '</span>' : '') +
+        (p.tahun ? '<span class="dp-tag">' + p.tahun + '</span>' : '') +
+        (p.kuartil ? '<span class="dp-tag dp-tag-q">' + esc(p.kuartil) + '</span>' : '') +
+        '<span class="dp-tag' + (p.sumber === 'garuda' ? ' dp-tag-garuda' : '') + '">' +
+          (p.sumber === 'garuda' ? 'Garuda' : 'Scopus') + '</span>' +
+        (p.urutan_penulis ? '<span>penulis ke-' + esc(p.urutan_penulis) + '</span>' : '') +
+        '<span>' + num(p.sitasi) + ' sitasi</span></div></div>';
+    }
+
+    function gambar() {
+      var q = (elCari.value || '').toLowerCase().trim();
+      var hasil = pub.filter(function (p) {
+        if (elSumber.value && p.sumber !== elSumber.value) return false;
+        if (elTahun.value && String(p.tahun) !== elTahun.value) return false;
+        if (elQ && elQ.value && p.kuartil !== elQ.value) return false;
+        if (!q) return true;
+        return ((p.judul || '') + ' ' + (p.venue || '')).toLowerCase().indexOf(q) > -1;
+      });
+      hasil.sort(elUrut.value === 'sitasi'
+        ? function (a, b) { return (b.sitasi || 0) - (a.sitasi || 0); }
+        : function (a, b) { return (b.tahun || 0) - (a.tahun || 0) || (b.sitasi || 0) - (a.sitasi || 0); });
+
+      elHitung.textContent = hasil.length + ' dari ' + pub.length + ' publikasi';
+      elDaftar.innerHTML = hasil.length
+        ? hasil.slice(0, batas).map(kartuPub).join('') +
+          (hasil.length > batas ? '<button class="dp-lagi" type="button">Tampilkan lebih banyak (' +
+            (hasil.length - batas) + ' tersisa)</button>' : '')
+        : '<p style="color:var(--dp-ink-2);padding:18px 0">Tidak ada publikasi yang cocok.</p>';
+      var lagi = elDaftar.querySelector('.dp-lagi');
+      if (lagi) lagi.addEventListener('click', function () { batas += 20; gambar(); });
+    }
+
+    [elSumber, elTahun, elQ, elUrut].filter(Boolean).forEach(function (el) {
+      el.addEventListener('change', function () { batas = 20; gambar(); });
+    });
+    var tunda;
+    elCari.addEventListener('input', function () {
+      clearTimeout(tunda); tunda = setTimeout(function () { batas = 20; gambar(); }, 180);
+    });
+    gambar();
+  }
+})();
+</script>

@@ -1,0 +1,105 @@
+{
+ "tahun": 2011,
+ "entri": [
+  {
+   "judul": "Characterization of daylighting system in laboratories",
+   "tahun": 2011,
+   "kategori": "Jurnal Internasional",
+   "venue": "Hardwarex",
+   "kuartil": "Q2",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-81402658004",
+   "sitasi": 11,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Characterization of acoustic sensor in public spaces",
+   "tahun": 2011,
+   "kategori": "Jurnal Internasional",
+   "venue": "Building and Environment",
+   "kuartil": "Q1",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-54285678623",
+   "sitasi": 7,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Design of indoor air quality in tropical buildings",
+   "tahun": 2011,
+   "kategori": "Jurnal Internasional",
+   "venue": "Building and Environment",
+   "kuartil": "Q1",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-36973336904",
+   "sitasi": 3,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Characterization of thermal performance in tropical buildings",
+   "tahun": 2011,
+   "kategori": "Jurnal Internasional",
+   "venue": "Hardwarex",
+   "kuartil": "Q4",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-57305290989",
+   "sitasi": 1,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Evaluation of acoustic sensor in tropical buildings",
+   "tahun": 2011,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Fisika Indonesia",
+   "kuartil": null,
+   "url": "https://garuda.kemdikbud.go.id/documents/detail/18622",
+   "sitasi": 17,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of vibration instrumentation in laboratories",
+   "tahun": 2011,
+   "kategori": "Jurnal Nasional",
+   "venue": "Prosiding SNTTM",
+   "kuartil": null,
+   "url": "https://garuda.kemdikbud.go.id/documents/detail/66901",
+   "sitasi": 7,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    },
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "tahun": 2013,
+ "entri": [
+  {
+   "judul": "Optimization of thermal performance in lecture halls",
+   "tahun": 2013,
+   "kategori": "Jurnal Internasional",
+   "venue": "Energy and Buildings",
+   "kuartil": "Q2",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-20284407768",
+   "sitasi": 16,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of acoustic sensor in lecture halls",
+   "tahun": 2013,
+   "kategori": "Jurnal Internasional",
+   "venue": "Hardwarex",
+   "kuartil": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-58455657312",
+   "sitasi": 1,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Characterization of indoor air quality in laboratories",
+   "tahun": 2013,
+   "kategori": "Jurnal Internasional",
+   "venue": "Building and Environment",
+   "kuartil": "Q2",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-64473696959",
+   "sitasi": 1,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Characterization of vibration instrumentation in tropical buildings",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Fisika Indonesia",
+   "kuartil": null,
+   "url": "https://garuda.kemdikbud.go.id/documents/detail/46200",
+   "sitasi": 2,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "tahun": 2020,
+ "entri": [
+  {
+   "judul": "Evaluation of vibration instrumentation in lecture halls",
+   "tahun": 2020,
+   "kategori": "Jurnal Internasional",
+   "venue": "Applied Acoustics",
+   "kuartil": "Q4",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-16828463868",
+   "sitasi": 14,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of vibration instrumentation in lecture halls",
+   "tahun": 2020,
+   "kategori": "Jurnal Internasional",
+   "venue": "Hardwarex",
+   "kuartil": "Q1",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-35723030004",
+   "sitasi": 8,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Optimization of thermal performance in laboratories",
+   "tahun": 2020,
+   "kategori": "Prosiding Internasional",
+   "venue": "IOP Conference Series",
+   "kuartil": "Q4",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-28081350808",
+   "sitasi": 21,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of thermal performance in tropical buildings",
+   "tahun": 2020,
+   "kategori": "Prosiding Internasional",
+   "venue": "AIP Conference Proceedings",
+   "kuartil": "Q1",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-78377873398",
+   "sitasi": 4,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Optimization of indoor air quality in laboratories",
+   "tahun": 2020,
+   "kategori": "Jurnal Nasional",
+   "venue": "Prosiding SNTTM",
+   "kuartil": null,
+   "url": "https://garuda.kemdikbud.go.id/documents/detail/57371",
+   "sitasi": 1,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    },
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Penelitian kenyamanan termal",
+   "tahun": 2020,
+   "kategori": "Penelitian",
+   "venue": null,
+   "kuartil": null,
+   "url": "https://garuda.kemdikbud.go.id/documents/detail/70521",
+   "sitasi": 0,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    },
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  }
+ ]
+}
