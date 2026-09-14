@@ -3,10 +3,10 @@
  "jumlah_dosen": 2,
  "total": {
   "semua": 79,
-  "publikasi_ilmiah": 33,
-  "sitasi": 127467250940659,
-  "paten": 12,
-  "ppm": 20,
+  "publikasi_ilmiah": 34,
+  "sitasi": 212,
+  "paten": 9,
+  "ppm": 22,
   "penelitian": 14
  },
  "per_kategori": [
@@ -28,11 +28,11 @@
   },
   {
    "nama": "Buku",
-   "jumlah": 2
+   "jumlah": 3
   },
   {
    "nama": "Paten & HKI",
-   "jumlah": 12
+   "jumlah": 9
   },
   {
    "nama": "Penelitian",
@@ -40,50 +40,10 @@
   },
   {
    "nama": "Pengabdian kepada Masyarakat",
-   "jumlah": 20
+   "jumlah": 22
   }
  ],
  "kuartil": [
-  {
-   "nama": "Accred : Sinta 2",
-   "jumlah": 1
-  },
-  {
-   "nama": "Accred : Sinta 3",
-   "jumlah": 2
-  },
-  {
-   "nama": "Accred : Sinta 4",
-   "jumlah": 3
-  },
-  {
-   "nama": "Accred : Sinta 5",
-   "jumlah": 2
-  },
-  {
-   "nama": "Accred : Unknown",
-   "jumlah": 2
-  },
-  {
-   "nama": "Hak Cipta",
-   "jumlah": 6
-  },
-  {
-   "nama": "ISBN : 9786023869374",
-   "jumlah": 1
-  },
-  {
-   "nama": "ISBN : 9789798230608",
-   "jumlah": 1
-  },
-  {
-   "nama": "Paten",
-   "jumlah": 5
-  },
-  {
-   "nama": "Paten Sederhana",
-   "jumlah": 1
-  },
   {
    "nama": "Q1",
    "jumlah": 5
@@ -95,70 +55,6 @@
   {
    "nama": "Q4",
    "jumlah": 12
-  },
-  {
-   "nama": "Rp. 1.000.000",
-   "jumlah": 3
-  },
-  {
-   "nama": "Rp. 10.000.000",
-   "jumlah": 15
-  },
-  {
-   "nama": "Rp. 125.850.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 127.330.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 15.000.000",
-   "jumlah": 2
-  },
-  {
-   "nama": "Rp. 17.500.000",
-   "jumlah": 2
-  },
-  {
-   "nama": "Rp. 175.352.500",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 183.000.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 200.000.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 258.100.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 35.000.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 65.000.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 650.000.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 69.120.000",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 697.872.500",
-   "jumlah": 1
-  },
-  {
-   "nama": "Rp. 792.413.000",
-   "jumlah": 1
   }
  ],
  "per_tahun": [
@@ -166,7 +62,7 @@
    "tahun": 2026,
    "berkas": "2026",
    "jumlah": 20,
-   "sitasi": 127464825070854,
+   "sitasi": 0,
    "per_kategori": {
     "Jurnal Internasional": 3,
     "Book Chapter / Book Series": 2,
@@ -191,7 +87,7 @@
    "tahun": 2024,
    "berkas": "2024",
    "jumlah": 10,
-   "sitasi": 202406124,
+   "sitasi": 53,
    "per_kategori": {
     "Jurnal Internasional": 3,
     "Prosiding Internasional": 1,
@@ -203,22 +99,22 @@
   {
    "tahun": 2023,
    "berkas": "2023",
-   "jumlah": 16,
-   "sitasi": 202308690,
+   "jumlah": 18,
+   "sitasi": 17,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 1,
     "Buku": 1,
     "Paten & HKI": 1,
     "Penelitian": 6,
-    "Pengabdian kepada Masyarakat": 6
+    "Pengabdian kepada Masyarakat": 8
    }
   },
   {
    "tahun": 2022,
    "berkas": "2022",
    "jumlah": 4,
-   "sitasi": 202223055,
+   "sitasi": 23,
    "per_kategori": {
     "Jurnal Internasional": 2,
     "Paten & HKI": 1,
@@ -229,23 +125,23 @@
    "tahun": 2021,
    "berkas": "2021",
    "jumlah": 8,
-   "sitasi": 1212806966,
+   "sitasi": 0,
    "per_kategori": {
-    "Buku": 1,
-    "Paten & HKI": 6,
+    "Buku": 2,
+    "Paten & HKI": 5,
     "Penelitian": 1
    }
   },
   {
    "tahun": 2020,
    "berkas": "2020",
-   "jumlah": 9,
-   "sitasi": 606124968,
+   "jumlah": 7,
+   "sitasi": 117,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 3,
     "Book Chapter / Book Series": 2,
-    "Paten & HKI": 3
+    "Paten & HKI": 1
    }
   }
  ],

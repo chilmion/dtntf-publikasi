@@ -2,12 +2,116 @@
  "tahun": 2021,
  "entri": [
   {
+   "judul": "Karya hijauku untuk kampus biruku",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": "9786023869640",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
    "judul": "Menuju Bangunan Zero Energy Di Indonesia",
    "tahun": 2021,
    "kategori": "Buku",
    "venue": "Gadjah Mada University Press",
-   "kuartil": "ISBN : 9786023869374",
-   "url": "#!",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786023869374",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Menuju Bangunan Zero Energy Indonesia",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "SISTEM MONITOR BANGUNAN SEHAT BERBASIS KUALITAS UDARA DALAM RUANGAN, KADAR KARBON DIOKSIDA, VOLUME DAN ARAH ALIRAN UDARA",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "SISTEM UJI KUALITAS SERAT ALAMI BERBASIS UJI TARIK DENGAN RANGKAIAN STRAIN GAUGE",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Sistem Monitoring Lingkungan untuk Ruang Huni Sehat Berbasis Aliran Sirkulasi Udara dan Aktivitas Penghuni",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
    "sitasi": 0,
    "kreator": null,
    "dosen": [
@@ -22,89 +126,13 @@
    "tahun": 2021,
    "kategori": "Paten & HKI",
    "venue": "Direktorat Penelitian UGM",
-   "kuartil": "Hak Cipta",
-   "url": "#!",
-   "sitasi": 202170425,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Menuju Bangunan Zero Energy Indonesia",
-   "tahun": 2021,
-   "kategori": "Paten & HKI",
-   "venue": "Universitas Gadjah Mada Press",
-   "kuartil": "Hak Cipta",
-   "url": "#!",
-   "sitasi": 202157096,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Karya Hijauku untuk Kampus Biruku",
-   "tahun": 2021,
-   "kategori": "Paten & HKI",
-   "venue": "Direktorat Penelitian",
-   "kuartil": "Hak Cipta",
-   "url": "#!",
-   "sitasi": 202156747,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Sistem Monitoring Lingkungan untuk Ruang Huni Sehat Berbasis Aliran Sirkulasi Udara dan Aktivitas Penghuni",
-   "tahun": 2021,
-   "kategori": "Paten & HKI",
-   "venue": "Universitas Gadjah Mada",
-   "kuartil": "Paten",
-   "url": "#!",
-   "sitasi": 202110345,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "SISTEM MONITOR BANGUNAN SEHAT BERBASIS KUALITAS UDARA DALAM RUANGAN, KADAR KARBON DIOKSIDA, VOLUME DAN ARAH ALIRAN UDARA",
-   "tahun": 2021,
-   "kategori": "Paten & HKI",
-   "venue": "Universitas Gadjah Mada",
-   "kuartil": "Paten",
-   "url": "#!",
-   "sitasi": 202106548,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "SISTEM UJI KUALITAS SERAT ALAMI BERBASIS UJI TARIK DENGAN RANGKAIAN STRAIN GAUGE",
-   "tahun": 2021,
-   "kategori": "Paten & HKI",
-   "venue": "Universitas Gadjah Mada",
-   "kuartil": "Paten",
-   "url": "#!",
-   "sitasi": 202105805,
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
    "kreator": null,
    "dosen": [
     {
@@ -118,8 +146,12 @@
    "tahun": 2021,
    "kategori": "Penelitian",
    "venue": "MATCHING FUND ( MF )",
-   "kuartil": "Rp. 650.000.000",
-   "url": "#!",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 650.000.000",
+   "isbn": null,
+   "url": null,
    "sitasi": 0,
    "kreator": null,
    "dosen": [

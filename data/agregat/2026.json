@@ -7,6 +7,10 @@
    "kategori": "Jurnal Internasional",
    "venue": "Hardwarex",
    "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105040626820&origin=resultslist",
    "sitasi": 0,
    "kreator": "Kurniawan U.T.Y.",
@@ -23,6 +27,10 @@
    "kategori": "Jurnal Internasional",
    "venue": "Journal Europeen Des Systemes Automatises",
    "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105046315987&origin=resultslist",
    "sitasi": 0,
    "kreator": "Sari H.K.",
@@ -39,6 +47,10 @@
    "kategori": "Jurnal Internasional",
    "venue": "Chemosphere",
    "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105045922678&origin=resultslist",
    "sitasi": 0,
    "kreator": "Nurliati G.",
@@ -55,6 +67,10 @@
    "kategori": "Book Chapter / Book Series",
    "venue": "Sustainable Civil Infrastructures",
    "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039205308&origin=resultslist",
    "sitasi": 0,
    "kreator": "Sobirin I.",
@@ -71,41 +87,13 @@
    "kategori": "Book Chapter / Book Series",
    "venue": "Sustainable Civil Infrastructures",
    "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039189521&origin=resultslist",
    "sitasi": 0,
    "kreator": "Setiawan F.",
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "PEMBERDAYAAN MASYARAKAT DAN KELOMPOK NELAYAN SEHAT PRODUKTIF BERBASIS APLIKASI DIGITAL DI KABUPATEN TANJUNG JABUNG TIMUR",
-   "tahun": 2026,
-   "kategori": "Jurnal Nasional",
-   "venue": "JMM (Jurnal Masyarakat Mandiri) Vol 10, No 1 (2026): Februari779-792",
-   "kuartil": "Accred : Sinta 3",
-   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6004118",
-   "sitasi": 103176410136209,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Strategi Dakwah Pondok Pesantren Nadwa Dalam Meningkatkan Kualitas Spiritual Qoutient Santri",
-   "tahun": 2026,
-   "kategori": "Jurnal Nasional",
-   "venue": "Ulumuddin: Jurnal Ilmu-ilmu Keislaman Vol 16 No 1 (2026): (In Progress)79 - 102",
-   "kuartil": "Accred : Sinta 4",
-   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5452108",
-   "sitasi": 10472001613164,
-   "kreator": null,
    "dosen": [
     {
      "slug": "faridah",
@@ -118,9 +106,13 @@
    "tahun": 2026,
    "kategori": "Jurnal Nasional",
    "venue": "JURNAL LENTERA BISNIS Vol. 15 No. 2 (2026): JURNAL LENTERA BISNIS, Mei 20262406-2415",
-   "kuartil": "Accred : Sinta 4",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6200830",
-   "sitasi": 10341271522187,
+   "sitasi": 0,
    "kreator": null,
    "dosen": [
     {
@@ -130,45 +122,17 @@
    ]
   },
   {
-   "judul": "Performance Comparison of Ion Lithium Batteries and Lead Acid Batteries in Electrical Energy Storage Systems",
+   "judul": "Association Between Spirituality and Cybersex Behavior Among Twelfth-Grade Adolescents: A Cross-Sectional Study in Surabaya Indonesia",
    "tahun": 2026,
    "kategori": "Jurnal Nasional",
-   "venue": "Journal of System and Computer Engineering Vol 7 No 1 (2026): JSCE: January 202615-22",
-   "kuartil": "Accred : Sinta 3",
-   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6040605",
-   "sitasi": 1061628712266,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Strategi Pengembangan Literasi Menulis Siswa SMP melalui Pendekatan Multiliterasi pada Kegiatan Antologi Cerpen",
-   "tahun": 2026,
-   "kategori": "Jurnal Nasional",
-   "venue": "Jurnal Pendidikan Indonesia : Teori, Penelitian, dan Inovasi Vol 6, No 1 (2026): Jurnal Pendidikan Indonesia : Teori, Penelitian, dan Inovasi",
-   "kuartil": "Accred : Sinta 5",
-   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6054817",
-   "sitasi": 1059818612567,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Self Improvement (Upaya Perbaikan Diri) Dalam Menjalani Takdir Allah Perspektif Tafsir Al-Misbah",
-   "tahun": 2026,
-   "kategori": "Jurnal Nasional",
-   "venue": "Al-Muhith: Jurnal Ilmu Qur'an dan Hadits Al-Muhith Vol. 5, No. 1 (2026)303-315",
-   "kuartil": "Accred : Sinta 5",
-   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6012482",
-   "sitasi": 1035931515807,
+   "venue": "Journal of Applied Nursing and Health Vol. 8 No. 2 (2026): Journal of Applied Nursing and Health 1566-1574",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6469391",
+   "sitasi": 0,
    "kreator": null,
    "dosen": [
     {
@@ -182,9 +146,73 @@
    "tahun": 2026,
    "kategori": "Jurnal Nasional",
    "venue": "Indonesia Berdampak: Jurnal Pengabdian kepada Masyarakat Vol. 2 No. 1 (2026): JANUARI-JUNI 202684-88",
-   "kuartil": "Accred : Unknown",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5900462",
-   "sitasi": 106382262859,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT DAN KELOMPOK NELAYAN SEHAT PRODUKTIF BERBASIS APLIKASI DIGITAL DI KABUPATEN TANJUNG JABUNG TIMUR",
+   "tahun": 2026,
+   "kategori": "Jurnal Nasional",
+   "venue": "JMM (Jurnal Masyarakat Mandiri) Vol 10, No 1 (2026): Februari 779-792",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6004118",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Pengaruh Strategi Komunikasi Dakwah terhadap Peningkatkan Minat Beribadah Dan Keterlibatan Pelajar Dalam Kegiatan Rohis di SMA Dharmawangsa Medan",
+   "tahun": 2026,
+   "kategori": "Jurnal Nasional",
+   "venue": "Kodifikasia Vol 20 No 1 (2026): Kodifikasia: Jurnal Penelitian Islam 21-38",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6207509",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Performance Comparison of Ion Lithium Batteries and Lead Acid Batteries in Electrical Energy Storage Systems",
+   "tahun": 2026,
+   "kategori": "Jurnal Nasional",
+   "venue": "Journal of System and Computer Engineering Vol 7 No 1 (2026): JSCE: January 202615-22",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6040605",
+   "sitasi": 0,
    "kreator": null,
    "dosen": [
     {
@@ -198,9 +226,13 @@
    "tahun": 2026,
    "kategori": "Jurnal Nasional",
    "venue": "An-Nahdloh: Journal of Education and Islamic Studies Vol. 1 No. 3 (2026): May 20261146-1155",
-   "kuartil": "Accred : Unknown",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5879225",
-   "sitasi": 105878813126,
+   "sitasi": 0,
    "kreator": null,
    "dosen": [
     {
@@ -210,13 +242,17 @@
    ]
   },
   {
-   "judul": "Association Between Spirituality and Cybersex Behavior Among Twelfth-Grade Adolescents: A Cross-Sectional Study in Surabaya Indonesia",
+   "judul": "Self Improvement (Upaya Perbaikan Diri) Dalam Menjalani Takdir Allah Perspektif Tafsir Al-Misbah",
    "tahun": 2026,
    "kategori": "Jurnal Nasional",
-   "venue": "Journal of Applied Nursing and Health Vol. 8 No. 2 (2026): Journal of Applied Nursing and Health1566-1574",
-   "kuartil": "Accred : Sinta 2",
-   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6469391",
-   "sitasi": 105501882669,
+   "venue": "Al-Muhith: Jurnal Ilmu Qur'an dan Hadits Al-Muhith Vol. 5, No. 1 (2026) 303-315",
+   "kuartil": null,
+   "akreditasi": "Sinta 5",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6012482",
+   "sitasi": 0,
    "kreator": null,
    "dosen": [
     {
@@ -226,12 +262,36 @@
    ]
   },
   {
-   "judul": "Pengaruh Strategi Komunikasi Dakwah terhadap Peningkatkan Minat Beribadah Dan Keterlibatan Pelajar Dalam Kegiatan Rohis di SMA Dharmawangsa Medan",
+   "judul": "Strategi Dakwah Pondok Pesantren Nadwa Dalam Meningkatkan Kualitas Spiritual Qoutient Santri",
    "tahun": 2026,
    "kategori": "Jurnal Nasional",
-   "venue": "Kodifikasia Vol 20 No 1 (2026): Kodifikasia: Jurnal Penelitian Islam21-38",
-   "kuartil": "Accred : Sinta 4",
-   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6207509",
+   "venue": "Ulumuddin: Jurnal Ilmu-ilmu Keislaman Vol 16 No 1 (2026): (In Progress) 79 - 102",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5452108",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Strategi Pengembangan Literasi Menulis Siswa SMP melalui Pendekatan Multiliterasi pada Kegiatan Antologi Cerpen",
+   "tahun": 2026,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Pendidikan Indonesia : Teori, Penelitian, dan Inovasi Vol 6, No 1 (2026): Jurnal Pendidikan Indonesia : Teori, Penelitian, dan Inovasi",
+   "kuartil": null,
+   "akreditasi": "Sinta 5",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/6054817",
    "sitasi": 0,
    "kreator": null,
    "dosen": [
@@ -246,8 +306,12 @@
    "tahun": 2026,
    "kategori": "Penelitian",
    "venue": "Penelitian Kompetitif Nasional ( RIKUB )",
-   "kuartil": "Rp. 792.413.000",
-   "url": "#!",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 792.413.000",
+   "isbn": null,
+   "url": null,
    "sitasi": 0,
    "kreator": null,
    "dosen": [
@@ -262,8 +326,12 @@
    "tahun": 2026,
    "kategori": "Penelitian",
    "venue": "Penelitian Kompetitif Nasional ( PRO )",
-   "kuartil": "Rp. 125.850.000",
-   "url": "#!",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 125.850.000",
+   "isbn": null,
+   "url": null,
    "sitasi": 0,
    "kreator": null,
    "dosen": [
@@ -278,8 +346,12 @@
    "tahun": 2026,
    "kategori": "Pengabdian kepada Masyarakat",
    "venue": "PKM ( PKM )",
-   "kuartil": "Rp. 10.000.000",
-   "url": "#!",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
    "sitasi": 0,
    "kreator": null,
    "dosen": [
@@ -294,8 +366,12 @@
    "tahun": 2026,
    "kategori": "Pengabdian kepada Masyarakat",
    "venue": "PKM ( PKM )",
-   "kuartil": "Rp. 10.000.000",
-   "url": "#!",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
    "sitasi": 0,
    "kreator": null,
    "dosen": [
@@ -310,8 +386,12 @@
    "tahun": 2026,
    "kategori": "Pengabdian kepada Masyarakat",
    "venue": "PKM ( PKM )",
-   "kuartil": "Rp. 10.000.000",
-   "url": "#!",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
    "sitasi": 0,
    "kreator": null,
    "dosen": [

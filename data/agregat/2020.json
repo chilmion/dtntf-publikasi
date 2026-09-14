@@ -7,6 +7,10 @@
    "kategori": "Jurnal Internasional",
    "venue": "Journal of Environmental Chemical Engineering",
    "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85091179178&origin=resultslist",
    "sitasi": 64,
    "kreator": "Rosita W.",
@@ -23,6 +27,10 @@
    "kategori": "Prosiding Internasional",
    "venue": "Aip Conference Proceedings",
    "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083552481&origin=resultslist",
    "sitasi": 24,
    "kreator": "Rosita W.",
@@ -39,6 +47,10 @@
    "kategori": "Prosiding Internasional",
    "venue": "Iop Conference Series Materials Science and Engineering",
    "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85084320303&origin=resultslist",
    "sitasi": 8,
    "kreator": "Manurung H.",
@@ -55,6 +67,10 @@
    "kategori": "Prosiding Internasional",
    "venue": "Iop Conference Series Materials Science and Engineering",
    "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85082607110&origin=resultslist",
    "sitasi": 2,
    "kreator": "Manurung H.",
@@ -71,6 +87,10 @@
    "kategori": "Book Chapter / Book Series",
    "venue": "Key Engineering Materials",
    "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85085194869&origin=resultslist",
    "sitasi": 12,
    "kreator": "Rosita W.",
@@ -87,6 +107,10 @@
    "kategori": "Book Chapter / Book Series",
    "venue": "Key Engineering Materials",
    "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85088289937&origin=resultslist",
    "sitasi": 7,
    "kreator": "Widya R.",
@@ -98,45 +122,17 @@
    ]
   },
   {
-   "judul": "Video Tutorial Pemahaman Algoritma Random Forest dalam Analisis Sistem",
-   "tahun": 2020,
-   "kategori": "Paten & HKI",
-   "venue": "Direktorat Penelitian UGM",
-   "kuartil": "Hak Cipta",
-   "url": "#!",
-   "sitasi": 202060787,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Video Tutorial Pemahaman Algoritma Artificial Neural Network (ANN) dalam Analisis Sistem",
-   "tahun": 2020,
-   "kategori": "Paten & HKI",
-   "venue": "Direktorat Penelitian UGM",
-   "kuartil": "Hak Cipta",
-   "url": "#!",
-   "sitasi": 202060784,
-   "kreator": null,
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
    "judul": "INSTRUMEN EVALUASI KENYAMANAN TERMAL LINGKUNGAN RUANG HUNI",
    "tahun": 2020,
    "kategori": "Paten & HKI",
    "venue": "Universitas Gadjah Mada",
-   "kuartil": "Paten",
-   "url": "#!",
-   "sitasi": 202003280,
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
    "kreator": null,
    "dosen": [
     {
