@@ -2,268 +2,250 @@
  "diperbarui": "2026-09-14",
  "jumlah_dosen": 2,
  "total": {
-  "semua": 133,
-  "publikasi_ilmiah": 120,
-  "sitasi": 1161,
-  "paten": 3,
-  "ppm": 7,
-  "penelitian": 3
+  "semua": 78,
+  "publikasi_ilmiah": 33,
+  "sitasi": 127467048879872,
+  "paten": 11,
+  "ppm": 20,
+  "penelitian": 14
  },
  "per_kategori": [
   {
    "nama": "Jurnal Internasional",
-   "jumlah": 49
+   "jumlah": 11
   },
   {
    "nama": "Prosiding Internasional",
-   "jumlah": 39
-  },
-  {
-   "nama": "Book Chapter / Book Series",
-   "jumlah": 2
-  },
-  {
-   "nama": "Jurnal Nasional",
-   "jumlah": 24
-  },
-  {
-   "nama": "Buku",
    "jumlah": 6
   },
   {
+   "nama": "Book Chapter / Book Series",
+   "jumlah": 4
+  },
+  {
+   "nama": "Jurnal Nasional",
+   "jumlah": 10
+  },
+  {
+   "nama": "Buku",
+   "jumlah": 2
+  },
+  {
    "nama": "Paten & HKI",
-   "jumlah": 3
+   "jumlah": 11
   },
   {
    "nama": "Penelitian",
-   "jumlah": 3
+   "jumlah": 14
   },
   {
    "nama": "Pengabdian kepada Masyarakat",
-   "jumlah": 7
+   "jumlah": 20
   }
  ],
  "kuartil": [
   {
+   "nama": "Accred : Sinta 2",
+   "jumlah": 1
+  },
+  {
+   "nama": "Accred : Sinta 3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Accred : Sinta 4",
+   "jumlah": 3
+  },
+  {
+   "nama": "Accred : Sinta 5",
+   "jumlah": 2
+  },
+  {
+   "nama": "Accred : Unknown",
+   "jumlah": 2
+  },
+  {
+   "nama": "Hak Cipta",
+   "jumlah": 5
+  },
+  {
+   "nama": "ISBN : 9786023869374",
+   "jumlah": 1
+  },
+  {
+   "nama": "ISBN : 9789798230608",
+   "jumlah": 1
+  },
+  {
+   "nama": "Paten",
+   "jumlah": 5
+  },
+  {
+   "nama": "Paten Sederhana",
+   "jumlah": 1
+  },
+  {
    "nama": "Q1",
-   "jumlah": 13
+   "jumlah": 5
   },
   {
    "nama": "Q2",
-   "jumlah": 20
-  },
-  {
-   "nama": "Q3",
-   "jumlah": 19
+   "jumlah": 4
   },
   {
    "nama": "Q4",
-   "jumlah": 18
+   "jumlah": 12
+  },
+  {
+   "nama": "Rp. 1.000.000",
+   "jumlah": 3
+  },
+  {
+   "nama": "Rp. 10.000.000",
+   "jumlah": 15
+  },
+  {
+   "nama": "Rp. 125.850.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 127.330.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 15.000.000",
+   "jumlah": 2
+  },
+  {
+   "nama": "Rp. 17.500.000",
+   "jumlah": 2
+  },
+  {
+   "nama": "Rp. 175.352.500",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 183.000.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 200.000.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 258.100.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 35.000.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 65.000.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 650.000.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 69.120.000",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 697.872.500",
+   "jumlah": 1
+  },
+  {
+   "nama": "Rp. 792.413.000",
+   "jumlah": 1
   }
  ],
  "per_tahun": [
   {
    "tahun": 2026,
    "berkas": "2026",
-   "jumlah": 11,
-   "sitasi": 68,
+   "jumlah": 20,
+   "sitasi": 127464825070854,
    "per_kategori": {
-    "Jurnal Internasional": 4,
-    "Prosiding Internasional": 3,
+    "Jurnal Internasional": 3,
     "Book Chapter / Book Series": 2,
-    "Penelitian": 1,
-    "Pengabdian kepada Masyarakat": 1
+    "Jurnal Nasional": 10,
+    "Penelitian": 2,
+    "Pengabdian kepada Masyarakat": 3
    }
   },
   {
    "tahun": 2025,
    "berkas": "2025",
-   "jumlah": 7,
-   "sitasi": 18,
+   "jumlah": 12,
+   "sitasi": 2,
    "per_kategori": {
-    "Jurnal Internasional": 2,
+    "Jurnal Internasional": 1,
     "Prosiding Internasional": 1,
-    "Jurnal Nasional": 3,
-    "Pengabdian kepada Masyarakat": 1
+    "Penelitian": 1,
+    "Pengabdian kepada Masyarakat": 9
    }
   },
   {
    "tahun": 2024,
    "berkas": "2024",
-   "jumlah": 12,
-   "sitasi": 56,
+   "jumlah": 10,
+   "sitasi": 202406124,
    "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Prosiding Internasional": 4,
-    "Jurnal Nasional": 1,
-    "Buku": 1,
-    "Paten & HKI": 2,
+    "Jurnal Internasional": 3,
+    "Prosiding Internasional": 1,
+    "Paten & HKI": 1,
+    "Penelitian": 3,
     "Pengabdian kepada Masyarakat": 2
    }
   },
   {
    "tahun": 2023,
    "berkas": "2023",
-   "jumlah": 6,
-   "sitasi": 27,
+   "jumlah": 16,
+   "sitasi": 202308690,
    "per_kategori": {
-    "Jurnal Internasional": 3,
-    "Prosiding Internasional": 2,
-    "Paten & HKI": 1
+    "Jurnal Internasional": 1,
+    "Prosiding Internasional": 1,
+    "Buku": 1,
+    "Paten & HKI": 1,
+    "Penelitian": 6,
+    "Pengabdian kepada Masyarakat": 6
    }
   },
   {
    "tahun": 2022,
    "berkas": "2022",
-   "jumlah": 8,
-   "sitasi": 53,
+   "jumlah": 4,
+   "sitasi": 202223055,
    "per_kategori": {
-    "Jurnal Internasional": 4,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 1,
-    "Buku": 1,
-    "Pengabdian kepada Masyarakat": 1
+    "Jurnal Internasional": 2,
+    "Paten & HKI": 1,
+    "Penelitian": 1
    }
   },
   {
    "tahun": 2021,
    "berkas": "2021",
    "jumlah": 8,
-   "sitasi": 53,
+   "sitasi": 1212806966,
    "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Prosiding Internasional": 3,
-    "Jurnal Nasional": 1,
-    "Pengabdian kepada Masyarakat": 2
+    "Buku": 1,
+    "Paten & HKI": 6,
+    "Penelitian": 1
    }
   },
   {
    "tahun": 2020,
    "berkas": "2020",
-   "jumlah": 6,
-   "sitasi": 48,
-   "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Prosiding Internasional": 2,
-    "Jurnal Nasional": 1,
-    "Penelitian": 1
-   }
-  },
-  {
-   "tahun": 2019,
-   "berkas": "2019",
-   "jumlah": 4,
-   "sitasi": 41,
-   "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Jurnal Nasional": 1,
-    "Penelitian": 1
-   }
-  },
-  {
-   "tahun": 2018,
-   "berkas": "2018",
-   "jumlah": 6,
-   "sitasi": 39,
-   "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Prosiding Internasional": 2,
-    "Buku": 2
-   }
-  },
-  {
-   "tahun": 2017,
-   "berkas": "2017",
-   "jumlah": 5,
-   "sitasi": 67,
-   "per_kategori": {
-    "Prosiding Internasional": 5
-   }
-  },
-  {
-   "tahun": 2016,
-   "berkas": "2016",
-   "jumlah": 10,
-   "sitasi": 210,
-   "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 5,
-    "Buku": 2
-   }
-  },
-  {
-   "tahun": 2015,
-   "berkas": "2015",
    "jumlah": 8,
-   "sitasi": 103,
+   "sitasi": 404064181,
    "per_kategori": {
     "Jurnal Internasional": 1,
-    "Prosiding Internasional": 4,
-    "Jurnal Nasional": 3
-   }
-  },
-  {
-   "tahun": 2014,
-   "berkas": "2014",
-   "jumlah": 9,
-   "sitasi": 123,
-   "per_kategori": {
-    "Jurnal Internasional": 5,
-    "Prosiding Internasional": 2,
-    "Jurnal Nasional": 2
-   }
-  },
-  {
-   "tahun": 2013,
-   "berkas": "2013",
-   "jumlah": 4,
-   "sitasi": 20,
-   "per_kategori": {
-    "Jurnal Internasional": 3,
-    "Jurnal Nasional": 1
-   }
-  },
-  {
-   "tahun": 2012,
-   "berkas": "2012",
-   "jumlah": 8,
-   "sitasi": 53,
-   "per_kategori": {
-    "Jurnal Internasional": 4,
-    "Prosiding Internasional": 2,
-    "Jurnal Nasional": 2
-   }
-  },
-  {
-   "tahun": 2011,
-   "berkas": "2011",
-   "jumlah": 6,
-   "sitasi": 46,
-   "per_kategori": {
-    "Jurnal Internasional": 4,
-    "Jurnal Nasional": 2
-   }
-  },
-  {
-   "tahun": 2010,
-   "berkas": "2010",
-   "jumlah": 8,
-   "sitasi": 67,
-   "per_kategori": {
-    "Jurnal Internasional": 4,
-    "Prosiding Internasional": 4
-   }
-  },
-  {
-   "tahun": 2009,
-   "berkas": "2009",
-   "jumlah": 7,
-   "sitasi": 69,
-   "per_kategori": {
-    "Jurnal Internasional": 3,
     "Prosiding Internasional": 3,
-    "Jurnal Nasional": 1
+    "Book Chapter / Book Series": 2,
+    "Paten & HKI": 2
    }
   }
  ],
@@ -273,9 +255,9 @@
    "nama": "Faridah",
    "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
    "sinta_id": "6010146",
-   "skor_sinta": 3608,
-   "publikasi": 85,
-   "sitasi_scopus": 410,
+   "skor_sinta": 3798,
+   "publikasi": 56,
+   "sitasi_scopus": 418,
    "hindex_scopus": 11
   },
   {
@@ -283,10 +265,10 @@
    "nama": "Widya Rosita",
    "gelar": "S.T., M.T., Dr.",
    "sinta_id": "6016573",
-   "skor_sinta": 1264,
-   "publikasi": 85,
-   "sitasi_scopus": 187,
-   "hindex_scopus": 7
+   "skor_sinta": 654,
+   "publikasi": 27,
+   "sitasi_scopus": 219,
+   "hindex_scopus": 8
   }
  ]
 }

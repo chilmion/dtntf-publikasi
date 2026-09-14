@@ -8,60 +8,8 @@
    "venue": "Water Switzerland",
    "kuartil": "Q1",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85146054621&origin=resultslist",
-   "sitasi": 15,
+   "sitasi": 16,
    "kreator": "Mardiatno D.",
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    },
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
-    }
-   ]
-  },
-  {
-   "judul": "Evaluation of acoustic sensor in laboratories",
-   "tahun": 2023,
-   "kategori": "Jurnal Internasional",
-   "venue": "Applied Acoustics",
-   "kuartil": "Q1",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-24689961294",
-   "sitasi": 8,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
-    }
-   ]
-  },
-  {
-   "judul": "Characterization of thermal performance in tropical buildings",
-   "tahun": 2023,
-   "kategori": "Jurnal Internasional",
-   "venue": "Energy and Buildings",
-   "kuartil": null,
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-59827134695",
-   "sitasi": 1,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Design of acoustic sensor in public spaces",
-   "tahun": 2023,
-   "kategori": "Prosiding Internasional",
-   "venue": "IOP Conference Series",
-   "kuartil": "Q4",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-64642193889",
-   "sitasi": 2,
-   "kreator": "Faridah",
    "dosen": [
     {
      "slug": "faridah",
@@ -82,6 +30,182 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Peta Jalan Penyelenggaraan & Pembinaan Bangunan Gedung Hijau (BGH)",
+   "tahun": 2023,
+   "kategori": "Buku",
+   "venue": "Kementerian Pekerjaan Umum dan Perumahan Rakyat",
+   "kuartil": "ISBN : 9789798230608",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "SISTEM PEMANTAU DAN PEMETAAN INTENSITAS SUMBER CAHAYA NATURAL UNTUK TATA CAHAYA DI DALAM RUANGAN",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": "Paten",
+   "url": "#!",
+   "sitasi": 202308673,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "OPTIMASI PROSES PRESIPITASI PADA PEMUNGUTAN LOGAM TANAH JARANG DARI ABU LAYANG BATUBARA",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": "Rp. 35.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN MODEL PREDIKSI SUHU DAN KECEPATAN UDARA DALAM RUANG HUNI BERDASARKAN KONDISI LINGKUNGAN TERMAL LUAR BANGUNAN",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": "Rp. 17.500.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN PRODUK SISTEM MANAJEMEN BATERAI CERDAS UNTUK MENDUKUNG POLA KEMANDIRIAN TEKNOLOGI BATERAI DI INDONESIA",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "kuartil": "Rp. 697.872.500",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PENINGKATAN EFISIENSI PEMBAKARAN BATUBARA PADA CIRCULATED FLUIDIZED BOILER (CFB) UNTUK PENGKAYAAN CRITICAL ELEMENTS PADA FLY ASH: UPAYA PEMANFAATAN FLY ASH SECARA KOMPREHENSIF BERBASIS TOTAL EXTRACTION DAN CIRCULAR ECONOMY",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "ADB PRIME STEP ( IG )",
+   "kuartil": "Rp. 258.100.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Penerapan Teknologi Soft Sensor Pada Sistem Manajemen Performansi Indoor Environment Quality (IEQ) dan Hemat Energi Untuk Bangunan Tropis",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT-JH )",
+   "kuartil": "Rp. 183.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "kuartil": "Rp. 175.352.500",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBANGUNAN TPS3R FT UGM (PEMANDATAN)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 15.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PENYELENGGARAAN KLINIK RUMAH SWADAYA (PEMANDATAN)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 15.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
     },
     {
      "slug": "widya-rosita",
@@ -90,19 +214,47 @@
    ]
   },
   {
-   "judul": "Alat ukur serapan bunyi berbasis IoT",
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
    "tahun": 2023,
-   "kategori": "Paten & HKI",
-   "venue": null,
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/37135",
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
    "sitasi": 0,
-   "kreator": "Faridah",
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
    "dosen": [
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
+    }
+   ]
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"

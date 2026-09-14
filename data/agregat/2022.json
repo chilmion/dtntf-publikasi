@@ -2,46 +2,14 @@
  "tahun": 2022,
  "entri": [
   {
-   "judul": "Characterization of acoustic sensor in tropical buildings",
+   "judul": "Characterization and mode of occurrence of rare earth elements and yttrium in fly and bottom ash from coal-fired power plants in Java, Indonesia",
    "tahun": 2022,
    "kategori": "Jurnal Internasional",
-   "venue": "Applied Acoustics",
-   "kuartil": "Q3",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-18934399708",
-   "sitasi": 15,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Evaluation of thermal performance in public spaces",
-   "tahun": 2022,
-   "kategori": "Jurnal Internasional",
-   "venue": "Building and Environment",
-   "kuartil": "Q3",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-60844955866",
-   "sitasi": 7,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
-    }
-   ]
-  },
-  {
-   "judul": "Characterization of indoor air quality in public spaces",
-   "tahun": 2022,
-   "kategori": "Jurnal Internasional",
-   "venue": "Building and Environment",
-   "kuartil": null,
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-53813302510",
-   "sitasi": 4,
-   "kreator": "Faridah",
+   "venue": "International Journal of Coal Science and Technology",
+   "kuartil": "Q1",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85127473583&origin=resultslist",
+   "sitasi": 23,
+   "kreator": "Besari D.A.A.",
    "dosen": [
     {
      "slug": "widya-rosita",
@@ -60,24 +28,20 @@
    "kreator": "Putero S.H.",
    "dosen": [
     {
-     "slug": "faridah",
-     "nama": "Faridah"
-    },
-    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
     }
    ]
   },
   {
-   "judul": "Evaluation of thermal performance in tropical buildings",
+   "judul": "Platform Pendukung Tata Kelola “Lingkungan Sehat dalam Bangunan Hemat Energi”",
    "tahun": 2022,
-   "kategori": "Prosiding Internasional",
-   "venue": "AIP Conference Proceedings",
-   "kuartil": "Q2",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-76360034087",
-   "sitasi": 5,
-   "kreator": "Faridah",
+   "kategori": "Paten & HKI",
+   "venue": "Direktorat Penelitian UGM",
+   "kuartil": "Hak Cipta",
+   "url": "#!",
+   "sitasi": 202223032,
+   "kreator": null,
    "dosen": [
     {
      "slug": "faridah",
@@ -86,50 +50,14 @@
    ]
   },
   {
-   "judul": "Design of acoustic sensor in laboratories",
+   "judul": "PEMUNGUTAN VALUABLE METAL DARI ABU LAYANG BATUBARA",
    "tahun": 2022,
-   "kategori": "Jurnal Nasional",
-   "venue": "Jurnal Teknofisika",
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/51842",
-   "sitasi": 21,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    },
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
-    }
-   ]
-  },
-  {
-   "judul": "Characterization of acoustic sensor in lecture halls",
-   "tahun": 2022,
-   "kategori": "Buku",
-   "venue": null,
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/34637",
-   "sitasi": 1,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
-    }
-   ]
-  },
-  {
-   "judul": "Pelatihan efisiensi energi di Kelurahan Terban",
-   "tahun": 2022,
-   "kategori": "Pengabdian kepada Masyarakat",
-   "venue": null,
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/45677",
+   "kategori": "Penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "kuartil": "Rp. 17.500.000",
+   "url": "#!",
    "sitasi": 0,
-   "kreator": "Faridah",
+   "kreator": null,
    "dosen": [
     {
      "slug": "widya-rosita",

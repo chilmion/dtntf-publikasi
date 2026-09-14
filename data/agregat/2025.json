@@ -14,26 +14,6 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
-    }
-   ]
-  },
-  {
-   "judul": "Optimization of indoor air quality in public spaces",
-   "tahun": 2025,
-   "kategori": "Jurnal Internasional",
-   "venue": "Applied Acoustics",
-   "kuartil": null,
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-86615215894",
-   "sitasi": 0,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "faridah",
-     "nama": "Faridah"
     }
    ]
   },
@@ -50,7 +30,35 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
+    }
+   ]
+  },
+  {
+   "judul": "Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan.",
+   "tahun": 2025,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "kuartil": "Rp. 65.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "tahun": 2025,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
@@ -58,14 +66,78 @@
    ]
   },
   {
-   "judul": "Characterization of indoor air quality in tropical buildings",
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
    "tahun": 2025,
-   "kategori": "Jurnal Nasional",
-   "venue": "Jurnal Fisika Indonesia",
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/50248",
-   "sitasi": 12,
-   "kreator": "Faridah",
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "PEMILAHAN DAN PENGELOLAAN SAMPAH PLASTIK SEBAGAI MODEL PEMBELAJARAN PENGELOLAAN LINGKUNGAN BERKELANJUTAN DI SMP BUMI CENDIKIA, SLEMAN, YOGYAKARTA",
+   "tahun": 2025,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "tahun": 2025,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "tahun": 2025,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "tahun": 2025,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "kuartil": "Rp. 10.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
    "dosen": [
     {
      "slug": "faridah",
@@ -78,50 +150,50 @@
    ]
   },
   {
-   "judul": "Analysis of thermal performance in tropical buildings",
-   "tahun": 2025,
-   "kategori": "Jurnal Nasional",
-   "venue": "Jurnal Rekayasa Proses",
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/28875",
-   "sitasi": 4,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
-    }
-   ]
-  },
-  {
-   "judul": "Analysis of daylighting system in public spaces",
-   "tahun": 2025,
-   "kategori": "Jurnal Nasional",
-   "venue": "Jurnal Teknofisika",
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/8921",
-   "sitasi": 0,
-   "kreator": "Faridah",
-   "dosen": [
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
-    }
-   ]
-  },
-  {
-   "judul": "Pelatihan mitigasi kebisingan di Kapanewon Playen",
+   "judul": "TIM PELAKSANA JASA ANALISIS LABORATORIUM TJJ DAN TCLP, UNTUK MENUNJANG KEGIATAN EVALUASI POTENSI LTJ DALAM BATUBARA DAN ABU BATUBARA CEKUNGAN ASAM-ASAM, PROVINSI KALIMANTAN SELATAN DAN JASA ANALISIS LABORATORIUM (ASAM HUMAT AGRO INDUSTRI) UNTUK MENUNJANG",
    "tahun": 2025,
    "kategori": "Pengabdian kepada Masyarakat",
-   "venue": null,
-   "kuartil": null,
-   "url": "https://garuda.kemdikbud.go.id/documents/detail/35315",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 1.000.000",
+   "url": "#!",
    "sitasi": 0,
-   "kreator": "Faridah",
+   "kreator": null,
    "dosen": [
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "TIM PROGRAM HIBAH PENGABDIAN MASYARAKAT KOLABORASI PEMBANGUNAN SUMUR BOR DAN SALURAN AIR BERSIH BAGI WARGA DUSUN GEGER, DESA PENGKOL, KECAMATAN NGLIPAR, KABUPATEN GUNUNGKIDUL, D.I. YOGYAKARTA",
+   "tahun": 2025,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 1.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "TIM PROGRAM HIBAH PENGABDIAN MASYARAKAT KOLABORASI PEMBANGUNAN SUMUR BOR DAN SALURAN AIR BERSIH BAGI WARGA DUSUN PAGUTAN, DESA PENGKOL, KECAMATAN NGLIPAR, KABUPATEN GUNUNGKIDUL, D.I. YOGYAKARTA",
+   "tahun": 2025,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": "Rp. 1.000.000",
+   "url": "#!",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
     }
    ]
   }

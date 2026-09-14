@@ -1,0 +1,33 @@
+{
+ "diperbarui": "2026-09-14",
+ "dosen": [
+  {
+   "slug": "faridah",
+   "sinta_id": "6010146",
+   "nama": "Faridah",
+   "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+   "jabatan": null,
+   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UwuzB_gAAAAJ&citpid=1",
+   "prodi": "S1 - Teknik Fisika",
+   "skor_sinta": 3798,
+   "publikasi": 56,
+   "sitasi_scopus": 418,
+   "sitasi_scholar": 2334,
+   "hindex_scopus": 11
+  },
+  {
+   "slug": "widya-rosita",
+   "sinta_id": "6016573",
+   "nama": "Widya Rosita",
+   "gelar": "S.T., M.T., Dr.",
+   "jabatan": null,
+   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ALYyCBUAAAAJ&citpid=1",
+   "prodi": "S2 - Magister Teknik Fisika",
+   "skor_sinta": 654,
+   "publikasi": 27,
+   "sitasi_scopus": 219,
+   "sitasi_scholar": 339,
+   "hindex_scopus": 8
+  }
+ ]
+}
