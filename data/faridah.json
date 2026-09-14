@@ -9,12 +9,17 @@
  "prodi": "S1 - Teknik Fisika",
  "afiliasi": "Universitas Gadjah Mada",
  "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UwuzB_gAAAAJ&citpid=1",
- "diperbarui": "2026-09-14T16:33:22+07:00",
+ "diperbarui": "2026-09-14T17:13:29+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": false
+ },
  "tautan": {
   "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6010146",
   "scopus": null,
   "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6010146/?view=garuda",
-  "scholar": null
+  "scholar": "https://scholar.google.com/citations?user=UwuzB_gAAAAJ"
  },
  "skor": {
   "overall": 3798,
@@ -56,7 +61,7 @@
   "hindex_scopus": 11,
   "hindex_scholar": 20,
   "hindex_terdaftar": 2,
-  "paten": 10,
+  "paten": 11,
   "ppm": 14,
   "buku": 3,
   "penelitian": 10
@@ -65,7 +70,7 @@
   "scopus": 10,
   "garuda": 10,
   "buku": 3,
-  "paten": 10,
+  "paten": 11,
   "ppm": 14,
   "penelitian": 10
  },
@@ -158,6 +163,20 @@
  ],
  "publikasi": [
   {
+   "judul": "Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039189521&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sustainable Civil Infrastructures",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Setiawan F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
    "judul": "An open-source BLDC motor test bed utilizing ESC telemetry for cost-effective educational laboratories",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105040626820&origin=resultslist",
    "sumber": "scopus",
@@ -194,20 +213,6 @@
    "sitasi": 0,
    "urutan_penulis": "3 of 7",
    "kreator": "Sobirin I.",
-   "kuartil": "Q4",
-   "jenis_venue": "Book Series",
-   "info": null,
-   "kategori": "Book Chapter / Book Series"
-  },
-  {
-   "judul": "Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039189521&origin=resultslist",
-   "sumber": "scopus",
-   "venue": "Sustainable Civil Infrastructures",
-   "tahun": 2026,
-   "sitasi": 0,
-   "urutan_penulis": "2 of 6",
-   "kreator": "Setiawan F.",
    "kuartil": "Q4",
    "jenis_venue": "Book Series",
    "info": null,
@@ -615,21 +620,6 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "Penelitian Kompetitif Nasional ( PRO )",
-   "tahun": 2024,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 69.120.000",
-   "kategori": "Penelitian"
-  },
-  {
    "judul": "RANCANG BANGUN SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS FLUKTUASI GAS RADON DAN GROUND WATER LEVEL",
    "url": null,
    "sumber": "penelitian",
@@ -642,6 +632,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 200.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 69.120.000",
    "kategori": "Penelitian"
   },
   {
@@ -793,21 +798,6 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "PENGEMBANGAN MODEL PREDIKSI SUHU DAN KECEPATAN UDARA DALAM RUANG HUNI BERDASARKAN KONDISI LINGKUNGAN TERMAL LUAR BANGUNAN",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "PENELITIAN ( HIBAH FT )",
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 17.500.000",
-   "kategori": "Penelitian"
-  },
-  {
    "judul": "Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis",
    "url": null,
    "sumber": "penelitian",
@@ -850,6 +840,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 697.872.500",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENGEMBANGAN MODEL PREDIKSI SUHU DAN KECEPATAN UDARA DALAM RUANG HUNI BERDASARKAN KONDISI LINGKUNGAN TERMAL LUAR BANGUNAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
    "kategori": "Penelitian"
   },
   {
@@ -896,36 +901,6 @@
    "info": "Universitas Gadjah Mada",
    "isbn": "9786023869640",
    "kategori": "Buku"
-  },
-  {
-   "judul": "SISTEM MONITOR BANGUNAN SEHAT BERBASIS KUALITAS UDARA DALAM RUANGAN, KADAR KARBON DIOKSIDA, VOLUME DAN ARAH ALIRAN UDARA",
-   "url": null,
-   "sumber": "paten",
-   "venue": "Universitas Gadjah Mada",
-   "tahun": 2021,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": "Nomor Permohonan : P00202106548",
-   "jenis_paten": "Paten",
-   "kategori": "Paten & HKI"
-  },
-  {
-   "judul": "Karya Hijauku untuk Kampus Biruku",
-   "url": null,
-   "sumber": "paten",
-   "venue": "Direktorat Penelitian",
-   "tahun": 2021,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": "Nomor Permohonan : EC00202156747",
-   "jenis_paten": "Hak Cipta",
-   "kategori": "Paten & HKI"
   },
   {
    "judul": "Video Metode Penggabungan Data Digital GPS Lokasi Area Rawapening dan Data Sonar Kedalaman Air Danau",
@@ -988,6 +963,36 @@
    "kategori": "Paten & HKI"
   },
   {
+   "judul": "Karya Hijauku untuk Kampus Biruku",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202156747",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "SISTEM MONITOR BANGUNAN SEHAT BERBASIS KUALITAS UDARA DALAM RUANGAN, KADAR KARBON DIOKSIDA, VOLUME DAN ARAH ALIRAN UDARA",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202106548",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
    "judul": "INSTRUMEN EVALUASI KENYAMANAN TERMAL LINGKUNGAN RUANG HUNI",
    "url": null,
    "sumber": "paten",
@@ -1000,6 +1005,21 @@
    "jenis_venue": null,
    "info": "Nomor Permohonan : P00202003280",
    "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Video Tutorial Pemahaman Algoritma Artificial Neural Network (ANN) dalam Analisis Sistem",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian UGM",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202060784",
+   "jenis_paten": "Hak Cipta",
    "kategori": "Paten & HKI"
   }
  ]

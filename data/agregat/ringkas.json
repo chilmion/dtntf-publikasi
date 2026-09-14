@@ -2,10 +2,10 @@
  "diperbarui": "2026-09-14",
  "jumlah_dosen": 2,
  "total": {
-  "semua": 79,
+  "semua": 80,
   "publikasi_ilmiah": 34,
   "sitasi": 212,
-  "paten": 9,
+  "paten": 10,
   "ppm": 22,
   "penelitian": 14
  },
@@ -32,7 +32,7 @@
   },
   {
    "nama": "Paten & HKI",
-   "jumlah": 9
+   "jumlah": 10
   },
   {
    "nama": "Penelitian",
@@ -135,13 +135,13 @@
   {
    "tahun": 2020,
    "berkas": "2020",
-   "jumlah": 7,
+   "jumlah": 8,
    "sitasi": 117,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 3,
     "Book Chapter / Book Series": 2,
-    "Paten & HKI": 1
+    "Paten & HKI": 2
    }
   }
  ],
@@ -152,7 +152,7 @@
    "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
    "sinta_id": "6010146",
    "skor_sinta": 3798,
-   "publikasi": 57,
+   "publikasi": 58,
    "sitasi_scopus": 418,
    "hindex_scopus": 11
   },

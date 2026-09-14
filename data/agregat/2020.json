@@ -140,6 +140,26 @@
      "nama": "Faridah"
     }
    ]
+  },
+  {
+   "judul": "Video Tutorial Pemahaman Algoritma Artificial Neural Network (ANN) dalam Analisis Sistem",
+   "tahun": 2020,
+   "kategori": "Paten & HKI",
+   "venue": "Direktorat Penelitian UGM",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
   }
  ]
 }

@@ -9,12 +9,17 @@
  "prodi": "S2 - Magister Teknik Fisika",
  "afiliasi": "Universitas Gadjah Mada",
  "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ALYyCBUAAAAJ&citpid=1",
- "diperbarui": "2026-09-14T16:35:13+07:00",
+ "diperbarui": "2026-09-14T17:15:23+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": false
+ },
  "tautan": {
   "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6016573",
   "scopus": null,
   "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6016573/?view=garuda",
-  "scholar": null
+  "scholar": "https://scholar.google.com/citations?user=ALYyCBUAAAAJ"
  },
  "skor": {
   "overall": 654,
@@ -109,11 +114,11 @@
  ],
  "venue_teratas": [
   {
-   "nama": "Key Engineering Materials",
+   "nama": "Iop Conference Series Materials Science and Engineering",
    "jumlah": 2
   },
   {
-   "nama": "Iop Conference Series Materials Science and Engineering",
+   "nama": "Key Engineering Materials",
    "jumlah": 2
   },
   {
