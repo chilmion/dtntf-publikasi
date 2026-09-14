@@ -31,6 +31,7 @@ import random
 import re
 import sys
 import time
+import http.cookiejar
 import urllib.error
 import urllib.request
 
@@ -56,6 +57,13 @@ VIEWS = [
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 
+# SINTA tampaknya menyimpan posisi halaman di sesi, bukan murni di URL:
+# permintaan tanpa cookie selalu mendapat halaman pertama. Satu opener
+# dipakai bersama agar cookie sesi terbawa antar permintaan, persis seperti
+# browser biasa.
+BISKUIT = http.cookiejar.CookieJar()
+OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(BISKUIT))
+
 
 # ---------------------------------------------------------------- pengambilan
 
@@ -75,7 +83,7 @@ def ambil(url, tries=3, lapor=False):
                 "Accept-Language": "id-ID,id;q=0.9,en;q=0.8",
                 "Referer": SINTA + "/",
             })
-            with urllib.request.urlopen(req, timeout=45) as r:
+            with OPENER.open(req, timeout=45) as r:
                 isi = r.read().decode("utf-8", "replace")
                 if lapor:
                     print(f"        HTTP {r.status} · {len(isi)//1024} KB · "
@@ -177,8 +185,28 @@ def parse_profil(h):
     return d
 
 
+# Slot ".ar-quartile" dipakai ulang SINTA untuk hal berbeda di tiap tab:
+# kuartil di Scopus, akreditasi di Garuda, ISBN di Buku, jenis di Paten,
+# dan nilai dana di PPM/Penelitian. Peta ini menaruhnya di field yang benar.
+LABEL_FIELD = {
+    "scopus": "kuartil",
+    "garuda": "akreditasi",
+    "buku": "isbn",
+    "paten": "jenis_paten",
+    "ppm": "dana",
+    "penelitian": "dana",
+}
+
+
+def rapikan_venue(v):
+    """Garuda menempelkan nomor halaman ke nama jurnal: '…Februari779-792'."""
+    if not v:
+        return v
+    return re.sub(r"(?<=[^\d\s])(\d+\s*[-–]\s*\d+)\s*$", r" \1", v).strip()
+
+
 def parse_artikel(h, sumber):
-    """Semua .ar-list-item pada satu halaman."""
+    """Semua .ar-list-item pada satu halaman, disesuaikan dengan tab asalnya."""
     hasil = []
     for blok in re.findall(r'<div class="ar-list-item[^"]*">(.*?)(?=<div class="ar-list-item|\Z)',
                            h, re.S):
@@ -193,29 +221,53 @@ def parse_artikel(h, sumber):
         if not judul:
             continue
 
+        # SINTA memakai href="#!" untuk entri tanpa tautan keluar.
+        if url and not url.lower().startswith("http"):
+            url = None
+
         def cari(pola):
             x = re.search(pola, blok, re.S)
             return bersih(x.group(1)) if x else None
 
-        kuartil = cari(r'class="ar-quartile"[^>]*>(.*?)</a>')
+        label = cari(r'class="ar-quartile"[^>]*>(.*?)</a>')
         tahun = cari(r'class="ar-year"[^>]*>(.*?)</a>')
-        sitasi = cari(r'class="ar-cited"[^>]*>(.*?)</a>')
-        urutan = cari(r'>\s*Author Order\s*:\s*(.*?)</a>')
-        kreator = cari(r'>\s*Creator\s*:\s*(.*?)</a>')
+        mentah_cited = cari(r'class="ar-cited"[^>]*>(.*?)</a>')
 
-        hasil.append({
+        # Hanya hitung sebagai sitasi kalau benar-benar bertuliskan "cited".
+        # Di tab paten slot ini berisi nomor paten, di Garuda berisi nomor lain.
+        sitasi, info = 0, None
+        if mentah_cited:
+            c = re.search(r"([\d.,]+)\s*cited", mentah_cited, re.I)
+            if c:
+                sitasi = angka(re.sub(r"\D", "", c.group(1))) or 0
+            else:
+                info = mentah_cited
+
+        a = {
             "judul": judul,
             "url": url,
             "sumber": sumber,
-            "venue": cari(r'class="ar-pub"[^>]*>(.*?)</a>'),
-            "kuartil": (re.sub(r"\s*as\s+.*$", "", kuartil).strip() if kuartil else None),
-            "jenis_venue": (kuartil.split(" as ", 1)[1].strip()
-                            if kuartil and " as " in kuartil else None),
+            "venue": rapikan_venue(cari(r'class="ar-pub"[^>]*>(.*?)</a>')),
             "tahun": angka(re.sub(r"\D", "", tahun or "")),
-            "sitasi": angka(re.sub(r"\D", "", sitasi or "")) or 0,
-            "urutan_penulis": urutan,
-            "kreator": kreator,
-        })
+            "sitasi": sitasi,
+            "urutan_penulis": cari(r'>\s*Author Order\s*:\s*(.*?)</a>'),
+            "kreator": cari(r'>\s*Creator\s*:\s*(.*?)</a>'),
+            "kuartil": None,
+            "jenis_venue": None,
+            "info": info,
+        }
+
+        if label:
+            if sumber == "scopus":
+                # bentuknya "Q2 as Journal"
+                a["kuartil"] = re.sub(r"\s*as\s+.*$", "", label).strip() or None
+                if " as " in label:
+                    a["jenis_venue"] = label.split(" as ", 1)[1].strip()
+            else:
+                nilai = re.sub(r"^\s*(Accred|ISBN)\s*:\s*", "", label).strip()
+                a[LABEL_FIELD.get(sumber, "info")] = nilai or None
+
+        hasil.append(a)
     return hasil
 
 
@@ -232,6 +284,11 @@ def ambil_semua_artikel(sinta_id, view, sumber, harapan=None):
     semua, terlihat = [], set()
     kosong_beruntun = gagal_beruntun = 0
     print(f"      [{sumber}] mulai" + (f", SINTA menyebut {harapan} entri" if harapan else ""))
+
+    # Buka tab tanpa nomor halaman dulu agar cookie sesi terbentuk, sama
+    # seperti orang yang mengklik tab itu di browser sebelum pindah halaman.
+    ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}")
+    santai()
 
     for hal in range(1, MAKS_HALAMAN + 1):
         print(f"      · hal {hal}")

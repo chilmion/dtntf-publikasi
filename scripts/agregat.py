@@ -88,6 +88,10 @@ def main():
                     "kategori": a.get("kategori") or "Lainnya",
                     "venue": a.get("venue"),
                     "kuartil": a.get("kuartil"),
+                    "akreditasi": a.get("akreditasi"),
+                    "jenis_paten": a.get("jenis_paten"),
+                    "dana": a.get("dana"),
+                    "isbn": a.get("isbn"),
                     "url": a.get("url"),
                     "sitasi": a.get("sitasi") or 0,
                     "kreator": a.get("kreator"),
@@ -98,7 +102,8 @@ def main():
                     e["dosen"].append({"slug": d["slug"], "nama": nama})
                 # ambil nilai terlengkap dari entri mana pun
                 e["sitasi"] = max(e["sitasi"], a.get("sitasi") or 0)
-                for kol in ("venue", "kuartil", "url", "tahun", "kreator"):
+                for kol in ("venue", "kuartil", "url", "tahun", "kreator",
+                            "akreditasi", "jenis_paten", "dana", "isbn"):
                     if not e.get(kol) and a.get(kol):
                         e[kol] = a[kol]
 
