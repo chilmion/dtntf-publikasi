@@ -18,7 +18,8 @@ Hanya pustaka standar Python — tidak perlu pip install apa pun.
 Pakai:
     python3 scripts/build.py                    # semua dosen di dosen.csv
     python3 scripts/build.py faridah,widya-rosita   # sebagian saja
-    python3 scripts/build.py --periksa 6010146      # diagnostik satu profil
+    python3 scripts/build.py --periksa 6010146      # diagnostik semua tab
+    python3 scripts/build.py --halaman 6010146      # diagnostik paginasi
 """
 
 import csv
@@ -58,29 +59,45 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 
 # ---------------------------------------------------------------- pengambilan
 
-def ambil(url, tries=3):
-    """GET satu halaman. Mengembalikan teks HTML atau None."""
+def ambil(url, tries=3, lapor=False):
+    """GET satu halaman.
+
+    Mengembalikan teks HTML, atau None kalau gagal. Dengan lapor=True,
+    alasan kegagalan dicetak — ini yang membuat log bisa menjelaskan sendiri
+    kenapa sebuah tab berhenti lebih awal.
+    """
+    sebab = "tidak diketahui"
     for attempt in range(tries):
         try:
             req = urllib.request.Request(url, headers={
                 "User-Agent": UA,
                 "Accept": "text/html,application/xhtml+xml",
                 "Accept-Language": "id-ID,id;q=0.9,en;q=0.8",
+                "Referer": SINTA + "/",
             })
             with urllib.request.urlopen(req, timeout=45) as r:
-                return r.read().decode("utf-8", "replace")
+                isi = r.read().decode("utf-8", "replace")
+                if lapor:
+                    print(f"        HTTP {r.status} · {len(isi)//1024} KB · "
+                          f"{isi.count('ar-list-item')} blok")
+                return isi
         except urllib.error.HTTPError as e:
+            sebab = f"HTTP {e.code}"
             if e.code in (403, 429):
                 tunggu = 30 * (attempt + 1)
                 print(f"      ! diblokir sementara ({e.code}); tunggu {tunggu}s", file=sys.stderr)
                 time.sleep(tunggu)
             elif e.code == 404:
+                if lapor:
+                    print("        HTTP 404 — halaman tidak ada")
                 return None
             else:
                 time.sleep(5)
         except Exception as e:
-            print(f"      ! {e}", file=sys.stderr)
+            sebab = str(e)[:80]
             time.sleep(5)
+    if lapor:
+        print(f"        gagal setelah {tries} percobaan: {sebab}")
     return None
 
 
@@ -202,25 +219,64 @@ def parse_artikel(h, sumber):
     return hasil
 
 
-def ambil_semua_artikel(sinta_id, view, sumber):
-    """Loop halaman sampai habis atau berulang."""
+def ambil_semua_artikel(sinta_id, view, sumber, harapan=None):
+    """Kumpulkan seluruh entri satu tab.
+
+    SINTA memuat 10 entri per halaman dan tidak menampilkan tautan paginasi
+    di HTML-nya, jadi jumlah halaman harus ditebak dengan mencoba ?page=N.
+
+    Tiap halaman dicatat ke log (status HTTP, ukuran, jumlah blok, jumlah
+    judul baru) supaya kalau sebuah tab berhenti lebih awal, log langsung
+    menunjukkan penyebabnya tanpa perlu menebak.
+    """
     semua, terlihat = [], set()
+    kosong_beruntun = gagal_beruntun = 0
+    print(f"      [{sumber}] mulai" + (f", SINTA menyebut {harapan} entri" if harapan else ""))
+
     for hal in range(1, MAKS_HALAMAN + 1):
-        url = f"{SINTA}/authors/profile/{sinta_id}/?view={view}&page={hal}"
-        h = ambil(url)
+        print(f"      · hal {hal}")
+        h = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}&page={hal}", lapor=True)
         if not h:
-            break
+            # coba susunan parameter alternatif sebelum menganggap gagal
+            print("        coba bentuk URL alternatif")
+            h = ambil(f"{SINTA}/authors/profile/{sinta_id}?page={hal}&view={view}", lapor=True)
+        if not h:
+            gagal_beruntun += 1
+            if gagal_beruntun >= 2:
+                print(f"        berhenti: 2 halaman gagal berturut-turut")
+                break
+            santai()
+            continue
+        gagal_beruntun = 0
+
         batch = parse_artikel(h, sumber)
         if not batch:
+            print("        0 entri terbaca — kemungkinan halaman terakhir")
             break
-        baru = [a for a in batch if a["judul"] not in terlihat]
-        if not baru:
-            break                       # halaman mengulang isi yang sama
-        for a in baru:
+
+        baru_ini = [a for a in batch if a["judul"] not in terlihat]
+        for a in baru_ini:
             terlihat.add(a["judul"])
-        semua.extend(baru)
-        print(f"      {sumber} hal.{hal}: +{len(baru)}")
+        semua.extend(baru_ini)
+        print(f"        {len(batch)} entri, {len(baru_ini)} baru, total {len(semua)}")
+
+        if baru_ini:
+            kosong_beruntun = 0
+        else:
+            kosong_beruntun += 1
+            if kosong_beruntun >= 3:
+                print("        berhenti: 3 halaman tanpa judul baru")
+                break
+
+        if harapan and len(semua) >= harapan:
+            print(f"        berhenti: sudah mencapai {harapan} sesuai metrik SINTA")
+            break
+
         santai()
+
+    if harapan and len(semua) < harapan:
+        print(f"      ! {sumber}: terkumpul {len(semua)}, menurut SINTA ada {harapan}",
+              file=sys.stderr)
     return semua
 
 
@@ -332,6 +388,40 @@ def rakit(row, profil, artikel):
     }
 
 
+def periksa_halaman(sinta_id, view="scopus"):
+    """Bandingkan isi halaman 1, 2, dan 3 satu tab.
+
+    Menjawab pertanyaan: apakah ?page=2 benar-benar memberi entri berbeda,
+    atau SINTA mengabaikannya dan mengirim ulang halaman pertama?
+    """
+    print(f"Membandingkan halaman 1-3 tab '{view}' untuk SINTA {sinta_id}\n")
+    kumpulan = []
+    for hal in (1, 2, 3):
+        h = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}&page={hal}")
+        if not h:
+            print(f"  halaman {hal}: tidak terbaca"); kumpulan.append(set()); continue
+        a = parse_artikel(h, view)
+        judul = {x["judul"] for x in a}
+        kumpulan.append(judul)
+        print(f"  halaman {hal}: {len(a)} entri")
+        for x in a[:3]:
+            print(f"     · {(x['judul'] or '')[:64]}")
+        santai()
+
+    if kumpulan[0] and kumpulan[1]:
+        sama = len(kumpulan[0] & kumpulan[1])
+        print(f"\n  halaman 1 ∩ halaman 2 : {sama} judul sama dari {len(kumpulan[0])}")
+        if sama == len(kumpulan[0]):
+            print("  → ?page= DIABAIKAN SINTA. Paginasi butuh cara lain.")
+        elif sama:
+            print("  → halaman tumpang tindih sebagian; urutan daftar tidak stabil.")
+        else:
+            print("  → paginasi bekerja normal.")
+    semua = set().union(*kumpulan) if kumpulan else set()
+    print(f"  total judul unik dari 3 halaman: {len(semua)}")
+    return 0
+
+
 def periksa(sinta_id):
     """Cek satu per satu tab SINTA dan laporkan apa yang terbaca.
 
@@ -378,6 +468,9 @@ def periksa(sinta_id):
 def main():
     if len(sys.argv) > 2 and sys.argv[1] == "--periksa":
         return periksa(sys.argv[2].strip())
+    if len(sys.argv) > 2 and sys.argv[1] == "--halaman":
+        return periksa_halaman(sys.argv[2].strip(),
+                               sys.argv[3].strip() if len(sys.argv) > 3 else "scopus")
 
     DATA.mkdir(exist_ok=True)
     with open(ROOT / "dosen.csv", newline="", encoding="utf-8") as f:
@@ -410,9 +503,13 @@ def main():
         profil = parse_profil(h)
         santai()
 
+        # SINTA menyebut jumlah artikel Scopus di tabel metrik — pakai sebagai
+        # patokan supaya paginasi tahu kapan benar-benar sudah lengkap.
+        harapan = {"scopus": ((profil.get("metrik") or {}).get("scopus") or {}).get("artikel")}
+
         artikel = []
         for view, sumber, _label in VIEWS:
-            artikel += ambil_semua_artikel(sid, view, sumber)
+            artikel += ambil_semua_artikel(sid, view, sumber, harapan.get(sumber))
             santai()
 
         rek = rakit(row, profil, artikel)
