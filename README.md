@@ -137,6 +137,18 @@ lebih besar daripada saat beta 2 dosen. Kalau mulai muncul HTTP 403/429 di log
 Actions, pindahkan eksekusi ke mesin lokal ber-IP Indonesia dengan
 `jalankan.sh` + cron — script-nya sama persis, tidak perlu diubah.
 
+## Templat Elementor bergaya v1.katur.online
+
+Tiga templat siap impor (Templates → Saved Templates → Import Templates), memakai Container:
+
+| Berkas | Isi |
+|---|---|
+| `elementor/katur-daftar-dosen.json` | Daftar dosen: kartu foto, saring Teknik Nuklir/Teknik Fisika, cari nama/bidang riset. Tautan ke profil lewat `data-profil="/dosen/{slug}/"`. |
+| `elementor/katur-profil-dosen.json` | Profil dosen: kartu kiri (foto, kontak, tautan), nama + pendidikan + bidang ilmu/riset, bagian "Tentang" yang kamu tulis sendiri, lalu data GitHub (skor, grafik, metrik, luaran). Cukup isi `data-slug` **sekali** di widget kartu; widget lain mengikutinya. Satu halaman untuk semua dosen juga bisa: kosongkan `data-slug`, buka `/halaman/?d=faridah`. |
+| `elementor/katur-statistik.json` | Statistik departemen bergaya bento (angka dari metrik SINTA), lalu daftar luaran yang bisa disaring per kategori/tahun/kata kunci. |
+
+Font, warna, dan ukuran mengikuti kit Elementor situs katur (Plus Jakarta Sans + Barlow; navy `#073C64`, lime `#C8E86D`). Widget memakai variabel global Elementor bila ada, dan nilai bawaan bila tidak. Data pendukung: `manual/dosen-info.csv` (pendidikan, bidang ilmu/riset, homepage; diambil dari halaman Dosen Tetap lama) dan kolom `foto_url` di `dosen.csv`.
+
 ## Input manual (luaran yang tidak ada di SINTA)
 
 Jurusan mengisi **satu berkas Excel** untuk seluruh dosen; isinya ditambahkan

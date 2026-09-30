@@ -16,6 +16,7 @@ Dijalankan otomatis di akhir build.py; bisa juga sendiri:
     python3 scripts/agregat.py
 """
 
+import csv
 import json
 import pathlib
 import re
@@ -60,6 +61,7 @@ def main():
         return 1
 
     gabung, dosen_ringkas = {}, []
+    semua_lengkap = True
 
     for f in berkas:
         try:
@@ -69,13 +71,22 @@ def main():
             continue
 
         nama = d.get("nama") or d.get("nama_sinta") or d["slug"]
+        if not (d.get("batas_daftar") or {}).get("lengkap"):
+            semua_lengkap = False
+        rk = d.get("ringkas") or {}
         dosen_ringkas.append({
             "slug": d["slug"], "nama": nama, "gelar": d.get("gelar"),
-            "sinta_id": d.get("sinta_id"),
+            "jabatan": d.get("jabatan"), "prodi": d.get("prodi"),
+            "email": d.get("email"), "foto_url": d.get("foto_url"),
+            "sinta_id": d.get("sinta_id"), "ada_data": True,
             "skor_sinta": (d.get("skor") or {}).get("overall"),
             "publikasi": len(d.get("publikasi") or []),
-            "sitasi_scopus": (d.get("ringkas") or {}).get("sitasi_scopus"),
-            "hindex_scopus": (d.get("ringkas") or {}).get("hindex_scopus"),
+            "artikel_scopus": rk.get("publikasi_scopus"),
+            "sitasi_scopus": rk.get("sitasi_scopus"),
+            "hindex_scopus": rk.get("hindex_scopus"),
+            "sitasi_scholar": rk.get("sitasi_scholar"),
+            "hindex_scholar": rk.get("hindex_scholar"),
+            "kuartil": (d.get("grafik") or {}).get("kuartil"),
         })
 
         for a in d.get("publikasi") or []:
@@ -106,6 +117,26 @@ def main():
                             "akreditasi", "jenis_paten", "dana", "isbn"):
                     if not e.get(kol) and a.get(kol):
                         e[kol] = a[kol]
+
+    # Dosen di dosen.csv yang belum pernah di-scrape tetap masuk daftar (tanpa statistik),
+    # supaya halaman daftar dosen lengkap sejak awal.
+    ada = {x["slug"] for x in dosen_ringkas}
+    try:
+        with open(ROOT / "dosen.csv", newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                sl = (r.get("slug") or "").strip()
+                if sl and sl not in ada:
+                    dosen_ringkas.append({
+                        "slug": sl, "nama": (r.get("nama") or "").strip(),
+                        "gelar": (r.get("gelar") or "").strip() or None,
+                        "jabatan": (r.get("jabatan") or "").strip() or None,
+                        "prodi": None, "email": (r.get("email") or "").strip() or None,
+                        "foto_url": (r.get("foto_url") or "").strip() or None,
+                        "sinta_id": (r.get("sinta_id") or "").strip() or None,
+                        "ada_data": False,
+                    })
+    except OSError:
+        pass
 
     entri = list(gabung.values())
     for e in entri:
@@ -151,10 +182,51 @@ def main():
         if e["kuartil"]:
             kuartil[e["kuartil"]] = kuartil.get(e["kuartil"], 0) + 1
 
+    # Info manual per dosen (pendidikan, bidang ilmu/riset, homepage) dari manual/dosen-info.csv.
+    # "kelompok" (Teknik Nuklir/Teknik Fisika) diturunkan dari awal bidang ilmu.
+    info = {}
+    try:
+        with open(ROOT / "manual" / "dosen-info.csv", newline="", encoding="utf-8") as f:
+            info = {r["slug"]: r for r in csv.DictReader(f)}
+    except OSError:
+        pass
+    for x in dosen_ringkas:
+        i = info.get(x["slug"]) or {}
+        bi = (i.get("bidang_ilmu") or "").strip()
+        x["pendidikan"] = (i.get("pendidikan") or "").strip() or None
+        x["bidang_ilmu"] = bi or None
+        x["bidang_riset"] = (i.get("bidang_riset") or "").strip() or None
+        x["lainnya"] = [t.strip() for t in (i.get("lainnya") or "").split("|") if t.strip()]
+        x["homepage"] = (i.get("homepage") or "").strip() or None
+        x["kelompok"] = ("Teknik Nuklir" if bi.lower().startswith("rekayasa nuklir") else
+                         "Teknik Fisika" if bi.lower().startswith("rekayasa fisika") else None)
+
+    terdata = [x for x in dosen_ringkas if x.get("ada_data")]
+    jumlah = lambda k: sum(x.get(k) or 0 for x in terdata)
+    skor = [x["skor_sinta"] for x in terdata if x.get("skor_sinta")]
+    q_total = {}
+    for x in terdata:
+        for q in x.get("kuartil") or []:
+            q_total[q["nama"]] = q_total.get(q["nama"], 0) + (q.get("jumlah") or 0)
+    # Semua angka di bawah datang dari metrik/grafik SINTA per dosen (seumur karier),
+    # BUKAN dari daftar 10 entri. Dijumlahkan per profil, jadi paper bersama terhitung per dosen.
+    statistik = {
+        "dosen_terdata": len(terdata),
+        "artikel_scopus": jumlah("artikel_scopus"),
+        "sitasi_scopus": jumlah("sitasi_scopus"),
+        "sitasi_scholar": jumlah("sitasi_scholar"),
+        "hindex_scopus_maks": max([x.get("hindex_scopus") or 0 for x in terdata] or [0]),
+        "skor_sinta_maks": max(skor or [0]),
+        "skor_sinta_rata": round(sum(skor) / len(skor)) if skor else 0,
+        "kuartil": [{"nama": k, "jumlah": q_total[k]}
+                    for k in ("Q1", "Q2", "Q3", "Q4", "No-Q") if k in q_total],
+    }
     dosen_ringkas.sort(key=lambda x: (x["nama"] or "").lower())
     (OUT / "ringkas.json").write_text(json.dumps({
         "diperbarui": time.strftime("%Y-%m-%d"),
         "jumlah_dosen": len(dosen_ringkas),
+        "daftar_lengkap": semua_lengkap and bool(dosen_ringkas),
+        "statistik": statistik,
         "total": {
             "semua": len(entri),
             "publikasi_ilmiah": sum(1 for e in entri if e["kategori"] in ilmiah),

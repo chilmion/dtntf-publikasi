@@ -1,6 +1,7 @@
 {
  "diperbarui": "2026-09-30",
  "jumlah_dosen": 2,
+ "daftar_lengkap": false,
  "total": {
   "semua": 351,
   "publikasi_ilmiah": 268,

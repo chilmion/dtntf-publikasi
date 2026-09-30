@@ -22,3 +22,12 @@ saat diminta (tidak tampil di layar tidak apa-apa). Token tersimpan di komputerm
 
 PENTING: matikan VPN saat menjalankan "Perbarui Data SINTA" agar terbaca sebagai IP Indonesia.
 Pertama kali, pilih uji 2 dosen (tekan Enter). Kalau berhasil, jalankan lagi dan ketik: semua
+
+COOKIE LOGIN SINTA (opsional, supaya daftar luaran LENGKAP, bukan 10 terbaru):
+1. Di Chrome, login ke SINTA seperti biasa, lalu buka profil dosen mana saja.
+2. Tekan Cmd+Option+I (membuka DevTools) → tab "Network" → muat ulang halaman (Cmd+R).
+3. Klik baris paling atas (nama profil) → tab "Headers" → gulir ke "Request Headers"
+   → cari baris "cookie:". Klik kanan nilainya → "Copy value".
+4. Jalankan "Perbarui Data SINTA", tempel saat diminta. Cookie ini menggantikan kata sandi
+   dan kedaluwarsa sendiri; kalau kedaluwarsa, skrip menghapusnya dan meminta yang baru.
+Jangan bagikan cookie ke siapa pun (sama sensitifnya dengan kata sandi selama masih berlaku).

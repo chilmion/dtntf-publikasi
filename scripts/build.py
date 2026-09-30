@@ -71,6 +71,39 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 BISKUIT = http.cookiejar.CookieJar()
 OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(BISKUIT))
 
+# Cookie login SINTA (opsional). Pengunjung yang login bisa melihat lebih dari 10
+# entri per tab. Cookie disalin dari browser (bukan kata sandi) ke
+# ~/.dtntf-sinta-cookie atau env SINTA_COOKIE; TIDAK PERNAH masuk repo.
+# Kalau env SINTA_COOKIE ada (walau kosong), file diabaikan.
+COOKIE_FILE = pathlib.Path.home() / ".dtntf-sinta-cookie"
+LOGIN_AKTIF = False
+
+
+def muat_cookie():
+    if "SINTA_COOKIE" in os.environ:
+        c = os.environ["SINTA_COOKIE"]
+    else:
+        try:
+            c = COOKIE_FILE.read_text(encoding="utf-8")
+        except OSError:
+            return ""
+    return re.sub(r"(?i)^\s*cookie:\s*", "", c.strip()).strip()
+
+
+def pasang_cookie(teks):
+    """'a=1; b=2' → cookie jar (dikirim hanya ke domain SINTA). Mengembalikan jumlahnya."""
+    n = 0
+    for bagian in teks.split(";"):
+        if "=" not in bagian:
+            continue
+        nama, nilai = bagian.strip().split("=", 1)
+        BISKUIT.set_cookie(http.cookiejar.Cookie(
+            0, nama.strip(), nilai.strip(), None, False, "sinta.kemdiktisaintek.go.id",
+            True, False, "/", True, True, None, True, None, None, {}))
+        n += 1
+    return n
+
+
 
 # ---------------------------------------------------------------- pengambilan
 
@@ -196,10 +229,11 @@ def parse_profil(h):
 
     # grafik Summary (kuartil, research output, per tahun) — dari skrip inline echarts
     d["grafik"] = grafik.ekstrak(h)
-    if not d["grafik"]:
+    if len(d["grafik"]) < 3:
         p = grafik.simpan_diagnosa(h)
         if p:
-            print(f"      ! data grafik tidak ditemukan; laporan mentah ditulis ke {p.name}")
+            ada = ", ".join(d["grafik"]) or "tidak ada"
+            print(f"      ! data grafik belum lengkap (terbaca: {ada}); laporan mentah ditulis ke {p.name}")
     return d
 
 
@@ -305,12 +339,17 @@ def ambil_semua_artikel(sinta_id, view, sumber, harapan=None):
 
     # Buka tab tanpa nomor halaman dulu agar cookie sesi terbentuk, sama
     # seperti orang yang mengklik tab itu di browser sebelum pindah halaman.
-    ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}")
+    # Hasilnya sekaligus dipakai sebagai halaman 1 (isinya sama dengan &page=1),
+    # jadi tidak perlu meminta halaman yang sama dua kali.
+    awal = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}", lapor=True)
     santai()
 
     for hal in range(1, MAKS_HALAMAN + 1):
         print(f"      · hal {hal}")
-        h = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}&page={hal}", lapor=True)
+        if hal == 1 and awal:
+            h = awal
+        else:
+            h = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}&page={hal}", lapor=True)
         if not h:
             # coba susunan parameter alternatif sebelum menganggap gagal
             print("        coba bentuk URL alternatif")
@@ -335,12 +374,17 @@ def ambil_semua_artikel(sinta_id, view, sumber, harapan=None):
         semua.extend(baru_ini)
         print(f"        {len(batch)} entri, {len(baru_ini)} baru, total {len(semua)}")
 
+        if len(batch) < 10:
+            print("        kurang dari 10 entri — halaman terakhir")
+            break
+
         if baru_ini:
             kosong_beruntun = 0
         else:
+            # Tanpa login SINTA mengabaikan ?page= dan mengulang 10 entri yang sama.
             kosong_beruntun += 1
-            if kosong_beruntun >= 3:
-                print("        berhenti: 3 halaman tanpa judul baru")
+            if kosong_beruntun >= 1:
+                print("        halaman ini hanya mengulang entri sebelumnya — berhenti")
                 break
 
         if harapan and len(semua) >= harapan:
@@ -432,7 +476,7 @@ def rakit(row, profil, artikel):
         # (tombol "View more" mengarah ke halaman login). Ditandai di sini supaya
         # widget bisa menyampaikannya apa adanya ke pembaca.
         "batas_daftar": {"sumber": "sinta", "per_kategori": 10,
-                         "lengkap": bool(SCOPUS_KEY)},
+                         "lengkap": bool(SCOPUS_KEY) or LOGIN_AKTIF},
         "tautan": {
             "sinta": f"{SINTA}/authors/profile/{sinta_id}",
             "scopus": (f"https://www.scopus.com/authid/detail.uri?authorId={row['scopus_id'].strip()}"
@@ -614,6 +658,24 @@ def scopus_publikasi(scopus_id, maks=200):
     return hasil
 
 
+def verifikasi_login(rows):
+    """True: ?page=2 memuat entri baru (login berfungsi). False: halaman 2 hanya mengulang
+    (cookie salah/kedaluwarsa). None: tak bisa dipastikan (semua dosen <10 entri Scopus)."""
+    for row in rows[:4]:
+        sid = row["sinta_id"].strip()
+        h1 = ambil(f"{SINTA}/authors/profile/{sid}/?view=scopus")
+        santai()
+        b1 = parse_artikel(h1, "scopus") if h1 else []
+        if len(b1) < 10:
+            continue
+        h2 = ambil(f"{SINTA}/authors/profile/{sid}/?view=scopus&page=2")
+        santai()
+        if not h2:
+            continue
+        b2 = parse_artikel(h2, "scopus")
+        return bool({a["judul"] for a in b2} - {a["judul"] for a in b1})
+    return None
+
 def main():
     if len(sys.argv) > 2 and sys.argv[1] == "--periksa":
         return periksa(sys.argv[2].strip())
@@ -638,6 +700,22 @@ def main():
         if not rows:
             print(f"Tidak ada dosen cocok dengan: {pilih}", file=sys.stderr)
             return
+
+    global LOGIN_AKTIF
+    cookie = muat_cookie()
+    if cookie:
+        print(f"Cookie login SINTA dipakai ({pasang_cookie(cookie)} nilai). Memeriksa apakah login berfungsi…")
+        v = verifikasi_login(rows)
+        LOGIN_AKTIF = v is True
+        if v:
+            print("  Login SINTA: AKTIF — daftar lengkap akan diambil.")
+        elif v is False:
+            print("  Login SINTA: TIDAK AKTIF (LOGIN_TIDAK_AKTIF) — cookie salah atau kedaluwarsa; "
+                  "memakai mode publik (10 entri per tab).")
+        else:
+            print("  Login SINTA: belum bisa dipastikan; daftar diambil sebisanya.")
+    else:
+        print("Tanpa cookie login: daftar dibatasi 10 entri terbaru per tab.")
 
     index, gagal = [], []
     for i, row in enumerate(rows, 1):
@@ -668,6 +746,22 @@ def main():
             santai()
 
         rek = rakit(row, profil, artikel)
+
+        # Pengaman: kalau hasil jauh lebih sedikit daripada data lama (mis. cookie
+        # kedaluwarsa di tengah jalan), pertahankan data lama.
+        f_lama = DATA / f"{slug}.json"
+        if f_lama.exists():
+            try:
+                lama_n = len([x for x in json.loads(f_lama.read_text(encoding="utf-8")).get("publikasi") or []
+                              if not x.get("manual")])
+            except Exception:
+                lama_n = 0
+            if lama_n >= 20 and len(rek["publikasi"]) < lama_n * 0.5:
+                print(f"      ! hanya {len(rek['publikasi'])} entri (sebelumnya {lama_n}); "
+                      "data lama dipertahankan")
+                gagal.append(slug)
+                santai()
+                continue
         (DATA / f"{slug}.json").write_text(
             json.dumps(rek, ensure_ascii=False, indent=1), encoding="utf-8")
 

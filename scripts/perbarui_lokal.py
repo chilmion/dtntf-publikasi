@@ -43,6 +43,9 @@ def pastikan_token():
     print("'Mini app unggah'): izin Contents = Read and write dan Actions = Read and write.")
     t = getpass.getpass("Tempel token di sini (tidak tampil di layar), lalu Enter: ").strip()
     kode, r = um.gh("GET", f"/repos/{REPO}", t)
+    if kode == 0:
+        sys.exit(f"Tidak bisa terhubung ke GitHub: {r.get('message')}. Ini bukan salah token; "
+                 "cek internet, lalu jalankan lagi.")
     if kode != 200:
         sys.exit(f"Token ditolak GitHub ({r.get('message', kode)}). Periksa akses repo.")
     um.TOKEN_FILE.write_text(t)
@@ -82,6 +85,29 @@ def sinkron_dari_remote(t, remote):
         f.write_bytes(base64.b64decode(b["content"]))
         n += 1
     print(f"Folder lokal disamakan dengan GitHub ({n} berkas diperbarui).")
+
+
+COOKIE_FILE = pathlib.Path.home() / ".dtntf-sinta-cookie"
+
+
+def atur_cookie(args):
+    """Cookie login SINTA (bukan kata sandi). Disimpan lokal, tidak dikirim ke GitHub."""
+    if "--tanpa-cookie" in args:
+        os.environ["SINTA_COOKIE"] = ""       # abaikan file cookie
+        print("Mode tanpa login SINTA (10 entri terbaru per tab).")
+        return
+    if COOKIE_FILE.exists() and "--cookie-baru" not in args:
+        print("Memakai cookie login SINTA yang tersimpan.")
+        return
+    print("\nOpsional: login SINTA supaya daftar luaran LENGKAP (bukan hanya 10 terbaru).")
+    print("Login dulu di browser, lalu salin cookie (langkah di BACA-DULU.txt).")
+    c = getpass.getpass("Tempel cookie (tidak tampil di layar), atau tekan Enter untuk lewati: ").strip()
+    if c:
+        COOKIE_FILE.write_text(c)
+        os.chmod(COOKIE_FILE, 0o600)
+        print("Cookie tersimpan di komputer ini.")
+    else:
+        print("Dilewati: mode tanpa login.")
 
 
 def scrape(pilihan):
@@ -136,7 +162,10 @@ def kirim(t, head, base_tree, remote):
 
 
 def main():
-    arg = sys.argv[1].strip() if len(sys.argv) > 1 else ""
+    um.siapkan_ssl()
+    args = [x for x in sys.argv[1:] if x.startswith("--")]
+    pos = [x for x in sys.argv[1:] if not x.startswith("--")]
+    arg = pos[0].strip() if pos else ""
     if not arg:
         print("Uji dulu 2 dosen (faridah, widya-rosita; ±6 menit) atau ambil SEMUA dosen (±30–60 menit)?")
         j = input("Tekan Enter untuk uji 2 dosen, atau ketik 'semua': ").strip().lower()
@@ -147,7 +176,11 @@ def main():
     head, base_tree, remote = pohon_remote(t)
     sinkron_dari_remote(t, remote)
 
-    kode, ok, blok, _ = scrape(pilihan)
+    atur_cookie(args)
+    kode, ok, blok, teks = scrape(pilihan)
+    if "LOGIN_TIDAK_AKTIF" in teks and COOKIE_FILE.exists():
+        COOKIE_FILE.unlink()
+        print("\nCookie login tampak kedaluwarsa, jadi dihapus. Jalankan lagi untuk memasukkan cookie baru.")
     if kode != 0 or ok == 0:
         print("\nTidak ada dosen yang berhasil diambil, jadi tidak ada yang dikirim ke GitHub.")
         if blok:

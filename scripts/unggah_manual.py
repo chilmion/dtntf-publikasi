@@ -18,6 +18,7 @@ import base64
 import json
 import os
 import pathlib
+import subprocess
 import sys
 import tempfile
 import threading
@@ -45,6 +46,36 @@ def baca_token():
         return TOKEN_FILE.read_text().strip()
     except OSError:
         return ""
+
+
+def siapkan_ssl():
+    """Python buatan python.org di macOS sering belum punya sertifikat akar
+    ("CERTIFICATE_VERIFY_FAILED"). Kalau begitu, pakai sertifikat bawaan macOS
+    (keychain). SSL_CERT_FILE juga diwarisi proses anak (mis. build.py)."""
+    if os.environ.get("SSL_CERT_FILE"):
+        return
+    try:
+        urllib.request.urlopen(urllib.request.Request(
+            "https://api.github.com", headers={"User-Agent": "dtntf-unggah"}), timeout=20)
+        return
+    except urllib.error.HTTPError:
+        return                       # TLS beres; GitHub hanya membalas kode HTTP
+    except Exception as e:
+        if "CERTIFICATE_VERIFY_FAILED" not in str(e) or sys.platform != "darwin":
+            return
+    try:
+        pem = subprocess.run(
+            ["security", "find-certificate", "-a", "-p",
+             "/System/Library/Keychains/SystemRootCertificates.keychain",
+             "/Library/Keychains/System.keychain"],
+            capture_output=True, text=True, timeout=60).stdout
+        if "BEGIN CERTIFICATE" in pem:
+            f = pathlib.Path.home() / ".dtntf-ca.pem"
+            f.write_text(pem)
+            os.environ["SSL_CERT_FILE"] = str(f)
+            print("Sertifikat SSL disiapkan dari keychain macOS.")
+    except Exception:
+        pass
 
 
 def gh(metode, jalur, token, badan=None):
@@ -265,6 +296,7 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main():
+    siapkan_ssl()
     srv = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
     url = f"http://127.0.0.1:{PORT}"
     print(f"Mini app berjalan di {url}\nTekan Ctrl+C untuk berhenti.")
