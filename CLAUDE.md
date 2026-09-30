@@ -12,6 +12,9 @@ scraper Python (stdlib saja) -> JSON per dosen -> GitHub Pages -> widget HTML fe
 - `widget/publikasi.html` — profil dosen (`.dtntf-pub`), atribut `data-base`, `data-slug`, `data-tampil="skor,metrik,publikasi"`. Bagian foto/nama/bio dibuat manual di Elementor, hanya bagian statistik + daftar ini yang otomatis.
 - `widget/departemen.html` — halaman departemen (`.dtntf-dep`), atribut `data-base`, `data-profil` (sudah sederhana: tanpa filter/pencarian).
 - `.github/workflows/update.yml` — workflow_dispatch (input `dosen`, default `faridah,widya-rosita`), cron Senin 03:00 WIB, push ke `dosen.csv`/`scripts/**`/`widget/**`; commit `data/` lalu deploy Pages.
+- `scripts/manual.py` — gabung `manual/luaran.xlsx` (satu berkas Excel jurusan; templat `manual/templat-luaran.xlsx`, dibuat `scripts/buat_templat.py`) ke `data/<slug>.json` (entri bertanda `manual:true`, idempoten), lalu agregat. Dipanggil di `update.yml` setelah build dan di `manual.yml` (cepat, dipicu push `manual/luaran.xlsx`).
+- `scripts/unggah_manual.py` — mini app lokal (127.0.0.1:8787) untuk unggah xlsx via GitHub API dengan PAT tersimpan di `~/.dtntf-publikasi-token`. JANGAN pernah menaruh token di browser/halaman publik.
+- `scripts/buat_elementor.py` — buat `elementor/*.json` (templat Container siap impor) dari `widget/*.html`; jalankan ulang tiap widget berubah.
 - `jalankan.sh` — cadangan: cron di mesin lokal ber-IP Indonesia.
 - `uji-*.html` — halaman uji lokal (`python3 -m http.server`).
 

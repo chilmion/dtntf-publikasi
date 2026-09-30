@@ -112,15 +112,10 @@ def baca_csv(path):
     return list(csv.reader(io.StringIO(teks), dialek))
 
 
-def baca_baris():
-    for nama, fungsi in (("luaran.xlsx", baca_xlsx), ("luaran.csv", baca_csv)):
-        p = MANUAL / nama
-        if p.exists():
-            print(f"Membaca {p.relative_to(ROOT)}")
-            semua = fungsi(p)
-            break
-    else:
-        return None
+def baca_berkas(path):
+    """Baca .xlsx / .csv → list of dict (kunci = nama kolom huruf kecil, plus _baris)."""
+    path = pathlib.Path(path)
+    semua = baca_xlsx(path) if path.suffix.lower() == ".xlsx" else baca_csv(path)
     if not semua:
         return []
     kepala = [re.sub(r"\s+", "_", (h or "").strip().lower()) for h in semua[0]]
@@ -132,6 +127,15 @@ def baca_baris():
             rec["_baris"] = no
             hasil.append(rec)
     return hasil
+
+
+def baca_baris():
+    for nama in ("luaran.xlsx", "luaran.csv"):
+        p = MANUAL / nama
+        if p.exists():
+            print(f"Membaca {p.relative_to(ROOT)}")
+            return baca_berkas(p)
+    return None
 
 
 # ---------------------------------------------------------------- gabung
@@ -146,13 +150,9 @@ def peta_dosen():
     return p
 
 
-def main():
-    baris = baca_baris()
-    if baris is None:
-        print("Tidak ada manual/luaran.xlsx atau manual/luaran.csv — dilewati.")
-        return 0
-
-    peta, masalah, per_dosen = peta_dosen(), [], {}
+def validasi(baris):
+    """→ (per_dosen {slug: [entri]}, masalah [str], jumlah_baris_valid)"""
+    peta, masalah, per_dosen, valid = peta_dosen(), [], {}, 0
     for r in baris:
         no = r["_baris"]
         jenis = JENIS.get(re.sub(r"\s+", " ", r.get("jenis", "").lower()).strip())
@@ -191,8 +191,20 @@ def main():
             "dana": r.get("dana") or None, "isbn": r.get("isbn") or None,
             "kategori": kategori, "manual": True,
         }
+        valid += 1
         for s in slugs:
             per_dosen.setdefault(s, []).append(entri)
+    return per_dosen, masalah, valid
+
+
+def main():
+    baris = baca_baris()
+    if baris is None:
+        # tanpa berkas, entri manual lama tetap dibersihkan
+        print("Tidak ada manual/luaran.xlsx atau manual/luaran.csv.")
+        baris = []
+
+    per_dosen, masalah, _ = validasi(baris)
 
     # tulis ke tiap data/<slug>.json (bersihkan entri manual lama dulu)
     ditambah = dilewati = 0
