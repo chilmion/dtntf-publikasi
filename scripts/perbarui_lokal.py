@@ -111,13 +111,14 @@ def atur_cookie(args):
 
 
 def scrape(pilihan):
-    cmd = [sys.executable, str(ROOT / "scripts" / "build.py")] + ([pilihan] if pilihan else [])
+    # -u: tanpa penampung, supaya progres ([n/38]) langsung tampil di jendela.
+    cmd = [sys.executable, "-u", str(ROOT / "scripts" / "build.py")] + ([pilihan] if pilihan else [])
     print("\nMengambil data dari SINTA. Jeda antar permintaan disengaja (sopan ke SINTA); mohon tunggu.\n")
     p = subprocess.Popen(cmd, cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
-                         text=True, bufsize=1)
+                         text=True, bufsize=1, env=dict(os.environ, PYTHONUNBUFFERED="1"))
     isi = []
     for baris in p.stdout:
-        print(baris, end="")
+        print(baris, end="", flush=True)
         isi.append(baris)
     p.wait()
     teks = "".join(isi)
