@@ -119,7 +119,7 @@ Hapus salah satu kalau tidak mau ditampilkan, misalnya
 
 ```html
 data-base="https://<akun>.github.io/<repo>/data"
-data-profil="/dosen/{slug}/"
+data-profil="/{slug}/"
 ```
 
 `data-profil` membuat nama dosen di tiap entri jadi tautan ke halaman
@@ -142,7 +142,8 @@ Tiga templat siap impor (Templates → Saved Templates → Import Templates), me
 
 | Berkas | Isi |
 |---|---|
-| `elementor/katur-daftar-dosen.json` | Daftar dosen: kartu foto, saring Teknik Nuklir/Teknik Fisika, cari nama/bidang riset. Tautan ke profil lewat `data-profil="/dosen/{slug}/"`. |
+| `elementor/katur-daftar-dosen.json` | Daftar dosen: kartu foto, saring Teknik Nuklir/Teknik Fisika, cari nama/bidang riset. Tautan ke profil lewat `data-profil="/{slug}/"`. |
+| `elementor/katur-daftar-dosen.json` (bisa diedit) | Daftar dosen dengan **kartu yang bisa diedit**: tiap dosen = satu container berisi Image (foto), Heading (nama), widget HTML (kelompok, gelar, bidang ilmu, skor & sitasi SINTA dari GitHub), dan tombol "Selengkapnya →" (isi tautan profil sendiri; bawaan `/<slug>/`). Ada bilah cari + filter. Dibuat `scripts/buat_daftar_dosen.py`. Versi serba-otomatis (satu widget) ada di `katur-daftar-dosen-otomatis.json`. |
 | `elementor/katur-profil-dosen.json` | Profil dosen: kartu kiri (foto, kontak, tautan), nama + pendidikan + bidang ilmu/riset, bagian "Tentang" yang kamu tulis sendiri, lalu data GitHub (skor, grafik, metrik, luaran). Cukup isi `data-slug` **sekali** di widget kartu; widget lain mengikutinya. Satu halaman untuk semua dosen juga bisa: kosongkan `data-slug`, buka `/halaman/?d=faridah`. |
 | `elementor/katur-statistik.json` | Statistik departemen bergaya bento (angka dari metrik SINTA), lalu daftar luaran yang bisa disaring per kategori/tahun/kata kunci. |
 

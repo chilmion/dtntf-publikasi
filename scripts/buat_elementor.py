@@ -7,7 +7,8 @@ Elementor → Templates → Saved Templates → Import Templates.
   elementor/departemen.json     kerangka halaman departemen + widget departemen
 
 Gaya v1.katur.online (font/warna/ukuran diambil dari kit Elementor situs itu):
-  elementor/katur-daftar-dosen.json   halaman daftar dosen (kartu, saring prodi + cari)
+  elementor/katur-daftar-dosen-otomatis.json   daftar dosen SEMUA otomatis (satu widget HTML)
+  elementor/katur-daftar-dosen.json   daftar dosen kartu BISA DIEDIT (dibuat scripts/buat_daftar_dosen.py)
   elementor/katur-profil-dosen.json   halaman profil dosen (kartu kiri, info, bio manual, data GitHub)
   elementor/katur-statistik.json      halaman statistik: bento + daftar luaran yang bisa disaring
 
@@ -182,6 +183,6 @@ if __name__ == "__main__":
     OUT.mkdir(exist_ok=True)
     tulis("profil-dosen.json", "DTNTF – Profil Dosen + Publikasi", profil())
     tulis("departemen.json", "DTNTF – Halaman Publikasi Departemen", departemen())
-    tulis("katur-daftar-dosen.json", "DTNTF Katur – Daftar Dosen", katur_daftar())
+    tulis("katur-daftar-dosen-otomatis.json", "DTNTF Katur – Daftar Dosen (otomatis penuh)", katur_daftar())
     tulis("katur-profil-dosen.json", "DTNTF Katur – Profil Dosen", katur_profil())
     tulis("katur-statistik.json", "DTNTF Katur – Statistik Publikasi", katur_statistik())
