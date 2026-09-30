@@ -146,6 +146,8 @@ Tiga templat siap impor (Templates → Saved Templates → Import Templates), me
 | `elementor/katur-profil-dosen.json` | Profil dosen: kartu kiri (foto, kontak, tautan), nama + pendidikan + bidang ilmu/riset, bagian "Tentang" yang kamu tulis sendiri, lalu data GitHub (skor, grafik, metrik, luaran). Cukup isi `data-slug` **sekali** di widget kartu; widget lain mengikutinya. Satu halaman untuk semua dosen juga bisa: kosongkan `data-slug`, buka `/halaman/?d=faridah`. |
 | `elementor/katur-statistik.json` | Statistik departemen bergaya bento (angka dari metrik SINTA), lalu daftar luaran yang bisa disaring per kategori/tahun/kata kunci. |
 
+**38 templat profil siap impor (satu per dosen):** `elementor/profil/<slug>.json`, dibuat `python3 scripts/buat_profil_dosen.py`. Foto, nama, gelar, pendidikan, bidang ilmu/riset, keanggotaan, dan kontak sudah terisi (dari halaman Dosen Tetap lama) sebagai widget Elementor biasa yang bisa diedit; widget data GitHub di bawahnya sudah memakai `data-slug` dosen itu. Sumber isi: `manual/dosen-info.csv` + `dosen.csv`.
+
 Font, warna, dan ukuran mengikuti kit Elementor situs katur (Plus Jakarta Sans + Barlow; navy `#073C64`, lime `#C8E86D`). Widget memakai variabel global Elementor bila ada, dan nilai bawaan bila tidak. Data pendukung: `manual/dosen-info.csv` (pendidikan, bidang ilmu/riset, homepage; diambil dari halaman Dosen Tetap lama) dan kolom `foto_url` di `dosen.csv`.
 
 ## Input manual (luaran yang tidak ada di SINTA)
