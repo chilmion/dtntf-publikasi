@@ -194,11 +194,14 @@
         }).join('') + '</div>';
     }).join('');
 
-    h.push('<div class="dd-blok"><h3 class="dd-judul">Luaran terbaru per tahun</h3>' +
-      '<div class="dd-catatan">Angka statistik di atas mencakup seluruh karier. Daftar di bawah diambil ' +
-      'otomatis dari profil SINTA tiap dosen, yang hanya menampilkan 10 entri terbaru per kategori ' +
-      'bagi pengunjung umum, sehingga karya lama belum seluruhnya tercakup. Entri jurnal nasional ' +
-      'berasal dari indeks Garuda yang dicocokkan SINTA berdasarkan nama penulis.</div>' +
+    h.push('<div class="dd-blok"><h3 class="dd-judul">' + (d.daftar_lengkap ? 'Luaran per tahun' : 'Luaran terbaru per tahun') + '</h3>' +
+      (d.daftar_lengkap
+        ? '<div class="dd-catatan">Entri jurnal nasional berasal dari indeks Garuda yang dicocokkan SINTA ' +
+          'berdasarkan nama penulis.</div>'
+        : '<div class="dd-catatan">Angka statistik di atas mencakup seluruh karier. Daftar di bawah diambil ' +
+          'otomatis dari profil SINTA tiap dosen, yang hanya menampilkan 10 entri terbaru per kategori ' +
+          'bagi pengunjung umum, sehingga karya lama belum seluruhnya tercakup. Entri jurnal nasional ' +
+          'berasal dari indeks Garuda yang dicocokkan SINTA berdasarkan nama penulis.</div>') +
       (blok || '<p style="color:var(--dd-ink-2)">Belum ada luaran.</p>') + '</div>');
 
     h.push('<div class="dd-kaki">Diperbarui otomatis dari SINTA · ' + esc(d.diperbarui || '') + '</div>');

@@ -335,6 +335,7 @@
     // ---------- daftar publikasi terbaru ----------
     var pub = d.publikasi || [];
     if (mau('publikasi') && pub.length) {
+      var lengkap = !!(d.batas_daftar && d.batas_daftar.lengkap);
       var perSumber = {};
       pub.forEach(function (p) { (perSumber[p.sumber] = perSumber[p.sumber] || []).push(p); });
 
@@ -344,11 +345,11 @@
             return (b.tahun || 0) - (a.tahun || 0) || (b.sitasi || 0) - (a.sitasi || 0);
           });
           return '<div class="dp-kat"><span class="dp-kat-nama">' + esc(NAMA_KATEGORI[k] || k) + '</span>' +
-            '<span class="dp-kat-n">' + daftar.length + ' terbaru</span></div>' +
+            '<span class="dp-kat-n">' + daftar.length + (lengkap ? ' luaran' : ' terbaru') + '</span></div>' +
             daftar.map(kartuPub).join('');
         }).join('');
 
-      h.push('<div class="dp-blok"><h3 class="dp-judul">Luaran terbaru</h3>' + isi +
+      h.push('<div class="dp-blok"><h3 class="dp-judul">' + (lengkap ? 'Daftar luaran' : 'Luaran terbaru') + '</h3>' + isi +
         catatanBatas(d) + '</div>');
     }
 

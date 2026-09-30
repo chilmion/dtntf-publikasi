@@ -60,6 +60,7 @@ def main():
         return 1
 
     gabung, dosen_ringkas = {}, []
+    semua_lengkap = True
 
     for f in berkas:
         try:
@@ -69,6 +70,8 @@ def main():
             continue
 
         nama = d.get("nama") or d.get("nama_sinta") or d["slug"]
+        if not (d.get("batas_daftar") or {}).get("lengkap"):
+            semua_lengkap = False
         dosen_ringkas.append({
             "slug": d["slug"], "nama": nama, "gelar": d.get("gelar"),
             "sinta_id": d.get("sinta_id"),
@@ -155,6 +158,7 @@ def main():
     (OUT / "ringkas.json").write_text(json.dumps({
         "diperbarui": time.strftime("%Y-%m-%d"),
         "jumlah_dosen": len(dosen_ringkas),
+        "daftar_lengkap": semua_lengkap and bool(dosen_ringkas),
         "total": {
             "semua": len(entri),
             "publikasi_ilmiah": sum(1 for e in entri if e["kategori"] in ilmiah),

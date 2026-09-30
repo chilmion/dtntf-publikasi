@@ -19,7 +19,7 @@ scraper Python (stdlib saja) -> JSON per dosen -> GitHub Pages -> widget HTML fe
 - `uji-*.html` — halaman uji lokal (`python3 -m http.server`).
 
 ## Fakta penting tentang SINTA (jangan lupa)
-- Pengunjung tanpa login HANYA melihat 10 entri terbaru per tab. "View more" -> /logins. `?page=N` tidak membantu. JANGAN otomatisasi login.
+- Pengunjung tanpa login HANYA melihat 10 entri terbaru per tab. "View more" -> /logins. `?page=N` tidak membantu. JANGAN otomatisasi login DENGAN KATA SANDI. Keputusan user (30 Sep 2026): boleh pakai COOKIE sesi yang user salin sendiri dari browser (`~/.dtntf-sinta-cookie` atau env `SINTA_COOKIE`; tidak pernah masuk repo/log). `build.py` memverifikasi cookie (?page=2 harus memuat entri baru) dan mengisi `batas_daftar.lengkap`; data lama dipertahankan bila hasil <50% dari sebelumnya.
 - Tabel metrik `.stat-table` (Article, Citation, Cited Doc, H-Index, i10, G-Index untuk Scopus/GScholar/WOS) dan kartu skor `.pr-num`/`.pr-txt` lengkap dan akurat seumur karier.
 - Donat kuartil, radar riset, dan artikel/tahun digambar echarts via JS. `scripts/grafik.py` mencoba mengambilnya dari skrip inline (pola pie/radar/line umum) → `grafik` di JSON dosen; widget `data-tampil=grafik`. FORMAT ASLI BELUM TERVERIFIKASI: bila kosong, `build.py` menulis `diagnostik-grafik.txt` — minta user mengirim berkas itu lalu cocokkan pola di grafik.py.
 - Slot `.ar-quartile` dipakai ulang tiap tab: Scopus "Q2 as Journal"; Garuda "Accred : Sinta 3"; Buku "ISBN : ..."; Paten jenis; PPM/Penelitian "Rp. ...". `.ar-cited` = sitasi hanya di Scopus. Lihat `LABEL_FIELD` di build.py.
