@@ -673,6 +673,7 @@ def main():
         print(f"      ✓ {len(rek['publikasi'])} publikasi")
         santai()
 
+    n_berhasil = len(index)
     # Gabung dengan index lama supaya build sebagian tidak menghapus dosen lain.
     lama = {}
     f_index = DATA / "index.json"
@@ -691,7 +692,7 @@ def main():
         {"diperbarui": time.strftime("%Y-%m-%d"), "dosen": index},
         ensure_ascii=False, indent=1), encoding="utf-8")
 
-    print(f"\nSelesai: {len(index)} berhasil, {len(gagal)} gagal"
+    print(f"\nSelesai: {n_berhasil} berhasil, {len(gagal)} gagal"
           + (f" → {', '.join(gagal)}" if gagal else ""))
 
     # Bangun ulang agregat departemen dari seluruh JSON yang ada.

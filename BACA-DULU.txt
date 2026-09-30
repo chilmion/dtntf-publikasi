@@ -1,0 +1,24 @@
+PERBARUI DATA PUBLIKASI DTNTF — PANDUAN SINGKAT (Mac)
+
+Ada 2 tombol di folder ini:
+
+1) "Perbarui Data SINTA"  → mengambil data terbaru dari SINTA (dari komputermu,
+   karena SINTA memblokir server GitHub) lalu mengirimnya ke GitHub.
+2) "Unggah Luaran Manual" → membuka halaman untuk mengunggah Excel luaran dari jurusan.
+
+CARA MEMBUKA (pertama kali):
+- Klik KANAN pada berkas .command → pilih "Buka" (Open) → klik "Buka" lagi di peringatan.
+  Ini hanya perlu sekali. Kalau macOS menolak, buka aplikasi Terminal, ketik:
+      cd (lalu seret folder ini ke jendela Terminal) lalu tekan Enter, kemudian:
+      python3 scripts/perbarui_lokal.py
+- Kalau muncul tawaran memasang "command line developer tools", pilih Install
+  (perlu sekali, ±beberapa menit), lalu ulangi.
+
+TOKEN GITHUB (sekali saja, diminta saat pertama dijalankan):
+GitHub → foto profil → Settings → Developer settings → Personal access tokens →
+Fine-grained tokens → Generate new token. Repository access: hanya dtntf-publikasi.
+Permissions: Contents = Read and write; Actions = Read and write. Salin token, tempel
+saat diminta (tidak tampil di layar tidak apa-apa). Token tersimpan di komputermu saja.
+
+PENTING: matikan VPN saat menjalankan "Perbarui Data SINTA" agar terbaca sebagai IP Indonesia.
+Pertama kali, pilih uji 2 dosen (tekan Enter). Kalau berhasil, jalankan lagi dan ketik: semua
