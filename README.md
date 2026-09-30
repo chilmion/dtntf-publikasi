@@ -98,17 +98,20 @@ lain.
 ```html
 data-base="https://<akun>.github.io/<repo>/data"
 data-slug="faridah"
-data-tampil="skor,metrik,publikasi"
+data-tampil="skor,grafik,metrik,publikasi"
 ```
 
 `data-tampil` menentukan bagian mana yang muncul, dipisah koma:
 
 - `skor` — kartu skor SINTA;
+- `grafik` — ringkasan riset dari SINTA: donat kuartil artikel, radar luaran riset, artikel per tahun (butuh data grafik, lihat di bawah);
 - `metrik` — bar artikel, sitasi, h-index, dst. untuk Scopus/GScholar/WOS;
 - `publikasi` — daftar luaran terbaru per kategori.
 
 Hapus salah satu kalau tidak mau ditampilkan, misalnya
 `data-tampil="publikasi"` untuk daftar saja.
+
+**Data grafik.** SINTA menggambar grafik Summary lewat JavaScript, dan `scripts/grafik.py` mengambil datanya dari skrip di halaman profil. Format aslinya belum terverifikasi; kalau tidak ditemukan, `build.py` menulis `diagnostik-grafik.txt` (potongan skrip mentah) dan blok grafik disembunyikan otomatis sampai polanya dicocokkan.
 
 7. **Halaman departemen** (`/publikasi/`) — widget **HTML**, tempel
    `widget/departemen.html`, lalu ubah:
