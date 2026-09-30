@@ -17,6 +17,7 @@ scraper Python (stdlib saja) -> JSON per dosen -> GitHub Pages -> widget HTML fe
 - `scripts/buat_elementor.py` — buat `elementor/*.json` (templat Container siap impor) dari `widget/*.html`; jalankan ulang tiap widget berubah.
 - `widget/katur-*.html` — widget bergaya v1.katur.online (daftar dosen, statistik bento + daftar filter, profil: kartu/info/data). Token warna/tipografi diambil dari kit Elementor katur (`--e-global-*`, fallback literal). Templat: `elementor/katur-*.json` (dibuat `scripts/buat_elementor.py`). `manual/dosen-info.csv` = pendidikan/bidang ilmu/riset/homepage per dosen (dari halaman Dosen Tetap lama); `agregat.py` menurunkan `kelompok` (Teknik Nuklir/Fisika) dan memasukkan semua dosen di dosen.csv ke `ringkas.json`.
 - `scripts/buat_profil_dosen.py` — 38 templat profil per dosen (`elementor/profil/<slug>.json`) dari `manual/dosen-info.csv` (kolom `tautan` = `Label::URL ;; ...`) + `dosen.csv` (foto_url dari tf.ugm.ac.id).
+- `scripts/buat_daftar_dosen.py` — `elementor/katur-daftar-dosen.json`: kartu dosen EDITABLE (container per dosen: Image + Heading + widget HTML `katur-dosen-info.html` + Button tautan profil), disaring widget `katur-dosen-filter.html` lewat kelas CSS `kt-kartu-dosen` / `kt-kel-*` (skrip filter harus membaca kartu setelah DOM siap, karena kartu ada di bawahnya).
 - `jalankan.sh` — cadangan: cron di mesin lokal ber-IP Indonesia.
 - `uji-*.html` — halaman uji lokal (`python3 -m http.server`).
 
