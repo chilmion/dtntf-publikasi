@@ -85,6 +85,7 @@
 .dtntf-dep .dd-meta{font-size:.76rem;color:var(--dd-ink-3);margin-top:3px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .dtntf-dep .dd-tag{background:var(--dd-surface-2);border-radius:4px;padding:1px 7px}
 .dtntf-dep .dd-tag-q{background:var(--dd-navy-soft);color:var(--dd-navy);font-weight:600}
+.dtntf-dep .dd-tag-alt{background:#f1f6e2;color:#4a6115;font-weight:600}
 
 .dtntf-dep .dd-lagi{display:block;width:100%;margin-top:10px;padding:12px;background:var(--dd-surface-2);
   border:1px solid var(--dd-line);border-radius:8px;cursor:pointer;font-size:.87rem;
@@ -92,6 +93,9 @@
 .dtntf-dep .dd-lagi:hover{background:var(--dd-navy-soft);border-color:var(--dd-navy)}
 .dtntf-dep .dd-lagi[disabled]{opacity:.6;cursor:default}
 .dtntf-dep .dd-kaki{font-size:.73rem;color:var(--dd-ink-3);margin-top:24px;text-align:right}
+.dtntf-dep .dd-catatan{font-size:.78rem;color:var(--dd-ink-2);background:var(--dd-surface-2);
+  border-left:3px solid var(--dd-lime);border-radius:0 8px 8px 0;padding:10px 14px;margin:16px 0}
+.dtntf-dep .dd-catatan a{color:var(--dd-navy)}
 
 @media (max-width:600px){ .dtntf-dep .dd-stat-angka{font-size:1.45rem} }
 </style>
@@ -143,6 +147,16 @@
       .then(function () { semuaTerunduh = true; });
   }
 
+  function lencana(p) {
+    if (p.kuartil) return { teks: p.kuartil, kelas: 'dd-tag-q' };
+    if (p.akreditasi && !/unknown/i.test(p.akreditasi))
+      return { teks: p.akreditasi, kelas: 'dd-tag-q' };
+    if (p.jenis_paten) return { teks: p.jenis_paten, kelas: 'dd-tag-alt' };
+    if (p.dana) return { teks: p.dana, kelas: 'dd-tag-alt' };
+    if (p.isbn) return { teks: 'ISBN ' + p.isbn, kelas: '' };
+    return null;
+  }
+
   function batang(data, ambilNilai, label, onKlik) {
     if (!data || data.length < 2) return '';
     var W = 100, H = 100, n = data.length;
@@ -182,9 +196,10 @@
                                 .slice().sort(function (a, b) { return a.tahun - b.tahun; });
     h.push('<div class="dd-blok"><div class="dd-dua">' +
       '<div><h3 class="dd-judul">Luaran per tahun</h3>' +
-      '<div class="dd-chart-judul">Jumlah luaran</div>' +
+      '<div class="dd-chart-judul">Jumlah luaran yang tercakup' +
+      '<span style="font-weight:400;color:var(--dd-ink-3)"> — bukan total keseluruhan</span></div>' +
       batang(kronologis, function (t) { return t.jumlah; }, 'luaran') + '</div>' +
-      '<div><h3 class="dd-judul">Komposisi luaran</h3><div class="dd-komposisi">' +
+      '<div><h3 class="dd-judul">Komposisi luaran yang tercakup</h3><div class="dd-komposisi">' +
       (d.per_kategori || []).map(function (k) {
         var maks = d.per_kategori[0].jumlah || 1;
         return '<div><div class="dd-komp-baris"><span>' + esc(k.nama) + '</span>' +
@@ -205,7 +220,12 @@
       (d.dosen || []).map(function (x) {
         return '<option value="' + esc(x.slug) + '">' + esc(x.nama) + '</option>';
       }).join('') + '</select>' +
-      '</div><div class="dd-hitung"></div><div class="dd-daftar"></div>' +
+      '</div><div class="dd-hitung"></div>' +
+      '<div class="dd-catatan">Daftar diambil otomatis dari profil SINTA tiap dosen. ' +
+      'SINTA membatasi tampilan 10 entri terbaru per kategori bagi pengunjung umum, ' +
+      'sehingga karya lama belum seluruhnya tercakup. Entri jurnal nasional berasal dari ' +
+      'indeks Garuda yang dicocokkan SINTA berdasarkan nama penulis.</div>' +
+      '<div class="dd-daftar"></div>' +
       '<button class="dd-lagi" type="button">Muat tahun sebelumnya</button></div>');
 
     h.push('<div class="dd-kaki">Ditarik otomatis dari SINTA · ' + esc(d.diperbarui || '') +
@@ -240,7 +260,8 @@
         (e.venue ? ' <span class="dd-entri-venue">' + esc(e.venue) + '</span>' : '') +
         (e.tahun ? ', ' + e.tahun : '') + '.' +
         '<div class="dd-meta">' +
-        (e.kuartil ? '<span class="dd-tag dd-tag-q">' + esc(e.kuartil) + '</span>' : '') +
+        (lencana(e) ? '<span class="dd-tag ' + lencana(e).kelas + '">' +
+            esc(lencana(e).teks) + '</span>' : '') +
         '<span class="dd-tag">' + esc(e.kategori) + '</span>' +
         (e.sitasi ? '<span>' + num(e.sitasi) + ' sitasi</span>' : '') +
         (e.dosen.length > 1 ? '<span>' + e.dosen.length + ' dosen DTNTF</span>' : '') +

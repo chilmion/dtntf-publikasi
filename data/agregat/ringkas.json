@@ -1,26 +1,26 @@
 {
- "diperbarui": "2026-09-27",
+ "diperbarui": "2026-09-14",
  "jumlah_dosen": 2,
  "total": {
-  "semua": 80,
-  "publikasi_ilmiah": 34,
-  "sitasi": 212,
+  "semua": 56,
+  "publikasi_ilmiah": 23,
+  "sitasi": 29,
   "paten": 10,
-  "ppm": 22,
-  "penelitian": 14
+  "ppm": 14,
+  "penelitian": 9
  },
  "per_kategori": [
   {
    "nama": "Jurnal Internasional",
-   "jumlah": 11
+   "jumlah": 5
   },
   {
    "nama": "Prosiding Internasional",
-   "jumlah": 6
+   "jumlah": 3
   },
   {
    "nama": "Book Chapter / Book Series",
-   "jumlah": 4
+   "jumlah": 2
   },
   {
    "nama": "Jurnal Nasional",
@@ -36,111 +36,105 @@
   },
   {
    "nama": "Penelitian",
-   "jumlah": 14
+   "jumlah": 9
   },
   {
    "nama": "Pengabdian kepada Masyarakat",
-   "jumlah": 22
+   "jumlah": 14
   }
  ],
  "kuartil": [
   {
    "nama": "Q1",
-   "jumlah": 5
+   "jumlah": 1
   },
   {
    "nama": "Q2",
-   "jumlah": 4
+   "jumlah": 3
   },
   {
    "nama": "Q4",
-   "jumlah": 12
+   "jumlah": 6
   }
  ],
  "per_tahun": [
   {
    "tahun": 2026,
    "berkas": "2026",
-   "jumlah": 20,
+   "jumlah": 18,
    "sitasi": 0,
    "per_kategori": {
-    "Jurnal Internasional": 3,
+    "Jurnal Internasional": 2,
     "Book Chapter / Book Series": 2,
     "Jurnal Nasional": 10,
     "Penelitian": 2,
-    "Pengabdian kepada Masyarakat": 3
+    "Pengabdian kepada Masyarakat": 2
    }
   },
   {
    "tahun": 2025,
    "berkas": "2025",
-   "jumlah": 12,
+   "jumlah": 8,
    "sitasi": 2,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 1,
     "Penelitian": 1,
-    "Pengabdian kepada Masyarakat": 9
+    "Pengabdian kepada Masyarakat": 5
    }
   },
   {
    "tahun": 2024,
    "berkas": "2024",
-   "jumlah": 10,
-   "sitasi": 53,
+   "jumlah": 6,
+   "sitasi": 10,
    "per_kategori": {
-    "Jurnal Internasional": 3,
+    "Jurnal Internasional": 1,
     "Prosiding Internasional": 1,
     "Paten & HKI": 1,
-    "Penelitian": 3,
-    "Pengabdian kepada Masyarakat": 2
+    "Penelitian": 2,
+    "Pengabdian kepada Masyarakat": 1
    }
   },
   {
    "tahun": 2023,
    "berkas": "2023",
-   "jumlah": 18,
+   "jumlah": 14,
    "sitasi": 17,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 1,
     "Buku": 1,
     "Paten & HKI": 1,
-    "Penelitian": 6,
-    "Pengabdian kepada Masyarakat": 8
+    "Penelitian": 4,
+    "Pengabdian kepada Masyarakat": 6
    }
   },
   {
    "tahun": 2022,
    "berkas": "2022",
-   "jumlah": 4,
-   "sitasi": 23,
+   "jumlah": 1,
+   "sitasi": 0,
    "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Paten & HKI": 1,
-    "Penelitian": 1
+    "Paten & HKI": 1
    }
   },
   {
    "tahun": 2021,
    "berkas": "2021",
-   "jumlah": 8,
+   "jumlah": 7,
    "sitasi": 0,
    "per_kategori": {
     "Buku": 2,
-    "Paten & HKI": 5,
-    "Penelitian": 1
+    "Paten & HKI": 5
    }
   },
   {
    "tahun": 2020,
    "berkas": "2020",
-   "jumlah": 8,
-   "sitasi": 117,
+   "jumlah": 2,
+   "sitasi": 0,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Prosiding Internasional": 3,
-    "Book Chapter / Book Series": 2,
     "Paten & HKI": 2
    }
   }
@@ -159,12 +153,12 @@
   {
    "slug": "widya-rosita",
    "nama": "Widya Rosita",
-   "gelar": "S.T., M.T., Dr.",
-   "sinta_id": "6016573",
-   "skor_sinta": 654,
-   "publikasi": 27,
-   "sitasi_scopus": 219,
-   "hindex_scopus": 8
+   "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+   "sinta_id": "6010146",
+   "skor_sinta": 3798,
+   "publikasi": 58,
+   "sitasi_scopus": 418,
+   "hindex_scopus": 11
   }
  ]
 }

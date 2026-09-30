@@ -127,20 +127,89 @@ lebih besar daripada saat beta 2 dosen. Kalau mulai muncul HTTP 403/429 di log
 Actions, pindahkan eksekusi ke mesin lokal ber-IP Indonesia dengan
 `jalankan.sh` + cron — script-nya sama persis, tidak perlu diubah.
 
-## Memverifikasi parser (penting untuk run pertama)
+## Batas 10 entri dari SINTA
 
-Tab Scopus sudah diuji terhadap HTML asli. Tab **iprs, services, books, dan
-researches** belum — strukturnya kemungkinan besar sama (`.ar-list-item`),
-tapi belum terverifikasi. Jalankan diagnostik ini dulu:
+SINTA hanya menampilkan **10 entri terbaru per kategori** bagi pengunjung tanpa
+login — tombol "View more" di halaman profil mengarah ke `/logins`. Tidak ada
+parameter URL yang bisa menembusnya; `?page=2` diabaikan.
 
-```bash
-python3 scripts/build.py --periksa 6010146
+Konsekuensinya penting untuk kejujuran tampilan: **semua angka yang dihitung
+dari daftar itu jadi bias ke tahun terbaru.** Karena yang terambil selalu yang
+terbaru, tahun berjalan selalu terlihat melonjak, dan sebaran kuartil hanya
+mencerminkan 10 artikel, bukan 38.
+
+Karena itu, selama `batas_daftar.lengkap` bernilai `false`, widget profil
+**menyembunyikan** grafik tren tahunan, sebaran kuartil, dan daftar jurnal
+tersering. Yang tetap tampil adalah kartu statistik — angkanya datang dari
+tabel metrik SINTA sendiri, bukan dari daftar, jadi tetap akurat dan lengkap.
+
+Ketiga blok itu muncul kembali otomatis begitu `SCOPUS_API_KEY` diisi, karena
+daftarnya jadi lengkap.
+
+## Jalur lengkap: API Scopus
+
+Isi secret `SCOPUS_API_KEY` (minta ke perpustakaan/DSSDI UGM) dan kolom
+`scopus_id` di `dosen.csv`. Kalau keduanya ada, daftar Scopus diambil lewat
+Scopus Search API — lengkap, terdisambiguasi per Author ID, tanpa scraping —
+dan tab Scopus SINTA dilewati. Tanpa key, fungsinya dilewati diam-diam dan
+sistem berjalan seperti biasa.
+
+## Catatan kualitas data Garuda
+
+Tab Garuda di SINTA mencocokkan berdasarkan **nama**, bukan ID penulis. Untuk
+dosen bernama tunggal atau umum, entri milik orang lain ikut masuk. Ini bawaan
+SINTA, bukan bug scraper — data yang sama tampil di profil SINTA publiknya.
+Widget menandai tiap entri Garuda dengan label "via indeks Garuda" supaya
+pembaca tahu itu hasil pencocokan otomatis.
+
+## Catatan paginasi
+
+SINTA memuat **10 entri per halaman** dan tidak menampilkan tautan paginasi
+sama sekali di HTML-nya, jadi jumlah halaman harus ditebak dengan mencoba
+`?page=2`, `?page=3`, dan seterusnya.
+
+Masalahnya, urutan daftar SINTA tampaknya tidak stabil antar permintaan —
+halaman 2 kadang berisi judul yang sama dengan halaman 1. Karena itu
+`ambil_semua_artikel()`:
+
+- tidak berhenti pada halaman pertama yang tidak membawa judul baru;
+  baru menyerah setelah **3 halaman berturut-turut** tanpa judul baru;
+- berhenti lebih awal kalau jumlah terkumpul sudah mencapai angka yang SINTA
+  sebut sendiri di tabel metrik (khusus Scopus);
+- mencoba susunan parameter alternatif (`?page=N&view=X`) kalau bentuk utama
+  gagal;
+- menulis peringatan `terkumpul X, menurut SINTA ada Y` kalau hasilnya kurang.
+
+**Perhatikan peringatan itu di log.** Kalau muncul terus, paginasi SINTA
+butuh pendekatan lain.
+
+Tiap halaman dicatat ke log dengan format:
+
+```
+      [scopus] mulai, SINTA menyebut 37 entri
+      · hal 1
+        HTTP 200 · 38 KB · 10 blok
+        10 entri, 10 baru, total 10
+      · hal 2
+        HTTP 200 · 37 KB · 10 blok
+        10 entri, 10 baru, total 20
 ```
 
-Untuk tiap tab, ia melaporkan berapa blok ada di HTML versus berapa yang
-terbaca parser, plus satu contoh entri. Kalau ada baris
-`!! ada blok di HTML tapi parser tidak membacanya`, simpan halaman itu
-(Save Page As) dan kirim — parser tinggal disesuaikan.
+Kalau sebuah tab berhenti lebih awal, baris terakhirnya menyebut alasannya —
+`HTTP 404`, `gagal setelah 3 percobaan`, `0 entri terbaca`,
+`3 halaman tanpa judul baru`, atau `2 halaman gagal berturut-turut`. Tidak
+perlu menebak lagi.
+
+## Diagnostik
+
+```bash
+python3 scripts/build.py --periksa 6010146    # semua tab: berapa terbaca
+python3 scripts/build.py --halaman 6010146    # apakah ?page= benar bekerja
+```
+
+`--halaman` mengambil halaman 1, 2, dan 3 satu tab lalu membandingkan
+judulnya — ini yang memastikan apakah `?page=` dihormati SINTA, diabaikan,
+atau daftarnya sekadar tidak stabil.
 
 ## Kalau ada yang salah
 
