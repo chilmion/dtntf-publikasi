@@ -305,12 +305,17 @@ def ambil_semua_artikel(sinta_id, view, sumber, harapan=None):
 
     # Buka tab tanpa nomor halaman dulu agar cookie sesi terbentuk, sama
     # seperti orang yang mengklik tab itu di browser sebelum pindah halaman.
-    ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}")
+    # Hasilnya sekaligus dipakai sebagai halaman 1 (isinya sama dengan &page=1),
+    # jadi tidak perlu meminta halaman yang sama dua kali.
+    awal = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}", lapor=True)
     santai()
 
     for hal in range(1, MAKS_HALAMAN + 1):
         print(f"      · hal {hal}")
-        h = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}&page={hal}", lapor=True)
+        if hal == 1 and awal:
+            h = awal
+        else:
+            h = ambil(f"{SINTA}/authors/profile/{sinta_id}/?view={view}&page={hal}", lapor=True)
         if not h:
             # coba susunan parameter alternatif sebelum menganggap gagal
             print("        coba bentuk URL alternatif")
@@ -335,12 +340,17 @@ def ambil_semua_artikel(sinta_id, view, sumber, harapan=None):
         semua.extend(baru_ini)
         print(f"        {len(batch)} entri, {len(baru_ini)} baru, total {len(semua)}")
 
+        if hal == 1 and len(batch) < 10:
+            print("        kurang dari 10 entri — tab ini sudah lengkap")
+            break
+
         if baru_ini:
             kosong_beruntun = 0
         else:
+            # Tanpa login SINTA mengabaikan ?page= dan mengulang 10 entri yang sama.
             kosong_beruntun += 1
-            if kosong_beruntun >= 3:
-                print("        berhenti: 3 halaman tanpa judul baru")
+            if kosong_beruntun >= 1:
+                print("        halaman ini hanya mengulang entri sebelumnya — berhenti")
                 break
 
         if harapan and len(semua) >= harapan:
