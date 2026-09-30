@@ -49,8 +49,39 @@ def _seimbang(t, i):
     return -1
 
 
+def _buang_panggilan(s):
+    """Ganti `function(...) {...}` dan `new X.Y(...)` (mis. LinearGradient) dengan null —
+    keduanya ada di konfigurasi echarts SINTA dan bukan data."""
+    for pola, tutup in ((r"\bfunction\s*\([^)]*\)\s*\{", "}"), (r"\bnew\s+[\w.$]+\s*\(", ")")):
+        while True:
+            m = re.search(pola, s)
+            if not m:
+                break
+            i = m.end() - 1                       # posisi { atau (
+            dalam, kutip, esc, j = 0, None, False, -1
+            for k in range(i, len(s)):
+                c = s[k]
+                if kutip:
+                    if esc: esc = False
+                    elif c == "\\": esc = True
+                    elif c == kutip: kutip = None
+                    continue
+                if c in "'\"`": kutip = c
+                elif c == s[i]: dalam += 1
+                elif c == tutup:
+                    dalam -= 1
+                    if dalam == 0:
+                        j = k
+                        break
+            if j < 0:
+                break
+            s = s[:m.start()] + "null" + s[j + 1:]
+    return s
+
+
 def _js(s):
     """Literal JS sederhana → objek Python; None kalau tidak bisa."""
+    s = _buang_panggilan(s)
     s = re.sub(r"/\*.*?\*/", "", s, flags=re.S)
     s = re.sub(r"(?m)^\s*//.*$", "", s)
     s = re.sub(r"'((?:[^'\\]|\\.)*)'", lambda m: json.dumps(m.group(1).replace("\\'", "'")), s)

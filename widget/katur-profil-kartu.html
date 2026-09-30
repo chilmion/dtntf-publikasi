@@ -1,0 +1,223 @@
+<!-- =========================================================================
+     PROFIL DOSEN — KARTU KIRI (foto + kontak + tautan) — gaya v1.katur.online
+     Ganti di <div>: data-base dan data-slug (slug dosen, mis. faridah).
+     Widget "info" dan "data" di halaman yang sama otomatis memakai slug ini;
+     kolom data-slug di keduanya boleh dibiarkan kosong.
+     Bisa juga satu halaman untuk semua dosen: kosongkan data-slug dan buka /halaman/?d=faridah
+     ========================================================================= -->
+
+<div class="dtntf-kt kt-kartu"
+     data-base="https://NAMA-AKUN.github.io/dtntf-profil/data"
+     data-slug="faridah">
+  <div class="kt-memuat">Memuat profil…</div>
+</div>
+
+<style>
+.dtntf-kt{
+  /* token = variabel global Elementor situs katur (fallback: nilai literalnya) */
+  --kt-navy:var(--e-global-color-870ef80,#073C64);
+  --kt-navy2:var(--e-global-color-bf890a9,#1A2C43);
+  --kt-lime:var(--e-global-color-15e26ab,#C8E86D);
+  --kt-ink:var(--e-global-color-primary,#161616);
+  --kt-ink2:var(--e-global-color-secondary,#414142);
+  --kt-text:var(--e-global-color-text,#636363);
+  --kt-abu:var(--e-global-color-1e38924,#F5F5F5);
+  --kt-line:var(--e-global-color-accent,#E3E3E3);
+  --kt-lime-soft:#E6F4B8; --kt-sky:#DCEAF5;
+  --kt-r:10px; --kt-pad:24px; --kt-gap:16px;
+  --kt-f-judul:"Plus Jakarta Sans",sans-serif; --kt-f-teks:"Barlow",sans-serif;
+  font-family:var(--kt-f-teks); font-size:16px; line-height:1.5; font-weight:400;
+  color:var(--kt-text); max-width:1180px; margin:0 auto;
+}
+.dtntf-kt *{box-sizing:border-box}
+.dtntf-kt a{color:inherit}
+.dtntf-kt .kt-memuat,.dtntf-kt .kt-galat{padding:28px;text-align:center;background:var(--kt-abu);border-radius:var(--kt-r)}
+.dtntf-kt .kt-galat{color:#8a2b2b;background:#fdf1f1}
+
+/* tipografi (angka mengikuti tipografi global situs katur) */
+.dtntf-kt .kt-h1{font-family:var(--kt-f-judul);font-weight:400;font-size:56px;line-height:1.2em;letter-spacing:-3.4px;word-spacing:5px;color:var(--kt-ink);margin:0 0 12px}
+.dtntf-kt .kt-h2{font-family:var(--kt-f-judul);font-weight:400;font-size:40px;line-height:1.2em;letter-spacing:-1.7px;word-spacing:6px;color:var(--kt-ink);margin:0 0 20px}
+.dtntf-kt .kt-h3{font-family:var(--kt-f-judul);font-weight:400;font-size:24px;line-height:1.2em;letter-spacing:-1.3px;word-spacing:4px;color:var(--kt-ink);margin:0 0 10px}
+.dtntf-kt .kt-kicker{font-family:var(--kt-f-teks);font-weight:600;font-size:12px;letter-spacing:.8px;text-transform:uppercase;color:var(--kt-navy);margin:0 0 8px;display:block}
+.dtntf-kt .kt-angka{font-family:var(--kt-f-judul);font-weight:400;font-size:80px;line-height:1.1em;letter-spacing:-5px;word-spacing:6px;font-variant-numeric:tabular-nums}
+.dtntf-kt .kt-angka{color:var(--kt-ink)}
+.dtntf-kt .kt-tile.lime .kt-angka{color:var(--kt-navy2)}
+.dtntf-kt .kt-angka.sedang{font-size:56px;letter-spacing:-3.4px}
+.dtntf-kt .kt-label{font-size:16px;line-height:1.4;margin-top:6px}
+.dtntf-kt .kt-kecil{font-size:14px}
+
+/* bento */
+.dtntf-kt .kt-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:var(--kt-gap)}
+.dtntf-kt .kt-tile{position:relative;overflow:hidden;border-radius:var(--kt-r);padding:var(--kt-pad);
+  display:flex;flex-direction:column;justify-content:space-between;min-height:183px;background:#fff;color:var(--kt-text)}
+.dtntf-kt .kt-tile>*{position:relative;z-index:1}
+.dtntf-kt .kt-tile.navy{background:var(--kt-navy);color:rgba(255,255,255,.86)}
+.dtntf-kt .kt-tile.navy .kt-h3,.dtntf-kt .kt-tile.navy .kt-angka,.dtntf-kt .kt-tile.navy .kt-kicker{color:#fff}
+.dtntf-kt .kt-tile.lime{background:var(--kt-lime);color:var(--kt-navy2)}
+.dtntf-kt .kt-tile.lime .kt-kicker{color:var(--kt-navy2)}
+.dtntf-kt .kt-tile.putih{border:1px solid var(--kt-line)}
+.dtntf-kt .kt-tile.abu{background:var(--kt-abu)}
+.dtntf-kt .kt-tile.sky{background:var(--kt-sky)}
+.dtntf-kt .kt-tile.pola::before{content:"";position:absolute;inset:0;background-size:320px 320px;opacity:.13;pointer-events:none;z-index:0}
+.dtntf-kt .kt-tile.navy.pola::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320' viewBox='0 0 320 320' fill='none' stroke='%23fff' stroke-width='1'%3E%3Cpath d='M-10 50c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 90c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 130c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 170c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 210c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 250c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 290c60-40 100 40 170 0s90-30 180 10'/%3E%3C/svg%3E")}
+.dtntf-kt .kt-tile.lime.pola::before{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='320' height='320' viewBox='0 0 320 320' fill='none' stroke='%23073C64' stroke-width='1'%3E%3Cpath d='M-10 50c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 90c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 130c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 170c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 210c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 250c60-40 100 40 170 0s90-30 180 10'/%3E%3Cpath d='M-10 290c60-40 100 40 170 0s90-30 180 10'/%3E%3C/svg%3E")}
+.dtntf-kt .s3{grid-column:span 3}.dtntf-kt .s4{grid-column:span 4}.dtntf-kt .s5{grid-column:span 5}
+.dtntf-kt .s6{grid-column:span 6}.dtntf-kt .s7{grid-column:span 7}.dtntf-kt .s8{grid-column:span 8}.dtntf-kt .s12{grid-column:1/-1}
+.dtntf-kt .r2{grid-row:span 2}
+
+/* chip & tombol */
+.dtntf-kt .kt-chips{display:flex;flex-wrap:wrap;gap:8px}
+.dtntf-kt .kt-chip{font:600 14px/1 var(--kt-f-teks);padding:10px 16px;border-radius:999px;border:1px solid var(--kt-line);
+  background:#fff;color:var(--kt-ink2);cursor:pointer;text-transform:capitalize}
+.dtntf-kt .kt-chip:hover{border-color:var(--kt-navy)}
+.dtntf-kt .kt-chip.aktif{background:var(--kt-navy);border-color:var(--kt-navy);color:#fff}
+.dtntf-kt .kt-cari{font:400 16px var(--kt-f-teks);padding:11px 16px;border:1px solid var(--kt-line);border-radius:999px;
+  background:#fff;min-width:220px;flex:1 1 220px;color:var(--kt-ink)}
+.dtntf-kt .kt-cari:focus,.dtntf-kt .kt-pilih:focus{outline:2px solid var(--kt-navy);outline-offset:-1px}
+.dtntf-kt .kt-pilih{font:400 16px var(--kt-f-teks);padding:11px 16px;border:1px solid var(--kt-line);border-radius:999px;background:#fff;color:var(--kt-ink)}
+.dtntf-kt .kt-btn{display:inline-flex;align-items:center;gap:8px;font:600 14px/1 var(--kt-f-teks);text-transform:capitalize;
+  padding:12px 18px;border-radius:999px;background:var(--kt-lime);color:var(--kt-navy2);text-decoration:none}
+.dtntf-kt .kt-btn:hover{background:#fff}
+.dtntf-kt .kt-btn.gelap{background:var(--kt-navy);color:#fff}
+.dtntf-kt .kt-tag{display:inline-block;font:500 13px/1.6 var(--kt-f-teks);padding:2px 12px;border-radius:999px;background:var(--kt-lime-soft);color:var(--kt-navy2)}
+.dtntf-kt .kt-lagi{display:block;width:100%;margin-top:16px;padding:14px;border-radius:var(--kt-r);border:1px solid var(--kt-line);
+  background:#fff;font:600 14px var(--kt-f-teks);color:var(--kt-navy);cursor:pointer}
+.dtntf-kt .kt-lagi:hover{background:var(--kt-abu)}
+
+/* grafik */
+.dtntf-kt svg{max-width:100%;height:auto}
+.dtntf-kt .kt-legenda{display:flex;flex-direction:column;gap:6px;font-size:15px;flex:1 1 140px}
+.dtntf-kt .kt-legenda div{display:flex;align-items:center;gap:8px}
+.dtntf-kt .kt-legenda b{margin-left:auto;font-weight:600;font-variant-numeric:tabular-nums;color:var(--kt-ink)}
+.dtntf-kt .kt-dot{width:10px;height:10px;border-radius:3px;display:inline-block;flex:none}
+.dtntf-kt .kt-baris-g{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+
+/* daftar luaran */
+.dtntf-kt .kt-pub{padding:14px 0;border-bottom:1px solid var(--kt-line)}
+.dtntf-kt .kt-pub:last-child{border-bottom:0}
+.dtntf-kt .kt-pub-judul{font:500 16px/1.4 var(--kt-f-teks);color:var(--kt-ink);margin:0 0 6px}
+.dtntf-kt .kt-pub-judul a{text-decoration:none}.dtntf-kt .kt-pub-judul a:hover{color:var(--kt-navy);text-decoration:underline}
+.dtntf-kt .kt-meta{font-size:14px;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+
+@media (max-width:1024px){
+  .dtntf-kt .kt-h1{font-size:40px;line-height:1.2em;letter-spacing:0}
+  .dtntf-kt .kt-h2{font-size:28px}
+  .dtntf-kt .kt-h3{font-size:22px}
+  .dtntf-kt .kt-angka{font-size:60px;letter-spacing:-3.2px;word-spacing:.1em}
+  .dtntf-kt .kt-angka.sedang{font-size:44px}
+  .dtntf-kt .s3{grid-column:span 6}.dtntf-kt .s4,.dtntf-kt .s5{grid-column:span 6}.dtntf-kt .s6,.dtntf-kt .s7,.dtntf-kt .s8{grid-column:1/-1}
+  .dtntf-kt .r2{grid-row:auto}
+}
+@media (max-width:767px){
+  .dtntf-kt .kt-h1{font-size:28px;letter-spacing:-1.8px}
+  .dtntf-kt .kt-h2{font-size:24px}
+  .dtntf-kt .kt-h3{font-size:18px}
+  .dtntf-kt .kt-angka{font-size:36px;letter-spacing:-1.9px}
+  .dtntf-kt .kt-angka.sedang{font-size:32px}
+  .dtntf-kt{--kt-pad:20px}
+  .dtntf-kt .kt-tile{min-height:140px}
+  .dtntf-kt .s3,.dtntf-kt .s4,.dtntf-kt .s5{grid-column:span 6}
+}
+@media (max-width:480px){ .dtntf-kt .s3,.dtntf-kt .s4,.dtntf-kt .s5{grid-column:1/-1} }
+
+.dtntf-kt.kt-kartu{max-width:none}
+.dtntf-kt .kt-k-wrap{position:sticky;top:24px}
+.dtntf-kt .kt-k-foto{position:relative;aspect-ratio:4/5;border-radius:var(--kt-r);overflow:hidden;background:var(--kt-lime);
+  display:flex;align-items:center;justify-content:center}
+.dtntf-kt .kt-k-foto img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center top}
+.dtntf-kt .kt-k-ini{font:400 96px var(--kt-f-judul);letter-spacing:-5px;color:var(--kt-navy2)}
+.dtntf-kt .kt-k-baris{margin:0 0 14px;font-size:16px;word-break:break-word}
+.dtntf-kt .kt-k-baris small{display:block;font:600 12px var(--kt-f-teks);letter-spacing:.8px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:2px}
+.dtntf-kt .kt-k-baris a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.dtntf-kt .kt-k-btn{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+@media (max-width:767px){.dtntf-kt .kt-k-wrap{position:static}.dtntf-kt .kt-k-foto{aspect-ratio:1/1}}
+</style>
+
+<script>
+(function () {
+  var akar = document.currentScript.parentNode.querySelector('.kt-kartu')
+          || document.querySelector('.kt-kartu:not([data-kt-siap])');
+  if (!akar || akar.dataset.ktSiap) return;
+  akar.dataset.ktSiap = '1';
+  var BASE = (akar.getAttribute('data-base') || '').replace(/\/$/, '');
+
+  var esc = function (s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  };
+  var num = function (n) { return (n == null) ? '–' : Number(n).toLocaleString('id-ID'); };
+  var inisial = function (n) {
+    var k = String(n || '').split(/\s+/).filter(function (w) { return /^[A-Za-z]/.test(w) && w.indexOf('.') < 0; });
+    return (k.slice(0, 2).map(function (w) { return w[0]; }).join('') || '?').toUpperCase();
+  };
+  var ambil = function (u) {
+    return fetch(u, { cache: 'no-cache' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status); return r.json();
+    });
+  };
+  // slug: atribut data-slug → ?d=slug di alamat halaman → widget lain di halaman yang punya data-slug
+  var cariSlug = function (el) {
+    var s = (el.getAttribute('data-slug') || '').trim();
+    if (s) return s;
+    try { s = new URLSearchParams(location.search).get('d') || ''; } catch (e) { s = ''; }
+    if (s) return s;
+    var lain = document.querySelectorAll('.dtntf-kt[data-slug]');
+    for (var i = 0; i < lain.length; i++) { var v = (lain[i].getAttribute('data-slug') || '').trim(); if (v) return v; }
+    return '';
+  };
+  var WARNA_Q = { 'Q1': '#073C64', 'Q2': '#3B7EA8', 'Q3': '#C8E86D', 'Q4': '#A9C9DD', 'No-Q': '#E3E3E3' };
+  var NAMA_Q = { 'No-Q': 'Tanpa kuartil' };
+
+  function donat(data, satuan) {
+    var total = data.reduce(function (a, x) { return a + x.jumlah; }, 0);
+    if (!total) return '';
+    var kum = 0;
+    var arc = data.map(function (x) {
+      var p = x.jumlah / total * 100, w = WARNA_Q[x.nama] || '#8fb0c9';
+      var c = '<circle cx="60" cy="60" r="44" fill="none" stroke="' + w + '" stroke-width="18" pathLength="100" ' +
+        'stroke-dasharray="' + p.toFixed(3) + ' ' + (100 - p).toFixed(3) + '" stroke-dashoffset="' + (-kum).toFixed(3) +
+        '" transform="rotate(-90 60 60)"><title>' + esc(NAMA_Q[x.nama] || x.nama) + ' · ' + x.jumlah + '</title></circle>';
+      kum += p; return c;
+    }).join('');
+    var leg = data.map(function (x) {
+      return '<div><i class="kt-dot" style="background:' + (WARNA_Q[x.nama] || '#8fb0c9') + ';' +
+        (x.nama === 'No-Q' ? 'box-shadow:inset 0 0 0 1px #cfcfcf' : '') + '"></i>' +
+        esc(NAMA_Q[x.nama] || x.nama) + '<b>' + num(x.jumlah) + '</b></div>';
+    }).join('');
+    return '<div class="kt-baris-g"><svg viewBox="0 0 120 120" width="150" height="150" role="img" aria-label="Sebaran kuartil">' + arc +
+      '<text x="60" y="63" text-anchor="middle" style="font:400 22px var(--kt-f-judul);fill:var(--kt-ink)">' + num(total) + '</text>' +
+      '<text x="60" y="76" text-anchor="middle" style="font:500 7px var(--kt-f-teks);fill:#858c9c">' + esc(satuan || 'artikel') + '</text></svg>' +
+      '<div class="kt-legenda">' + leg + '</div></div>';
+  }
+
+  var SLUG = cariSlug(akar);
+  if (!SLUG) { akar.innerHTML = '<div class="kt-galat">Isi data-slug dengan slug dosen.</div>'; return; }
+  Promise.all([ambil(BASE + '/' + encodeURIComponent(SLUG) + '.json'),
+               ambil(BASE + '/agregat/ringkas.json').catch(function () { return null; })])
+    .then(function (r) { render(r[0], r[1]); })
+    .catch(function (e) { akar.innerHTML = '<div class="kt-galat">Data dosen belum tersedia. (' + esc(e.message) + ')</div>'; });
+
+  function render(d, ringkas) {
+    var i = ((ringkas && ringkas.dosen) || []).filter(function (x) { return x.slug === d.slug; })[0] || {};
+    var t = d.tautan || {}, baris = [];
+    var email = d.email || i.email;
+    if (email) baris.push('<p class="kt-k-baris"><small>Email</small><a href="mailto:' + esc(email) + '">' + esc(email) + '</a></p>');
+    if (i.homepage) baris.push('<p class="kt-k-baris"><small>Laman pribadi</small><a href="' + esc(i.homepage) + '" target="_blank" rel="noopener">' + esc(i.homepage.replace(/^https?:\/\//, '')) + '</a></p>');
+    if (d.sinta_id) baris.push('<p class="kt-k-baris"><small>ID SINTA</small>' + esc(d.sinta_id) + '</p>');
+    var btn = [];
+    if (t.sinta) btn.push('<a class="kt-btn" href="' + esc(t.sinta) + '" target="_blank" rel="noopener">SINTA ↗</a>');
+    if (t.scholar) btn.push('<a class="kt-btn" href="' + esc(t.scholar) + '" target="_blank" rel="noopener">Google Scholar ↗</a>');
+    if (t.scopus) btn.push('<a class="kt-btn" href="' + esc(t.scopus) + '" target="_blank" rel="noopener">Scopus ↗</a>');
+    var foto = d.foto_url || i.foto_url;
+    akar.innerHTML = '<div class="kt-k-wrap"><div class="kt-k-foto"><span class="kt-k-ini">' + esc(inisial(d.nama)) + '</span>' +
+      (foto ? '<img src="' + esc(foto) + '" alt="' + esc(d.nama) + '">' : '') + '</div>' +
+      '<div class="kt-tile navy pola" style="margin-top:16px;min-height:0"><div><span class="kt-kicker" style="opacity:.7">Kontak</span>' +
+      (baris.join('') || '<p class="kt-k-baris">Belum ada data kontak.</p>') + '</div>' +
+      (btn.length ? '<div class="kt-k-btn">' + btn.join('') + '</div>' : '') + '</div></div>';
+    var im = akar.querySelector('img');
+    if (im) im.addEventListener('error', function () { im.style.display = 'none'; });
+  }
+
+})();
+</script>
