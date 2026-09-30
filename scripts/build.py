@@ -229,10 +229,11 @@ def parse_profil(h):
 
     # grafik Summary (kuartil, research output, per tahun) — dari skrip inline echarts
     d["grafik"] = grafik.ekstrak(h)
-    if not d["grafik"]:
+    if len(d["grafik"]) < 3:
         p = grafik.simpan_diagnosa(h)
         if p:
-            print(f"      ! data grafik tidak ditemukan; laporan mentah ditulis ke {p.name}")
+            ada = ", ".join(d["grafik"]) or "tidak ada"
+            print(f"      ! data grafik belum lengkap (terbaca: {ada}); laporan mentah ditulis ke {p.name}")
     return d
 
 
