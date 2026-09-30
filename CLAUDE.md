@@ -10,7 +10,7 @@ scraper Python (stdlib saja) -> JSON per dosen -> GitHub Pages -> widget HTML fe
 - `scripts/build.py` — scrape SINTA (6 tab: scopus, garuda, books, iprs, services, researches), tulis `data/<slug>.json`, lalu panggil `agregat.py`.
 - `scripts/agregat.py` — gabung semua dosen jadi `data/agregat/ringkas.json` + `<tahun>.json`; paper multi-penulis digabung (kunci: EID Scopus -> DOI -> judul ternormalisasi, judul <25 karakter tidak digabung).
 - `widget/publikasi.html` — profil dosen (`.dtntf-pub`), atribut `data-base`, `data-slug`, `data-tampil="skor,metrik,publikasi"`. Bagian foto/nama/bio dibuat manual di Elementor, hanya bagian statistik + daftar ini yang otomatis.
-- `widget/departemen.html` — halaman departemen (`.dtntf-dep`), atribut `data-base`, `data-awal`, `data-profil`.
+- `widget/departemen.html` — halaman departemen (`.dtntf-dep`), atribut `data-base`, `data-profil` (sudah sederhana: tanpa filter/pencarian).
 - `.github/workflows/update.yml` — workflow_dispatch (input `dosen`, default `faridah,widya-rosita`), cron Senin 03:00 WIB, push ke `dosen.csv`/`scripts/**`/`widget/**`; commit `data/` lalu deploy Pages.
 - `jalankan.sh` — cadangan: cron di mesin lokal ber-IP Indonesia.
 - `uji-*.html` — halaman uji lokal (`python3 -m http.server`).

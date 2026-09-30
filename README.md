@@ -4,13 +4,14 @@ Dua halaman WordPress/Elementor yang mengisi dirinya sendiri dari SINTA,
 tanpa plugin apa pun.
 
 **1. Halaman departemen** (`/publikasi/`) — `widget/departemen.html`
-Seluruh luaran 38 dosen: highlight & grafik tren di atas, lalu daftar per
-tahun dikelompokkan per jenis (Jurnal Internasional, Prosiding, Jurnal
-Nasional, Buku, Paten & HKI, Penelitian, Pengabdian), gaya sitasi seperti
-halaman lama. Ada filter jenis/tahun/dosen dan pencarian.
+Statistik departemen (jumlah dosen, sitasi Scopus, h-index tertinggi), tabel
+dosen, lalu daftar luaran terbaru per tahun yang dikelompokkan per jenis
+(Jurnal Internasional, Prosiding, Jurnal Nasional, Buku, Paten & HKI,
+Penelitian, Pengabdian). Sengaja sederhana: tanpa pencarian dan filter.
 
 **2. Halaman profil dosen** — `widget/publikasi.html`
-Statistik, tren, dan daftar paper satu dosen, dikunci lewat `data-slug`.
+Skor SINTA, metrik sitasi (Scopus, Google Scholar, WOS), dan daftar luaran
+terbaru satu dosen, dikunci lewat `data-slug`.
 Bagian foto/nama/bio di atasnya kamu desain sendiri di Elementor.
 
 ```
@@ -19,7 +20,7 @@ Bagian foto/nama/bio di atasnya kamu desain sendiri di Elementor.
 │  foto · nama · gelar · bio       │
 ├──────────────────────────────────┤
 │  widget/publikasi.html           │  ← auto-update
-│  statistik · tren · daftar paper │
+│  skor · metrik · daftar luaran   │
 └──────────────────────────────────┘
 ```
 
@@ -52,14 +53,13 @@ atau DOI dari URL; kalau tidak ada, judul yang dinormalisasi. Judul pendek
 
 ```
 data/<slug>.json           satu dosen: metrik + seluruh luarannya
-data/agregat/ringkas.json  statistik departemen, hitungan per tahun & kategori
+data/agregat/ringkas.json  daftar dosen + statistik, indeks tahun
 data/agregat/2026.json     entri tahun itu (sudah digabung)
 data/agregat/2025.json     …dst
 ```
 
-Dipecah per tahun supaya halaman departemen tidak perlu mengunduh ribuan
-entri sekaligus — saat dibuka hanya 3 tahun terbaru yang diambil, sisanya
-menyusul saat tombol ditekan atau filter dipakai.
+Dipecah per tahun supaya tiap berkas tetap kecil. Widget departemen mengunduh
+`ringkas.json` lalu semua berkas tahun sekaligus.
 
 ## Warna & font
 
@@ -67,7 +67,7 @@ Mengikuti Brand Guideline DTNTF 2026, jadi tidak perlu kirim HTML tema:
 
 | Token | Nilai | Dipakai untuk |
 |---|---|---|
-| UGM Navy | `#073C64` | angka statistik, batang grafik, tautan, badge kuartil |
+| UGM Navy | `#073C64` | angka statistik, kartu skor, batang metrik, tautan, badge kuartil |
 | Dark Navy | `#1A2C43` | judul bagian |
 | Cinder | `#0B0B16` | teks utama |
 | White Lilac | `#F7F7FB` | latar kartu |
@@ -86,6 +86,8 @@ lain.
 2. **Settings → Pages → Source: GitHub Actions.**
 3. **Settings → Actions → General → Workflow permissions:** pilih
    *Read and write permissions* (agar workflow bisa commit hasil scrape).
+   (*Actions* = mesin gratis GitHub yang menjalankan script otomatis;
+   *Pages* = layanan GitHub yang menyajikan berkas repo sebagai situs.)
 4. Tab **Actions → Perbarui data publikasi → Run workflow**. Isian `dosen`
    sudah default `faridah,widya-rosita` — inilah beta-nya.
 5. Cek hasil: `https://<akun>.github.io/<repo>/data/faridah.json`
@@ -95,19 +97,23 @@ lain.
 ```html
 data-base="https://<akun>.github.io/<repo>/data"
 data-slug="faridah"
-data-tampil="statistik,tren,publikasi"
+data-tampil="skor,metrik,publikasi"
 ```
 
-`data-tampil` menentukan bagian mana yang muncul — hapus `statistik` kalau
-angkanya sudah kamu taruh sendiri di blok profil, atau hapus `tren` kalau mau
-daftar papernya saja.
+`data-tampil` menentukan bagian mana yang muncul, dipisah koma:
+
+- `skor` — kartu skor SINTA;
+- `metrik` — bar artikel, sitasi, h-index, dst. untuk Scopus/GScholar/WOS;
+- `publikasi` — daftar luaran terbaru per kategori.
+
+Hapus salah satu kalau tidak mau ditampilkan, misalnya
+`data-tampil="publikasi"` untuk daftar saja.
 
 7. **Halaman departemen** (`/publikasi/`) — widget **HTML**, tempel
    `widget/departemen.html`, lalu ubah:
 
 ```html
 data-base="https://<akun>.github.io/<repo>/data"
-data-awal="3"
 data-profil="/dosen/{slug}/"
 ```
 
@@ -133,18 +139,15 @@ SINTA hanya menampilkan **10 entri terbaru per kategori** bagi pengunjung tanpa
 login — tombol "View more" di halaman profil mengarah ke `/logins`. Tidak ada
 parameter URL yang bisa menembusnya; `?page=2` diabaikan.
 
-Konsekuensinya penting untuk kejujuran tampilan: **semua angka yang dihitung
-dari daftar itu jadi bias ke tahun terbaru.** Karena yang terambil selalu yang
-terbaru, tahun berjalan selalu terlihat melonjak, dan sebaran kuartil hanya
-mencerminkan 10 artikel, bukan 38.
+Karena itu tampilan dibagi dua dengan jujur:
 
-Karena itu, selama `batas_daftar.lengkap` bernilai `false`, widget profil
-**menyembunyikan** grafik tren tahunan, sebaran kuartil, dan daftar jurnal
-tersering. Yang tetap tampil adalah kartu statistik — angkanya datang dari
-tabel metrik SINTA sendiri, bukan dari daftar, jadi tetap akurat dan lengkap.
+- **Statistik lengkap** (kartu skor, tabel metrik) datang dari tabel SINTA
+  sendiri dan akurat seumur karier.
+- **Daftar luaran** hanya 10 terbaru per kategori. Widget memberi catatan
+  singkat tentang hal ini.
 
-Ketiga blok itu muncul kembali otomatis begitu `SCOPUS_API_KEY` diisi, karena
-daftarnya jadi lengkap.
+Angka yang dihitung dari daftar itu (tren per tahun, sebaran kuartil, jurnal
+tersering) bias ke tahun terbaru, jadi **tidak ditampilkan**.
 
 ## Jalur lengkap: API Scopus
 
@@ -164,41 +167,11 @@ pembaca tahu itu hasil pencocokan otomatis.
 
 ## Catatan paginasi
 
-SINTA memuat **10 entri per halaman** dan tidak menampilkan tautan paginasi
-sama sekali di HTML-nya, jadi jumlah halaman harus ditebak dengan mencoba
-`?page=2`, `?page=3`, dan seterusnya.
-
-Masalahnya, urutan daftar SINTA tampaknya tidak stabil antar permintaan —
-halaman 2 kadang berisi judul yang sama dengan halaman 1. Karena itu
-`ambil_semua_artikel()`:
-
-- tidak berhenti pada halaman pertama yang tidak membawa judul baru;
-  baru menyerah setelah **3 halaman berturut-turut** tanpa judul baru;
-- berhenti lebih awal kalau jumlah terkumpul sudah mencapai angka yang SINTA
-  sebut sendiri di tabel metrik (khusus Scopus);
-- mencoba susunan parameter alternatif (`?page=N&view=X`) kalau bentuk utama
-  gagal;
-- menulis peringatan `terkumpul X, menurut SINTA ada Y` kalau hasilnya kurang.
-
-**Perhatikan peringatan itu di log.** Kalau muncul terus, paginasi SINTA
-butuh pendekatan lain.
-
-Tiap halaman dicatat ke log dengan format:
-
-```
-      [scopus] mulai, SINTA menyebut 37 entri
-      · hal 1
-        HTTP 200 · 38 KB · 10 blok
-        10 entri, 10 baru, total 10
-      · hal 2
-        HTTP 200 · 37 KB · 10 blok
-        10 entri, 10 baru, total 20
-```
-
-Kalau sebuah tab berhenti lebih awal, baris terakhirnya menyebut alasannya —
-`HTTP 404`, `gagal setelah 3 percobaan`, `0 entri terbaca`,
-`3 halaman tanpa judul baru`, atau `2 halaman gagal berturut-turut`. Tidak
-perlu menebak lagi.
+`scripts/build.py` masih mencoba `?page=2`, `?page=3`, … dan berhenti setelah 3
+halaman berturut-turut tanpa judul baru. Untuk pengunjung tanpa login SINTA
+mengabaikan parameter itu, jadi hasilnya tetap 10 entri per tab. Log memuat
+peringatan `terkumpul X, menurut SINTA ada Y` bila jumlahnya kurang; itu wajar
+selama batas 10 entri berlaku.
 
 ## Diagnostik
 
@@ -222,7 +195,10 @@ atau daftarnya sekadar tidak stabil.
 - **ID SINTA salah** → dilaporkan di akhir log (`N berhasil, M gagal`).
 
 Uji lokal: jalankan `python3 -m http.server` di folder ini, lalu buka
-`uji-departemen.html`, `uji-faridah.html`, atau `uji-widya-rosita.html`.
+`http://localhost:8000/uji-publikasi.html` (profil, data `data/faridah.json`)
+atau `http://localhost:8000/uji-departemen.html` (data `data/agregat/`).
+`uji-faridah.html` dan `uji-widya-rosita.html` adalah widget profil untuk
+masing-masing dosen.
 
 Kalau hanya data agregat yang perlu dibangun ulang (tanpa scraping):
 `python3 scripts/agregat.py`
