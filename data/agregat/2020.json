@@ -2,6 +2,126 @@
  "tahun": 2020,
  "entri": [
   {
+   "judul": "Sequential particle-size and magnetic separation for enrichment of rare-earth elements and yttrium in Indonesia coal fly ash",
+   "tahun": 2020,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Environmental Chemical Engineering",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85091179178&origin=resultslist",
+   "sitasi": 65,
+   "kreator": "Rosita W.",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Recovery of rare earth elements and Yttrium from Indonesia coal fly ash using sulphuric acid leaching",
+   "tahun": 2020,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083552481&origin=resultslist",
+   "sitasi": 24,
+   "kreator": "Rosita W.",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Leaching of REY from Non-magnetic Coal Fly Ash with Acetic Acid",
+   "tahun": 2020,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Materials Science and Engineering",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85084320303&origin=resultslist",
+   "sitasi": 8,
+   "kreator": "Manurung H.",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Amorphous Silicate Decomposition from Non-Magnetic Coal Fly Ash using Sodium Hydroxide",
+   "tahun": 2020,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Materials Science and Engineering",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85082607110&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Manurung H.",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Experimental study of rare earth element enrichment from Indonesian coal fly ash: Alkaline leaching",
+   "tahun": 2020,
+   "kategori": "Book Chapter / Book Series",
+   "venue": "Key Engineering Materials",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85085194869&origin=resultslist",
+   "sitasi": 12,
+   "kreator": "Rosita W.",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Potency of rare earth elements and yttrium in indonesia coal ash",
+   "tahun": 2020,
+   "kategori": "Book Chapter / Book Series",
+   "venue": "Key Engineering Materials",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85088289937&origin=resultslist",
+   "sitasi": 7,
+   "kreator": "Widya R.",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
    "judul": "INSTRUMEN EVALUASI KENYAMANAN TERMAL LINGKUNGAN RUANG HUNI",
    "tahun": 2020,
    "kategori": "Paten & HKI",
@@ -18,10 +138,6 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
     }
    ]
   },
@@ -42,10 +158,26 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
+    }
+   ]
+  },
+  {
+   "judul": "Video Tutorial Pemahaman Algoritma Random Forest dalam Analisis Sistem",
+   "tahun": 2020,
+   "kategori": "Paten & HKI",
+   "venue": "Direktorat Penelitian UGM",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
     {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
+     "slug": "faridah",
+     "nama": "Faridah"
     }
    ]
   }

@@ -2,6 +2,26 @@
  "tahun": 2024,
  "entri": [
   {
+   "judul": "Sequential alkaline-organic acid leaching process to enhance the recovery of rare earth elements from Indonesian coal fly ash",
+   "tahun": 2024,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Rare Earths",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85188774108&origin=resultslist",
+   "sitasi": 37,
+   "kreator": "Rosita W.",
+   "dosen": [
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
    "judul": "An indoor airflow distribution predictor using machine learning for a real-time healthy building monitoring system in the tropics",
    "tahun": 2024,
    "kategori": "Jurnal Internasional",
@@ -18,7 +38,23 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
+    }
+   ]
+  },
+  {
+   "judul": "Recovery of Rare Earth Elements from Coal Fly Ash with High Calcium and Iron Contents Using Alkaline and Acid Leaching",
+   "tahun": 2024,
+   "kategori": "Jurnal Internasional",
+   "venue": "Mining Metallurgy and Exploration",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85207350034&origin=resultslist",
+   "sitasi": 9,
+   "kreator": "Widowati J.A.",
+   "dosen": [
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
@@ -42,10 +78,6 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
     }
    ]
   },
@@ -66,7 +98,23 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
+    }
+   ]
+  },
+  {
+   "judul": "Ekstraksi Logam Tanah Jarang dari Berbagai Jenis Coal Fly Ash Bottom Ash: Optimasi Proses dan Daur Ulang Limbahnya",
+   "tahun": 2024,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 127.330.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
@@ -90,10 +138,6 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
     }
    ]
   },
@@ -114,7 +158,23 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
+    }
+   ]
+  },
+  {
+   "judul": "PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN (SPDK) DAN STANDAR OPERASIONAL PROSEDUR (SOP) PENYELAMATAN DIRI",
+   "tahun": 2024,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
@@ -138,10 +198,6 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
-    },
-    {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
     }
    ]
   }

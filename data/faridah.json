@@ -9,7 +9,7 @@
  "prodi": "S1 - Teknik Fisika",
  "afiliasi": "Universitas Gadjah Mada",
  "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UwuzB_gAAAAJ&citpid=1",
- "diperbarui": "2026-09-14T17:13:29+07:00",
+ "diperbarui": "2026-09-30T15:19:21+07:00",
  "batas_daftar": {
   "sumber": "sinta",
   "per_kategori": 10,
@@ -22,10 +22,34 @@
   "scholar": "https://scholar.google.com/citations?user=UwuzB_gAAAAJ"
  },
  "skor": {
-  "overall": 3798,
-  "tiga_tahun": 874,
-  "afiliasi": 3798,
-  "afiliasi_tiga_tahun": 874
+  "overall": 3790,
+  "tiga_tahun": 872,
+  "afiliasi": 3790,
+  "afiliasi_tiga_tahun": 872
+ },
+ "grafik": {
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 4
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 15
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 7
+   }
+  ]
  },
  "metrik": {
   "scopus": {
@@ -61,8 +85,8 @@
   "hindex_scopus": 11,
   "hindex_scholar": 20,
   "hindex_terdaftar": 2,
-  "paten": 11,
-  "ppm": 14,
+  "paten": 12,
+  "ppm": 12,
   "buku": 3,
   "penelitian": 10
  },
@@ -70,8 +94,8 @@
   "scopus": 10,
   "garuda": 10,
   "buku": 3,
-  "paten": 11,
-  "ppm": 14,
+  "paten": 12,
+  "ppm": 12,
   "penelitian": 10
  },
  "subjects": [
@@ -163,20 +187,6 @@
  ],
  "publikasi": [
   {
-   "judul": "Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039189521&origin=resultslist",
-   "sumber": "scopus",
-   "venue": "Sustainable Civil Infrastructures",
-   "tahun": 2026,
-   "sitasi": 0,
-   "urutan_penulis": "2 of 6",
-   "kreator": "Setiawan F.",
-   "kuartil": "Q4",
-   "jenis_venue": "Book Series",
-   "info": null,
-   "kategori": "Book Chapter / Book Series"
-  },
-  {
    "judul": "An open-source BLDC motor test bed utilizing ESC telemetry for cost-effective educational laboratories",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105040626820&origin=resultslist",
    "sumber": "scopus",
@@ -213,6 +223,20 @@
    "sitasi": 0,
    "urutan_penulis": "3 of 7",
    "kreator": "Sobirin I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039189521&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sustainable Civil Infrastructures",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Setiawan F.",
    "kuartil": "Q4",
    "jenis_venue": "Book Series",
    "info": null,
@@ -457,21 +481,6 @@
    "kategori": "Prosiding Internasional"
   },
   {
-   "judul": "TIM PROGRAM HIBAH PENGABDIAN MASYARAKAT KOLABORASI PEMBANGUNAN SUMUR BOR DAN SALURAN AIR BERSIH BAGI WARGA DUSUN GEGER, DESA PENGKOL, KECAMATAN NGLIPAR, KABUPATEN GUNUNGKIDUL, D.I. YOGYAKARTA",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2025,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 1.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
    "judul": "TIM PROGRAM HIBAH PENGABDIAN MASYARAKAT KOLABORASI PEMBANGUNAN SUMUR BOR DAN SALURAN AIR BERSIH BAGI WARGA DUSUN PAGUTAN, DESA PENGKOL, KECAMATAN NGLIPAR, KABUPATEN GUNUNGKIDUL, D.I. YOGYAKARTA",
    "url": null,
    "sumber": "ppm",
@@ -532,10 +541,10 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan.",
+   "judul": "TIM PROGRAM HIBAH PENGABDIAN MASYARAKAT KOLABORASI PEMBANGUNAN SUMUR BOR DAN SALURAN AIR BERSIH BAGI WARGA DUSUN GEGER, DESA PENGKOL, KECAMATAN NGLIPAR, KABUPATEN GUNUNGKIDUL, D.I. YOGYAKARTA",
    "url": null,
-   "sumber": "penelitian",
-   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
    "tahun": 2025,
    "sitasi": 0,
    "urutan_penulis": null,
@@ -543,8 +552,8 @@
    "kuartil": null,
    "jenis_venue": null,
    "info": null,
-   "dana": "Rp. 65.000.000",
-   "kategori": "Penelitian"
+   "dana": "Rp. 1.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
   },
   {
    "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
@@ -559,6 +568,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 873.646.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan.",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 65.000.000",
    "kategori": "Penelitian"
   },
   {
@@ -620,21 +644,6 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "RANCANG BANGUN SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS FLUKTUASI GAS RADON DAN GROUND WATER LEVEL",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "RIIM BRIN TAHUN 2022 ( RIIM BRIN )",
-   "tahun": 2024,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 200.000.000",
-   "kategori": "Penelitian"
-  },
-  {
    "judul": "Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas",
    "url": null,
    "sumber": "penelitian",
@@ -647,6 +656,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 69.120.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS FLUKTUASI GAS RADON DAN GROUND WATER LEVEL",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "RIIM BRIN TAHUN 2022 ( RIIM BRIN )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 200.000.000",
    "kategori": "Penelitian"
   },
   {
@@ -708,21 +732,6 @@
    "kategori": "Paten & HKI"
   },
   {
-   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 10.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
    "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
    "url": null,
    "sumber": "ppm",
@@ -768,7 +777,7 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "PEMBANGUNAN TPS3R FT UGM (PEMANDATAN)",
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
    "url": null,
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -779,38 +788,8 @@
    "kuartil": null,
    "jenis_venue": null,
    "info": null,
-   "dana": "Rp. 15.000.000",
+   "dana": "Rp. 10.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "PENYELENGGARAAN KLINIK RUMAH SWADAYA (PEMANDATAN)",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 15.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "Penelitian Kompetitif Nasional ( PT )",
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 175.352.500",
-   "kategori": "Penelitian"
   },
   {
    "judul": "Penerapan Teknologi Soft Sensor Pada Sistem Manajemen Performansi Indoor Environment Quality (IEQ) dan Hemat Energi Untuk Bangunan Tropis",
@@ -855,6 +834,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 175.352.500",
    "kategori": "Penelitian"
   },
   {
@@ -903,21 +897,6 @@
    "kategori": "Buku"
   },
   {
-   "judul": "Video Metode Penggabungan Data Digital GPS Lokasi Area Rawapening dan Data Sonar Kedalaman Air Danau",
-   "url": null,
-   "sumber": "paten",
-   "venue": "Direktorat Penelitian UGM",
-   "tahun": 2021,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": "Nomor Permohonan : EC00202170425",
-   "jenis_paten": "Hak Cipta",
-   "kategori": "Paten & HKI"
-  },
-  {
    "judul": "SISTEM UJI KUALITAS SERAT ALAMI BERBASIS UJI TARIK DENGAN RANGKAIAN STRAIN GAUGE",
    "url": null,
    "sumber": "paten",
@@ -963,6 +942,21 @@
    "kategori": "Paten & HKI"
   },
   {
+   "judul": "SISTEM MONITOR BANGUNAN SEHAT BERBASIS KUALITAS UDARA DALAM RUANGAN, KADAR KARBON DIOKSIDA, VOLUME DAN ARAH ALIRAN UDARA",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202106548",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
    "judul": "Karya Hijauku untuk Kampus Biruku",
    "url": null,
    "sumber": "paten",
@@ -978,18 +972,33 @@
    "kategori": "Paten & HKI"
   },
   {
-   "judul": "SISTEM MONITOR BANGUNAN SEHAT BERBASIS KUALITAS UDARA DALAM RUANGAN, KADAR KARBON DIOKSIDA, VOLUME DAN ARAH ALIRAN UDARA",
+   "judul": "Video Metode Penggabungan Data Digital GPS Lokasi Area Rawapening dan Data Sonar Kedalaman Air Danau",
    "url": null,
    "sumber": "paten",
-   "venue": "Universitas Gadjah Mada",
+   "venue": "Direktorat Penelitian UGM",
    "tahun": 2021,
    "sitasi": 0,
    "urutan_penulis": null,
    "kreator": null,
    "kuartil": null,
    "jenis_venue": null,
-   "info": "Nomor Permohonan : P00202106548",
-   "jenis_paten": "Paten",
+   "info": "Nomor Permohonan : EC00202170425",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Video Tutorial Pemahaman Algoritma Random Forest dalam Analisis Sistem",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian UGM",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202060787",
+   "jenis_paten": "Hak Cipta",
    "kategori": "Paten & HKI"
   },
   {
