@@ -9,16 +9,19 @@ scraper Python (stdlib saja) -> JSON per dosen -> GitHub Pages -> widget HTML fe
 - `dosen.csv` — 38 dosen (slug, nama, gelar, jabatan, email, sinta_id, scopus_id, scholar_id, foto_url). `jabatan` sengaja kosong (diisi manual).
 - `scripts/build.py` — scrape SINTA (6 tab: scopus, garuda, books, iprs, services, researches), tulis `data/<slug>.json`, lalu panggil `agregat.py`.
 - `scripts/agregat.py` — gabung semua dosen jadi `data/agregat/ringkas.json` + `<tahun>.json`; paper multi-penulis digabung (kunci: EID Scopus -> DOI -> judul ternormalisasi, judul <25 karakter tidak digabung).
-- `widget/publikasi.html` — profil dosen (`.dtntf-pub`), atribut `data-base`, `data-slug`, `data-tampil="skor,metrik,publikasi"`. Bagian foto/nama/bio dibuat manual di Elementor, hanya bagian statistik + daftar ini yang otomatis.
+- `widget/publikasi.html` — profil dosen (`.dtntf-pub`), atribut `data-base`, `data-slug`, `data-tampil="skor,grafik,metrik,publikasi"`. Bagian foto/nama/bio dibuat manual di Elementor, hanya bagian statistik + daftar ini yang otomatis.
 - `widget/departemen.html` — halaman departemen (`.dtntf-dep`), atribut `data-base`, `data-profil` (sudah sederhana: tanpa filter/pencarian).
 - `.github/workflows/update.yml` — workflow_dispatch (input `dosen`, default `faridah,widya-rosita`), cron Senin 03:00 WIB, push ke `dosen.csv`/`scripts/**`/`widget/**`; commit `data/` lalu deploy Pages.
+- `scripts/manual.py` — gabung `manual/luaran.xlsx` (satu berkas Excel jurusan; templat `manual/templat-luaran.xlsx`, dibuat `scripts/buat_templat.py`) ke `data/<slug>.json` (entri bertanda `manual:true`, idempoten), lalu agregat. Dipanggil di `update.yml` setelah build dan di `manual.yml` (cepat, dipicu push `manual/luaran.xlsx`).
+- `scripts/unggah_manual.py` — mini app lokal (127.0.0.1:8787) untuk unggah xlsx via GitHub API dengan PAT tersimpan di `~/.dtntf-publikasi-token`. JANGAN pernah menaruh token di browser/halaman publik.
+- `scripts/buat_elementor.py` — buat `elementor/*.json` (templat Container siap impor) dari `widget/*.html`; jalankan ulang tiap widget berubah.
 - `jalankan.sh` — cadangan: cron di mesin lokal ber-IP Indonesia.
 - `uji-*.html` — halaman uji lokal (`python3 -m http.server`).
 
 ## Fakta penting tentang SINTA (jangan lupa)
 - Pengunjung tanpa login HANYA melihat 10 entri terbaru per tab. "View more" -> /logins. `?page=N` tidak membantu. JANGAN otomatisasi login.
 - Tabel metrik `.stat-table` (Article, Citation, Cited Doc, H-Index, i10, G-Index untuk Scopus/GScholar/WOS) dan kartu skor `.pr-num`/`.pr-txt` lengkap dan akurat seumur karier.
-- Donat kuartil & radar riset digambar echarts via JS; datanya TIDAK ada di HTML statis. Belum bisa diambil (perlu cek tab Network / View Source untuk endpoint datanya).
+- Donat kuartil, radar riset, dan artikel/tahun digambar echarts via JS. `scripts/grafik.py` mencoba mengambilnya dari skrip inline (pola pie/radar/line umum) → `grafik` di JSON dosen; widget `data-tampil=grafik`. FORMAT ASLI BELUM TERVERIFIKASI: bila kosong, `build.py` menulis `diagnostik-grafik.txt` — minta user mengirim berkas itu lalu cocokkan pola di grafik.py.
 - Slot `.ar-quartile` dipakai ulang tiap tab: Scopus "Q2 as Journal"; Garuda "Accred : Sinta 3"; Buku "ISBN : ..."; Paten jenis; PPM/Penelitian "Rp. ...". `.ar-cited` = sitasi hanya di Scopus. Lihat `LABEL_FIELD` di build.py.
 - Tab Garuda mencocokkan berdasarkan NAMA -> dosen bernama tunggal kemasukan paper orang lain. Keputusan user: tetap dipakai, widget beri label "via indeks Garuda".
 - Statistik turunan dari daftar 10 entri itu bias (tren tahunan, sebaran kuartil, venue) -> jangan ditampilkan selama `batas_daftar.lengkap` false.

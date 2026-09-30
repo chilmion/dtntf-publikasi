@@ -35,6 +35,9 @@ import http.cookiejar
 import urllib.error
 import urllib.request
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import grafik  # noqa: E402  (data grafik Summary SINTA)
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SINTA = "https://sinta.kemdiktisaintek.go.id"
@@ -190,6 +193,13 @@ def parse_profil(h):
     if not metrik["wos"]:
         metrik.pop("wos")
     d["metrik"] = metrik
+
+    # grafik Summary (kuartil, research output, per tahun) — dari skrip inline echarts
+    d["grafik"] = grafik.ekstrak(h)
+    if not d["grafik"]:
+        p = grafik.simpan_diagnosa(h)
+        if p:
+            print(f"      ! data grafik tidak ditemukan; laporan mentah ditulis ke {p.name}")
     return d
 
 
@@ -432,6 +442,7 @@ def rakit(row, profil, artikel):
                 row.get("scholar_id", "").strip() or profil.get("scholar_id")),
         },
         "skor": profil.get("skor", {}),
+        "grafik": profil.get("grafik") or None,
         "metrik": m,
         "ringkas": {
             "publikasi_scopus": sc.get("artikel") if sc.get("artikel") is not None else n_scopus,
@@ -673,6 +684,7 @@ def main():
         print(f"      ✓ {len(rek['publikasi'])} publikasi")
         santai()
 
+    n_berhasil = len(index)
     # Gabung dengan index lama supaya build sebagian tidak menghapus dosen lain.
     lama = {}
     f_index = DATA / "index.json"
@@ -691,7 +703,7 @@ def main():
         {"diperbarui": time.strftime("%Y-%m-%d"), "dosen": index},
         ensure_ascii=False, indent=1), encoding="utf-8")
 
-    print(f"\nSelesai: {len(index)} berhasil, {len(gagal)} gagal"
+    print(f"\nSelesai: {n_berhasil} berhasil, {len(gagal)} gagal"
           + (f" → {', '.join(gagal)}" if gagal else ""))
 
     # Bangun ulang agregat departemen dari seluruh JSON yang ada.

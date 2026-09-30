@@ -1,19 +1,16 @@
-name: Perbarui data publikasi
+name: Perbarui data manual
 
+# Jalan cepat (tanpa scrape SINTA): hanya memasang isi manual/luaran.xlsx
+# ke data dosen lalu menerbitkan ulang. Dipicu otomatis saat berkas itu
+# diunggah (mis. lewat scripts/unggah_manual.py), atau lewat tombol Run workflow.
 on:
-  workflow_dispatch:            # tombol "Run workflow" — dipakai saat beta
-    inputs:
-      dosen:
-        description: "Slug/ID dosen dipisah koma. Kosongkan untuk semua."
-        required: false
-        default: "faridah,widya-rosita"
-  schedule:
-    - cron: "0 20 * * 0"        # Minggu 20:00 UTC = Senin 03:00 WIB
+  workflow_dispatch:
   push:
+    branches: [main]
     paths:
-      - "dosen.csv"
-      - "scripts/**"
-      - "widget/**"
+      - "manual/luaran.xlsx"
+      - "manual/luaran.csv"
+      - "scripts/manual.py"
 
 permissions:
   contents: write
@@ -34,14 +31,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      # Saat beta: hanya dosen yang disebut. Jadwal mingguan tetap terbatas
-      # ke daftar beta sampai kamu mengosongkan BETA_DEFAULT di bawah.
-      - name: Scrape SINTA
-        env:
-          BETA_DOSEN: ${{ github.event.inputs.dosen || 'faridah,widya-rosita' }}
-        run: python scripts/build.py
-
-      # Pasang ulang luaran manual (build.py menulis ulang data dosen dari SINTA).
       - name: Pasang data manual
         run: python scripts/manual.py
 
@@ -51,7 +40,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [[ -n "$(git status --porcelain data/)" ]]; then
             git add data/
-            git commit -m "Perbarui data publikasi $(date -u '+%Y-%m-%d')"
+            git commit -m "Perbarui data manual $(date -u '+%Y-%m-%d')"
             git push
           else
             echo "tidak ada perubahan"
@@ -61,8 +50,6 @@ jobs:
         run: |
           mkdir -p _site/data
           cp -r data/. _site/data/
-          # Izinkan fetch lintas-domain dari tf.ugm.ac.id (GitHub Pages sudah
-          # mengirim Access-Control-Allow-Origin: * untuk file statis).
           echo '{"ok":true}' > _site/health.json
 
       - uses: actions/upload-pages-artifact@v3

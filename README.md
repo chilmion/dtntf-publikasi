@@ -56,6 +56,7 @@ data/<slug>.json           satu dosen: metrik + seluruh luarannya
 data/agregat/ringkas.json  daftar dosen + statistik, indeks tahun
 data/agregat/2026.json     entri tahun itu (sudah digabung)
 data/agregat/2025.json     …dst
+manual/luaran.xlsx         input manual dari jurusan (opsional)
 ```
 
 Dipecah per tahun supaya tiap berkas tetap kecil. Widget departemen mengunduh
@@ -97,17 +98,20 @@ lain.
 ```html
 data-base="https://<akun>.github.io/<repo>/data"
 data-slug="faridah"
-data-tampil="skor,metrik,publikasi"
+data-tampil="skor,grafik,metrik,publikasi"
 ```
 
 `data-tampil` menentukan bagian mana yang muncul, dipisah koma:
 
 - `skor` — kartu skor SINTA;
+- `grafik` — ringkasan riset dari SINTA: donat kuartil artikel, radar luaran riset, artikel per tahun (butuh data grafik, lihat di bawah);
 - `metrik` — bar artikel, sitasi, h-index, dst. untuk Scopus/GScholar/WOS;
 - `publikasi` — daftar luaran terbaru per kategori.
 
 Hapus salah satu kalau tidak mau ditampilkan, misalnya
 `data-tampil="publikasi"` untuk daftar saja.
+
+**Data grafik.** SINTA menggambar grafik Summary lewat JavaScript, dan `scripts/grafik.py` mengambil datanya dari skrip di halaman profil. Format aslinya belum terverifikasi; kalau tidak ditemukan, `build.py` menulis `diagnostik-grafik.txt` (potongan skrip mentah) dan blok grafik disembunyikan otomatis sampai polanya dicocokkan.
 
 7. **Halaman departemen** (`/publikasi/`) — widget **HTML**, tempel
    `widget/departemen.html`, lalu ubah:
@@ -132,6 +136,44 @@ dan 38 dosen berarti ratusan request ke SINTA per sync. Risiko diblokir jauh
 lebih besar daripada saat beta 2 dosen. Kalau mulai muncul HTTP 403/429 di log
 Actions, pindahkan eksekusi ke mesin lokal ber-IP Indonesia dengan
 `jalankan.sh` + cron — script-nya sama persis, tidak perlu diubah.
+
+## Input manual (luaran yang tidak ada di SINTA)
+
+Jurusan mengisi **satu berkas Excel** untuk seluruh dosen; isinya ditambahkan
+ke data SINTA.
+
+1. Pakai templat `manual/templat-luaran.xlsx`. Isi sheet **Luaran**, satu baris
+   satu luaran. Wajib: `dosen`, `jenis`, `judul`, `tahun`; kolom lain opsional.
+   Nama dosen dipilih dari dropdown (beberapa dosen: pisahkan dengan `;`).
+   Sheet *Petunjuk* menjelaskan tiap kolom. Jangan ganti nama sheet/kolom.
+2. Unggah sebagai `manual/luaran.xlsx` — lewat mini app di bawah (tanpa login
+   GitHub) atau lewat GitHub: *Add file → Upload files* di folder `manual/`.
+3. Workflow **Perbarui data manual** jalan otomatis (±1–2 menit, tanpa scrape
+   SINTA) dan menerbitkan ulang. Workflow mingguan juga memasangnya lagi.
+
+Luaran yang judulnya sudah ada di SINTA untuk dosen yang sama dilewati. Baris
+yang salah (jenis/tahun tidak valid, dosen tak dikenal) dilewati dan
+dilaporkan di log.
+
+### Mini app unggah (tanpa login GitHub)
+
+```
+python3 scripts/unggah_manual.py
+```
+
+Buka halaman lokal `http://127.0.0.1:8787` (hanya dari komputermu). Pilih
+berkas → **Periksa** → **Unggah & perbarui**. Perlu sekali saja membuat token:
+
+1. GitHub → foto profil → *Settings → Developer settings → Personal access
+   tokens → Fine-grained tokens → Generate new token*.
+2. *Repository access:* Only select repositories → `dtntf-publikasi`.
+3. *Permissions:* **Contents = Read and write**, **Actions = Read and write**.
+4. Salin token, tempel di halaman mini app. Tersimpan di
+   `~/.dtntf-publikasi-token` (bukan di repo). Kalau bocor, hapus token itu di
+   GitHub. Token punya masa berlaku; buat baru bila habis.
+
+Butuh Python 3 (Mac: jalankan `python3` di Terminal, macOS akan menawarkan
+pemasangan bila belum ada) dan folder repo ini (Code → Download ZIP).
 
 ## Batas 10 entri dari SINTA
 

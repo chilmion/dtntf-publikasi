@@ -6,7 +6,7 @@
        data-base   : URL folder data di GitHub Pages
        data-slug   : slug dosen untuk halaman ini
        data-tampil : bagian yang ditampilkan, dipisah koma.
-                     pilihan: skor, metrik, publikasi
+                     pilihan: skor, grafik, metrik, publikasi
 
      Konsep: statistik ditampilkan lengkap (datang dari tabel metrik SINTA,
      jadi akurat untuk seluruh karier), sedangkan daftar publikasi hanya
@@ -20,7 +20,7 @@
 <div class="dtntf-pub"
      data-base="https://NAMA-AKUN.github.io/dtntf-profil/data"
      data-slug="faridah"
-     data-tampil="skor,metrik,publikasi">
+     data-tampil="skor,grafik,metrik,publikasi">
   <div class="dp-loading">Memuat data publikasi…</div>
 </div>
 
@@ -57,6 +57,26 @@
 .dtntf-pub .dp-skor-item.utama .dp-skor-angka{color:#fff}
 .dtntf-pub .dp-skor-label{font-size:.78rem;color:var(--dp-ink-2);margin-top:4px;font-weight:500}
 .dtntf-pub .dp-skor-item.utama .dp-skor-label{color:rgba(255,255,255,.82)}
+
+/* ---- grafik ringkasan ---- */
+.dtntf-pub .dp-grafik{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.dtntf-pub .dp-kartu{background:var(--dp-surface-2);border-radius:var(--dp-radius);padding:18px 20px}
+.dtntf-pub .dp-kartu.lebar{grid-column:1/-1}
+.dtntf-pub .dp-kartu-judul{font-size:.86rem;font-weight:700;color:var(--dp-navy-2);margin:0 0 12px}
+.dtntf-pub .dp-donat-baris{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.dtntf-pub .dp-donat{width:150px;height:150px;flex:none}
+.dtntf-pub .dp-donat-total{font-size:20px;font-weight:700;fill:var(--dp-navy);font-family:inherit}
+.dtntf-pub .dp-donat-sub{font-size:7px;fill:var(--dp-ink-3);font-family:inherit}
+.dtntf-pub .dp-legenda-v{display:flex;flex-direction:column;gap:6px;font-size:.82rem;flex:1 1 130px}
+.dtntf-pub .dp-legenda-v div{display:flex;align-items:center;gap:8px}
+.dtntf-pub .dp-legenda-v b{margin-left:auto;font-variant-numeric:tabular-nums}
+.dtntf-pub .dp-radar{width:100%;max-width:340px;height:auto;display:block;margin:0 auto}
+.dtntf-pub .dp-radar-teks{font-size:10.5px;fill:var(--dp-ink-2);font-family:inherit}
+.dtntf-pub .dp-radar-nilai{font-size:10.5px;font-weight:700;fill:var(--dp-navy);font-family:inherit}
+.dtntf-pub .dp-tahun-chart{width:100%;height:120px;overflow:visible}
+.dtntf-pub .dp-tahun-bar{fill:var(--dp-navy)}
+.dtntf-pub .dp-tahun-bar:hover{opacity:.65}
+.dtntf-pub .dp-tahun-sumbu{display:flex;justify-content:space-between;font-size:.72rem;color:var(--dp-ink-3);margin-top:5px}
 
 /* ---- tabel metrik dengan bar ---- */
 .dtntf-pub .dp-legenda{display:flex;gap:18px;flex-wrap:wrap;font-size:.79rem;
@@ -102,6 +122,7 @@
 .dtntf-pub .dp-kaki a{color:var(--dp-navy);text-decoration:none}
 .dtntf-pub .dp-kaki a:hover{text-decoration:underline}
 
+@media (max-width:700px){ .dtntf-pub .dp-grafik{grid-template-columns:1fr} }
 @media (max-width:560px){
   .dtntf-pub .dp-skor{grid-template-columns:repeat(2,1fr);gap:9px}
   .dtntf-pub .dp-skor-item{padding:13px 14px}
@@ -119,7 +140,7 @@
 
   var BASE = (akar.dataset.base || '').replace(/\/$/, '');
   var SLUG = akar.dataset.slug || '';
-  var TAMPIL = (akar.dataset.tampil || 'skor,metrik,publikasi')
+  var TAMPIL = (akar.dataset.tampil || 'skor,grafik,metrik,publikasi')
                  .split(',').map(function (s) { return s.trim(); });
   var mau = function (n) { return TAMPIL.indexOf(n) > -1; };
 
@@ -133,12 +154,13 @@
   var NAMA_KATEGORI = {
     scopus: 'Publikasi terindeks Scopus',
     garuda: 'Publikasi jurnal nasional (Garuda)',
+    ilmiah: 'Publikasi ilmiah lainnya',
     buku: 'Buku',
     paten: 'Paten & Hak Kekayaan Intelektual',
     penelitian: 'Penelitian',
     ppm: 'Pengabdian kepada Masyarakat'
   };
-  var URUT = ['scopus', 'garuda', 'buku', 'paten', 'penelitian', 'ppm'];
+  var URUT = ['scopus', 'garuda', 'ilmiah', 'buku', 'paten', 'penelitian', 'ppm'];
 
   // Baris tabel metrik. Tiap baris punya skalanya sendiri — membandingkan
   // 421 artikel dengan 2.334 sitasi dalam satu skala tidak ada artinya.
@@ -173,6 +195,85 @@
     return null;
   }
 
+  // ---------- grafik ringkasan (dari data "Summary" SINTA) ----------
+  var WARNA_Q = { 'Q1': '#073C64', 'Q2': '#2E6C9A', 'Q3': '#6FA3C7', 'Q4': '#B6CFE0', 'No-Q': '#C4C8D3' };
+  var NAMA_Q = { 'No-Q': 'Tanpa kuartil' };
+  var NAMA_OUT = { 'Articles': 'Artikel jurnal', 'Conference': 'Prosiding', 'Others': 'Lainnya' };
+
+  function donat(data) {
+    var total = data.reduce(function (a, x) { return a + x.jumlah; }, 0);
+    if (!total) return '';
+    var kum = 0;
+    var arc = data.map(function (x) {
+      var p = x.jumlah / total * 100, w = WARNA_Q[x.nama] || '#8fb0c9';
+      var c = '<circle cx="60" cy="60" r="44" fill="none" stroke="' + w + '" stroke-width="18" ' +
+        'pathLength="100" stroke-dasharray="' + p.toFixed(3) + ' ' + (100 - p).toFixed(3) +
+        '" stroke-dashoffset="' + (-kum).toFixed(3) + '" transform="rotate(-90 60 60)">' +
+        '<title>' + esc(NAMA_Q[x.nama] || x.nama) + ' · ' + x.jumlah + '</title></circle>';
+      kum += p;
+      return c;
+    }).join('');
+    var leg = data.map(function (x) {
+      return '<div><i class="dp-dot" style="background:' + (WARNA_Q[x.nama] || '#8fb0c9') + '"></i>' +
+        esc(NAMA_Q[x.nama] || x.nama) + '<b>' + num(x.jumlah) + '</b></div>';
+    }).join('');
+    return '<div class="dp-donat-baris"><svg class="dp-donat" viewBox="0 0 120 120" role="img" ' +
+      'aria-label="Sebaran kuartil artikel Scopus">' + arc +
+      '<text class="dp-donat-total" x="60" y="62" text-anchor="middle">' + num(total) + '</text>' +
+      '<text class="dp-donat-sub" x="60" y="73" text-anchor="middle">artikel</text></svg>' +
+      '<div class="dp-legenda-v">' + leg + '</div></div>';
+  }
+
+  function radar(data) {
+    var n = data.length;
+    if (n < 3) return '';
+    var maks = Math.max.apply(null, data.map(function (x) { return x.jumlah; })) || 1;
+    var cx = 150, cy = 118, R = 78;
+    var pt = function (i, f) {
+      var a = -Math.PI / 2 + i * 2 * Math.PI / n;
+      return [cx + Math.cos(a) * R * f, cy + Math.sin(a) * R * f];
+    };
+    var cincin = [1 / 3, 2 / 3, 1].map(function (f) {
+      return '<polygon points="' + data.map(function (_, i) { return pt(i, f).join(','); }).join(' ') +
+        '" fill="none" stroke="var(--dp-line)" stroke-width="1"/>';
+    }).join('');
+    var sumbu = data.map(function (_, i) {
+      var p = pt(i, 1);
+      return '<line x1="' + cx + '" y1="' + cy + '" x2="' + p[0].toFixed(1) + '" y2="' + p[1].toFixed(1) +
+        '" stroke="var(--dp-line)" stroke-width="1"/>';
+    }).join('');
+    var area = '<polygon points="' + data.map(function (x, i) {
+      return pt(i, Math.max(x.jumlah / maks, 0.02)).map(function (v) { return v.toFixed(1); }).join(',');
+    }).join(' ') + '" fill="rgba(7,60,100,.22)" stroke="#073C64" stroke-width="1.6"/>';
+    var teks = data.map(function (x, i) {
+      var p = pt(i, 1.16), an = p[0] < cx - 6 ? 'end' : (p[0] > cx + 6 ? 'start' : 'middle');
+      var y = p[1] + (p[1] < cy - 6 ? -4 : (p[1] > cy + 6 ? 12 : 4));
+      return '<text class="dp-radar-teks" x="' + p[0].toFixed(1) + '" y="' + y.toFixed(1) +
+        '" text-anchor="' + an + '">' + esc(NAMA_OUT[x.nama] || x.nama) + ' · ' +
+        '<tspan class="dp-radar-nilai">' + num(x.jumlah) + '</tspan></text>';
+    }).join('');
+    return '<svg class="dp-radar" viewBox="0 0 300 235" role="img" aria-label="Luaran riset: ' +
+      data.map(function (x) { return esc((NAMA_OUT[x.nama] || x.nama) + ' ' + x.jumlah); }).join(', ') + '">' +
+      cincin + sumbu + area + teks + '</svg>';
+  }
+
+  function tahunan(data) {
+    if (!data || data.length < 2) return '';
+    var n = data.length, maks = Math.max.apply(null, data.map(function (x) { return x.jumlah; })) || 1;
+    var lebar = 100 / n, pad = Math.min(lebar * 0.2, 1.2);
+    var bar = data.map(function (x, i) {
+      var t = x.jumlah / maks * 86;
+      return '<rect class="dp-tahun-bar" x="' + (i * lebar + pad).toFixed(2) + '" y="' + (94 - t).toFixed(2) +
+        '" width="' + Math.max(lebar - pad * 2, 0.4).toFixed(2) + '" height="' + Math.max(t, 0.6).toFixed(2) +
+        '" rx="0.6"><title>' + x.tahun + ' · ' + x.jumlah + ' artikel</title></rect>';
+    }).join('');
+    return '<svg class="dp-tahun-chart" viewBox="0 0 100 100" preserveAspectRatio="none" role="img" ' +
+      'aria-label="Artikel Scopus per tahun ' + data[0].tahun + '–' + data[n - 1].tahun + '">' +
+      '<line x1="0" y1="94" x2="100" y2="94" stroke="var(--dp-line)" vector-effect="non-scaling-stroke"/>' +
+      bar + '</svg><div class="dp-tahun-sumbu"><span>' + data[0].tahun + '</span><span>tertinggi ' +
+      maks + ' per tahun</span><span>' + data[n - 1].tahun + '</span></div>';
+  }
+
   function render(d) {
     var m = d.metrik || {}, sk = d.skor || {}, t = d.tautan || {}, h = [];
 
@@ -191,6 +292,20 @@
               '<div class="dp-skor-label">' + s[1] + '</div></div>';
           }).join('') + '</div></div>');
       }
+    }
+
+    // ---------- grafik ringkasan ----------
+    if (mau('grafik') && d.grafik) {
+      var g = d.grafik, kartu = [];
+      if ((g.kuartil || []).length && donat(g.kuartil))
+        kartu.push('<div class="dp-kartu"><h4 class="dp-kartu-judul">Kuartil artikel Scopus</h4>' + donat(g.kuartil) + '</div>');
+      if ((g.output || []).length && radar(g.output))
+        kartu.push('<div class="dp-kartu"><h4 class="dp-kartu-judul">Luaran riset</h4>' + radar(g.output) + '</div>');
+      if ((g.per_tahun || []).length > 1)
+        kartu.push('<div class="dp-kartu lebar"><h4 class="dp-kartu-judul">Artikel Scopus per tahun</h4>' + tahunan(g.per_tahun) + '</div>');
+      if (kartu.length)
+        h.push('<div class="dp-blok"><h3 class="dp-judul">Ringkasan riset</h3><div class="dp-grafik">' +
+          kartu.join('') + '</div></div>');
     }
 
     // ---------- tabel metrik ----------
