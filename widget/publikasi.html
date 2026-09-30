@@ -72,8 +72,8 @@
 .dtntf-pub .dp-bar-baris{display:grid;grid-template-columns:78px 1fr 62px;gap:10px;
   align-items:center;font-size:.78rem;margin-bottom:4px}
 .dtntf-pub .dp-bar-sumber{color:var(--dp-ink-2)}
-.dtntf-pub .dp-bar-jalur{background:var(--dp-surface-2);border-radius:4px;height:9px;overflow:hidden}
-.dtntf-pub .dp-bar-isi{height:100%;border-radius:4px;min-width:3px}
+.dtntf-pub .dp-bar-jalur{display:block;background:var(--dp-surface-2);border-radius:4px;height:9px;overflow:hidden}
+.dtntf-pub .dp-bar-isi{display:block;height:100%;border-radius:4px;min-width:3px}
 .dtntf-pub .dp-bar-nilai{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;
   color:var(--dp-ink)}
 
@@ -103,6 +103,8 @@
 .dtntf-pub .dp-kaki a:hover{text-decoration:underline}
 
 @media (max-width:560px){
+  .dtntf-pub .dp-skor{grid-template-columns:repeat(2,1fr);gap:9px}
+  .dtntf-pub .dp-skor-item{padding:13px 14px}
   .dtntf-pub .dp-skor-angka{font-size:1.5rem}
   .dtntf-pub .dp-bar-baris{grid-template-columns:66px 1fr 54px;font-size:.74rem}
 }
