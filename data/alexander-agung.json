@@ -1,0 +1,1408 @@
+{
+ "slug": "alexander-agung",
+ "sinta_id": "44275",
+ "nama": "Alexander Agung",
+ "nama_sinta": "ALEXANDER AGUNG",
+ "gelar": "S.T., M.Sc., Dr., PostDoc",
+ "jabatan": null,
+ "email": "a_agung@ugm.ac.id",
+ "prodi": "S2 - Magister Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=_UxdIPIAAAAJ&citpid=1",
+ "diperbarui": "2026-09-30T16:36:06+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/44275",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/44275/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=_UxdIPIAAAAJ"
+ },
+ "skor": {
+  "overall": 1056,
+  "tiga_tahun": 355,
+  "afiliasi": 1056,
+  "afiliasi_tiga_tahun": 355
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2003,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2004,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2005,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2006,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2007,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2008,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2009,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2010,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2011,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 7
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 16
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 3
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 15
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 5
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 18
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 2
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 27
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 16
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 41,
+   "sitasi": 126,
+   "dokumen_disitasi": 21,
+   "hindex": 8,
+   "i10index": 6,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 110,
+   "sitasi": 257,
+   "dokumen_disitasi": 43,
+   "hindex": 8,
+   "i10index": 8,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 4,
+   "i10index": 0,
+   "gindex": 1
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 41,
+  "publikasi_garuda": 2,
+  "sitasi_scopus": 126,
+  "sitasi_scholar": 257,
+  "hindex_scopus": 8,
+  "hindex_scholar": 8,
+  "hindex_terdaftar": 6,
+  "paten": 0,
+  "ppm": 21,
+  "buku": 0,
+  "penelitian": 8
+ },
+ "per_sumber": {
+  "scopus": 41,
+  "garuda": 2,
+  "ppm": 21,
+  "penelitian": 8
+ },
+ "subjects": [
+  "Reactor Physics",
+  "Computational Thermal-hydraulics",
+  "Advanced Reactor Development"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2003,
+   "publikasi": 2,
+   "sitasi": 20
+  },
+  {
+   "tahun": 2004,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2006,
+   "publikasi": 1,
+   "sitasi": 8
+  },
+  {
+   "tahun": 2009,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2013,
+   "publikasi": 1,
+   "sitasi": 12
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 1,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 3,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 14
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 4,
+   "sitasi": 8
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 2,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 2,
+   "sitasi": 30
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 14,
+   "sitasi": 11
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 3,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 3,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 6
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 13
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 4
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 16
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 2
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Nuclear Engineering and Design",
+   "jumlah": 7
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 6
+  },
+  {
+   "nama": "Proceedings International Seminar on Intelligent Technology and Its Applications Isitia",
+   "jumlah": 3
+  },
+  {
+   "nama": "Journal of Physics Conference Series",
+   "jumlah": 3
+  },
+  {
+   "nama": "Annals of Nuclear Energy",
+   "jumlah": 2
+  },
+  {
+   "nama": "International Journal on Advanced Science Engineering and Information Technology",
+   "jumlah": 2
+  },
+  {
+   "nama": "Nuclear Technology",
+   "jumlah": 2
+  },
+  {
+   "nama": "Progress in Nuclear Energy",
+   "jumlah": 2
+  },
+  {
+   "nama": "Atom Indonesia",
+   "jumlah": 1
+  },
+  {
+   "nama": "Bio Web of Conferences",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Application of Sub-Miniature Fission Chamber Neutron Detector for Neutron Flux Measurement at the RSG-GAS Reactor: Foil Activation Benchmarking",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105045793546&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Atom Indonesia",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "0 of 6",
+   "kreator": "Gusman R.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Estimation of the 99Mo production capacity and radioactive waste of the GAMA-AHR conceptual design",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105042846956&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Annals of Nuclear Energy",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 8",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Analysis of thermal radiation shielding of vacuum furnace for brazing and bake-out of accelerator",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105033661431&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Bio Web of Conferences",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "6 of 6",
+   "kreator": "Suprapto",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Design of GAMA-SHP microreactor for outer space application: Neutronic study",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105005408737&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Dynamic modeling and simulation of the GAMA-AHR",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105002813156&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Subchannel Analysis on KLT-40S in Determining MDNBR During Loss-of-Flow Accident Using SUBCHANFLOW",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85218694093&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Kuumbara I.P.K.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Desain Konseptual Teras Reaktor Nuklir Terapung Berbasis Accident Tolerant Fuel untuk Daerah Terpencil Indonesia",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 78.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "What is the future for nuclear fission technology? A technical opinion from the Guest Editors of VSI NFT series and the Editor of the Journal Nuclear Engineering and Design",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85194086953&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2024,
+   "sitasi": 4,
+   "urutan_penulis": "73 of 93",
+   "kreator": "D'Auria F.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Neutronic characteristic analysis of the GAMA microreactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85192327045&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Heliyon",
+   "tahun": 2024,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 8",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Performance Test of SPND Neutron Detector and Neutron Flux Mapping of Kartini Reactor Core",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85185570427&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2024,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Kuswandrata R.S.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Neutronic characteristics of the GAMA aqueous homogeneous reactor (GAMA-AHR)",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85193904077&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2024,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Burnup and neutronic parameter analysis of GAMA molten salt reactor (GAMA-MSR)",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85196101223&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Annals of Nuclear Energy",
+   "tahun": 2024,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Development of NLW-2 auxiliary device for neutron flux measurement using FC detector at Kartini Research Reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208425249&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings International Seminar on Intelligent Technology and Its Applications Isitia",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Karsono W.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Preliminary analysis of the core design for Indonesia Micro Reactor (IMR-13)",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85184814261&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "7 of 7",
+   "kreator": "Nahari L.H.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Optimization of Fuel Enrichment and Reactor Core Pitch Dimension in Hydride Microreactor using NSGA-II Method and OpenMC Calculation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208722060&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Gusti A.R.P.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The Development of Neutron Flux Monitoring System Using ESP32 Module in Kartini Research Reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208433378&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings International Seminar on Intelligent Technology and Its Applications Isitia",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Kuswandrata R.S.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Preface for the ”OUTCOMES AND ACHIEVEMENTS FROM RESEARCHES ORIENTING THE FUTURE IN NUCLEAR FISSION TECHNOLOGY: Asia South-East (Vietnam, Thailand, Indonesia, Malaysia, Singapore, Bangladesh) and Australia”",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85199951262&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Tran H.N.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The Development of Neutron Flux Monitoring System Using ESP32 Module in Kartini Research Reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208433378&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings International Seminar on Intelligent Technology and Its Applications Isitia",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Kuswandrata R.S.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Optimizing the placement and content of burnable poison in Gama-Float reactor's fuel assembly",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85212795539&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Asia Pacific Journal of Science and Technology",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Prasetyo D.A.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Neutronic Analysis of Hydride Microreactor Fuelled with UH3 and ThC",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85185603429&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Putra M.Y.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Validation of MCNPX Calculational Model for Kartini Reactor Outer Core Neutron Flux",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208695125&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Karsono W.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI DI RUANG CT-SCAN RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DISEMINASI IPTEK NUKLIR BIDANG KESEHATAN DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Kajian Multifisika Accident Tolerant Fuel dengan Penambahan Thorium untuk Meningkatkan Aspek Keselamatan pada Reaktor Nuklir Terapung",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 119.890.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Nuclear Power Plant to Support Indonesia’s Net Zero Emissions: A Case Study of Small Modular Reactor Technology Selection Using Technology Readiness Level and Levelized Cost of Electricity Comparing Method",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85159326953&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energies",
+   "tahun": 2023,
+   "sitasi": 27,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Rahmanta M.A.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Investigation on Neutronic Parameters of the KLT-40S Reactor Core with U3Si2-FeCrAl using SCALE Code",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85153566515&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Engineering and Technological Sciences",
+   "tahun": 2023,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Mahfudz A.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI RUANG ROENTGEN RSU ISLAM - KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Kalibrasi Dan Verifikasi Detektor Fission Chamber Untuk Pengukuran Fluks Neutron Luar Teras Reaktor Kartini",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PPS-PTM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 29.200.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "OPTIMASI KADAR DAN LETAK PIN GADOLINIA PADA PERANGKAT BAHAN BAKAR REAKTOR GAMA FLOAT MENGGUNAKAN METODE ALGORITMA GENETIKA",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Pemetaan Distribusi Fluks Neutron di Teras Reaktor Kartini Arah Radial dan Aksial Menggunakan Detektor SPND (Self Powered Neutron Detector)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PPS-PTM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 26.900.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "10 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Reaktor Nuklir Terapung sebagai Wahana Pemenuhan Energi di Kawasan Terpencil",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PDUPT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 111.300.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "KAJIAN NEUTRONIKA DAN TERMAL HIDRAULIKA TERAS REAKTOR PADA PEMBANGKIT LISTRIK TENAGA NUKLIR TERAPUNG BERDAYA RENDAH",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN DESENTRALISASI ( RTA BATCH I )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 55.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Minimizing Power Peaking Factor of BEAVRS-based Reactor Using Polar Bear Optimization Algorithms",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122218609&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Amatullah A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Designing an analysis system for imaging process from bone scintigraphy as a potential predictor for validation of bone metastases",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2269617",
+   "sumber": "garuda",
+   "venue": "Journal of Medical Physics and Biophysics Vol 8, No 1 (2021) 2-9",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 4",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: -",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "EDUKASI ADAPTASI PENGHUNI PADA TUNTUTAN KESEHATAN DAN KESELAMATAN DALAM LINGKUNGAN KERJA/SEKOLAH SEBAGAI UPAYA MENUJU BLENDED LEARNING: STUDI KASUS TK ABA SE-SEDAYU",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER PELATIHAN APLIKASI PEMBUATAN PETA DAERAH BATAS AMAN DARI BAHAYA BENCANA TSUNAMI DI SELATAN PULAU JAWA - BALI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Thermal-hydraulics operation parameters modeling and analysis of KLT-40S reactor at steady-state and transient condition using RELAP5-3D",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85087987298&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal on Advanced Science Engineering and Information Technology",
+   "tahun": 2020,
+   "sitasi": 4,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Kristanto A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Analysis of natural convection capability in NuScale primary cooling systems with mixture of uranium and plutonium (mixed oxide) fuel using RELAP5-3D",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083562974&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Phungky S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Thermal hydraulics analysis of KLT-40S floating nuclear power plant in rolling - Heaving and pitching - Heaving motion at various sea state condition with RELAP5 - 3D code",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083581132&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Awienandra I.G.B.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Temperature coefficient and conversion ratio analysis on proposed modified core model traveling wave reactor prototype",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083561441&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Awaluddin S.S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "TENAGA AHLI DALAM KEGIATAN MENJADI MITRA PROYEK LPDP PSTNT-BATAN TAHUN 2021",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 5.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KAJIAN KESELAMATAN PLTN TERAPUNG PADA KONDISI TRANSIEN LAJU ALIRAN PENDINGIN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Neutronic analysis of fuel assembly design in Small-PWR using uranium mononitride fully ceramic micro-encapsulated fuel using SCALE and Serpent codes",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051751190&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Technology",
+   "tahun": 2019,
+   "sitasi": 14,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Hakim A.R.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Spatial neural network for forecasting energy consumption of Palembang area",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85077810976&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Rif'an M.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PEMBICARA DALAM KAJIAN DISEMINASI KAJIAN PENGAWASAN DALAM PEMBANGUNAN DAN PENGOPERASIAN REAKTOR DAYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER BATAN DALAM KAJIAN PENYUSUNAN DOKUMEN TEKNIS NON-TAPAK PLTN DI KALIMANTAN DAN NUSA TENGGARA BARAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER DALAM DISKUSI PENULISAN ROAD MAP INDUSTRI STRATEGIS DAN TEKNOLOGI TINGGI 2045 MELALUI PENGEMBANGAN SDM PENDIDIKAN TINGGI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Fuel Loading Pattern Optimization with Constraint on Fuel Assembly Inventory Using Quantum-Inspired Evolutionary Algorithm",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051058493&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Rizki Oktavian M.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Prediction of peak cladding temperature in a three-loop pressurised water reactor with accident-tolerant fuel during loss-of-coolant accident",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85052644400&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Energy Science and Technology",
+   "tahun": 2018,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Agung A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Neutronic analysis of a thorium-fueled Reduced Moderation Boiling Water Reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85049256299&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal on Advanced Science Engineering and Information Technology",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Falaakh D.F.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Calculation of Absorbed Dose Distribution for Breast Brachytherapy Simulation By CS-1 131Cs Seed and ADVANTAGETM 103Pd Seed Using Monte Carlo N Particle Extended Simulator",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/528604",
+   "sumber": "garuda",
+   "venue": "Indonesian Journal of Physics and Nuclear Applications Vol 2 No 2 (2017) 65-74",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.24246/ijpna.v2i2.65-74",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Neutronic assessment on the use of advanced coated particles in a fluidized bed nuclear reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84978772050&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Arpn Journal of Engineering and Applied Sciences",
+   "tahun": 2016,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Agung A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Ergodicity of traffic flow with constant penetration rate for traffic monitoring via floating vehicle technique",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84901428304&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "EPJ Web of Conferences",
+   "tahun": 2014,
+   "sitasi": 2,
+   "urutan_penulis": "0 of 6",
+   "kreator": "Gunawan F.E.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Validation of PARCS/RELAP5 coupled codes against a load rejection transient at the Ringhals-3 NPP",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84874884175&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2013,
+   "sitasi": 12,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Agung A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "On an improved design of a fluidized bed nuclear reactor - II: Linear stability and transient analysis",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-61349194505&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Technology",
+   "tahun": 2009,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Agung A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "On an improved design of a fluidized bed nuclear reactor - I: Design modifications and steady-state features",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-31744433140&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Technology",
+   "tahun": 2006,
+   "sitasi": 8,
+   "urutan_penulis": "1 of 10",
+   "kreator": "Agung A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Passive decay heat removal in a fluidized bed nuclear reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-22344451493&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the Physor 2004 the Physics of Fuel Cycles and Advanced Nuclear Systems Global Develo",
+   "tahun": 2004,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 10",
+   "kreator": "Agung A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Dynamics modeling and stability analysis of a fluidized bed nuclear reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0038416687&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Progress in Nuclear Energy",
+   "tahun": 2003,
+   "sitasi": 10,
+   "urutan_penulis": "2 of 7",
+   "kreator": "Lathouwers D.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Dynamics modeling and stability analysis of a fluidized bed nuclear reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0038416687&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Progress in Nuclear Energy",
+   "tahun": 2003,
+   "sitasi": 10,
+   "urutan_penulis": "2 of 7",
+   "kreator": "Lathouwers D.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  }
+ ]
+}

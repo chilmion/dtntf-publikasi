@@ -1,0 +1,643 @@
+{
+ "slug": "ester-wijayanti",
+ "sinta_id": "6043678",
+ "nama": "Ester Wijayanti",
+ "nama_sinta": "ESTER WIJAYANTI",
+ "gelar": "Ir., M.T.",
+ "jabatan": null,
+ "email": "ester@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=PDbxpsMAAAAJ&citpid=1",
+ "diperbarui": "2026-09-30T16:44:02+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6043678",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6043678/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=PDbxpsMAAAAJ"
+ },
+ "skor": {
+  "overall": 119,
+  "tiga_tahun": 39,
+  "afiliasi": 119,
+  "afiliasi_tiga_tahun": 39
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 3
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 1
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 2
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 3,
+   "sitasi": 3,
+   "dokumen_disitasi": 2,
+   "hindex": 1,
+   "i10index": 0,
+   "gindex": 2
+  },
+  "scholar": {
+   "artikel": 18,
+   "sitasi": 6,
+   "dokumen_disitasi": 3,
+   "hindex": 2,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 3,
+  "publikasi_garuda": 7,
+  "sitasi_scopus": 3,
+  "sitasi_scholar": 6,
+  "hindex_scopus": 1,
+  "hindex_scholar": 2,
+  "hindex_terdaftar": 1,
+  "paten": 0,
+  "ppm": 18,
+  "buku": 0,
+  "penelitian": 1
+ },
+ "per_sumber": {
+  "scopus": 3,
+  "garuda": 7,
+  "ppm": 18,
+  "penelitian": 1
+ },
+ "subjects": [
+  "Mathematical Modelling",
+  "Nuclear Process",
+  "Nuclear Security"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2001,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 2,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q4",
+   "jumlah": 3
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 2
+  },
+  {
+   "nama": "Jurnal Rekayasa Elektrika Vol 15, No 3 (2019)",
+   "jumlah": 2
+  },
+  {
+   "nama": "Jurnal Teknologi Lingkungan Vol. 2 No. 3 (2001): JURNAL TEKNOLOGI LINGKUNGAN",
+   "jumlah": 2
+  },
+  {
+   "nama": "International Journal of Nuclear Security",
+   "jumlah": 1
+  },
+  {
+   "nama": "Jurnal Dinamika Vokasional Teknik Mesin Vol. 9 No. 1 (2024)",
+   "jumlah": 1
+  },
+  {
+   "nama": "CHEMICA: Jurnal Teknik Kimia Vol 7, No 1 (2020): Juni 202025-38",
+   "jumlah": 1
+  },
+  {
+   "nama": "Jurnal Otomasi Kontrol dan Instrumentasi Vol 8 No 2 (2016): Jurnal Otomasi Kontrol dan Instrumentasi179",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "THE PIPE DIAMETER EFFECT ON HEAT TRANSFER OF HELICAL COIL HEAT EXCHANGER IN THE SOLAR WATER HEATER STORAGE TANK",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4135199",
+   "sumber": "garuda",
+   "venue": "Jurnal Dinamika Vokasional Teknik Mesin Vol. 9 No. 1 (2024)",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 4",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.21831/dinamika.v9i1.72714",
+   "akreditasi": "Sinta 4",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Development of MPC function block for FCC model IV based on IEC 61499",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161482240&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Nurdy M.H.S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "TENAGA AHLI DALAM KEGIATAN PENDAMPINGAN EVALUASI PENAWARAN FILE 1 LELANG DEDC PROJECT ISDB IDN 1054 RSUP DR. SOERADJI TIRTONEGORO",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 6.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KARAKTERISASI METAL ORGANIC FRAMEWORK (MOF) HKUST-1 PADA ADSORBSI LIMBAH RADIOAKTIF CESIUM-137 DAN STRONSIUM-90 METODE ALIR",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "9 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PENYULINGAN MINYAK ATSIRI SEBAGAI KOMPLEMEN KEWIRAUSAHAAN MASYARAKAT DESA SARDONOHARJO KECAMATAN NGAGLIK KABUPATEN SLEMAN DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU SAKU DISEMINASI TEKNOLOGI NUKLIR UNTUK GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Dependence of temperature and initial concentration in cesium adsorption as experimental radioactive waste using metal organic frameworks [Zn4O(BDC)3]",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083583441&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Prasetya G.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Development of Fluid Catalytic Cracking Distributed Simulator Based on IEC 61499",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1702261",
+   "sumber": "garuda",
+   "venue": "CHEMICA: Jurnal Teknik Kimia Vol 7, No 1 (2020): Juni 202025-38",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.26555/chemica.v7i1.15610",
+   "akreditasi": "Sinta 3",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "PENYUSUNAN PEDOMAN PRAKTIS LAYANAN RADIOLOGI, RADIOTERAPI, DAN KEDOKTERAN NUKLIR SELAMA PANDEMI COVID-19",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Perancangan Struktur Kontrol Penggilingan Batubara pada Sistem Pembakaran Batubara",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3528277",
+   "sumber": "garuda",
+   "venue": "Jurnal Rekayasa Elektrika Vol 15, No 3 (2019)",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.17529/jre.v15i3.14605",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Perancangan Struktur Kontrol Penggilingan Batubara pada Sistem Pembakaran Batubara",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3800282",
+   "sumber": "garuda",
+   "venue": "Jurnal Rekayasa Elektrika Vol 15, No 3 (2019)",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.17529/jre.v15i3.14605",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "SOSIALISASI TEKNOLOGI NUKLIR TERKINI UNTUK GURU SLTA DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DISEMINASI TEKNOLOGI NUKLIR UNTUK GURU SLTA DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 12.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "WORKSHOP UNTUK MEMBANGUN PERSEPSI DAN DISEMINASI TEKNOLOGI NUKLIR OLEH GURU SLTA DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 14.967.500",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Komparasi Pemodelan dan Identifikasi Sistem pada Dinamika Temperatur Gas Buang Ruang Bakar pada Circulated Fluidized Bed Boiler",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2087407",
+   "sumber": "garuda",
+   "venue": "Jurnal Otomasi Kontrol dan Instrumentasi Vol 8 No 2 (2016): Jurnal Otomasi Kontrol dan Instrumentasi179",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.5614/joki.2016.8.2.5",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "NUCLEAR SCHOOL BAGI SISWA SMA KECAMATAN DEPOK SLEMAN, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PENDIDIKAN )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI BERDASARKAN FLUKTUASI LEVEL AIR TANAH DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( MITIGASI BENCANA )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "STUDI KARAKTERISASI MIGRASI FOSFAT LUMPUR IPAL YOGYAKARTA DALAM TANAH MENGGUNAKAN PERUNUT 32P",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1569078",
+   "sumber": "garuda",
+   "venue": "Jurnal Teknologi Lingkungan Vol. 2 No. 3 (2001): JURNAL TEKNOLOGI LINGKUNGAN",
+   "tahun": 2001,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.29122/jtl.v2i3.221",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "STUDI KARAKTERISASI MIGRASI FOSFAT LUMPUR IPAL YOGYAKARTA DALAM TANAH MENGGUNAKAN PERUNUT 32P",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2371480",
+   "sumber": "garuda",
+   "venue": "Jurnal Teknologi Lingkungan Vol. 2 No. 3 (2001): JURNAL TEKNOLOGI LINGKUNGAN",
+   "tahun": 2001,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.29122/jtl.v2i3.221",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  }
+ ]
+}

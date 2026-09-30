@@ -2,6 +2,26 @@
  "tahun": 2014,
  "entri": [
   {
+   "judul": "How to see shadows in 3D",
+   "tahun": 2014,
+   "kategori": "Jurnal Internasional",
+   "venue": "Physics Education",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84899716824&origin=resultslist",
+   "sitasi": 10,
+   "kreator": "Parikesit G.O.F.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
    "judul": "Developing nuclear education in Indonesia",
    "tahun": 2014,
    "kategori": "Jurnal Internasional",
@@ -16,8 +36,308 @@
    "kreator": "Putero S.",
    "dosen": [
     {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    },
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Development of a solar water pumping system in karsts rural area tepus, gunungkidul through student community services",
+   "tahun": 2014,
+   "kategori": "Prosiding Internasional",
+   "venue": "Energy Procedia",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84894109239&origin=resultslist",
+   "sitasi": 36,
+   "kreator": "Setiawan A.A.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Gama stove: Biomass stove for palm kernel shells in Indonesia",
+   "tahun": 2014,
+   "kategori": "Prosiding Internasional",
+   "venue": "Energy Procedia",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84894119419&origin=resultslist",
+   "sitasi": 19,
+   "kreator": "Febriansyah H.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    },
+    {
+     "slug": "kutut-suryopratomo",
+     "nama": "Kutut Suryopratomo"
+    }
+   ]
+  },
+  {
+   "judul": "Speech privacy and intelligibility in open-plan offices as an impact of sound-field diffuseness",
+   "tahun": 2014,
+   "kategori": "Prosiding Internasional",
+   "venue": "Internoise 2014 43rd International Congress on Noise Control Engineering Improving the World Through",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84923556190&origin=resultslist",
+   "sitasi": 7,
+   "kreator": "Utami S.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Ergodicity of traffic flow with constant penetration rate for traffic monitoring via floating vehicle technique",
+   "tahun": 2014,
+   "kategori": "Prosiding Internasional",
+   "venue": "EPJ Web of Conferences",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84901428304&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Gunawan F.E.",
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
+   "judul": "The Influence of Abfusor Configuration to the Speech Privacy and Intelligibility in an Open Plan Office",
+   "tahun": 2014,
+   "kategori": "Prosiding Internasional",
+   "venue": "Internoise 2014 43rd International Congress on Noise Control Engineering Improving the World Through",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84923633124&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Sarwono J.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "The rule of carrier gas flow rate to Li+ diffusivity of LiFePo4 particles as lithium battery application",
+   "tahun": 2014,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings 2013 International Conference on Renewable Energy and Sustainable Energy Icrese 2013",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84919666843&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Halim A.",
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "In-situ methanolysis of Jatropha curcas seeds in Soxhlet extractor",
+   "tahun": 2014,
+   "kategori": "Book Chapter / Book Series",
+   "venue": "Advanced Materials Research",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84904069581&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Prabaningrum N.",
+   "dosen": [
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
+    }
+   ]
+  },
+  {
+   "judul": "Reaction kinetics of in-situ methanolysis of Jatropha curcas seeds",
+   "tahun": 2014,
+   "kategori": "Book Chapter / Book Series",
+   "venue": "Applied Mechanics and Materials",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84914155465&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Prabaningrum N.",
+   "dosen": [
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
+    }
+   ]
+  },
+  {
+   "judul": "Adsorption Kinetics Study of Cr (III) Metals Using Activated Natural Zeolite",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Online Mahasiswa (JOM) Bidang Teknik dan Sains Vol 1, No 2 (2014): Wisuda Oktober Tahun 2014 1-7",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/276035",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Kualitas Pencahayaan Menggunakan Pemodelan Numeris Sesuai SNI Pencahayaan, Data Pengukuran Langsung (On-Site) dan Simulasi",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 3, No 2 (2014) 63-71",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/613560",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Biodiesel Dari Limbah Ikan Baung (Mystus Nemurus) Dengan Katalis Padat H-Zeolit",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Online Mahasiswa (JOM) Bidang Teknik dan Sains Vol 1, No 1 (2014): Wisuda Februari Tahun 20141-8",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/187230",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "DESAIN SISTEM INSTRUMENTASI PROSES DISTILASI FRAKSINASI BATCH BERBASIS KENDALI SUHU",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "ASEAN Journal of Systems Engineering Vol 2, No 2 (2014): ASEAN Journal of Systems Engineering",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1333597",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "DESAIN TERAS DAN BAHAN BAKAR PLTN JENIS PEBBLE BED MODULAR REACTOR (PBMR) DENGAN MENGGUNAKAN PROGRAM SRAC",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 16, No 2 (2014): Juni 2014",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567264",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Desain Multichannel Analyzer Berbasis Programmable System on Chip",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 3, No 1 (2014) 15-23",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/352960",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -42,6 +362,194 @@
    ]
   },
   {
+   "judul": "Implementasi Identifikasi Sistem Kalang Tertutup untuk Asesmen Kinerja Pengendali Level pada Kondensor",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 3, No 1 (2014) 8-14",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/352947",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "PENGARUH PEMBERIAN PAKANBERBEDA KUALITAS TERHADAP PRODUKSI PROTEIN MIKROBA RUMEN PADA KAMBING KACANG JANTAN",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Animal Agriculture Journal Vol 3, No 3 (2014): Volume 3, Nomor 3, Tahun 2014395-400",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1422528",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Pengaruh Sudut Peletakan dan Sudut Fase Pada Pipa Bersirip Terhadap Penurunan Tekanan",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 3, No 1 (2014) 24-27",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/352938",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Perancangan Karburetor untuk Bahan Bakar Biogas pada Generator Set 900 VA",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 3, No 2 (2014) 52-58",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/613544",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Perancangan Sistem Rain Water Harvesting, Studi Kasus: Hotel Novotel Yogyakarta",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 3, No 2 (2014) 35-45",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/613569",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PENCITRAAN RADIOGRAFI DIGITAL UNTUK PENGEMBANGAN LABORATORIUM 1) FISIKA MEDIK UNNES",
+   "tahun": 2014,
+   "kategori": "Jurnal Nasional",
+   "venue": "Sainteknol : Jurnal Sains dan Teknologi Vol 12, No 1 (2014): June 2014",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/445313",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "DEVELOPMENT OF CLEAN ENERGY TECHNOLOGY AND LOCAL INSTITUTION AS COMPREHENSIVE SCHEME IN KARIMUN JAWA",
+   "tahun": 2014,
+   "kategori": "Penelitian",
+   "venue": "KERJASAMA ( KERJASAMA )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.149.854.240",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "ASPEK KEBERLANJUTAN SISTEM POMPA AIR TENAGA SURYA UNTUK PENYEDIAAN AIR BERSIH DI DUSUN SURENG, DESA PURWODADI, KECAMATAN TEPUS, GUNUNG KIDUL (TAHAP LANJUTAN) DI DESA PURWODADI, KECAMATAN TEPUS, KAB. GUNUNG KIDUL",
+   "tahun": 2014,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "IMPLEMENTASI TEKNOLOGI TEPAT GUNA DAN PENGELOLAAN SUMBER DAYA ALAM SECARA MANDIRI SEBAGAI LANGKAH PENGEMBANGAN DESA WISATA DI DESA KANDANGSERANG, KECAMATAN KANDANGSERANG, KAB. PEKALONGAN",
+   "tahun": 2014,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
    "judul": "Intensifikasi Community Development berbasis Integrated Farming dan Penerapan Teknologi Konversi Energi untuk Memantapkan Semangat dan Mental Masyarakat Desa Pangpajung, Kecamatan Modung, Kabupaten Bangkalan Madura menuju Kemakmuran dan Kemandirian",
    "tahun": 2014,
    "kategori": "Pengabdian kepada Masyarakat",
@@ -56,8 +564,52 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT PESISIR MELALUI PENGEMBANGAN POTENSI PERTANIAN, PERIKANAN, KEHUTANAN DAN UMKM DI DESA CATURHARJO, KECAMATAN PANDAK, KAB. BANTUL",
+   "tahun": 2014,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 7.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN REFRIGERSTOR TANPA LISTRIK UNTUK INDUSTRI KECIL GERABAH DI DESA SRIHARDONO PUNDONG BANTUL",
+   "tahun": 2014,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "TTG ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 25.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
     }
    ]
   }

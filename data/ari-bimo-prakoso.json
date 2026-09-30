@@ -1,0 +1,746 @@
+{
+ "slug": "ari-bimo-prakoso",
+ "sinta_id": "6776532",
+ "nama": "Ari Bimo Prakoso",
+ "nama_sinta": "ARI BIMO PRAKOSO",
+ "gelar": "S.T., Ph.D.",
+ "jabatan": null,
+ "email": "ari.bimo.prakoso@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/10/2.b-Recent-Photograph-Ari-Bimo-Prakoso-white.png",
+ "diperbarui": "2026-09-30T16:40:46+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6776532",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6776532/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=9l7DcIcAAAAJ"
+ },
+ "skor": {
+  "overall": 429,
+  "tiga_tahun": 32,
+  "afiliasi": 429,
+  "afiliasi_tiga_tahun": 32
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2015,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 5
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 9
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 3
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 2
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 12
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 4
+   },
+   {
+    "nama": "Others",
+    "jumlah": 1
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 17,
+   "sitasi": 189,
+   "dokumen_disitasi": 15,
+   "hindex": 8,
+   "i10index": 5,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 25,
+   "sitasi": 242,
+   "dokumen_disitasi": 19,
+   "hindex": 8,
+   "i10index": 7,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 17,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 189,
+  "sitasi_scholar": 242,
+  "hindex_scopus": 8,
+  "hindex_scholar": 8,
+  "hindex_terdaftar": 8,
+  "paten": 0,
+  "ppm": 14,
+  "buku": 0,
+  "penelitian": 2
+ },
+ "per_sumber": {
+  "scopus": 16,
+  "ppm": 14,
+  "penelitian": 2
+ },
+ "subjects": [
+  "Solar Cell",
+  "Photovoltaic",
+  "Solar Energy",
+  "Renewable Energy"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2015,
+   "publikasi": 1,
+   "sitasi": 47
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 2,
+   "sitasi": 38
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 1,
+   "sitasi": 8
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 4,
+   "sitasi": 24
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 1,
+   "sitasi": 20
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 2,
+   "sitasi": 18
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 2,
+   "sitasi": 24
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 8
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 3
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 2
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Materials Chemistry and Physics",
+   "jumlah": 2
+  },
+  {
+   "nama": "Semiconductor Science and Technology",
+   "jumlah": 2
+  },
+  {
+   "nama": "Sustainable Civil Infrastructures",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "ICT Pep 2022 International Conference on Technology and Policy in Energy and Electric Power Advanced",
+   "jumlah": 1
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nanomaterials",
+   "jumlah": 1
+  },
+  {
+   "nama": "2018 IEEE 7th World Conference on Photovoltaic Energy Conversion Wcpec 2018 A Joint Conference of 45",
+   "jumlah": 1
+  },
+  {
+   "nama": "Solar Energy",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Physics D Applied Physics",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039189521&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sustainable Civil Infrastructures",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "6 of 6",
+   "kreator": "Setiawan F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TRAINING AUDIT ENERGI DI RSU ISLAM (RSI) KLATEN UNTUK MEWUJUDKAN RUMAH SAKIT HIJAU",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Analysis of ventilation design for the existing education building in Covid-19 adaptation era",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161497765&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 1,
+   "urutan_penulis": "4 of 4",
+   "kreator": "Baskara S.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KECAMATAN NGAGLIK, KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PRODUKSI HIDROGEN DAN PENGOLAHAN AIR MENGGUNAKAN SISTEM PHOTOVOLTAIC-ELECTROCHEMICAL REACTOR (PVEC)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Analysis of Performance, Carbon Emission, and Economics on the Design of Floating Photovoltaic in Sambinasi Village, East Nusa Tenggara",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85146422414&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "ICT Pep 2022 International Conference on Technology and Policy in Energy and Electric Power Advanced",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Amal D.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU PRAKTIKUM PERCOBAAN FISIKA DARI ALAT DAN BAHAN SEHARI-HARI UNTUK TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMANFAATAN ENERGI ALTERNATIF GUNA MENGOPTIMALKAN KEGIATAN EKONOMI PADA SEKTOR PERTANIAN DAN PARIWISATA MASYARAKAT DESA JOJOGAN DAN SIKUNANG, KECAMATAN KEJAJAR, KABUPATEN WONOSOBO",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI KESADARAN HEMAT ENERGI SEJAK DINI PADA SISWA DAN GURU TAMAN KANAK-KANAK DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SISTEM TELEMONITORING ENERGI SURYA DAN ENERGI ANGIN (STESA) UNTUK MENDUKUNG NET ZERO ENERGY BUILDING",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Hole selective WOx and V2Ox contacts using solution process for silicon solar cells application",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85112374337&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Materials Chemistry and Physics",
+   "tahun": 2021,
+   "sitasi": 23,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Lu C.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Study on Electrical Vehicle Policy in South Korea as a Lesson Learning for Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122205976&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 1,
+   "urutan_penulis": "4 of 5",
+   "kreator": "Tenggara A.P.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENERAPAN IRIGASI LAHAN PERTANIAN BERBASIS ENERGI SURYA DI KABUPATEN BANTUL TAHUN 2021",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Carrier selective solution processed molybdenum oxide silicon heterojunctions solar cells with over 12% efficiency",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85087200872&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Semiconductor Science and Technology",
+   "tahun": 2020,
+   "sitasi": 15,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Lu C.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PV-Tower solar cell for small footprint photovoltaic energy harvesting for the internet of things application",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85094973816&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Semiconductor Science and Technology",
+   "tahun": 2020,
+   "sitasi": 3,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Prakoso A.B.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Investigation of solution processed molybdenum oxide as selective contacts for silicon solar cells application",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85067843059&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Materials Chemistry and Physics",
+   "tahun": 2019,
+   "sitasi": 20,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Lu C.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Aqueous Solution Deposited Molybdenum Oxide Crystalline Silicon Heterojunction Solar Cells",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85059882486&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2018 IEEE 7th World Conference on Photovoltaic Energy Conversion Wcpec 2018 A Joint Conference of 45",
+   "tahun": 2018,
+   "sitasi": 9,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Lu C.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Nanostructured back reflectors produced using polystyrene assisted lithography for enhanced light trapping in silicon thin film solar cells",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85045180661&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Solar Energy",
+   "tahun": 2018,
+   "sitasi": 8,
+   "urutan_penulis": "6 of 8",
+   "kreator": "Li Z.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Optical study and experimental realization of nanostructured back reflectors with reduced parasitic losses for silicon thin film solar cells",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85052631793&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nanomaterials",
+   "tahun": 2018,
+   "sitasi": 5,
+   "urutan_penulis": "4 of 11",
+   "kreator": "Li Z.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Voltage transient analysis as a generic tool for solar junction characterization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051634001&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics D Applied Physics",
+   "tahun": 2018,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 10",
+   "kreator": "Prakoso A.B.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Reverse recovery transient characteristic of PEDOT:PSS/n-Si hybrid organic-inorganic heterojunction",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85007607285&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Organic Electronics",
+   "tahun": 2017,
+   "sitasi": 8,
+   "urutan_penulis": "1 of 6",
+   "kreator": "Prakoso A.B.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Totally embedded hybrid thin films of carbon nanotubes and silver nanowires as flat homogenous flexible transparent conductors",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85003036307&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Scientific Reports",
+   "tahun": 2016,
+   "sitasi": 35,
+   "urutan_penulis": "5 of 7",
+   "kreator": "Pillai S.K.R.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "High-efficiency planar thin-film Si/PEDOT:PSS hybrid solar cell",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84945893043&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Journal of Photovoltaics",
+   "tahun": 2016,
+   "sitasi": 3,
+   "urutan_penulis": "3 of 7",
+   "kreator": "Wang H.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "High efficiency silicon nanowire/organic hybrid solar cells with two-step surface treatment",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84924011944&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nanoscale",
+   "tahun": 2015,
+   "sitasi": 47,
+   "urutan_penulis": "3 of 7",
+   "kreator": "Wang J.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  }
+ ]
+}

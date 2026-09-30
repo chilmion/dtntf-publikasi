@@ -1,0 +1,1280 @@
+{
+ "slug": "awang-n-i-wardana",
+ "sinta_id": "5985252",
+ "nama": "Awang N. I. Wardana",
+ "nama_sinta": "AWANG NOOR INDRA WARDANA",
+ "gelar": "S.T., M.T., M.Sc., Dr.-Ing.",
+ "jabatan": null,
+ "email": "awang.wardana@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/AWANG-949x1024.jpg",
+ "diperbarui": "2026-09-30T16:41:51+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/5985252",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/5985252/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=wFrEqGoAAAAJ"
+ },
+ "skor": {
+  "overall": 743,
+  "tiga_tahun": 129,
+  "afiliasi": 743,
+  "afiliasi_tiga_tahun": 129
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2003,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2004,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2005,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2006,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2007,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2008,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2009,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2010,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2011,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 7
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 11
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 7
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 17
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 24,
+   "sitasi": 109,
+   "dokumen_disitasi": 16,
+   "hindex": 7,
+   "i10index": 6,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 46,
+   "sitasi": 191,
+   "dokumen_disitasi": 28,
+   "hindex": 7,
+   "i10index": 6,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 24,
+  "publikasi_garuda": 24,
+  "sitasi_scopus": 109,
+  "sitasi_scholar": 191,
+  "hindex_scopus": 7,
+  "hindex_scholar": 7,
+  "hindex_terdaftar": 7,
+  "paten": 0,
+  "ppm": 11,
+  "buku": 0,
+  "penelitian": 3
+ },
+ "per_sumber": {
+  "scopus": 25,
+  "garuda": 24,
+  "ppm": 11,
+  "penelitian": 3
+ },
+ "subjects": [
+  "Process Automation",
+  "Control Systems",
+  "Industrial Instrumentation"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2003,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2004,
+   "publikasi": 1,
+   "sitasi": 14
+  },
+  {
+   "tahun": 2009,
+   "publikasi": 1,
+   "sitasi": 15
+  },
+  {
+   "tahun": 2012,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 5,
+   "sitasi": 26
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 3,
+   "sitasi": 30
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 8,
+   "sitasi": 13
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 5,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 7,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 2,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 3,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 4,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 6
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 7
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 11
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 4
+  },
+  {
+   "nama": "Jurnal Rekayasa Elektrika Vol 15, No 3 (2019)",
+   "jumlah": 3
+  },
+  {
+   "nama": "Proceedings International Conference on Informatics and Computational Sciences",
+   "jumlah": 2
+  },
+  {
+   "nama": "Proceedings International Seminar on Intelligent Technology and Its Applications Isitia",
+   "jumlah": 2
+  },
+  {
+   "nama": "Journal of Physics Conference Series",
+   "jumlah": 2
+  },
+  {
+   "nama": "Jurnal Nasional Teknik Elektro",
+   "jumlah": 2
+  },
+  {
+   "nama": "Proceedings 2019 5th International Conference on Science and Technology Icst 2019",
+   "jumlah": 2
+  },
+  {
+   "nama": "Proceedings 2016 International Seminar on Application of Technology for Information and Communicatio",
+   "jumlah": 2
+  },
+  {
+   "nama": "ZKG International",
+   "jumlah": 2
+  },
+  {
+   "nama": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 10, No 3: November 2021",
+   "jumlah": 2
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Process-aware DoS Attack Detection in Industrial Control Systems Using Light Gradient Boosting Machine",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105050568590&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Information Processing",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "0 of 0",
+   "kreator": "Triforestcetta N.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Assessing the Viability of Rooftop Solar PV in Energy-Intensive Industries: A Techno-Economic and Safety Framework for the Indonesian FMCG Sector",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105021458331&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energies",
+   "tahun": 2025,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Galevien A.P.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "EPICS-Based Network Performance Analysis for DECY-13 Cyclotron Vacuum Monitoring",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105032355618&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings International Conference on Informatics and Computational Sciences",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Taxwim",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Low-cost Monitoring System for the Vacuum System of the CS-30 Cyclotron",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105032382616&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings International Conference on Informatics and Computational Sciences",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Taxwim",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "A Comparative Study of the Implementation of 4G and 5G Networks in IIoT Process Automation Systems",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5241795",
+   "sumber": "garuda",
+   "venue": "Jurnal Rekayasa Elektrika Vol 21, No 1 (2025)",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.17529/jre.v21i1.40928",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Development of Microcontroller Based Low Level Nuclear Reactor Power Measurement",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208441666&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings International Seminar on Intelligent Technology and Its Applications Isitia",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Bhagaskara Z.E.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Analysis of Single Operation Mode for Wide-range Nuclear Power Channel",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208420910&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings International Seminar on Intelligent Technology and Its Applications Isitia",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Bhagaskara Z.E.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Metaverse-based Water Level Simulator for the Festo MPS PA Workstation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85182267534&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2023,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Putawa R.A.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Development of MPC function block for FCC model IV based on IEC 61499",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161482240&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Nurdy M.H.S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Preface",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85182362407&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "19 of 29",
+   "kreator": "Tri Ayodha A.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN ANTARMUKA MESIN DAN MANUSIA PADA MPS PA COMPACT WORKSTATION",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Intermittent Oscillation Diagnosis in a Control Loop Using Extreme Gradient Boosting",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105024437406&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Jurnal Nasional Teknik Elektro",
+   "tahun": 2022,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Rabba D.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Intermittent Oscillation Diagnosis in a Control Loop Using Extreme Gradient Boosting",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3193220",
+   "sumber": "garuda",
+   "venue": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 11, No 3: November 2022",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.25077/jnte.v11n3.1040.2022",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Online Tuning Diagnosis of Proportional Integral Derivative Controller based on IEC 61499 Function Blocks",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105024706817&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Jurnal Nasional Teknik Elektro",
+   "tahun": 2021,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Nindyasari F.V.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Implementasi Metode Deteksi Friksi Statik pada Katup Kontrol menggunakan Pencocokan Elips pada Standar IEC 61499",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2087467",
+   "sumber": "garuda",
+   "venue": "Jurnal Otomasi Kontrol dan Instrumentasi Vol 13 No 1 (2021): Jurnal Otomasi Kontrol dan Instrumentasi 15-26",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.5614/joki.2021.13.1.2",
+   "akreditasi": "Sinta 4",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Online Tuning Diagnosis of Proportional Integral Derivative Controller based on IEC 61499 Function Blocks",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2370469",
+   "sumber": "garuda",
+   "venue": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 10, No 3: November 2021",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.25077/jnte.v10n3.940.2021",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Analysis of Battery Management Algorithms on DC Microgrids",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1992223",
+   "sumber": "garuda",
+   "venue": "ELKHA : Jurnal Teknik Elektro Vol. 13 No. 1 April 20219-18",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.26418/elkha.v13i1.42728",
+   "akreditasi": "Sinta 3",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Implementasi Realitas Berimbuh pada Antarmuka Manusia-Mesin di Industri Proses",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2540900",
+   "sumber": "garuda",
+   "venue": "Jurnal Teknik Elektro Vol 13, No 2 (2021): Jurnal Teknik Elektro 71-78",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 4",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.15294/jte.v13i2.32191",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Online Tuning Diagnosis of Proportional Integral Derivative Controller based on IEC 61499 Function Blocks",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2716849",
+   "sumber": "garuda",
+   "venue": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 10, No 3: November 2021",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.25077/jnte.v10n3.940.2021",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "PERANCANGAN DAN IDENTIFIKASI KENDALI PID PADA ALIRAN HIDROGEN SUMBER ION SIKLOTRON DECY 13",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2370475",
+   "sumber": "garuda",
+   "venue": "GANENDRA Majalah IPTEK Nuklir Volume 24 Nomor 2 Juli 202159-66",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.17146/gnd.2021.24.2.6320",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "PENGEMBANGAN ANTARMUKA MANUSIA MESIN DENGAN MENGGUNAKAN REALITAS BERIMBUH DI INDUSTRI PROSES",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.140.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Development of Fluid Catalytic Cracking Distributed Simulator Based on IEC 61499",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1702261",
+   "sumber": "garuda",
+   "venue": "CHEMICA: Jurnal Teknik Kimia Vol 7, No 1 (2020): Juni 202025-38",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.26555/chemica.v7i1.15610",
+   "akreditasi": "Sinta 3",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Pengembangan Electronic Load Controller untuk Self-Excited Induction Generator Berbasis Penyearah Tiga Fase Menggunakan Raspberry Pi",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2014080",
+   "sumber": "garuda",
+   "venue": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 9, No 3: November 2020159 Ã¢â¬â 170",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 4",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.25077/jnte.v9n3.802.2020",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Pengaruh Penggunaan Pemancar-penerima pada Controller Area Network",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2014090",
+   "sumber": "garuda",
+   "venue": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 9, No 2: July 2020108 Ã¢â¬â 115",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.25077/jnte.v9n2.769.2020",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Pengaruh Penggunaan Pemancar-penerima pada Controller Area Network",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2716819",
+   "sumber": "garuda",
+   "venue": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 9, No 2: July 2020108 â 115",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.25077/jnte.v9n2.769.2020",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Komparasi Protokol Komunikasi pada Sistem Produksi Siber-Fisik berbasis IEC 61499",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2203316",
+   "sumber": "garuda",
+   "venue": "Jurnal EECCIS (Electrics, Electronics, Communications, Controls, Informatics, Systems) Vol. 14 No. 1 (2020)pp. 35-40",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.21776/jeeccis.v14i1.630",
+   "akreditasi": "Sinta 4",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "WEBINAR TENTANG TANTANGAN OTOMASI DI ERA INDUSTRI 4.0",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Implementation of Plant-Wide PI-Fuzzy Controller in Tennessee Eastman Process",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85074937746&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2019 International Seminar on Application for Technology of Information and Communicatio",
+   "tahun": 2019,
+   "sitasi": 11,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Lebukan D.E.P.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Implementation of event-driven fast fourier transform based on IEC 61499",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85091332857&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2019 5th International Conference on Science and Technology Icst 2019",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Permana B.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Distributed coal mill simulator based on IEC 61499",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85091327273&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2019 5th International Conference on Science and Technology Icst 2019",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Irwan S.Y.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Perancangan Struktur Kontrol Penggilingan Batubara pada Sistem Pembakaran Batubara",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1516496",
+   "sumber": "garuda",
+   "venue": "Jurnal Rekayasa Elektrika Vol 15, No 3 (2019)",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.17529/jre.v15i3.14605",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Deteksi Osilasi Masalah Penalaan Pengendali secara Real-time dengan Metode Deteksi Puncak Spektrum",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1513813",
+   "sumber": "garuda",
+   "venue": "ELKHA : Jurnal Teknik Elektro Vol.11 No.2, October 201993 - 99",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 2",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.26418/elkha.v11i2.34940",
+   "akreditasi": "Sinta 3",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Pengembangan Blok Fungsi Kendali PI-Fuzi pada IEC 61499",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1163104",
+   "sumber": "garuda",
+   "venue": "Jurnal Teknik Elektro Vol 11, No 1 (2019): Jurnal Teknik Elektro 16-25",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.15294/jte.v11i1.21400",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Perancangan Struktur Kontrol Penggilingan Batubara pada Sistem Pembakaran Batubara",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3528277",
+   "sumber": "garuda",
+   "venue": "Jurnal Rekayasa Elektrika Vol 15, No 3 (2019)",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.17529/jre.v15i3.14605",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Perancangan Struktur Kontrol Penggilingan Batubara pada Sistem Pembakaran Batubara",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3800282",
+   "sumber": "garuda",
+   "venue": "Jurnal Rekayasa Elektrika Vol 15, No 3 (2019)",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.17529/jre.v15i3.14605",
+   "akreditasi": "Sinta 2",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "PELATIHAN SISTEM KOMUNIKASI DAN TEKNIK INTERPRETASI DATA EARLY WARNING SYSTEM KEBENCANAAN BAGI MASYARAKAT DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "IMPLEMENTASI IEC 61499 PADA SISTEM SIMULATOR PROSES TERDISTRIBUSI",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.584.200",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Linear Oscillation Diagnosis of Process Variable in Control Loop Based on Variational Mode Decomposition",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85058542328&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2018 4th International Conference on Science and Technology Icst 2018",
+   "tahun": 2018,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Dewa G.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "A comparative study of EMD, EWT and VMD for detecting the oscillation in control loop",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85017146842&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2016 International Seminar on Application of Technology for Information and Communicatio",
+   "tahun": 2017,
+   "sitasi": 20,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Wardana A.N.I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Performance evaluation of compressor anti-surge control based on model predictive in ammonia plant",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85017164718&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2016 International Seminar on Application of Technology for Information and Communicatio",
+   "tahun": 2017,
+   "sitasi": 10,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Daniart S.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "A toolbox for safety instrumented system evaluation based on improved continuous-time Markov chain",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85027990860&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Wardana A.N.I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PEMBANGUNAN DESA JEPARA WETAN BERBASIS IPTEK SEBAGAI WUJUD DESA BERDIKARI DENGAN MEMANFAATKAN POTENSI LOKAL SERTA PENINGKATAN TATA KELOLA LINGKUNGAN, EKONOMI, DAN KUALITAS PENDIDIKAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "A method for detecting the oscillation in control loops based on variational mode decomposition",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84963657210&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceeding 2015 International Conference on Computer Control Informatics and Its Applications Emergi",
+   "tahun": 2016,
+   "sitasi": 18,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Wardana A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Detection and quantification of valve stiction based on normality test and Hammerstein system identification",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84984577316&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2016,
+   "sitasi": 7,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Hutabarat Y.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Improved dyadic wavelet transform with fuzzy logic for diagnosing oscillating process variable",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84984555577&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2016,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Wardana A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Komparasi Metode Deteksi Friksi Statis Katup Berbasis Pencocokan Grafis",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2087406",
+   "sumber": "garuda",
+   "venue": "Jurnal Otomasi Kontrol dan Instrumentasi Vol 8 No 2 (2016): Jurnal Otomasi Kontrol dan Instrumentasi165",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.5614/joki.2016.8.2.4",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Komparasi Pemodelan dan Identifikasi Sistem pada Dinamika Temperatur Gas Buang Ruang Bakar pada Circulated Fluidized Bed Boiler",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2087407",
+   "sumber": "garuda",
+   "venue": "Jurnal Otomasi Kontrol dan Instrumentasi Vol 8 No 2 (2016): Jurnal Otomasi Kontrol dan Instrumentasi179",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.5614/joki.2016.8.2.5",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Implementasi Identifikasi Sistem Kalang Tertutup untuk Asesmen Kinerja Pengendali Level pada Kondensor",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/352947",
+   "sumber": "garuda",
+   "venue": "Teknofisika Vol 3, No 1 (2014) 8-14",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": "0 of 0",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: -",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Implementasi Identifikasi Sistem Kalang Tertutup untuk Asesmen Kinerja Pengendali Level pada Kondensor",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1186366",
+   "sumber": "garuda",
+   "venue": "Teknofisika Vol 3, No 1 (2014) 8-14",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: -",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Desain Konseptual Safety Instrumented System pada Proses Penggilingan Batubara",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306840",
+   "sumber": "garuda",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 80-89",
+   "tahun": 2012,
+   "sitasi": 0,
+   "urutan_penulis": "0 of 0",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: -",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Desain Konseptual Safety Instrumented System pada Proses Penggilingan Batubara",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1186314",
+   "sumber": "garuda",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 80-89",
+   "tahun": 2012,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: -",
+   "akreditasi": "Unknown",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "PENGEMBANGAN DAN PENINGKATAN KESEJAHTERAAN MASYARAKAT KECAMATAN SUSUKAN, KABUPATEN BANJARNEGARA JAWA TENGAH BERBASIS ENERGI TERBARUKAN DI DESA GUMELEM KULON DAN WETAN, KECAMATAN SUSUKAN, KAB. BANJARNEGARA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2011,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Automatic program verification of continuous function chart based on model checking",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-77951596914&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IECON Proceedings Industrial Electronics Conference",
+   "tahun": 2009,
+   "sitasi": 15,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Wardana A.N.I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PID-fuzzy controller for grate cooler in cement plant",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-16244415927&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2004 5th Asian Control Conference",
+   "tahun": 2004,
+   "sitasi": 14,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Wardana A.N.I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Improved PID controller with fuzzy logic for grate coolers in cement plants",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0348223334&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "ZKG International",
+   "tahun": 2003,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Wardana A.N.I.",
+   "kuartil": "Q3",
+   "jenis_venue": "Trade Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Improved PID controller with fuzzy logic for grate coolers in cement plants",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0348223334&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "ZKG International",
+   "tahun": 2003,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Wardana A.N.I.",
+   "kuartil": "Q3",
+   "jenis_venue": "Trade Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  }
+ ]
+}

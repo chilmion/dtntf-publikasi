@@ -1,0 +1,45 @@
+{
+ "tahun": 1993,
+ "entri": [
+  {
+   "judul": "Soft-error on memory ICs induced by D-T neutrons",
+   "tahun": 1993,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Nuclear Science and Technology",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0027539897&origin=resultslist",
+   "sitasi": 8,
+   "kreator": "Sunarno",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Soft-error on memory ics induced by d-t neutrons",
+   "tahun": 1993,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Nuclear Science and Technology",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85007752448&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Sunarno",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  }
+ ]
+}

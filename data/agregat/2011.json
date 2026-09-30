@@ -18,6 +18,274 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Modeling marine electromagnetic survey with radial basis function networks",
+   "tahun": 2011,
+   "kategori": "Jurnal Internasional",
+   "venue": "Itb Journal of Information and Communication Technology",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84861790784&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Arif A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "Simulation study: The influence of temperature and H 2 O-O 2 mole ratio in injection gas to product gas quality of underground coal gasification",
+   "tahun": 2011,
+   "kategori": "Jurnal Internasional",
+   "venue": "35th Annual Indonesian Petroleum Association Convention [IPA] (Jakarta, Indonesia, 5/18-20/2011) Pro",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84874463675&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Ashfabani A.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Fingerprint-based technique for indoor localization in wireless sensor networks using Fuzzy C-Means clustering algorithm",
+   "tahun": 2011,
+   "kategori": "Prosiding Internasional",
+   "venue": "2011 International Symposium on Intelligent Signal Processing and Communications Systems the Decade",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84857329363&origin=resultslist",
+   "sitasi": 26,
+   "kreator": "Suroso D.J.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "Location fingerprint technique using Fuzzy C-Means clustering algorithm for indoor localization",
+   "tahun": 2011,
+   "kategori": "Prosiding Internasional",
+   "venue": "IEEE Region 10 Annual International Conference Proceedings TENCON",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84856887574&origin=resultslist",
+   "sitasi": 24,
+   "kreator": "Suroso D.J.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "In-situ transesterification of Jatropha curcas seeds using the mixture of methanol and isopropanol",
+   "tahun": 2011,
+   "kategori": "Prosiding Internasional",
+   "venue": "2011 National Postgraduate Conference Energy and Sustainability Exploring the Innovative Minds Npc 2",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84857072549&origin=resultslist",
+   "sitasi": 6,
+   "kreator": "Prabaningrum N.",
+   "dosen": [
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
+    }
+   ]
+  },
+  {
+   "judul": "Forward modeling of seabed logging with controlled source electromagnetic method using radial basis function networks",
+   "tahun": 2011,
+   "kategori": "Prosiding Internasional",
+   "venue": "2011 National Postgraduate Conference Energy and Sustainability Exploring the Innovative Minds Npc 2",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84857077958&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Arif A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "Optimal identification of multidimensional polynomials describing systematic errors in CNC machines",
+   "tahun": 2011,
+   "kategori": "Prosiding Internasional",
+   "venue": "21st International Conference on Production Research Innovation in Product and Production Icpr 2011",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84923493289&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Belforte G.",
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "Radial basis function networks for modeling marine electromagnetic survey",
+   "tahun": 2011,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of the 2011 International Conference on Electrical Engineering and Informatics Iceei 201",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-80054030154&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Arif A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "Synchronizing auditory and visual sensation in computer-simulated environment",
+   "tahun": 2011,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of the AES International Conference",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-81155152102&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Utami S.S.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Comparison on performance of radial basis function neural network and discriminant function in classification of CSEM data",
+   "tahun": 2011,
+   "kategori": "Book Chapter / Book Series",
+   "venue": "Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and L",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-81255205115&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Abdulkarim M.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "ANALISIS TRANSIEN PADA FIXED BED NUCLEAR REACTOR",
+   "tahun": 2011,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 13, No 3 (2011): Oktober 2011",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567383",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Produktivitas Itik Petelur di Kabupaten Semarang Berdasarkan Indikator Nilai Konversi Pakan, Rasio Tingkat Konsumsi Pakan dengan Intestinum dan Bobot Intestinum dengan Pertambahan Bobot Badan",
+   "tahun": 2011,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL SAINS DAN MATEMATIKA Volume 19 Issue 2 Year 201138-42",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1408475",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "DESAIN KONSEP TANGKI PENAMPUNG BAHAN BAKAR PASSIVE COMPACT MOLTEN SALT REACTOR",
+   "tahun": 2011,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 13, No 2 (2011): Juni 2011",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567274",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
     }
    ]
   },
@@ -38,6 +306,186 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "STUDI DESAIN DOWN SCALE TERAS REAKTOR DAN BAHAN BAKAR PLTN JENIS PEBBLE BED MODULAR REACTOR â HTR 100 MWe",
+   "tahun": 2011,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 13, No 3 (2011): Oktober 2011",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567407",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Kebijakan Energi - Menuju Sistem Energi yang Berkelanjutan",
+   "tahun": 2011,
+   "kategori": "Buku",
+   "venue": "Samudra Biru",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786029276008",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "BENTUK DAN DIMENSI BAHAN ALAT PENGUKUR TEKANAN UDARA YANG KELUAR DAN MASUK PADA HIDUNG MEMANFAATKAN TEKNOLOGI KOMPUTER PRIBADI",
+   "tahun": 2011,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "METODE DAN PERANTI UNTUK PEMANTAU TITIK KESEIMBANGAN MANUSIA DENGAN MEMANFAATKAN TEKNOLOGI KOMPUTER.",
+   "tahun": 2011,
+   "kategori": "Paten & HKI",
+   "venue": "FAKULTAS KEDOKTERAN UNIVERSITAS GADJAH MADA",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PIRANTI MEDIS UNTUK PENDETEKSI TERJADINYA JARI TABUH DENGAN METODE DIGITAL INDEX",
+   "tahun": 2011,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT KORBAN BENCANA MERAPI DI SHELTER DONGKELSARI DESA WUKIRSARI KECAMATAN CANGKRINGAN DI DESA WUKIRSARI, KECAMATAN CANGKRINGAN, KAB. SLEMAN",
+   "tahun": 2011,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 7.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN POTENSI SUMBERDAYA ALAM DUSUN SERUT MELALUI PEMBANGUNAN PERTANIAN DAN PERKEBUNAN ORGANIK SERTA SISTEM WC KOMUNAL DI DESA PALBAPANG, KECAMATAN BANTUL, KAB. BANTUL",
+   "tahun": 2011,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 7.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN DAN PENINGKATAN KESEJAHTERAAN MASYARAKAT KECAMATAN SUSUKAN, KABUPATEN BANJARNEGARA JAWA TENGAH BERBASIS ENERGI TERBARUKAN DI DESA GUMELEM KULON DAN WETAN, KECAMATAN SUSUKAN, KAB. BANJARNEGARA",
+   "tahun": 2011,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "PERENCANAAN INSTALANSI PENGANGKATAN DAN DISTRIBUSI AIR BERSIH DI DESA MANGUNAN, KECAMATAN DLINGO, KABUPATEN BANTUL, DAERAH ISTIMEWA YOGYAKARTA DI DESA MANGUNAN, KECAMATAN DLINGO , KAB. BANTUL",
+   "tahun": 2011,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 7.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
     }
    ]
   }

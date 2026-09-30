@@ -1,0 +1,444 @@
+{
+ "slug": "gandha-satria-adi",
+ "sinta_id": "6693661",
+ "nama": "Gandha Satria Adi",
+ "nama_sinta": "GANDHA SATRIA ADI",
+ "gelar": "S.T., M.Eng.",
+ "jabatan": null,
+ "email": "gandha.satria.a@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/04/Photo_Gandha.jpg",
+ "diperbarui": "2026-09-30T16:50:53+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6693661",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6693661/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=6P3q89MAAAAJ"
+ },
+ "skor": {
+  "overall": 204,
+  "tiga_tahun": 61,
+  "afiliasi": 204,
+  "afiliasi_tiga_tahun": 61
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 2
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 2
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 3
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 3
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 6,
+   "sitasi": 7,
+   "dokumen_disitasi": 3,
+   "hindex": 2,
+   "i10index": 0,
+   "gindex": 2
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 2
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 0
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 6,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 7,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 2,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 2,
+  "paten": 1,
+  "ppm": 3,
+  "buku": 1,
+  "penelitian": 4
+ },
+ "per_sumber": {
+  "scopus": 6,
+  "buku": 1,
+  "paten": 1,
+  "ppm": 3,
+  "penelitian": 4
+ },
+ "subjects": [
+  "Signal Processing"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 5
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 1,
+   "sitasi": 2
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 2
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 2
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Nuclear Engineering and Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Sensor Science and Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Arts and Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Icetas 2019 2019 6th IEEE International Conference on Engineering Technologies and Applied Sciences",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings 2018 4th International Conference on Science and Technology Icst 2018",
+   "jumlah": 1
+  },
+  {
+   "nama": "Gadjah Mada University Press",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Simulation-based analysis of total ionizing dose effects on low noise amplifier for wireless communications",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85175837298&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Technology",
+   "tahun": 2024,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Adi G.S.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Emerging Machine Learning in Wearable Healthcare Sensors",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85180703508&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Sensor Science and Technology",
+   "tahun": 2023,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Adi G.S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Pengembangan Sistem Informasi Akademik Terintegrasi untuk Pembelajaran Sistem Blok sebagai Piranti Prediksi Dini Mahasiswa Bermasalah : Academic Risk Assessment System (ARAS)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 208.400.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Pengembangan Sistem Informasi Akademik Terintegrasi untuk Pembelajaran Sistem Blok sebagai Piranti Prediksi Dini Mahasiswa Bermasalah : Academic Risk Assessment System (ARAS)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 163.800.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENGEMBANGAN SISTEM INFORMASI AKADEMIK TERINTEGRASI UNTUK PEMBELAJARAN SISTEM BLOK SEBAGAI PIRANTI PREDIKSI DINI MAHASISWA BERMASALAH : ACADEMIC RISK ASSESSMENT SYSTEM (ARAS)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH DRTPM ( PTUPT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 163.800.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Karya hijauku untuk kampus biruku",
+   "url": null,
+   "sumber": "buku",
+   "venue": "Gadjah Mada University Press",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Universitas Gadjah Mada",
+   "isbn": "9786023869640",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "Karya Hijauku untuk Kampus Biruku",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202156747",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Pengembangan Sistem Informasi Akademik Terintegrasi untuk Pembelajaran Sistem Blok sebagai Piranti Prediksi Dini Mahasiswa Bermasalah : Academic Risk Assessment System (ARAS)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 178.940.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Cooling Load Analysis in Asrama Kinanti 1 UGM Using Building Performance Simulation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85087518724&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Baskara S.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "EDUKASI SAFETY, HEALTH, AND SAFETY (SHE) UNTUK MENGHADAPI PANDEMIK MEMALUI MEDIA ONLINE INTERAKTIF",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.950.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI LINGKUNGAN SEHAT DI RUMAH DAN SEKOLAHKU UNTUK SISWA SD MELALUI MEDIA ONLINE INTERAKTIF",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.950.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Optimization of Natural and Artificial Lighting System Design in the Library of the Faculty of Economics and Business, Universitas Gadjah Mada",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85090231922&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Icetas 2019 2019 6th IEEE International Conference on Engineering Technologies and Applied Sciences",
+   "tahun": 2019,
+   "sitasi": 5,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Wijaya D.D.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Simulation study of the vibration of a gunungan",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85074957700&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Arts and Technology",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Adi G.S.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "EDUKASI PERILAKU HIJAU UNTUK MENDUKUNG PENGEMBANGAN GREEN BUILDING",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Experimental and Simulation Study of the Vibration of a Rectangular Plate with a Vertical Clamped Midline",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85058532297&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2018 4th International Conference on Science and Technology Icst 2018",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Adi G.S.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

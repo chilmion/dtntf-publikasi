@@ -2,6 +2,146 @@
  "tahun": 2009,
  "entri": [
   {
+   "judul": "Design, economic analysis and environmental considerations of mini-grid hybrid power system with reverse osmosis desalination plant for remote areas",
+   "tahun": 2009,
+   "kategori": "Jurnal Internasional",
+   "venue": "Renewable Energy",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-53749098425&origin=resultslist",
+   "sitasi": 113,
+   "kreator": "Setiawan A.A.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Evaluation of the simple urban energy balance model using selected data from 1-yr flux observations at two cities",
+   "tahun": 2009,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Applied Meteorology and Climatology",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-67549107528&origin=resultslist",
+   "sitasi": 46,
+   "kreator": "Kawai T.",
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Nanoparticle image velocimetry at topologically structured surfaces",
+   "tahun": 2009,
+   "kategori": "Jurnal Internasional",
+   "venue": "Biomicrofluidics",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-77950948816&origin=resultslist",
+   "sitasi": 6,
+   "kreator": "Parikesit G.O.F.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Automatic recognition of Indonesian declarative questions and statements using polynomial coefficients of the pitch contours",
+   "tahun": 2009,
+   "kategori": "Jurnal Internasional",
+   "venue": "Acoustical Science and Technology",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-68149158621&origin=resultslist",
+   "sitasi": 5,
+   "kreator": "Effendy N.",
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "On an improved design of a fluidized bed nuclear reactor - II: Linear stability and transient analysis",
+   "tahun": 2009,
+   "kategori": "Jurnal Internasional",
+   "venue": "Nuclear Technology",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-61349194505&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Agung A.",
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
+   "judul": "Automatic program verification of continuous function chart based on model checking",
+   "tahun": 2009,
+   "kategori": "Prosiding Internasional",
+   "venue": "IECON Proceedings Industrial Electronics Conference",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-77951596914&origin=resultslist",
+   "sitasi": 15,
+   "kreator": "Wardana A.N.I.",
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "Geophysical inversion using multilayer perceptron",
+   "tahun": 2009,
+   "kategori": "Prosiding Internasional",
+   "venue": "Scored2009 Proceedings of 2009 IEEE Student Conference on Research and Development",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-77952604172&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Arif A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
    "judul": "EFFECT OF IONIC STRENGTH ON ION EQUILIBRIUM IN SMUF",
    "tahun": 2009,
    "kategori": "Jurnal Nasional",
@@ -18,6 +158,86 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PENGENDALIAN PROSES EVAPORASI PADA PABRIK UREA MENGGUNAKAN KENDALI JARINGAN SARAF TIRUAN",
+   "tahun": 2009,
+   "kategori": "Jurnal Nasional",
+   "venue": "Seminar Nasional Informatika (SEMNASIF) Vol 1, No 4 (2009): Intelligent System dan Application",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/343709",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "PENINGKATAN UNJUK KERJA ANTENA UNTUK TRANSMISI DATA",
+   "tahun": 2009,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Forum Nuklir JFN Vol 3 No 2 November 2009141-156",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567426",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Pengaruh Meniran (Phyllanthus niruri L) Terhadap Patogenesis lnfeksi Salmonella",
+   "tahun": 2009,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Kefarmasian Indonesia VOLUME 1, NOMOR 2, 200971-76",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1697625",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Perilaku Religiusitas dalam Ruwat",
+   "tahun": 2009,
+   "kategori": "Jurnal Nasional",
+   "venue": "Indigenous Vol. 11, No. 2, November 2009",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/449773",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   }

@@ -2,6 +2,86 @@
  "tahun": 2021,
  "entri": [
   {
+   "judul": "Determinant factors of electricity consumption for a Malaysian household based on a field survey",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Sustainability Switzerland",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85099833497&origin=resultslist",
+   "sitasi": 46,
+   "kreator": "Sena B.",
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Hole selective WOx and V2Ox contacts using solution process for silicon solar cells application",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Materials Chemistry and Physics",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85112374337&origin=resultslist",
+   "sitasi": 23,
+   "kreator": "Lu C.",
+   "dosen": [
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    }
+   ]
+  },
+  {
+   "judul": "Classification of immature white blood cells in acute lymphoblastic leukemia L1 using neural networks particle swarm optimization",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Neural Computing and Applications",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85112241971&origin=resultslist",
+   "sitasi": 22,
+   "kreator": "Agustin R.I.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "Random forest and interpolation techniques for fingerprint-based indoor positioning system in un-ideal Environment",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "International Journal of Computing and Digital Systems",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85106567931&origin=resultslist",
+   "sitasi": 19,
+   "kreator": "Suroso D.J.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
    "judul": "Feasibility study to detect occupant thermal sensation using a low-cost thermal camera for indoor environments in Indonesia",
    "tahun": 2021,
    "kategori": "Jurnal Internasional",
@@ -18,6 +98,30 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Model Comparison of Passive Compact-Molten Salt Reactor Neutronic Design Using MCNP6 and Serpent-2",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Atom Indonesia",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122461473&origin=resultslist",
+   "sitasi": 12,
+   "kreator": "Dwijayanto R.A.P.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
     }
    ]
   },
@@ -38,6 +142,30 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Indoor Device-free Localization Using Received Signal Strength Indicator and Illuminance Sensor for Random-forest-based Fingerprint Technique",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Sensors and Materials",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122593385&origin=resultslist",
+   "sitasi": 9,
+   "kreator": "Suroso D.J.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
     }
    ]
   },
@@ -58,6 +186,54 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "yakub-fahim-luckyarno",
+     "nama": "Yakub Fahim Luckyarno"
+    }
+   ]
+  },
+  {
+   "judul": "Conversion ratio analysis of CAMOLYP reactor design concept",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Nuclear Engineering and Design",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85114793038&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Abrar G.",
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Online Tuning Diagnosis of Proportional Integral Derivative Controller based on IEC 61499 Function Blocks",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Jurnal Nasional Teknik Elektro",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105024706817&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Nindyasari F.V.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
     }
    ]
   },
@@ -78,6 +254,706 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Teaching optics in Covid-19 pandemic through project-based learning",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Physics Education",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85103150411&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Siddiq N.A.",
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "Outdoor Micro-Climate Analysis of Green Buildings on Environmental Affects Using PALM Software",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "International Journal of Integrated Engineering",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85103319041&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Martha H.G.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "THE UTILIZATION OF BIOGAS SLUDGE BIOCHAR TO LEAD ZERO WASTE SYSTEM IN BIOGAS IMPLEMENTATION: THE EFFECT OF VOLUME ON CARBON DIOXIDE AND METHANE CONTENT",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "International Journal of Geomate",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85101541522&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Pertiwiningrum A.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Space maintainer ‘Y model’ as a preventive orthodontic treatment for paediatric patients: a case report",
+   "tahun": 2021,
+   "kategori": "Jurnal Internasional",
+   "venue": "Dental Journal",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85147470420&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Anggraini L.D.",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Mapping seasonal marine debris patterns and potential hotspots in Banten Bay, Indonesia",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85107847064&origin=resultslist",
+   "sitasi": 12,
+   "kreator": "Rahmania R.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Corrosion in geothermal facilities: Their causes, effects, mitigation, and worldwide cases",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85119322795&origin=resultslist",
+   "sitasi": 10,
+   "kreator": "Khasani",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "The Waste Recycling of Sugarcane Bagasse-Based Biochar for Biogas Purification",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122188738&origin=resultslist",
+   "sitasi": 8,
+   "kreator": "Wuri M.A.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "An initiation to revive the unique sound of Indonesian cities",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of Inter Noise 2021 2021 International Congress and Exposition of Noise Control Engineer",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85117368992&origin=resultslist",
+   "sitasi": 6,
+   "kreator": "Mediastika C.E.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Proton therapy facilities: An overview of the development in recent years",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122176379&origin=resultslist",
+   "sitasi": 6,
+   "kreator": "Aliyah F.",
+   "dosen": [
+    {
+     "slug": "fitrotun-aliyah",
+     "nama": "Fitrotun Aliyah"
+    },
+    {
+     "slug": "sita-gandes-pinasti",
+     "nama": "Sita Gandes Pinasti"
+    }
+   ]
+  },
+  {
+   "judul": "Deterministic system for earthquake early warning system based on radon gas concentration anomaly at yogyakarta region-Indonesia",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85102281521&origin=resultslist",
+   "sitasi": 5,
+   "kreator": "Pratama T.O.",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama"
+    }
+   ]
+  },
+  {
+   "judul": "The effect of bamboo clip dimension and position towards the frequency spectrum of a vibrating inhomogeneous bundengan string",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of Inter Noise 2021 2021 International Congress and Exposition of Noise Control Engineer",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85117386075&origin=resultslist",
+   "sitasi": 5,
+   "kreator": "Kusumaningtyas I.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "A modified Mersenne Law governs the inter-mode patterns in bundengan string vibrations",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of Meetings on Acoustics",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85137143758&origin=resultslist",
+   "sitasi": 4,
+   "kreator": "Parikesit G.O.F.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Demand and Electricity Energy Mix in Indonesia 2030 with Small Modular Reactor Nuclear Power Plant and Renewable Energy Scenario",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122201349&origin=resultslist",
+   "sitasi": 4,
+   "kreator": "Imani L.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Minimizing Power Peaking Factor of BEAVRS-based Reactor Using Polar Bear Optimization Algorithms",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122218609&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Amatullah A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
+   "judul": "Study of Several Types of Lithium-polymer Batteries with 3s Battery Management System",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122201748&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Karlina F.H.",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of Potential and Feasibility of Hydropower Energy from Sepaku Semoi Dam in Penajam Paser Utara Regency",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122190265&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Nashrulloh F.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Potential and Feasibility Analysis of Biomass Energy from Palm Oil Mills on North Penajam Paser Regency Region",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Advances in Science and Technology",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85113954812&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Nashrulloh F.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Selection of Wind Farm Locations using AHP and TOPSIS Methods (Case Study: Cilacap Regency)",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "2021 International Conference on Advanced Mechatronics Intelligent Manufacture and Industrial Automa",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85135080351&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Cikarge G.P.",
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Visualisation of Naturally Ventilated House in Tropical Hilly Area of Indonesia, Case Study: Vatutela Village, Tondo Hills, Palu",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85121561880&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Fitriaty P.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Vocational high school as a part of Indonesian photovoltaics supply chain",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85121497805&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Budiarto R.",
+   "dosen": [
+    {
+     "slug": "fitrotun-aliyah",
+     "nama": "Fitrotun Aliyah"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Acid Value Reduction of Calophyllum inophyllum Oil by Oilseeds in situ Esterification Using Sulfuric Acid Catalyzed Methanol and Isopropyl Alcohol Mixture",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122209341&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Mufidah N.A.",
+   "dosen": [
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis and evaluation of the effect of reflectance values on internal walls, internal roofs, and light shelf on optimal illumination levels in the diploma economics and business building of the vocational school UGM, Yogyakarta",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122183035&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Utsman S.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of potential and feasibility of riogas energy from palm oil mill effluent in penajam paser utara regency",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85116473002&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Nashrulloh F.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of sea level changes in Balikpapan Bay as basic data for strategic planning the new capital city of Republic of Indonesia",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Journal of Physics Conference Series",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85102245609&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Putri M.R.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Design of Sustainability of Solar Panel Integration in A Green Building Complex of Wonogiri Regent Office",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85105454453&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Nur 'Aini E.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Flexible and Low-Cost Fabrication of Optical Waveguides Based on Sno2 for Passive Optical Devices",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Journal of Physics Conference Series",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85103823353&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Asnawi",
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "Generation Expansion Planning by Considering Climate-Land Use-Energy-Water (CLEW) Nexus",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "ICT Pep 2021 International Conference on Technology and Policy in Energy and Electric Power Emerging",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85123494512&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Novitasari D.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Study on Electrical Vehicle Policy in South Korea as a Lesson Learning for Indonesia",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122205976&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Tenggara A.P.",
+   "dosen": [
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Delayed-Photoneutron Production from Beta-Ray Bremsstrahlung",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Transactions of the American Nuclear Society",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179546781&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Sengar H.",
+   "dosen": [
+    {
+     "slug": "yanuar-ady-setiawan",
+     "nama": "Yanuar Ady Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Exergy Analysis of Air Conditioning (AC) System in Suite Room Santika Hotel Yogyakarta",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122205471&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Syas I.Y.",
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "NPP: Protecting the environment",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "E3s Web of Conferences",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85146759762&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Santosa H.",
+   "dosen": [
+    {
+     "slug": "yudi-utomo-imardjoko",
+     "nama": "Yudi Utomo Imardjoko"
+    }
+   ]
+  },
+  {
+   "judul": "Regional Clustering for Developing Electricity Systems in Archipelagic Area: A Case Study of Maluku and Papua Islands",
+   "tahun": 2021,
+   "kategori": "Prosiding Internasional",
+   "venue": "ICT Pep 2021 International Conference on Technology and Policy in Energy and Electric Power Emerging",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85123482744&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Tumiran T.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "AKTIVITAS HARIAN LUTUNG JAWA (Trachypithecus Auratus) DI JAVAN LANGUR CENTER BATU JAWA TIMUR",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "MEDIA BINA ILMIAH Vol 16, No 3: Oktober 20216593-6598",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2571043",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -122,6 +998,146 @@
    ]
   },
   {
+   "judul": "Analisis Efek Pemeliharaan Sistem Intensif dan Ekstensif terhadap Produktivitas dan Kualitas Telur Itik Tegal",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Peternakan Indonesia (Indonesian Journal of Animal Science) Vol 23, No 2 (2021): Jurnal Peternakan Indonesia 83-93",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2204995",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Gen Tox Corynebacterium Diphtheriae Penyebab Difteri di Beberapa Wilayah Indonesia",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Buletin Penelitian Kesehatan Vol 49 No 1 (2021) 63-70",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2153743",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Sistem Pengendalian Intern Pemerintah Dan Peran Pengelolaan Keuangan Daerah Terhadap Kinerja Pemerintah Daerah Dengan Komitmen Organisasional Sebagai Variabel Intervening (Studi pada Kecamatan Jepara di Kabupaten Jepara)",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Studi Manajemen Bisnis Vol 1, No 1 (2021): Jurnal Studi Manajemen Bisnis 33-50",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3947462",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis aktivitas inhibisi kuersetin pada bawang merah (Allium cepa L.) terhadap penetrasi SARS-CoV-2 menggunakan metode molecular docking",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Prosiding Seminar Biologi Vol 7, No 1 (2021): PROSIDING BIOLOGI ACHIEVING THE SUSTAINABLE DEVELOPMENT GOALS WITH BIODIVERSITY 328-335",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2356352",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Analysis of Battery Management Algorithms on DC Microgrids",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "ELKHA : Jurnal Teknik Elektro Vol. 13 No. 1 April 20219-18",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1992223",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "Bobot Karkas dan Morfometri Serabut Muskulus Pektoralis Itik Pengging Periode Layer Setelah Pemberian Tepung Daun Kelor Dalam Pakan",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Buletin Anatomi dan Fisiologi Volume 6, Nomor 2, Tahun 2021167-174",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2302921",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "CORPORATE RESPONSIBILITY FOR ENVIRONMENT DAMAGE DUE TO FOREST FIRE IN RIAU PROVINCE BASED ON THE PROVINCE'S STRICT RESPONSIBILITY POLICY",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "DIA: Jurnal Administrasi Publik Vol 19 No 1 (2021): PUBLIC ADMINISTRATION 41 - 52",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2201893",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "DA'WAH IN RESPONDING TO THE PROBLEMS OF CONTEMPORARY RADICALISM",
    "tahun": 2021,
    "kategori": "Jurnal Nasional",
@@ -138,6 +1154,210 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "DOSE OPTIMIZATION ON LIVER CANCER PROTON THERAPY AND BORON NEUTRON CAPTURE THERAPY USING PARTICLE AND HEAVY IONS TRANSPORT CODE SYSTEM",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 23, No 1 (2021): FEBRUARY 202133-40",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1993929",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Designing an analysis system for imaging process from bone scintigraphy as a potential predictor for validation of bone metastases",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Journal of Medical Physics and Biophysics Vol 8, No 1 (2021) 2-9",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2269617",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
+   "judul": "EFEK MINUMAN BERENERGI TERHADAP HISTOPATOLOGI HEPAR TIKUS WISTAR (Rattus norvegicus)",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "MEDIA BINA ILMIAH Vol 15, No 7: Februari 20214849-4860",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2247402",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "EFEK MINUMAN BERENERGI TERHADAP HISTOPATOLOGIS GINJAL TIKUS PUTIH (Rattus norvegicus)",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "MEDIA BINA ILMIAH Vol 15, No 7: Februari 20214835-4848",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2060142",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Faktor Pertimbangan Perubahan Penggunaan Tanah Sultan Ground Sebelum Dan Sesudah Merapi Tahun 2010 Di Desa Umbulharjo Cangkringan",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Media of Law and Sharia Vol 2, No 2 (2021): March 207-217",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2060528",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Fungsi \"Land Use Planning\" dalam mitigasi Resiko bencana Erupsi Gunung Sinabung",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Media of Law and Sharia Vol 2, No 3 (2021): June 288-304",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2248127",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Histomorphometry of the Duodenum of Ducks (Anas platyrhyncos) after Administration of Nanochitosan in Feed",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Biosaintifika: Journal of Biology & Biology Education Vol 13, No 3 (2021): December 2021267-274",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2433732",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "IMPROVING BIO-OIL QUALITY VIA CO-PYROLYSIS EMPTY FRUIT BUNCHES AND POLYPROPILEN PLASTIC WASTE",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Konversi Vol 10, No 2 (2021): Oktober 2021",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2297250",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Implementasi Metode Deteksi Friksi Statik pada Katup Kontrol menggunakan Pencocokan Elips pada Standar IEC 61499",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Otomasi Kontrol dan Instrumentasi Vol 13 No 1 (2021): Jurnal Otomasi Kontrol dan Instrumentasi 15-26",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2087467",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "Implementasi Realitas Berimbuh pada Antarmuka Manusia-Mesin di Industri Proses",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Teknik Elektro Vol 13, No 2 (2021): Jurnal Teknik Elektro 71-78",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2540900",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
     }
    ]
   },
@@ -162,6 +1382,46 @@
    ]
   },
   {
+   "judul": "Neutronic Analysis of LEU-started Molten Chloride Fast Reactor without Fuel Reprocessing",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Computational And Experimental Research In Materials And Renewable Energy Vol 4 No 1 (2021): May 8-20",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2228580",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Online Tuning Diagnosis of Proportional Integral Derivative Controller based on IEC 61499 Function Blocks",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL NASIONAL TEKNIK ELEKTRO Vol 10, No 3: November 2021",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2370469",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
    "judul": "PASAR MODAL DAN PELATIHAN INVESTASI SURAT BERHARGA BAGI GURU EKONOMI SMA KABUPATEN TEGAL",
    "tahun": 2021,
    "kategori": "Jurnal Nasional",
@@ -178,6 +1438,90 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PELAKSANAAN PEMBELAJARAN INKUIRI TERBIMBING MUATAN IPA PADA SISWA KELAS V DI SDN 004 SUNGAI KUNJANG",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Tunas: Jurnal Penelitian Pendidikan Dasar Vol. 1 No. 1 (2021) 01-13",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4559810",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PENGARUH LINGKUNGAN KERJA DAN DISIPLIN KERJA TERHADAP KINERJA PEGAWAI PADA KANTOR KECAMATAN BEKASI BARAT",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Kinerja Vol 3 No 02 (2021): Kinerja : Jurnal Ekonomi dan Bisnis 230-244",
+   "kuartil": null,
+   "akreditasi": "Sinta 5",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2270014",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PERANCANGAN DAN IDENTIFIKASI KENDALI PID PADA ALIRAN HIDROGEN SUMBER ION SIKLOTRON DECY 13",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "GANENDRA Majalah IPTEK Nuklir Volume 24 Nomor 2 Juli 202159-66",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2370475",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "Pembangunan Tempat Wudhu di Masjid Graha Poltekba",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Karya Abdi Masyarakat Vol. 5 No. 3 (2021): Jurnal Karya Abdi Masyarakat 463-470",
+   "kuartil": null,
+   "akreditasi": "Sinta 5",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3058520",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -202,6 +1546,46 @@
    ]
   },
   {
+   "judul": "Pemeriksaan Kolesterol , LDL, dan HDL Daging Ayam Petelur Jantan dengan Pakan Berimbuhan Serbuk Daun Kelor",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Buletin Anatomi dan Fisiologi Volume 6, Nomor 1, Tahun 20211-6",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2039242",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Pengembangan Desa Mitra (PPDM) Melalui Pembentukan Kelembagaan dan Penguatan Skill Mediasi Penyelesaian Sengketa Tanah Desa Wates",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Community Empowerment Vol 6 No 4 (2021) 662-665",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2215671",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "Penyuluhan Kebijakan Pengelolaan Sampah Di Area Wisata Kota Bengkulu",
    "tahun": 2021,
    "kategori": "Jurnal Nasional",
@@ -222,6 +1606,246 @@
    ]
   },
   {
+   "judul": "Performa Tryptone Bile X-Glucuronide (TBX) yang disuplementasikan dengan Cefotaxime sebagai Medium Selektif Untuk Skrining ESBL-E.coli dari Sampel Lingkungan",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Buletin Penelitian Kesehatan Vol 49 No 1 (2021) 1-8",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2153744",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Performance Analysis of Small Horizontal Axis Wind Turbine with Airfoil NACA 4412",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "International Journal of Science, Technology & Management Vol. 2 No. 1 (2021): January 2021347-357",
+   "kuartil": null,
+   "akreditasi": "Sinta 5",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2214979",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Prarancangan Pabrik Etilen Glikol Dari Etilen Oksida Dengan Proses Dow Meteor",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Online Mahasiswa (JOM) Bidang Teknik dan Sains Vol 8 (2021): Edisi 1 Januari s/d Juni 20211-9",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2193630",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Prarancangan Pabrik Etilen Glikol Dari Etilen Oksida Dengan Proses Dow Meteor Dan Desain Alat Utama Kolom Distilasi (Dc-101)",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Online Mahasiswa (JOM) Bidang Teknik dan Sains Vol 8 (2021): Edisi 2 Juli s/d Desember 20211-9",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2269136",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Random Forest-based Fingerprinting Technique for Device-free Indoor Localization System",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Indonesian Journal of Computing, Engineering, and Design (IJoCED) Vol. 3 No. 2 (2021): IJoCED 79-96",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2274595",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "Reliability Analysis and Maintainability for the Design of Grid and Hybrid Solar Power Plant Systems in Wonogiri Regency",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "ELKHA : Jurnal Teknik Elektro Vol. 13 No. 1 April 202177-83",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1992214",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Resiliensi Komunitas di Tengah Pandemi Covid-19",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Mediapsi Vol 7, No 1 (2021): JUNE 37-52",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2183805",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Respons Hematologi Itik Pengging yang Diberi Tepung Daun Kelor (Moringa oleifera. Lam) Sebagai Imbuhan Pakan",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Veteriner Vol 22 No 1 (2021) 8-15",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1987315",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Somatometri Tulang Ekstremitas Ayam Jantan Setelah Pemberian Tepung Daun Kelor (Moringa oleifera) Sebagai Pakan Tambahan",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Buletin Anatomi dan Fisiologi Volume 6, Nomor 2, Tahun 2021183-192",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2302912",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "TATAKELOLA LANSKAP RAWAPENING BERDASARKAN TINGKAT RESIKO BENCANA LINGKUNGAN DI SUB DAS RAWAPENING (Landscape governance of Rawapening based on the level of environmental disaster risk in the Rawapening Sub Watershed)",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Penelitian Pengelolaan Daerah Aliran Sungai (Journal of Watershed Management Research) Vol 5, No 1 (2021): Jurnal Penelitian Pengelolaan Daerah Aliran Sungai (Journal of Watershed Managem 21-40",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2041480",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "The Effect of Balimo (Zanthoxylum nitidum) Immersion Water On The Hematological Profile of White Rats (Rattus norvegicus) That Given Liquor (Ciu)",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Biology, Medicine, & Natural Product Chemistry Vol 10, No 1 (2021) 47-57",
+   "kuartil": null,
+   "akreditasi": "Sinta 3",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2238831",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Utilization of Quercetin Flavonoid Compounds in Red Onion (Allium cepa L.) as Inhibitor of Spike Sars-CoV-2 Protein against ACE2 Receptors",
+   "tahun": 2021,
+   "kategori": "Jurnal Nasional",
+   "venue": "Biosaintifika: Journal of Biology & Biology Education Vol 13, No 3 (2021): December 2021356-362",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2433531",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "Water Management in UGM for Resilient and Healthy Campus",
    "tahun": 2021,
    "kategori": "Jurnal Nasional",
@@ -238,6 +1862,70 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Business model to strengthen the role of local government in implementing the renewable energy potential in Indonesia",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "Pusat Studi Energi UGM",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786239193232",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Diacid from Oil Producing Plant",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "Universitas Islam Indonesia",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9783527348763",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Jendela cerdas (smart windows) : deskripsi teknologi dan potensi penghematan pada bangunan",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786233590570",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
     }
    ]
   },
@@ -258,6 +1946,34 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "gandha-satria-adi",
+     "nama": "Gandha Satria Adi"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Membangun Inovasi di Era Pandemi",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "UGM Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786233590433",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
     }
    ]
   },
@@ -278,6 +1994,102 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Model bisnis untuk memperkuat peran pemerintah daerah dalam pemanfaatan potensi energi terbarukan di Indonesia",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "Pusat Studi Energi UGM",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786239193225",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Panduan Praktikum Deteksi dan Pengukuran Radiasi",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "UGM Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786023869671",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    }
+   ]
+  },
+  {
+   "judul": "Pembangunan Ekonomi Lokal",
+   "tahun": 2021,
+   "kategori": "Buku",
+   "venue": "Yayasan Mubyarto",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786239737313",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "FBCISS",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Direktorat Penelitian",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
     }
    ]
   },
@@ -296,8 +2108,80 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    },
+    {
+     "slug": "yakub-fahim-luckyarno",
+     "nama": "Yakub Fahim Luckyarno"
+    }
+   ]
+  },
+  {
+   "judul": "Mikro Boiler Biomassa",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "kusnanto",
+     "nama": "Kusnanto"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Model Pembelajaran Ovum Pick-Up Artifisial",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
     }
    ]
   },
@@ -316,8 +2200,40 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "SISTEM STERILISASI RUANGAN MENGGUNAKAN RADIASI SINAR ULTRAVIOLET MELALUI SIRKULASI UDARA PIPA SPIRAL",
+   "tahun": 2021,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -338,6 +2254,10 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -358,6 +2278,18 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "lucyana-dwi-larasati",
+     "nama": "Lucyana Dwi Larasati"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
     }
    ]
   },
@@ -378,6 +2310,58 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "COMPREHENSIVE & INTEGRATED ACTION (CINTA) PENANGANAN STUNTING MELALUI PENINGKATAN LAYANAN KESEHATAN DAN KESEJAHTERAAN MASYARAKAT BERBASIS POTENSI LOKAL DI NUSA TENGGARA TIMUR",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "MATCHING FUND ( MF )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 2.084.868.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "MIKRO BOILER BERBAHAN BIOMASSA UNTUK UMKM",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "MATCHING FUND ( MF )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 227.450.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "kusnanto",
+     "nama": "Kusnanto"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
     }
    ]
   },
@@ -402,6 +2386,146 @@
    ]
   },
   {
+   "judul": "PENGEMBANGAN ANTARMUKA MANUSIA MESIN DENGAN MENGGUNAKAN REALITAS BERIMBUH DI INDUSTRI PROSES",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.140.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN PRODUK BIOKOMPOSIT RAMAH LINGKUNGAN DARI SERAT ALAM BERKERAPATAN RENDAH DAN SEDANG UNTUK APLIKASI BAHAN BANGUNAN NON STRUKTURAL",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Desentralisasi ( PDUPT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 96.960.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN TEKNOLOGI MEDIA PELATIHAN KEPERAWATAN SPESIALIS ICU BERBASIS TEKNOLOGI VIRTUAL REALITY YANG TERJANGKAU",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "PENYUSUNAN MODEL BISNIS DAN PILOT PROJECT PROGRAM PENGUATAN ENERGI RAMAH LINGKUNGAN BERBASIS MASYARAKAT DESA (PERLU BERDIKARI)",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "KERJASAMA ( KERJASAMA )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 569.184.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM BATTERY ANALYZER",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PENGUKURAN DAN PEMERATAAN SIRKULASI UDARA DALAM RUANGAN",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    }
+   ]
+  },
+  {
+   "judul": "Rancang Bangun EWS Gempa Bumi Berpotensi Tsunami di Selatan Pulau Jawa dengan Triangulasi Multi-data Prekursor Gempa",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 194.510.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "SISTEM PEMANTAUAN LINGKUNGAN RUANG HUNI SEHAT UNTUK MEMBATASI PENULARAN COVID-19",
    "tahun": 2021,
    "kategori": "Penelitian",
@@ -422,6 +2546,66 @@
    ]
   },
   {
+   "judul": "STUDI IDENTIFIKASI BIOMETRIK VENA JARI DENGAN METODE VGG16",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "STUDI KELAYAKAN PEMBANGUNAN KILANG MINI BIOCRUDE DARI MIKROALGA DAN KILANG MINI BIODIESEL DARI MINYAK JELANTAH",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "KERJASAMA ( KERJASAMA )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 3.860.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Sistem Antena Cerdas untuk Mendukung Jaringan IoT",
+   "tahun": 2021,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Penugasan ( KRU-PT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 265.750.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "EDUKASI ADAPTASI PENGHUNI PADA TUNTUTAN KESEHATAN DAN KESELAMATAN DALAM LINGKUNGAN KERJA/SEKOLAH SEBAGAI UPAYA MENUJU BLENDED LEARNING: STUDI KASUS ASRAMA KINANTHI UGM",
    "tahun": 2021,
    "kategori": "Pengabdian kepada Masyarakat",
@@ -438,11 +2622,15 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
     }
    ]
   },
   {
-   "judul": "EDUKASI ADAPTASI PENGHUNI PADA TUNTUTAN KESEHATAN DAN KESELAMATAN DALAM LINGKUNGAN KERJA/SEKOLAH SEBAGAI UPAYA MENUJU BLENDED LEARNING: STUDI KASUS TK ABA SE- SEDAYU",
+   "judul": "EDUKASI ADAPTASI PENGHUNI PADA TUNTUTAN KESEHATAN DAN KESELAMATAN DALAM LINGKUNGAN KERJA/SEKOLAH SEBAGAI UPAYA MENUJU BLENDED LEARNING: STUDI KASUS TK ABA SE-SEDAYU",
    "tahun": 2021,
    "kategori": "Pengabdian kepada Masyarakat",
    "venue": "PKM ( PKM )",
@@ -456,8 +2644,292 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "IMPLEMENTASI PENGABDIAN PADA KLINIK NITIPURAN HEALT CENTER (NHC) YOGYAKARTA DENGAN MENGGUNAKAN SYSTEM COVWATCH",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 2.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "NARASUMBER \"KAJIAN KEAMANAN NUKLIR DI LUAR KENDALI PENGAWASAN (MORC)\"",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "NARASUMBER PELATIHAN APLIKASI PEMBUATAN PETA DAERAH BATAS AMAN DARI BAHAYA BENCANA TSUNAMI DI SELATAN PULAU JAWA - BALI",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "NARASUMBER PELESTARIAN ALAT MUSIK TRADISIONAL BUNDENGAN",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "PELATIHAN APLIKASI PEMBUATAN PETA DAERAH BATAS AMAN DARI BAHAYA BENCANA TSUNAMI DI SELATAN PULAU JAWA - BALI",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PENERAPAN IRIGASI LAHAN PERTANIAN BERBASIS ENERGI SURYA DI KABUPATEN BANTUL TAHUN 2021",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 15.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    },
+    {
+     "slug": "sita-gandes-pinasti",
+     "nama": "Sita Gandes Pinasti"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN BERKELANJUTAN BERBASIS PEMBANGUNAN DESA PENYEMBUHAN DI DESA PAKEMBINANGUN KECAMATAN PAKEM KABUPATEN SLEMAN PROVINSI DAERAH ISTIMEWA YOGYAKARTA",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 5.729.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN PERANGKAT LUNAK TERBUKA UNTUK MEMUDAHKAN PEMILIHAN TURBIN ANGIN BERBASIS PYTHON",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "kutut-suryopratomo",
+     "nama": "Kutut Suryopratomo"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN POTENSI LOKAL, WISATA, DAN PEMBERDAYAAN MASYARAKAT UNTUK MENCAPAI TAWANGMANGU YANG MANDIRI DI DESA GONDOSULI, KELURAHAN KALISORO, DAN DESA SEPANJANG",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 8.118.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "PENGENALAN KONSEP MENABUNG ENERGI YANG MENYEHATKAN PADA MASYARAKAT",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "PENINGKATAN EKONOMI DAN PENDAPATAN DESA MELALUI OPTIMALISASI PERTANIAN, PERIKANAN, DAN PARIWISATA DI KUMEJING DAN SOMOGEDE",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 8.118.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "PENYUSUNAN PANDUAN UNTUK MEMILIH TURBIN ANGIN UNTUK PENERAPAN DI SUATU LOKASI BERDASARKAN KINERJANYA",
+   "tahun": 2021,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "kutut-suryopratomo",
+     "nama": "Kutut Suryopratomo"
     }
    ]
   }

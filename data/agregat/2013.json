@@ -2,6 +2,126 @@
  "tahun": 2013,
  "entri": [
   {
+   "judul": "Validation of PARCS/RELAP5 coupled codes against a load rejection transient at the Ringhals-3 NPP",
+   "tahun": 2013,
+   "kategori": "Jurnal Internasional",
+   "venue": "Nuclear Engineering and Design",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84874884175&origin=resultslist",
+   "sitasi": 12,
+   "kreator": "Agung A.",
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
+   "judul": "Design optimization of solar powered aeration system for fish pond in Sleman Regency, Yogyakarta by HOMER software",
+   "tahun": 2013,
+   "kategori": "Prosiding Internasional",
+   "venue": "Energy Procedia",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897039746&origin=resultslist",
+   "sitasi": 57,
+   "kreator": "Prasetyaningsari I.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Community development in solar energy utilization to support fish farming in Sendangsari village",
+   "tahun": 2013,
+   "kategori": "Prosiding Internasional",
+   "venue": "Energy Procedia",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897034530&origin=resultslist",
+   "sitasi": 4,
+   "kreator": "Setiawan A.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Speech privacy distance in 3 open-plan office layouts: Computer modelling and simulation approach",
+   "tahun": 2013,
+   "kategori": "Prosiding Internasional",
+   "venue": "20th International Congress on Sound and Vibration 2013 Icsv 2013",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897055421&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Sarwono J.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Characterizing the acoustics of 'green' open-plan offices",
+   "tahun": 2013,
+   "kategori": "Prosiding Internasional",
+   "venue": "20th International Congress on Sound and Vibration 2013 Icsv 2013",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897037444&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Utami S.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Preface",
+   "tahun": 2013,
+   "kategori": "Prosiding Internasional",
+   "venue": "Energy Procedia",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897052208&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Bakar R.B.A.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
    "judul": "The challenges and opportunities in developing nuclear engineering education in indonesia after Fukushima accident",
    "tahun": 2013,
    "kategori": "Prosiding Internasional",
@@ -16,8 +136,128 @@
    "kreator": "Putero S.H.",
    "dosen": [
     {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    },
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Design and development of the real-time paddy quality identification and separation based on the acoustic vibration response and vibration resonance",
+   "tahun": 2013,
+   "kategori": "Book Chapter / Book Series",
+   "venue": "Acta Horticulturae",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84888990304&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Sunarno",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "A CONCEPTUAL DESIGN OF NEUTRON COLLIMATOR IN THE THERMAL COLUMN OF KARTINI RESEARCH REACTOR FOR IN VITRO AND IN VIVO TEST OF BORON NEUTRON CAPTURE THERAPY",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 15, No 2 (2013): Juni 2013",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567308",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Keselamatan pada Instalasi Sistem Pembuatan dan Pengujian Solid Propelant Double Base dari Minyak Jarak - Jurusan Teknik Fisika UGM",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 2, No 1 (2013) 20-28",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306855",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Scaling Silika pada Pipa Injeksi Brine di Lapangan Panas Bumi Dieng dengan Studi Kasus di PT. Geo Dipa Energi",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 2, No 1 (2013) 7-14",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306843",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Sistem Pendingin Pasif Pasca Shutdown Dengan Skenario Severe Accident pada Innovative Molten Salt Reactor (IMSR)",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 2, No 2 (2013) 29-34",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306861",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
     }
    ]
   },
@@ -42,6 +282,66 @@
    ]
   },
   {
+   "judul": "FABRIKASI STRUKTUR HETERO CDTE/CDS:ZN DENGAN DC MAGNETRON SPUTTERING (HOMEMADE) UNTUK APLIKASI SEL SURYA",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Sainteknol : Jurnal Sains dan Teknologi Vol 11, No 2 (2013): December 2013",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/445384",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "HIGH THROUGHPUT STUDIES OF HYDROGEN EVOLUTION ELECTROCATALYST FOR WATER ELECTROLYSIS",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "ASEAN Journal of Systems Engineering Vol 1, No 2 (2013): ASEAN Journal of Systems Engineering",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1333526",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "IDENTIFIKASI TEMUAN KONTAK POSITIF KASUS KEJADIAN LUAR BIASA DIFTERIA DI DKI JAKARTA",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Media Penelitian dan Pengembangan Kesehatan Vol 23, No 4 Des (2013) 165-171",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/144194",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "Identifikasi Model Sistem Hidraulik Kendali Tekanan pada Suplai Bahan Bakar Turbin Gas",
    "tahun": 2013,
    "kategori": "Jurnal Nasional",
@@ -58,6 +358,142 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Identifikasi Sistem Governor Control Valve Dalam Menjaga Kestabilan Putaran Turbin Uap PLTP Wayang Windu Unit 1",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 2, No 3 (2013) 83-90",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306848",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Kajian Ilmiah Penyetelan Ulang Parameter Sistem Proteksi Turbin Unit 2 di Star Energy Geothermal Ltd.",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 2, No 3 (2013) 75-82",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306842",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Kebijakan Maintenance Berbasis Analisis Model Kerusakan Studi Kasus Pengoperasian & Pemeliharaan Turbin Uap di Pabrik Gula",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Forum Teknik Vol 35, No 2 (2013)",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1334534",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Pemanfaatan Pasir Telaga Sari dan Styrofoam untuk Pembuatan Batako Ringan",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Teknologi Terpadu Vol 1, No 1 (2013): JTT ( Jurnal Teknologi Terpadu )",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/504618",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Penentuan Faktor Keamanan pada Lereng Facies Delta",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Teknologi Terpadu Vol 1, No 1 (2013): JTT ( Jurnal Teknologi Terpadu )",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/504586",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Pengaruh Ketinggian Larutan Bahan Bakar pada Kekritisan Aqueous Homogeneous Reactor",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 2, No 2 (2013) 55-60",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306852",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
     }
    ]
   },
@@ -82,6 +518,118 @@
    ]
   },
   {
+   "judul": "STUDI KONEKTIVITAS AKUIFER ANTARA SUMUR BOR DENGAN SUMBER DAYA AIR DI BAWAHNYA",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Manusia dan Lingkungan (Journal of People and Environment) Vol 20, No 3 (2013) 324-338",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/370796",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "STUDY ON DISCHARGE HEAT UTILIZATION OF 250 MWe PCMSR TURBINE SYSTEM FOR DESALINATION USING MODIFIED MED",
+   "tahun": 2013,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 15, No 1 (2013): Pebruari 2013",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567341",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Matematika Teknik I",
+   "tahun": 2013,
+   "kategori": "Buku",
+   "venue": "Caps",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786029324389",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBUATAN ROAD MAP PENGEMBANGAN APLIKASI PSOC (PROGRAMABLE SYSTEM ON CHIP) UNTUK PENINGKATAN KAPASITAS LABORATORIUM SENSOR DAN SISTEM TELEKONTROL",
+   "tahun": 2013,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 72.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Program Peningkatan Sistem Pendukung Riset Integrated Smart and Green Building",
+   "tahun": 2013,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 72.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
    "judul": "Rancang Bangun Sistem Informasi dan Pemantauan Dini Jarak Jauh terhadap Bahaya Bencana di Sekitar Gunung Berapi",
    "tahun": 2013,
    "kategori": "Penelitian",
@@ -96,8 +644,124 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Rancang Bangun Smart Bed untuk Pasien di Ruang Rawat Inap Rumah Sakit yang dilengkapi dengan Sistem Monitoring Kesehatan Wireless untuk memudahkan dokter dan paramedik mengambil tindakan yang diperlukan untuk meningkatkan kualitas hidup pasien",
+   "tahun": 2013,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 100.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT MENUJU DESA WISATA BERBASIS LINGKUNGAN HIJAU DESA BANJARASRI, KECAMATAN KALIBAWANG, KABUPATEN KULON PROGO DI DESA BANJAR ASRI, KECAMATAN KALIBAWANG, KAB. KULON PROGO",
+   "tahun": 2013,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN DISTRIBUSI AIR BERTEKNOLOGI SOLAR WATER PUMPING SYSTEM DAN KEMANFAATANNYA BAGI PERKEMBANGAN EKONOMI MASYARAKAT DUSUN SURENG DESA PURWODADI KECAMATAN TEPUS GUNUNG KIDUL SEBAGAI KAWASAN PARIWISATA PESISIR.",
+   "tahun": 2013,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "TTG ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 20.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "PENINGKATAN CAPACITY BUILDING MASYARAKAT DALAM PENGELOLAAN SISTEM ENERGI TERBARUKAN BERBASIS SUSTAINABLE DEVELOPMENT UNTUK MENDUKUNG KEISTIMEWAAN DAERAH ISTIMEWA YOGYAKARTA ( TAHAP LANJUTAN ) DI DESA PURWODADI, KECAMATAN TEPUS, KAB. GUNUNG KIDUL",
+   "tahun": 2013,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Pengembangan Sistem Otomasi Penyedia Daya Listrik dan Sistem Komunikasi Data pada Instalasi Rawat Inap PUSKESMAS di Kabupaten Gunung Kidul (Tahun Kedua: 2013)",
+   "tahun": 2013,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( HI-LINK )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 180.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -115,6 +779,10 @@
    "sitasi": 0,
    "kreator": null,
    "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    },
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"

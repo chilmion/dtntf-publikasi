@@ -1,0 +1,597 @@
+{
+ "slug": "yakub-fahim-luckyarno",
+ "sinta_id": "6693667",
+ "nama": "Yakub Fahim Luckyarno",
+ "nama_sinta": "YAKUB FAHIM LUCKYARNO",
+ "gelar": "S.T., M.Eng., Ph.D.",
+ "jabatan": null,
+ "email": "yakubfahimluckyarno@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Fafa-683x1024.jpg",
+ "diperbarui": "2026-09-30T17:15:45+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6693667",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6693667/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=RW-74MEAAAAJ"
+ },
+ "skor": {
+  "overall": 342,
+  "tiga_tahun": 124,
+  "afiliasi": 342,
+  "afiliasi_tiga_tahun": 124
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2016,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 5
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 2
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 3
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 10
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 5
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 15,
+   "sitasi": 90,
+   "dokumen_disitasi": 13,
+   "hindex": 5,
+   "i10index": 3,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 7
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 15,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 90,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 5,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 5,
+  "paten": 1,
+  "ppm": 4,
+  "buku": 0,
+  "penelitian": 2
+ },
+ "per_sumber": {
+  "scopus": 15,
+  "paten": 1,
+  "ppm": 4,
+  "penelitian": 2
+ },
+ "subjects": [
+  "medical instrumentation",
+  "wireless communication"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2016,
+   "publikasi": 1,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 1,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 2,
+   "sitasi": 11
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 9
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 31
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 2,
+   "sitasi": 14
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 12
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 1,
+   "sitasi": 1
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 5
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 2
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 3
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "IEEE Access",
+   "jumlah": 5
+  },
+  {
+   "nama": "Journal of Engineering Science and Technology",
+   "jumlah": 3
+  },
+  {
+   "nama": "Building Services Engineering Research and Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Conference on ICT Convergence",
+   "jumlah": 1
+  },
+  {
+   "nama": "Engineering Journal",
+   "jumlah": 1
+  },
+  {
+   "nama": "Icetas 2019 2019 6th IEEE International Conference on Engineering Technologies and Applied Sciences",
+   "jumlah": 1
+  },
+  {
+   "nama": "E3s Web of Conferences",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings 2017 2nd International Conferences on Information Technology Information Systems and Ele",
+   "jumlah": 1
+  },
+  {
+   "nama": "2016 13th International Conference on Electrical Engineering Electronics Computer Telecommunications",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Adaptive daylight-linked lighting control system: Integrating spatial daylight factor and real-time sensing",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105043539801&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Building Services Engineering Research and Technology",
+   "tahun": 2026,
+   "sitasi": 1,
+   "urutan_penulis": "6 of 10",
+   "kreator": "Faridah F.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN PEMETAAN PARTISIPATIF BATAS AMAN TSUNAMI UNTUK MENINGKATKAN KETANGGUHAN MASYARAKAT PESISIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMBUATAN SISTEM PERINGATAN DINI BANJIR LAHAR HUJAN BERBASIS SENSOR CURAH HUJAN DI LERENG GUNUNG MERAPI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( RIKUB )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 792.413.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Simultaneous Overfill and Foveated Rendering in VR Streaming: Metric Modeling and Joint Optimization Using Deep Reinforcement Learning",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105013283193&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Access",
+   "tahun": 2025,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Luckyarno Y.F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( RIKUB )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 873.646.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Adaptive Foveated Rendering and Offloading in an Edge-Assisted Virtual Reality System",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85184313237&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Access",
+   "tahun": 2024,
+   "sitasi": 12,
+   "urutan_penulis": "4 of 5",
+   "kreator": "Nyamtiga B.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "QoE Metrics for VR Streaming with Overfill Rendering",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217627472&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on ICT Convergence",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Luckyarno Y.F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Predicting Future Eye Gaze Using Inertial Sensors",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85164401458&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Access",
+   "tahun": 2023,
+   "sitasi": 11,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Satriawan A.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Velocity- and Error-Aware Switching of Motion Prediction Models for Cloud Virtual Reality",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85168740074&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Access",
+   "tahun": 2023,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 8",
+   "kreator": "Hermawan A.A.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Edge-Computing-Assisted Virtual Reality Computation Offloading: An Empirical Study",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85137871894&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Access",
+   "tahun": 2022,
+   "sitasi": 31,
+   "urutan_penulis": "3 of 7",
+   "kreator": "Nyamtiga B.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Personal thermal comfort prediction based on eeg signal",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85121151131&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Engineering Science and Technology",
+   "tahun": 2021,
+   "sitasi": 9,
+   "urutan_penulis": "6 of 6",
+   "kreator": "Pratama R.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Menuju Bangunan Zero Energy Indonesia",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada Press",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202157096",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Detection system for deterministic earthquake prediction based on radon concentration changes in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85088592091&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Engineering Science and Technology",
+   "tahun": 2020,
+   "sitasi": 9,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Sunarno",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Design of an acoustic-based nondestructive test (NDT) instrument to predict the modulus of elasticity of wood",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85097135921&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Engineering Journal",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "6 of 7",
+   "kreator": "Utami S.S.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The study of the effects of the ultraviolet radiation on tofu as a skin tissue mimicking material",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85062029359&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Engineering Science and Technology",
+   "tahun": 2019,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Wijatna A.B.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Analysis of Vehicle Waiting Time Efficiency Using Webster Method and Newton's Divided Difference: Case Study at Mirota Kampus Intersection, Yogyakarta, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85090213348&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Icetas 2019 2019 6th IEEE International Conference on Engineering Technologies and Applied Sciences",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Wijaya D.D.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Performance Test of VHF-HF-based Emergency Data Communication System between the Sardjito Hospital and District Hospital in the Isolated and Disaster-prone Areas",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051027710&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 1,
+   "urutan_penulis": "4 of 6",
+   "kreator": "Hawibowo S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Performance test of low-complexity visible light communication system",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85050556770&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2017 2nd International Conferences on Information Technology Information Systems and Ele",
+   "tahun": 2017,
+   "sitasi": 3,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Luckyarno Y.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Posturometry data transmission using visible light communication",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84988805212&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2016 13th International Conference on Electrical Engineering Electronics Computer Telecommunications",
+   "tahun": 2016,
+   "sitasi": 4,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Luckyarno Y.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

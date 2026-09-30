@@ -1,0 +1,805 @@
+{
+ "slug": "fadli-kasim",
+ "sinta_id": "6644053",
+ "nama": "Fadli Kasim",
+ "nama_sinta": "FADLI KASIM",
+ "gelar": "S.T., M.Sc.",
+ "jabatan": null,
+ "email": "fadli@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=cDzaYR0AAAAJ&citpid=1",
+ "diperbarui": "2026-09-30T16:45:11+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644053",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644053/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=cDzaYR0AAAAJ"
+ },
+ "skor": {
+  "overall": 247,
+  "tiga_tahun": 75,
+  "afiliasi": 247,
+  "afiliasi_tiga_tahun": 75
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2020,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 2
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 1
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 1
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 2
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 3,
+   "sitasi": 7,
+   "dokumen_disitasi": 2,
+   "hindex": 1,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 4
+  },
+  "wos": {
+   "artikel": 2,
+   "sitasi": 5,
+   "dokumen_disitasi": 1,
+   "hindex": 1,
+   "i10index": 0,
+   "gindex": 1
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 3,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 7,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 1,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 1,
+  "paten": 5,
+  "ppm": 31,
+  "buku": 0,
+  "penelitian": 3
+ },
+ "per_sumber": {
+  "scopus": 3,
+  "paten": 5,
+  "ppm": 31,
+  "penelitian": 3
+ },
+ "subjects": [
+  "Innovation Policy",
+  "Public Service Innovation",
+  "Public Sector innovation"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2020,
+   "publikasi": 2,
+   "sitasi": 7
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q4",
+   "jumlah": 2
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 1
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 2
+  },
+  {
+   "nama": "Journal of Advanced Research in Numerical Heat Transfer",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Pelatihan Pemanfaatan Teknologi Tepat Guna Teknologi Penyulingan Minyak Atsiri di Kabupaten Sleman",
+   "url": null,
+   "sumber": "paten",
+   "venue": "UGM",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC002026093256",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "OPTIMALISASI POTENSI PERTANIAN DAN PETERNAKAN, PERIKANAN SERTA PELESTARIAN LINGKUNGAN BERKELANJUTAN MELALUI PEMBERDAYAAN MASYARAKAT DAN PEMANFAATAN TEKNOLOGI UNTUK MEWUJUDKAN KESEJAHTERAAN SERTA KEMANDIRIAN DESA MOAIN DAN TOUNWAWAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 124.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENURUNAN STUNTING DAN PENINGKATAN PARIWISATA, UMKM DAN HILIRISASI PERTANIAN DI DESA KASSI DAN DESA TOMPOBULU, KEC. RUMBIA, KAB. JENEPONTO",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 85.250.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Design and Optimization of Shell and Tube Heat Exchanger (STHE) in Continuous Flow Multigrain Dryer Fueled by Biomass Using CFD",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105005142526&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Advanced Research in Numerical Heat Transfer",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 6",
+   "kreator": "Kasim F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN PEMBIMBING LAPANGN KEGIATAN KKN-PPM UNIT 2024-MA008 DENGAN TEMA PENGEMBANGAN POTENSI EKOWISATA BERBASIS LINGKUNGAN DAN KOMUNITAS LOKAL MELALUI PENINGKATAN KAPASITAS MASYARAKAT DAN PEMANFAATAN TEKNOLOGI SEBAGAI UPAYA MENINGKATKAN KESEJAHTERAAN DI DE",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 137.712.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN PEMBIMBING LAPANGAN KEGIATAN KKN-PPM UNIT 2025-SN003 DENGAN TEMA PENINGKATAN EKONOMI LOKAL DAN BUDAYA PHBS MASYARAKAT SERTA MENGATASI ANAK TIDAK SEKOLAH (ATS) DI DESA BANGKALALOE, DESA BULUSIBATANG, DESA TANAMMAWANG, DESA KARELOE, KECAMATAN BONTORAM",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 98.462.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PROTOTIPE UNIT DISTILATOR MINYAK ATSIRI BERBASIS ENERGI BIOMASSA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 50.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN POTENSI EKOWISATA BERBASIS LINGKUNGAN MELALUI UPAYA PEMBERDAYAAN MASYARAKAT DAN PEMANFAATAN TEKNOLOGI UNTUK MEWUJUDKAN KESEJAHTERAAN MASYARAKAT DI DESA WERWARU DAN DESA TOUNWAWAN, KECAMATAN PULAU MOA, KABUPATEN MALUKU BARAT DAYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 124.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KKN PERIODE 2 TAHUN 2024 TEMA PENGENTASAN KEMISKINAN, STUNTING DAN PENERAPAN RESTORATIVE JUSTICE DI DESA DATARA DAN BANGKALALOE, KECAMATAN BONTORAMBA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 75.124.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Lemari Pengering Memanfaatkan Gas Buang Unit Ketel Uap Distilator Minyak Atsiri Berbahan Bakar Gas",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202302868",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "ALAT PENGATUR TEKANAN-KERJA KATUP PENGAMAN PORTABEL",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202306669",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KECAMATAN NGAGLIK, KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KKN-PPM: PENGEMBANGAN DESA MELALUI PEMBERDAYAAN MASYARAKAT DI BIDANG EKONOMI DAN SOSIAL BUDAYA, SERTA PEMBANGUNAN TERINTEGRASI; PENGEMBANGAN DESA WISATA DENGAN PEMBERDAYAAN MASYARAKAT SEKITAR DI KALURAHAN SIDOHARJO, SUMBER WUNGU, DAN TEPUS, KAPANEWON TEPU",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 95.932.168",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KKN TEMATIK INTEGRATIF DI DESA GEMBUK DAN SANGGRAHAN, KEC. KEBONAGUNG, KAB. PACITAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 19.648.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KKN-PPM: PENGEMBANGAN INOVASI MASYARAKAT DALAM MENGELOLA DAN MENINGKATKAN POTENSI NILAI EKONOMI PADA SEKTOR AGROINDUSTRI DAN EKOWISATA WILAYAH DESA PATTI DAN DESA WAKERLELI DAERAH KECAMATAN MOA LAKOR, KABUPATEN MALUKU BARAT DAYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 14.648.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KECAMATAN NGAGLIK, KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBUATAN PURWARUPA MESIN PISTON UAP UNTUK PEMBANGKIT LISTRIK TENAGA HIBRIDA SOLAR TERMAL DAN BIOMASSA MIKRO",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Unit Umpan Balik Air Distilat pada Distilator Minyak Atsiri Portabel dengan Metode Distilasi Uap",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202208148",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PEMANFAATAN ENERGI ALTERNATIF GUNA MENGOPTIMALKAN KEGIATAN EKONOMI PADA SEKTOR PERTANIAN DAN PARIWISATA MASYARAKAT DESA JOJOGAN DAN SIKUNANG, KECAMATAN KEJAJAR, KABUPATEN WONOSOBO",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN PERANGKAT KERJA YANG AMAN DAN ERGONOMIS UNTUK PEMAKAMAN KORBAN PENYAKIT MENULAR PADA MASYARAKAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PROGRAM INSENTIF LUARAN PENGABDIAN MASYARAKAT KPFT 2021 ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBANGUNAN DAERAH MELALUI PROGRAM KULIAH KERJA NYATA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 105.277.425",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAAN PARTISIPASI KABUPATEN KAMPAR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 67.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PENYULINGAN MINYAK ATSIRI SEBAGAI KOMPLEMEN KEWIRAUSAHAAN MASYARAKAT DESA SARDONOHARJO KECAMATAN NGAGLIK KABUPATEN SLEMAN DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DESAIN PEMANFAATAN GAS BUANG PADA BOILER DISTILATOR MINYAK ATSIRI KONFIGURASI MOF YANG TERHUBUNG DENGAN LEMARI PENGERING",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENGEMBANGAN POTENSI LOKAL, WISATA, DAN PEMBERDAYAAN MASYARAKAT UNTUK MENCAPAI TAWANGMANGU YANG MANDIRI DI DESA GONDOSULI, KELURAHAN KALISORO, DAN DESA SEPANJANG",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 8.118.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGENALAN KONSEP MENABUNG ENERGI YANG MENYEHATKAN PADA MASYARAKAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Mitigating accidental ammonia (NH3) release from storage tank based on risk distribution using ALOHA and fault tree analysis in PT. Sarihusada Generasi Mahardhika 2 Klaten",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083588672&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 6,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Nikita",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Risk assessment and mitigation of fire in compressed natural gas (CNG) station using ALOHA and fault tree method at PT. Sarihusada Generasi Mahardhika 2 Klaten",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083550132&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Prasetyo E.Y.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENGEMBANGAN PERANGKAT KERJA YANG AMAN DAN ERGONOMIS UNTUK PEMAKAMAN KORBAN PENYAKIT MENULAR PADA MASYARAKAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DESAIN MESIN DESTILATOR MINYAK ATSIRI PORTABLE METODE UAP KAPASITAS 10 KG",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "TRAINING DAN WORKSHOP TEKNOLOGI ENERGI TERBARUKAN UNTUK GURU SMK DI YOGYAKARTA DAN SEKITARNYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PROGRAM KESIAPSIAGAAN DAN PEDULI BENCANA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 140.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "APLIKASI MESIN PIROLISI PENGOLAHAN SAMPAH PLASTIK MENJADI MINYAK BAKAR SEBAGAI NILAI TAMBAH EKONOMI PADA TPS TAMBAKBOYO CONDONGCATUR DEPOK SLEMAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( EKONOMI DAN BISNIS )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "APLIKASI MESIN PIROLISI PENGOLAHAN SAMPAH PLASTIK MENJADI MINYAK BAKAR SEBAGAI NILAI TAMBAH EKONOMI PADA TPS TAMBAKBOYO CONDONGCATUR DEPOK SLEMAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "TTG ( PKM )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGOLAHAN SAMPAH PLASTIK MENJADI MINYAK DENGAN BAHAN BAKAR MANDIRI PADA TPS BAWUK-KARANGJATI MINOMARTANI SLEMAN YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "TTG ( PKM )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMANFAATAN SUMBER DAYA ALAM BERDASARKAN ILMU PENGETAHUAN DAN TEKNOLOGI BERBASIS KEMASYARAKATAN DI DESA BATURSARI, CANDIROTO, TEMANGGUNG DI DESA BATURSARI, KECAMATAN CANDIROTO, KAB. TEMANGGUNG",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2012,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SFB (Smart Film Box)- Alat Pencegah Kegagalan karena Pengabaian Prosedur Kerja Pengelola Film Rontgen di dalam kamar Gelap Radiolografi",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2003,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00200300559",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  }
+ ]
+}

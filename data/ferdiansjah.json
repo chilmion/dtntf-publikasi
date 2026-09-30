@@ -1,0 +1,399 @@
+{
+ "slug": "ferdiansjah",
+ "sinta_id": "6644056",
+ "nama": "Ferdiansjah",
+ "nama_sinta": "FERDIANSJAH",
+ "gelar": "S.T., M.Eng.Sc.",
+ "jabatan": null,
+ "email": "ferdiansjah@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/FERDI-920x1024.jpg",
+ "diperbarui": "2026-09-30T16:49:06+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644056",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644056/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=cDzaYR0AAAAJ"
+ },
+ "skor": {
+  "overall": 83,
+  "tiga_tahun": 10,
+  "afiliasi": 83,
+  "afiliasi_tiga_tahun": 10
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2019,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 1
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 1
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 1
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 2,
+   "sitasi": 12,
+   "dokumen_disitasi": 2,
+   "hindex": 2,
+   "i10index": 1,
+   "gindex": 0
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 4
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 2,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 12,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 2,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 2,
+  "paten": 0,
+  "ppm": 11,
+  "buku": 0,
+  "penelitian": 3
+ },
+ "per_sumber": {
+  "scopus": 2,
+  "ppm": 11,
+  "penelitian": 3
+ },
+ "subjects": [
+  "Innovation Policy",
+  "Public Service Innovation",
+  "Public Sector innovation"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2019,
+   "publikasi": 1,
+   "sitasi": 10
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 2
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q2",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 1
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "Materials Research Express",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN ALBUM ILUSTRASI ALIRAN UDARA PADA BANGUNAN - TAHAP KEDUA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KETAHANAN RADIASI CU3BTC2 (HKUST-1) TERHADAP RADIASI GAMMA 200-500 KGY",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Dependence of temperature and initial concentration in cesium adsorption as experimental radioactive waste using metal organic frameworks [Zn4O(BDC)3]",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083583441&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Prasetya G.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENGARUH VARIASI PERBANDINGAN DMF : ETANOL PADA SINTESIS CU3BTC2 TERHADAP KARAKTER MOF DAN KETAHANAN TERHADAP RADIASI",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Preparation of (002)-oriented ZnO for CO gas sensor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85064437062&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Materials Research Express",
+   "tahun": 2019,
+   "sitasi": 10,
+   "urutan_penulis": "4 of 9",
+   "kreator": "Fitriana F.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "SYNTHESIS MATERIAL METAL ORGANIC FRAMEWORK DENGAN MODIFIKASI DAN APLIKASINYA SEBAGAI SENSOR",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN DESENTRALISASI ( RKI - WCU )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 50.000.000",
+   "kategori": "Penelitian"
+  }
+ ]
+}

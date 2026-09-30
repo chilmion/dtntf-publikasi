@@ -1,0 +1,424 @@
+{
+ "slug": "sita-gandes-pinasti",
+ "sinta_id": "6777296",
+ "nama": "Sita Gandes Pinasti",
+ "nama_sinta": "SITA GANDES PINASTI",
+ "gelar": "S.T., M.Sc.",
+ "jabatan": null,
+ "email": "sita.gandes.p@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2020/07/Foto-HRIS-Sita-Gandes-Pinasti-1024x1024.jpg",
+ "diperbarui": "2026-09-30T17:08:30+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6777296",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6777296/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=S0sB0vsAAAAJ"
+ },
+ "skor": {
+  "overall": 128,
+  "tiga_tahun": 90,
+  "afiliasi": 128,
+  "afiliasi_tiga_tahun": 90
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 3
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 1
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 4
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 1
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 4,
+   "sitasi": 10,
+   "dokumen_disitasi": 2,
+   "hindex": 2,
+   "i10index": 0,
+   "gindex": 2
+  },
+  "scholar": {
+   "artikel": 11,
+   "sitasi": 26,
+   "dokumen_disitasi": 4,
+   "hindex": 2,
+   "i10index": 2,
+   "gindex": 2
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 4,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 10,
+  "sitasi_scholar": 26,
+  "hindex_scopus": 2,
+  "hindex_scholar": 2,
+  "hindex_terdaftar": 2,
+  "paten": 0,
+  "ppm": 10,
+  "buku": 0,
+  "penelitian": 1
+ },
+ "per_sumber": {
+  "scopus": 5,
+  "ppm": 10,
+  "penelitian": 1
+ },
+ "subjects": [
+  "personal neutron dosimetry",
+  "computational dosimetry"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 6
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 1,
+   "sitasi": 9
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 3,
+   "sitasi": 1
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 1
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Radiation Measurements",
+   "jumlah": 2
+  },
+  {
+   "nama": "Physica Medica",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Instrumentation",
+   "jumlah": 1
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Radiation protection in proton therapy: Insights from a multi-institutional survey and experimental measurements within the SINFONIA project",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105013227344&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Physica Medica",
+   "tahun": 2025,
+   "sitasi": 1,
+   "urutan_penulis": "5 of 10",
+   "kreator": "De Saint-Hubert M.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Computational neutron personal dosimetry at the Budapest Research Reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105002492641&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Radiation Measurements",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 11",
+   "kreator": "Pinasti S.G.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Neutron spectrometry with DIAMON detector for characterisation of a newly built neutron calibration facility at SCK CEN",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105004409320&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Instrumentation",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Pinasti S.G.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The influence of Monte Carlo radiation transport codes and hadron physics models on stray neutron dose estimations in proton therapy: An extended intercomparison",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85180528904&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Radiation Measurements",
+   "tahun": 2024,
+   "sitasi": 9,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Colson D.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "EDUKASI KESADARAN HEMAT ENERGI SEJAK DINI PADA SISWA DAN GURU TAMAN KANAK-KANAK DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN IRIGASI LAHAN PERTANIAN BERBASIS ENERGI SURYA DI KABUPATEN BANTUL TAHUN 2021",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PROGRAM HIBAH PENGABDIAN MASYARAKAT KOLABORASI KPFT 2021 - BATCH 2 ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "IMPLEMENTASI AUTOMATED MAGNETIZED WATER DEVICE UNTUK PENINGKATKAN KUALITAS TANAMAN DAN PRODUKSI ANGGUR DI UKM JOGJA ANGGUR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU PRAKTIKUM PERCOBAAN FISIKA DARI ALAT DAN BAHAN SEHARI-HARI UNTUK TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN PROGRAM ANALISIS DOSIMETRI RADIASI INTERNAL BERBASIS CITRA MEDIS INDIVIDUAL",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Proton therapy facilities: An overview of the development in recent years",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122176379&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 6,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Aliyah F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENERAPAN IRIGASI LAHAN PERTANIAN BERBASIS ENERGI SURYA DI KABUPATEN BANTUL TAHUN 2021",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  }
+ ]
+}

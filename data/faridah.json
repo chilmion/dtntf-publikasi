@@ -8,8 +8,8 @@
  "email": "faridah@ugm.ac.id",
  "prodi": "S1 - Teknik Fisika",
  "afiliasi": "Universitas Gadjah Mada",
- "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UwuzB_gAAAAJ&citpid=1",
- "diperbarui": "2026-09-30T15:30:18+07:00",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/FARIDAH-1020x1024.jpg",
+ "diperbarui": "2026-09-30T16:48:10+07:00",
  "batas_daftar": {
   "sumber": "sinta",
   "per_kategori": 10,
@@ -28,6 +28,72 @@
   "afiliasi_tiga_tahun": 872
  },
  "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2011,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 5
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 7
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 4
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 4
+   }
+  ],
   "kuartil": [
    {
     "nama": "Q1",
@@ -48,6 +114,20 @@
    {
     "nama": "No-Q",
     "jumlah": 7
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 21
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 15
+   },
+   {
+    "nama": "Others",
+    "jumlah": 2
    }
   ]
  },
@@ -84,18 +164,18 @@
   "sitasi_scholar": 2334,
   "hindex_scopus": 11,
   "hindex_scholar": 20,
-  "hindex_terdaftar": 11,
+  "hindex_terdaftar": 10,
   "paten": 13,
-  "ppm": 34,
+  "ppm": 32,
   "buku": 3,
   "penelitian": 26
  },
  "per_sumber": {
-  "scopus": 38,
+  "scopus": 37,
   "garuda": 212,
   "buku": 3,
   "paten": 13,
-  "ppm": 34,
+  "ppm": 32,
   "penelitian": 26
  },
  "subjects": [
@@ -160,8 +240,8 @@
   },
   {
    "tahun": 2017,
-   "publikasi": 7,
-   "sitasi": 98
+   "publikasi": 6,
+   "sitasi": 87
   },
   {
    "tahun": 2018,
@@ -228,7 +308,7 @@
   },
   {
    "nama": "no-Q",
-   "jumlah": 7
+   "jumlah": 6
   }
  ],
  "venue_teratas": [
@@ -275,6 +355,20 @@
  ],
  "publikasi": [
   {
+   "judul": "An open-source BLDC motor test bed utilizing ESC telemetry for cost-effective educational laboratories",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105040626820&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Hardwarex",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Kurniawan U.T.Y.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
    "judul": "PPG-ECG Validation of a 25 Hz Board-Level Photoplethysmography Sensor for Future Thermal Comfort Experiments Under Resting Low-Motion Conditions",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105046315987&origin=resultslist",
    "sumber": "scopus",
@@ -315,20 +409,6 @@
    "jenis_venue": "Book Series",
    "info": null,
    "kategori": "Book Chapter / Book Series"
-  },
-  {
-   "judul": "An open-source BLDC motor test bed utilizing ESC telemetry for cost-effective educational laboratories",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105040626820&origin=resultslist",
-   "sumber": "scopus",
-   "venue": "Hardwarex",
-   "tahun": 2026,
-   "sitasi": 0,
-   "urutan_penulis": "2 of 3",
-   "kreator": "Kurniawan U.T.Y.",
-   "kuartil": "Q2",
-   "jenis_venue": "Journal",
-   "info": null,
-   "kategori": "Jurnal Internasional"
   },
   {
    "judul": "Strategi Dakwah Pondok Pesantren Nadwa Dalam Meningkatkan Kualitas Spiritual Qoutient Santri",
@@ -526,7 +606,7 @@
    "kategori": "Jurnal Nasional"
   },
   {
-   "judul": "PELATIHAN PEMETAAN PARTISIPATIF BATAS AMAN TSUNAMI UNTUK MENINGKATKAN KETANGGUHAN MASYARAKAT PESISIR",
+   "judul": "TRAINING AUDIT ENERGI DI BANGUNAN KOMERSIAL YOGYAKARTA UNTUK MEWUJUDKAN BANGUNAN KOMERSIAL HIJAU",
    "url": null,
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -541,7 +621,7 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "TRAINING AUDIT ENERGI DI BANGUNAN KOMERSIAL YOGYAKARTA UNTUK MEWUJUDKAN BANGUNAN KOMERSIAL HIJAU",
+   "judul": "PELATIHAN PEMETAAN PARTISIPATIF BATAS AMAN TSUNAMI UNTUK MENINGKATKAN KETANGGUHAN MASYARAKAT PESISIR",
    "url": null,
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -1574,6 +1654,21 @@
    "kategori": "Jurnal Nasional"
   },
   {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
    "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
    "url": null,
    "sumber": "ppm",
@@ -1634,10 +1729,10 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
    "url": null,
-   "sumber": "ppm",
-   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( RIKUB )",
    "tahun": 2025,
    "sitasi": 0,
    "urutan_penulis": null,
@@ -1645,8 +1740,8 @@
    "kuartil": null,
    "jenis_venue": null,
    "info": null,
-   "dana": "Rp. 10.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
+   "dana": "Rp. 873.646.000",
+   "kategori": "Penelitian"
   },
   {
    "judul": "Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan.",
@@ -1661,21 +1756,6 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 65.000.000",
-   "kategori": "Penelitian"
-  },
-  {
-   "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "Penelitian Kompetitif Nasional ( RIKUB )",
-   "tahun": 2025,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 873.646.000",
    "kategori": "Penelitian"
   },
   {
@@ -2547,21 +2627,6 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "RANCANG BANGUN SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS FLUKTUASI GAS RADON DAN GROUND WATER LEVEL",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "RIIM BRIN TAHUN 2022 ( RIIM BRIN )",
-   "tahun": 2024,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 200.000.000",
-   "kategori": "Penelitian"
-  },
-  {
    "judul": "Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas",
    "url": null,
    "sumber": "penelitian",
@@ -2574,6 +2639,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 69.120.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS FLUKTUASI GAS RADON DAN GROUND WATER LEVEL",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "RIIM BRIN TAHUN 2022 ( RIIM BRIN )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 200.000.000",
    "kategori": "Penelitian"
   },
   {
@@ -3070,7 +3150,7 @@
    "kategori": "Paten & HKI"
   },
   {
-   "judul": "PEMBANGUNAN TPS3R FT UGM (PEMANDATAN)",
+   "judul": "PENANGANAN TERHADAP SEGMEN JALAN AMBLAS DI WUNUT, SRIHARJO, IMOGIRI, BANTUL, YOGYAKARTA (PEMANDATAN)",
    "url": null,
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -3085,7 +3165,7 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "PENYELENGGARAAN KLINIK RUMAH SWADAYA (PEMANDATAN)",
+   "judul": "PENANGANAN TERHADAP SEGMEN JALAN AMBLAS DI WUNUT, SRIHARJO, IMOGIRI, BANTUL, YOGYAKARTA (PEMANDATAN 2)",
    "url": null,
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -3128,21 +3208,6 @@
    "info": null,
    "dana": "Rp. 10.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "Penelitian Kompetitif Nasional ( PT )",
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 175.352.500",
-   "kategori": "Penelitian"
   },
   {
    "judul": "Penerapan Teknologi Soft Sensor Pada Sistem Manajemen Performansi Indoor Environment Quality (IEQ) dan Hemat Energi Untuk Bangunan Tropis",
@@ -3190,6 +3255,21 @@
    "kategori": "Penelitian"
   },
   {
+   "judul": "Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 175.352.500",
+   "kategori": "Penelitian"
+  },
+  {
    "judul": "Photoplethysmography (PPG) Signal-Based Chronological Age Estimation Algorithm",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85149548915&origin=resultslist",
    "sumber": "scopus",
@@ -3204,20 +3284,6 @@
    "kategori": "Prosiding Internasional"
   },
   {
-   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
-   "sumber": "scopus",
-   "venue": "International Journal of Nuclear Security",
-   "tahun": 2022,
-   "sitasi": 0,
-   "urutan_penulis": "14 of 15",
-   "kreator": "Putero S.H.",
-   "kuartil": "Q4",
-   "jenis_venue": "Journal",
-   "info": null,
-   "kategori": "Jurnal Internasional"
-  },
-  {
    "judul": "Moving Quick Response Codes Identification: System Performance Analysis and Maximization by Optimization of Illuminance and Exposure Time",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85125961850&origin=resultslist",
    "sumber": "scopus",
@@ -3227,6 +3293,20 @@
    "urutan_penulis": "2 of 4",
    "kreator": "Sunarko M.S.Y.",
    "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "14 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
    "jenis_venue": "Journal",
    "info": null,
    "kategori": "Jurnal Internasional"
@@ -3442,51 +3522,6 @@
    "kategori": "Paten & HKI"
   },
   {
-   "judul": "PENANGANAN GREYWATER DENGAN KOLOM FILTER BATU BRONJONG DI BANTARAN SUNGAI",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2022,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 15.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "PERENCANAAN DAN PENGELOLAAN SISTEM PENYEDIAAN AIR BAKU UNTUK AIR MINUM PERDESAAN (SPAMDES) DI KELURAHAN BANYUSOCO DAN BANARAN, KAPANEWON PLAYEN, KABUPATEN GUNUNG KIDUL",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2022,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 15.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "PEMBUATAN MASTERPLAN PEMBANGUNAN KALURAHAN KARANGSARI KEPANEWON PENGASIH, KABUPATEN KULONPROGO",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2022,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 15.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
    "judul": "PEMBUATAN AIR ALKALINE DAN AIR ASAM MELALUI ELEKTROLISIS AIR DEMIN UNTUK MENDUKUNG PENYEMBUHAN PASIEN COVID-19 TAHAP 3 (PEMANDATAN)",
    "url": null,
    "sumber": "ppm",
@@ -3532,7 +3567,7 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "PERANCANGAN SISTEM PENGELOLAAN LINGKUNGAN DESA WISATA TANGGUH BENCANA DI KAPANEWON CANGKRINGAN",
+   "judul": "PENINGKATAN KAPASITAS PRODUKSI MELALUI PENERAPAN TEKNOLOGI PENGERING BERTENAGA SURYA DAN BIOMASSA DI PABRIK SOHUN MILIK BUMDES PESANTREN, KECAMATAN TAMBAK, KABUPATEN BANYUMAS",
    "url": null,
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
@@ -3559,6 +3594,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PERANCANGAN SISTEM PENGELOLAAN LINGKUNGAN DESA WISATA TANGGUH BENCANA DI KAPANEWON CANGKRINGAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
@@ -3637,21 +3687,6 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
-   "judul": "IMPLEMENTASI SENSOR LAJU DAN ARAH VENTILASI PADA SISTEM PREDIKSI ALIRAN UDARA DALAM RUANG HUNI SEHAT DI MASA PANDEMI COVID-19",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
-   "tahun": 2022,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 35.000.000",
-   "kategori": "Penelitian"
-  },
-  {
    "judul": "Model Pengurangan Risiko Bencana Lingkungan untuk Pengelolaan Kawasan Danau yang Berkelanjutan (MoRiBLat) - Kasus Pengendalian EG di Rawapening, Jawa Tengah",
    "url": null,
    "sumber": "penelitian",
@@ -3664,6 +3699,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 252.656.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "IMPLEMENTASI SENSOR LAJU DAN ARAH VENTILASI PADA SISTEM PREDIKSI ALIRAN UDARA DALAM RUANG HUNI SEHAT DI MASA PANDEMI COVID-19",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
    "kategori": "Penelitian"
   },
   {
@@ -3888,36 +3938,6 @@
    "kategori": "Buku"
   },
   {
-   "judul": "Video Metode Penggabungan Data Digital GPS Lokasi Area Rawapening dan Data Sonar Kedalaman Air Danau",
-   "url": null,
-   "sumber": "paten",
-   "venue": "Direktorat Penelitian UGM",
-   "tahun": 2021,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": "Nomor Permohonan : EC00202170425",
-   "jenis_paten": "Hak Cipta",
-   "kategori": "Paten & HKI"
-  },
-  {
-   "judul": "SISTEM UJI KUALITAS SERAT ALAMI BERBASIS UJI TARIK DENGAN RANGKAIAN STRAIN GAUGE",
-   "url": null,
-   "sumber": "paten",
-   "venue": "Universitas Gadjah Mada",
-   "tahun": 2021,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": "Nomor Permohonan : P00202105805",
-   "jenis_paten": "Paten",
-   "kategori": "Paten & HKI"
-  },
-  {
    "judul": "Menuju Bangunan Zero Energy Indonesia",
    "url": null,
    "sumber": "paten",
@@ -3974,6 +3994,36 @@
    "kuartil": null,
    "jenis_venue": null,
    "info": "Nomor Permohonan : P00202106548",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Video Metode Penggabungan Data Digital GPS Lokasi Area Rawapening dan Data Sonar Kedalaman Air Danau",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian UGM",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202170425",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "SISTEM UJI KUALITAS SERAT ALAMI BERBASIS UJI TARIK DENGAN RANGKAIAN STRAIN GAUGE",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202105805",
    "jenis_paten": "Paten",
    "kategori": "Paten & HKI"
   },
@@ -4155,18 +4205,18 @@
    "kategori": "Jurnal Nasional"
   },
   {
-   "judul": "INSTRUMEN EVALUASI KENYAMANAN TERMAL LINGKUNGAN RUANG HUNI",
+   "judul": "Video Tutorial Pemahaman Algoritma Artificial Neural Network (ANN) dalam Analisis Sistem",
    "url": null,
    "sumber": "paten",
-   "venue": "Universitas Gadjah Mada",
+   "venue": "Direktorat Penelitian UGM",
    "tahun": 2020,
    "sitasi": 0,
    "urutan_penulis": null,
    "kreator": null,
    "kuartil": null,
    "jenis_venue": null,
-   "info": "Nomor Permohonan : P00202003280",
-   "jenis_paten": "Paten",
+   "info": "Nomor Permohonan : EC00202060784",
+   "jenis_paten": "Hak Cipta",
    "kategori": "Paten & HKI"
   },
   {
@@ -4230,6 +4280,21 @@
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
+   "judul": "DETEKSI SENSASI TERMAL PENGHUNI PADA LINGKUNGAN RUANG HUNI DI INDONESIA MENGGUNAKAN KAMERA TERMAL",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
    "judul": "POLA PERSEBARAN KUANTITATIF KENYAMANAN HUNI BANGUNAN DI INDONESIA SEBAGAI RESPON KONDISI GEOGRAFIS WILAYAH",
    "url": null,
    "sumber": "penelitian",
@@ -4257,21 +4322,6 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 246.700.000",
-   "kategori": "Penelitian"
-  },
-  {
-   "judul": "DETEKSI SENSASI TERMAL PENGHUNI PADA LINGKUNGAN RUANG HUNI DI INDONESIA MENGGUNAKAN KAMERA TERMAL",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
-   "tahun": 2020,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 35.000.000",
    "kategori": "Penelitian"
   },
   {
@@ -4333,21 +4383,6 @@
    "kategori": "Jurnal Nasional"
   },
   {
-   "judul": "EDUKASI PERILAKU HIJAU UNTUK MENDUKUNG PENGEMBANGAN GREEN BUILDING",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2019,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 15.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
    "judul": "SOSIALISASI BANGUNAN HIJAU DAN SISTEM MANAJEMEN ENERGI DI SMK N3 YOGYAKARTA",
    "url": null,
    "sumber": "ppm",
@@ -4360,6 +4395,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI PERILAKU HIJAU UNTUK MENDUKUNG PENGEMBANGAN GREEN BUILDING",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
@@ -4551,21 +4601,6 @@
    "kategori": "Paten & HKI"
   },
   {
-   "judul": "EDUKASI PENINGKATAN KESADARAN LINGKUNGAN GUNA MENUMBUHKAN GREEN BEHAVIOR",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "ESD ( PKM )",
-   "tahun": 2018,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 25.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
    "judul": "GREEN FOR FUTURE EDUKASI GREEN BEHAVIOR SEBAGAI PELENGKAP GREEN BUILDING",
    "url": null,
    "sumber": "ppm",
@@ -4578,6 +4613,21 @@
    "jenis_venue": null,
    "info": null,
    "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI PENINGKATAN KESADARAN LINGKUNGAN GUNA MENUMBUHKAN GREEN BEHAVIOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "ESD ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   },
   {
@@ -4618,20 +4668,6 @@
    "sitasi": 30,
    "urutan_penulis": "5 of 5",
    "kreator": "Rosyadi T.",
-   "kuartil": "no-Q",
-   "jenis_venue": "Conference Proceedin",
-   "info": null,
-   "kategori": "Prosiding Internasional"
-  },
-  {
-   "judul": "Localization of white blood cell images using Haar Cascade classifiers",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85017519429&origin=resultslist",
-   "sumber": "scopus",
-   "venue": "Proceedings of 2016 1st International Conference on Biomedical Engineering Empowering Biomedical Tec",
-   "tahun": 2017,
-   "sitasi": 11,
-   "urutan_penulis": "3 of 6",
-   "kreator": "Maulana Budiman R.",
    "kuartil": "no-Q",
    "jenis_venue": "Conference Proceedin",
    "info": null,

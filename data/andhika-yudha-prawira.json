@@ -1,0 +1,118 @@
+{
+ "slug": "andhika-yudha-prawira",
+ "sinta_id": "6776502",
+ "nama": "Andhika Yudha Prawira",
+ "nama_sinta": "ANDHIKA YUDHA PRAWIRA",
+ "gelar": "S.T., MS.",
+ "jabatan": null,
+ "email": "andhika.y.p@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/Picture1.jpg",
+ "diperbarui": "2026-09-30T16:38:45+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6776502",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6776502/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=jcv8AZYAAAAJ"
+ },
+ "skor": {
+  "overall": 13,
+  "tiga_tahun": 3,
+  "afiliasi": 13,
+  "afiliasi_tiga_tahun": 3
+ },
+ "grafik": {
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 0
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 0
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 0
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 0
+  },
+  "scholar": {
+   "artikel": 13,
+   "sitasi": 17,
+   "dokumen_disitasi": 4,
+   "hindex": 2,
+   "i10index": 1,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 0,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 0,
+  "sitasi_scholar": 17,
+  "hindex_scopus": 0,
+  "hindex_scholar": 2,
+  "hindex_terdaftar": 0,
+  "paten": 0,
+  "ppm": 0,
+  "buku": 0,
+  "penelitian": 0
+ },
+ "per_sumber": {},
+ "subjects": [
+  "nuclear security",
+  "nuclear safeguard",
+  "nuclear renewable hybrid energy system",
+  "nuclear non"
+ ],
+ "per_tahun": [],
+ "kuartil": [],
+ "venue_teratas": [],
+ "publikasi": []
+}

@@ -1,341 +1,2291 @@
 {
  "diperbarui": "2026-09-30",
- "jumlah_dosen": 2,
- "daftar_lengkap": false,
+ "jumlah_dosen": 38,
+ "daftar_lengkap": true,
+ "statistik": {
+  "dosen_terdata": 38,
+  "artikel_scopus": 723,
+  "sitasi_scopus": 3896,
+  "sitasi_scholar": 10984,
+  "hindex_scopus_maks": 11,
+  "skor_sinta_maks": 3790,
+  "skor_sinta_rata": 784,
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 99
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 121
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 108
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 246
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 174
+   }
+  ]
+ },
  "total": {
-  "semua": 351,
-  "publikasi_ilmiah": 268,
-  "sitasi": 578,
-  "paten": 12,
-  "ppm": 47,
-  "penelitian": 24
+  "semua": 1659,
+  "publikasi_ilmiah": 1146,
+  "sitasi": 3019,
+  "paten": 69,
+  "ppm": 291,
+  "penelitian": 153
  },
  "per_kategori": [
   {
    "nama": "Jurnal Internasional",
-   "jumlah": 27
+   "jumlah": 243
   },
   {
    "nama": "Prosiding Internasional",
-   "jumlah": 25
+   "jumlah": 299
   },
   {
    "nama": "Book Chapter / Book Series",
-   "jumlah": 4
+   "jumlah": 14
   },
   {
    "nama": "Jurnal Nasional",
-   "jumlah": 209
+   "jumlah": 554
   },
   {
    "nama": "Buku",
-   "jumlah": 3
+   "jumlah": 36
   },
   {
    "nama": "Paten & HKI",
-   "jumlah": 12
+   "jumlah": 69
   },
   {
    "nama": "Penelitian",
-   "jumlah": 24
+   "jumlah": 153
   },
   {
    "nama": "Pengabdian kepada Masyarakat",
-   "jumlah": 47
+   "jumlah": 291
   }
  ],
  "kuartil": [
   {
    "nama": "Q1",
-   "jumlah": 7
+   "jumlah": 75
   },
   {
    "nama": "Q2",
-   "jumlah": 7
+   "jumlah": 88
   },
   {
    "nama": "Q3",
-   "jumlah": 11
+   "jumlah": 82
   },
   {
    "nama": "Q4",
-   "jumlah": 23
+   "jumlah": 171
   },
   {
    "nama": "no-Q",
-   "jumlah": 8
+   "jumlah": 140
   }
  ],
  "per_tahun": [
   {
-   "tahun": 2026,
-   "berkas": "2026",
-   "jumlah": 23,
+   "tahun": 2027,
+   "berkas": "2027",
+   "jumlah": 1,
    "sitasi": 0,
    "per_kategori": {
-    "Jurnal Internasional": 3,
-    "Book Chapter / Book Series": 2,
-    "Jurnal Nasional": 13,
+    "Jurnal Internasional": 1
+   }
+  },
+  {
+   "tahun": 2026,
+   "berkas": "2026",
+   "jumlah": 77,
+   "sitasi": 16,
+   "per_kategori": {
+    "Jurnal Internasional": 25,
+    "Prosiding Internasional": 3,
+    "Book Chapter / Book Series": 3,
+    "Jurnal Nasional": 19,
+    "Paten & HKI": 1,
     "Penelitian": 2,
-    "Pengabdian kepada Masyarakat": 3
+    "Pengabdian kepada Masyarakat": 24
    }
   },
   {
    "tahun": 2025,
    "berkas": "2025",
-   "jumlah": 75,
-   "sitasi": 2,
+   "jumlah": 171,
+   "sitasi": 30,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 63,
-    "Penelitian": 1,
-    "Pengabdian kepada Masyarakat": 9
+    "Jurnal Internasional": 29,
+    "Prosiding Internasional": 12,
+    "Jurnal Nasional": 92,
+    "Penelitian": 8,
+    "Pengabdian kepada Masyarakat": 30
    }
   },
   {
    "tahun": 2024,
    "berkas": "2024",
-   "jumlah": 64,
-   "sitasi": 56,
+   "jumlah": 214,
+   "sitasi": 185,
    "per_kategori": {
-    "Jurnal Internasional": 3,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 54,
-    "Paten & HKI": 1,
-    "Penelitian": 3,
-    "Pengabdian kepada Masyarakat": 2
+    "Jurnal Internasional": 39,
+    "Prosiding Internasional": 29,
+    "Book Chapter / Book Series": 1,
+    "Jurnal Nasional": 91,
+    "Buku": 4,
+    "Paten & HKI": 4,
+    "Penelitian": 14,
+    "Pengabdian kepada Masyarakat": 32
    }
   },
   {
    "tahun": 2023,
    "berkas": "2023",
-   "jumlah": 45,
-   "sitasi": 17,
+   "jumlah": 180,
+   "sitasi": 215,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 29,
-    "Buku": 1,
-    "Paten & HKI": 1,
-    "Penelitian": 6,
-    "Pengabdian kepada Masyarakat": 6
+    "Jurnal Internasional": 17,
+    "Prosiding Internasional": 20,
+    "Jurnal Nasional": 46,
+    "Buku": 7,
+    "Paten & HKI": 12,
+    "Penelitian": 40,
+    "Pengabdian kepada Masyarakat": 38
    }
   },
   {
    "tahun": 2022,
    "berkas": "2022",
-   "jumlah": 36,
-   "sitasi": 28,
+   "jumlah": 118,
+   "sitasi": 181,
    "per_kategori": {
-    "Jurnal Internasional": 3,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 13,
-    "Paten & HKI": 1,
-    "Penelitian": 3,
-    "Pengabdian kepada Masyarakat": 15
+    "Jurnal Internasional": 13,
+    "Prosiding Internasional": 16,
+    "Book Chapter / Book Series": 2,
+    "Jurnal Nasional": 27,
+    "Buku": 2,
+    "Paten & HKI": 8,
+    "Penelitian": 21,
+    "Pengabdian kepada Masyarakat": 29
    }
   },
   {
    "tahun": 2021,
    "berkas": "2021",
-   "jumlah": 23,
-   "sitasi": 41,
+   "jumlah": 136,
+   "sitasi": 265,
    "per_kategori": {
-    "Jurnal Internasional": 4,
-    "Jurnal Nasional": 8,
-    "Buku": 2,
-    "Paten & HKI": 5,
-    "Penelitian": 2,
-    "Pengabdian kepada Masyarakat": 2
+    "Jurnal Internasional": 16,
+    "Prosiding Internasional": 28,
+    "Jurnal Nasional": 46,
+    "Buku": 9,
+    "Paten & HKI": 9,
+    "Penelitian": 14,
+    "Pengabdian kepada Masyarakat": 14
    }
   },
   {
    "tahun": 2020,
    "berkas": "2020",
-   "jumlah": 20,
-   "sitasi": 63,
+   "jumlah": 154,
+   "sitasi": 383,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Prosiding Internasional": 5,
+    "Jurnal Internasional": 18,
+    "Prosiding Internasional": 45,
     "Book Chapter / Book Series": 2,
-    "Jurnal Nasional": 5,
-    "Paten & HKI": 3,
-    "Penelitian": 2,
-    "Pengabdian kepada Masyarakat": 2
+    "Jurnal Nasional": 40,
+    "Buku": 1,
+    "Paten & HKI": 15,
+    "Penelitian": 21,
+    "Pengabdian kepada Masyarakat": 12
    }
   },
   {
    "tahun": 2019,
    "berkas": "2019",
-   "jumlah": 7,
-   "sitasi": 66,
+   "jumlah": 119,
+   "sitasi": 263,
    "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 2,
-    "Pengabdian kepada Masyarakat": 2
+    "Jurnal Internasional": 18,
+    "Prosiding Internasional": 28,
+    "Book Chapter / Book Series": 1,
+    "Jurnal Nasional": 24,
+    "Buku": 3,
+    "Paten & HKI": 4,
+    "Penelitian": 13,
+    "Pengabdian kepada Masyarakat": 28
    }
   },
   {
    "tahun": 2018,
    "berkas": "2018",
-   "jumlah": 16,
-   "sitasi": 132,
+   "jumlah": 118,
+   "sitasi": 367,
    "per_kategori": {
-    "Jurnal Internasional": 3,
-    "Prosiding Internasional": 5,
-    "Jurnal Nasional": 4,
-    "Paten & HKI": 1,
-    "Penelitian": 1,
-    "Pengabdian kepada Masyarakat": 2
+    "Jurnal Internasional": 12,
+    "Prosiding Internasional": 44,
+    "Jurnal Nasional": 34,
+    "Paten & HKI": 4,
+    "Penelitian": 5,
+    "Pengabdian kepada Masyarakat": 19
    }
   },
   {
    "tahun": 2017,
    "berkas": "2017",
-   "jumlah": 9,
-   "sitasi": 108,
+   "jumlah": 90,
+   "sitasi": 278,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Prosiding Internasional": 5,
-    "Jurnal Nasional": 2,
-    "Pengabdian kepada Masyarakat": 1
+    "Jurnal Internasional": 14,
+    "Prosiding Internasional": 23,
+    "Jurnal Nasional": 23,
+    "Buku": 4,
+    "Paten & HKI": 2,
+    "Penelitian": 2,
+    "Pengabdian kepada Masyarakat": 22
    }
   },
   {
    "tahun": 2016,
    "berkas": "2016",
-   "jumlah": 6,
-   "sitasi": 9,
+   "jumlah": 54,
+   "sitasi": 108,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 1,
-    "Penelitian": 3
+    "Jurnal Internasional": 10,
+    "Prosiding Internasional": 9,
+    "Jurnal Nasional": 16,
+    "Paten & HKI": 1,
+    "Penelitian": 7,
+    "Pengabdian kepada Masyarakat": 11
    }
   },
   {
    "tahun": 2015,
    "berkas": "2015",
-   "jumlah": 5,
-   "sitasi": 16,
+   "jumlah": 39,
+   "sitasi": 115,
    "per_kategori": {
-    "Jurnal Internasional": 2,
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 1,
-    "Pengabdian kepada Masyarakat": 1
+    "Jurnal Internasional": 8,
+    "Prosiding Internasional": 4,
+    "Book Chapter / Book Series": 1,
+    "Jurnal Nasional": 11,
+    "Buku": 2,
+    "Paten & HKI": 2,
+    "Penelitian": 1,
+    "Pengabdian kepada Masyarakat": 10
    }
   },
   {
    "tahun": 2014,
    "berkas": "2014",
-   "jumlah": 3,
-   "sitasi": 0,
+   "jumlah": 29,
+   "sitasi": 80,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Jurnal Nasional": 1,
-    "Pengabdian kepada Masyarakat": 1
+    "Jurnal Internasional": 2,
+    "Prosiding Internasional": 6,
+    "Book Chapter / Book Series": 2,
+    "Jurnal Nasional": 13,
+    "Penelitian": 1,
+    "Pengabdian kepada Masyarakat": 5
    }
   },
   {
    "tahun": 2013,
    "berkas": "2013",
-   "jumlah": 6,
-   "sitasi": 0,
+   "jumlah": 36,
+   "sitasi": 78,
    "per_kategori": {
-    "Prosiding Internasional": 1,
-    "Jurnal Nasional": 3,
-    "Penelitian": 1,
-    "Pengabdian kepada Masyarakat": 1
+    "Jurnal Internasional": 1,
+    "Prosiding Internasional": 6,
+    "Book Chapter / Book Series": 1,
+    "Jurnal Nasional": 18,
+    "Buku": 1,
+    "Penelitian": 4,
+    "Pengabdian kepada Masyarakat": 5
    }
   },
   {
    "tahun": 2012,
    "berkas": "2012",
-   "jumlah": 6,
-   "sitasi": 5,
+   "jumlah": 27,
+   "sitasi": 35,
    "per_kategori": {
-    "Prosiding Internasional": 2,
-    "Jurnal Nasional": 4
+    "Jurnal Internasional": 2,
+    "Prosiding Internasional": 3,
+    "Jurnal Nasional": 16,
+    "Paten & HKI": 2,
+    "Pengabdian kepada Masyarakat": 4
    }
   },
   {
    "tahun": 2011,
    "berkas": "2011",
-   "jumlah": 2,
-   "sitasi": 35,
+   "jumlah": 24,
+   "sitasi": 92,
    "per_kategori": {
-    "Jurnal Internasional": 1,
-    "Jurnal Nasional": 1
+    "Jurnal Internasional": 3,
+    "Prosiding Internasional": 7,
+    "Book Chapter / Book Series": 1,
+    "Jurnal Nasional": 5,
+    "Buku": 1,
+    "Paten & HKI": 3,
+    "Pengabdian kepada Masyarakat": 4
    }
   },
   {
    "tahun": 2010,
    "berkas": "2010",
-   "jumlah": 1,
-   "sitasi": 0,
+   "jumlah": 14,
+   "sitasi": 13,
    "per_kategori": {
-    "Jurnal Nasional": 1
+    "Jurnal Internasional": 1,
+    "Prosiding Internasional": 3,
+    "Jurnal Nasional": 5,
+    "Buku": 1,
+    "Pengabdian kepada Masyarakat": 4
    }
   },
   {
    "tahun": 2009,
    "berkas": "2009",
-   "jumlah": 1,
-   "sitasi": 0,
+   "jumlah": 12,
+   "sitasi": 188,
    "per_kategori": {
+    "Jurnal Internasional": 5,
+    "Prosiding Internasional": 2,
+    "Jurnal Nasional": 5
+   }
+  },
+  {
+   "tahun": 2008,
+   "berkas": "2008",
+   "jumlah": 9,
+   "sitasi": 52,
+   "per_kategori": {
+    "Jurnal Internasional": 1,
+    "Jurnal Nasional": 8
+   }
+  },
+  {
+   "tahun": 2007,
+   "berkas": "2007",
+   "jumlah": 4,
+   "sitasi": 3,
+   "per_kategori": {
+    "Prosiding Internasional": 2,
+    "Jurnal Nasional": 2
+   }
+  },
+  {
+   "tahun": 2006,
+   "berkas": "2006",
+   "jumlah": 3,
+   "sitasi": 8,
+   "per_kategori": {
+    "Jurnal Internasional": 1,
+    "Prosiding Internasional": 1,
     "Jurnal Nasional": 1
    }
   },
   {
    "tahun": 2005,
    "berkas": "2005",
-   "jumlah": 1,
-   "sitasi": 0,
+   "jumlah": 5,
+   "sitasi": 23,
    "per_kategori": {
-    "Jurnal Nasional": 1
+    "Jurnal Internasional": 1,
+    "Prosiding Internasional": 2,
+    "Jurnal Nasional": 1,
+    "Buku": 1
    }
   },
   {
    "tahun": 2004,
    "berkas": "2004",
-   "jumlah": 1,
-   "sitasi": 0,
+   "jumlah": 5,
+   "sitasi": 20,
    "per_kategori": {
+    "Prosiding Internasional": 4,
     "Jurnal Nasional": 1
    }
   },
   {
    "tahun": 2003,
    "berkas": "2003",
+   "jumlah": 5,
+   "sitasi": 12,
+   "per_kategori": {
+    "Jurnal Internasional": 2,
+    "Prosiding Internasional": 1,
+    "Jurnal Nasional": 1,
+    "Paten & HKI": 1
+   }
+  },
+  {
+   "tahun": 2002,
+   "berkas": "2002",
+   "jumlah": 1,
+   "sitasi": 0,
+   "per_kategori": {
+    "Paten & HKI": 1
+   }
+  },
+  {
+   "tahun": 2001,
+   "berkas": "2001",
    "jumlah": 1,
    "sitasi": 0,
    "per_kategori": {
     "Jurnal Nasional": 1
    }
+  },
+  {
+   "tahun": 2000,
+   "berkas": "2000",
+   "jumlah": 9,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Internasional": 1,
+    "Jurnal Nasional": 8
+   }
+  },
+  {
+   "tahun": 1996,
+   "berkas": "1996",
+   "jumlah": 1,
+   "sitasi": 1,
+   "per_kategori": {
+    "Prosiding Internasional": 1
+   }
+  },
+  {
+   "tahun": 1994,
+   "berkas": "1994",
+   "jumlah": 1,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Internasional": 1
+   }
+  },
+  {
+   "tahun": 1993,
+   "berkas": "1993",
+   "jumlah": 2,
+   "sitasi": 8,
+   "per_kategori": {
+    "Jurnal Internasional": 2
+   }
   }
  ],
  "dosen": [
   {
+   "slug": "agus-arif",
+   "nama": "Agus Arif",
+   "gelar": "Ir., M.T.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "agusarif@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/AGUS-ARIF-993x1024.jpg",
+   "sinta_id": "6017225",
+   "ada_data": true,
+   "skor_sinta": 413,
+   "publikasi": 38,
+   "artikel_scopus": 18,
+   "sitasi_scopus": 126,
+   "hindex_scopus": 6,
+   "sitasi_scholar": 202,
+   "hindex_scholar": 7,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 2
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 9
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung)",
+   "bidang_ilmu": "Rekayasa Fisika (Sistem Manajemen Baterai)",
+   "bidang_riset": "Komputasi, Instrumentasi & Kontrol, Elektronika.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "agus-budhie-wijatna",
+   "nama": "Agus Budhie Wijatna",
+   "gelar": "Prof., Dr., Ir., M.Si.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "budiwijatna@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2023/07/Untitled.png",
+   "sinta_id": "6012781",
+   "ada_data": true,
+   "skor_sinta": 567,
+   "publikasi": 54,
+   "artikel_scopus": 13,
+   "sitasi_scopus": 22,
+   "hindex_scopus": 2,
+   "sitasi_scholar": 116,
+   "hindex_scholar": 7,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 4
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 4
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 2
+    }
+   ],
+   "pendidikan": "Prof., Dr., Ir., M.Si. (Universitas Gadjah Mada), IPM. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Aplikasi Isotop Alam non Radioaktif)",
+   "bidang_riset": "Aplikasi Hidroisotop untuk Konservasi Lingkungan.",
+   "lainnya": [
+    "Anggota: World Institute for Nuclear Security (WINS).",
+    "Paten: Metode Memverifikasi Pendekatan Topografi, Geologi dan Hidrogeologi dengan Metode Perunut Hidroisotop dalam Menentukan Daerah Resapan Airtanah (IDP000086775)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "ahmad-agus-setiawan",
+   "nama": "Ahmad Agus Setiawan",
+   "gelar": "S.T., M.Sc., Ph.D.",
+   "jabatan": null,
+   "prodi": "S2 - Magister Teknik Fisika",
+   "email": "a.setiawan@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/01/Dr.-Ahmad-Agus-Setiawan-Indonesia-1-scaled-1-986x1024.jpg",
+   "sinta_id": "6644034",
+   "ada_data": true,
+   "skor_sinta": 595,
+   "publikasi": 66,
+   "artikel_scopus": 22,
+   "sitasi_scopus": 269,
+   "hindex_scopus": 6,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 15
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 1
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Sc. (Kungl Tekniska Högskolan, Sweden), Ph.D (Curtin University of Technology, Australia).",
+   "bidang_ilmu": "Rekayasa Fisika (Perencanaan Sistem Energi Terbarukan)",
+   "bidang_riset": "Renewable Energy Applications for Sustainable Development, Distributed Power Generation, Microgrids, Power Electronics for Renewable Energy Systems",
+   "lainnya": [
+    "Award: peraih Habibie Award 2014 bidang Ilmu Rekayasa."
+   ],
+   "homepage": "http://acadstaff.ugm.ac.id/aasetiawan",
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "alexander-agung",
+   "nama": "Alexander Agung",
+   "gelar": "S.T., M.Sc., Dr., PostDoc",
+   "jabatan": null,
+   "prodi": "S2 - Magister Teknik Fisika",
+   "email": "a_agung@ugm.ac.id",
+   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=_UxdIPIAAAAJ&citpid=1",
+   "sinta_id": "44275",
+   "ada_data": true,
+   "skor_sinta": 1056,
+   "publikasi": 72,
+   "artikel_scopus": 41,
+   "sitasi_scopus": 126,
+   "hindex_scopus": 8,
+   "sitasi_scholar": 257,
+   "hindex_scholar": 8,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 15
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 5
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 18
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 2
+    }
+   ],
+   "pendidikan": null,
+   "bidang_ilmu": null,
+   "bidang_riset": null,
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": null
+  },
+  {
+   "slug": "andang-widi-harto",
+   "nama": "Andang Widi Harto",
+   "gelar": "Prof., Ir., M.T., Dr.",
+   "jabatan": null,
+   "prodi": "S2 - Magister Teknik Fisika",
+   "email": "andangwh@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/ANDANG-934x1024.jpg",
+   "sinta_id": "6644036",
+   "ada_data": true,
+   "skor_sinta": 2386,
+   "publikasi": 141,
+   "artikel_scopus": 59,
+   "sitasi_scopus": 195,
+   "hindex_scopus": 9,
+   "sitasi_scholar": 431,
+   "hindex_scholar": 11,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 8
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 15
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 16
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 18
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 3
+    }
+   ],
+   "pendidikan": "Prof., Ir., M.T., Dr. (Universitas Gadjah Mada), IPU (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)",
+   "bidang_ilmu": "Rekayasa Nuklir (Reaktor Maju Pembangkit Daya)",
+   "bidang_riset": "Transfer Panas, Masa, & Momentum, Komputasi, Fisika Neutron.",
+   "lainnya": [
+    "Paten : Purifikator Biogas dengan Arang Berbasis Limbah Peternakan dan Pertanian (IDS000004292)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "andhika-yudha-prawira",
+   "nama": "Andhika Yudha Prawira",
+   "gelar": "S.T., MS.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "andhika.y.p@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/Picture1.jpg",
+   "sinta_id": "6776502",
+   "ada_data": true,
+   "skor_sinta": 13,
+   "publikasi": 0,
+   "artikel_scopus": 0,
+   "sitasi_scopus": 0,
+   "hindex_scopus": 0,
+   "sitasi_scholar": 17,
+   "hindex_scholar": 2,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 0
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": null,
+   "bidang_ilmu": null,
+   "bidang_riset": null,
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": null
+  },
+  {
+   "slug": "anung-muharini",
+   "nama": "Anung Muharini",
+   "gelar": "Ir., M.T.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "amuharini@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/foto-Anung-Muharini-1024x1024.jpg",
+   "sinta_id": "6586868",
+   "ada_data": true,
+   "skor_sinta": 187,
+   "publikasi": 30,
+   "artikel_scopus": 9,
+   "sitasi_scopus": 4,
+   "hindex_scopus": 1,
+   "sitasi_scholar": 41,
+   "hindex_scholar": 3,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 5
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung), IPM. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Penerapan Radioisotop dan Radioaktivitas Lingkungan)",
+   "bidang_riset": "Proteksi Radiasi, Deteksi & Pengukuran Radiasi, Spektroskopi Nuklir & Radioaktivitas Lingkungan, Radiokimia.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "ari-bimo-prakoso",
+   "nama": "Ari Bimo Prakoso",
+   "gelar": "S.T., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "ari.bimo.prakoso@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/10/2.b-Recent-Photograph-Ari-Bimo-Prakoso-white.png",
+   "sinta_id": "6776532",
+   "ada_data": true,
+   "skor_sinta": 429,
+   "publikasi": 32,
+   "artikel_scopus": 17,
+   "sitasi_scopus": 189,
+   "hindex_scopus": 8,
+   "sitasi_scholar": 242,
+   "hindex_scholar": 8,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 9
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 3
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 2
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), Ph.D. (Nanyang Technological University), IPM. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Sistem Energi Surya Hibrida)",
+   "bidang_riset": "Teknologi Fotovoltaik, Optoelektronik, Fotoelektrokimia, Pemodelan Sistem Energi.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "awang-n-i-wardana",
+   "nama": "Awang N. I. Wardana",
+   "gelar": "S.T., M.T., M.Sc., Dr.-Ing.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "awang.wardana@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/AWANG-949x1024.jpg",
+   "sinta_id": "5985252",
+   "ada_data": true,
+   "skor_sinta": 743,
+   "publikasi": 63,
+   "artikel_scopus": 24,
+   "sitasi_scopus": 109,
+   "hindex_scopus": 7,
+   "sitasi_scholar": 191,
+   "hindex_scholar": 7,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 7
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 11
+    }
+   ],
+   "pendidikan": "S.T (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung), M.Sc. (Fachhochschule Karlsruhe, Germany), Dr.-Ing. (Universität Kassel, Germany), IPM. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Otomasi Proses)",
+   "bidang_riset": "Safety-related Application and Integrated Engineering in Automation Systems",
+   "lainnya": [
+    "Anggota: International Association for Automation and Robotics in Construction",
+    "e-mail: awang.wardana@ugm.ac.id",
+    "homepage pribadi"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "dwi-joko-suroso",
+   "nama": "Dwi Joko Suroso",
+   "gelar": "Ir., S.T., M.Eng., Dr. Eng.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "dwi.jokosuroso@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Dwi-Joko-Suroso-802x1024.jpeg",
+   "sinta_id": "6759738",
+   "ada_data": true,
+   "skor_sinta": 782,
+   "publikasi": 44,
+   "artikel_scopus": 29,
+   "sitasi_scopus": 231,
+   "hindex_scopus": 9,
+   "sitasi_scholar": 448,
+   "hindex_scholar": 12,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 4
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 5
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 12
+    }
+   ],
+   "pendidikan": "Ir., S.T (Universitas Gadjah Mada), M.Eng., Dr. Eng (King Mongkut’s Institute of Technology Ladkrabang, Thailand), IPP. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Teknologi Sensor dan Robotika)",
+   "bidang_riset": "Wireless sensor networks, MIMO Channel Modelling, Antenna Array MIMO, Wireless-based Environmental Meter Development, Target-localization Algorithm, Building Simulation",
+   "lainnya": [
+    "e-mail: dwi.jokosuroso@ugm.ac.id",
+    "homepage pribadi"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "ester-wijayanti",
+   "nama": "Ester Wijayanti",
+   "gelar": "Ir., M.T.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "ester@ugm.ac.id",
+   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=PDbxpsMAAAAJ&citpid=1",
+   "sinta_id": "6043678",
+   "ada_data": true,
+   "skor_sinta": 119,
+   "publikasi": 29,
+   "artikel_scopus": 3,
+   "sitasi_scopus": 3,
+   "hindex_scopus": 1,
+   "sitasi_scholar": 6,
+   "hindex_scholar": 2,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 3
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": null,
+   "bidang_ilmu": null,
+   "bidang_riset": null,
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": null
+  },
+  {
+   "slug": "fadli-kasim",
+   "nama": "Fadli Kasim",
+   "gelar": "S.T., M.Sc.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "fadli@ugm.ac.id",
+   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=cDzaYR0AAAAJ&citpid=1",
+   "sinta_id": "6644053",
+   "ada_data": true,
+   "skor_sinta": 247,
+   "publikasi": 42,
+   "artikel_scopus": 3,
+   "sitasi_scopus": 7,
+   "hindex_scopus": 1,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 2
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 1
+    }
+   ],
+   "pendidikan": null,
+   "bidang_ilmu": null,
+   "bidang_riset": null,
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": null
+  },
+  {
    "slug": "faridah",
    "nama": "Faridah",
    "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "faridah@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/FARIDAH-1020x1024.jpg",
    "sinta_id": "6010146",
+   "ada_data": true,
    "skor_sinta": 3790,
-   "publikasi": 326,
+   "publikasi": 323,
+   "artikel_scopus": 38,
    "sitasi_scopus": 418,
-   "hindex_scopus": 11
+   "hindex_scopus": 11,
+   "sitasi_scholar": 2334,
+   "hindex_scholar": 20,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 4
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 15
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 7
+    }
+   ],
+   "pendidikan": "Prof., Ir. (Universitas Gadjah Mada), S.T. (Institut Teknologi Sepuluh Nopember), M.Sc. (Nanyang Technological University, Singapore), Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)",
+   "bidang_ilmu": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Terbangun Berkelanjutan)",
+   "bidang_riset": "Instrumentasi Sensor, Otomasi Bangunan",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "ferdiansjah",
+   "nama": "Ferdiansjah",
+   "gelar": "S.T., M.Eng.Sc.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "ferdiansjah@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/FERDI-920x1024.jpg",
+   "sinta_id": "6644056",
+   "ada_data": true,
+   "skor_sinta": 83,
+   "publikasi": 16,
+   "artikel_scopus": 2,
+   "sitasi_scopus": 12,
+   "hindex_scopus": 2,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 1
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Eng.Sc. (The University of New South Wales, Australia)",
+   "bidang_ilmu": "Rekayasa Fisika (Teknologi Perangkat Semikonduktor)",
+   "bidang_riset": "Fabrikasi Piranti Optoelektronik, Fisika Semikonduktor",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "fitrotun-aliyah",
+   "nama": "Fitrotun Aliyah",
+   "gelar": "S.T., M.Eng., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "fitrotun.aliyah@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Fitrotun-Aliyah_HRIS-980x1024.jpg",
+   "sinta_id": "6043555",
+   "ada_data": true,
+   "skor_sinta": 283,
+   "publikasi": 20,
+   "artikel_scopus": 13,
+   "sitasi_scopus": 118,
+   "hindex_scopus": 5,
+   "sitasi_scholar": 175,
+   "hindex_scholar": 6,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 8
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 1
+    }
+   ],
+   "pendidikan": "S.T., M.Eng. (Universitas Gadjah Mada), Ph.D. (Universiti Sains Malaysia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Proteksi Radiasi Fisika Medis)",
+   "bidang_riset": "Nuclear Technology, Radiation Dosimetry, Radiation Protection, Radiation Shielding Design, Concrete Shielding Using Eco-friendly Materials, Medical Physics",
+   "lainnya": [
+    "Anggota : World Institute for Nuclear Security (WINS)"
+   ],
+   "homepage": "http://fitrotunaliyah.blogspot.com/",
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "gandha-satria-adi",
+   "nama": "Gandha Satria Adi",
+   "gelar": "S.T., M.Eng.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "gandha.satria.a@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/04/Photo_Gandha.jpg",
+   "sinta_id": "6693661",
+   "ada_data": true,
+   "skor_sinta": 204,
+   "publikasi": 15,
+   "artikel_scopus": 6,
+   "sitasi_scopus": 7,
+   "hindex_scopus": 2,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 2
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 2
+    }
+   ],
+   "pendidikan": "S.T., M.Eng. (Universitas Gadjah Mada)",
+   "bidang_ilmu": "Rekayasa Fisika (Teknologi Pengembangan Sensor)",
+   "bidang_riset": "Getaran mekanik.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "gea-oswah-fatah-parikesit",
+   "nama": "Gea Oswah Fatah Parikesit",
+   "gelar": "S.T., M.Sc., Dr.",
+   "jabatan": null,
+   "prodi": "S2 - Magister Teknik Fisika",
+   "email": "gofparikesit@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/01/Formal-LatarPutih-1024x1018.jpg",
+   "sinta_id": "44178",
+   "ada_data": true,
+   "skor_sinta": 1268,
+   "publikasi": 53,
+   "artikel_scopus": 45,
+   "sitasi_scopus": 290,
+   "hindex_scopus": 10,
+   "sitasi_scholar": 407,
+   "hindex_scholar": 11,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 13
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 9
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 15
+    }
+   ],
+   "pendidikan": "S.T. (Institut Teknologi Bandung), M.Sc., Dr. (Technische Universiteit Delft, Netherlands)",
+   "bidang_ilmu": "Rekayasa Fisika (Fisika Konservasi Material Budaya)",
+   "bidang_riset": "Irisan antara fisika, rekayasa, seni dan pendidikan.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "haryono-budi-santosa",
+   "nama": "Haryono Budi Santosa",
+   "gelar": "Ir., M.Sc., Dr.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "hbs@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/HARYONO-941x1024.jpg",
+   "sinta_id": "6644057",
+   "ada_data": true,
+   "skor_sinta": 70,
+   "publikasi": 16,
+   "artikel_scopus": 0,
+   "sitasi_scopus": 0,
+   "hindex_scopus": 0,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 0
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "Ir., M.Sc., Dr., (Universitas Gadjah Mada)",
+   "bidang_ilmu": "Rekayasa Nuklir (Rekayasa Keselamatan dan Keamanan Sistem Sosio-Teknikal Berbahaya)",
+   "bidang_riset": "Teknik Keselamatan, Teknik Kehandalan, Teknik Lingkungan, Keamanan Nuklir.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "kusnanto",
+   "nama": "Kusnanto",
+   "gelar": "Ir., Dr-Ing.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "kusnanto@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/10/131695242.jpg",
+   "sinta_id": "6644073",
+   "ada_data": true,
+   "skor_sinta": 138,
+   "publikasi": 22,
+   "artikel_scopus": 0,
+   "sitasi_scopus": 0,
+   "hindex_scopus": 0,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 0
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), Dr-Ing. (RWTH Aachen, Germany)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Proses Material Nuklir)",
+   "bidang_riset": "Rekayasa Material Sistem Energi, Manajemen Limbah Industri.",
+   "lainnya": [
+    "Direktur Produksi BUMN PT. Inuki (Persero) periode 2011-2016",
+    "Paten : Metode Pemadatan Limbah Beracun dan Berbahaya dengan Semen dan Serat Alami (P0030650)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "kutut-suryopratomo",
+   "nama": "Kutut Suryopratomo",
+   "gelar": "Ir., M.T., M.Sc.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "kutut@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/KUTUT-1024x960.jpg",
+   "sinta_id": "6031021",
+   "ada_data": true,
+   "skor_sinta": 606,
+   "publikasi": 21,
+   "artikel_scopus": 9,
+   "sitasi_scopus": 58,
+   "hindex_scopus": 4,
+   "sitasi_scholar": 1278,
+   "hindex_scholar": 16,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 6
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "Ir., M.T. (Universitas Gadjah Mada), M.Sc. (University of Magdeburg, Germany)",
+   "bidang_ilmu": "Rekayasa Fisika (Sistem Energi Bayu Hibrida)",
+   "bidang_riset": "Simulasi Komputer, Konversi Energi.",
+   "lainnya": [
+    "Anggota : World Institute for Nuclear Security (WINS)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "lucyana-dwi-larasati",
+   "nama": "Lucyana Dwi Larasati",
+   "gelar": "S.T., M.S.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "lucyana.d.l@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2021/12/Lucyana-Dwi-Larasati.jpeg",
+   "sinta_id": "6745153",
+   "ada_data": true,
+   "skor_sinta": 53,
+   "publikasi": 1,
+   "artikel_scopus": 0,
+   "sitasi_scopus": 0,
+   "hindex_scopus": 0,
+   "sitasi_scholar": 35,
+   "hindex_scholar": 3,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 0
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "S.T. (Institut Teknologi Bandung), M.S. (Yeungnam University, Korea Selatan)",
+   "bidang_ilmu": "Rekayasa Fisika (Rekayasa Nanomaterial)",
+   "bidang_riset": "Metal Processing, Physics and Chemistry of Metal.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "m-arif-efendi",
+   "nama": "M. Arif Efendi",
+   "gelar": "S.Si., M.Sc., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "arif.e@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/01/arif.jpg",
+   "sinta_id": "6807580",
+   "ada_data": true,
+   "skor_sinta": 273,
+   "publikasi": 19,
+   "artikel_scopus": 9,
+   "sitasi_scopus": 26,
+   "hindex_scopus": 3,
+   "sitasi_scholar": 171,
+   "hindex_scholar": 4,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 4
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 1
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "S.Si. (Institut Pertanian Bogor), M.Sc. (Prince of Songkla University, Thailand), Ph.D. (Universiti Sains Malaysia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Radioterapi)",
+   "bidang_riset": "Fisika Medis, Radioterapi, Simulasi Monte Carlo, Mikrodosimetri",
+   "lainnya": [
+    "Anggota: Aliansi Fisikawan Medik Indonesia (AFISMI)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "m-kholid-ridwan",
+   "nama": "M. Kholid Ridwan",
+   "gelar": "S.T., M.Sc., Dr.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "kholid@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/KHOLID-980x1024.jpg",
+   "sinta_id": "6017034",
+   "ada_data": true,
+   "skor_sinta": 969,
+   "publikasi": 93,
+   "artikel_scopus": 17,
+   "sitasi_scopus": 148,
+   "hindex_scopus": 4,
+   "sitasi_scholar": 330,
+   "hindex_scholar": 10,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 4
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 5
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 3
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 4
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Sc. (Kungl Tekniska Högskolan, Sweden), Dr. (Tokyo Institute of Technology, Japan), IPU. (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)",
+   "bidang_ilmu": "Rekayasa Fisika (Fisika Bangunan dan Energi)",
+   "bidang_riset": "Building Physics, Energy in Urban Environment.",
+   "lainnya": [],
+   "homepage": "http://acadstaff.ugm.ac.id/kholid",
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "nazrul-effendy",
+   "nama": "Nazrul Effendy",
+   "gelar": "Prof., Ir., S.T., M.Eng., PhD.",
+   "jabatan": null,
+   "prodi": "S2 - Magister Teknik Fisika",
+   "email": "nazrul@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/03/Foto-Nazrul-berjas-resmi-20kb-1.jpg",
+   "sinta_id": "5996476",
+   "ada_data": true,
+   "skor_sinta": 1068,
+   "publikasi": 114,
+   "artikel_scopus": 26,
+   "sitasi_scopus": 188,
+   "hindex_scopus": 10,
+   "sitasi_scholar": 529,
+   "hindex_scholar": 14,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 11
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 2
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 9
+    }
+   ],
+   "pendidikan": "Prof., Ir. (Universitas Gadjah Mada), S.T., M.Eng. (Universitas Gadjah Mada), PhD. (Sandwich PhD program between Chulalongkorn University and Tokyo Institute of Technology), IPM. (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)",
+   "bidang_ilmu": "Rekayasa Fisika (Sistem Cerdas dan Tertanam)",
+   "bidang_riset": "instruments and control systems, artificial intelligence, signal processing.",
+   "lainnya": [
+    "Anggota : Indonesian Association of Pattern recognition, Indonesian Society for Soft Computing, Indonesian Artificial Intelligence Society, Continental Automated Buildings Association (CABA), International building performance simulation association (IBPSA), International Association for Pattern Recognition (IAPR), International Association of Engineers (IAENG), Persatuan Insinyur Indonesia (PII)"
+   ],
+   "homepage": "http://nazrul.staff.ugm.ac.id/",
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "nopriadi",
+   "nama": "Nopriadi",
+   "gelar": "S.T., M.Sc., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "nopriadi@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/NOPRI-875x1024.jpg",
+   "sinta_id": "6016990",
+   "ada_data": true,
+   "skor_sinta": 430,
+   "publikasi": 52,
+   "artikel_scopus": 9,
+   "sitasi_scopus": 61,
+   "hindex_scopus": 4,
+   "sitasi_scholar": 69,
+   "hindex_scholar": 3,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 4
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 3
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Sc. (Nanyang Technological University, Singapore), Ph.D. (Tokyo Institute of Technology, Japan), IPM. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Mesin Cerdas dan Instrumentasi untuk Kesehatan)",
+   "bidang_riset": "Teknik Biomedis, Instrumentasi, Teknologi Sensor.",
+   "lainnya": [],
+   "homepage": "http://nopriadi.multiply.com/",
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "nunung-prabaningrum",
+   "nama": "Nunung Prabaningrum",
+   "gelar": "Ir., M.T., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "nunung.prabaningrum@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/NUNUNG-960x1024.jpg",
+   "sinta_id": "6043524",
+   "ada_data": true,
+   "skor_sinta": 260,
+   "publikasi": 31,
+   "artikel_scopus": 12,
+   "sitasi_scopus": 15,
+   "hindex_scopus": 2,
+   "sitasi_scholar": 25,
+   "hindex_scholar": 2,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 4
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 3
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung), Ph.D. (Universiti Teknologi Petronas, Malaysia), IPU. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Teknologi Proses Energi Bio Terbarukan)",
+   "bidang_riset": "Radiokimia, Kimia Radiasi, Pengelolaan Limbah Radioaktif (Proses), Kimia Fisis, Energi terbarukan biomassa",
+   "lainnya": [
+    "Paten: Metode Pemadatan Limbah Beracun dan Berbahaya dengan Semen dan Serat Alami (P0030650)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "nur-abdillah-siddiq",
+   "nama": "Nur Abdillah Siddiq",
+   "gelar": "Ir., S.T., Dr.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "nur.a.s@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/WhatsApp-Image-2024-08-01-at-11.44.11-1-e1723223714755.jpeg",
+   "sinta_id": "6727271",
+   "ada_data": true,
+   "skor_sinta": 812,
+   "publikasi": 62,
+   "artikel_scopus": 24,
+   "sitasi_scopus": 82,
+   "hindex_scopus": 5,
+   "sitasi_scholar": 128,
+   "hindex_scholar": 6,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 7
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 6
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), S.T., Dr. (Institut Teknologi Sepuluh Nopember), IPP. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Material Optik)",
+   "bidang_riset": "Fotonika, Sensor, Smart Windows.",
+   "lainnya": [
+    "Anggota : Himpunan Optika Indonesia",
+    "Paten: Sistem Sterilisasi Ruangan Menggunakan Radiasi Sinar Ultraviolet (IDS000006382), Ruang Pengukur Gas Rumah Kaca pada Ternak Ruminansia berbasis Internet of Things (IDS000007399), Mesin Pultrusion Terintegrasi Elemen Pemanas untuk Memproduksi Filamen 3D Printing dari Botol Bekas (IDS000011227)."
+   ],
+   "homepage": "https://acadstaff.ugm.ac.id/siddiq",
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "rachmawan-budiarto",
+   "nama": "Rachmawan Budiarto",
+   "gelar": "S.T., M.T., Dr.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "rachmawan@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/WhatsApp-Image-2024-07-28-at-07.00.27-1-682x1024.jpeg",
+   "sinta_id": "5985995",
+   "ada_data": true,
+   "skor_sinta": 2582,
+   "publikasi": 140,
+   "artikel_scopus": 60,
+   "sitasi_scopus": 189,
+   "hindex_scopus": 7,
+   "sitasi_scholar": 1234,
+   "hindex_scholar": 13,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 8
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 26
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 20
+    }
+   ],
+   "pendidikan": "S.T., M.T., Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Sistem Energi Berkelanjutan)",
+   "bidang_riset": "Komputasi Dinamika Fluida, Kebijakan Energi, Diversifikasi Energi, Sistem Energi Terbarukan.",
+   "lainnya": [
+    "Anggota : Asosiasi Technopreneurship Indonesia",
+    "Paten : Purifikator Biogas dengan Arang Berbasis Limbah Peternakan dan Pertanian (IDS000004292), Peralatan Pengukur Permukaan Jalan Terhadap Aspek Guncangan Pada Kendaraan Dengan Memanfaatkan Teknologi Komputer (P00201200965)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "sentagi-sesotya-utami",
+   "nama": "Sentagi Sesotya Utami",
+   "gelar": "S.T., M.Sc., Ph.D.",
+   "jabatan": null,
+   "prodi": "S2 - Magister Teknik Fisika",
+   "email": "sentagi@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/WhatsApp-Image-2024-06-04-at-17.26.58_8033bde1.jpg-766x1024.webp",
+   "sinta_id": "6014179",
+   "ada_data": true,
+   "skor_sinta": 2608,
+   "publikasi": 168,
+   "artikel_scopus": 84,
+   "sitasi_scopus": 474,
+   "hindex_scopus": 8,
+   "sitasi_scholar": 971,
+   "hindex_scholar": 13,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 10
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 5
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 31
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 32
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Sc. (Brigham Young University, USA), Ph.D. (University of Michigan, USA), IPU. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Fisika Bangunan dan Akustik)",
+   "bidang_riset": "Akustika, Fisika Bangunan.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "sihana",
+   "nama": "Sihana",
+   "gelar": "Ir., Dr-Ing.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "sihana@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/01/Foto-Pak-Sihana.jpeg",
+   "sinta_id": "6022828",
+   "ada_data": true,
+   "skor_sinta": 620,
+   "publikasi": 92,
+   "artikel_scopus": 25,
+   "sitasi_scopus": 38,
+   "hindex_scopus": 3,
+   "sitasi_scholar": 86,
+   "hindex_scholar": 5,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 14
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), Dr-Ing. (TU Berlin, Germany), IPU. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Rekayasa Keselamatan, Keamanan dan Ketahanan Proliferasi Deterministik)",
+   "bidang_riset": "Termohidrolika, Keamanan Nuklir",
+   "lainnya": [
+    "Anggota : International Association for Continuing Engineering Education, World Institute for Nuclear Security (WINS)"
+   ],
+   "homepage": "http://sihana.staff.ugm.ac.id/",
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "sita-gandes-pinasti",
+   "nama": "Sita Gandes Pinasti",
+   "gelar": "S.T., M.Sc.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "sita.gandes.p@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2020/07/Foto-HRIS-Sita-Gandes-Pinasti-1024x1024.jpg",
+   "sinta_id": "6777296",
+   "ada_data": true,
+   "skor_sinta": 128,
+   "publikasi": 16,
+   "artikel_scopus": 4,
+   "sitasi_scopus": 10,
+   "hindex_scopus": 2,
+   "sitasi_scholar": 26,
+   "hindex_scholar": 2,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 1
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Sc. (Ruprecht Karls Universität Heidelberg, Germany)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Dosimetri Fisika Medis)",
+   "bidang_riset": "Quantitative Nuclear Medicine Imaging, Internal radiation dosimetry, Radiation detector development, Computational Patient Models",
+   "lainnya": [
+    "Anggota: European Federation of Organisations for Medical Physics (EFOMP), Aliansi Fisikawan Medik Indonesia (AFISMI)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "sunarno",
+   "nama": "Sunarno",
+   "gelar": "Prof., Ir., M.Eng., Ph.D.",
+   "jabatan": null,
+   "prodi": null,
+   "email": "sunarno@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/SUNARNO-841x1024.jpg",
+   "sinta_id": "6011022",
+   "ada_data": true,
+   "skor_sinta": 3434,
+   "publikasi": 340,
+   "artikel_scopus": 38,
+   "sitasi_scopus": 110,
+   "hindex_scopus": 7,
+   "sitasi_scholar": 209,
+   "hindex_scholar": 8,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 7
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 6
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 11
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 16
+    }
+   ],
+   "pendidikan": "Prof., Ir. (Universitas Gadjah Mada), M.Eng., Ph.D. (Osaka University, Japan), IPU. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)",
+   "bidang_riset": "Instrumentasi, Efek Radiasi Nuklir pada Komponen Elektronika.",
+   "lainnya": [
+    "Paten : Filter Frekuensi Radio Kinerja Ultra Tinggi (P44675)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "susetyo-hario-putero",
+   "nama": "Susetyo Hario Putero",
+   "gelar": "Ir., M.Eng.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "susetyo@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2021/12/Susetyo.jpg",
+   "sinta_id": "6131321",
+   "ada_data": true,
+   "skor_sinta": 517,
+   "publikasi": 43,
+   "artikel_scopus": 12,
+   "sitasi_scopus": 22,
+   "hindex_scopus": 3,
+   "sitasi_scholar": 687,
+   "hindex_scholar": 7,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 4
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 4
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 0
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), M.Eng. (Kyoto University, Japan), IPU. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Proses Pengolahan Limbah Radioaktif)",
+   "bidang_riset": "Pengelolaan Limbah Radioaktif, Keamanan Nuklir.",
+   "lainnya": [
+    "Anggota : Institute of Nuclear Materials Management, International Association for Continuing Engineering Education, World Institute for Nuclear Security (WINS), Asosiasi Technopreneurship Indonesia",
+    "Paten : Metode Pemadatan Limbah Beracun dan Berbahaya dengan Semen dan Serat Alami (P0030650)"
+   ],
+   "homepage": "http://susetyohario.wordpress.com/",
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "thomas-oka-pratama",
+   "nama": "Thomas Oka Pratama",
+   "gelar": "S.T., M.Eng., Dr.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "thomas.o.p@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/01/2.-Pas-Foto.jpg",
+   "sinta_id": "6806864",
+   "ada_data": true,
+   "skor_sinta": 593,
+   "publikasi": 31,
+   "artikel_scopus": 0,
+   "sitasi_scopus": 0,
+   "hindex_scopus": 2,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 1
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 2
+    }
+   ],
+   "pendidikan": "S.T., M.Eng., Dr. (Universitas Gadjah Mada)",
+   "bidang_ilmu": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)",
+   "bidang_riset": "Instrumentasi, telemonitoring, bencana dan mitigasi.",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
   },
   {
    "slug": "widya-rosita",
    "nama": "Widya Rosita",
    "gelar": "S.T., M.T., Dr.",
+   "jabatan": null,
+   "prodi": "S2 - Magister Teknik Fisika",
+   "email": "widyar@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/WIDYA-1018x1024.jpg",
    "sinta_id": "6016573",
+   "ada_data": true,
    "skor_sinta": 654,
-   "publikasi": 43,
+   "publikasi": 42,
+   "artikel_scopus": 21,
    "sitasi_scopus": 219,
-   "hindex_scopus": 8
+   "hindex_scopus": 8,
+   "sitasi_scholar": 339,
+   "hindex_scholar": 10,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 4
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 5
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 10
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 1
+    }
+   ],
+   "pendidikan": "S.T., M,T., Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Proses Mineral Nuklir)",
+   "bidang_riset": "Perancangan Alat Proses, Rekayasa Pengelolaan Lingkungan, Aplikasi Isotop & Radiasi.",
+   "lainnya": [
+    "Paten : Metode Pemadatan Limbah Beracun dan Berbahaya dengan Semen dan Serat Alami (P0030650)"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "yakub-fahim-luckyarno",
+   "nama": "Yakub Fahim Luckyarno",
+   "gelar": "S.T., M.Eng., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Fisika",
+   "email": "yakubfahimluckyarno@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Fafa-683x1024.jpg",
+   "sinta_id": "6693667",
+   "ada_data": true,
+   "skor_sinta": 342,
+   "publikasi": 22,
+   "artikel_scopus": 15,
+   "sitasi_scopus": 90,
+   "hindex_scopus": 5,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 5
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 2
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 3
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Eng. (King Mongkut’s Institute of Technology Ladkrabang, Thailand), Ph.D. (Seoul National University of Science and Technology, Korea Selatan)",
+   "bidang_ilmu": "Rekayasa Fisika (Sistem Nirkabel)",
+   "bidang_riset": "instrumentasi, soft computing, immersive system",
+   "lainnya": [],
+   "homepage": null,
+   "kelompok": "Teknik Fisika"
+  },
+  {
+   "slug": "yanuar-ady-setiawan",
+   "nama": "Yanuar Ady Setiawan",
+   "gelar": "S.T., M.S., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "yanuaradysetiawan@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Yanuar-683x1024.jpeg",
+   "sinta_id": "6693680",
+   "ada_data": true,
+   "skor_sinta": 218,
+   "publikasi": 16,
+   "artikel_scopus": 10,
+   "sitasi_scopus": 32,
+   "hindex_scopus": 3,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 1
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 1
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 5
+    }
+   ],
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.S. (Texas A&M University, USA), Ph.D. (Ulsan National Institute of Science and Technology, Korea Selatan)",
+   "bidang_ilmu": "Rekayasa Nuklir (Reaktor Maju Produksi Isotop dan Radiasi )",
+   "bidang_riset": "Keamanan, Seifgard, dan Nonproliferasi Nuklir",
+   "lainnya": [
+    "Anggota: Institute of Nuclear Materials Management (INMM)"
+   ],
+   "homepage": "https://ruangbusuk.wordpress.com/",
+   "kelompok": "Teknik Nuklir"
+  },
+  {
+   "slug": "yudi-utomo-imardjoko",
+   "nama": "Yudi Utomo Imardjoko",
+   "gelar": "Ir., M.Sc., Ph.D.",
+   "jabatan": null,
+   "prodi": "S1 - Teknik Nuklir",
+   "email": "yudiui@ugm.ac.id",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/yudiutomo-imardjokoa.jpg",
+   "sinta_id": "6644106",
+   "ada_data": true,
+   "skor_sinta": 241,
+   "publikasi": 16,
+   "artikel_scopus": 6,
+   "sitasi_scopus": 8,
+   "hindex_scopus": 1,
+   "sitasi_scholar": 0,
+   "hindex_scholar": 0,
+   "kuartil": [
+    {
+     "nama": "Q1",
+     "jumlah": 3
+    },
+    {
+     "nama": "Q2",
+     "jumlah": 0
+    },
+    {
+     "nama": "Q3",
+     "jumlah": 2
+    },
+    {
+     "nama": "Q4",
+     "jumlah": 1
+    },
+    {
+     "nama": "No-Q",
+     "jumlah": 2
+    }
+   ],
+   "pendidikan": "Ir. (Universitas Gadjah Mada), M.Sc., Ph.D. (Iowa State University, USA)",
+   "bidang_ilmu": "Rekayasa Nuklir (Manajemen Pengelolaan Limbah Radioaktif)",
+   "bidang_riset": "Aplikasi Kecerdasan Buatan untuk Teknologi Nuklir, Ekonomi Teknik, Pengelolaan Limbah Radioaktif, Manajemen Energi, Kebijakan Energi.",
+   "lainnya": [
+    "Direktur Utama BUMN PT. Inuki (Persero) periode 2011-2016"
+   ],
+   "homepage": null,
+   "kelompok": "Teknik Nuklir"
   }
  ]
 }

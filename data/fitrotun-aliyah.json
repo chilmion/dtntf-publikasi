@@ -1,0 +1,528 @@
+{
+ "slug": "fitrotun-aliyah",
+ "sinta_id": "6043555",
+ "nama": "Fitrotun Aliyah",
+ "nama_sinta": "FITROTUN ALIYAH",
+ "gelar": "S.T., M.Eng., Ph.D.",
+ "jabatan": null,
+ "email": "fitrotun.aliyah@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Fitrotun-Aliyah_HRIS-980x1024.jpg",
+ "diperbarui": "2026-09-30T16:50:03+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6043555",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6043555/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=QsX0RBkAAAAJ"
+ },
+ "skor": {
+  "overall": 283,
+  "tiga_tahun": 49,
+  "afiliasi": 283,
+  "afiliasi_tiga_tahun": 49
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 4
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 8
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 1
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 5
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 8
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 13,
+   "sitasi": 118,
+   "dokumen_disitasi": 10,
+   "hindex": 5,
+   "i10index": 3,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 27,
+   "sitasi": 175,
+   "dokumen_disitasi": 16,
+   "hindex": 6,
+   "i10index": 5,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 1,
+   "i10index": 1,
+   "gindex": 0
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 13,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 118,
+  "sitasi_scholar": 175,
+  "hindex_scopus": 5,
+  "hindex_scholar": 6,
+  "hindex_terdaftar": 4,
+  "paten": 1,
+  "ppm": 7,
+  "buku": 0,
+  "penelitian": 0
+ },
+ "per_sumber": {
+  "scopus": 12,
+  "paten": 1,
+  "ppm": 7
+ },
+ "subjects": [
+  "energy",
+  "nuclear technology",
+  "hydro isotope",
+  "hydro geology",
+  "radiation and detection"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 3,
+   "sitasi": 13
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 3,
+   "sitasi": 11
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 2,
+   "sitasi": 8
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 68
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 8
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 1
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 7
+  },
+  {
+   "nama": "Signal Image and Video Processing",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Advanced Research Design",
+   "jumlah": 1
+  },
+  {
+   "nama": "Construction and Building Materials",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Power Electronics and Drive Systems",
+   "jumlah": 1
+  },
+  {
+   "nama": "E3s Web of Conferences",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "NoisyAdamW: A novel optimizer for EfficientNetB0-UNet (EffB0-UNet) in low-grade glioma segmentation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105037951712&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Signal Image and Video Processing",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "9 of 11",
+   "kreator": "Amda J.M.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PENGEMBANGAN POTENSI WILAYAH BERBASIS MASYARAKAT MELALUI PENDEKATAN RAMAH LINGKUNGAN, EKONOMI KREATIF DAN INOVATIF, PEMBERDAYAAN EKONOMI DAN LITERASI (PENDIDIKAN, KEUANGAN, DAN BUDAYA), PERENCANAAN DAN ADVOKASI INFRASTRUKTUR PENUNJANG EKONOMI LOKAL, PELES",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 32.800.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "IoT and Sensor for Sustainable Buildings: Research Trends from 2019 to 2023",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105004989750&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Advanced Research Design",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Malek D.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Utilization of steel slag from industrial waste for ionizing radiation shielding concrete: A systematic review",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85151795350&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Construction and Building Materials",
+   "tahun": 2023,
+   "sitasi": 68,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Aliyah F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Proton therapy facilities: An overview of the development in recent years",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122176379&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 6,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Aliyah F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Vocational high school as a part of Indonesian photovoltaics supply chain",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85121497805&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 9",
+   "kreator": "Budiarto R.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Application of Web 3D GIS to Display Urban Model and Solar Energy Analysis using the Unmanned Aerial Vehicle (UAV) Data (Case Study: National Cheng Kung University Buildings)",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85087503545&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2020,
+   "sitasi": 9,
+   "urutan_penulis": "6 of 6",
+   "kreator": "Dewanto B.G.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Solar Energy Potential Mapping around Yogyakarta Palace As an Effort in Integrating Renewable Energy into Cultural Based Economic Development",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85097554368&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "4 of 4",
+   "kreator": "Budiarto R.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Managing social media in development program of sustainable region",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85097544187&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 5",
+   "kreator": "Budiarto R.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Membangun Kemampuan Nasional dalam Rantai Pasok Pembangkit Listrik Tenaga Surya di Indonesia",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian UGM",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202058032",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Heat transfer and efficiency of dual channel PVT air collector: A review",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85071306050&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Power Electronics and Drive Systems",
+   "tahun": 2019,
+   "sitasi": 10,
+   "urutan_penulis": "4 of 5",
+   "kreator": "Fudholi A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "An Efforts to Maintain the Sustainability of Renewable Energy System in Rural Area through Green School Education Model",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85076714907&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2019,
+   "sitasi": 2,
+   "urutan_penulis": "5 of 6",
+   "kreator": "Novitasari D.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The Sustainability of Photovoltaic System at Rawasari Village, Tanjung Jabung Timur through Student Community Service - Community Empowerment Learning Program",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85076705205&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Aliyah F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Determination LMWL Wonosobo Area by Using Nuclear Technology, Case Study: Hydrogeology Study for Aqua Danone CSR Program",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051037103&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Budhie Wijatna A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PEMETAAN POTENSI WILAYAH DAN PENGEMBANGAN SUMBER DAYA LOKAL UNTUK PENINGKATAN KESEJAHTERAAN DI DESA RAWASARI DAN SUNGAI RAMBUT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 63.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGUATAN SUSTAINABILITY PEMBANGKIT LISTRIK TENAGA SURYA MELALUI PENINGKATAN USAHA PRODUKTIF",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 63.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SEKOLAH ENERGI DAN EKONOMI HIJAU PENGEMBANGAN DAN KEBERLANJUTAN SISTEM ENERGI TERBARUKAN DI KARIMUNJAWA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  }
+ ]
+}

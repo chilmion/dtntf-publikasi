@@ -1,0 +1,452 @@
+{
+ "slug": "kusnanto",
+ "sinta_id": "6644073",
+ "nama": "Kusnanto",
+ "nama_sinta": "KUSNANTO",
+ "gelar": "Ir., Dr-Ing.",
+ "jabatan": null,
+ "email": "kusnanto@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/10/131695242.jpg",
+ "diperbarui": "2026-09-30T16:53:58+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644073",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644073/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=cDzaYR0AAAAJ"
+ },
+ "skor": {
+  "overall": 138,
+  "tiga_tahun": 34,
+  "afiliasi": 138,
+  "afiliasi_tiga_tahun": 34
+ },
+ "grafik": {
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 0
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 0
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 0
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 0
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 2
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 0,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 0,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 0,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 0,
+  "paten": 2,
+  "ppm": 15,
+  "buku": 0,
+  "penelitian": 5
+ },
+ "per_sumber": {
+  "paten": 2,
+  "ppm": 15,
+  "penelitian": 5
+ },
+ "subjects": [
+  "Innovation Policy",
+  "Public Service Innovation",
+  "Public Sector innovation"
+ ],
+ "per_tahun": [],
+ "kuartil": [],
+ "venue_teratas": [],
+ "publikasi": [
+  {
+   "judul": "PELATIHAN DAN PENDAMPINGAN PENGGUNAAN PERISAI PESAWAT SINAR-X PORTABLE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TRANSFORMASI BERKELANJUTAN: SINERGI PEMBERDAYAAN MASYARAKAT UNTUK MENINGKATKAN EKONOMI, PENDIDIKAN, DAN EKOLOGI DI DESA BATU BERIGA DAN LUBUK BESAR, KABUPATEN BANGKA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 3.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN PEMBIMBING LAPANGAN KEGIATAN KKN-PPM UNIT 2025-BB002 DENGAN TEMA TRANSFORMASI BERKELANJUTAN: SINERGI PEMBERDAYAAN MASYARAKAT UNTUK MENINGKATKAN EKONOMI, PENDIDIKAN, DAN EKOLOGI DI DESA BATU BERIGA DAN LUBUK BESAR, KABUPATEN BANGKA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 95.762.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan PLTN Terapung Gadjah Mada Molten Salt Reactor (GAMA-MSR) Multifungsi untuk Mendukung Kemandirian Energi Nasional Berbasis Potensi Thorium Lokal",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 121.170.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "DISEMINASI IPTEK NUKLIR BIDANG KESEHATAN DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KAJIAN AKADEMIS BAHAN PERTIMBANGAN KEBIJAKAN IMPLEMENTASI PEMBANGKIT LISTRIK TENAGA NUKLIR (PLTN)",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 200.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER DAN REVIU KAJIAN MANFAAT LANGSUNG DAN TIDAK LANGSUNG DARI PEMBANGKIT LISTRIK TENAGA NUKLIR (PLTN) TMSR500",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 100.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN PENGASAP DAN PENGERING IKAN DENGAN SUMBER ENERGI TERBARUKAN HIBRIDA UNTUK PENINGKATAN KUALITAS KOMODITI IKAN ASAP EKSPOR",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 140.760.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "OPTIMASI PROSES PRESIPITASI PADA PEMUNGUTAN LOGAM TANAH JARANG DARI ABU LAYANG BATUBARA",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PEMBUATAN PROTOTIPE PENGOLAH SAMPAH DOMESTIK HIBRID MENJADI REFUSE DERIVED FUEL (RDF) GUNA MENDUKUNG KEBIJAKAN NET ZERO EMISSION",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 962.041.300",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PENYULINGAN MINYAK ATSIRI SEBAGAI KOMPLEMEN KEWIRAUSAHAAN MASYARAKAT DESA SARDONOHARJO KECAMATAN NGAGLIK KABUPATEN SLEMAN DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TINDAKAN SECURITY MATURITY ASSESSMENT UNTUK PENGEMBANGAN SISTEM KEAMANAN SIBER PERBANKAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 436.040.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Mikro Boiler Biomassa",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202110814",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "MIKRO BOILER BERBAHAN BIOMASSA UNTUK UMKM",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "MATCHING FUND ( MF )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 227.450.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Reaktor Nuklir Mikro Sederhana (RNMS)",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202005319",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "SOSIALISASI TEKNIK NUKLIR UNTUK KALANGAN PEMUKA AGAMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  }
+ ]
+}

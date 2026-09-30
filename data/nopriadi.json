@@ -1,0 +1,1032 @@
+{
+ "slug": "nopriadi",
+ "sinta_id": "6016990",
+ "nama": "Nopriadi",
+ "nama_sinta": "NOPRIADI",
+ "gelar": "S.T., M.Sc., Ph.D.",
+ "jabatan": null,
+ "email": "nopriadi@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/NOPRI-875x1024.jpg",
+ "diperbarui": "2026-09-30T17:00:34+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6016990",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6016990/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=PukpIfkAAAAJ"
+ },
+ "skor": {
+  "overall": 430,
+  "tiga_tahun": 116,
+  "afiliasi": 430,
+  "afiliasi_tiga_tahun": 116
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2010,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2011,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 4
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 4
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 3
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 4
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 7
+   },
+   {
+    "nama": "Others",
+    "jumlah": 1
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 9,
+   "sitasi": 61,
+   "dokumen_disitasi": 8,
+   "hindex": 4,
+   "i10index": 3,
+   "gindex": 3
+  },
+  "scholar": {
+   "artikel": 10,
+   "sitasi": 69,
+   "dokumen_disitasi": 5,
+   "hindex": 3,
+   "i10index": 2,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 5,
+   "sitasi": 12,
+   "dokumen_disitasi": 3,
+   "hindex": 2,
+   "i10index": 0,
+   "gindex": 4
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 9,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 61,
+  "sitasi_scholar": 69,
+  "hindex_scopus": 4,
+  "hindex_scholar": 3,
+  "hindex_terdaftar": 4,
+  "paten": 1,
+  "ppm": 30,
+  "buku": 1,
+  "penelitian": 10
+ },
+ "per_sumber": {
+  "scopus": 10,
+  "buku": 1,
+  "paten": 1,
+  "ppm": 30,
+  "penelitian": 10
+ },
+ "subjects": [
+  "Mesin Cerdas",
+  "Sensor dan Instrumentasi Medis"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2012,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 2,
+   "sitasi": 41
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 46
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 4,
+   "sitasi": 15
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 5
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 4
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 3
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Journal of Physics Conference Series",
+   "jumlah": 4
+  },
+  {
+   "nama": "Iaes International Journal of Artificial Intelligence",
+   "jumlah": 2
+  },
+  {
+   "nama": "Media Kesehatan Masyarakat Indonesia",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings 2016 6th International Annual Engineering Seminar Inaes 2016",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings of 2016 1st International Conference on Biomedical Engineering Empowering Biomedical Tec",
+   "jumlah": 1
+  },
+  {
+   "nama": "Neural Networks",
+   "jumlah": 1
+  },
+  {
+   "nama": "CV Media Sains Indonesia",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "A design of a brain tumor classifier of magnetic resonance imaging images using ResNet101V2 with hyperparameter tuning",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85199418454&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iaes International Journal of Artificial Intelligence",
+   "tahun": 2024,
+   "sitasi": 4,
+   "urutan_penulis": "4 of 4",
+   "kreator": "Maulana Zein R.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Hand gesture-based automatic door security system using squeeze and excitation residual networks",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85193024315&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iaes International Journal of Artificial Intelligence",
+   "tahun": 2024,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Prihanto S.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "CHATGPT UNTUK PENDIDIKAN - LITERASI ARTIFICIAL INTELLIGENCE UNTUK DOSEN DAN GURU",
+   "url": null,
+   "sumber": "buku",
+   "venue": "CV Media Sains Indonesia",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Jakarta",
+   "isbn": "9786231956804",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "CHATGPT UNTUK PENDIDIKAN - LITERASI ARTIFICIAL INTELLIGENCE UNTUK DOSEN DAN GURU",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Nopriadi, Alimuddin dkk",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC002023125704",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KECAMATAN NGAGLIK, KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "IMPLEMENTASI MACHINE LEARNING PADA CITRA MRI UNTUK DIAGNOSIS PENYAKIT TUMOR OTAK",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENGEMBANGAN SISTEM ANTROPOMETRI BERBASIS DIGITAL HEALTH SEBAGAI PENCEGAHAN DINI STUNTING PADA BAYI DAN BALITA",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "ADB PRIME STEP ( IG )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 237.216.550",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Pengembangan TeleHealth berbasis IoT untuk Layanan Homecare Rumah Sakit",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT-JH )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 300.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "ALAT DETEKSI PENYAKIT PARU MENGGUNAKAN KARAKTER BUNYI WICARA",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 68.250.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "HAND GESTURE RECOGNITION USING MACHINE LEARNING",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PROGRAM REKOGNISI TUGAS AKHIR (RTA) TAHUN 2023 ( RTA TAHUN 2023 )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 60.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PENYULINGAN MINYAK ATSIRI SEBAGAI KOMPLEMEN KEWIRAUSAHAAN MASYARAKAT DESA SARDONOHARJO KECAMATAN NGAGLIK KABUPATEN SLEMAN DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER PELATIHAN APLIKASI PEMBUATAN PETA DAERAH BATAS AMAN DARI BAHAYA BENCANA TSUNAMI DI SELATAN PULAU JAWA - BALI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN APLIKASI PEMBUATAN PETA DAERAH BATAS AMAN DARI BAHAYA BENCANA TSUNAMI DI SELATAN PULAU JAWA - BALI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PENANGGULANGAN BENCANA KEGAGALAN TEKNOLOGI DAN PENYAKIT MENULAR DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "IDENTIFIKASI SEL DARAH PUTIH IMMATURE UNTUK DIAGNOSA PENYAKIT KANKER SEL DARAH PUTIH MENGGUNAKAN MIKROSKOP TERMODIFIKASI DENGAN MESIN CERDAS METODE CLUSTERING",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Factors Associated with the Incidence of Computer Vision Syndrome in Bank Officers",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85170378961&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Media Kesehatan Masyarakat Indonesia",
+   "tahun": 2019,
+   "sitasi": 7,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Nopriadi",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Application of knuth-morris-pratt algorithm on web based document search",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85067823764&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2019,
+   "sitasi": 4,
+   "urutan_penulis": "11 of 23",
+   "kreator": "Fatah A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Study of Implementation of Project Based Learning in Mechanical Engineering Study Program of Vocational High School",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85063391489&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2019,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Sudjimat D.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Utility Software Design to Comprehend the Cryptography Cast-128 Method",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85078228659&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Nopriadi",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PEMANFAATAN ENERGI TERBARUKAN DALAM PENGANGKATAN AIR DI MASYARAKAT PINGGIR SUNGAI DUSUN POGUNG KIDUL YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "#PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI BANGUNAN HIJAU DAN SISTEM MANAJEMEN ENERGI DI SMK N3 YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TRAINING DAN WORKSHOP TEKNOLOGI ENERGI TERBARUKAN UNTUK GURU SMK DI YOGYAKARTA DAN SEKITARNYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI TEKNOLOGI NUKLIR TERKINI UNTUK GURU SLTA DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SISTEM PENERANGAN JALAN DENGAN SENSOR CAHAYA DI PANTAI SINDEM, DESA BESOLE , KECAMATAN BESUKI, KABUPATEN TULUNGAGUNG GUNA MENINGKATKAN RASA AMAN BAGI WISATAWAN DAN AKSESIBILITAS DESTINASI WISATA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Integrasi Perangkat Lunak Pengolah Citra Berbasis Pengamatan Sel Darah Putih dengan Mikroskop Termodifikasi sebagai Sarana Diagnosis Awal Penyakit pada Manusia",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PDUPT )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 200.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Lecturers' understanding on indexing databases of SINTA, DOAJ, Google Scholar, SCOPUS, and Web of Science: A study of Indonesians",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85042746626&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2018,
+   "sitasi": 46,
+   "urutan_penulis": "0 of 0",
+   "kreator": "Ahmar A.S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENINGKATAN KUALITAS KESEHATAN DAN LAYANAN MASYARAKAT PINGGIR SUNGAI DUSUN POGUNG KIDUL DENGAN TEKNOLOGI AIR MINUM BERTENAGA SURYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "GREEN FOR FUTURE EDUKASI GREEN BEHAVIOR SEBAGAI PELENGKAP GREEN BUILDING",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN FASILITAS PENYEDIAAN DAN PEMANFAATAN AIR BERSIH BERBASIS PERPIPAAN UNTUK MENINGKATKAN KESEJAHTERAAN MASYARAKAT DI DESA CINTAASIH, KECAMATAN CISURUPAN, KABUPATEN GARUT, JAWA BARAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 12.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DISEMINASI TEKNOLOGI NUKLIR UNTUK GURU SLTA DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 12.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN INTERPRETASI DATA EARLY WARNING SYSTEM KEBENCANAAN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 12.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENANGANAN PASCA BENCANA BANJIR DAN TANAH LONGSOR DI KABUPATEN PACITAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Integrasi Perangkat Lunak Pengolah Citra Berbasis Pengamatan Sel Darah Putih dengan Mikroskop Termodifikasi sebagai Sarana Diagnosis Awal Penyakit pada Manusia",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PDUPT )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 105.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Classification of leukocyte images using K-Means Clustering based on geometry features",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85015104161&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2016 6th International Annual Engineering Seminar Inaes 2016",
+   "tahun": 2017,
+   "sitasi": 30,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Rosyadi T.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Localization of white blood cell images using Haar Cascade classifiers",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85017519429&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of 2016 1st International Conference on Biomedical Engineering Empowering Biomedical Tec",
+   "tahun": 2017,
+   "sitasi": 11,
+   "urutan_penulis": "5 of 6",
+   "kreator": "Maulana Budiman R.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "REVITALISASI PENGELOLAAN SISTEM PENYEDIAAN AIR BAKU PERPIPAAN BERBASIS MASYARAKAT DI DESA CINTAASIH, KECAMATAN CISURUPAN , KABUPATEN GARUT, JAWA BARAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENDAMPINGAN DESA UNTUK MEWUJUDKAN NGLINGGI MENJADI KAWASAN EKONOMI BARU DI NGLINGGI, KLATEN SELATAN, KAB. KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGELOLAAN AIR BERSIH BERSINERGI UNTUK KESEHATAN MASYARAKAT DI DESA IDA MANGGALA, KECAMATAN SUNGAI RAYA, KAB. HULU SUNGAI SELATAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 70.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Peningkatan Fungsi Mikroskop sebagai Alat Penunjang Diagnosis Awal Berbasis Pengamatan Sel Darah Putih untuk Pemerataan Layanan Kesehatan Masyarakat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 150.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT DALAM PENGELOLAAN LIMBAH TAMBANG BATU BARA GUNA PENINGKATAN KUALITAS LINGKUNGAN DI DESA , KECAMATAN , KAB. HULU SUNGAI SELATAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 70.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Peningkatan Fungsi Mikroskop sebagai Alat Penunjang Diagnosis Awal Berbasis Pengamatan Sel Darah Putih untuk Pemerataan Layanan Kesehatan Masyarakat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 108.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "A new approach to a maximum a posteriori-based kernel classification method",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84863860897&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Neural Networks",
+   "tahun": 2012,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Nopriadi",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  }
+ ]
+}

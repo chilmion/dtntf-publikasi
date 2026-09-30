@@ -2,6 +2,66 @@
  "tahun": 2015,
  "entri": [
   {
+   "judul": "High efficiency silicon nanowire/organic hybrid solar cells with two-step surface treatment",
+   "tahun": 2015,
+   "kategori": "Jurnal Internasional",
+   "venue": "Nanoscale",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84924011944&origin=resultslist",
+   "sitasi": 47,
+   "kreator": "Wang J.",
+   "dosen": [
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    }
+   ]
+  },
+  {
+   "judul": "Artificial neural network modeling for spatial and temporal variations of pore-water pressure responses to rainfall",
+   "tahun": 2015,
+   "kategori": "Jurnal Internasional",
+   "venue": "Advances in Meteorology",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84929352872&origin=resultslist",
+   "sitasi": 12,
+   "kreator": "Mustafa M.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "Sustainable criticality analysis of PCMSR fuel using thorium as sustainable fuel and low enriched uranium as starting fuel",
+   "tahun": 2015,
+   "kategori": "Jurnal Internasional",
+   "venue": "International Journal of Nuclear Energy Science and Technology",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84954437493&origin=resultslist",
+   "sitasi": 10,
+   "kreator": "Harto A.W.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
    "judul": "Lip image feature extraction utilizing snake's control points for lip reading applications",
    "tahun": 2015,
    "kategori": "Jurnal Internasional",
@@ -42,6 +102,134 @@
    ]
   },
   {
+   "judul": "Source term estimates of radioxenon released from the BaTek medical isotope production facility using external measured air concentrations",
+   "tahun": 2015,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Environmental Radioactivity",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84934953582&origin=resultslist",
+   "sitasi": 7,
+   "kreator": "Eslinger P.W.",
+   "dosen": [
+    {
+     "slug": "yudi-utomo-imardjoko",
+     "nama": "Yudi Utomo Imardjoko"
+    }
+   ]
+  },
+  {
+   "judul": "Energy modeling for an efficient system development in Indonesian Province Nusa Tenggara Timur (NTT)",
+   "tahun": 2015,
+   "kategori": "Jurnal Internasional",
+   "venue": "Energy for Sustainable Development",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84941309145&origin=resultslist",
+   "sitasi": 6,
+   "kreator": "Klug F.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Modification of strapdown inertial navigation system algorithm for rocket flight test",
+   "tahun": 2015,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Theoretical and Applied Information Technology",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84923147846&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Wiryadinata R.",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Evaluating Micro Hydro Power Generation System under Climate Change Scenario in Bayang Catchment, Kabupaten Pesisir Selatan, West Sumatra",
+   "tahun": 2015,
+   "kategori": "Prosiding Internasional",
+   "venue": "Energy Procedia",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84943646969&origin=resultslist",
+   "sitasi": 15,
+   "kreator": "Anugrah P.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Acoustical study on the impact of sound absorptions, distances of workstations, and height of partitions in open plan offices",
+   "tahun": 2015,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85006205268&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Utami S.S.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Hybrid method to characterize sound-field diffuseness of multipurpose university auditoriums using subjective and objective evaluation",
+   "tahun": 2015,
+   "kategori": "Prosiding Internasional",
+   "venue": "22nd International Congress on Sound and Vibration Icsv 2015",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84971280446&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Utami S.S.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
    "judul": "Integrating security issues in nuclear engineering curriculum in Indonesia: Classical vs policy approaches",
    "tahun": 2015,
    "kategori": "Prosiding Internasional",
@@ -56,8 +244,220 @@
    "kreator": "Putero S.",
    "dosen": [
     {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    },
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "Fluorescence Measurements",
+   "tahun": 2015,
+   "kategori": "Book Chapter / Book Series",
+   "venue": "Encyclopedia of Microfluidics and Nanofluidics",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105011794194&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Parikesit G.O.F.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "ENERGY CONSUMPTION PROJECTION IN YOGYAKARTA CITY",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "ASEAN Journal of Systems Engineering Vol 3, No 2 (2015): ASEAN Journal of Systems Engineering 47-53",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1333609",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "INCORPORATING GOOD LAND GOVERNANCE IN THE DISASTER REGION OF YOGYAKARTA",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Media Hukum Vol 22, No 1 (2015)16",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/417411",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "ISOLASI DAN KARAKTERISASI BAKTERI ENDOFIT PENGHASIL INHIBITOR Î±-GLUKOSIDASE DARI TANAMAN PARE (Momordica Charantia L)",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "Prosiding SNST Fakultas Teknik Vol 1, No 1 (2015): PROSIDING SEMINAR NASIONAL SAINS DAN TEKNOLOGI 6 2015",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/352812",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Pengaruh Massa Biji Buah Mangga Arum Manis (Mangifera indica L.) Terhadap Kadar Bioetanol",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Fisika Vol 5, No 1 (2015)",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/484728",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Perbedaan Somatometri Itik Tegal, Itik Magelang Dan Itik Pengging",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "Bioma : Berkala Ilmiah Biologi Vol. 17, No.2, Tahun 201594-101",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1406148",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Potensi Bahan Antiaging dari Ekstrak Ikan Gabus (Channa striata) terhadap Perbaikan Histo-Morfologi Hipokampus",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "BULETIN ANATOMI DAN FISIOLOGI dh SELLULA Vol 23, No 1 (2015): VOLUME XXIII, NOMOR 1, MARET 201581-91",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1407125",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Potential of Glutathione Antioxidant in the Hippocampus Repair: Preliminary Study on Bioactive Materials Antiaging of Snakehead Fish (Channa striata) in Animal Models of Aging",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "International Journal of Science and Engineering Vol 8, No 1 (2015) 22-25",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1392661",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Selektivitas Medium Cystine Tellurite Blood Agar (CTBA) terhadap Beberapa Isolat Bakteri",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Kefarmasian Indonesia VOLUME 5, NOMOR 1, FEBRUARI 201519-24",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1748981",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Simulasi dan Analisis Respon Fuzzy Logic Controller Pada Sistem Suspensi",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Fisika Vol 5, No 2 (2015)",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/484587",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -82,6 +482,138 @@
    ]
   },
   {
+   "judul": "UJI KOLIMATOR PADA PESAWAT SINAR-X MERK/ TYPE MEDNIF/SF-100BY DI LABORATORIUM FISIKA MEDIK MENGGUNAKAN UNIT RMI",
+   "tahun": 2015,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal MIPA Vol 38, No 2 (2015): October 2015 121-126",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/444684",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "MERAJUT PENGALAMAN : PENDIDIKAN UNTUK PEMBANGUNAN BERKELANJUTAN UGM",
+   "tahun": 2015,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9789794209635",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "Pengembangan UMKM: antara konseptual dan pengalaman praktis",
+   "tahun": 2015,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9789794209806",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "Hukum Dari Consilience Menuju Paradigma Hukum Konstruktif Transgresif",
+   "tahun": 2015,
+   "kategori": "Paten & HKI",
+   "venue": "Dr. Anthon F. Suanto, SH., M.Hum",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "SANSAC - Software Analis Cerdas Penolong Investor Pemula Pasar Modal Untuk Menyambut Masyarakat Ekonomi ASEAN",
+   "tahun": 2015,
+   "kategori": "Paten & HKI",
+   "venue": "FUad Azhar Ibrahim; Adiatma Kurniawan; Rian Adam Rajagede; Ahmad Pilar Wishnu Pratama; Azka Yahdiyani Putri; Nazrul Effendy",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "Building & Environment Monitoring System for Commercial Buildings in Emerging Big Cities",
+   "tahun": 2015,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PKLN )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 200.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
    "judul": "Finalisasi Community Development Berbasis Integrated Farming dan Pelembagaan Kemandirian Energi Pedesaan Guna Meningkatkan Ketahanan Ekonomi Pedesaan di Desa Pangpanjung, Kecamatan Modung, Kabupaten Bangkalan, Madura, Jawa Timur",
    "tahun": 2015,
    "kategori": "Pengabdian kepada Masyarakat",
@@ -98,6 +630,190 @@
     {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBANGUNAN SOLAR WATER PUMPING SYSTEM (SWPS) DI DUSUN BANYUMENENG II, KECAMATAN PANGGANG, KABUPATEN GUNUNG KIDUL, YOGYAKARTA (TAHAP I: PERSIAPAN TEKNIS DAN SOSIALISASI) DI DESA GIRIHARJO, KECAMATAN PANGGANG, KAB. GUNUNGKIDUL",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT DALAM PENGELOLAAN LIMBAH TAMBANG BATU BARA GUNA PENINGKATAN KUALITAS LINGKUNGAN DI DESA , KECAMATAN , KAB. HULU SUNGAI SELATAN",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 70.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT PENGRAJIN BATU BATA DAN KONSERVASI LAHAN KRITIS MELALUI PENGEMBANGAN PERTANIAN TERPADU DI DESA POTORONO, KECAMATAN BANGUNTAPAN, KABUPATEN BANTUL DI DESA POTORONO, KECAMATAN BANGUNTAPAN, KAB. BANTUL",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 7.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "PENDAMPINGAN KELEMBAGAAN SISTEM PENYEDIAAN AIR MINUM PERPIPAAN BERBASIS MASYARAKAT DI DESA MEKARWANGI, KECAMATAN CIHURIP, KABUPATEN GARTU, PROPINSI JAWA BARAT DI DESA MEKARWANGI, KECAMATAN CIHURIP, KAB. GARUT",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 18.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI TEPAT GUNA DAN PENGELOLAAN SUMBER DAYA ALAM SEBAGAI USAHA PEMBERDAYAAN MASYARAKAT DALAM MEMPERSIAPKAN DESA WISATA DI DESA LAMBUR, KECAMATAN KANDANGSERANG, KABUPATEN PEKALONGAN, PROVINSI JAWA TENGAH DI DESA LAMBUR, KECAMATAN KANDANGSERA",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN PEMASARAN REFRIGERATOR TANPA LISTRIK UNTUK INDUSTRI KECIL GERABAH DI DESA SRIHARDONO PUNDONG BANTUL",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "TTG ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 25.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN SISTEM PERTANIAN TERPADU DAN PENINGKATAN SANITASI MASYARAKAT DESA GIRIREJO, KECAMATAN IMOGIRI, KABUPATEN BANTUL DI DESA GIRIREJO, KECAMATAN IMOGIRI, KAB. BANTUL",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 7.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "PENGOLAHAN SAMPAH PLASTIK MENJADI MINYAK DENGAN BAHAN BAKAR MANDIRI PADA TPS BAWUK-KARANGJATI MINOMARTANI SLEMAN YOGYAKARTA",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "TTG ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 25.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "Penentuan Titik Angkat Air dan Penerapan Sistem Pengangkatan Air Dari Sungai Bawah Tanah Di Kawasan Karst Kabupaten Gunungkidul Untuk Daerah Rawan Ketersediaan Air",
+   "tahun": 2015,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( HI-LINK )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 235.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   }

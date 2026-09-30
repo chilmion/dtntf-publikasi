@@ -2,6 +2,74 @@
  "tahun": 2023,
  "entri": [
   {
+   "judul": "Utilization of steel slag from industrial waste for ionizing radiation shielding concrete: A systematic review",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Construction and Building Materials",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85151795350&origin=resultslist",
+   "sitasi": 68,
+   "kreator": "Aliyah F.",
+   "dosen": [
+    {
+     "slug": "fitrotun-aliyah",
+     "nama": "Fitrotun Aliyah"
+    }
+   ]
+  },
+  {
+   "judul": "Nuclear Power Plant to Support Indonesia’s Net Zero Emissions: A Case Study of Small Modular Reactor Technology Selection Using Technology Readiness Level and Levelized Cost of Electricity Comparing Method",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Energies",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85159326953&origin=resultslist",
+   "sitasi": 27,
+   "kreator": "Rahmanta M.A.",
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Soft sensor for the prediction of oxygen content in boiler flue gas using neural networks and extreme gradient boosting",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Neural Computing and Applications",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85137876623&origin=resultslist",
+   "sitasi": 23,
+   "kreator": "Kurniawan E.D.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
    "judul": "A Holistic Review of Lake Rawapening Management Practices, Indonesia: Pillar-Based and Object-Based Management",
    "tahun": 2023,
    "kategori": "Jurnal Internasional",
@@ -18,6 +86,438 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "The climate and land-use changes impact on water availability for hydropower plants in Indonesia",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Energy Strategy Reviews",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85146306184&origin=resultslist",
+   "sitasi": 16,
+   "kreator": "Novitasari D.",
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Predicting Future Eye Gaze Using Inertial Sensors",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "IEEE Access",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85164401458&origin=resultslist",
+   "sitasi": 11,
+   "kreator": "Satriawan A.",
+   "dosen": [
+    {
+     "slug": "yakub-fahim-luckyarno",
+     "nama": "Yakub Fahim Luckyarno"
+    }
+   ]
+  },
+  {
+   "judul": "TLB and WC-TLB-MM: The Improved Min-Max Algorithms for Multi Targets Indoor Localization",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "IEEE Access",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85178024772&origin=resultslist",
+   "sitasi": 5,
+   "kreator": "Adiyatma F.Y.M.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "Beta-Ray-Bremsstrahlung Contributions to Short-Lived Delayed Photoneutron Groups in Heavy Water Reactors",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Nuclear Science and Engineering",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85137033397&origin=resultslist",
+   "sitasi": 4,
+   "kreator": "Setiawan Y.A.",
+   "dosen": [
+    {
+     "slug": "yanuar-ady-setiawan",
+     "nama": "Yanuar Ady Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Irradiation and analysis of Uranyl Nitrate solutions in different Uranium concentrations for use in subcritical reactors for 99Mo production",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Nuclear Engineering and Design",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85175158063&origin=resultslist",
+   "sitasi": 4,
+   "kreator": "Putra F.",
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Investigation on Neutronic Parameters of the KLT-40S Reactor Core with U3Si2-FeCrAl using SCALE Code",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Engineering and Technological Sciences",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85153566515&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Mahfudz A.A.",
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Velocity- and Error-Aware Switching of Motion Prediction Models for Cloud Virtual Reality",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "IEEE Access",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85168740074&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Hermawan A.A.",
+   "dosen": [
+    {
+     "slug": "yakub-fahim-luckyarno",
+     "nama": "Yakub Fahim Luckyarno"
+    }
+   ]
+  },
+  {
+   "judul": "Design and measurement of the receiving antenna for electromagnetic field energy harvesting in UHF band",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Indonesian Journal of Electrical Engineering and Computer Science",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85163798887&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Saputri F.R.",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Finger vein identification system using capsule networks with hyperparameter tuning",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Iaes International Journal of Artificial Intelligence",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85167350870&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Yulianto V.A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "Dose and irradiation time analysis of negative pi-meson therapy using particle and heavy ion transport code system (PHITS)",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "International Journal of Radiation Research",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85184024376&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Muhammad A.P.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Emerging Machine Learning in Wearable Healthcare Sensors",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of Sensor Science and Technology",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85180703508&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Adi G.S.",
+   "dosen": [
+    {
+     "slug": "gandha-satria-adi",
+     "nama": "Gandha Satria Adi"
+    }
+   ]
+  },
+  {
+   "judul": "A modified technique to predict speech privacy and distraction distances in open-plan offices",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "Arteks Jurnal Teknik Arsitektur",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105005144111&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Utami S.S.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Xe and Kr extraction for Th-U sustainable ICMSR fuel",
+   "tahun": 2023,
+   "kategori": "Jurnal Internasional",
+   "venue": "International Journal of Nuclear Energy Science and Technology",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85170427918&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Hardiyanti I.S.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Development of kaligesing etawah crossbreed goat in Purworejo Central Java Province",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85163605918&origin=resultslist",
+   "sitasi": 6,
+   "kreator": "Guntoro B.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Machine Learning-Based Multi-Room Indoor Localization Using Fingerprint Technique",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "2023 15th International Conference on Information Technology and Electrical Engineering Icitee 2023",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179883223&origin=resultslist",
+   "sitasi": 5,
+   "kreator": "Adiyatma F.Y.M.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "Regression-based Path Loss Model Correction to Construct Fingerprint Database for Indoor Localization",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "ACM International Conference Proceeding Series",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85169784578&origin=resultslist",
+   "sitasi": 5,
+   "kreator": "Adiyatma F.Y.M.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "Implementation of Wi-Fi-based indoor positioning system: Challenges and future possibilities",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179828522&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Suroso D.J.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "Kalman filter for RSSI-based indoor positioning system with min-max technique",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179793889&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Dwiputranto M.H.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "Metaverse-based Water Level Simulator for the Festo MPS PA Workstation",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Journal of Physics Conference Series",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85182267534&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Putawa R.A.",
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "The Substitution of Natural Zeolite with Agriculture Waste as Carbon Dioxide Adsorbent in Biogas Purification",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85151430444&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Pertiwiningrum A.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "The puzzling soundmark of a cultural and tourist city; the case of Yogyakarta",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of Meetings on Acoustics",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85202608070&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Mediastika C.E.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
     }
    ]
   },
@@ -36,8 +536,284 @@
    "kreator": "Baskara S.A.",
    "dosen": [
     {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Development of MPC function block for FCC model IV based on IEC 61499",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161482240&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Nurdy M.H.S.",
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    },
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti"
+    }
+   ]
+  },
+  {
+   "judul": "Looking for green building literacy in Indonesia: Where are we now? A survey on undergraduate students",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161590642&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Siddiq N.A.",
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "3D range-based indoor localization by using only two beacons",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161474400&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Suroso D.J.",
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "Environmental noise mapping: An early design stage of a low-risk COVID-19 transmission auditorium",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161613026&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Rachman Z.A.",
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Impact of COVID-19 against energy consumption projection: Study cases in East Java, Indonesia",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85151502397&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Shadrina A.N.A.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Improving the DiD concept in nuclear energy technology to eliminate the potential for NPP disasters through an environmental approach",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85163581005&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Santosa H.",
+   "dosen": [
+    {
+     "slug": "yudi-utomo-imardjoko",
+     "nama": "Yudi Utomo Imardjoko"
+    }
+   ]
+  },
+  {
+   "judul": "Mechanical analysis of bamboo culm sheaths as the material of the Bundengan musical instrument",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161520142&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Wardani F.W.K.F.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Preface",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Journal of Physics Conference Series",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85182362407&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Tri Ayodha A.",
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "Projection of electricity demand after the vaccination policy in handling the Covid-19 pandemic in Central Java Province, Indonesia",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85151551621&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Vembriatmaja A.I.",
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "Real Time, Portable and Low-Cost Ultraviolet (UV) Sensor: Measuring the Solar UV Index for Sunbathing Safety",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of the 2023 International Conference on Instrumentation Control and Automation Ica 2023",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85175096279&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Siddiq N.A.",
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "Study on designing measurement system of thermal conductivity based on one-dimensional steady-state method",
+   "tahun": 2023,
+   "kategori": "Prosiding Internasional",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85174264958&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Amdani R.Z.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Lingkungan Perancangan Pembangkit Listrik Siklus Organic Rankine pada Sumber Mata Air Panas Bumi di Limbong, Sulawesi Selatan",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Eboni Vol 5 No 1 (2023): Juli 30-35",
+   "kuartil": null,
+   "akreditasi": "Sinta 5",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3702548",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Teknis dan Ekonomi dalam Pemanfaatan Area Sekitar Anjungan Lepas Pantai di Laut Jawa untuk Memproduksi Listrik Hijau dengan Turbin Angin Lepas Pantai",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Ilmiah Universitas Batanghari Jambi Vol 23, No 3 (2023): Oktober 2768-2775",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3762607",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
     }
    ]
   },
@@ -58,6 +834,26 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Data Communication Stability Test a Data Acquisition System (DAQ) for Inpatient Rooms",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Indonesian Journal of Electronics, Electromedical Engineering, and Medical Informatics Vol 5 No 1 (2023): February 60-65",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3350510",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
     }
    ]
   },
@@ -98,6 +894,26 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Earthquake Date Prediction Based on The Fluctuation of Radon Gas Concentration Near Grundulu Fault",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Lingkungan dan Bencana Geologi Vol 14, No 2 (2023) 104-113",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4471730",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -162,6 +978,46 @@
    ]
   },
   {
+   "judul": "Finger vein identification system using capsule networks with hyperparameter tuning",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "IAES International Journal of Artificial Intelligence (IJ-AI) Vol 12, No 4: December 20231636-1643",
+   "kuartil": null,
+   "akreditasi": "Sinta 1",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3735142",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "HARDWARE DESIGN OF THE TOUCHLESS HAND CODE AND CONVOLUTIONAL NEURAL NETWORKS - BASED AUTOMATIC DOOR SECURITY SYSTEM",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Teknik Informatika (Jutif) Vol. 4 No. 6 (2023): JUTIF Volume 4, Number 6, Desember 20231339-1346",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4106175",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
    "judul": "IMPLEMENTASI PENDIDIKAN KARAKTER MELALUI BUDAYA SEKOLAH (KAJIAN BUDAYA LOKAL SIPAKATAU, SIPAKAINGE, SIPAKALEBBI ) DI UPT SPF SD INPRES BTN IKIP II MAKASSAR",
    "tahun": 2023,
    "kategori": "Jurnal Nasional",
@@ -178,6 +1034,26 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Identification of Nematodes in Root System of Nutmeg (Myristica fragrans Hountt) in Dokulamo Village West Galela North Halmahera Regency",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Agrikan Jurnal Agribisnis Perikanan Vol. 16 No. 2 (2023): Agrikan: Jurnal Agribisnis Perikanan 536-540",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4299049",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -302,6 +1178,26 @@
    ]
   },
   {
+   "judul": "Mengatur bebunyian di area urban di Indonesia",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "ARTEKS : Jurnal Teknik Arsitektur Vol 8 No 1 (2023): ARTEKS : Jurnal Teknik Arsitektur | Januari 2023 ~ April 2023105-114",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3240241",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
    "judul": "PELAKSANAAN PROGRAM BANTUAN PANGAN NON TUNAI MELALUI METODE E-WARUNG DALAM PENANGGULANGAN KEMISKINAN",
    "tahun": 2023,
    "kategori": "Jurnal Nasional",
@@ -402,6 +1298,26 @@
    ]
   },
   {
+   "judul": "Passive Window Energy Performance in Buildings: Modeling of Apartment Buildings in Indonesia",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Journal of Artificial Intelligence in Architecture Vol. 2 No. 2 (2023): Artificial Intelligence for Enhancing Building Performance, Design, and Analysi 1-12",
+   "kuartil": null,
+   "akreditasi": "Sinta 4",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3648098",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
    "judul": "Pelatihan Mandiri Kurikulum Merdeka Belajar dengan Pemanfaatan Platform Merdeka Mengajar di Satuan Pendidikan",
    "tahun": 2023,
    "kategori": "Jurnal Nasional",
@@ -482,6 +1398,46 @@
    ]
   },
   {
+   "judul": "Pengenalan Emosi Dasar dan Anti-Bullying sebagai Upaya Peningkatan Kesadaran Berempati dalam Masyarakat",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Pengabdian, Riset, Kreativitas, Inovasi, dan Teknologi Tepat Guna Vol 1 No 2 (2023): November 225-233",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5036627",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Pengenalan Pengolahan Sampah Popok menjadi Media Tanaman Hias dalam Pemberdayaan Masyarakat untuk Pengelolaan Limbah Rumah Tangga",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurnal Pengabdian, Riset, Kreativitas, Inovasi, dan Teknologi Tepat Guna Vol 1 No 2 (2023): November 46-54",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5036619",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
    "judul": "Pengolahan limbah dan peningkatan kualitas mutu tanaman kopi di Desa Sriwulan",
    "tahun": 2023,
    "kategori": "Jurnal Nasional",
@@ -542,6 +1498,26 @@
    ]
   },
   {
+   "judul": "Pertambahan Bobot Tubuh, Panjang Tubuh dan Tinggi Tubuh Ikan Nila Merah (Oreochromis niloticus) yang Dipelihara Pada Aerasi dan Padat Tebar Berbeda",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Buletin Anatomi dan Fisiologi Volume 8, Nomor 2, Tahun 2023106-113",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3719096",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "Revitalisasi Bahasa Daerah Melalui Tradisi Batuter dengan Metode Imitasi Model pada Pembelajaran Muatan Lokal: Upaya Meningkatkan Penguasaan Bahasa Ibu di Kelas V SD Negeri I Tepas",
    "tahun": 2023,
    "kategori": "Jurnal Nasional",
@@ -582,6 +1558,46 @@
    ]
   },
   {
+   "judul": "Spirulina Flour-based Feed Additive Improves the Physical and Chemical Eggs Quality of Tegal-Laying Duck",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Biosaintifika: Journal of Biology & Biology Education Vol 15, No 3 (2023): December 2023326-340",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4300249",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Teknik termodifikasi untuk memprediksi jarak privasi dan gangguan pada ruang kantor terbuka",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "ARTEKS : Jurnal Teknik Arsitektur Vol 8 No 2 (2023): ARTEKS : Jurnal Teknik Arsitektur | Mei 2023 ~ Agustus 2023171-180",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3798350",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
    "judul": "The Influence of The Audiovisual Application of MKJP Contraceptive on Knowledge and Decision-Making of MKJP Contraceptive in The Technical Implementation Unit of The Tering Seberang West Kutai Community Health Center",
    "tahun": 2023,
    "kategori": "Jurnal Nasional",
@@ -598,6 +1614,66 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "The effectiveness of portfolio assessment based problem based learning on mathematical critical thinking skills in elementary schools",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "International Journal of Curriculum Development, Teaching and Learning Innovation Vol. 1 No. 2 (2023): March: Curriculum Development, Teaching and Learning 42-51",
+   "kuartil": null,
+   "akreditasi": "Sinta 5",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3443722",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Transmutation of Transuranic Elements as Solid Coating in Molten Salt Reactor Fuel Channel",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 25, No 3 (2023): October 202391-100",
+   "kuartil": null,
+   "akreditasi": "Sinta 2",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/4479809",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "UPAYA MENINGKATKAN HASIL BELAJAR LOMPAT JAUH GAYA HANG STYLE DENGAN MEDIA GANTUNGAN BOLA BAGI SISWA SEKOLAH MENENGAH PERTAMA KELAS VIII Efforts to Improve Learning Outcome Long Jump Hang style Using Ball Hanger for Class VIII Junior High School",
+   "tahun": 2023,
+   "kategori": "Jurnal Nasional",
+   "venue": "Movement and Education Vol. 3 No. 2 (2023): Jurnal Movement and Education 77-84",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/5377145",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
     }
    ]
   },
@@ -622,6 +1698,130 @@
    ]
   },
   {
+   "judul": "CHATGPT UNTUK PENDIDIKAN - LITERASI ARTIFICIAL INTELLIGENCE UNTUK DOSEN DAN GURU",
+   "tahun": 2023,
+   "kategori": "Buku",
+   "venue": "CV Media Sains Indonesia",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Hak Cipta",
+   "dana": null,
+   "isbn": "9786231956804",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    }
+   ]
+  },
+  {
+   "judul": "Continue Shopping Merancang Sistem Instrumentasi Berbasis Telemetri dengan Frekuensi Radio",
+   "tahun": 2023,
+   "kategori": "Buku",
+   "venue": "UGM PRESS",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786233591621",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "DASAR-DASAR FISIKA AKSELERATOR",
+   "tahun": 2023,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786233591263",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Fisika Energi Lingkungan Perkotaan : Upaya Memahami dan Mengurangi Iklim Panas Perkotaan",
+   "tahun": 2023,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "6233591287",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Loncatan Transformasi Pendidikan Tinggi di Indonesia",
+   "tahun": 2023,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786233591928239451B1E",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "PERAN STRATEGIS DAN OPTIMALISASI PEMANFAATAN ENERGI REAKTOR NUKLIR",
+   "tahun": 2023,
+   "kategori": "Buku",
+   "venue": "Gadjah Mada University Press",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9786233592383",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
    "judul": "Peta Jalan Penyelenggaraan & Pembinaan Bangunan Gedung Hijau (BGH)",
    "tahun": 2023,
    "kategori": "Buku",
@@ -638,6 +1838,222 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "ALAT PENGASAP PENGERING IKAN HIGIENIS HIBRID BIOMASSA SURYA",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "ALAT PENGATUR TEKANAN-KERJA KATUP PENGAMAN PORTABEL",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten Sederhana",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "ALAT PENGERING MOCAF HIGIENIS HIBRID BIOMASSA SURYA",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "ALAT PENGERING SAMPAH UNTUK RDF HIBRID BIOMASSA SURYA",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "ALAT PENGERING TEPUNG HIGIENIS HEMAT ENERGI HIBRID BIOMASSA SURYA",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "ALAT PENGOLAH KELAPA TERPADU HIBRID BIOMASSA SURYA",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "Lemari Pengering Memanfaatkan Gas Buang Unit Ketel Uap Distilator Minyak Atsiri Berbahan Bakar Gas",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten Sederhana",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "PERANGKAT ANTROPOMETRI TERINTEGRASI DARI BERBAGAI SENSOR HINGGA KE CLOUD DENGAN APLIKASI TELEPON GENGGAM YANG RINGAN DAN MUDAH DIGUNAKAN KADER POSYANDU",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten Sederhana",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "PERANGKAT DATA ACQUISITION SYSTEM (DAQ) PORTABEL",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten Sederhana",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "REAKTOR NUKLIR MIKRO BERBAHAN BAKAR CAIR (RMBC)UNTUK PRODUKSI RADIOISOTOP",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
     }
    ]
   },
@@ -662,6 +2078,278 @@
    ]
   },
   {
+   "judul": "SISTEM PEMANTAU PERUBAHAN TOTAL ELECTRON CONTENT (TEC) MELALUI GLOBAL NAVIGATION SATELLITE SYSTEMS (GNSS) SEBAGAI PARAMETER PREKURSOR GEMPA BUMI",
+   "tahun": 2023,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama"
+    }
+   ]
+  },
+  {
+   "judul": "ALAT DETEKSI PENYAKIT PARU MENGGUNAKAN KARAKTER BUNYI WICARA",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 68.250.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Algoritma Prediksi Jarak Lokasi Episentrum Gempa Bumi untuk Sistem Peringatan Dini Menggunakan Metode Machine Learning",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PPS-PTM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 24.700.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "DIVERSIFIKASI PRODUK GARAM SPA SEBAGAI REALISASI PERATURAN PRESIDEN REPIBLIK INDONESIA NOMOR 126 TAHUN 2022",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PEMBUATAN CONTOH PRODUK BERPOTENSI UNTUK KOMERSIALISASI INDUSTRI KPFT ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 20.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "EVALUASI OVERALL THERMAL TRANSFER VALUE (OTTV) SELUBUNG BANGUNAN DENGAN PHASE CHANGE MATERIAL. (INTEGRATING SOLAR PV AND THERMAL ENERGY WITH PHASE CHANGE MATERIAL FOR AN EFFICIENT SOLAR - BASED COOLING SYSTEM IN BUILDINGS)",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PROGRAM KOLABORASI RISET SOUTHEAST AND SOUTH ASIA AND TAIWAN UNIVERSITIES JOINT RESEARCH SCHEME (SATU JRS) ( SATU JRS )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 28.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "FABRIKASI JENDELA TERMOKROMIK BERBASIS KAYU MAHONI TRANSPARAN SEBAGAI KOMPONEN PENGHEMAT ENERGI DAN PENYERAP DENGUNG PADA BANGUNAN",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "HAND GESTURE RECOGNITION USING MACHINE LEARNING",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PROGRAM REKOGNISI TUGAS AKHIR (RTA) TAHUN 2023 ( RTA TAHUN 2023 )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 60.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    }
+   ]
+  },
+  {
+   "judul": "IMPLEMENTASI MACHINE LEARNING PADA CITRA MRI UNTUK DIAGNOSIS PENYAKIT TUMOR OTAK",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    }
+   ]
+  },
+  {
+   "judul": "KARAKTERISASI METAL ORGANIC FRAMEWORK (MOF) HKUST-1 PADA ADSORBSI LIMBAH RADIOAKTIF CESIUM-137 DAN STRONSIUM-90 METODE ALIR",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti"
+    },
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "Kalibrasi Dan Verifikasi Detektor Fission Chamber Untuk Pengukuran Fluks Neutron Luar Teras Reaktor Kartini",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PPS-PTM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 29.200.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
+   "judul": "OPPORTUNISTIC INDOOR LOCALIZATION SYSTEM",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PROGRAM PENINGKATAN KOMPETENSI DOKTOR TAHUN 2035 ( KD )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 65.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "OPTIMASI KADAR DAN LETAK PIN GADOLINIA PADA PERANGKAT BAHAN BAKAR REAKTOR GAMA FLOAT MENGGUNAKAN METODE ALGORITMA GENETIKA",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
    "judul": "OPTIMASI PROSES PRESIPITASI PADA PEMUNGUTAN LOGAM TANAH JARANG DARI ABU LAYANG BATUBARA",
    "tahun": 2023,
    "kategori": "Penelitian",
@@ -676,8 +2364,88 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "kusnanto",
+     "nama": "Kusnanto"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBUATAN PROTOTIPE PENGOLAH SAMPAH DOMESTIK HIBRID MENJADI REFUSE DERIVED FUEL (RDF) GUNA MENDUKUNG KEBIJAKAN NET ZERO EMISSION",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 962.041.300",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "kusnanto",
+     "nama": "Kusnanto"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBUATAN PURWARUPA MESIN PISTON UAP UNTUK PEMBANGKIT LISTRIK TENAGA HIBRIDA SOLAR TERMAL DAN BIOMASSA MIKRO",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "PENGARUH WAKTU REAKSI PADA PREPARASI BIODIESEL DAN KARAKTERISASINYA MELALUI PROSES IN SITU ESTERIFIKASI BIJI NON PANGAN",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
     }
    ]
   },
@@ -702,6 +2470,50 @@
    ]
   },
   {
+   "judul": "PENGEMBANGAN PENGASAP DAN PENGERING IKAN DENGAN SUMBER ENERGI TERBARUKAN HIBRIDA UNTUK PENINGKATAN KUALITAS KOMODITI IKAN ASAP EKSPOR",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 140.760.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "kusnanto",
+     "nama": "Kusnanto"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN PRODUK MENUJU KOMERSIALISASI: ALAT MONITOR FIT TO WORK PADA PEKERJA INDUSTRI DENGAN RISIKO TINGGI",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 762.614.200",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
    "judul": "PENGEMBANGAN PRODUK SISTEM MANAJEMEN BATERAI CERDAS UNTUK MENDUKUNG POLA KEMANDIRIAN TEKNOLOGI BATERAI DI INDONESIA",
    "tahun": 2023,
    "kategori": "Penelitian",
@@ -718,6 +2530,58 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN PRODUK SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS INTERNET OF THINGS GUNA MITIGASI BENCANA GEMPA BUMI DI INDONESIA",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.050.125.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN SISTEM ANTROPOMETRI BERBASIS DIGITAL HEALTH SEBAGAI PENCEGAHAN DINI STUNTING PADA BAYI DAN BALITA",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "ADB PRIME STEP ( IG )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 237.216.550",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
     }
    ]
   },
@@ -742,6 +2606,70 @@
    ]
   },
   {
+   "judul": "PERENCANAAN PENGEMBANGAN PEMBANGKIT LISTRIK DI DAERAH TROPIS YANG MEMPERTIMBANGKAN CLIMATE – LAND USE – ENERGY – WATER (CLEW) NEXUS DENGAN PENDEKATAN SYSTEM DYNAMICS MODELLING",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PROGRAM REKOGNISI TUGAS AKHIR (RTA) TAHUN 2023 ( RTA TAHUN 2023 )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 75.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "PRODUKSI HIDROGEN DAN PENGOLAHAN AIR MENGGUNAKAN SISTEM PHOTOVOLTAIC-ELECTROCHEMICAL REACTOR (PVEC)",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Pemetaan Distribusi Fluks Neutron di Teras Reaktor Kartini Arah Radial dan Aksial Menggunakan Detektor SPND (Self Powered Neutron Detector)",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PPS-PTM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 26.900.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
    "judul": "Penerapan Teknologi Soft Sensor Pada Sistem Manajemen Performansi Indoor Environment Quality (IEQ) dan Hemat Energi Untuk Bangunan Tropis",
    "tahun": 2023,
    "kategori": "Penelitian",
@@ -758,6 +2686,214 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Pengembangan Alat Deteksi Kondisi Kesehatan Pasien menggunakan Karakter Bunyi Wicara pada Pengelolaan ISOMAN Covid-19",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 321.662.500",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "Pengembangan Sistem Informasi Akademik Terintegrasi untuk Pembelajaran Sistem Blok sebagai Piranti Prediksi Dini Mahasiswa Bermasalah : Academic Risk Assessment System (ARAS)",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 208.400.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "gandha-satria-adi",
+     "nama": "Gandha Satria Adi"
+    }
+   ]
+  },
+  {
+   "judul": "Pengembangan TeleHealth berbasis IoT untuk Layanan Homecare Rumah Sakit",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT-JH )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 300.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    }
+   ]
+  },
+  {
+   "judul": "RANCANG BANGUN ANTARMUKA MESIN DAN MANUSIA PADA MPS PA COMPACT WORKSTATION",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PEMANTAUAN PARAMETER KUALITAS UDARA YANG DIINTEGRASIKAN DENGAN EARLY WARNING SYSTEM UNTUK KEPERLUAN MITIGASI BENCANA KESEHATAN LINGKUNGAN",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    }
+   ]
+  },
+  {
+   "judul": "Rancang Bangun Sistem Akuisisi Data dan Komunikasi Data Peringatan Dini Bencana Menggunakan Teknologi Hybrid Frekuensi Radio, Teknologi LoRa dengan Protokol LoRaWan dan Teknologi 4G",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT-JH )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 245.400.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "SCALE-UP LIVE JET (SALIVA EJECTOR PORTABLE BUATAN DALAM NEGERI)",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "ADB PRIME STEP ( IG )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 250.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "SMART PURIFIKATOR BIOGAS PORTABEL UNTUK INSTALASI BIODIGESTER PETERNAKAN KOMUNAL",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 183.737.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "STUDI SIFAT BERUBAH BENTUK SLUMPRING BAMBU TERHADAP STIMULI KADAR AIR",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PROGRAM HIBAH PENELITIAN MANDIRI DTMI 2023 ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Sistem Informasi Geografis untuk Pemetaan Konsentrasi Radon Tanah di Daerah Istimewa Yogyakarta sebagai Referensi dalam Analisis Kebijakan Kesehatan Masyarakat",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 165.925.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -778,11 +2914,571 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
     }
    ]
   },
   {
-   "judul": "PEMBANGUNAN TPS3R FT UGM (PEMANDATAN)",
+   "judul": "UJI KUALITAS BATERAI LITHIUM UNTUK KENDARAAN LISTRIK BERODA DUA YANG DILENGKAPI BATTERY MANAGEMENT SYSTEM 20S",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "kutut-suryopratomo",
+     "nama": "Kutut Suryopratomo"
+    }
+   ]
+  },
+  {
+   "judul": "UJI RAMBAT GETARAN TANAH UNTUK SISTEM PREDIKSI MAGNITUDO DAN LOKASI EPISENTRUM GEMPA BUMI",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama"
+    }
+   ]
+  },
+  {
+   "judul": "Urgensi preservasi soundmark sebagai pelestarian intangible heritage. Studi kasus: Kota Yogyakarta",
+   "tahun": 2023,
+   "kategori": "Penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 280.100.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "ACADEMIC ADVANCEMENT & OPPORTUNITIES PARTNERSHIP WEBINAR: TRANSFORMASI DIGITAL, GENERATIVE ARTIFICIAL INTELLIGENCE (GAI), DAN PENDIDIKAN INDONESIA (DARING/ONLINE)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama"
+    }
+   ]
+  },
+  {
+   "judul": "DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "kusnanto",
+     "nama": "Kusnanto"
+    }
+   ]
+  },
+  {
+   "judul": "EDITORIAL TEAM JURNAL ELKHA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "IMPLEMENTASI DAN OPERASI BANGUNAN CERDAS (DARING/ONLINE)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.425.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso"
+    }
+   ]
+  },
+  {
+   "judul": "INTEGRATED SMART VERTICAL HIDROPONIC FARMING BERBASIS LIGHT EMITTING DIODE 300 NM UNTUK MENINGKATKAN PRODUKTIVITAS KELOMPOK WANITA TANI TUWUH MAKMUR DI PADUKUHAN SANTREN, KELURAHAN CATURTUNGGAL, KABUPATEN SLEMAN DIY",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PROGRAM HIBAH PEMBUATAN CONTOH PRODUK UNTUK PENGABDIAN KEPADA MASYARAKAT KPFT 2023 ( HD )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 15.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    }
+   ]
+  },
+  {
+   "judul": "KAJIAN ANALISIS HUKUM DETEKSI KEAMANAN NUKLIR,",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.200.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "KKN TEMATIK INTEGRATIF DI DESA GEMBUK DAN SANGGRAHAN, KEC. KEBONAGUNG, KAB. PACITAN",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 19.648.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "KKN-PPM: COMMUNITY BASED DEVELOPMENT (CBD) UNTUK OPTIMALISASI POTENSI HASIL PERTANIAN, UMKM, DAN PENGEMBANGAN BANK SAMPAH DI DESA KARANGSARI DAN DESA SARWODADI, KECAMATAN PEJAWARAN, KABUPATEN BANJARNEGARA, JAWA TENGAH",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 98.328.687",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    }
+   ]
+  },
+  {
+   "judul": "KKN-PPM: PENGEMBANGAN DESA MELALUI PEMBERDAYAAN MASYARAKAT DI BIDANG EKONOMI DAN SOSIAL BUDAYA, SERTA PEMBANGUNAN TERINTEGRASI; PENGEMBANGAN DESA WISATA DENGAN PEMBERDAYAAN MASYARAKAT SEKITAR DI KALURAHAN SIDOHARJO, SUMBER WUNGU, DAN TEPUS, KAPANEWON TEPU",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 95.932.168",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "KKN-PPM: PENGEMBANGAN INOVASI MASYARAKAT DALAM MENGELOLA DAN MENINGKATKAN POTENSI NILAI EKONOMI PADA SEKTOR AGROINDUSTRI DAN EKOWISATA WILAYAH DESA PATTI DAN DESA WAKERLELI DAERAH KECAMATAN MOA LAKOR, KABUPATEN MALUKU BARAT DAYA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 14.648.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "KKN-PPM: SUSNTAINABILITY FARMING, OPTIMASILASI HASIL PANGAN, DAN FASILITASI KESEHATAN DI DESA KALIAMAN DAN DESA TUBANAN",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 19.648.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "LAMTEKNIK ASESMEN LAPANGAN - PROGRAM STUDI MAGISTER TEKNIK FISIKA DEPARTEMEN TEKNIK FISIKA INSTITUT TEKNOLOGI SEPULUH NOPEMBER (19 FEBRUARI 2023 - 22 FEBRUARI 2023)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 2.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "LAMTEKNIK ASESMEN LAPANGAN - PROGRAM STUDI SARJANA TEKNIK GEOFISIKA FAKULTAS TEKNIK UNIVERSITAS SYIAH KUALA ACEH (5 MARET 2023 - 8 MARET 2023)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 2.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "NARASUMBER FGD ACCELERATOR DRIVEN SYSTEM (ADS) SUB-CRITICAL ASSEMBLY",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "NARASUMBER PENGUKURAN INDEKS EFEKTIVITAS KAJIAN TAHUN 2022, TANGGAL 4 JANUARI 2023. BADAN PENGAWAS TENAGA NUKLIR (BAPETEN)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "NARASUMBER PENYUSUNAN REKOMENDASI TEKNIS KESELAMATAN DESAIN SISTEM DAN STRUKTUR PENGUNGKUNG REAKTOR DAYA, 23 FEBRUARI 2023. BADAN PENGAWAS TENAGA NUKLIR (BAPETEN)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "NARASUMBER PENYUSUNAN REKOMENDASI TEKNIS KESELAMATAN DESAIN SISTEM DAN STRUKTUR PENGUNGKUNG REAKTOR DAYA, 9 FEBRUARI 2023. BADAN PENGAWAS TENAGA NUKLIR (BAPETEN)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.500.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti"
+    }
+   ]
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KECAMATAN NGAGLIK, KABUPATEN SLEMAN YOGYAKARTA.",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama"
+    }
+   ]
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI RUANG ROENTGEN RSU ISLAM - KLATEN",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    }
+   ]
+  },
+  {
+   "judul": "PENANGANAN TERHADAP SEGMEN JALAN AMBLAS DI WUNUT, SRIHARJO, IMOGIRI, BANTUL, YOGYAKARTA (PEMANDATAN 2)",
    "tahun": 2023,
    "kategori": "Pengabdian kepada Masyarakat",
    "venue": "PKM ( PKM )",
@@ -802,7 +3498,7 @@
    ]
   },
   {
-   "judul": "PENYELENGGARAAN KLINIK RUMAH SWADAYA (PEMANDATAN)",
+   "judul": "PENANGANAN TERHADAP SEGMEN JALAN AMBLAS DI WUNUT, SRIHARJO, IMOGIRI, BANTUL, YOGYAKARTA (PEMANDATAN)",
    "tahun": 2023,
    "kategori": "Pengabdian kepada Masyarakat",
    "venue": "PKM ( PKM )",
@@ -818,6 +3514,106 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PENANGGAP ACARA KNOWLEDGE SHARING WEBINAR \"CAPAIAN DAN TANTANGAN PENYIAPAN FASILITAS DISPOSAL LIMBAH RADIOAKTIF TINGKAT RENDAH DAN SEDANG DI INDONESIA\"",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 2.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "PENGEMBANGAN BERKELANJUTAN WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KAB SLEMAN DIY (TH KE 2)",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "PENYUSUNAN ALBUM ILUSTRASI ALIRAN UDARA PADA BANGUNAN",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 2.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "kutut-suryopratomo",
+     "nama": "Kutut Suryopratomo"
+    }
+   ]
+  },
+  {
+   "judul": "PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    }
+   ]
+  },
+  {
+   "judul": "PENYUSUNAN REKOMENDASI TEKNIS DESAIN SISTEM DAN STRUKTUR PENGUNGKUNG REAKTOR",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 1.200.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
     }
    ]
   },
@@ -836,12 +3632,128 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    },
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
     },
     {
+     "slug": "ferdiansjah",
+     "nama": "Ferdiansjah"
+    },
+    {
+     "slug": "haryono-budi-santosa",
+     "nama": "Haryono Budi Santosa"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    },
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "PKM DESA BINAAN PENGEMBANGAN BERKELANJUTAN WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KABUPATEN SLEMAN, DAERAH ISTIMEWA YOGYAKARTA TAHUN KE 2",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "DESA BINAAN ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 35.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "PKM DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti"
+    },
+    {
+     "slug": "haryono-budi-santosa",
+     "nama": "Haryono Budi Santosa"
+    },
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
     }
    ]
   },
@@ -860,8 +3772,92 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    },
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti"
+    },
+    {
+     "slug": "ferdiansjah",
+     "nama": "Ferdiansjah"
+    },
+    {
+     "slug": "haryono-budi-santosa",
+     "nama": "Haryono Budi Santosa"
+    },
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    },
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    },
+    {
+     "slug": "yudi-utomo-imardjoko",
+     "nama": "Yudi Utomo Imardjoko"
+    }
+   ]
+  },
+  {
+   "judul": "PKM PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KECAMATAN NGAGLIK, KABUPATEN SLEMAN YOGYAKARTA.",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    },
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
     }
    ]
   },
@@ -880,8 +3876,88 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    },
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso"
+    },
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    },
+    {
+     "slug": "haryono-budi-santosa",
+     "nama": "Haryono Budi Santosa"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    },
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    },
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
+    },
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq"
+    },
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama"
+    }
+   ]
+  },
+  {
+   "judul": "PKM PEMETAAN PAPARAN RADIASI DI RUANG ROENTGEN RSU ISLAM - KLATEN",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
     }
    ]
   },
@@ -900,8 +3976,68 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
+    },
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini"
+    },
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti"
+    },
+    {
+     "slug": "ferdiansjah",
+     "nama": "Ferdiansjah"
+    },
+    {
+     "slug": "haryono-budi-santosa",
+     "nama": "Haryono Budi Santosa"
+    },
+    {
+     "slug": "kusnanto",
+     "nama": "Kusnanto"
+    },
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum"
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    },
+    {
+     "slug": "yudi-utomo-imardjoko",
+     "nama": "Yudi Utomo Imardjoko"
+    }
+   ]
+  },
+  {
+   "judul": "TENAGA AHLI DALAM KEGIATAN PENDAMPINGAN EVALUASI PENAWARAN FILE 1 LELANG DEDC PROJECT ISDB IDN 1054 RSUP DR. SOERADJI TIRTONEGORO",
+   "tahun": 2023,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "PKM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 6.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti"
     }
    ]
   }

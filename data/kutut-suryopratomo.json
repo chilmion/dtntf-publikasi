@@ -1,0 +1,543 @@
+{
+ "slug": "kutut-suryopratomo",
+ "sinta_id": "6031021",
+ "nama": "Kutut Suryopratomo",
+ "nama_sinta": "KUTUT SURYAPRATOMO",
+ "gelar": "Ir., M.T., M.Sc.",
+ "jabatan": null,
+ "email": "kutut@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/KUTUT-1024x960.jpg",
+ "diperbarui": "2026-09-30T16:54:49+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6031021",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6031021/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=i-RutNAAAAAJ"
+ },
+ "skor": {
+  "overall": 606,
+  "tiga_tahun": 91,
+  "afiliasi": 606,
+  "afiliasi_tiga_tahun": 91
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2012,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 6
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 2
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 7
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 9,
+   "sitasi": 58,
+   "dokumen_disitasi": 8,
+   "hindex": 4,
+   "i10index": 2,
+   "gindex": 4
+  },
+  "scholar": {
+   "artikel": 165,
+   "sitasi": 1278,
+   "dokumen_disitasi": 103,
+   "hindex": 16,
+   "i10index": 30,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 9,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 58,
+  "sitasi_scholar": 1278,
+  "hindex_scopus": 4,
+  "hindex_scholar": 16,
+  "hindex_terdaftar": 4,
+  "paten": 0,
+  "ppm": 7,
+  "buku": 1,
+  "penelitian": 4
+ },
+ "per_sumber": {
+  "scopus": 9,
+  "buku": 1,
+  "ppm": 7,
+  "penelitian": 4
+ },
+ "subjects": [
+  "Energy Conversion"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2012,
+   "publikasi": 1,
+   "sitasi": 19
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 1,
+   "sitasi": 19
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 2,
+   "sitasi": 5
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 3,
+   "sitasi": 11
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 6
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "E3s Web of Conferences",
+   "jumlah": 3
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 2
+  },
+  {
+   "nama": "International Journal on Advanced Science Engineering and Information Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 1
+  },
+  {
+   "nama": "Energy Procedia",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of the Textile Institute",
+   "jumlah": 1
+  },
+  {
+   "nama": "PENEBAR MEDIA PUSTAKA",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Desain Konseptual Teras Reaktor Nuklir Terapung Berbasis Accident Tolerant Fuel untuk Daerah Terpencil Indonesia",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 78.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "DASAR-DASAR MEKANIKA FLUIDA",
+   "url": null,
+   "sumber": "buku",
+   "venue": "PENEBAR MEDIA PUSTAKA",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "YOGYAKARTA",
+   "isbn": "9786234290479",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "PENYUSUNAN ALBUM ILUSTRASI ALIRAN UDARA PADA BANGUNAN - TAHAP KEDUA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Kajian Multifisika Accident Tolerant Fuel dengan Penambahan Thorium untuk Meningkatkan Aspek Keselamatan pada Reaktor Nuklir Terapung",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 119.890.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENYUSUNAN ALBUM ILUSTRASI ALIRAN UDARA PADA BANGUNAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "UJI KUALITAS BATERAI LITHIUM UNTUK KENDARAAN LISTRIK BERODA DUA YANG DILENGKAPI BATTERY MANAGEMENT SYSTEM 20S",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Reaktor Nuklir Terapung sebagai Wahana Pemenuhan Energi di Kawasan Terpencil",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PDUPT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 111.300.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENGEMBANGAN PERANGKAT LUNAK TERBUKA UNTUK MEMUDAHKAN PEMILIHAN TURBIN ANGIN BERBASIS PYTHON",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN PANDUAN UNTUK MEMILIH TURBIN ANGIN UNTUK PENERAPAN DI SUATU LOKASI BERDASARKAN KINERJANYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Thermal-hydraulics operation parameters modeling and analysis of KLT-40S reactor at steady-state and transient condition using RELAP5-3D",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85087987298&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal on Advanced Science Engineering and Information Technology",
+   "tahun": 2020,
+   "sitasi": 4,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Kristanto A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Numerical study of the effect of geometry variation on the performance of innovative design wind speed enhancer",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051072298&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 8,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Wibowo T.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Multilevel Diffuser Augmented for Horizontal Axis Wind Turbine",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051068040&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Qashidi Putra F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The effect of inlet curvature and flange on wind turbine diffuser performance",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051049720&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Nasir M.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "A toolbox for safety instrumented system evaluation based on improved continuous-time Markov chain",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85027990860&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Wardana A.N.I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Economic and Thermodynamic Analysis for Preliminary Design of Dry Steam Geothermal Power Plant (GPP) with Multifarious Gas Removal System (GRS) in Kamojang, West Java, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84997707954&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2016,
+   "sitasi": 3,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Pranadi A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Thermodynamic analysis of the effect of reservoir temperature change on the performance of organic rankine cycle system on geothermal power plant",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84984593092&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2016,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Pamuji D.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Gama stove: Biomass stove for palm kernel shells in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84894119419&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energy Procedia",
+   "tahun": 2014,
+   "sitasi": 19,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Febriansyah H.",
+   "kuartil": "Q2",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Textile-based microfluidics: modulated wetting, mixing, sorting, and energy harvesting",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84866333872&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of the Textile Institute",
+   "tahun": 2012,
+   "sitasi": 19,
+   "urutan_penulis": "8 of 9",
+   "kreator": "Parikesit G.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  }
+ ]
+}

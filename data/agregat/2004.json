@@ -2,6 +2,86 @@
  "tahun": 2004,
  "entri": [
   {
+   "judul": "PID-fuzzy controller for grate cooler in cement plant",
+   "tahun": 2004,
+   "kategori": "Prosiding Internasional",
+   "venue": "2004 5th Asian Control Conference",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-16244415927&origin=resultslist",
+   "sitasi": 14,
+   "kreator": "Wardana A.N.I.",
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "Intonation recognition for Indonesian speech based on fujisaki model",
+   "tahun": 2004,
+   "kategori": "Prosiding Internasional",
+   "venue": "8th International Conference on Spoken Language Processing ICSLP 2004",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85009070472&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Effendy N.",
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "Optical detection of single molecules in nanofluidic chips",
+   "tahun": 2004,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of SPIE the International Society for Optical Engineering",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-13244277583&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Parikesit G.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Passive decay heat removal in a fluidized bed nuclear reactor",
+   "tahun": 2004,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of the Physor 2004 the Physics of Fuel Cycles and Advanced Nuclear Systems Global Develo",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-22344451493&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Agung A.",
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
    "judul": "Pemanfaatan Tandan Kosong Kelapa Sawit Untuk Pembuatan Kertas Seni",
    "tahun": 2004,
    "kategori": "Jurnal Nasional",

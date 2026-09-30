@@ -2,6 +2,66 @@
  "tahun": 2003,
  "entri": [
   {
+   "judul": "Dynamics modeling and stability analysis of a fluidized bed nuclear reactor",
+   "tahun": 2003,
+   "kategori": "Jurnal Internasional",
+   "venue": "Progress in Nuclear Energy",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0038416687&origin=resultslist",
+   "sitasi": 10,
+   "kreator": "Lathouwers D.",
+   "dosen": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung"
+    }
+   ]
+  },
+  {
+   "judul": "Improved PID controller with fuzzy logic for grate coolers in cement plants",
+   "tahun": 2003,
+   "kategori": "Jurnal Internasional",
+   "venue": "ZKG International",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0348223334&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Wardana A.N.I.",
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "Three-wavelength laser light source for absolute, sub-Angstrom, two point source interferometer",
+   "tahun": 2003,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of SPIE the International Society for Optical Engineering",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0141497250&origin=resultslist",
+   "sitasi": 2,
+   "kreator": "Krieg M.L.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
    "judul": "Sifat Fiksatif Dalam Pembuatan Parfum Nilam",
    "tahun": 2003,
    "kategori": "Jurnal Nasional",
@@ -18,6 +78,26 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "SFB (Smart Film Box)- Alat Pencegah Kegagalan karena Pengabaian Prosedur Kerja Pengelola Film Rontgen di dalam kamar Gelap Radiolografi",
+   "tahun": 2003,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
     }
    ]
   }

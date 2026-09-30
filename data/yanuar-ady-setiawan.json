@@ -1,0 +1,465 @@
+{
+ "slug": "yanuar-ady-setiawan",
+ "sinta_id": "6693680",
+ "nama": "Yanuar Ady Setiawan",
+ "nama_sinta": "YANUAR ADY SETIAWAN",
+ "gelar": "S.T., M.S., Ph.D.",
+ "jabatan": null,
+ "email": "yanuaradysetiawan@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Yanuar-683x1024.jpeg",
+ "diperbarui": "2026-09-30T17:16:37+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6693680",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6693680/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=8GXyozcAAAAJ"
+ },
+ "skor": {
+  "overall": 218,
+  "tiga_tahun": 83,
+  "afiliasi": 218,
+  "afiliasi_tiga_tahun": 83
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2020,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 1
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 5
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 4
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 6
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 10,
+   "sitasi": 32,
+   "dokumen_disitasi": 5,
+   "hindex": 3,
+   "i10index": 1,
+   "gindex": 2
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 10,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 32,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 3,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 3,
+  "paten": 0,
+  "ppm": 6,
+  "buku": 0,
+  "penelitian": 0
+ },
+ "per_sumber": {
+  "scopus": 10,
+  "ppm": 6
+ },
+ "subjects": [
+  "Nuclear Engineering",
+  "Nuclear Security",
+  "Nuclear Safeguards",
+  "Nuclear Nonproliferation",
+  "Nuclear Safety"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2020,
+   "publikasi": 2,
+   "sitasi": 22
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 2,
+   "sitasi": 5
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 1,
+   "sitasi": 1
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 1
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 5
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Annals of Nuclear Energy",
+   "jumlah": 2
+  },
+  {
+   "nama": "Proceedings of the International Conference on Physics of Reactors Physor 2022",
+   "jumlah": 2
+  },
+  {
+   "nama": "Transactions of the American Nuclear Society",
+   "jumlah": 2
+  },
+  {
+   "nama": "Proceedings of the International Conference on Mathematics and Computational Methods Applied to Nucl",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nuclear Engineering and Design",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nuclear Science and Engineering",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Activated sodium adjuster rod design for enhanced delayed-photoneutron yield in heavy water reactors",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105012905358&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Annals of Nuclear Energy",
+   "tahun": 2026,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Seo Y.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The Influence of Parent Feeding on Delayed-Neutron Group Parameter Estimation from Weighted Nonlinear Least-Squares Regressions",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010190469&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the International Conference on Mathematics and Computational Methods Applied to Nucl",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Setiawan Y.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENYUSUNAN MATERI PLTN 2025",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "WORKSHOP ASPEK TEKNIS DAN REGULASI PLTN UNTUK KEANDALAN SISTEM KELISTRIKAN 2025",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 500.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN RENCANA PENGEMBANGAN PEMBANGKIT LISTRIK TENAGA NUKLIR (PLTN) 2025",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 250.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Adjustment of long-cycle fast spectrum SMR performance by using gadolinia burnable poison in a moderated outer core driver fuel zone",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85192223789&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Setiawan Y.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Heat Transfer Analysis on Brushless Hexacopter Motor 3508 590KV with CFD Simulation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85196316884&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Putri S.I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Beta-Ray-Bremsstrahlung Contributions to Short-Lived Delayed Photoneutron Groups in Heavy Water Reactors",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85137033397&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Science and Engineering",
+   "tahun": 2023,
+   "sitasi": 4,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Setiawan Y.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Production of Long-Lived Delayed-Photoneutron Precursors from Activated-Sodium Adjuster Rod in CANDU-6",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85183171297&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the International Conference on Physics of Reactors Physor 2022",
+   "tahun": 2022,
+   "sitasi": 5,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Seo Y.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Beta-Ray-Bremsstrahlung Contribution to the Delayed-Photoneutron Group for Heavy Water Reactor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85184960639&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the International Conference on Physics of Reactors Physor 2022",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Setiawan Y.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Delayed-Photoneutron Production from Beta-Ray Bremsstrahlung",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179546781&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Transactions of the American Nuclear Society",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Sengar H.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "MAPPS: A stochastic computational tool for multi-path analysis of physical protection systems",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85072995741&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Annals of Nuclear Energy",
+   "tahun": 2020,
+   "sitasi": 19,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Setiawan Y.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Neutron capture on stable fission product 139La contribution to delayed-photoneutrons in heavy water reactors",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85118110496&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Transactions of the American Nuclear Society",
+   "tahun": 2020,
+   "sitasi": 3,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Setiawan Y.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "SEMINAR BEASISWA DI BK MENTORSHIP",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "WEBINAR ANALISIS SISTEM PROTEKSI FISIK DENGAN MAPPS (MULTI-PATH ANALYSIS OF PHYSICAL PROTECTION SYSTEM)",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 5.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN 2019",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  }
+ ]
+}

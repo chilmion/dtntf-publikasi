@@ -1,0 +1,748 @@
+{
+ "slug": "nunung-prabaningrum",
+ "sinta_id": "6043524",
+ "nama": "Nunung Prabaningrum",
+ "nama_sinta": "NUNUNG PRABANINGRUM",
+ "gelar": "Ir., M.T., Ph.D.",
+ "jabatan": null,
+ "email": "nunung.prabaningrum@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/NUNUNG-960x1024.jpg",
+ "diperbarui": "2026-09-30T17:01:32+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6043524",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6043524/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=tAZjqfcAAAAJ"
+ },
+ "skor": {
+  "overall": 260,
+  "tiga_tahun": 34,
+  "afiliasi": 260,
+  "afiliasi_tiga_tahun": 34
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2011,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 3
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 4
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 3
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 7
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 3
+   },
+   {
+    "nama": "Others",
+    "jumlah": 2
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 12,
+   "sitasi": 15,
+   "dokumen_disitasi": 7,
+   "hindex": 2,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 24,
+   "sitasi": 25,
+   "dokumen_disitasi": 7,
+   "hindex": 2,
+   "i10index": 1,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 12,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 15,
+  "sitasi_scholar": 25,
+  "hindex_scopus": 2,
+  "hindex_scholar": 2,
+  "hindex_terdaftar": 2,
+  "paten": 0,
+  "ppm": 15,
+  "buku": 0,
+  "penelitian": 4
+ },
+ "per_sumber": {
+  "scopus": 12,
+  "ppm": 15,
+  "penelitian": 4
+ },
+ "subjects": [
+  "Biofuel",
+  "Radiochemistry"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2011,
+   "publikasi": 1,
+   "sitasi": 6
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 2,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 1,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 3,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 4
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 3
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Arpn Journal of Engineering and Applied Sciences",
+   "jumlah": 2
+  },
+  {
+   "nama": "Annals of Nuclear Energy",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Renewable Energy and Environment",
+   "jumlah": 1
+  },
+  {
+   "nama": "Chemosphere",
+   "jumlah": 1
+  },
+  {
+   "nama": "Jurnal Teknologi",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Nuclear Security",
+   "jumlah": 1
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "Advanced Materials Research",
+   "jumlah": 1
+  },
+  {
+   "nama": "Applied Mechanics and Materials",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Estimation of the 99Mo production capacity and radioactive waste of the GAMA-AHR conceptual design",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105042846956&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Annals of Nuclear Energy",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 8",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Biodiesel Preparation by Optimization of Rubber Seed In Situ Esterification",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105031555066&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Renewable Energy and Environment",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Jalil F.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Phytoremediation performance of various tropical plant species for environmental remediation of high 137Cs contaminated soils: A case study of Batan Indah soil",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105045922678&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Chemosphere",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "10 of 24",
+   "kreator": "Nurliati G.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI DI SEKITAR RUANG ROENTGEN UGD RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN DAN PENDAMPINGAN PENGGUNAAN PERISAI PESAWAT SINAR-X PORTABLE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "THE PHITS SIMULATION STUDY FOR AN ALTERNATIVE PRODUCTION OF 32P RADIOISOTOPE BY SECONDARY NEUTRON BOMBARDMENT OF 32S TARGET",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85219048102&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Jurnal Teknologi",
+   "tahun": 2025,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Suharni",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KELURAHAN MINOMARTANI, KECAMATAN NGAGLIK, KABUPATEN SLEMAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KONSEPTUAL DASAR DESAIN REAKTOR PRODUKSI RADIOISOTOP MEDIS MO-99 GADJAH MADA AQUEOUS HOMOGENEOUS REACTOR (GAMA-AHR)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "KOMPETITIF ( AE A )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 60.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGARUH WAKTU REAKSI PADA PREPARASI BIODIESEL DAN KARAKTERISASINYA MELALUI PROSES IN SITU ESTERIFIKASI BIJI NON PANGAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "6 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN PENYULINGAN MINYAK ATSIRI SEBAGAI KOMPLEMEN KEWIRAUSAHAAN MASYARAKAT DESA SARDONOHARJO KECAMATAN NGAGLIK KABUPATEN SLEMAN DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EKSTRAKSI REAKTIF BIJI NYAMPLUNG (CALOPHYLLUM INOPHYLLUM) DALAM PREPARASI BIODIESEL SEBAGAI BAHAN BAKAR NABATI BERKELANJUTAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Acid Value Reduction of Calophyllum inophyllum Oil by Oilseeds in situ Esterification Using Sulfuric Acid Catalyzed Methanol and Isopropyl Alcohol Mixture",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122209341&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Mufidah N.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Optimization of in situ esterification of Reutealis trisperma seeds",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083558827&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 6",
+   "kreator": "Prabaningrum N.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PELATIHAN PENANGGULANGAN BENCANA KEGAGALAN TEKNOLOGI DAN PENYAKIT MENULAR DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGARUH PENAMBAHAN ISOPROPANOL TERHADAP YIELD DAN BILANGAN ASAM PADA PEMBUATAN BIODIESEL MELALUI IN SITU ESTERIFIKASI BIJI NABATI NON-PANGAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Utilization of tropical materials for ensuring the safety of strontium waste immobilization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85040553971&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Arpn Journal of Engineering and Applied Sciences",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 4",
+   "kreator": "Putero S.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Two-step transesterification of Calophyllum inophyllum oil: Optimization and reaction kinetics",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84962758978&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Arpn Journal of Engineering and Applied Sciences",
+   "tahun": 2016,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Prabaningrum N.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "In-situ methanolysis of Jatropha curcas seeds in Soxhlet extractor",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84904069581&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Advanced Materials Research",
+   "tahun": 2014,
+   "sitasi": 3,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Prabaningrum N.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "Reaction kinetics of in-situ methanolysis of Jatropha curcas seeds",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84914155465&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Applied Mechanics and Materials",
+   "tahun": 2014,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Prabaningrum N.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "In-situ transesterification of Jatropha curcas seeds using the mixture of methanol and isopropanol",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84857072549&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2011 National Postgraduate Conference Energy and Sustainability Exploring the Innovative Minds Npc 2",
+   "tahun": 2011,
+   "sitasi": 6,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Prabaningrum N.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

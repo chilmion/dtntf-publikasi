@@ -1,0 +1,676 @@
+{
+ "slug": "thomas-oka-pratama",
+ "sinta_id": "6806864",
+ "nama": "Thomas Oka Pratama",
+ "nama_sinta": "THOMAS OKA PRATAMA",
+ "gelar": "S.T., M.Eng., Dr.",
+ "jabatan": null,
+ "email": "thomas.o.p@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/01/2.-Pas-Foto.jpg",
+ "diperbarui": "2026-09-30T17:13:40+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6806864",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6806864/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=WznC4BgAAAAJ"
+ },
+ "skor": {
+  "overall": 593,
+  "tiga_tahun": 485,
+  "afiliasi": 593,
+  "afiliasi_tiga_tahun": 485
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 1
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 2
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 2
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 3
+   },
+   {
+    "nama": "Others",
+    "jumlah": 1
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 2,
+   "i10index": 0,
+   "gindex": 3
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 0,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 0,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 2,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 2,
+  "paten": 6,
+  "ppm": 11,
+  "buku": 0,
+  "penelitian": 8
+ },
+ "per_sumber": {
+  "scopus": 6,
+  "paten": 6,
+  "ppm": 11,
+  "penelitian": 8
+ },
+ "subjects": [
+  "Instrumentation",
+  "Telemonitoring",
+  "Energy",
+  "Disaster and Mitigation"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 5
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 2
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q2",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 1
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 2
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Ecological Engineering and Environmental Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Reconfigurable and Embedded Systems",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Physics: Conference Series",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and L",
+   "jumlah": 1
+  },
+  {
+   "nama": "2019 International Conference on Computer Engineering Network and Intelligent Multimedia Cenim 2019",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "PELATIHAN PEMBUATAN SISTEM PERINGATAN DINI BANJIR LAHAR HUJAN BERBASIS SENSOR CURAH HUJAN DI LERENG GUNUNG MERAPI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Sistem Monitoring dan Kontrol Termal Berbasis IoT untuk Optimalisasi Energi HVAC dan Kenyamanan Penghuni",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 125.850.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Application of continuous radon gas concentration telemonitoring for predictive seismic hazard assessment in Manado, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85214665702&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Ecological Engineering and Environmental Technology",
+   "tahun": 2025,
+   "sitasi": 2,
+   "urutan_penulis": "0 of 7",
+   "kreator": "Pratama T.O.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Prototipe Scaler Suction Ultrasonik Portabel Berbasis Daya Hybrid untuk Mundukung Layanan Kesehatan Gigi di Daerah 3T dan Pascabencana",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 65.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan.",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 65.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Earthquake magnitude prediction in Indonesia using a supervised method based on cloud radon data",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85200025514&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Reconfigurable and Embedded Systems",
+   "tahun": 2024,
+   "sitasi": 4,
+   "urutan_penulis": "0 of 4",
+   "kreator": "Pratama T.O.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "A Comparative Study of the Effect of Weather Conditions on Solar Irradiance Forecasting Using Various Methods in Yogyakarta, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208722385&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics: Conference Series",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "0 of 6",
+   "kreator": "Nugroho M.V.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "MESIN PULTRUSION TERINTEGRASI ELEMEN PEMANAS UNTUK MEMPRODUKSI FILAMEN 3D PRINTING DARI BOTOL BEKAS",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202407120",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "ANTENNA DIRECTIONAL FREKUENSI UHV 920 MHZ GAIN TINGGI SEBAGAI GERBANG KOMUNIKASI DATA DARURAT KEBENCANAAN DAERAH REMOTE",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202409075",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "ANTENNA OMNIDIRECTIONAL FREKUENSI UHV 915-923 MHZ GAIN TINGGI SEBAGAI GERBANG KOMUNIKASI DATA DARURAT KEBENCANAAN NON-PROVIDER SELULER",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202408131",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "SISTEM CERDAS PADA SISTEM BANGUNAN HIJAU UNTUK MEMANTAU DAN MENGENDALIKAN PARAMETER DAYA, SUHU DAN PENCAHAYAAN DALAM RUANG",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202406071",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN (SPDK) DAN STANDAR OPERASIONAL PROSEDUR (SOP) PENYELAMATAN DIRI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS FLUKTUASI GAS RADON DAN GROUND WATER LEVEL",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "RIIM BRIN TAHUN 2022 ( RIIM BRIN )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 200.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Pengembangan Prototipe Alat Pembersih Gigi Ultrasonik Mandiri Produk Dalam Negeri untuk Peningkatan Kesehatan Gigi di Daerah Terpencil dan Situasi Darurat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 67.694.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PRO )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 69.120.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM AKUISISI DATA DAN KOMUNIKASI DATA PERINGATAN DINI BENCANA MENGGUNAKAN TEKNOLOGI HIBRID FREKUENSI RADIO, TEKNOLOGI LORA DENGAN PROTOKOL LORAWAN DAN TEKNOLOGI 4G",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "DRTPM PT TAHUN 2024 ( DRTPM-PT )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 393.080.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "SISTEM PEMANTAU PERUBAHAN TOTAL ELECTRON CONTENT (TEC) MELALUI GLOBAL NAVIGATION SATELLITE SYSTEMS (GNSS) SEBAGAI PARAMETER PREKURSOR GEMPA BUMI",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202314818",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "UJI RAMBAT GETARAN TANAH UNTUK SISTEM PREDIKSI MAGNITUDO DAN LOKASI EPISENTRUM GEMPA BUMI",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "SISTEM PENGUKURAN PERUBAHAN LEVEL KEDALAMAN AIR TANAH DAN KADAR GAS RADON SEBAGAI PARAMETER PREKURSOR GEMPA BUMI",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202212320",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI KESADARAN HEMAT ENERGI SEJAK DINI PADA SISWA DAN GURU TAMAN KANAK-KANAK DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Deterministic system for earthquake early warning system based on radon gas concentration anomaly at yogyakarta region-Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85102281521&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2021,
+   "sitasi": 5,
+   "urutan_penulis": "0 of 5",
+   "kreator": "Pratama T.O.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Model Prediction Control for Missile Autopilot and Navigation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85084424984&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2019 International Conference on Computer Engineering Network and Intelligent Multimedia Cenim 2019",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "0 of 3",
+   "kreator": "Pratama T.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Ichiro Robots Winning RoboCup 2018 Humanoid TeenSize Soccer Competitions",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85070700102&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and L",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "0 of 14",
+   "kreator": "Muhtadin",
+   "kuartil": "Q2",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  }
+ ]
+}

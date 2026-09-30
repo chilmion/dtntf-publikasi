@@ -1,0 +1,692 @@
+{
+ "slug": "anung-muharini",
+ "sinta_id": "6586868",
+ "nama": "Anung Muharini",
+ "nama_sinta": "ANUNG MUHARINI",
+ "gelar": "Ir., M.T.",
+ "jabatan": null,
+ "email": "amuharini@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/foto-Anung-Muharini-1024x1024.jpg",
+ "diperbarui": "2026-09-30T16:39:45+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6586868",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6586868/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=z8Ek878AAAAJ"
+ },
+ "skor": {
+  "overall": 187,
+  "tiga_tahun": 76,
+  "afiliasi": 187,
+  "afiliasi_tiga_tahun": 76
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2013,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 5
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 4
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 5
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 9,
+   "sitasi": 4,
+   "dokumen_disitasi": 2,
+   "hindex": 1,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 38,
+   "sitasi": 41,
+   "dokumen_disitasi": 15,
+   "hindex": 3,
+   "i10index": 1,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 9,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 4,
+  "sitasi_scholar": 41,
+  "hindex_scopus": 1,
+  "hindex_scholar": 3,
+  "hindex_terdaftar": 1,
+  "paten": 0,
+  "ppm": 21,
+  "buku": 0,
+  "penelitian": 0
+ },
+ "per_sumber": {
+  "scopus": 9,
+  "ppm": 21
+ },
+ "subjects": [
+  "Teknik Nuklir"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2013,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2015,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 3,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 5
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Journal of Physics Conference Series",
+   "jumlah": 2
+  },
+  {
+   "nama": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "jumlah": 2
+  },
+  {
+   "nama": "International Journal of Radiation Research",
+   "jumlah": 1
+  },
+  {
+   "nama": "Physics and Chemistry of the Earth",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Nuclear Security",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nuclear Engineering International",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI DI SEKITAR RUANG ROENTGEN UGD RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Cyclotron 30 MeV 1.5 mA shielding design for boron neutron capture therapy",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028485109&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Radiation Research",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 12",
+   "kreator": "Wicaksana A.R.W.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Activity concentration of NORM at reclaimed ex-coal mines in South Sumatra, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85189760974&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Physics and Chemistry of the Earth",
+   "tahun": 2024,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 9",
+   "kreator": "Berliantoro F.I.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Study of Resistance of [Cu3(C6H3(COO)3)2(H2O)3]n (HKUST-1) to Electron Beam at Dosages of 0 to 150 kGy",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208700115&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2024,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Velicia K.A.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Study of [Cu3(C6H3(COO)3)2(H2O)3]n(HKUST-1) Resistance to Gamma Radiation at Dose of 125 kGy to 200 kGy",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208712265&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 4",
+   "kreator": "Fernanda V.F.E.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI DI RUANG CT-SCAN RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PEMETAAN PAPARAN RADIASI DI RUANG ROENTGEN RSU ISLAM - KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI RUANG ROENTGEN RSU ISLAM - KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "7 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU SAKU DISEMINASI TEKNOLOGI NUKLIR UNTUK GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PROGRAM HIBAH PENGABDIAN MASYARAKAT DTNTF 2021 ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU SAKU DISEMINASI TEKNOLOGI NUKLIR UNTUK GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU SAKU DISEMINASI TEKNOLOGI NUKLIR UNTUK GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Analysis of strontium isothermal adsorption using metal-organic frameworks [HKUST-1] based on variation of operating temperatures and variations of main initial concentration",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083555507&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Rahman Y.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "NUCLEAR SCHOOL UNTUK SISWA SMA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Integrating security issues in nuclear engineering curriculum in Indonesia: Classical vs policy approaches",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84959046128&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": "6 of 6",
+   "kreator": "Putero S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Developing nuclear education in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84896536619&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering International",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Putero S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Trade Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The challenges and opportunities in developing nuclear engineering education in indonesia after Fukushima accident",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84901716791&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

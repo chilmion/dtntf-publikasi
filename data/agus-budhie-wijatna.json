@@ -1,0 +1,1060 @@
+{
+ "slug": "agus-budhie-wijatna",
+ "sinta_id": "6012781",
+ "nama": "Agus Budhie Wijatna",
+ "nama_sinta": "AGUS BUDHIE WIJATNA",
+ "gelar": "Prof., Dr., Ir., M.Si.",
+ "jabatan": null,
+ "email": "budiwijatna@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2023/07/Untitled.png",
+ "diperbarui": "2026-09-30T16:33:35+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6012781",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6012781/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=TXQ1-kAAAAAJ"
+ },
+ "skor": {
+  "overall": 567,
+  "tiga_tahun": 193,
+  "afiliasi": 567,
+  "afiliasi_tiga_tahun": 193
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2018,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 2
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 4
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 4
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 2
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 9
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 4
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 13,
+   "sitasi": 22,
+   "dokumen_disitasi": 6,
+   "hindex": 2,
+   "i10index": 1,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 40,
+   "sitasi": 116,
+   "dokumen_disitasi": 19,
+   "hindex": 7,
+   "i10index": 4,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 13,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 22,
+  "sitasi_scholar": 116,
+  "hindex_scopus": 2,
+  "hindex_scholar": 7,
+  "hindex_terdaftar": 2,
+  "paten": 3,
+  "ppm": 24,
+  "buku": 2,
+  "penelitian": 12
+ },
+ "per_sumber": {
+  "scopus": 13,
+  "buku": 2,
+  "paten": 3,
+  "ppm": 24,
+  "penelitian": 12
+ },
+ "subjects": [
+  "Hydroisotope"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2018,
+   "publikasi": 2,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 12
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 6
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 3,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 2,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 4
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 4
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 2
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "E3s Web of Conferences",
+   "jumlah": 2
+  },
+  {
+   "nama": "Chemosphere",
+   "jumlah": 1
+  },
+  {
+   "nama": "Annals of Nuclear Energy",
+   "jumlah": 1
+  },
+  {
+   "nama": "Ecological Engineering and Environmental Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Civil Engineering Dimension",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Reconfigurable and Embedded Systems",
+   "jumlah": 1
+  },
+  {
+   "nama": "Iaes International Journal of Artificial Intelligence",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings of the 2023 International Conference on Instrumentation Control and Automation Ica 2023",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Nuclear Security",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Phytoremediation performance of various tropical plant species for environmental remediation of high 137Cs contaminated soils: A case study of Batan Indah soil",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105045922678&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Chemosphere",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "12 of 24",
+   "kreator": "Nurliati G.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Estimation of the 99Mo production capacity and radioactive waste of the GAMA-AHR conceptual design",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105042846956&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Annals of Nuclear Energy",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 8",
+   "kreator": "Harto A.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Application of continuous radon gas concentration telemonitoring for predictive seismic hazard assessment in Manado, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85214665702&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Ecological Engineering and Environmental Technology",
+   "tahun": 2025,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 7",
+   "kreator": "Pratama T.O.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Utilization of Steel Aggregate and Iron Sand as Heavyweight Concrete for Gamma Radiation Shielding",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105001438541&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Civil Engineering Dimension",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Abdurrahman H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Correlation analysis of radon gas concentration anomaly with seismic activity around Manado, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105022926561&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 8",
+   "kreator": "Pratama T.O.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Earthquake magnitude prediction in Indonesia using a supervised method based on cloud radon data",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85200025514&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Reconfigurable and Embedded Systems",
+   "tahun": 2024,
+   "sitasi": 4,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Pratama T.O.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Grindulu fault cloud radon data for earthquake magnitude prediction using machine learning",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039531435&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iaes International Journal of Artificial Intelligence",
+   "tahun": 2024,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Pratama T.O.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI DI RUANG CT-SCAN RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KELURAHAN MINOMARTANI, KECAMATAN NGAGLIK, KABUPATEN SLEMAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KONSEPTUAL DASAR DESAIN REAKTOR PRODUKSI RADIOISOTOP MEDIS MO-99 GADJAH MADA AQUEOUS HOMOGENEOUS REACTOR (GAMA-AHR)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "KOMPETITIF ( AE A )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 60.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Real Time, Portable and Low-Cost Ultraviolet (UV) Sensor: Measuring the Solar UV Index for Sunbathing Safety",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85175096279&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the 2023 International Conference on Instrumentation Control and Automation Ica 2023",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Continue Shopping Merancang Sistem Instrumentasi Berbasis Telemetri dengan Frekuensi Radio",
+   "url": null,
+   "sumber": "buku",
+   "venue": "UGM PRESS",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "YOGYAKARTA",
+   "isbn": "9786233591621",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "SISTEM PEMANTAU PERUBAHAN TOTAL ELECTRON CONTENT (TEC) MELALUI GLOBAL NAVIGATION SATELLITE SYSTEMS (GNSS) SEBAGAI PARAMETER PREKURSOR GEMPA BUMI",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202314818",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI RUANG ROENTGEN RSU ISLAM - KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DISEMINASI APLIKASI IPTEK NUKLIR DI INDONESIA UNTUK PARA GURU SMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Sistem Informasi Geografis untuk Pemetaan Konsentrasi Radon Tanah di Daerah Istimewa Yogyakarta sebagai Referensi dalam Analisis Kebijakan Kesehatan Masyarakat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 165.925.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENGEMBANGAN PRODUK SISTEM PERINGATAN DINI GEMPA BUMI BERBASIS INTERNET OF THINGS GUNA MITIGASI BENCANA GEMPA BUMI DI INDONESIA",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "KEDAIREKA ( MF )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.050.125.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PEMANTAUAN PARAMETER KUALITAS UDARA YANG DIINTEGRASIKAN DENGAN EARLY WARNING SYSTEM UNTUK KEPERLUAN MITIGASI BENCANA KESEHATAN LINGKUNGAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Sistem Informasi Geografis untuk Pemetaan Konsentrasi Radon Tanah di Daerah Istimewa Yogyakarta sebagai Referensi dalam Analisis Kebijakan Kesehatan Masyarakat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 137.444.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Panduan Praktikum Deteksi dan Pengukuran Radiasi",
+   "url": null,
+   "sumber": "buku",
+   "venue": "UGM Press",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Yogyakarta",
+   "isbn": "9786023869671",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "SISTEM MONITOR BANGUNAN SEHAT BERBASIS KUALITAS UDARA DALAM RUANGAN, KADAR KARBON DIOKSIDA, VOLUME DAN ARAH ALIRAN UDARA",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202106548",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Sistem Informasi Geografis untuk Pemetaan Konsentrasi Radon Tanah di Daerah Istimewa Yogyakarta sebagai Referensi dalam Analisis Kebijakan Kesehatan Masyarakat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 107.750.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM PENGUKURAN DAN PEMERATAAN SIRKULASI UDARA DALAM RUANGAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Study of seawater intrusion in deep aquifers of semarang coast using natural isotopes and hydrochemicals",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85073739959&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Indonesian Journal on Geoscience",
+   "tahun": 2019,
+   "sitasi": 10,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Wijatna A.B.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The study of the effects of the ultraviolet radiation on tofu as a skin tissue mimicking material",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85062029359&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Engineering Science and Technology",
+   "tahun": 2019,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Wijatna A.B.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "#PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Determination LMWL Wonosobo Area by Using Nuclear Technology, Case Study: Hydrogeology Study for Aqua Danone CSR Program",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051037103&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Budhie Wijatna A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Approach to Topographic Map, Hydrogeological and Environmental Isotopes Analysis to Delineation of Watersheds in Drought-prone Areas",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051059498&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Budhie Wijatna A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "METODE MEMVERIFIKASI PENDEKATAN TOPOGRAFI, GEOLOGI DANHIDROGEOLOGI DENGAN METODE PERUNUT HIDROISOTOPDALAM MENENTUKAN DAERAH RESAPAN AIRTANAH",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00201808759",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PEMETAAN DAN KONSERVASI AIR-TANAH DENGAN PERUNUT HIDROISOTOP UNTUK MENINGKATKAN KETERSEDIAAN AIR BERSIH SECARA BERKELANJUTAN DI DAERAH RAWAN KEKERINGAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 143.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Rencana Induk Penerapan Sistem Peringatan Dini Terpadu Bahaya Bencana di Daerah Istimewa Yogyakarta (Aktifitas Gunung Merapi, Gempa Bumi, Tsunami, Tanah Longsor dan Perubahan Cuaca Ekstrim)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 150.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "NUCLEAR SCHOOL UNTUK SISWA SMA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI PEMASANGAN SISTEM PERINGATAN DINI BAHAYA BENCANA AKIBAT PERUBAHAN CUACA EKSTRIM DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "WORKSHOP UNTUK MEMBANGUN PERSEPSI DAN DISEMINASI TEKNOLOGI NUKLIR OLEH GURU SLTA DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 14.967.500",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Rencana Induk Penerapan Sistem Peringatan Dini Terpadu Bahaya Bencana di Daerah Istimewa Yogyakarta (Aktifitas Gunung Merapi, Gempa Bumi, Tsunami, Tanah Longsor dan Perubahan Cuaca Ekstrim)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 305.333.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "NUCLEAR SCHOOL BAGI SISWA SMA KECAMATAN DEPOK SLEMAN, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PENDIDIKAN )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI BERDASARKAN FLUKTUASI LEVEL AIR TANAH DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( MITIGASI BENCANA )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN DAN KONSERVASI AIRTANAH DENGAN PERUNUT HIDROISOTOP UNTUK MENINGKATKAN KETERSEDIAAN AIR BERSIH SECARA BERKELANJUTAN DI DAERAH RAWAN KEKERINGAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 187.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Penentuan Titik Angkat Air dan Penerapan Sistem Pengangkatan Air Dari Sungai Bawah Tanah Di Kawasan Karst Kabupaten Gunungkidul Untuk Daerah Rawan Ketersediaan Air",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( HI-LINK )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 235.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Penentuan Titik Angkat Air dan Penerapan Sistem Pengangkatan Air Dari Sungai Bawah Tanah Di Kawasan Karst Kabupaten Gunungkidul Untuk Daerah Rawan Ketersediaan Air",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( HI-LINK )",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 250.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT PESISIR MELALUI PENGEMBANGAN POTENSI PERTANIAN, PERIKANAN, KEHUTANAN DAN UMKM DI DESA CATURHARJO, KECAMATAN PANDAK, KAB. BANTUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 7.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Penentuan Titik Angkat Air dan Penerapan Sistem Pengangkatan Air Dari Sungai Bawah Tanah Di Kawasan Karst Kabupaten Gunungkidul Untuk Daerah Rawan Ketersediaan Air",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( HI-LINK )",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 200.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Rancang Bangun Sistem Informasi dan Pemantauan Dini Jarak Jauh terhadap Bahaya Bencana di Sekitar Gunung Berapi",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 73.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PROGRAM PELATIHAN DAN PEMBERDAYAAN SUMBER DAYA MANUSIA UNTUK MEWUJUDKAN MASYARAKAT YANG BERWAWASAN LINGKUNGAN DAN SADAR AKAN POTENSI WISATA DI DESA LABUHAN HAJI, KECAMATAN LABUHAN HAJI, KAB. LOMBOK TIMUR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2012,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 51.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  }
+ ]
+}

@@ -2,6 +2,146 @@
  "tahun": 2010,
  "entri": [
   {
+   "judul": "Quantitative low-cost webcam-based microscopy",
+   "tahun": 2010,
+   "kategori": "Jurnal Internasional",
+   "venue": "Optical Engineering",
+   "kuartil": "Q2",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-79953890396&origin=resultslist",
+   "sitasi": 10,
+   "kreator": "Parikesit G.O.F.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Forward modeling of seabed logging with controlled source electromagnetic method using multilayer perceptron",
+   "tahun": 2010,
+   "kategori": "Prosiding Internasional",
+   "venue": "2010 IEEE Asia Pacific Conference on Applied Electromagnetics Apace 2010 Proceedings",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-79953048315&origin=resultslist",
+   "sitasi": 3,
+   "kreator": "Arif A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "Geophysical inversion using radial basis function",
+   "tahun": 2010,
+   "kategori": "Prosiding Internasional",
+   "venue": "2010 International Conference on Intelligent and Advanced Systems Icias 2010",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-79952757513&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Arif A.",
+   "dosen": [
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif"
+    }
+   ]
+  },
+  {
+   "judul": "Influence resistance on human health",
+   "tahun": 2010,
+   "kategori": "Prosiding Internasional",
+   "venue": "Proceedings of SPIE the International Society for Optical Engineering",
+   "kuartil": "Q3",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-77953757296&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Abdul Harits M.",
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "ANALISIS TRANSIEN PADA PASSIVE COMPACT MOLTEN SALT REACTOR (PCMSR)",
+   "tahun": 2010,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 12, No 2 (2010): Juni 2010",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567347",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "OPTIMASI GEOMETRI TERAS REAKTOR DAN KOMPOSISI BAHAN BAKAR BERBENTUK BOLA PADA DESAIN HIGH TEMPERATURE FAST REACTOR (HTFR)",
+   "tahun": 2010,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 12, No 2 (2010): Juni 2010",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567315",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Profil Kadar Kolagen Kulit dan Tulang Tikus Wistar pada Berbagai Umur yang Mendapat Perlakuan Stres Oksidatif Hiperkolesterolemia dan Oleoresin Kulit Batang Kayu Manis (Cinnamomum sp)",
+   "tahun": 2010,
+   "kategori": "Jurnal Nasional",
+   "venue": "Bioma : Berkala Ilmiah Biologi Vol. 12, No. 2, Tahun 201056-62",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1405970",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
    "judul": "ROBUST SPECTRAL MODEL FOR LOW METAL CONCENTRATION MEASUREMENT IN AQUEOUS SOLUTION REVEALS THE IMPORTANCE OF WATER ABSORBANCE BANDS",
    "tahun": 2010,
    "kategori": "Jurnal Nasional",
@@ -18,6 +158,126 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Rancang Bangun Sistem Pengukur Curah Hujan Jarak-Jauh Real Time Sebagai Peringatan Banjir Lahar Dingin",
+   "tahun": 2010,
+   "kategori": "Jurnal Nasional",
+   "venue": "Forum Teknik Vol 33, No 3 (2010)",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2327764",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Grafika komputer dengan borland C++ Builder Professional",
+   "tahun": 2010,
+   "kategori": "Buku",
+   "venue": "Graha Ilmu",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9789797563998",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN DAN PENINGKATAN POTENSI MASYARAKAT MELALUI PEMBANGUNAN SISTEM DISTRIBUSI AID DESA SUMBEGIRI (TAHAP II) DI DESA SUMBERGIRI, KECAMATAN PONJONG, KAB. GUNUNG KIDUL",
+   "tahun": 2010,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT MENUJU DESA MANDIRI ENERGI BERBASIS POTENSI LOKAL DI DESA DALEMAN KEC. TULUNG, KAB. KLATEN, JATENG DI DESA DALEMAN, KECAMATAN TULUNG, KAB. KLATEN",
+   "tahun": 2010,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 10.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    }
+   ]
+  },
+  {
+   "judul": "PENDISTRIBUSIAN DAN PENJERNIHAN AIR DI DESA GIRIHARJO, KECAMATAN PANGGANG, KABUPATEN GUNUNGKIDUL DI DESA GIRIHARJO , KECAMATAN PANGGANG, KAB. GUNUNG KIDUL",
+   "tahun": 2010,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "PENGELOLAAN SAMPAH BERKELANJUTAN DI DUSUN BABADAN KAB BANTUL DI DESA BANTUL, KECAMATAN BANTUL, KAB. BANTUL",
+   "tahun": 2010,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 7.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
     }
    ]
   }

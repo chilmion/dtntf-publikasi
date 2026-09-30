@@ -2,6 +2,66 @@
  "tahun": 2005,
  "entri": [
   {
+   "judul": "Fabrication of nanofluidic devices in glass with polysilicon electrodes",
+   "tahun": 2005,
+   "kategori": "Jurnal Internasional",
+   "venue": "Sensors and Actuators A Physical",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-24944441198&origin=resultslist",
+   "sitasi": 18,
+   "kreator": "Kutchoukov V.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Optical detection of electrokinetically manipulated single molecules in a nanofluidic chip",
+   "tahun": 2005,
+   "kategori": "Prosiding Internasional",
+   "venue": "Progress in Biomedical Optics and Imaging Proceedings of SPIE",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-21844466748&origin=resultslist",
+   "sitasi": 5,
+   "kreator": "Parikesit G.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
+   "judul": "Numerical simulation of electrokinetic force fields for particle manipulation and sorting in a branched-u-turn 2D-like nanofluidic device",
+   "tahun": 2005,
+   "kategori": "Prosiding Internasional",
+   "venue": "Micro Total Analysis Systems Proceedings of Microtas 2005 Conference 9th International Conference on",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84902491890&origin=resultslist",
+   "sitasi": 0,
+   "kreator": "Parikesit G.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    }
+   ]
+  },
+  {
    "judul": "PEMANFAATAN POLISTIRENA, KERTAS BEKAS DAN TEPUNG MINERAL SILIKA (SIO2) SEBAGAI BAHAN PENGISI PEMBUATAN FIBER BOARD",
    "tahun": 2005,
    "kategori": "Jurnal Nasional",
@@ -18,6 +78,26 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Mekanikal Elektrikal Lanjutan",
+   "tahun": 2005,
+   "kategori": "Buku",
+   "venue": "Andi Offset",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": "9797630749",
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   }

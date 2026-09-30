@@ -1,0 +1,541 @@
+{
+ "slug": "yudi-utomo-imardjoko",
+ "sinta_id": "6644106",
+ "nama": "Yudi Utomo Imardjoko",
+ "nama_sinta": "YUDI UTOMO IMARDJOKO",
+ "gelar": "Ir., M.Sc., Ph.D.",
+ "jabatan": null,
+ "email": "yudiui@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/yudiutomo-imardjokoa.jpg",
+ "diperbarui": "2026-09-30T17:17:30+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644106",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644106/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=cDzaYR0AAAAJ"
+ },
+ "skor": {
+  "overall": 241,
+  "tiga_tahun": 16,
+  "afiliasi": 241,
+  "afiliasi_tiga_tahun": 16
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 1996,
+    "jumlah": 2
+   },
+   {
+    "tahun": 1997,
+    "jumlah": 0
+   },
+   {
+    "tahun": 1998,
+    "jumlah": 0
+   },
+   {
+    "tahun": 1999,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2000,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2001,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2002,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2003,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2004,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2005,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2006,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2007,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2008,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2009,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2010,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2011,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 1
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 2
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 3
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 3
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 6,
+   "sitasi": 8,
+   "dokumen_disitasi": 2,
+   "hindex": 1,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 6,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 8,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 1,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 1,
+  "paten": 1,
+  "ppm": 7,
+  "buku": 0,
+  "penelitian": 0
+ },
+ "per_sumber": {
+  "scopus": 8,
+  "paten": 1,
+  "ppm": 7
+ },
+ "subjects": [
+  "Innovation Policy",
+  "Public Service Innovation",
+  "Public Sector innovation"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 1996,
+   "publikasi": 2,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2000,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2015,
+   "publikasi": 1,
+   "sitasi": 7
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 1
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 2
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Progress in Nuclear Energy",
+   "jumlah": 2
+  },
+  {
+   "nama": "High Level Radioactive Waste Management Proceedings of the Annual International Conference",
+   "jumlah": 2
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Nuclear Security",
+   "jumlah": 1
+  },
+  {
+   "nama": "E3s Web of Conferences",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Environmental Radioactivity",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Improving the DiD concept in nuclear energy technology to eliminate the potential for NPP disasters through an environmental approach",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85163581005&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Santosa H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PENYUSUNAN MODUL DASAR-DASAR PENGELOLAAN LIMBAH RADIOAKTIF PADA KEJADIAN KEAMANAN NUKLIR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "13 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NPP: Protecting the environment",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85146759762&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Santosa H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Reaktor Nuklir Mikro Sederhana (RNMS)",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202005319",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "SOSIALISASI TEKNIK NUKLIR UNTUK KALANGAN PEMUKA AGAMA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Source term estimates of radioxenon released from the BaTek medical isotope production facility using external measured air concentrations",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84934953582&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Environmental Radioactivity",
+   "tahun": 2015,
+   "sitasi": 7,
+   "urutan_penulis": "4 of 10",
+   "kreator": "Eslinger P.W.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Radioactive releases from nuclear waste repository in the tropical climate environment",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0034513644&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Progress in Nuclear Energy",
+   "tahun": 2000,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Imardjoko Y.U.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Radioactive releases from nuclear waste repository in the tropical climate environment",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0034513644&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Progress in Nuclear Energy",
+   "tahun": 2000,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Imardjoko Y.U.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Performance assessment modeling of the proposed Genting Island repository facility",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0029734209&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "High Level Radioactive Waste Management Proceedings of the Annual International Conference",
+   "tahun": 1996,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Imardjoko Y.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Performance assessment modeling of the proposed Genting Island repository facility",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0029734209&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "High Level Radioactive Waste Management Proceedings of the Annual International Conference",
+   "tahun": 1996,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Imardjoko Y.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

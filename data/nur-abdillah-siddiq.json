@@ -1,0 +1,1199 @@
+{
+ "slug": "nur-abdillah-siddiq",
+ "sinta_id": "6727271",
+ "nama": "Nur Abdillah Siddiq",
+ "nama_sinta": "NUR ABDILLAH SIDDIQ",
+ "gelar": "Ir., S.T., Dr.",
+ "jabatan": null,
+ "email": "nur.a.s@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/WhatsApp-Image-2024-08-01-at-11.44.11-1-e1723223714755.jpeg",
+ "diperbarui": "2026-09-30T17:02:38+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6727271",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6727271/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=IOGmIyQAAAAJ"
+ },
+ "skor": {
+  "overall": 812,
+  "tiga_tahun": 248,
+  "afiliasi": 812,
+  "afiliasi_tiga_tahun": 248
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2014,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 4
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 5
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 7
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 6
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 12
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 11
+   },
+   {
+    "nama": "Others",
+    "jumlah": 1
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 24,
+   "sitasi": 82,
+   "dokumen_disitasi": 18,
+   "hindex": 5,
+   "i10index": 3,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 41,
+   "sitasi": 128,
+   "dokumen_disitasi": 26,
+   "hindex": 6,
+   "i10index": 3,
+   "gindex": 2
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 24,
+  "publikasi_garuda": 2,
+  "sitasi_scopus": 82,
+  "sitasi_scholar": 128,
+  "hindex_scopus": 5,
+  "hindex_scholar": 6,
+  "hindex_terdaftar": 5,
+  "paten": 3,
+  "ppm": 19,
+  "buku": 1,
+  "penelitian": 14
+ },
+ "per_sumber": {
+  "scopus": 23,
+  "garuda": 2,
+  "buku": 1,
+  "paten": 3,
+  "ppm": 19,
+  "penelitian": 14
+ },
+ "subjects": [
+  "Smart Windows",
+  "Optical Sensor",
+  "Monitoring System"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2014,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 2,
+   "sitasi": 13
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 17
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 15
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 4,
+   "sitasi": 13
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 4,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 3,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 10
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 2,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 5,
+   "sitasi": 4
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 6
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 6
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 6
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Journal of Physics Conference Series",
+   "jumlah": 4
+  },
+  {
+   "nama": "Proceedings 2017 International Seminar on Sensor Instrumentation Measurement and Metrology Innovatio",
+   "jumlah": 2
+  },
+  {
+   "nama": "Journal of Green Building",
+   "jumlah": 1
+  },
+  {
+   "nama": "South African Journal of Chemical Engineering",
+   "jumlah": 1
+  },
+  {
+   "nama": "Sustainable Civil Infrastructures",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Studies in Science and Engineering",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Molecular Graphics and Modelling",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Review on Modelling and Simulations",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Medicinal and Pharmaceutical Chemistry Research",
+   "jumlah": 1
+  },
+  {
+   "nama": "Wood Material Science and Engineering",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Synthesis and application of modified waste acropora coral skeletons for Pb(II) adsorption: A bead adsorbent perspective",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105023322885&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "South African Journal of Chemical Engineering",
+   "tahun": 2026,
+   "sitasi": 2,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Wijaya A.R.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The Potential of Transparent Wood Biocomposites for Sustainable Acoustics Panel Membrane",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105033618816&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Studies in Science and Engineering",
+   "tahun": 2026,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Maharani D.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Hydration structure and energetic signatures of hemidirected- and holodirected-like Motifs in aqueous Pb2+[jls-end-space/]: A SCAN–QMCF–MD and DLPNO–CCSD(T) study",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105033155079&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Molecular Graphics and Modelling",
+   "tahun": 2026,
+   "sitasi": 1,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Prasetyo N.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "ENERGY OPTIMIZATION IN BUILDINGS USING IOT-INTEGRATED POLYMER-DISPERSED LIQUID CRYSTAL SMART WINDOWS: PERFORMANCE EVALUATION ACROSS CLIMATES",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105048992424&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Green Building",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Design and Construction of Measurement Device for Ventilation Rate and Airflow Direction in Living Space",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039205308&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sustainable Civil Infrastructures",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "6 of 7",
+   "kreator": "Sobirin I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "Numerical Investigation of Flow Distribution Performance Around Critical Pipe in Condenser with Airfoil Guide Vane Impingement Plate",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105020299399&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Review on Modelling and Simulations",
+   "tahun": 2025,
+   "sitasi": 3,
+   "urutan_penulis": "10 of 10",
+   "kreator": "Satrio D.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Advances in electrochemical sensor design using hybrid carbon nanotube composites for simultaneous detection of dopamine and uric acid",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85213397263&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Medicinal and Pharmaceutical Chemistry Research",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 8",
+   "kreator": "Zainul R.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PERANCANGAN DESAIN ANTENA PATCH CIRCULAR DENGAN CIRCULAR SLOT MENGGUNAKAN DEFECTED GROUND STRUCTURE (DGS) UNTUK PENERAPAN IoT",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PFR )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 122.440.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "SISTEM PEMANTAUAN CUACA GENERIK UNTUK MENDUKUNG KETAHANAN WILAYAH RAWAN BENCANA",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HILIRISASI RISET PRIORITAS SKEMA SINERGI ( SINERGI )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 138.240.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Pengembangan Panel Akustik Veneer Kayu Transparan Berbasis Membran Sebagai Bahan Partisi Bilik Wicara Untuk Pengujian Klinis Suara",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT-LP )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 255.980.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Delignified wood biocomposites as sustainable and transparent materials for passive cooling applications",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85166642839&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Wood Material Science and Engineering",
+   "tahun": 2024,
+   "sitasi": 5,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Hendinata L.K.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Assessing the Potential of Smart Windows for Energy Efficiency in Tropical Buildings: A Review of Current Research and Future Directions",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208727107&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2024,
+   "sitasi": 5,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PEMBERDAYAAN ORANG TUA TERHADAP PENINGKATAN KESEHATAN GIGI DAN MULUT ANAK-ANAK GERAKAN ORANG TUA ASUH (GOTA) BAITUL AMIN MUNDU SAREN TEMPEL DEPOK SLEMAN DIY MELALUI PEMANFAATAN PROGRAM DENTOPORT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "TEKNOLOGI TEPAT GUNA ( TTG )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SURVEI TEMPAT PENGOLAHAN SAMPAH TERPADU DI KOTA YOGYAKARTA (TPST NITIKAN, TPST KRANON, DAN TPST KARANGMIRI)",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "APLIKASI SENSOR ELEKTROKIMIA MODIFIKASI ORGANOLOGAM UNTUK DETEKSI ION LOGAM AIR",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "KOMPETITIF ( RKI C )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 75.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENGEMBANGAN INOVIA \"INNOVATION OF VIEW AND AUDITORY\" SEBAGAI ALAT BANTU UNTUK MENGALIHKAN RASA TAKUT ANAK SAAT MENJALANI PERAWATAN GIGI BERBASIS VIRTUAL REALITY",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "DANA PADANAN ( PADANAN )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 274.504.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Rancang Bangun Sistem Akuisisi Data dan Komunikasi Data Peringatan Dini Bencana Menggunakan Teknologi Hibrid Frekuensi Radio, Teknologi LoRa dengan Protokol LoRaWan dan Teknologi 4G",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PTB )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 393.080.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "RANCANG BANGUN SISTEM AKUISISI DATA DAN KOMUNIKASI DATA PERINGATAN DINI BENCANA MENGGUNAKAN TEKNOLOGI HIBRID FREKUENSI RADIO, TEKNOLOGI LORA DENGAN PROTOKOL LORAWAN DAN TEKNOLOGI 4G",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "DRTPM PT TAHUN 2024 ( DRTPM-PT )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 393.080.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Looking for green building literacy in Indonesia: Where are we now? A survey on undergraduate students",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161590642&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Real Time, Portable and Low-Cost Ultraviolet (UV) Sensor: Measuring the Solar UV Index for Sunbathing Safety",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85175096279&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the 2023 International Conference on Instrumentation Control and Automation Ica 2023",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Passive Window Energy Performance in Buildings: Modeling of Apartment Buildings in Indonesia",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/3648098",
+   "sumber": "garuda",
+   "venue": "Journal of Artificial Intelligence in Architecture Vol. 2 No. 2 (2023): Artificial Intelligence for Enhancing Building Performance, Design, and Analysi 1-12",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 5",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.24002/jarina.v2i2.6729",
+   "akreditasi": "Sinta 4",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "INTEGRATED SMART VERTICAL HIDROPONIC FARMING BERBASIS LIGHT EMITTING DIODE 300 NM UNTUK MENINGKATKAN PRODUKTIVITAS KELOMPOK WANITA TANI TUWUH MAKMUR DI PADUKUHAN SANTREN, KELURAHAN CATURTUNGGAL, KABUPATEN SLEMAN DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PROGRAM HIBAH PEMBUATAN CONTOH PRODUK UNTUK PENGABDIAN KEPADA MASYARAKAT KPFT 2023 ( HD )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN. STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KECAMATAN NGAGLIK, KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "OPPORTUNISTIC INDOOR LOCALIZATION SYSTEM",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PROGRAM PENINGKATAN KOMPETENSI DOKTOR TAHUN 2035 ( KD )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 65.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "FABRIKASI JENDELA TERMOKROMIK BERBASIS KAYU MAHONI TRANSPARAN SEBAGAI KOMPONEN PENGHEMAT ENERGI DAN PENYERAP DENGUNG PADA BANGUNAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "SCALE-UP LIVE JET (SALIVA EJECTOR PORTABLE BUATAN DALAM NEGERI)",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "ADB PRIME STEP ( IG )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 250.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "INTEGRATED SMART VERTICAL HIDROPONIC FARMING BERBASIS LIGHT EMITTING DIODE 300 NM UNTUK MENINGKATKAN PRODUKTIVITAS KELOMPOK WANITA TANI TUWUH MAKMUR DI PADUKUHAN SANTREN, KELURAHAN CATURTUNGGAL, KABUPATEN SLEMAN DIY",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PEMBUATAN CONTOH PRODUK BERPOTENSI UNTUK PENG ABDIAN KEPADA MASYARAKAT KPFT ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Ruang Pengukur Gas Rumah Kaca Pada Ternak Ruminansia Berbasis Internet of Things (IOT)",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202206962",
+   "jenis_paten": "Paten Sederhana",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Jendela Cerdas (Smart Windows): Deskripsi Teknologi dan Penghematan pada Bangunan",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian UGM",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202228379",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "NOTA KESEPAKATAN BERSAMA ANTARA PT BANK BTPN SYARIAH DAN UNIVERSITAS GADJAH MADA TENTANG PENDIDIKAN, PENELITIAN, DAN PENGABDIAN KEPADA MASYARAKAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "IMPLEMENTASI AUTOMATED MAGNETIZED WATER DEVICE UNTUK PENINGKATKAN KUALITAS TANAMAN DAN PRODUKSI ANGGUR DI UKM JOGJA ANGGUR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI KESADARAN HEMAT ENERGI SEJAK DINI PADA SISWA DAN GURU TAMAN KANAK-KANAK DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU PRAKTIKUM PERCOBAAN FISIKA DARI ALAT DAN BAHAN SEHARI-HARI UNTUK TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "FABRIKASI JENDELA HEMAT ENERGI DENGAN MATERIAL BIOKOMPOSIT KAYU LOKAL SEBAGAI KOMPONEN PENDINGINAN PASIF PADA BANGUNAN",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH PENELITIAN FT ( HIBAH FT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Rancang Bangun Sistem UV Gate untuk Desinfeksi",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 155.484.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Teaching optics in Covid-19 pandemic through project-based learning",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85103150411&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Physics Education",
+   "tahun": 2021,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Flexible and Low-Cost Fabrication of Optical Waveguides Based on Sno2 for Passive Optical Devices",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85103823353&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2021,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Asnawi",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Random Forest-based Fingerprinting Technique for Device-free Indoor Localization System",
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2274595",
+   "sumber": "garuda",
+   "venue": "Indonesian Journal of Computing, Engineering, and Design (IJoCED) Vol. 3 No. 2 (2021): IJoCED 79-96",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 4",
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "DOI: 10.35806/ijoced.v3i2.172",
+   "akreditasi": "Sinta 3",
+   "kategori": "Jurnal Nasional"
+  },
+  {
+   "judul": "Jendela cerdas (smart windows) : deskripsi teknologi dan potensi penghematan pada bangunan",
+   "url": null,
+   "sumber": "buku",
+   "venue": "Gadjah Mada University Press",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Sleman",
+   "isbn": "9786233590570",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "SISTEM STERILISASI RUANGAN MENGGUNAKAN RADIASI SINAR ULTRAVIOLET MELALUI SIRKULASI UDARA PIPA SPIRAL",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : S00202109838",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "PENERAPAN IRIGASI LAHAN PERTANIAN BERBASIS ENERGI SURYA DI KABUPATEN BANTUL TAHUN 2021",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Rancang Bangun Sistem UV Gate untuk Desinfeksi",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( PT )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 126.420.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "All-Optical Humidity Sensor Using SnO2 Nanoparticle Drop Coated on Straight Channel Optical Waveguide",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85069053640&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Photonic Sensors",
+   "tahun": 2020,
+   "sitasi": 10,
+   "urutan_penulis": "1 of 6",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Optical Spectrum of Uncladded Fiber Bragg Grating for Glucose Concentration Measurement",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85089074592&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2020,
+   "sitasi": 3,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Low-cost and Simple Configuration Device-free Indoor Localization: A Review",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85128324437&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2020 6th International Conference on Science and Technology Icst 2020",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Uncladded fiber bragg grating etched with nitric acid for glucose concentration measurement",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85085116963&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Microwave and Optical Technology",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "C-band tunable performance of passively Q-switched erbium-doped fiber laser using Tin(IV) oxide as a saturable absorber",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85062362232&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Optics Communications",
+   "tahun": 2019,
+   "sitasi": 10,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Simple Glucose Measurement System Based on Uncladded Fiber Bragg Grating Etched with Nitric Acid",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85078126409&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2019,
+   "sitasi": 5,
+   "urutan_penulis": "4 of 6",
+   "kreator": "Asnawi",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Tin(IV) oxide nanoparticles as a saturable absorber for a Q-switched erbium-doped fiber laser",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85056094356&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Laser Physics",
+   "tahun": 2018,
+   "sitasi": 17,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Siddiq N.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "All-optical logic gates based optimized XY-branch waveguide utilizing SnO2 nonlinear material",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85043478006&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2017 International Seminar on Sensor Instrumentation Measurement and Metrology Innovatio",
+   "tahun": 2017,
+   "sitasi": 8,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Siddiq N.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "All-optical logic gates in directional coupler waveguide consisting of nonlinear material",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85043475382&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2017 International Seminar on Sensor Instrumentation Measurement and Metrology Innovatio",
+   "tahun": 2017,
+   "sitasi": 5,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Khoiro M.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The rule of carrier gas flow rate to Li+ diffusivity of LiFePo4 particles as lithium battery application",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84919666843&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2013 International Conference on Renewable Energy and Sustainable Energy Icrese 2013",
+   "tahun": 2014,
+   "sitasi": 1,
+   "urutan_penulis": "6 of 8",
+   "kreator": "Halim A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

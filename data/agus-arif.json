@@ -1,0 +1,843 @@
+{
+ "slug": "agus-arif",
+ "sinta_id": "6017225",
+ "nama": "Agus Arif",
+ "nama_sinta": "AGUS ARIF",
+ "gelar": "Ir., M.T.",
+ "jabatan": null,
+ "email": "agusarif@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/AGUS-ARIF-993x1024.jpg",
+ "diperbarui": "2026-09-30T16:32:21+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6017225",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6017225/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=XOGSOFAAAAAJ"
+ },
+ "skor": {
+  "overall": 413,
+  "tiga_tahun": 54,
+  "afiliasi": 413,
+  "afiliasi_tiga_tahun": 54
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2009,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2010,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2011,
+    "jumlah": 4
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 2
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 3
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 2
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 9
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 8
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 9
+   },
+   {
+    "nama": "Others",
+    "jumlah": 1
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 18,
+   "sitasi": 126,
+   "dokumen_disitasi": 12,
+   "hindex": 6,
+   "i10index": 6,
+   "gindex": 9
+  },
+  "scholar": {
+   "artikel": 20,
+   "sitasi": 202,
+   "dokumen_disitasi": 17,
+   "hindex": 7,
+   "i10index": 6,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 18,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 126,
+  "sitasi_scholar": 202,
+  "hindex_scopus": 6,
+  "hindex_scholar": 7,
+  "hindex_terdaftar": 6,
+  "paten": 0,
+  "ppm": 14,
+  "buku": 0,
+  "penelitian": 6
+ },
+ "per_sumber": {
+  "scopus": 18,
+  "ppm": 14,
+  "penelitian": 6
+ },
+ "subjects": [
+  "Machine Learning",
+  "Instrumentation & Control"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2009,
+   "publikasi": 1,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2010,
+   "publikasi": 2,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2011,
+   "publikasi": 4,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2015,
+   "publikasi": 1,
+   "sitasi": 12
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 2,
+   "sitasi": 41
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 3,
+   "sitasi": 27
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 2,
+   "sitasi": 15
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 2,
+   "sitasi": 25
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 3
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 2
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 9
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Iaes International Journal of Artificial Intelligence",
+   "jumlah": 2
+  },
+  {
+   "nama": "Neural Computing and Applications",
+   "jumlah": 2
+  },
+  {
+   "nama": "International Journal on Advanced Science Engineering and Information Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 1
+  },
+  {
+   "nama": "Jurnal Nasional Teknik Elektro",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings of 2016 1st International Conference on Biomedical Engineering Empowering Biomedical Tec",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings 2016 6th International Annual Engineering Seminar Inaes 2016",
+   "jumlah": 1
+  },
+  {
+   "nama": "Advances in Meteorology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Proceedings of the 2011 International Conference on Electrical Engineering and Informatics Iceei 201",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Soft sensor for the prediction of oxygen content in boiler flue gas using neural networks and extreme gradient boosting",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85137876623&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Neural Computing and Applications",
+   "tahun": 2023,
+   "sitasi": 23,
+   "urutan_penulis": "3 of 5",
+   "kreator": "Kurniawan E.D.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Finger vein identification system using capsule networks with hyperparameter tuning",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85167350870&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iaes International Journal of Artificial Intelligence",
+   "tahun": 2023,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Yulianto V.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "UJI KUALITAS BATERAI LITHIUM UNTUK KENDARAAN LISTRIK BERODA DUA YANG DILENGKAPI BATTERY MANAGEMENT SYSTEM 20S",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "The prediction of the oxygen content of the flue gas in a gasfired boiler system using neural networks and random forest",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85132422219&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iaes International Journal of Artificial Intelligence",
+   "tahun": 2022,
+   "sitasi": 15,
+   "urutan_penulis": "4 of 5",
+   "kreator": "Effendy N.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Moving Quick Response Codes Identification: System Performance Analysis and Maximization by Optimization of Illuminance and Exposure Time",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85125961850&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal on Advanced Science Engineering and Information Technology",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Sunarko M.S.Y.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMANFAATAN ENERGI ALTERNATIF GUNA MENGOPTIMALKAN KEGIATAN EKONOMI PADA SEKTOR PERTANIAN DAN PARIWISATA MASYARAKAT DESA JOJOGAN DAN SIKUNANG, KECAMATAN KEJAJAR, KABUPATEN WONOSOBO",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI GEMPA BUMI DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Classification of immature white blood cells in acute lymphoblastic leukemia L1 using neural networks particle swarm optimization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85112241971&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Neural Computing and Applications",
+   "tahun": 2021,
+   "sitasi": 22,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Agustin R.I.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Minimizing Power Peaking Factor of BEAVRS-based Reactor Using Polar Bear Optimization Algorithms",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122218609&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 3,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Amatullah A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Online Tuning Diagnosis of Proportional Integral Derivative Controller based on IEC 61499 Function Blocks",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105024706817&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Jurnal Nasional Teknik Elektro",
+   "tahun": 2021,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Nindyasari F.V.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PENGEMBANGAN PERANGKAT LUNAK TERBUKA UNTUK MEMUDAHKAN PEMILIHAN TURBIN ANGIN BERBASIS PYTHON",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENYUSUNAN PANDUAN UNTUK MEMILIH TURBIN ANGIN UNTUK PENERAPAN DI SUATU LOKASI BERDASARKAN KINERJANYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Internet reactor laboratory application design on android client devices",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85084145591&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Abimanyu A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PELATIHAN SISTEM KOMUNIKASI DAN TEKNIK INTERPRETASI DATA EARLY WARNING SYSTEM KEBENCANAAN BAGI MASYARAKAT DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KLASIFIKASI LEUKOSIT IMMATURE UNTUK KASUS ACUTE LYMPHOBLASTIC LEUKEMIA (ALL) L1 DENGAN METODE NEURAL NETWORKS",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN DESENTRALISASI ( RTA )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 50.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Integrasi Perangkat Lunak Pengolah Citra Berbasis Pengamatan Sel Darah Putih dengan Mikroskop Termodifikasi sebagai Sarana Diagnosis Awal Penyakit pada Manusia",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PDUPT )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 200.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PELATIHAN INTERPRETASI DATA EARLY WARNING SYSTEM KEBENCANAAN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 12.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Integrasi Perangkat Lunak Pengolah Citra Berbasis Pengamatan Sel Darah Putih dengan Mikroskop Termodifikasi sebagai Sarana Diagnosis Awal Penyakit pada Manusia",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PDUPT )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 105.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Classification of leukocyte images using K-Means Clustering based on geometry features",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85015104161&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2016 6th International Annual Engineering Seminar Inaes 2016",
+   "tahun": 2017,
+   "sitasi": 30,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Rosyadi T.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Localization of white blood cell images using Haar Cascade classifiers",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85017519429&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of 2016 1st International Conference on Biomedical Engineering Empowering Biomedical Tec",
+   "tahun": 2017,
+   "sitasi": 11,
+   "urutan_penulis": "4 of 6",
+   "kreator": "Maulana Budiman R.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "SOSIALISASI PEMASANGAN SISTEM PERINGATAN DINI BAHAYA BENCANA AKIBAT PERUBAHAN CUACA EKSTRIM DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI DAN PENDAMPINGAN IMPLEMENTASI KONSEP SUSTAINABLE GREEN BUILDING PADA BANGUNAN KOMERSIAL DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( INFRASTRUKTUR )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Peningkatan Fungsi Mikroskop sebagai Alat Penunjang Diagnosis Awal Berbasis Pengamatan Sel Darah Putih untuk Pemerataan Layanan Kesehatan Masyarakat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 150.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Artificial neural network modeling for spatial and temporal variations of pore-water pressure responses to rainfall",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84929352872&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Advances in Meteorology",
+   "tahun": 2015,
+   "sitasi": 12,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Mustafa M.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PEMBANGUNAN SOLAR WATER PUMPING SYSTEM (SWPS) DI DUSUN BANYUMENENG II, KECAMATAN PANGGANG, KABUPATEN GUNUNG KIDUL, YOGYAKARTA (TAHAP I: PERSIAPAN TEKNIS DAN SOSIALISASI) DI DESA GIRIHARJO, KECAMATAN PANGGANG, KAB. GUNUNGKIDUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Peningkatan Fungsi Mikroskop sebagai Alat Penunjang Diagnosis Awal Berbasis Pengamatan Sel Darah Putih untuk Pemerataan Layanan Kesehatan Masyarakat",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 108.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Forward modeling of seabed logging with controlled source electromagnetic method using radial basis function networks",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84857077958&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2011 National Postgraduate Conference Energy and Sustainability Exploring the Innovative Minds Npc 2",
+   "tahun": 2011,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Arif A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Radial basis function networks for modeling marine electromagnetic survey",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-80054030154&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the 2011 International Conference on Electrical Engineering and Informatics Iceei 201",
+   "tahun": 2011,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Arif A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Comparison on performance of radial basis function neural network and discriminant function in classification of CSEM data",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-81255205115&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Lecture Notes in Computer Science Including Subseries Lecture Notes in Artificial Intelligence and L",
+   "tahun": 2011,
+   "sitasi": 0,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Abdulkarim M.",
+   "kuartil": "Q2",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "Modeling marine electromagnetic survey with radial basis function networks",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84861790784&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Itb Journal of Information and Communication Technology",
+   "tahun": 2011,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Arif A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Forward modeling of seabed logging with controlled source electromagnetic method using multilayer perceptron",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-79953048315&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2010 IEEE Asia Pacific Conference on Applied Electromagnetics Apace 2010 Proceedings",
+   "tahun": 2010,
+   "sitasi": 3,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Arif A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Geophysical inversion using radial basis function",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-79952757513&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2010 International Conference on Intelligent and Advanced Systems Icias 2010",
+   "tahun": 2010,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Arif A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Geophysical inversion using multilayer perceptron",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-77952604172&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Scored2009 Proceedings of 2009 IEEE Student Conference on Research and Development",
+   "tahun": 2009,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Arif A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

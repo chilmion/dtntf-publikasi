@@ -1,0 +1,927 @@
+{
+ "slug": "susetyo-hario-putero",
+ "sinta_id": "6131321",
+ "nama": "Susetyo Hario Putero",
+ "nama_sinta": "SUSETYO HARIO PUTERO",
+ "gelar": "Ir., M.Eng.",
+ "jabatan": null,
+ "email": "susetyo@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2021/12/Susetyo.jpg",
+ "diperbarui": "2026-09-30T17:12:39+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6131321",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6131321/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=meNG-bEAAAAJ"
+ },
+ "skor": {
+  "overall": 517,
+  "tiga_tahun": 28,
+  "afiliasi": 517,
+  "afiliasi_tiga_tahun": 28
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2012,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 2
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 4
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 4
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 7
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 5
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 12,
+   "sitasi": 22,
+   "dokumen_disitasi": 5,
+   "hindex": 3,
+   "i10index": 1,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 61,
+   "sitasi": 687,
+   "dokumen_disitasi": 21,
+   "hindex": 7,
+   "i10index": 7,
+   "gindex": 2
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 12,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 22,
+  "sitasi_scholar": 687,
+  "hindex_scopus": 3,
+  "hindex_scholar": 7,
+  "hindex_terdaftar": 3,
+  "paten": 1,
+  "ppm": 27,
+  "buku": 2,
+  "penelitian": 1
+ },
+ "per_sumber": {
+  "scopus": 12,
+  "buku": 2,
+  "paten": 1,
+  "ppm": 27,
+  "penelitian": 1
+ },
+ "subjects": [
+  "Pengelolaan Limbah Radioaktif",
+  "Keamanan Nuklir"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2012,
+   "publikasi": 2,
+   "sitasi": 5
+  },
+  {
+   "tahun": 2013,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2015,
+   "publikasi": 3,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 1,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 1,
+   "sitasi": 12
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 2,
+   "sitasi": 1
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 4
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 4
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "jumlah": 4
+  },
+  {
+   "nama": "Gadjah Mada University Press",
+   "jumlah": 2
+  },
+  {
+   "nama": "Chemosphere",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nuclear Engineering and Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nuclear Engineering and Design",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Nuclear Security",
+   "jumlah": 1
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 1
+  },
+  {
+   "nama": "Arpn Journal of Engineering and Applied Sciences",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Nuclear Engineering and Radiation Science",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nuclear Engineering International",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Phytoremediation of cesium-contaminated soils using Sorghum bicolor, Albizia falcataria, Amaranthus viridis, and Vetiveria zizanioides in tropical environments",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105029766098&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Technology",
+   "tahun": 2026,
+   "sitasi": 1,
+   "urutan_penulis": "16 of 21",
+   "kreator": "Hidayati T.H N.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Phytoremediation performance of various tropical plant species for environmental remediation of high 137Cs contaminated soils: A case study of Batan Indah soil",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105045922678&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Chemosphere",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "9 of 24",
+   "kreator": "Nurliati G.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "ROADSHOW SOSIALISASI \"BERANI BICARA NUKLIR: FAKTA, MANFAAT, RISIKO, DAN MASA DEPAN PLTN INDONESIA\"",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 20.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER KETAHANAN BUDAYA DALAM PEMBINAAN WAWASAN KEBANGSAAN BAGI MAHASISWA PENERIMA BEASISWA AFIRMASI PENDIDIKAN TINGGI (ADIK) DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Literature survey and analysis of phytoremediation strategies for Cs-137 decontamination",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85198541363&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Design",
+   "tahun": 2024,
+   "sitasi": 12,
+   "urutan_penulis": "8 of 26",
+   "kreator": "Nurliati G.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "NARASUMBER RAPAT KOORDINASI \"PENYUSUNAN MODUL INTEGRASI PELAPORAN PERALATAN ANNEX II PROTOKOL TAMBAHAN\" DI DIREKTORAT INSPEKSI INSTALASI DAN BAHAN NUKLIR (DIIBN) BAPETEN TAHUN 2024 DENGAN JUDUL \"TINJAUAN TENTANG SKRINING PERALATAN DWI-GUNA (DUAL-USE) BIDA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "REVIEWER ARTIKEL BERJUDUL \"NUCLEAR SECURITY RISK ASSESSMENT BASED ON SB 009-1 BATAN 2016\" DI JURNAL SAINS DAN TEKNOLOGI NUKLIR INDONESIA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "MODERATOR RAPAT KERJA TEKNIS PUSLITBANG POLRI TAHUN 2024 DENGAN TEMA \"PENGUATAN FUNGSI LITBANG POLRI YANG PRESISI DALAM MENDUKUNG PERCEPATAN TRANSFORMASI EKONOMI NASIONAL\"",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.200.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGUATAN KAPASITAS MASYARAKAT DALAM MENUNJANG WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KABUPATEN SLEMAN, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "DESA BINAAN ( DESBIN )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGUATAN KAPASITAS MASYARAKAT DALAM MENUNJANG WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KABUPATEN SLEMAN, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "DESA BINAAN ( DESBIN )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM DESA BINAAN PENGEMBANGAN BERKELANJUTAN WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KABUPATEN SLEMAN, DAERAH ISTIMEWA YOGYAKARTA TAHUN KE 2",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "DESA BINAAN ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN BERKELANJUTAN WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KAB SLEMAN DIY (TH KE 2)",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENANGGAP ACARA KNOWLEDGE SHARING WEBINAR \"CAPAIAN DAN TANTANGAN PENYIAPAN FASILITAS DISPOSAL LIMBAH RADIOAKTIF TINGKAT RENDAH DAN SEDANG DI INDONESIA\"",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KARAKTERISASI METAL ORGANIC FRAMEWORK (MOF) HKUST-1 PADA ADSORBSI LIMBAH RADIOAKTIF CESIUM-137 DAN STRONSIUM-90 METODE ALIR",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PENELITIAN ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 35.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Developing Nuclear Security Capacity of Indonesia's Police and Security Officer: Lessons from Universitas Gadjah Mada's Pilot Training",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85138773551&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Nuclear Security",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 15",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PENGEMBANGAN BEKELANJUTAN WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KABUPATEN SLEMAN, DAERAH ISTIMEWA YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 40.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN BERKELANJUTAN WISATA PENYEMBUHAN (HEALING TOURISM) DI DESA PAKEMBINANGUN, KAPANEWON PAKEM, KABUPATEN SLEMAN, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "DESA BINAAN ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 40.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENGEMBANGAN BERKELANJUTAN BERBASIS PEMBANGUNAN DESA PENYEMBUHAN DI DESA PAKEMBINANGUN KECAMATAN PAKEM KABUPATEN SLEMAN PROVINSI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 5.729.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER \"KAJIAN KEAMANAN NUKLIR DI LUAR KENDALI PENGAWASAN (MORC)\"",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Analysis of strontium isothermal adsorption using metal-organic frameworks [HKUST-1] based on variation of operating temperatures and variations of main initial concentration",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85083555507&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Rahman Y.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENYUSUNAN BUKU SAKU KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN TERKAIT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER KAJIAN DOKUMEN IAEA NST-016 DETECTION AT STATE BORDERS OF NUCLEAR AND OTHER RADIOACTIVE MATERIAL OUT OF REGULATORY CONTROL (DRAFT TEC GUIDANCE), PUSAT PENGKAJIAN SISTEM DAN TEKNOLOGI PENGAWASAN INSTALASI DAN BAHAN NUKLIR, BAPETEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TIM SUPERVISI-MONEV \"SUPERVISI PUSAT UNGGULAN IPTEK TAHUN 2019\"",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TIM SUPERVISI-MONEV FORUM EVALUASI KINERJA DAN FGD PENGUATAN KELEMBAGAAN PUSAT UNGGULAN IPTEK TAHUN 2019&QUOT;",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN 2019",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER \" FGD SINERGI DENGAN BALAI BESAR TEKNOLOGI PENCEGAHAN PENCEMARAN INDUSTRI\"",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER \"LAYANAN PENGEMBANGAN KAPABILITAS SDM KAJIAN\" OLEH P2STPFRZR - BAPETEN DALAM RANGKA EVALUASI SAFETY CASE DAN SAFETY ASSESSMENT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Utilization of tropical materials for ensuring the safety of strontium waste immobilization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85040553971&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Arpn Journal of Engineering and Applied Sciences",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Putero S.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 12.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Regulatory Framework for the Decommissioning of Indonesian Nuclear Facilities",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85046256981&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Nuclear Engineering and Radiation Science",
+   "tahun": 2017,
+   "sitasi": 4,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Utami S.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Integrating security issues in nuclear engineering curriculum in Indonesia: Classical vs policy approaches",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84959046128&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 6",
+   "kreator": "Putero S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Pengembangan UMKM: antara konseptual dan pengalaman praktis",
+   "url": null,
+   "sumber": "buku",
+   "venue": "Gadjah Mada University Press",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Yogyakarta",
+   "isbn": "9789794209806",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "MERAJUT PENGALAMAN : PENDIDIKAN UNTUK PEMBANGUNAN BERKELANJUTAN UGM",
+   "url": null,
+   "sumber": "buku",
+   "venue": "Gadjah Mada University Press",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "isbn": "9789794209635",
+   "kategori": "Buku"
+  },
+  {
+   "judul": "Developing nuclear education in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84896536619&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering International",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Putero S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Trade Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The challenges and opportunities in developing nuclear engineering education in indonesia after Fukushima accident",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84901716791&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Challenge in the public acceptance and cooperation on the verge of building the first nuclear power plant in indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84890072196&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2012,
+   "sitasi": 3,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The utilization of rice husk ash for strontium waste cementation processing",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84890078864&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2012,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Putero S.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT MENUJU DESA MANDIRI ENERGI BERBASIS POTENSI LOKAL DI DESA DALEMAN KEC. TULUNG, KAB. KLATEN, JATENG DI DESA DALEMAN, KECAMATAN TULUNG, KAB. KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2010,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Metode Pemadatan Limbah Beracun dan Berbahaya dengan Semen dan Serat Alami",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2002,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00200200739",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  }
+ ]
+}

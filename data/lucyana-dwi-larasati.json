@@ -1,0 +1,131 @@
+{
+ "slug": "lucyana-dwi-larasati",
+ "sinta_id": "6745153",
+ "nama": "Lucyana Dwi Larasati",
+ "nama_sinta": "LUCYANA DWI LARASATI",
+ "gelar": "S.T., M.S.",
+ "jabatan": null,
+ "email": "lucyana.d.l@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2021/12/Lucyana-Dwi-Larasati.jpeg",
+ "diperbarui": "2026-09-30T16:55:44+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745153",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6745153/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=3jBtICAAAAAJ"
+ },
+ "skor": {
+  "overall": 53,
+  "tiga_tahun": 5,
+  "afiliasi": 53,
+  "afiliasi_tiga_tahun": 5
+ },
+ "grafik": {
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 0
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 0
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 0
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 0
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 0
+  },
+  "scholar": {
+   "artikel": 5,
+   "sitasi": 35,
+   "dokumen_disitasi": 5,
+   "hindex": 3,
+   "i10index": 2,
+   "gindex": 7
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 0,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 0,
+  "sitasi_scholar": 35,
+  "hindex_scopus": 0,
+  "hindex_scholar": 3,
+  "hindex_terdaftar": 0,
+  "paten": 1,
+  "ppm": 0,
+  "buku": 0,
+  "penelitian": 0
+ },
+ "per_sumber": {
+  "paten": 1
+ },
+ "subjects": [],
+ "per_tahun": [],
+ "kuartil": [],
+ "venue_teratas": [],
+ "publikasi": [
+  {
+   "judul": "Sistem Monitoring Lingkungan untuk Ruang Huni Sehat Berbasis Aliran Sirkulasi Udara dan Aktivitas Penghuni",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : P00202110345",
+   "jenis_paten": "Paten",
+   "kategori": "Paten & HKI"
+  }
+ ]
+}

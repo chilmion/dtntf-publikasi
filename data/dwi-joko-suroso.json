@@ -1,0 +1,932 @@
+{
+ "slug": "dwi-joko-suroso",
+ "sinta_id": "6759738",
+ "nama": "Dwi Joko Suroso",
+ "nama_sinta": "DWI JOKO SUROSO",
+ "gelar": "Ir., S.T., M.Eng., Dr. Eng.",
+ "jabatan": null,
+ "email": "dwi.jokosuroso@ugm.ac.id",
+ "prodi": "S1 - Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Dwi-Joko-Suroso-802x1024.jpeg",
+ "diperbarui": "2026-09-30T16:42:58+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6759738",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6759738/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=XEn6sccAAAAJ"
+ },
+ "skor": {
+  "overall": 782,
+  "tiga_tahun": 284,
+  "afiliasi": 782,
+  "afiliasi_tiga_tahun": 284
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2011,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 6
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 9
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 3
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 4
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 5
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 12
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 14
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 14
+   },
+   {
+    "nama": "Others",
+    "jumlah": 1
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 29,
+   "sitasi": 231,
+   "dokumen_disitasi": 24,
+   "hindex": 9,
+   "i10index": 8,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 72,
+   "sitasi": 448,
+   "dokumen_disitasi": 44,
+   "hindex": 12,
+   "i10index": 16,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 5,
+   "sitasi": 11,
+   "dokumen_disitasi": 2,
+   "hindex": 1,
+   "i10index": 1,
+   "gindex": 1
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 29,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 231,
+  "sitasi_scholar": 448,
+  "hindex_scopus": 9,
+  "hindex_scholar": 12,
+  "hindex_terdaftar": 9,
+  "paten": 1,
+  "ppm": 15,
+  "buku": 0,
+  "penelitian": 2
+ },
+ "per_sumber": {
+  "scopus": 26,
+  "paten": 1,
+  "ppm": 15,
+  "penelitian": 2
+ },
+ "subjects": [
+  "Indoor Localization",
+  "Wireless Sensing",
+  "Channel Model",
+  "Robotics"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2011,
+   "publikasi": 2,
+   "sitasi": 50
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 2,
+   "sitasi": 12
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 3,
+   "sitasi": 58
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 2,
+   "sitasi": 28
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 6,
+   "sitasi": 42
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 6,
+   "sitasi": 19
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 1,
+   "sitasi": 5
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 3,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 4
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 4
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 5
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 11
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 3
+  },
+  {
+   "nama": "Sensors and Materials",
+   "jumlah": 2
+  },
+  {
+   "nama": "IEEE Access",
+   "jumlah": 2
+  },
+  {
+   "nama": "Icsec 2022 International Computer Science and Engineering Conference 2022",
+   "jumlah": 2
+  },
+  {
+   "nama": "Journal of Robotics and Control Jrc",
+   "jumlah": 2
+  },
+  {
+   "nama": "Journal Europeen Des Systemes Automatises",
+   "jumlah": 1
+  },
+  {
+   "nama": "Sustainable Civil Infrastructures",
+   "jumlah": 1
+  },
+  {
+   "nama": "IEEE Open Journal of the Communications Society",
+   "jumlah": 1
+  },
+  {
+   "nama": "2023 15th International Conference on Information Technology and Electrical Engineering Icitee 2023",
+   "jumlah": 1
+  },
+  {
+   "nama": "ACM International Conference Proceeding Series",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "PPG-ECG Validation of a 25 Hz Board-Level Photoplethysmography Sensor for Future Thermal Comfort Experiments Under Resting Low-Motion Conditions",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105046315987&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal Europeen Des Systemes Automatises",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "5 of 5",
+   "kreator": "Sari H.K.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Design and Construction of Measurement Device for Ventilation Rate and Airflow Direction in Living Space",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039205308&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sustainable Civil Infrastructures",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 7",
+   "kreator": "Sobirin I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Book Series",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "Dynamic Ensemble Learning With Received Signal Strength Transformation for Robust Multi-Floor Wi-Fi Indoor Localization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028885672&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Open Journal of the Communications Society",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Yuli Martin Adiyatma F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT MELALUI LINGKUNGAN SEHAT SERTA OPTIMALISASI POTENSI DESA BERBASIS KONDISI LOKAL DI DESA SARWODADI DAN DESA GIRITIRTA, KECAMATAN PEJAWARAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.400.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( RIKUB )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 792.413.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "EnSta-Fi: Ensemble Stacking-based Human Activity Recognition by Leveraging Channel State Information Amplitude in Wi-Fi Sensing",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105016906944&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sensors and Materials",
+   "tahun": 2025,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "GUEST LECTURER FOR MACHINE LEARNING AND DEEP LEARNING CLASS AT KMITL, THAILAND",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "WEBINAR KAPITA SELEKTA TELEKOMUNIKASI IEEE COMSOC INDONEISA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "MENJADI NARASUMBER \"OUTCOME BASED ASSESMENT\" DI UIN AR-RANIRY BANDA ACEH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "MENJADI NARASUMBER DALAM ACARA: \"SMART ENGAGEMENT IN CAMPUS LIFE\", MEMBANGUN KESIAPAN AKADEMIK DAN KEMATANGAN MENTAL MENUJU DUNIA PERKULIAHAN OLEH SMA YAYASAN PUPUK KALTIM, BONTANG.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 3.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN PEMBIMBING LAPANGAN KEGIATAN KKN-PPM UNIT 2025-JT020 DENGAN TEMA INTEGRASI PENGOLAHAN HASIL PERTANIAN DAN DIGITALISASI UMKM DALAM MEWUJUDKAN DESA YANG BERDAYA SAING TINGGI DI KECAMATAN PEJAWARAN, KABUPATEN BANJARNEGARA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 38.612.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Kompetitif Nasional ( RIKUB )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 873.646.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "C-MEL: Consensus-Based Multiple Ensemble Learning for Indoor Device-Free Localization Through Fingerprinting",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208976516&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Access",
+   "tahun": 2024,
+   "sitasi": 5,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "JURI PADA BABAK FINAL PERMITHA RESEARCH AWARDS 2024, THAILAND",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TLB and WC-TLB-MM: The Improved Min-Max Algorithms for Multi Targets Indoor Localization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85178024772&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Access",
+   "tahun": 2023,
+   "sitasi": 5,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Adiyatma F.Y.M.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Machine Learning-Based Multi-Room Indoor Localization Using Fingerprint Technique",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179883223&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2023 15th International Conference on Information Technology and Electrical Engineering Icitee 2023",
+   "tahun": 2023,
+   "sitasi": 5,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Adiyatma F.Y.M.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Regression-based Path Loss Model Correction to Construct Fingerprint Database for Indoor Localization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85169784578&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "ACM International Conference Proceeding Series",
+   "tahun": 2023,
+   "sitasi": 5,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Adiyatma F.Y.M.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Kalman filter for RSSI-based indoor positioning system with min-max technique",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179793889&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Dwiputranto M.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Implementation of Wi-Fi-based indoor positioning system: Challenges and future possibilities",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85179828522&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "3D range-based indoor localization by using only two beacons",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161474400&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "IMPLEMENTASI DAN OPERASI BANGUNAN CERDAS (DARING/ONLINE)",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.425.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDITORIAL TEAM JURNAL ELKHA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "ACADEMIC ADVANCEMENT & OPPORTUNITIES PARTNERSHIP WEBINAR: TRANSFORMASI DIGITAL, GENERATIVE ARTIFICIAL INTELLIGENCE (GAI), DAN PENDIDIKAN INDONESIA (DARING/ONLINE)",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Deep Generative Model-based RSSI Synthesis for Indoor Localization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85133321027&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "19th International Conference on Electrical Engineering Electronics Computer Telecommunications and",
+   "tahun": 2022,
+   "sitasi": 20,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Suroso D.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Fingerprint Database Enhancement using Spatial Interpolation for IoT-based Indoor Localization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85149705346&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Icsec 2022 International Computer Science and Engineering Conference 2022",
+   "tahun": 2022,
+   "sitasi": 11,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Martin Adiyatma F.Y.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "A Simulation-Based Study of Maze-Solving-Robot Navigation for Educational Purposes",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85124126861&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Robotics and Control Jrc",
+   "tahun": 2022,
+   "sitasi": 6,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Fahmi I.R.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "UHF RFID Tag Antenna-based Sensing for Non-destructive Monitoring of Frozen Meat Using the RSSI",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85140590544&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Itc Cscc 2022 37th International Technical Conference on Circuits Systems Computers and Communicatio",
+   "tahun": 2022,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Marindra A.M.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "IMPLEMENTATION OF RANGE-BASED AND RANGE-FREE 3D INDOOR LOCALIZATION IN MULTI-STORY BUILDING BASED ON RSSI",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85127777019&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Asean Engineering Journal",
+   "tahun": 2022,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Is Deep Diffusion Probabilistic Model Applicable for Fingerprint-based Indoor Localization?",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85149640394&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Icsec 2022 International Computer Science and Engineering Conference 2022",
+   "tahun": 2022,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Suroso D.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "EDUKASI ADAPTASI PENGHUNI PADA TUNTUTAN KESEHATAN DAN KESELAMATAN DALAM LINGKUNGAN KERJA/SEKOLAH SEBAGAI UPAYA MENUJU BLENDED LEARNING: STUDI KASUS TK ABA SE-SEDAYU",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PROGRAM HIBAH PENGABDIAN MASYARAKAT DTNTF 2021 ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Random forest and interpolation techniques for fingerprint-based indoor positioning system in un-ideal Environment",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85106567931&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Computing and Digital Systems",
+   "tahun": 2021,
+   "sitasi": 19,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Indoor Device-free Localization Using Received Signal Strength Indicator and Illuminance Sensor for Random-forest-based Fingerprint Technique",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122593385&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sensors and Materials",
+   "tahun": 2021,
+   "sitasi": 9,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Menuju Bangunan Zero Energy Indonesia",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Universitas Gadjah Mada Press",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202157096",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "EDUKASI ADAPTASI PENGHUNI PADA TUNTUTAN KESEHATAN DAN KESELAMATAN DALAM LINGKUNGAN KERJA/SEKOLAH SEBAGAI UPAYA MENUJU BLENDED LEARNING: STUDI KASUS TK ABA SE- SEDAYU",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Distance-based indoor localization system utilizing general path loss model and RSSI",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85106555065&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Robotics and Control Jrc",
+   "tahun": 2020,
+   "sitasi": 35,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Suroso D.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Fingerprint Database Enhancement by Applying Interpolation and Regression Techniques for IoT-based Indoor Localization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85127799476&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Emerging Science Journal",
+   "tahun": 2020,
+   "sitasi": 23,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Low-cost and Simple Configuration Device-free Indoor Localization: A Review",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85128324437&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2020 6th International Conference on Science and Technology Icst 2020",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The effects of orientation, window size, and lighting control to climate-based daylight performance and lighting energy demand on buildings in tropical area",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85107514770&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Building Simulation Conference Proceedings",
+   "tahun": 2019,
+   "sitasi": 11,
+   "urutan_penulis": "4 of 4",
+   "kreator": "Fela R.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Spatial aliasing effects on beamforming performance in large-spacing antenna array",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85088307075&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Communications in Science and Technology",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Suroso D.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Fingerprint-based technique for indoor localization in wireless sensor networks using Fuzzy C-Means clustering algorithm",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84857329363&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2011 International Symposium on Intelligent Signal Processing and Communications Systems the Decade",
+   "tahun": 2011,
+   "sitasi": 26,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Location fingerprint technique using Fuzzy C-Means clustering algorithm for indoor localization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84856887574&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "IEEE Region 10 Annual International Conference Proceedings TENCON",
+   "tahun": 2011,
+   "sitasi": 24,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Suroso D.J.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

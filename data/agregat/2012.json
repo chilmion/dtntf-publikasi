@@ -2,6 +2,70 @@
  "tahun": 2012,
  "entri": [
   {
+   "judul": "Textile-based microfluidics: modulated wetting, mixing, sorting, and energy harvesting",
+   "tahun": 2012,
+   "kategori": "Jurnal Internasional",
+   "venue": "Journal of the Textile Institute",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84866333872&origin=resultslist",
+   "sitasi": 19,
+   "kreator": "Parikesit G.",
+   "dosen": [
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit"
+    },
+    {
+     "slug": "kutut-suryopratomo",
+     "nama": "Kutut Suryopratomo"
+    }
+   ]
+  },
+  {
+   "judul": "A new approach to a maximum a posteriori-based kernel classification method",
+   "tahun": 2012,
+   "kategori": "Jurnal Internasional",
+   "venue": "Neural Networks",
+   "kuartil": "Q1",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84863860897&origin=resultslist",
+   "sitasi": 1,
+   "kreator": "Nopriadi",
+   "dosen": [
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi"
+    }
+   ]
+  },
+  {
+   "judul": "Passive Compact Molten Salt Reactor (PCMSR), modular thermal breeder reactor with totally passive safety system",
+   "tahun": 2012,
+   "kategori": "Prosiding Internasional",
+   "venue": "Aip Conference Proceedings",
+   "kuartil": "Q4",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84864763462&origin=resultslist",
+   "sitasi": 10,
+   "kreator": "Harto A.",
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
    "judul": "Challenge in the public acceptance and cooperation on the verge of building the first nuclear power plant in indonesia",
    "tahun": 2012,
    "kategori": "Prosiding Internasional",
@@ -16,8 +80,8 @@
    "kreator": "Putero S.H.",
    "dosen": [
     {
-     "slug": "widya-rosita",
-     "nama": "Widya Rosita"
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
     }
    ]
   },
@@ -36,8 +100,112 @@
    "kreator": "Putero S.",
    "dosen": [
     {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero"
+    },
+    {
      "slug": "widya-rosita",
      "nama": "Widya Rosita"
+    }
+   ]
+  },
+  {
+   "judul": "ANALISIS PENGENDALIAN DAYA REAKTOR PCMSR DENGAN LAJU ALIR PENDINGIN",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "JURNAL TEKNOLOGI REAKTOR NUKLIR TRI DASA MEGA Vol 14, No 2 (2012): Juni 2012",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1567286",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
+   "judul": "Analisis Proyeksi Kebutuhan Listrik Sektor Rumah Tangga Menggunakan Bottom Up Model (Studi Kasus : Kota Yogyakarta)",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 1 (2012) 47-52",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306869",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Desain Konseptual Safety Instrumented System pada Proses Penggilingan Batubara",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 80-89",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306840",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana"
+    }
+   ]
+  },
+  {
+   "judul": "Earthquake Mitigation: An Application of Wireless Sensor Networks",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 1 (2012) 27-33",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/1186297",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Improvements Glutation Levels in the Hippocampus of Aged and Oxidative-Stressed Rats by Supplementation of Alanine-Glutamine Dipeptide",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Sains Medika : Jurnal Kedokteran dan Kesehatan Vol 4, No 1 (2012): Januari-Juni 20121-12",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/2329313",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
     }
    ]
   },
@@ -82,6 +250,26 @@
    ]
   },
   {
+   "judul": "Pengaruh Bentuk dan Cacah Kubu Sirip pada Aliran di Dalam Pipa",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 90-95",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306846",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
+    }
+   ]
+  },
+  {
    "judul": "Pengenalan Pola Gerak Bibir Dalam Pengucapan Fonem Vokal Bahasa Indonesia",
    "tahun": 2012,
    "kategori": "Jurnal Nasional",
@@ -98,6 +286,50 @@
     {
      "slug": "faridah",
      "nama": "Faridah"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy"
+    }
+   ]
+  },
+  {
+   "judul": "Pengukuran Kekuatan dan Sudut Elevasi Pancaran Antena Omnidirectional",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 57-64",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306850",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Perancangan Sistem Pengangkatan Air Tenaga Surya di Kecamatan Tepus Kabupaten Gunungkidul",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 1 (2012) 34-41",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306860",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sihana",
+     "nama": "Sihana"
     }
    ]
   },
@@ -116,8 +348,212 @@
    "kreator": null,
    "dosen": [
     {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    },
+    {
      "slug": "faridah",
      "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "Potensi Energi Limbah Usaha Mikro Kecil dan Menengah di Kecamatan Ngemplak dan Nogosari Boyolali Jawa Tengah",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 1 (2012) 53-56",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306844",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "Proyeksi Permintaan Listrik Sektor Rumah Tangga dengan Menggunakan Model End-Use",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 101-104",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306859",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan"
+    }
+   ]
+  },
+  {
+   "judul": "Rancang Bangun Sistem Simulasi Denyut Nadi Pergelangan Tangan pada Vital Sign Simulator Sebagai Media Pembelajaran Keterampilan Medik Mahasiswa Kedokteran",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 65-72",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306856",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "Rancang Bangun Sistem Simulasi Pemeriksaan Suhu Tubuh pada Vital Sign Simulator untuk Pelatihan Keterampilan Medik Mahasiswa Kedokteran",
+   "tahun": 2012,
+   "kategori": "Jurnal Nasional",
+   "venue": "Teknofisika Vol 1, No 2 (2012) 73-79",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/306862",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "FILTER FREKUENSI RADIO KINERJA ULTRA TINGGI",
+   "tahun": 2012,
+   "kategori": "Paten & HKI",
+   "venue": "Jurusan Teknik Fisika Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno"
+    }
+   ]
+  },
+  {
+   "judul": "PERALATAN PENGUKUR PERMUKAAN JALAN TERHADAP ASPEK GUNCANGAN PADA KENDARAAN DENGAN MEMANFAATKAN TEKNOLOGI KOMPUTER",
+   "tahun": 2012,
+   "kategori": "Paten & HKI",
+   "venue": "Universitas Gadjah Mada",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": "Paten",
+   "dana": null,
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto"
+    }
+   ]
+  },
+  {
+   "judul": "PEMANFAATAN SUMBER DAYA ALAM BERDASARKAN ILMU PENGETAHUAN DAN TEKNOLOGI BERBASIS KEMASYARAKATAN DI DESA BATURSARI, CANDIROTO, TEMANGGUNG DI DESA BATURSARI, KECAMATAN CANDIROTO, KAB. TEMANGGUNG",
+   "tahun": 2012,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 17.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim"
+    }
+   ]
+  },
+  {
+   "judul": "PEMBENTUKAN USAHA MIKRO PRODUK OLAHAN KETELA SEBAGAI UPAYA PENINGKATAN KESEJAHTERAAN WARGA DESA GERBOSARI, KECAMATAN SAMIGALUH, KABUPATEN KULONPROGO, PROVINSI DAERAH ISTIMEWA YOGYAKARTA DI DESA GERBOSARI, KECAMATAN SAMIGALUH, KAB. KULON PROGO",
+   "tahun": 2012,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto"
+    }
+   ]
+  },
+  {
+   "judul": "PENINGKATAN KESEJAHTERAAN MASYARAKAT DESA PURWODADI, KECAMATAN TEPUS GUNUNGKIDUL MELALUI OPTIMASI SUMBER DAYA ALAM DAN ENERGI TERBARUKAN BERBASIS SUSTAINABLE DEVELOPMENT MENUJU DESA MANDIRI DAN EDUKATIF DI DESA PURWODADI, KECAMATAN TEPUS, KAB. GUNUNG KIDU",
+   "tahun": 2012,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 9.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan"
+    }
+   ]
+  },
+  {
+   "judul": "PROGRAM PELATIHAN DAN PEMBERDAYAAN SUMBER DAYA MANUSIA UNTUK MEWUJUDKAN MASYARAKAT YANG BERWAWASAN LINGKUNGAN DAN SADAR AKAN POTENSI WISATA DI DESA LABUHAN HAJI, KECAMATAN LABUHAN HAJI, KAB. LOMBOK TIMUR",
+   "tahun": 2012,
+   "kategori": "Pengabdian kepada Masyarakat",
+   "venue": "KKN-PPM ( PKM )",
+   "kuartil": null,
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": "Rp. 51.000.000",
+   "isbn": null,
+   "url": null,
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "agus-budhie-wijatna",
+     "nama": "Agus Budhie Wijatna"
     }
    ]
   }

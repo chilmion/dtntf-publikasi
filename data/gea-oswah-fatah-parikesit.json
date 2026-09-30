@@ -1,0 +1,1134 @@
+{
+ "slug": "gea-oswah-fatah-parikesit",
+ "sinta_id": "44178",
+ "nama": "Gea Oswah Fatah Parikesit",
+ "nama_sinta": "GEA OSWAH FATAH PARIKESIT",
+ "gelar": "S.T., M.Sc., Dr.",
+ "jabatan": null,
+ "email": "gofparikesit@ugm.ac.id",
+ "prodi": "S2 - Magister Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/01/Formal-LatarPutih-1024x1018.jpg",
+ "diperbarui": "2026-09-30T16:52:05+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/44178",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/44178/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=_vGK_P4AAAAJ"
+ },
+ "skor": {
+  "overall": 1268,
+  "tiga_tahun": 49,
+  "afiliasi": 1268,
+  "afiliasi_tiga_tahun": 49
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2003,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2004,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2005,
+    "jumlah": 4
+   },
+   {
+    "tahun": 2006,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2007,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2008,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2009,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2010,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2011,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 9
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 6
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 2
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 13
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 9
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 15
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 19
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 25
+   },
+   {
+    "nama": "Others",
+    "jumlah": 1
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 45,
+   "sitasi": 290,
+   "dokumen_disitasi": 37,
+   "hindex": 10,
+   "i10index": 11,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 77,
+   "sitasi": 407,
+   "dokumen_disitasi": 52,
+   "hindex": 11,
+   "i10index": 13,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 45,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 290,
+  "sitasi_scholar": 407,
+  "hindex_scopus": 10,
+  "hindex_scholar": 11,
+  "hindex_terdaftar": 10,
+  "paten": 0,
+  "ppm": 5,
+  "buku": 0,
+  "penelitian": 7
+ },
+ "per_sumber": {
+  "scopus": 41,
+  "ppm": 5,
+  "penelitian": 7
+ },
+ "subjects": [
+  "Physics",
+  "Engineering",
+  "Art",
+  "Education"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2003,
+   "publikasi": 1,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2004,
+   "publikasi": 1,
+   "sitasi": 3
+  },
+  {
+   "tahun": 2005,
+   "publikasi": 3,
+   "sitasi": 23
+  },
+  {
+   "tahun": 2007,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2008,
+   "publikasi": 1,
+   "sitasi": 52
+  },
+  {
+   "tahun": 2009,
+   "publikasi": 1,
+   "sitasi": 6
+  },
+  {
+   "tahun": 2010,
+   "publikasi": 1,
+   "sitasi": 10
+  },
+  {
+   "tahun": 2011,
+   "publikasi": 1,
+   "sitasi": 35
+  },
+  {
+   "tahun": 2012,
+   "publikasi": 1,
+   "sitasi": 19
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 1,
+   "sitasi": 10
+  },
+  {
+   "tahun": 2015,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 1,
+   "sitasi": 11
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 9,
+   "sitasi": 35
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 3,
+   "sitasi": 16
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 3,
+   "sitasi": 15
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 4,
+   "sitasi": 13
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 2,
+   "sitasi": 9
+  },
+  {
+   "tahun": 2022,
+   "publikasi": 3,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 2,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 11
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 6
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 8
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 14
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "International Journal of Arts and Technology",
+   "jumlah": 6
+  },
+  {
+   "nama": "Proceedings of Meetings on Acoustics",
+   "jumlah": 5
+  },
+  {
+   "nama": "Proceedings of SPIE the International Society for Optical Engineering",
+   "jumlah": 4
+  },
+  {
+   "nama": "Proceedings of the International Congress on Sound and Vibration",
+   "jumlah": 3
+  },
+  {
+   "nama": "Physics Education",
+   "jumlah": 3
+  },
+  {
+   "nama": "54th International Congress and Exposition on Noise Control Engineering Internoise 2025",
+   "jumlah": 2
+  },
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 2
+  },
+  {
+   "nama": "Biomicrofluidics",
+   "jumlah": 2
+  },
+  {
+   "nama": "Proceedings of Inter Noise 2021 2021 International Congress and Exposition of Noise Control Engineer",
+   "jumlah": 1
+  },
+  {
+   "nama": "Applied Acoustics",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Quantitative hygromorphic analysis of the Bundengan musical instrument",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105033476634&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "54th International Congress and Exposition on Noise Control Engineering Internoise 2025",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Kusumaningtyas I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "How to tune the Bundengan string",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105033667378&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "54th International Congress and Exposition on Noise Control Engineering Internoise 2025",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Kusumaningtyas I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Mechanical analysis of bamboo culm sheaths as the material of the Bundengan musical instrument",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85161520142&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Wardani F.W.K.F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PKM PELATIHAN PEMASANGAN SISTEM PERINGATAN DINI BANJIR LAHAR DINGIN DI DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "STUDI SIFAT BERUBAH BENTUK SLUMPRING BAMBU TERHADAP STIMULI KADAR AIR",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "PROGRAM HIBAH PENELITIAN MANDIRI DTMI 2023 ( HIBAH FT )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "HOW THE STRING ENDS AFFECT THE BUNDENGAN STRING VIBRATIONS",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85149810892&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the International Congress on Sound and Vibration",
+   "tahun": 2022,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "VIBRATION ANALYSIS OF THE BUNDENGAN BAMBOO BARS",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85149862344&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the International Congress on Sound and Vibration",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "EXPERIMENTAL MODAL ANALYSIS OF THE KOWANGAN RESONATOR IN THE BUNDENGAN MUSICAL INSTRUMENT",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85149879293&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the International Congress on Sound and Vibration",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The effect of bamboo clip dimension and position towards the frequency spectrum of a vibrating inhomogeneous bundengan string",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85117386075&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of Inter Noise 2021 2021 International Congress and Exposition of Noise Control Engineer",
+   "tahun": 2021,
+   "sitasi": 5,
+   "urutan_penulis": "4 of 4",
+   "kreator": "Kusumaningtyas I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "A modified Mersenne Law governs the inter-mode patterns in bundengan string vibrations",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85137143758&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of Meetings on Acoustics",
+   "tahun": 2021,
+   "sitasi": 4,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "NARASUMBER PELESTARIAN ALAT MUSIK TRADISIONAL BUNDENGAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Musical acoustics education in Indonesia - A case study of the bundengan",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85106159723&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of Meetings on Acoustics",
+   "tahun": 2020,
+   "sitasi": 6,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Sound directional characteristics of the bundengan musical instrument",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85106199956&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of Meetings on Acoustics",
+   "tahun": 2020,
+   "sitasi": 3,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Kusumaningtyas I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Quantitative analysis of the kowangan resonator",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85106166733&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of Meetings on Acoustics",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Optical measurements with stereoscopic shadows",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85097172827&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of SPIE the International Society for Optical Engineering",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "0 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "DIGITAL PERFORMANCE SCHOLARSHIP: MULTIMEDIA CRITICAL EDITIONS ON ASIAN THEATRES",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH LUAR NEGERI ( HIBAH LUAR NEGERI )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 5.537.175.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "3D PRINTING OF CUSTOM MUSICAL INSTRUMENTS FOR HERITAGE AND INDUSTRY NEEDS",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH LUAR NEGERI ( HIBAH LUAR NEGERI )",
+   "tahun": 2020,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 1.236.250.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Vibration of clipped strings in the bundengan musical instrument",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85067059799&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Applied Acoustics",
+   "tahun": 2019,
+   "sitasi": 12,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Parikesit G.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "The relation between the depth of field and the visual fatigue caused by stereoscopic Wayang Kulit shadow images",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85064068532&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Arts and Technology",
+   "tahun": 2019,
+   "sitasi": 3,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Hasanah N.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Simulation study of the vibration of a gunungan",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85074957700&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Arts and Technology",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Adi G.S.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "QUANTITATIVE APPROACH TO THE CULTURAL CONSERVATION OF THE BUNDENGAN MUSICAL HERITAGE IN WONOSOBO INDONESIA",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "HIBAH LUAR NEGERI ( HIBAH LUAR NEGERI )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 85.292.396",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Computational analysis of the bundengan, an endangered musical instrument from Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85057611016&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of Meetings on Acoustics",
+   "tahun": 2018,
+   "sitasi": 12,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Kusumaningtyas I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Transverse vibrations of a Bundengan string",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85050508303&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2018,
+   "sitasi": 4,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Parikesit G.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Experimental and Simulation Study of the Vibration of a Rectangular Plate with a Vertical Clamped Midline",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85058532297&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2018 4th International Conference on Science and Technology Icst 2018",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Adi G.S.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "NARASUMBER RAPAT KOORDINASI TEKNIS DG TEMA TANTANGAN PENELITIAN DAN PENGEMBANGAN DALAM ERA DIGITALISASI DAN BIG DATA UNTUK MENINGKATKAN KINERJA TRANSPORTASI",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 7.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Pengembangan Media Edukasi Budaya berupa Sistem Teater 3D Wayang Kulit",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 163.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "The illusive sound of a Bundengan string",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85027891775&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Physics Education",
+   "tahun": 2017,
+   "sitasi": 14,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "A quantitative close analysis of a theatre video recording",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85021287473&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Digital Scholarship in the Humanities",
+   "tahun": 2017,
+   "sitasi": 9,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Escobar Varela M.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Digital image analysis of wayang Kulit movements",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85016038199&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of 2016 8th International Conference on Information Technology and Electrical Engineerin",
+   "tahun": 2017,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Kusumaningtyas I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Stereoscopic optical measurement of transverse vibrations in the ancient art of Wayang Kulit",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85029417915&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "24th International Congress on Sound and Vibration Icsv 2017",
+   "tahun": 2017,
+   "sitasi": 2,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Kusumaningtyas I.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "How to use 3D shadows for simple microscopy and vibrometry",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85021296303&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Physics Education",
+   "tahun": 2017,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Quantitative analysis of the puppet shapes in Ngayogyakarta Wayang Kulit",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85049014738&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Arts and Technology",
+   "tahun": 2017,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Audiovisual patterns in Wayang Kulit",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85024090853&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Arts and Technology",
+   "tahun": 2017,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Quantitative image analysis of Tintin comics",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85029651757&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Arts and Technology",
+   "tahun": 2017,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Stereoscopic shadow microscopy",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85034077229&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of SPIE the International Society for Optical Engineering",
+   "tahun": 2017,
+   "sitasi": 1,
+   "urutan_penulis": "0 of 2",
+   "kreator": "Parikesit G.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Pengembangan Media Edukasi Budaya berupa Sistem Teater 3D Wayang Kulit",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 197.222.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "3D Wayang Kulit: Traditional shadow puppetry meets modern display technology",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84976877803&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Arts and Technology",
+   "tahun": 2016,
+   "sitasi": 11,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Pengembangan Media Edukasi Budaya berupa Sistem Teater 3D Wayang Kulit",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 170.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Fluorescence Measurements",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105011794194&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Encyclopedia of Microfluidics and Nanofluidics",
+   "tahun": 2015,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Book",
+   "info": null,
+   "kategori": "Book Chapter / Book Series"
+  },
+  {
+   "judul": "How to see shadows in 3D",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84899716824&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Physics Education",
+   "tahun": 2014,
+   "sitasi": 10,
+   "urutan_penulis": "1 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Textile-based microfluidics: modulated wetting, mixing, sorting, and energy harvesting",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84866333872&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of the Textile Institute",
+   "tahun": 2012,
+   "sitasi": 19,
+   "urutan_penulis": "1 of 9",
+   "kreator": "Parikesit G.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Coffee bean grade determination based on image parameter",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84883601981&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Telkomnika",
+   "tahun": 2011,
+   "sitasi": 35,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Faridah",
+   "kuartil": "no-Q",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Quantitative low-cost webcam-based microscopy",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-79953890396&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Optical Engineering",
+   "tahun": 2010,
+   "sitasi": 10,
+   "urutan_penulis": "0 of 1",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Nanoparticle image velocimetry at topologically structured surfaces",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-77950948816&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Biomicrofluidics",
+   "tahun": 2009,
+   "sitasi": 6,
+   "urutan_penulis": "1 of 8",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Size-dependent trajectories of DNA macromolecules due to insulative dielectrophoresis in submicrometer-deep fluidic channels",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-57349148173&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Biomicrofluidics",
+   "tahun": 2008,
+   "sitasi": 52,
+   "urutan_penulis": "1 of 7",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Free-flow dielectrophoresis - A numerical study",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-57349121481&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of the 11th International Conference on Miniaturized Systems for Chemistry and Life Scie",
+   "tahun": 2007,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 5",
+   "kreator": "Parikesit G.O.F.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Fabrication of nanofluidic devices in glass with polysilicon electrodes",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-24944441198&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sensors and Actuators A Physical",
+   "tahun": 2005,
+   "sitasi": 18,
+   "urutan_penulis": "3 of 6",
+   "kreator": "Kutchoukov V.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Optical detection of electrokinetically manipulated single molecules in a nanofluidic chip",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-21844466748&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Progress in Biomedical Optics and Imaging Proceedings of SPIE",
+   "tahun": 2005,
+   "sitasi": 5,
+   "urutan_penulis": "0 of 5",
+   "kreator": "Parikesit G.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Numerical simulation of electrokinetic force fields for particle manipulation and sorting in a branched-u-turn 2D-like nanofluidic device",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84902491890&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Micro Total Analysis Systems Proceedings of Microtas 2005 Conference 9th International Conference on",
+   "tahun": 2005,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 8",
+   "kreator": "Parikesit G.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Optical detection of single molecules in nanofluidic chips",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-13244277583&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of SPIE the International Society for Optical Engineering",
+   "tahun": 2004,
+   "sitasi": 3,
+   "urutan_penulis": "0 of 7",
+   "kreator": "Parikesit G.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Three-wavelength laser light source for absolute, sub-Angstrom, two point source interferometer",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-0141497250&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings of SPIE the International Society for Optical Engineering",
+   "tahun": 2003,
+   "sitasi": 2,
+   "urutan_penulis": "0 of 3",
+   "kreator": "Krieg M.L.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

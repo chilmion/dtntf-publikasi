@@ -1,0 +1,1290 @@
+{
+ "slug": "ahmad-agus-setiawan",
+ "sinta_id": "6644034",
+ "nama": "Ahmad Agus Setiawan",
+ "nama_sinta": "AHMAD AGUS SETIAWAN",
+ "gelar": "S.T., M.Sc., Ph.D.",
+ "jabatan": null,
+ "email": "a.setiawan@ugm.ac.id",
+ "prodi": "S2 - Magister Teknik Fisika",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/01/Dr.-Ahmad-Agus-Setiawan-Indonesia-1-scaled-1-986x1024.jpg",
+ "diperbarui": "2026-09-30T16:34:52+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644034",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6644034/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=cDzaYR0AAAAJ"
+ },
+ "skor": {
+  "overall": 595,
+  "tiga_tahun": 110,
+  "afiliasi": 595,
+  "afiliasi_tiga_tahun": 110
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2007,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2008,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2009,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2010,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2011,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2012,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2013,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2014,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2015,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2016,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2017,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 4
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 3
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 1
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 1
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 6
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 15
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 1
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 1
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 24
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 22,
+   "sitasi": 269,
+   "dokumen_disitasi": 14,
+   "hindex": 6,
+   "i10index": 6,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": 0,
+   "i10index": 0,
+   "gindex": 4
+  },
+  "wos": {
+   "artikel": 0,
+   "sitasi": 0,
+   "dokumen_disitasi": 0,
+   "hindex": null,
+   "i10index": null,
+   "gindex": null
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 22,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 269,
+  "sitasi_scholar": 0,
+  "hindex_scopus": 6,
+  "hindex_scholar": 0,
+  "hindex_terdaftar": 6,
+  "paten": 1,
+  "ppm": 37,
+  "buku": 0,
+  "penelitian": 3
+ },
+ "per_sumber": {
+  "scopus": 25,
+  "paten": 1,
+  "ppm": 37,
+  "penelitian": 3
+ },
+ "subjects": [
+  "Innovation Policy",
+  "Public Service Innovation",
+  "Public Sector innovation"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2007,
+   "publikasi": 1,
+   "sitasi": 2
+  },
+  {
+   "tahun": 2009,
+   "publikasi": 1,
+   "sitasi": 113
+  },
+  {
+   "tahun": 2013,
+   "publikasi": 3,
+   "sitasi": 61
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 2,
+   "sitasi": 55
+  },
+  {
+   "tahun": 2015,
+   "publikasi": 1,
+   "sitasi": 15
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 2,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 1,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 2,
+   "sitasi": 4
+  },
+  {
+   "tahun": 2021,
+   "publikasi": 4,
+   "sitasi": 19
+  },
+  {
+   "tahun": 2023,
+   "publikasi": 3,
+   "sitasi": 6
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 3,
+   "sitasi": 6
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 1,
+   "sitasi": 0
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 1
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 6
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 15
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 1
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Aip Conference Proceedings",
+   "jumlah": 7
+  },
+  {
+   "nama": "Energy Procedia",
+   "jumlah": 6
+  },
+  {
+   "nama": "Iop Conference Series Earth and Environmental Science",
+   "jumlah": 5
+  },
+  {
+   "nama": "Bio Web of Conferences",
+   "jumlah": 2
+  },
+  {
+   "nama": "Journal of Physics Conference Series",
+   "jumlah": 2
+  },
+  {
+   "nama": "E3s Web of Conferences",
+   "jumlah": 1
+  },
+  {
+   "nama": "Renewable Energy",
+   "jumlah": 1
+  },
+  {
+   "nama": "2007 Australasian Universities Power Engineering Conference Aupec",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Optimization of the floating solar power plant design in variation of tilt angle (Case study: Mrica reservoir, Banjarnegara, Central Java)",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105042671263&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Azizah A.H.B.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI AGRO-VOLTAIC HYBRID 3.3 KWP UNTUK MEWUJUDKAN DESA MANDIRI HIJAU PANDOWOHARJO MELALUI PEMBERDAYAAN KWT WASTAJAP DAN BUMDES AMARTA: KOLABORASI PENGABDIAN INTERNASIONAL UGM-UTM",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "EQUITY ( EQUITY )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 100.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "KKN TEMATIK DALAM OPTIMALISASI POTENSI LOKAL MASYARAKAT MANDALIKA SEBAGAI UPAYA MEWUJUDKAN KEMANDIRIAN DAN KEBERLANJUTAN MASYARAKAN DI DESA SENGKOL DAN DESA SUKADANA, KECAMATAN PUJUT, KABUPATEN LOMBOK TENGAH, PROVINSI NUSA TENGGARA BARAT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 73.200.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI AGRO-VOLTAIC HYBRID UNTUK MEWUJUDKAN DESA MANDIRI HIJAU PANDOWOHARJO MELALUI PEMBERDAYAAN KWT WASTAJAP DAN BUMDES AMARTA: KOLABORASI PENGABDIAN INTERNASIONAL UGM-UITM",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 100.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Performance ratio of the PLTS system for blue swimming crab handling on the boat in field testing and PVsyst software simulation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85216548890&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Bio Web of Conferences",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 14",
+   "kreator": "Kuncoro A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN PEMBIMBING LAPANGAN KEGIATAN KKN-PPM UNIT 2025-NT012 DENGAN TEMA PEMBERDAYAAN MASYARAKAT MELALUI PARIWISATA, KESEHATAN DAN PEMBERDAYAAN BUDIDAYA LAHAN DI PLBN MOTAAIN, KECAMATAN TASIFETO TIMUR, KABUPATEN BELU KOTA ATAMBUA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 103.462.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN PLTS UNTUK AERATOR KOLAM IKAN AIR TAWAR: SOLUSI ENERGI TERBARUKAN DI PESANTREN TANI MUHAMMADIYAH AGRIBUSINESS CENTER",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 20.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN KOORDINATOR WILAYAH KKN-PPM PERIODE 2 TAHUN 2025 DI WILAYAH NTT",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 6.856.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN PEMBIMBING LAPANGAN KEGIATAN KKN-PPM UNIT 2025-NT003 DENGAN TEMA PENGEMBANGAN POTENSI MASYARAKAT LOKAL DALAM PENGUATAN EKONOMI KREATIF DAN PARIWISATA BERKELANJUTAN BERBASIS COMMUNITY BASED TOURISM SERTA PERCEPATAN PENURUNAN STUNTING MELALUI KOLABORA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 103.462.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "DOSEN PEMBIMBING LAPANGAN KEGIATAN KKN-PPM UNIT 2025-NT005 DENGAN TEMA SINERGI EKO-PARIWISATA DAN PEMBANGUNAN BERKELANJUTAN MELALUI PENGUATAN SDM DAN PENINGKATAN KESEJAHTERAAN SOSIAL SEBAGAI PILAR UTAMA MENUJU DESA SATAR LENDA DAN DESA NUCA MOLAS YANG MAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( KKN-PPM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 103.462.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Energy Transition Analysis and Climate Action Strategy in the Power Sector: A Case Study of the Java-Bali System",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85208704279&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2024,
+   "sitasi": 6,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Reza M.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Off-grid photovoltaic system design for on-board blue swimming crab streamer processing and cold storage: System design and simulation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85216430175&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Bio Web of Conferences",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 13",
+   "kreator": "Kuncoro A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Real-Time Clock Based Solar Tracker",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85207502598&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Aziz W.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Development of kaligesing etawah crossbreed goat in Purworejo Central Java Province",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85163605918&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2023,
+   "sitasi": 6,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Guntoro B.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Impact of COVID-19 against energy consumption projection: Study cases in East Java, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85151502397&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Shadrina A.N.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Projection of electricity demand after the vaccination policy in handling the Covid-19 pandemic in Central Java Province, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85151551621&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Vembriatmaja A.I.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Mapping seasonal marine debris patterns and potential hotspots in Banten Bay, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85107847064&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 12,
+   "urutan_penulis": "2 of 13",
+   "kreator": "Rahmania R.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Demand and Electricity Energy Mix in Indonesia 2030 with Small Modular Reactor Nuclear Power Plant and Renewable Energy Scenario",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85122201349&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 4,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Imani L.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Visualisation of Naturally Ventilated House in Tropical Hilly Area of Indonesia, Case Study: Vatutela Village, Tondo Hills, Palu",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85121561880&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2021,
+   "sitasi": 2,
+   "urutan_penulis": "5 of 6",
+   "kreator": "Fitriaty P.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Analysis of sea level changes in Balikpapan Bay as basic data for strategic planning the new capital city of Republic of Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85102245609&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Physics Conference Series",
+   "tahun": 2021,
+   "sitasi": 1,
+   "urutan_penulis": "5 of 6",
+   "kreator": "Putri M.R.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "FBCISS",
+   "url": null,
+   "sumber": "paten",
+   "venue": "Direktorat Penelitian",
+   "tahun": 2021,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": "Nomor Permohonan : EC00202145627",
+   "jenis_paten": "Hak Cipta",
+   "kategori": "Paten & HKI"
+  },
+  {
+   "judul": "Grid connected rooftop PV simulation for office building under Indonesian rooftop PV scheme using HOMER",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85092069975&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Karuniawan E.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Building integrated thin film photovoltaic performance modelling on conventional building",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85092053018&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2020,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Rusnindyo E.H.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Optimal sizing scenario of hybrid wind-PV energy in coastal road Balikpapan",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85063505186&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2019,
+   "sitasi": 1,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Kresnawan M.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "TRAINING DAN WORKSHOP TEKNOLOGI ENERGI TERBARUKAN UNTUK GURU SMK DI YOGYAKARTA DAN SEKITARNYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBICARA PADA SEMINAR NASIONAL POLITEKNIK NEGERI LHOKSEUMAWE 2019",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBICARA PADA SEMINAR NASIONAL TEKNIK ELEKTRO DAN INFORMATIKA 2019 POLITEKNIK NEGERI UJUNG PANDANG",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBICARA PENYUSUNAN RANCANGAN PERATURAN DAERAH TENTANG RENCANA UMUM ENERGI DAERAH YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT UNTUK REHABILITASI BEKAS TAMBANG BATU BARA DI SAMBOJA, KUTAI KARTANEGARA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 85.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBICARA SEMINAR NASIONAL GEMA TEKNOLOGI 2019",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2019,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "The roles of mixed layer depth in affecting chemical and biological characteristics of Makassar straits, Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85050460029&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Earth and Environmental Science",
+   "tahun": 2018,
+   "sitasi": 1,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Dewi I.C.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Demand Simulation for Water, Food Irrigation, and Energy from Micro Hydro Power Plant in Sungai Bayang, Bayang Utara, Pesisir Selatan West Sumatra",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051034955&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 3",
+   "kreator": "Indriani S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENDAMPINGAN PASCA BENCANA GEMPA BUMI LOMBOK UTARA DI DESA GUMANTAR DAN KAYANGAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 51.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "ASESMEN LAPANGAN BADAN AKREDITASI NASIONAL DI INSTITUT TEKNOLOGI SEPULUH NOPEMBER PROGRAM STUDI TEKNIK FISIKA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER COACHING CLINIC DALAM ACARA KLINIK FAKULTAS ILMU SOSIAL DAN HUKUM UNIVERSITAS NEGERI SURABAYA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER WORKSHOP DAN SOSIALISASI SIMKATMAWA DI KOPERTIS WILAYAH III",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER WORKSHOP DAN SOSIALISASI SIMKATMAWA DI UNIVERSITAS SYIAH KUALA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 25.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENANGANAN PASCA BENCANA BANJIR DAN TANAH LONGSOR DI KABUPATEN PACITAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER PROGRAM KICK ANDY METRO TV DENGAN TEMA \"KARSA SEBUAH KARYA\"",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER WORKSHOP PROGRAM KREATIVITAS MAHASISWA POLITEKNIK NEGERI CILACAP",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBANGUNAN DESA JEPARA WETAN BERBASIS IPTEK SEBAGAI WUJUD DESA BERDIKARI DENGAN MEMANFAATKAN POTENSI LOKAL SERTA PENINGKATAN TATA KELOLA LINGKUNGAN, EKONOMI, DAN KUALITAS PENDIDIKAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 15.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT DALAM PENANGGULANGAN KEMISKINAN KECAMATAN BINANGUN DESA BANGKAL, DESAJEPARA WETAN, DESA WIDARAPAYUNG KULON DI -, BINANGUN, KAB. CILACAP",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENDAMPINGAN MASYARAKAT PASCA BENCANA BANJIR DI DONOTIRTO, KRETEK, KAB. BANTUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 7.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "ASESMEN LAPANGAN UNIVERSITAS SYAH KUALA PROGRAM STUDI SARJANA TEKNIK GEOFISIKA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "NARASUMBER PENGEMBANGAN PROGRAM SISTEM INFORMASI MANAJEMEN APLIKASI PEMERINGKATAN KEMAHASISWAAN (SIMKATMAWA) KEMENTERIAN RISET, TEKNOLOGI DAN PENDIDIKAN TINGGI DIREKTORAT JENDERAL PEMBELAJARAN DAN KEMAHASISWAAN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2017,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 2.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBANGUNAN DESA BREBEG MENUJU DESA MANDIRI ENERGI DAN AGROINDUSTRI SEBAGAI WUJUD OPTIMALISASI POTE DI DESA BREBEG, KECAMATAN JERUKLEGI, KAB. CILACAP",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 17.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Integrated Renewable Energy Management System – Case Model for Hydropower Potential in Green House Gases Mitigation",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2016,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 150.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Evaluating Micro Hydro Power Generation System under Climate Change Scenario in Bayang Catchment, Kabupaten Pesisir Selatan, West Sumatra",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84943646969&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energy Procedia",
+   "tahun": 2015,
+   "sitasi": 15,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Anugrah P.",
+   "kuartil": "Q2",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PEMBERDAYAAN MASYARAKAT PENGRAJIN BATU BATA DAN KONSERVASI LAHAN KRITIS MELALUI PENGEMBANGAN PERTANIAN TERPADU DI DESA POTORONO, KECAMATAN BANGUNTAPAN, KABUPATEN BANTUL DI DESA POTORONO, KECAMATAN BANGUNTAPAN, KAB. BANTUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 7.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Integrated Renewable Energy Management System – Case Model for Hydropower Potential in Green House Gases Mitigation",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 118.500.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "Development of a solar water pumping system in karsts rural area tepus, gunungkidul through student community services",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84894109239&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energy Procedia",
+   "tahun": 2014,
+   "sitasi": 36,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Setiawan A.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Gama stove: Biomass stove for palm kernel shells in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84894119419&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energy Procedia",
+   "tahun": 2014,
+   "sitasi": 19,
+   "urutan_penulis": "2 of 4",
+   "kreator": "Febriansyah H.",
+   "kuartil": "Q2",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "ASPEK KEBERLANJUTAN SISTEM POMPA AIR TENAGA SURYA UNTUK PENYEDIAAN AIR BERSIH DI DUSUN SURENG, DESA PURWODADI, KECAMATAN TEPUS, GUNUNG KIDUL (TAHAP LANJUTAN) DI DESA PURWODADI, KECAMATAN TEPUS, KAB. GUNUNG KIDUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Design optimization of solar powered aeration system for fish pond in Sleman Regency, Yogyakarta by HOMER software",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897039746&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energy Procedia",
+   "tahun": 2013,
+   "sitasi": 57,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Prasetyaningsari I.",
+   "kuartil": "Q2",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Community development in solar energy utilization to support fish farming in Sendangsari village",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897034530&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energy Procedia",
+   "tahun": 2013,
+   "sitasi": 4,
+   "urutan_penulis": "2 of 2",
+   "kreator": "Setiawan A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Preface",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84897052208&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Energy Procedia",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": "7 of 34",
+   "kreator": "Bakar R.B.A.",
+   "kuartil": "Q2",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "PENGEMBANGAN DISTRIBUSI AIR BERTEKNOLOGI SOLAR WATER PUMPING SYSTEM DAN KEMANFAATANNYA BAGI PERKEMBANGAN EKONOMI MASYARAKAT DUSUN SURENG DESA PURWODADI KECAMATAN TEPUS GUNUNG KIDUL SEBAGAI KAWASAN PARIWISATA PESISIR.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "TTG ( PKM )",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 20.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENINGKATAN CAPACITY BUILDING MASYARAKAT DALAM PENGELOLAAN SISTEM ENERGI TERBARUKAN BERBASIS SUSTAINABLE DEVELOPMENT UNTUK MENDUKUNG KEISTIMEWAAN DAERAH ISTIMEWA YOGYAKARTA ( TAHAP LANJUTAN ) DI DESA PURWODADI, KECAMATAN TEPUS, KAB. GUNUNG KIDUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Rancang Bangun Sistem Informasi dan Pemantauan Dini Jarak Jauh terhadap Bahaya Bencana di Sekitar Gunung Berapi",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "Penelitian Desentralisasi ( PTUPT )",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 73.000.000",
+   "kategori": "Penelitian"
+  },
+  {
+   "judul": "PENINGKATAN KESEJAHTERAAN MASYARAKAT DESA PURWODADI, KECAMATAN TEPUS GUNUNGKIDUL MELALUI OPTIMASI SUMBER DAYA ALAM DAN ENERGI TERBARUKAN BERBASIS SUSTAINABLE DEVELOPMENT MENUJU DESA MANDIRI DAN EDUKATIF DI DESA PURWODADI, KECAMATAN TEPUS, KAB. GUNUNG KIDU",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2012,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PERENCANAAN INSTALANSI PENGANGKATAN DAN DISTRIBUSI AIR BERSIH DI DESA MANGUNAN, KECAMATAN DLINGO, KABUPATEN BANTUL, DAERAH ISTIMEWA YOGYAKARTA DI DESA MANGUNAN, KECAMATAN DLINGO , KAB. BANTUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2011,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 7.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENDISTRIBUSIAN DAN PENJERNIHAN AIR DI DESA GIRIHARJO, KECAMATAN PANGGANG, KABUPATEN GUNUNGKIDUL DI DESA GIRIHARJO , KECAMATAN PANGGANG, KAB. GUNUNG KIDUL",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "KKN-PPM ( PKM )",
+   "tahun": 2010,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 9.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Design, economic analysis and environmental considerations of mini-grid hybrid power system with reverse osmosis desalination plant for remote areas",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-53749098425&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Renewable Energy",
+   "tahun": 2009,
+   "sitasi": 113,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Setiawan A.A.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Development of sustainable power and water supply for remote areas and disaster response and reconstruction in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-51349114600&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "2007 Australasian Universities Power Engineering Conference Aupec",
+   "tahun": 2007,
+   "sitasi": 2,
+   "urutan_penulis": "1 of 9",
+   "kreator": "Setiawan A.A.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  }
+ ]
+}

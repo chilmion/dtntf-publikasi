@@ -1,0 +1,520 @@
+{
+ "slug": "m-arif-efendi",
+ "sinta_id": "6807580",
+ "nama": "M. Arif Efendi",
+ "nama_sinta": "M. ARIF EFENDI",
+ "gelar": "S.Si., M.Sc., Ph.D.",
+ "jabatan": null,
+ "email": "arif.e@ugm.ac.id",
+ "prodi": "S1 - Teknik Nuklir",
+ "afiliasi": "Universitas Gadjah Mada",
+ "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/01/arif.jpg",
+ "diperbarui": "2026-09-30T16:56:39+07:00",
+ "batas_daftar": {
+  "sumber": "sinta",
+  "per_kategori": 10,
+  "lengkap": true
+ },
+ "tautan": {
+  "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6807580",
+  "scopus": null,
+  "garuda": "https://sinta.kemdiktisaintek.go.id/authors/profile/6807580/?view=garuda",
+  "scholar": "https://scholar.google.com/citations?user=f5FfubQAAAAJ"
+ },
+ "skor": {
+  "overall": 273,
+  "tiga_tahun": 84,
+  "afiliasi": 273,
+  "afiliasi_tiga_tahun": 84
+ },
+ "grafik": {
+  "per_tahun": [
+   {
+    "tahun": 2017,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2018,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2019,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2020,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2021,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2022,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2023,
+    "jumlah": 0
+   },
+   {
+    "tahun": 2024,
+    "jumlah": 2
+   },
+   {
+    "tahun": 2025,
+    "jumlah": 1
+   },
+   {
+    "tahun": 2026,
+    "jumlah": 4
+   }
+  ],
+  "kuartil": [
+   {
+    "nama": "Q1",
+    "jumlah": 4
+   },
+   {
+    "nama": "Q2",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q3",
+    "jumlah": 2
+   },
+   {
+    "nama": "Q4",
+    "jumlah": 1
+   },
+   {
+    "nama": "No-Q",
+    "jumlah": 0
+   }
+  ],
+  "output": [
+   {
+    "nama": "Articles",
+    "jumlah": 9
+   },
+   {
+    "nama": "Conference",
+    "jumlah": 0
+   },
+   {
+    "nama": "Others",
+    "jumlah": 0
+   }
+  ]
+ },
+ "metrik": {
+  "scopus": {
+   "artikel": 9,
+   "sitasi": 26,
+   "dokumen_disitasi": 4,
+   "hindex": 3,
+   "i10index": 1,
+   "gindex": 1
+  },
+  "scholar": {
+   "artikel": 20,
+   "sitasi": 171,
+   "dokumen_disitasi": 8,
+   "hindex": 4,
+   "i10index": 3,
+   "gindex": 1
+  },
+  "wos": {
+   "artikel": 5,
+   "sitasi": 11,
+   "dokumen_disitasi": 2,
+   "hindex": 2,
+   "i10index": 0,
+   "gindex": 1
+  }
+ },
+ "ringkas": {
+  "publikasi_scopus": 9,
+  "publikasi_garuda": 0,
+  "sitasi_scopus": 26,
+  "sitasi_scholar": 171,
+  "hindex_scopus": 3,
+  "hindex_scholar": 4,
+  "hindex_terdaftar": 3,
+  "paten": 0,
+  "ppm": 10,
+  "buku": 0,
+  "penelitian": 0
+ },
+ "per_sumber": {
+  "scopus": 9,
+  "ppm": 10
+ },
+ "subjects": [
+  "Medical Physics",
+  "Microdosimetry",
+  "Radiotherapy",
+  "Monte Carlo"
+ ],
+ "per_tahun": [
+  {
+   "tahun": 2017,
+   "publikasi": 1,
+   "sitasi": 9
+  },
+  {
+   "tahun": 2020,
+   "publikasi": 1,
+   "sitasi": 11
+  },
+  {
+   "tahun": 2024,
+   "publikasi": 2,
+   "sitasi": 1
+  },
+  {
+   "tahun": 2025,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2026,
+   "publikasi": 4,
+   "sitasi": 5
+  }
+ ],
+ "kuartil": [
+  {
+   "nama": "Q1",
+   "jumlah": 4
+  },
+  {
+   "nama": "Q2",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 2
+  },
+  {
+   "nama": "Q4",
+   "jumlah": 1
+  }
+ ],
+ "venue_teratas": [
+  {
+   "nama": "Smart Health",
+   "jumlah": 1
+  },
+  {
+   "nama": "Biomedical Signal Processing and Control",
+   "jumlah": 1
+  },
+  {
+   "nama": "Sensors",
+   "jumlah": 1
+  },
+  {
+   "nama": "Signal Image and Video Processing",
+   "jumlah": 1
+  },
+  {
+   "nama": "Journal of Medical Physics",
+   "jumlah": 1
+  },
+  {
+   "nama": "International Journal of Radiation Research",
+   "jumlah": 1
+  },
+  {
+   "nama": "Nuclear Engineering and Technology",
+   "jumlah": 1
+  },
+  {
+   "nama": "Reports of Practical Oncology and Radiotherapy",
+   "jumlah": 1
+  },
+  {
+   "nama": "Sains Malaysiana",
+   "jumlah": 1
+  }
+ ],
+ "publikasi": [
+  {
+   "judul": "Deep learning-based comparative evaluation of EEG, HRV, and EDA biomarkers for personal thermal comfort prediction",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105019064834&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Biomedical Signal Processing and Control",
+   "tahun": 2026,
+   "sitasi": 5,
+   "urutan_penulis": "6 of 8",
+   "kreator": "Sahoh B.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Deep learning-optimized high-fidelity allergic rhinitis exacerbation prediction: A systematic comparative evaluation of medical-grade and consumer-grade wearable sensors",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105044713419&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Smart Health",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "6 of 7",
+   "kreator": "Tipsavak A.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Electroencephalography-Based Brain–Computer Interface System Using Tongue Movement Imagery for Wheelchair Control",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105035608586&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sensors",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 5",
+   "kreator": "Saichoo T.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "NoisyAdamW: A novel optimizer for EfficientNetB0-UNet (EffB0-UNet) in low-grade glioma segmentation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105037951712&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Signal Image and Video Processing",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": "8 of 11",
+   "kreator": "Amda J.M.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN DAN PENDAMPINGAN PENGGUNAAN PERISAI PESAWAT SINAR-X PORTABLE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2026,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Geant4-deoxyribonucleic Acid Simulation of Radiation-induced Deoxyribonucleic Acid Damage in a Human Cancer Cell Line",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105017754282&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Journal of Medical Physics",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Ying C.K.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "SOSIALISASI DAN PELATIHAN SISTEM PERINGATAN DINI KEBENCANAAN UNTUK INSTANSI PENDIDIKAN DI DAERAH ISTIMEWA YOGYAKARTA DAN JAWA TENGAH",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PENERAPAN TEKNOLOGI SISTEM KENDALI TRAKTOR TANGAN BERBASIS GELOMBANG RADIO 2.4GHZ UNTUK MENINGKATKAN EFEKTIVITAS PENGOLAHAN LAHAN PERTANIAN DI DESA SALAMREJO, SENTOLO, KULON PROGO, DAERAH ISTIMEWA YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Secondary fragments of proton and helium ion beams in High-Density Polyethylene phantom: A Monte Carlo simulation study",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85180572222&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering and Technology",
+   "tahun": 2024,
+   "sitasi": 1,
+   "urutan_penulis": "1 of 2",
+   "kreator": "Efendi M.A.",
+   "kuartil": "Q1",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Estimating the relative biological effectiveness of light ions using TOPAS monte carlo simulation",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85205823782&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Journal of Radiation Research",
+   "tahun": 2024,
+   "sitasi": 0,
+   "urutan_penulis": "1 of 3",
+   "kreator": "Efendi M.A.",
+   "kuartil": "Q4",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "EDUKASI KESADARAN HEMAT ENERGI SEJAK DINI PADA SISWA DAN GURU TAMAN KANAK-KANAK DI DIY",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Monte Carlo simulation using PRIMO code as a tool for checking the credibility of commissioning and quality assurance of 6 MV TrueBeam STx varian LINAC",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85078805618&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Reports of Practical Oncology and Radiotherapy",
+   "tahun": 2020,
+   "sitasi": 11,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Efendi M.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Monte carlo simulation of 6 MV flattening filter free photon beam of truebeam STx LINAC at songklanagarind hospital",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85038439477&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Sains Malaysiana",
+   "tahun": 2017,
+   "sitasi": 9,
+   "urutan_penulis": "1 of 4",
+   "kreator": "Efendi M.",
+   "kuartil": "Q2",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  }
+ ]
+}
