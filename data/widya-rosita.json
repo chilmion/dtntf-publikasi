@@ -9,11 +9,11 @@
  "prodi": "S2 - Magister Teknik Fisika",
  "afiliasi": "Universitas Gadjah Mada",
  "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ALYyCBUAAAAJ&citpid=1",
- "diperbarui": "2026-09-30T15:20:49+07:00",
+ "diperbarui": "2026-09-30T15:31:20+07:00",
  "batas_daftar": {
   "sumber": "sinta",
   "per_kategori": 10,
-  "lengkap": false
+  "lengkap": true
  },
  "tautan": {
   "sinta": "https://sinta.kemdiktisaintek.go.id/authors/profile/6016573",
@@ -84,15 +84,15 @@
   "sitasi_scholar": 339,
   "hindex_scopus": 8,
   "hindex_scholar": 10,
-  "hindex_terdaftar": 7,
+  "hindex_terdaftar": 8,
   "paten": 0,
-  "ppm": 10,
+  "ppm": 17,
   "buku": 0,
   "penelitian": 6
  },
  "per_sumber": {
-  "scopus": 11,
-  "ppm": 10,
+  "scopus": 20,
+  "ppm": 17,
   "penelitian": 6
  },
  "subjects": [
@@ -102,9 +102,49 @@
  ],
  "per_tahun": [
   {
+   "tahun": 2012,
+   "publikasi": 2,
+   "sitasi": 5
+  },
+  {
+   "tahun": 2013,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2014,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2015,
+   "publikasi": 1,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2016,
+   "publikasi": 1,
+   "sitasi": 7
+  },
+  {
+   "tahun": 2017,
+   "publikasi": 1,
+   "sitasi": 10
+  },
+  {
+   "tahun": 2018,
+   "publikasi": 2,
+   "sitasi": 0
+  },
+  {
+   "tahun": 2019,
+   "publikasi": 1,
+   "sitasi": 14
+  },
+  {
    "tahun": 2020,
-   "publikasi": 6,
-   "sitasi": 118
+   "publikasi": 5,
+   "sitasi": 53
   },
   {
    "tahun": 2022,
@@ -125,24 +165,40 @@
  "kuartil": [
   {
    "nama": "Q1",
-   "jumlah": 4
+   "jumlah": 3
   },
   {
    "nama": "Q2",
    "jumlah": 1
   },
   {
+   "nama": "Q3",
+   "jumlah": 5
+  },
+  {
    "nama": "Q4",
-   "jumlah": 6
+   "jumlah": 10
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 1
   }
  ],
  "venue_teratas": [
   {
+   "nama": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "jumlah": 4
+  },
+  {
    "nama": "Iop Conference Series Materials Science and Engineering",
-   "jumlah": 2
+   "jumlah": 3
   },
   {
    "nama": "Key Engineering Materials",
+   "jumlah": 2
+  },
+  {
+   "nama": "Aip Conference Proceedings",
    "jumlah": 2
   },
   {
@@ -150,11 +206,11 @@
    "jumlah": 1
   },
   {
-   "nama": "Journal of Rare Earths",
+   "nama": "Mining Metallurgy and Exploration",
    "jumlah": 1
   },
   {
-   "nama": "Mining Metallurgy and Exploration",
+   "nama": "Journal of Rare Earths",
    "jumlah": 1
   },
   {
@@ -166,11 +222,7 @@
    "jumlah": 1
   },
   {
-   "nama": "Journal of Environmental Chemical Engineering",
-   "jumlah": 1
-  },
-  {
-   "nama": "Aip Conference Proceedings",
+   "nama": "Arpn Journal of Engineering and Applied Sciences",
    "jumlah": 1
   }
  ],
@@ -195,36 +247,6 @@
    "sumber": "ppm",
    "venue": "PKM ( PKM )",
    "tahun": 2026,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 10.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
-   "tahun": 2025,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 10.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
-   "tahun": 2025,
    "sitasi": 0,
    "urutan_penulis": null,
    "kreator": null,
@@ -266,6 +288,36 @@
   },
   {
    "judul": "EVALUASI KESELAMATAN RADIASI RUANG RONTGEN GIGI PANORAMIK RSU ISLAM KLATEN",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN PEMANFAATAN TEKNOLOGI TEPAT GUNA DALAM RANGKA MEWUJUDKAN KETANGGUHAN EKONOMI MASYARAKAT DENGAN PROSES NILAI TAMBAH HASIL PERTANIAN DI KABUPATEN SLEMAN STUDI KASUS: TEKNOLOGI PENYULINGAN MINYAK ATSIRI DI KABUPATEN SLEMAN YOGYAKARTA.",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
+   "tahun": 2025,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "RANCANG BANGUN PURWARUPA PERISAI PESAWAT SINAR-X MOBILE DI LAPAS CEBONGAN KABUPATEN SLEMAN DAERAH ISTIMEWA YOGYAKARTA UNTUK MENINGKATKAN KESELAMATAN RADIASI OPERATOR",
    "url": null,
    "sumber": "ppm",
    "venue": "PENGABDIAN KEPADA MASYARAKAT ( PKM )",
@@ -338,6 +390,21 @@
    "kategori": "Penelitian"
   },
   {
+   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
    "judul": "PKM PELATIHAN DASAR-DASAR KESELAMATAN RADIASI UNTUK PROTEKSI DIRI SATUAN KIMIA BIOLOGI RADIASI (KBR).",
    "url": null,
    "sumber": "ppm",
@@ -366,36 +433,6 @@
    "info": null,
    "dana": "Rp. 10.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "PKM CONNECTED WORLD, CONNECTED YOU: PELATIHAN DASAR-DASAR INTERNET OF THINGS UNTUK SISWA TINGKAT SMA/MA",
-   "url": null,
-   "sumber": "ppm",
-   "venue": "PKM ( PKM )",
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 10.000.000",
-   "kategori": "Pengabdian kepada Masyarakat"
-  },
-  {
-   "judul": "PENINGKATAN EFISIENSI PEMBAKARAN BATUBARA PADA CIRCULATED FLUIDIZED BOILER (CFB) UNTUK PENGKAYAAN CRITICAL ELEMENTS PADA FLY ASH: UPAYA PEMANFAATAN FLY ASH SECARA KOMPREHENSIF BERBASIS TOTAL EXTRACTION DAN CIRCULAR ECONOMY",
-   "url": null,
-   "sumber": "penelitian",
-   "venue": "ADB PRIME STEP ( IG )",
-   "tahun": 2023,
-   "sitasi": 0,
-   "urutan_penulis": null,
-   "kreator": null,
-   "kuartil": null,
-   "jenis_venue": null,
-   "info": null,
-   "dana": "Rp. 258.100.000",
-   "kategori": "Penelitian"
   },
   {
    "judul": "Ekstraksi Logam Tanah Jarang dari Berbagai Jenis Coal Fly Ash Bottom Ash: Optimasi Proses dan Daur Ulang Limbahnya",
@@ -428,6 +465,21 @@
    "kategori": "Penelitian"
   },
   {
+   "judul": "PENINGKATAN EFISIENSI PEMBAKARAN BATUBARA PADA CIRCULATED FLUIDIZED BOILER (CFB) UNTUK PENGKAYAAN CRITICAL ELEMENTS PADA FLY ASH: UPAYA PEMANFAATAN FLY ASH SECARA KOMPREHENSIF BERBASIS TOTAL EXTRACTION DAN CIRCULAR ECONOMY",
+   "url": null,
+   "sumber": "penelitian",
+   "venue": "ADB PRIME STEP ( IG )",
+   "tahun": 2023,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 258.100.000",
+   "kategori": "Penelitian"
+  },
+  {
    "judul": "Characterization and mode of occurrence of rare earth elements and yttrium in fly and bottom ash from coal-fired power plants in Java, Indonesia",
    "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85127473583&origin=resultslist",
    "sumber": "scopus",
@@ -454,6 +506,66 @@
    "jenis_venue": "Journal",
    "info": null,
    "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "TENAGA AHLI PEMBUATAN MEDIA SOSIALISASI DIGITAL PANDUAN MITIGASI COVID-19 UNTUK MAHASISWA DI INDONESIA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PELATIHAN KEAMANAN NUKLIR UNTUK PETUGAS KEAMANAN DI DI YOGYAKARTA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "PEMETAAN PAPARAN RADIASI DI INSTALASI RADIOLOGI RUMAH SAKIT AKADEMIK UNIVERSITAS GADJAH MADA",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "PKM ( PKM )",
+   "tahun": 2022,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 10.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
   },
   {
    "judul": "PEMUNGUTAN VALUABLE METAL DARI ABU LAYANG BATUBARA",
@@ -484,20 +596,6 @@
    "info": null,
    "dana": "Rp. 650.000.000",
    "kategori": "Penelitian"
-  },
-  {
-   "judul": "Sequential particle-size and magnetic separation for enrichment of rare-earth elements and yttrium in Indonesia coal fly ash",
-   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85091179178&origin=resultslist",
-   "sumber": "scopus",
-   "venue": "Journal of Environmental Chemical Engineering",
-   "tahun": 2020,
-   "sitasi": 65,
-   "urutan_penulis": "1 of 4",
-   "kreator": "Rosita W.",
-   "kuartil": "Q1",
-   "jenis_venue": "Journal",
-   "info": null,
-   "kategori": "Jurnal Internasional"
   },
   {
    "judul": "Recovery of rare earth elements and Yttrium from Indonesia coal fly ash using sulphuric acid leaching",
@@ -565,6 +663,191 @@
    "urutan_penulis": "2 of 4",
    "kreator": "Manurung H.",
    "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Iron bearing oxide minerals separation from rare earth elements (REE) rich coal fly ash",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85062906745&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Iop Conference Series Materials Science and Engineering",
+   "tahun": 2019,
+   "sitasi": 14,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Nugroho N.D.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Utilization of tropical materials for ensuring the safety of strontium waste immobilization",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85040553971&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Arpn Journal of Engineering and Applied Sciences",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "3 of 4",
+   "kreator": "Putero S.",
+   "kuartil": "Q3",
+   "jenis_venue": "Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Nuclear Security Training: A New Approach for Educating Nuclear Technology in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85051060351&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "E3s Web of Conferences",
+   "tahun": 2018,
+   "sitasi": 0,
+   "urutan_penulis": "4 of 5",
+   "kreator": "Ferdiansjah",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Performance evaluation of compressor anti-surge control based on model predictive in ammonia plant",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85017164718&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Proceedings 2016 International Seminar on Application of Technology for Information and Communicatio",
+   "tahun": 2017,
+   "sitasi": 10,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Daniart S.",
+   "kuartil": "no-Q",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Detection and quantification of valve stiction based on normality test and Hammerstein system identification",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84984577316&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Aip Conference Proceedings",
+   "tahun": 2016,
+   "sitasi": 7,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Hutabarat Y.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Integrating security issues in nuclear engineering curriculum in Indonesia: Classical vs policy approaches",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84959046128&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 6",
+   "kreator": "Putero S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "Finalisasi Community Development Berbasis Integrated Farming dan Pelembagaan Kemandirian Energi Pedesaan Guna Meningkatkan Ketahanan Ekonomi Pedesaan di Desa Pangpanjung, Kecamatan Modung, Kabupaten Bangkalan, Madura, Jawa Timur",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( KKN-PPM )",
+   "tahun": 2015,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 82.500.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Developing nuclear education in Indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84896536619&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "Nuclear Engineering International",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Putero S.",
+   "kuartil": "Q4",
+   "jenis_venue": "Trade Journal",
+   "info": null,
+   "kategori": "Jurnal Internasional"
+  },
+  {
+   "judul": "Intensifikasi Community Development berbasis Integrated Farming dan Penerapan Teknologi Konversi Energi untuk Memantapkan Semangat dan Mental Masyarakat Desa Pangpajung, Kecamatan Modung, Kabupaten Bangkalan Madura menuju Kemakmuran dan Kemandirian",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( KKN-PPM )",
+   "tahun": 2014,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 80.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "The challenges and opportunities in developing nuclear engineering education in indonesia after Fukushima accident",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84901716791&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": "2 of 5",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "“Community Development Berbasis Integrated Farming” Pemanfaatan Biogas untuk Pengembangan Pertanian dan Peternakan Menuju Desa Pangpajung, Kecamatan Modung, Kabupaten Bangkalan, Madura yang Makmur dan Mandiri",
+   "url": null,
+   "sumber": "ppm",
+   "venue": "Pengabdian Kepada Masyarakat Kompetitif Nasional ( KKN-PPM )",
+   "tahun": 2013,
+   "sitasi": 0,
+   "urutan_penulis": null,
+   "kreator": null,
+   "kuartil": null,
+   "jenis_venue": null,
+   "info": null,
+   "dana": "Rp. 75.000.000",
+   "kategori": "Pengabdian kepada Masyarakat"
+  },
+  {
+   "judul": "Challenge in the public acceptance and cooperation on the verge of building the first nuclear power plant in indonesia",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84890072196&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2012,
+   "sitasi": 3,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Putero S.H.",
+   "kuartil": "Q3",
+   "jenis_venue": "Conference Proceedin",
+   "info": null,
+   "kategori": "Prosiding Internasional"
+  },
+  {
+   "judul": "The utilization of rice husk ash for strontium waste cementation processing",
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84890078864&origin=resultslist",
+   "sumber": "scopus",
+   "venue": "International Conference on Nuclear Engineering Proceedings ICONE",
+   "tahun": 2012,
+   "sitasi": 2,
+   "urutan_penulis": "3 of 3",
+   "kreator": "Putero S.",
+   "kuartil": "Q3",
    "jenis_venue": "Conference Proceedin",
    "info": null,
    "kategori": "Prosiding Internasional"

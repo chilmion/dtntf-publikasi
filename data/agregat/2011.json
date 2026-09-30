@@ -1,0 +1,45 @@
+{
+ "tahun": 2011,
+ "entri": [
+  {
+   "judul": "Coffee bean grade determination based on image parameter",
+   "tahun": 2011,
+   "kategori": "Jurnal Internasional",
+   "venue": "Telkomnika",
+   "kuartil": "no-Q",
+   "akreditasi": null,
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://www.scopus.com/record/display.uri?eid=2-s2.0-84883601981&origin=resultslist",
+   "sitasi": 35,
+   "kreator": "Faridah",
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  },
+  {
+   "judul": "PERSEPSI KYAI PONDOK PESANTREN TERHADAP ZAKAT PROFESI",
+   "tahun": 2011,
+   "kategori": "Jurnal Nasional",
+   "venue": "Jurisdictie: Jurnal Hukum dan Syariah JURISDICTIE (Vol 2 No 106-2011)",
+   "kuartil": null,
+   "akreditasi": "Unknown",
+   "jenis_paten": null,
+   "dana": null,
+   "isbn": null,
+   "url": "https://garuda.kemdiktisaintek.go.id/documents/detail/449219",
+   "sitasi": 0,
+   "kreator": null,
+   "dosen": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah"
+    }
+   ]
+  }
+ ]
+}

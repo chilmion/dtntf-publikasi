@@ -1,22 +1,23 @@
 {
  "diperbarui": "2026-09-30",
  "jumlah_dosen": 2,
+ "daftar_lengkap": true,
  "total": {
-  "semua": 79,
-  "publikasi_ilmiah": 34,
-  "sitasi": 217,
-  "paten": 11,
-  "ppm": 20,
-  "penelitian": 14
+  "semua": 351,
+  "publikasi_ilmiah": 268,
+  "sitasi": 578,
+  "paten": 12,
+  "ppm": 47,
+  "penelitian": 24
  },
  "per_kategori": [
   {
    "nama": "Jurnal Internasional",
-   "jumlah": 11
+   "jumlah": 27
   },
   {
    "nama": "Prosiding Internasional",
-   "jumlah": 6
+   "jumlah": 25
   },
   {
    "nama": "Book Chapter / Book Series",
@@ -24,7 +25,7 @@
   },
   {
    "nama": "Jurnal Nasional",
-   "jumlah": 10
+   "jumlah": 209
   },
   {
    "nama": "Buku",
@@ -32,41 +33,49 @@
   },
   {
    "nama": "Paten & HKI",
-   "jumlah": 11
+   "jumlah": 12
   },
   {
    "nama": "Penelitian",
-   "jumlah": 14
+   "jumlah": 24
   },
   {
    "nama": "Pengabdian kepada Masyarakat",
-   "jumlah": 20
+   "jumlah": 47
   }
  ],
  "kuartil": [
   {
    "nama": "Q1",
-   "jumlah": 5
+   "jumlah": 7
   },
   {
    "nama": "Q2",
-   "jumlah": 4
+   "jumlah": 7
+  },
+  {
+   "nama": "Q3",
+   "jumlah": 11
   },
   {
    "nama": "Q4",
-   "jumlah": 12
+   "jumlah": 23
+  },
+  {
+   "nama": "no-Q",
+   "jumlah": 8
   }
  ],
  "per_tahun": [
   {
    "tahun": 2026,
    "berkas": "2026",
-   "jumlah": 20,
+   "jumlah": 23,
    "sitasi": 0,
    "per_kategori": {
     "Jurnal Internasional": 3,
     "Book Chapter / Book Series": 2,
-    "Jurnal Nasional": 10,
+    "Jurnal Nasional": 13,
     "Penelitian": 2,
     "Pengabdian kepada Masyarakat": 3
    }
@@ -74,11 +83,12 @@
   {
    "tahun": 2025,
    "berkas": "2025",
-   "jumlah": 12,
+   "jumlah": 75,
    "sitasi": 2,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 1,
+    "Jurnal Nasional": 63,
     "Penelitian": 1,
     "Pengabdian kepada Masyarakat": 9
    }
@@ -86,11 +96,12 @@
   {
    "tahun": 2024,
    "berkas": "2024",
-   "jumlah": 10,
+   "jumlah": 64,
    "sitasi": 56,
    "per_kategori": {
     "Jurnal Internasional": 3,
     "Prosiding Internasional": 1,
+    "Jurnal Nasional": 54,
     "Paten & HKI": 1,
     "Penelitian": 3,
     "Pengabdian kepada Masyarakat": 2
@@ -99,11 +110,12 @@
   {
    "tahun": 2023,
    "berkas": "2023",
-   "jumlah": 16,
+   "jumlah": 45,
    "sitasi": 17,
    "per_kategori": {
     "Jurnal Internasional": 1,
     "Prosiding Internasional": 1,
+    "Jurnal Nasional": 29,
     "Buku": 1,
     "Paten & HKI": 1,
     "Penelitian": 6,
@@ -113,35 +125,194 @@
   {
    "tahun": 2022,
    "berkas": "2022",
-   "jumlah": 4,
-   "sitasi": 24,
+   "jumlah": 36,
+   "sitasi": 28,
    "per_kategori": {
-    "Jurnal Internasional": 2,
+    "Jurnal Internasional": 3,
+    "Prosiding Internasional": 1,
+    "Jurnal Nasional": 13,
     "Paten & HKI": 1,
-    "Penelitian": 1
+    "Penelitian": 3,
+    "Pengabdian kepada Masyarakat": 15
    }
   },
   {
    "tahun": 2021,
    "berkas": "2021",
-   "jumlah": 8,
-   "sitasi": 0,
+   "jumlah": 23,
+   "sitasi": 41,
    "per_kategori": {
+    "Jurnal Internasional": 4,
+    "Jurnal Nasional": 8,
     "Buku": 2,
     "Paten & HKI": 5,
-    "Penelitian": 1
+    "Penelitian": 2,
+    "Pengabdian kepada Masyarakat": 2
    }
   },
   {
    "tahun": 2020,
    "berkas": "2020",
-   "jumlah": 9,
-   "sitasi": 118,
+   "jumlah": 20,
+   "sitasi": 63,
    "per_kategori": {
     "Jurnal Internasional": 1,
-    "Prosiding Internasional": 3,
+    "Prosiding Internasional": 5,
     "Book Chapter / Book Series": 2,
-    "Paten & HKI": 3
+    "Jurnal Nasional": 5,
+    "Paten & HKI": 3,
+    "Penelitian": 2,
+    "Pengabdian kepada Masyarakat": 2
+   }
+  },
+  {
+   "tahun": 2019,
+   "berkas": "2019",
+   "jumlah": 7,
+   "sitasi": 66,
+   "per_kategori": {
+    "Jurnal Internasional": 2,
+    "Prosiding Internasional": 1,
+    "Jurnal Nasional": 2,
+    "Pengabdian kepada Masyarakat": 2
+   }
+  },
+  {
+   "tahun": 2018,
+   "berkas": "2018",
+   "jumlah": 16,
+   "sitasi": 132,
+   "per_kategori": {
+    "Jurnal Internasional": 3,
+    "Prosiding Internasional": 5,
+    "Jurnal Nasional": 4,
+    "Paten & HKI": 1,
+    "Penelitian": 1,
+    "Pengabdian kepada Masyarakat": 2
+   }
+  },
+  {
+   "tahun": 2017,
+   "berkas": "2017",
+   "jumlah": 9,
+   "sitasi": 108,
+   "per_kategori": {
+    "Jurnal Internasional": 1,
+    "Prosiding Internasional": 5,
+    "Jurnal Nasional": 2,
+    "Pengabdian kepada Masyarakat": 1
+   }
+  },
+  {
+   "tahun": 2016,
+   "berkas": "2016",
+   "jumlah": 6,
+   "sitasi": 9,
+   "per_kategori": {
+    "Jurnal Internasional": 1,
+    "Prosiding Internasional": 1,
+    "Jurnal Nasional": 1,
+    "Penelitian": 3
+   }
+  },
+  {
+   "tahun": 2015,
+   "berkas": "2015",
+   "jumlah": 5,
+   "sitasi": 16,
+   "per_kategori": {
+    "Jurnal Internasional": 2,
+    "Prosiding Internasional": 1,
+    "Jurnal Nasional": 1,
+    "Pengabdian kepada Masyarakat": 1
+   }
+  },
+  {
+   "tahun": 2014,
+   "berkas": "2014",
+   "jumlah": 3,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Internasional": 1,
+    "Jurnal Nasional": 1,
+    "Pengabdian kepada Masyarakat": 1
+   }
+  },
+  {
+   "tahun": 2013,
+   "berkas": "2013",
+   "jumlah": 6,
+   "sitasi": 0,
+   "per_kategori": {
+    "Prosiding Internasional": 1,
+    "Jurnal Nasional": 3,
+    "Penelitian": 1,
+    "Pengabdian kepada Masyarakat": 1
+   }
+  },
+  {
+   "tahun": 2012,
+   "berkas": "2012",
+   "jumlah": 6,
+   "sitasi": 5,
+   "per_kategori": {
+    "Prosiding Internasional": 2,
+    "Jurnal Nasional": 4
+   }
+  },
+  {
+   "tahun": 2011,
+   "berkas": "2011",
+   "jumlah": 2,
+   "sitasi": 35,
+   "per_kategori": {
+    "Jurnal Internasional": 1,
+    "Jurnal Nasional": 1
+   }
+  },
+  {
+   "tahun": 2010,
+   "berkas": "2010",
+   "jumlah": 1,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Nasional": 1
+   }
+  },
+  {
+   "tahun": 2009,
+   "berkas": "2009",
+   "jumlah": 1,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Nasional": 1
+   }
+  },
+  {
+   "tahun": 2005,
+   "berkas": "2005",
+   "jumlah": 1,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Nasional": 1
+   }
+  },
+  {
+   "tahun": 2004,
+   "berkas": "2004",
+   "jumlah": 1,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Nasional": 1
+   }
+  },
+  {
+   "tahun": 2003,
+   "berkas": "2003",
+   "jumlah": 1,
+   "sitasi": 0,
+   "per_kategori": {
+    "Jurnal Nasional": 1
    }
   }
  ],
@@ -152,7 +323,7 @@
    "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
    "sinta_id": "6010146",
    "skor_sinta": 3790,
-   "publikasi": 57,
+   "publikasi": 326,
    "sitasi_scopus": 418,
    "hindex_scopus": 11
   },
@@ -162,7 +333,7 @@
    "gelar": "S.T., M.T., Dr.",
    "sinta_id": "6016573",
    "skor_sinta": 654,
-   "publikasi": 27,
+   "publikasi": 43,
    "sitasi_scopus": 219,
    "hindex_scopus": 8
   }
