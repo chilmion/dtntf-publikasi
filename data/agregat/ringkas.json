@@ -641,7 +641,7 @@
    "jabatan": null,
    "prodi": "S2 - Magister Teknik Fisika",
    "email": "a_agung@ugm.ac.id",
-   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=_UxdIPIAAAAJ&citpid=1",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/ALEX-982x1024.jpg",
    "sinta_id": "44275",
    "ada_data": true,
    "skor_sinta": 1056,
@@ -673,12 +673,14 @@
      "jumlah": 2
     }
    ],
-   "pendidikan": null,
-   "bidang_ilmu": null,
-   "bidang_riset": null,
-   "lainnya": [],
-   "homepage": null,
-   "kelompok": null
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Sc. (Kungl Tekniska Högskolan, Sweden), Dr. (Technische Universiteit Delft, Netherlands), PostDoc (Chalmers University of Technology, Sweden), IPU (Persatuan Insinyur Indonesia)",
+   "bidang_ilmu": "Rekayasa Nuklir (Komputasi Multifisika dan Optimasi Sistem Nuklir)",
+   "bidang_riset": "Pengembangan dan evaluasi multifisika PLTN Terapung, pengembangan metode optimasi metaheuristik pada reaktor nuklir, dan pengembangan machine learning untuk surveillance dan prediksi transien reaktor nuklir.",
+   "lainnya": [
+    "Anggota: American Nuclear Society (ANS), World Institute for Nuclear Security (WINS)."
+   ],
+   "homepage": "https://acadstaff.ugm.ac.id/alexanderagung",
+   "kelompok": "Teknik Nuklir"
   },
   {
    "slug": "andang-widi-harto",
@@ -972,7 +974,7 @@
    "jabatan": null,
    "prodi": "S1 - Teknik Nuklir",
    "email": "ester@ugm.ac.id",
-   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=PDbxpsMAAAAJ&citpid=1",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2021/02/Ester_Baju_Birua.jpg",
    "sinta_id": "6043678",
    "ada_data": true,
    "skor_sinta": 119,
@@ -1004,12 +1006,12 @@
      "jumlah": 0
     }
    ],
-   "pendidikan": null,
-   "bidang_ilmu": null,
-   "bidang_riset": null,
+   "pendidikan": "Ir., M.T. (Universitas Gadjah Mada)",
+   "bidang_ilmu": "Rekayasa Nuklir (Teknologi Proses Bahan Bakar Nuklir)",
+   "bidang_riset": "Teknologi Bahan Bakar Nuklir, Proteksi Radiasi Nuklir, Analisis Radiokimia, Statistika Teknik.",
    "lainnya": [],
    "homepage": null,
-   "kelompok": null
+   "kelompok": "Teknik Nuklir"
   },
   {
    "slug": "fadli-kasim",
@@ -1018,7 +1020,7 @@
    "jabatan": null,
    "prodi": "S1 - Teknik Fisika",
    "email": "fadli@ugm.ac.id",
-   "foto_url": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=cDzaYR0AAAAJ&citpid=1",
+   "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/FADLI-913x1024.jpg",
    "sinta_id": "6644053",
    "ada_data": true,
    "skor_sinta": 247,
@@ -1050,12 +1052,12 @@
      "jumlah": 1
     }
    ],
-   "pendidikan": null,
-   "bidang_ilmu": null,
-   "bidang_riset": null,
+   "pendidikan": "S.T. (Universitas Gadjah Mada), M.Sc. (University of Magdeburg, Germany), Kandidat doktor (Universitas Gadjah Mada)",
+   "bidang_ilmu": "Rekayasa Fisika (Konservasi Energi Bio Terbarukan)",
+   "bidang_riset": "Safety & Quality",
    "lainnya": [],
    "homepage": null,
-   "kelompok": null
+   "kelompok": "Teknik Fisika"
   },
   {
    "slug": "faridah",
