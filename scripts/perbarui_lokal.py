@@ -43,6 +43,9 @@ def pastikan_token():
     print("'Mini app unggah'): izin Contents = Read and write dan Actions = Read and write.")
     t = getpass.getpass("Tempel token di sini (tidak tampil di layar), lalu Enter: ").strip()
     kode, r = um.gh("GET", f"/repos/{REPO}", t)
+    if kode == 0:
+        sys.exit(f"Tidak bisa terhubung ke GitHub: {r.get('message')}. Ini bukan salah token; "
+                 "cek internet, lalu jalankan lagi.")
     if kode != 200:
         sys.exit(f"Token ditolak GitHub ({r.get('message', kode)}). Periksa akses repo.")
     um.TOKEN_FILE.write_text(t)
@@ -136,6 +139,7 @@ def kirim(t, head, base_tree, remote):
 
 
 def main():
+    um.siapkan_ssl()
     arg = sys.argv[1].strip() if len(sys.argv) > 1 else ""
     if not arg:
         print("Uji dulu 2 dosen (faridah, widya-rosita; ±6 menit) atau ambil SEMUA dosen (±30–60 menit)?")
