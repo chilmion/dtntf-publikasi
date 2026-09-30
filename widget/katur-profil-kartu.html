@@ -209,7 +209,7 @@
     if (t.sinta) btn.push('<a class="kt-btn" href="' + esc(t.sinta) + '" target="_blank" rel="noopener">SINTA ↗</a>');
     if (t.scholar) btn.push('<a class="kt-btn" href="' + esc(t.scholar) + '" target="_blank" rel="noopener">Google Scholar ↗</a>');
     if (t.scopus) btn.push('<a class="kt-btn" href="' + esc(t.scopus) + '" target="_blank" rel="noopener">Scopus ↗</a>');
-    var foto = d.foto_url || i.foto_url;
+    var foto = i.foto_url || d.foto_url;
     akar.innerHTML = '<div class="kt-k-wrap"><div class="kt-k-foto"><span class="kt-k-ini">' + esc(inisial(d.nama)) + '</span>' +
       (foto ? '<img src="' + esc(foto) + '" alt="' + esc(d.nama) + '">' : '') + '</div>' +
       '<div class="kt-tile navy pola" style="margin-top:16px;min-height:0"><div><span class="kt-kicker" style="opacity:.7">Kontak</span>' +

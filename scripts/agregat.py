@@ -190,7 +190,16 @@ def main():
             info = {r["slug"]: r for r in csv.DictReader(f)}
     except OSError:
         pass
+    # dosen.csv adalah sumber foto yang dipegang pengelola; menang atas foto dari SINTA di JSON.
+    foto_csv = {}
+    try:
+        with open(ROOT / "dosen.csv", newline="", encoding="utf-8") as f:
+            foto_csv = {(r.get("slug") or "").strip(): (r.get("foto_url") or "").strip() for r in csv.DictReader(f)}
+    except OSError:
+        pass
     for x in dosen_ringkas:
+        if foto_csv.get(x["slug"]):
+            x["foto_url"] = foto_csv[x["slug"]]
         i = info.get(x["slug"]) or {}
         bi = (i.get("bidang_ilmu") or "").strip()
         x["pendidikan"] = (i.get("pendidikan") or "").strip() or None
