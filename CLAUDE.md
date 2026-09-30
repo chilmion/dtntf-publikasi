@@ -11,7 +11,7 @@ scraper Python (stdlib saja) -> JSON per dosen -> GitHub Pages -> widget HTML fe
 - `scripts/agregat.py` — gabung semua dosen jadi `data/agregat/ringkas.json` + `<tahun>.json`; paper multi-penulis digabung (kunci: EID Scopus -> DOI -> judul ternormalisasi, judul <25 karakter tidak digabung).
 - `widget/publikasi.html` — profil dosen (`.dtntf-pub`), atribut `data-base`, `data-slug`, `data-tampil="skor,grafik,metrik,publikasi"`. Bagian foto/nama/bio dibuat manual di Elementor, hanya bagian statistik + daftar ini yang otomatis.
 - `widget/departemen.html` — halaman departemen (`.dtntf-dep`), atribut `data-base`, `data-profil` (sudah sederhana: tanpa filter/pencarian).
-- `.github/workflows/update.yml` — workflow_dispatch (input `dosen`, default `faridah,widya-rosita`), cron Senin 03:00 WIB, push ke `dosen.csv`/`scripts/**`/`widget/**`; commit `data/` lalu deploy Pages.
+- `.github/workflows/update.yml` — TIDAK scrape (IP GitHub diblokir SINTA; keputusan user 30 Sep 2026: scrape hanya lokal). Hanya `manual.py` (data manual + agregat) → commit `data/` → deploy Pages; dipicu push ke `dosen.csv`/`scripts/**`/`widget/**`/`manual/dosen-info.csv` atau manual. Scrape: `scripts/perbarui_lokal.py` (klik `Perbarui Data SINTA.command`), yang juga memicu `manual.yml` untuk menerbitkan.
 - `scripts/manual.py` — gabung `manual/luaran.xlsx` (satu berkas Excel jurusan; templat `manual/templat-luaran.xlsx`, dibuat `scripts/buat_templat.py`) ke `data/<slug>.json` (entri bertanda `manual:true`, idempoten), lalu agregat. Dipanggil di `update.yml` setelah build dan di `manual.yml` (cepat, dipicu push `manual/luaran.xlsx`).
 - `scripts/unggah_manual.py` — mini app lokal (127.0.0.1:8787) untuk unggah xlsx via GitHub API dengan PAT tersimpan di `~/.dtntf-publikasi-token`. JANGAN pernah menaruh token di browser/halaman publik.
 - `scripts/buat_elementor.py` — buat `elementor/*.json` (templat Container siap impor) dari `widget/*.html`; jalankan ulang tiap widget berubah.
@@ -47,7 +47,7 @@ UGM Navy #073C64, Dark Navy #1A2C43, Cinder #0B0B16, White Lilac #F7F7FB, Mute L
 1. Render & cek `widget/publikasi.html` (belum pernah dilihat hasil renderingnya) — pakai playwright/chromium, screenshot `uji-publikasi.html`.
 2. Sederhanakan `widget/departemen.html` sejalan dengan konsep baru (statistik departemen + daftar per tahun sederhana; hapus filter/pencarian).
 3. Perbarui README (`data-tampil` sekarang `skor,metrik,publikasi`, bukan `statistik,tren,publikasi`) dan panduan setup untuk pemula.
-4. Jalankan beta Actions untuk Faridah (SINTA 6010146) & Widya Rosita (6016573); data widya-rosita.json saat ini hanya salinan uji. Bila 403/429 dari IP GitHub -> pindah ke `jalankan.sh` di mesin lokal.
-5. Setelah beta lolos: kosongkan default `dosen` di workflow agar 38 dosen ikut.
+4. (SELESAI) Scrape dipindah ke lokal. Tinggal user menjalankan `semua` untuk 38 dosen dan mengimpor templat Elementor.
+5. (SELESAI) Workflow GitHub tidak lagi scrape.
 6. (Opsional) cari sumber data donat kuartil/radar SINTA.
 7. (Opsional) isi `jabatan` di `dosen.csv`.

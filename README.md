@@ -86,11 +86,12 @@ lain.
 1. Buat repo GitHub, unggah isi folder ini.
 2. **Settings → Pages → Source: GitHub Actions.**
 3. **Settings → Actions → General → Workflow permissions:** pilih
-   *Read and write permissions* (agar workflow bisa commit hasil scrape).
+   *Read and write permissions* (agar workflow bisa menyimpan hasil agregat).
    (*Actions* = mesin gratis GitHub yang menjalankan script otomatis;
    *Pages* = layanan GitHub yang menyajikan berkas repo sebagai situs.)
-4. Tab **Actions → Perbarui data publikasi → Run workflow**. Isian `dosen`
-   sudah default `faridah,widya-rosita` — inilah beta-nya.
+4. Ambil data SINTA **dari komputermu** (bukan dari GitHub): klik
+   `Perbarui Data SINTA.command` (uji 2 dosen dulu, lalu ketik `semua`). GitHub
+   tidak scrape sama sekali — server GitHub diblokir SINTA.
 5. Cek hasil: `https://<akun>.github.io/<repo>/data/faridah.json`
 6. **Halaman profil dosen** — widget **HTML** di bawah blok profil, tempel
    `widget/publikasi.html`, lalu ubah:
@@ -124,18 +125,16 @@ data-profil="/dosen/{slug}/"
 `data-profil` membuat nama dosen di tiap entri jadi tautan ke halaman
 profilnya. Kosongkan kalau halaman profil belum ada.
 
-## Setelah beta lolos
+## Siapa mengerjakan apa
 
-Ubah dua hal di `.github/workflows/update.yml`:
+| Tugas | Di mana |
+|---|---|
+| Scrape SINTA (dan cookie login) | **Komputermu** (`Perbarui Data SINTA.command`, atau `jalankan.sh` + cron) |
+| Pasang data manual, bangun agregat, terbitkan situs | **GitHub Actions** — otomatis saat `widget/`, `scripts/`, `dosen.csv`, `manual/dosen-info.csv` berubah, atau saat `manual/luaran.xlsx` diunggah |
 
-- default `faridah,widya-rosita` → kosongkan (`''`) agar semua 38 dosen ikut;
-- jadwalnya sudah Senin 03:00 WIB, sesuaikan bila perlu.
-
-**Perhatian saat naik ke 38 dosen:** GitHub Actions jalan dari IP luar negeri,
-dan 38 dosen berarti ratusan request ke SINTA per sync. Risiko diblokir jauh
-lebih besar daripada saat beta 2 dosen. Kalau mulai muncul HTTP 403/429 di log
-Actions, pindahkan eksekusi ke mesin lokal ber-IP Indonesia dengan
-`jalankan.sh` + cron — script-nya sama persis, tidak perlu diubah.
+Workflow mingguan yang dulu mencoba scrape dari GitHub sudah dihapus karena pasti
+gagal (HTTP 403). Kalau mau jadwal rutin, pakai cron di komputer lokal dengan
+`jalankan.sh`.
 
 ## Templat Elementor bergaya v1.katur.online
 
