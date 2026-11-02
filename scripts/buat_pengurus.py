@@ -28,8 +28,8 @@ def kartu(p, foto):
     nama = p["nama_lengkap"]
     gambar = be.widget("image", image={"url": foto or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", "id": "", "alt": nama},
                        image_size="full", width=be.ukuran(100, "%"),
-                       height=be.ukuran(460), height_tablet=be.ukuran(420), height_mobile=be.ukuran(400),
-                       **{"object-fit": "contain", "object-position": "top center"},
+                       height=be.ukuran(440), height_tablet=be.ukuran(500), height_mobile=be.ukuran(420),
+                       **{"object-fit": "cover", "object-position": "top center"},
                        _background_background="classic", _background_color="#F5F5F5",
                        image_border_radius={"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": True})
     jabatan = bp.kicker(p["jabatan"])
