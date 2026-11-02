@@ -31,7 +31,7 @@ def kelompok(bidang):
 
 def kartu(r, info, info_html):
     slug, nama = r["slug"].strip(), r["nama"].strip()
-    kel = kelompok((info or {}).get("bidang_ilmu"))
+    kel = bp.kelompok_info(info)
     kelas = f"kt-kartu-dosen {KELAS_KEL.get(kel, 'kt-kel-lain')}"
 
     foto = be.widget("image", image={"url": r["foto_url"].strip(), "id": "", "alt": nama},

@@ -207,7 +207,8 @@ def main():
         x["bidang_riset"] = (i.get("bidang_riset") or "").strip() or None
         x["lainnya"] = [t.strip() for t in (i.get("lainnya") or "").split("|") if t.strip()]
         x["homepage"] = (i.get("homepage") or "").strip() or None
-        x["kelompok"] = ("Teknik Nuklir" if bi.lower().startswith("rekayasa nuklir") else
+        x["kelompok"] = ((i.get("kelompok") or "").strip() or    # penimpa manual di dosen-info.csv
+                         "Teknik Nuklir" if bi.lower().startswith("rekayasa nuklir") else
                          "Teknik Fisika" if bi.lower().startswith("rekayasa fisika") else None)
 
     terdata = [x for x in dosen_ringkas if x.get("ada_data")]
