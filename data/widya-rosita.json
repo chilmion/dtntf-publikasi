@@ -914,5 +914,23 @@
    "info": null,
    "kategori": "Prosiding Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proses Mineral Nuklir)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T., M,T., Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

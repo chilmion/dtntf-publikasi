@@ -2393,5 +2393,255 @@
    "dana": "Rp. 9.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "nama_lengkap": "Prof. Dr. Ir. Andang Widi Harto, M.T., IPU, ASEAN Eng.",
+   "jabatan_fungsional": "Guru Besar",
+   "bidang_kepakaran": "Reaktor Nuklir Maju Pembangkit Daya",
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882"
+  },
+  "pendidikan": [
+   {
+    "tahun": "2022",
+    "keterangan": "Pendidikan Profesi, Program Studi Program Profesi Insinyur (PSPPI), Fakultas Teknik, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2001 - 2006",
+    "keterangan": "Doktor Ilmu-ilmu Teknik, Sekolah Pascasarjana, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1995 - 1998",
+    "keterangan": "Master Teknik Kimia, Fakultas Teknik, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1985 - 1990",
+    "keterangan": "Sarjana Teknik, Jurusan Teknik Nuklir, FakultasTeknik, Universitas Gadjah Mada"
+   }
+  ],
+  "sertifikat": [
+   {
+    "tahun": "2022",
+    "keterangan": "Sertifikat Kompetensi Insinyur Profesional — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2015 - 2018",
+    "keterangan": "Izin Bekerja Menggunakan radiasi Nuklir"
+   },
+   {
+    "tahun": "2009",
+    "keterangan": "Sertifikat Pendidik"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2025 - sekarang",
+    "keterangan": "Ketua Kelompok Penelitian SNE (Sustainable Nuclear Energy)"
+   },
+   {
+    "tahun": "2024 - sekarang",
+    "keterangan": "Ketua KBK (Kelompok Bidang Keahlian) Energi Nuklir dan Energi Terbarukan FT UGM"
+   },
+   {
+    "tahun": "2019 - 2020",
+    "keterangan": "Ketua Program Studi Teknik Nuklir – Departemen Teknik Nuklir dan Teknik Fisika FT  UGM"
+   },
+   {
+    "tahun": "2016 - 2020",
+    "keterangan": "Kepala Laboratorium Proses dan Kimia Nuklir"
+   },
+   {
+    "tahun": "2012 - 2016",
+    "keterangan": "Kepala Laboratorium Teknologi Energi Nuklir"
+   },
+   {
+    "tahun": "2007 - 2011",
+    "keterangan": "Ketua Program Studi Teknik Nuklir – Departemen Teknik Nuklir dan Teknik Fisika FT  UGM"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "2024 - sekarang",
+    "keterangan": "Badan Kejuruan Teknik Nuklir (BKTN) Persatuan Insinyur Indonesia (PII), sebagai anggota dewan pakar"
+   },
+   {
+    "tahun": "2022 - sekarang",
+    "keterangan": "Persatuan Insinyur Indonesia (PII), sebagai anggota"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2019",
+    "keterangan": "Satyalancana Karya Satya XX"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Pengembangan BNCT (Boron Neutron Capture Cancer Therapy)",
+    "tahun": "2014 - 2017",
+    "keterangan": "Bekerjasama dengan BATAN (sekarang ORTN BRIN)"
+   },
+   {
+    "riset": "Criticality Analysis of Subcritical Aqueous Homogeneous Assembly for Mo-99 production",
+    "tahun": "2015 - 2016",
+    "keterangan": "Bersama PT INUKI"
+   },
+   {
+    "riset": "Kajian PLTN terapung",
+    "tahun": "2016",
+    "keterangan": "DTNTF dan BAPETEN"
+   },
+   {
+    "riset": "Neutronic Analysis of Aqueous Homogeneous Reactor for Mo-99 Production",
+    "tahun": "2017",
+    "keterangan": "Bersama PT Ensterna Indonesia"
+   },
+   {
+    "riset": "Pengembangan Teknologi Baterai Nuklir (Kerja sama Pusat Kajian LKFT UGM dengan Badan Penelitian dan Pengembangan Kementerian Pertahanan Republik Indonesia)",
+    "tahun": "2017",
+    "keterangan": "Pusat Kajian LKFT-UGM dan Balitbang Kemenhan RI"
+   },
+   {
+    "riset": "Pengembangan Thorium Generator (Kerja sama Pusat Kajian LKFT UGM dengan Badan Penelitian dan Pengembangan Kementerian Pertahanan Republik Indonesia)",
+    "tahun": "2018",
+    "keterangan": "Pusat Kajian LKFT-UGM dan Balitbang Kemenhan RI"
+   },
+   {
+    "riset": "Kajian reviu Peraturan Pemerintah No. 2 tahun 2014 tentang perizinan instalasi nuklir",
+    "tahun": "2018",
+    "keterangan": "DTNTF dan BAPETEN"
+   },
+   {
+    "riset": "Kajian Desain Modifikasi Pembangkit Listrik Tenaga Biomassa (PLTBm) 3 kW berbahan bakar limbah hutan (Kerja sama antara Pusat Kajian LKFT UGM dengan PT. PLN (Persero) Kantor Pusat Pengembangan Regional Maluku, Papua, Nusa Tenggara, dan Sulawesi)",
+    "tahun": "2019",
+    "keterangan": "Pusat Kajian LKFT-UGM dan PT PLN (Persero)"
+   },
+   {
+    "riset": "Modifikasi Pembangkit Listrik Tenaga Biomassa (PLTBm) 3 kW berbahan bakar limbah hutan (Kerja sama antara Pusat Kajian LKFT UGM dengan PT. PLN (Persero) Kantor Pusat Pengembangan Regional Maluku, Papua, Nusa Tenggara, dan Sulawesi)",
+    "tahun": "2019",
+    "keterangan": "Pusat Kajian LKFT-UGM dan PT PLN (Persero)"
+   },
+   {
+    "riset": "Kajian Pengawasan Dalam Pembangunan Dan Pengoperasian Reaktor Daya – Analisis Neutronik Statik MSR (Molten Salt Reactor)",
+    "tahun": "2019",
+    "keterangan": "DTNTF (Departemen Teknik Nuklir dan Teknik Fisika) dan BAPETEN"
+   },
+   {
+    "riset": "Uji Keandalan Pembangkit Listrik Tenaga Biomassa (PLTBm) 3 kW berbahan bakar limbah hutan (Kerja sama antara Pusat Kajian LKFT UGM dengan PT. PLN (Persero) Kantor Pusat Pengembangan Regional Maluku, Papua, Nusa Tenggara, dan Sulawesi)",
+    "tahun": "2020",
+    "keterangan": "Pusat Kajian LKFT-UGM dan PT PLN (Persero)"
+   },
+   {
+    "riset": "Pengembangan Pembangkit Listrik Mikro Reaktor Nuklir Untuk Daerah 3T.",
+    "tahun": "2020",
+    "keterangan": "DTNTF- UGM"
+   },
+   {
+    "riset": "Pengembangan Generator Oksigen untuk Kebutuhan Medis dan Industri.",
+    "tahun": "2021",
+    "keterangan": "DTNTF- UGM"
+   },
+   {
+    "riset": "Riset Hilirisasi Teknologi Mikro Boiler Biomassa untuk Meningkatkan Produktivitas UMKM Tahu, pendanaan dari Dirjen Dikti Kemendikbud dalam Program Matching Fund 2021 kerja sama antara Universitas Gadjah Mada dengan PT. Syahir Engineering Utama",
+    "tahun": "2021",
+    "keterangan": "Matching Fund 2021 DIKTI dan PT Syahir Engineering Utama"
+   },
+   {
+    "riset": "Kajian dan desain PLTBm 10 kWe berbahan bakar biomass untuk pembangkit listrik di wilayah 3T Indonesia",
+    "tahun": "2022",
+    "keterangan": "Pusat Kajian LKFT UGM dan PT PLN (Persero)"
+   },
+   {
+    "riset": "Pengembangan PLTBm 10 kWe berbahan bakar biomassa untuk elektrifikasi di wilayah 3T.",
+    "tahun": "2022",
+    "keterangan": "Matching Fund 2022 DIKTI dan PT PLN (Persero)"
+   },
+   {
+    "riset": "Pemanfaatan Teknologi Kogenerasi Pada Insinerator Regeneratif Limbah Medis",
+    "tahun": "2022",
+    "keterangan": "Matching Fund 2022 DIKTI dan PT Adil Makmur Sentosa"
+   },
+   {
+    "riset": "Studi Aspek Ekonomi dan Keselamatan PLTN Kecil di Indonesia",
+    "tahun": "2022",
+    "keterangan": "Pusat Studi Energi UGM dan PT PLN (Persero)"
+   },
+   {
+    "riset": "Pengembangan Pengering dan Pengasap Ikan berbahan bakar biomassa",
+    "tahun": "2023",
+    "keterangan": "Matching Fund 2023 DIKTI dan PT Sahabat Satu Jawanis"
+   },
+   {
+    "riset": "Pembuatan Prototipe Pengolah Sampah Domestik Hibrid menjadi Refuse Derived Fuel (RDF) Guna Mendukung Kebijakan Net Zero Emission",
+    "tahun": "2023",
+    "keterangan": "Matching Fund 2023 DIKTI dan PT Adil Makmur Sentosa"
+   },
+   {
+    "riset": "Pengembangan Reaktor GAMA-MSR (GAMA Molten Salt Reactor)",
+    "tahun": "2024",
+    "keterangan": "Engineering Riset and Innovation Center (ERIC) UGM"
+   },
+   {
+    "riset": "Pengembangan GAMA-AHR (GAMA Aqueous Homogeneous Reactor) untuk produksi Radioisotop",
+    "tahun": "2024",
+    "keterangan": "Engineering Riset and Innovation Center (ERIC) UGM"
+   },
+   {
+    "riset": "Pengembangan GAMA-SHP (GAMA Space Reactor Heat Pipe), Reaktor Mikro penggunaan di angkasa luar",
+    "tahun": "2024",
+    "keterangan": "Engineering Riset and Innovation Center (ERIC) UGM"
+   },
+   {
+    "riset": "Pengembangan IPAL Modular Hemat Energi dan Efisien untuk UMKM Pengolahan Pangan",
+    "tahun": "2024",
+    "keterangan": "Program Dana Padanan 2024 DIKTI"
+   },
+   {
+    "riset": "GAMA-Compact Water Treatment Plant (GAMA-CWTP) untuk Pengolahan Air Payau di Daerah Pesisir dan Kepulauan",
+    "tahun": "2024",
+    "keterangan": "Program Bantuan Biaya Luaran Prototipe DIKTI"
+   },
+   {
+    "riset": "Pre-konseptual desain reaktor Gadjah Mada Aqueous Homogeneous Reactor (GAMA-AHR) untuk produksi radioisotop medis Mo-99.",
+    "tahun": "2024",
+    "keterangan": "Program Hibah Penelitian Fakultas Teknik UGM"
+   },
+   {
+    "riset": "Purwarupa Boiler Biomassa untuk Sterilisasi Industri Pengolahan Pangan",
+    "tahun": "2024",
+    "keterangan": "Program Hibah Penelitian Prototipe Fakultas Teknik UGM"
+   },
+   {
+    "riset": "Prototipe Generator Listrik Biomassa untuk Wilayah 3T",
+    "tahun": "2024",
+    "keterangan": "Program Hibah Penelitian Prototipe Fakultas Teknik UGM"
+   },
+   {
+    "riset": "Kajian Akademis Bahan Pertimbangan Kebijakan Implementasi Pembangkit Listrik Tenaga Nuklir (PLTN)",
+    "tahun": "2024",
+    "keterangan": "PT Thorcon Power Indonesia dan Pusat Kajian LKFT UGM"
+   },
+   {
+    "riset": "Narasumber dan Reviu Kajian Manfaat Langsung dan Tidak Langsung dari Pembangkit Listrik Tenaga Nuklir (PLTN) TMSR500",
+    "tahun": "2024",
+    "keterangan": "PT Thorcon Power Indonesia dan Pusat Kajian LKFT UGM"
+   },
+   {
+    "riset": "Pengembangan Potensi Pemanfaatan Mineral Radioaktif dan Mineral Ikutan Radioaktif untuk Pembangkit Listrik Tenaga Nuklir Guna Kepentingan Smelter",
+    "tahun": "2024",
+    "keterangan": "MIND ID dan Pusat Studi Energi UGM"
+   },
+   {
+    "riset": "Kajian Regulasi, Roadmap Dan Penilaian Keselamatan Pengembangan PLTN Untuk Indonesia",
+    "tahun": "2024",
+    "keterangan": "PLNE dan LKFT UGM"
+   },
+   {
+    "riset": "Kajian Pemetaan Pemangku Kepentingan Pengembangan PLTN dalam konteks PLN",
+    "tahun": "2025",
+    "keterangan": "PLN dan LKFT UGM"
+   }
+  ]
+ }
 }

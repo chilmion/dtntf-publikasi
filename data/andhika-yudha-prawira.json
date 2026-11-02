@@ -114,5 +114,17 @@
  "per_tahun": [],
  "kuartil": [],
  "venue_teratas": [],
- "publikasi": []
+ "publikasi": [],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882"
+  },
+  "pendidikan": [],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

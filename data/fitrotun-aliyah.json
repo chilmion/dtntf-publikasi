@@ -524,5 +524,28 @@
    "dana": "Rp. 15.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proteksi Radiasi Fisika Medis)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T., M.Eng. (Universitas Gadjah Mada), Ph.D. (Universiti Sains Malaysia)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "World Institute for Nuclear Security (WINS)"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

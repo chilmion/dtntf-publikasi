@@ -1286,5 +1286,28 @@
    "info": null,
    "kategori": "Prosiding Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Perencanaan Sistem Energi Terbarukan)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Kungl Tekniska Högskolan, Sweden), Ph.D (Curtin University of Technology, Australia)."
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [
+   {
+    "tahun": "",
+    "keterangan": "peraih Habibie Award 2014 bidang Ilmu Rekayasa"
+   }
+  ],
+  "kerjasama": []
+ }
 }

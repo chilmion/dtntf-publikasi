@@ -672,5 +672,23 @@
    "info": null,
    "kategori": "Book Chapter / Book Series"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T., M.Eng., Dr. (Universitas Gadjah Mada)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

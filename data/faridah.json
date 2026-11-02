@@ -5162,5 +5162,23 @@
    "akreditasi": "Unknown",
    "kategori": "Jurnal Nasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Terbangun Berkelanjutan)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "Prof., Ir. (Universitas Gadjah Mada), S.T. (Institut Teknologi Sepuluh Nopember), M.Sc. (Nanyang Technological University, Singapore), Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

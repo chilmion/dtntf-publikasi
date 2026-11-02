@@ -420,5 +420,28 @@
    "dana": "Rp. 15.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Dosimetri Fisika Medis)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Ruprecht Karls Universität Heidelberg, Germany)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "European Federation of Organisations for Medical Physics (EFOMP), Aliansi Fisikawan Medik Indonesia (AFISMI)"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

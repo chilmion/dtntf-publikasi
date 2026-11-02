@@ -801,5 +801,23 @@
    "jenis_paten": "Paten",
    "kategori": "Paten & HKI"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Konservasi Energi Bio Terbarukan)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (University of Magdeburg, Germany), Kandidat doktor (Universitas Gadjah Mada)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

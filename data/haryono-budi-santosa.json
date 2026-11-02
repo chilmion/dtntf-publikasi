@@ -358,5 +358,23 @@
    "dana": "Rp. 50.000.000",
    "kategori": "Penelitian"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Rekayasa Keselamatan dan Keamanan Sistem Sosio-Teknikal Berbahaya)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "Ir., M.Sc., Dr., (Universitas Gadjah Mada)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

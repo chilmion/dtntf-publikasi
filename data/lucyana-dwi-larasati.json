@@ -127,5 +127,23 @@
    "jenis_paten": "Paten",
    "kategori": "Paten & HKI"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Rekayasa Nanomaterial)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Institut Teknologi Bandung), M.S. (Yeungnam University, Korea Selatan)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

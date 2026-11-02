@@ -839,5 +839,23 @@
    "info": null,
    "kategori": "Prosiding Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Sistem Manajemen Baterai)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "Ir. (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

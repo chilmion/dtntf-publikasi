@@ -1130,5 +1130,23 @@
    "info": null,
    "kategori": "Prosiding Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Fisika Konservasi Material Budaya)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Institut Teknologi Bandung), M.Sc., Dr. (Technische Universiteit Delft, Netherlands)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

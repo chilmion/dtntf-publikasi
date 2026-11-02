@@ -1717,5 +1717,23 @@
    "info": null,
    "kategori": "Prosiding Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Fisika Bangunan dan Energi)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Kungl Tekniska Högskolan, Sweden), Dr. (Tokyo Institute of Technology, Japan), IPU. (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

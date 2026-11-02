@@ -516,5 +516,28 @@
    "info": null,
    "kategori": "Jurnal Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Radioterapi)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.Si. (Institut Pertanian Bogor), M.Sc. (Prince of Songkla University, Thailand), Ph.D. (Universiti Sains Malaysia)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "Aliansi Fisikawan Medik Indonesia (AFISMI)"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

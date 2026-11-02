@@ -1276,5 +1276,28 @@
    "info": null,
    "kategori": "Jurnal Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Otomasi Proses)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung), M.Sc. (Fachhochschule Karlsruhe, Germany), Dr.-Ing. (Universität Kassel, Germany), IPM. (Persatuan Insinyur Indonesia)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "International Association for Automation and Robotics in Construction"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

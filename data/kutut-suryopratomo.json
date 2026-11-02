@@ -539,5 +539,28 @@
    "info": null,
    "kategori": "Jurnal Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Sistem Energi Bayu Hibrida)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "Ir., M.T. (Universitas Gadjah Mada), M.Sc. (University of Magdeburg, Germany)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "World Institute for Nuclear Security (WINS)"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

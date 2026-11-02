@@ -1684,5 +1684,28 @@
    "akreditasi": "Unknown",
    "kategori": "Jurnal Nasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Rekayasa Keselamatan, Keamanan dan Ketahanan Proliferasi Deterministik)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "Ir. (Universitas Gadjah Mada), Dr-Ing. (TU Berlin, Germany), IPU. (Persatuan Insinyur Indonesia)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "International Association for Continuing Engineering Education, World Institute for Nuclear Security (WINS)"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

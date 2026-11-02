@@ -1,0 +1,1045 @@
+{
+ "diperbarui": "2026-11-02T15:39:59+0000",
+ "kbk": [
+  {
+   "kode": "enet",
+   "nama": "Energi Nuklir dan Energi Terbarukan",
+   "singkatan": "ENET",
+   "halaman": "kbk-enet",
+   "url": "/kbk-enet/",
+   "ketua": {
+    "slug": "alexander-agung",
+    "nama": "Alexander Agung",
+    "gelar": "S.T., M.Sc., Dr., PostDoc",
+    "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Ir.-Alexander-Agung-S.T.-M.Sc_.-IPU-819x1024.jpg",
+    "url": "/alexander-agung/"
+   },
+   "gambar": "kbk/enet.jpg",
+   "ringkasan": "Memandang energi nuklir dan energi terbarukan sebagai dua pilar satu persoalan keteknikan: energi yang andal, aman, terjangkau, dan berkelanjutan bagi Indonesia sebagai negara kepulauan.",
+   "sekilas": "Kelompok Bidang Keahlian (KBK) Energi Nuklir dan Energi Terbarukan merupakan salah satu dari empat KBK di Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada. KBK ENET memandang energi nuklir dan energi terbarukan bukan sebagai dua jalur terpisah, melainkan sebagai dua pilar dari satu persoalan keteknikan yang sama: menyediakan energi yang andal, aman, terjangkau, dan berkelanjutan bagi Indonesia sebagai negara kepulauan.",
+   "kompetensi": [
+    {
+     "no": 1,
+     "judul": "Desain & Analisis Reaktor Maju",
+     "deskripsi": "Gama-Float, MSR, reaktor mikro, SMR/PWR kecil, heat pipe, reaktor maritim; siklus torium dan uranium, bahan bakar toleran kecelakaan, kinetika neutron tunda."
+    },
+    {
+     "no": 2,
+     "judul": "Komputasi Multifisika & Optimasi",
+     "deskripsi": "Kopling neutronik–termohidrolika, analisis subkanal, kuantifikasi ketidakpastian dan sensitivitas, optimasi metaheuristik, model surogat jaringan saraf."
+    },
+    {
+     "no": 3,
+     "judul": "3S & Kehandalan Sistem",
+     "deskripsi": "Analisis keselamatan deterministik, defence-in-depth, ketahanan proliferasi, sistem proteksi fisik, fault tree, forensik nuklir dan spektrometri gamma."
+    },
+    {
+     "no": 4,
+     "judul": "Energi Surya & Konversi Terbarukan",
+     "deskripsi": "Sel surya heterojunction dan hybrid, PV jaringan dan terapung, hidrogen hijau, penyimpanan energi; hidro, ORC panas bumi, angin, dan energi laut."
+    },
+    {
+     "no": 5,
+     "judul": "Bioenergi & Bahan Bakar Nabati",
+     "deskripsi": "Esterifikasi in situ biji non-pangan, bioetanol, pemurnian biogas, PLTBm, mesin uap piston mikro, dan peralatan termal biomassa."
+    },
+    {
+     "no": 6,
+     "judul": "Perencanaan Sistem & Kebijakan",
+     "deskripsi": "Microgrid dan smart grid, MCDM pemilihan teknologi PLTN, LCOE, audit energi, bangunan hijau, nexus air–energi–pangan, kebijakan energi."
+    }
+   ],
+   "anggota": [
+    {
+     "slug": "alexander-agung",
+     "nama": "Alexander Agung",
+     "gelar": "S.T., M.Sc., Dr., PostDoc",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Ir.-Alexander-Agung-S.T.-M.Sc_.-IPU-819x1024.jpg",
+     "url": "/alexander-agung/",
+     "keahlian": "Komputasi multifisika dan optimasi sistem nuklir",
+     "peran": "Koordinator"
+    },
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto",
+     "gelar": "Prof., Ir., M.T., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Prof.-Dr.-Ir.-Andang-Widi-Harto-S.T.-M.T.-IPU.-ASEAN-Eng-819x1024.jpg",
+     "url": "/andang-widi-harto/",
+     "keahlian": "Reaktor nuklir maju pembangkit daya",
+     "peran": ""
+    },
+    {
+     "slug": "sihana",
+     "nama": "Sihana",
+     "gelar": "Ir., Dr-Ing.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/01/Foto-Pak-Sihana.jpeg",
+     "url": "/sihana/",
+     "keahlian": "Rekayasa Keselamatan, Keamanan dan Ketahanan Proliferasi Deterministik",
+     "peran": ""
+    },
+    {
+     "slug": "haryono-budi-santosa",
+     "nama": "Haryono Budi Santosa",
+     "gelar": "Ir., M.Sc., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Ir.-Haryono-Budi-Santosa-M.Sc_-819x1024.jpg",
+     "url": "/haryono-budi-santosa/",
+     "keahlian": "Rekayasa keselamatan dan kehandalan sistem sosio-teknikal berbahaya",
+     "peran": ""
+    },
+    {
+     "slug": "rachmawan-budiarto",
+     "nama": "Rachmawan Budiarto",
+     "gelar": "S.T., M.T., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/WhatsApp-Image-2024-07-28-at-07.00.27-1-682x1024.jpeg",
+     "url": "/rachmawan-budiarto/",
+     "keahlian": "Sistem Energi Berkelanjutan",
+     "peran": ""
+    },
+    {
+     "slug": "ahmad-agus-setiawan",
+     "nama": "Ahmad Agus Setiawan",
+     "gelar": "S.T., M.Sc., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Ahmad-Agus-Setiawan-S.T.-M.Sc_.-Ph.D-819x1024.jpg",
+     "url": "/ahmad-agus-setiawan/",
+     "keahlian": "Perencanaan Sistem Energi Terbarukan",
+     "peran": ""
+    },
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum",
+     "gelar": "Ir., M.T., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/14-819x1024.jpg",
+     "url": "/nunung-prabaningrum/",
+     "keahlian": "Teknologi Proses Energi Bio Terbarukan",
+     "peran": ""
+    },
+    {
+     "slug": "kutut-suryopratomo",
+     "nama": "Kutut Suryopratomo",
+     "gelar": "Ir., M.T., M.Sc.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/KUTUT-1024x960.jpg",
+     "url": "/kutut-suryopratomo/",
+     "keahlian": "Sistem Energi Bayu Hibrida",
+     "peran": ""
+    },
+    {
+     "slug": "ari-bimo-prakoso",
+     "nama": "Ari Bimo Prakoso",
+     "gelar": "S.T., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/10/2.b-Recent-Photograph-Ari-Bimo-Prakoso-white.png",
+     "url": "/ari-bimo-prakoso/",
+     "keahlian": "Sistem Energi Surya Hibrida",
+     "peran": ""
+    },
+    {
+     "slug": "fadli-kasim",
+     "nama": "Fadli Kasim",
+     "gelar": "S.T., M.Sc.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Fadli-Kasim-S.T.-M.Sc_-819x1024.jpg",
+     "url": "/fadli-kasim/",
+     "keahlian": "Konservasi Energi Bio Terbarukan",
+     "peran": ""
+    },
+    {
+     "slug": "yanuar-ady-setiawan",
+     "nama": "Yanuar Ady Setiawan",
+     "gelar": "S.T., M.S., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Yanuar-683x1024.jpeg",
+     "url": "/yanuar-ady-setiawan/",
+     "keahlian": "Reaktor Maju Produksi Isotop dan Radiasi",
+     "peran": ""
+    },
+    {
+     "slug": "andhika-yudha-prawira",
+     "nama": "Andhika Yudha Prawira",
+     "gelar": "S.T., MS.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Andhika-Yudha-Prawira-S.T.-M.S-819x1024.jpg",
+     "url": "/andhika-yudha-prawira/",
+     "keahlian": "Sistem Keselamatan, Keamanan dan Safeguard Nuklir Terintegrasi",
+     "peran": ""
+    }
+   ],
+   "tema": [
+    {
+     "no": 1,
+     "judul": "Reaktor Terapung Gama-Float dan Reaktor Maritim MMPP Merah Putih",
+     "deskripsi": "Gama-Float adalah konsep reaktor nuklir terapung berdaya rendah yang dirancang untuk memasok listrik ke kawasan terpencil dan kepulauan, tempat jaringan darat tidak ekonomis dibangun. Kajian mencakup desain konseptual teras, analisis neutronik dan burnup, termohidrolika teras pada kondisi tunak maupun transien, serta perilaku pendingin ketika lambung reaktor mengalami gerak rolling, heaving, dan pitching pada berbagai kondisi laut. Bahan bakar toleran kecelakaan (accident tolerant fuel) dan penambahan lapisan torium dikaji untuk meningkatkan margin keselamatan sekaligus memperpanjang siklus operasi.",
+     "jumlah_publikasi": 6,
+     "riset": [
+      "Pengembangan Reaktor Nuklir Terapung sebagai Wahana Pemenuhan Energi di Kawasan Terpencil (Gama-Float), PDUPT Kemendikbudristek, 2022–2024",
+      "Pengembangan Desain Konseptual Teras Reaktor Nuklir Terapung Berbasis Accident Tolerant Fuel untuk Daerah Terpencil, Penelitian Fundamental, 2025",
+      "Studi Multifisika Accident Tolerant Fuel dengan Penambahan Thorium, Penelitian Fundamental, 2024",
+      "Pengembangan Reactor Vessel MMPP Merah Putih, Pusat Kajian LKFT UGM dan PT PAL, 2026",
+      "Studi PLTN Berdaya Rendah untuk Indonesia, PT PLN (Persero), 2022"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "I. P. K. Kuumbara, A. Agung, Sihana, “Subchannel analysis on KLT-40S in determining MDNBR during loss-of-flow accident using SUBCHANFLOW,” AIP Conf. Proc. 3120, 020014, 2025.",
+       "doi": "10.1063/5.0229864"
+      },
+      {
+       "sitasi": "D. A. Prasetyo, A. Agung, Sihana, “Optimizing the placement and content of burnable poison in Gama-Float reactor’s fuel assembly,” Asia-Pacific Journal of Science and Technology, vol. 29, no. 6, 2024.",
+       "doi": "10.14456/apst.2024.98"
+      },
+      {
+       "sitasi": "A. A. Mahfudz, A. Agung, A. W. Harto, “Investigation on Neutronic Parameters of the KLT-40S Reactor Core with U3Si2-FeCrAl using SCALE code,” Journal of Engineering and Technological Sciences, vol. 55, no. 1, pp. 22–30, 2023.",
+       "doi": "10.5614/j.eng.technol.sci.2023.55.1.3"
+      },
+      {
+       "sitasi": "D. F. Fajri, A. Agung, A. W. Harto, “The Study of Floating Nuclear Power Plant Reactor Core Neutronic Parameters Using Scale 6.1 Code,” International Journal on Advanced Science Engineering and Information Technology, vol. 10, no. 5, pp. 1774–1783, 2020.",
+       "doi": "10.18517/ijaseit.10.5.6609"
+      },
+      {
+       "sitasi": "A. Kristanto, A. Agung, K. Suryopratomo, “Thermal-hydraulics Operation Parameters Modeling and Analysis of KLT-40S Reactor at Steady-State and Transient Condition using RELAP5-3D,” IJASEIT, vol. 10, no. 3, pp. 937–944, 2020.",
+       "doi": "10.18517/ijaseit.10.3.7622"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "judul": "Reaktor Garam Cair, Reaktor Mikro, dan Reaktor Antariksa",
+     "deskripsi": "GAMA-MSR adalah konsep reaktor garam cair multifungsi berbasis potensi torium lokal; analisis mencakup burnup, parameter neutronik, rasio moderator terhadap bahan bakar, dan fraksi uranium pada kisi persegi. Keluarga reaktor mikro GAMA dikembangkan dalam beberapa varian: berpendingin heat pipe untuk aplikasi terestrial, GAMA-SHP untuk aplikasi antariksa, serta Indonesia Micro Reactor (IMR-13) sebagai rancangan teras berdaya kecil. Reaktor hidrida dengan bahan bakar UH3 dan ThC dikaji sebagai alternatif teras kompak, dengan optimasi pengayaan dan dimensi pitch teras menggunakan metode NSGA-II dan perhitungan OpenMC.",
+     "jumlah_publikasi": 10,
+     "riset": [
+      "Pengembangan Reaktor Mikro MSR untuk propulsi dan aplikasi antariksa (Space Reactor), ERIC UGM, 2024",
+      "Pengembangan PLTN Terapung GAMA-MSR Multifungsi Berbasis Potensi Thorium Lokal, UGM, 2025",
+      "Pengembangan Pembangkit Listrik Mikro Reaktor Nuklir untuk Daerah 3T, DTNTF UGM, 2020",
+      "Pemodelan Neutronika dan Termal Hidraulika PLTN SMR SMART 100 MWe, LPDP–BRIN, 2021"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "A. W. Harto, Kusnanto, M. A. A. F. Pasha, M. Y. A. Putra, D. A. A. N. Royyan, “Analysis neutronic performance of the GAMA microreactor heat pipe,” Nuclear Analysis, vol. 5, 100239, 2026.",
+       "doi": "10.1016/j.nucana.2026.100239"
+      },
+      {
+       "sitasi": "A. W. Harto, Kusnanto, A. Agung, M. Y. A. Putra, “Design of GAMA-SHP microreactor for outer space application: Neutronic study,” Nuclear Engineering and Design, vol. 441, 114167, 2025.",
+       "doi": "10.1016/j.nucengdes.2025.114167"
+      },
+      {
+       "sitasi": "A. W. Harto, A. Agung, M. Y. A. Putra, D. J. Kanaya, “Burnup and neutronic parameter analysis of GAMA Molten Salt Reactor (GAMA-MSR),” Annals of Nuclear Energy, vol. 207, 110703, 2024.",
+       "doi": "10.1016/j.anucene.2024.110703"
+      },
+      {
+       "sitasi": "A. W. Harto, A. Agung, Sihana, M. Y. A. Putra, R. A. Azizi, D. J. Kanaya, A. R. P. Gusti, R. A. P. Dwijayanto, “Neutronic characteristic analysis of the GAMA microreactor,” Heliyon, vol. 10, no. 9, e30707, 2024.",
+       "doi": "10.1016/j.heliyon.2024.e30707"
+      },
+      {
+       "sitasi": "L. H. Nahari, A. Sumarno, A. K. Dewi, H. H. Nababan, A. W. Harto, Sihana, A. Agung, “Preliminary analysis of the core design for Indonesia Micro Reactor (IMR-13),” Nuclear Engineering and Design, vol. 419, 112989, 2024.",
+       "doi": "10.1016/j.nucengdes.2024.112989"
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "judul": "Komputasi Multifisika, Kuantifikasi Ketidakpastian, dan Optimasi",
+     "deskripsi": "Kopling neutronik–termohidrolika dan analisis subkanal dikerjakan dengan perangkat SCALE, Serpent-2, MCNP/MCNPX, OpenMC, PHITS, RELAP5-3D, TRACE, dan SUBCHANFLOW. Kuantifikasi propagasi ketidakpastian dari perangkat bahan bakar ke parameter keselamatan teras, beserta analisis sensitivitasnya, menjadi kompetensi pembeda yang dirintis sejak kerja sama dengan Chalmers University of Technology. Optimasi desain dan pola pemuatan bahan bakar memakai algoritma genetika, NSGA-II, quantum-inspired evolutionary algorithm, dan polar bear optimization.",
+     "jumlah_publikasi": 8,
+     "riset": [
+      "Kuantifikasi Propagasi Ketidakpastian dari Perangkat Bahan Bakar ke Parameter Keselamatan Teras Reaktor Gama-Float, UGM, 2026",
+      "Optimasi Lokasi dan Kadar Pin Gadolinia menggunakan Metode Algoritma Genetika, UGM, 2023",
+      "Optimasi Fuel Loading Pattern Teras PWR 1000 MWe menggunakan Quantum-inspired Evolutionary Algorithm, UGM, 2016",
+      "Uncertainty and Sensitivity Analysis of Coupled Thermal-hydraulics Nuclear Kinetics Model for PWR Core, Chalmers University of Technology, 2009",
+      "Pengembangan Model Simulator Sistem Pembangkit Daya Hibrid Energi Terbarukan dan Nuklir, UGM, 2020"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "E. Nuraini, Sihana, Taufik, Darsono, Saefurrochman, R. Satriya Utama, “Design of a thermionic electron gun of 6 MeV linac by using neural network based surrogate model,” International Journal of Electrical and Computer Engineering (IJECE), vol. 16, no. 1, pp. 477–487, 2026.",
+       "doi": "10.11591/ijece.v16i1.pp477-487"
+      },
+      {
+       "sitasi": "A. Purwadi, Sihana, Taufik, Saefurrochman, E. Nuraini, Suprapto, I. Aziz, Wijono, Darsono, Syarip, “Calculation and measurement of electron emission current on plasma generator tube for pulse electron irradiator,” BIO Web of Conferences, vol. 226, 01002, 2026.",
+       "doi": "10.1051/bioconf/202622601002"
+      },
+      {
+       "sitasi": "Y. A. Setiawan, H. Sengar, D. Fynan, A. R. Hakim, “Beta-Ray-Bremsstrahlung Contributions to Short-Lived Delayed Photoneutron Groups in Heavy Water Reactors,” Nuclear Science and Engineering, 2022.",
+       "doi": "10.1080/00295639.2022.2103341"
+      },
+      {
+       "sitasi": "A. Amatullah, A. Agung, A. Arif, “Minimizing Power Peaking Factor of BEAVRS-based Reactor Using Polar Bear Optimization Algorithms,” IOP Conf. Ser.: Earth and Environmental Science, vol. 927, 012004, 2021.",
+       "doi": "10.1088/1755-1315/927/1/012004"
+      },
+      {
+       "sitasi": "S. Phungky, A. Agung, Sihana, “Analysis of Natural Convection Capability in NuScale Primary Cooling Systems with Mixture of Uranium and Plutonium (Mixed Oxide) Fuel Using RELAP5-3D,” AIP Conf. Proc. 2223, 030002, 2020.",
+       "doi": "10.1063/5.0000840"
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "judul": "Keselamatan, Keamanan, dan Safeguards Nuklir (3S)",
+     "deskripsi": "Analisis keselamatan deterministik pembangkit listrik tenaga nuklir pada daya ditingkatkan dikerjakan bersama regulator dan mitra internasional, dilengkapi kajian osilasi xenon dan penilaian konsep defence-in-depth. High-Level Safety Assessment TMSR 500 bersama PT ThorCon Power Indonesia menerapkan kompetensi tersebut pada teknologi reaktor garam cair. Analisis efektivitas sistem proteksi fisik dikembangkan dengan pendekatan stokastik melalui perangkat MAPPS, analisis ancaman orang dalam, serta analisis lintasan penyusup berbasis optimasi graf.",
+     "jumlah_publikasi": 9,
+     "riset": [
+      "Deterministic Safety Analysis of Ringhals-3, Ringhals-4, dan Forsmark-2 pada Daya Ditingkatkan, SSM – Chalmers University of Technology, 2009–2014",
+      "High-Level Safety Assessment of TMSR 500 Safety Design, ThorCon Power Indonesia, 2022",
+      "Pengembangan Metode Analisis Sistem Proteksi Fisik (Keamanan Nuklir), 2016–2020",
+      "Rangkaian kajian regulasi dan pengawasan bersama BAPETEN, 2015–2019",
+      "Kajian Regulasi, Roadmap dan Penilaian Keselamatan untuk Pengembangan PLTN, PLN Enjiniring dan BAPETEN, 2025"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "N. K. Perwira, Sihana, R. M. Subekti, D. Andiwijayakusuma, “Multi-Strategy Adversary Path Analysis Using Graph-Based Optimization for Vulnerability Assessment of Physical Protection Systems at Nuclear Facilities,” EPJ Web of Conferences, vol. 381, 00011, 2026.",
+       "doi": "10.1051/epjconf/202638100011"
+      },
+      {
+       "sitasi": "E. Nathalie, A. Y. Prawira, “A Rogue Seoul? South Korea’s Nuclear Ambitions and Indonesia-South Korea Relations,” APLN Commentary on Nuclear Order in East Asia, 2024.",
+       "doi": ""
+      },
+      {
+       "sitasi": "H. B. Santosa, M. Hadi, Y. U. Imardjoko, “Improving the DiD concept in nuclear energy technology to eliminate the potential for NPP disasters through an environmental approach,” IOP Conf. Ser.: Earth and Environmental Science, vol. 1180, no. 1, 012019, 2023.",
+       "doi": "10.1088/1755-1315/1180/1/012019"
+      },
+      {
+       "sitasi": "S. H. Putero, Mondjo, A. B. Wijatna, Sihana, A. W. Harto, N. Prabaningrum, A. Muharini, W. Rosita, E. Wijayanti, A. Agung, H. B. Santosa, Kusnanto, Y. U. Imardjoko, Faridah, Ferdiansjah, “Developing Nuclear Security Capacity of Indonesia’s Police and Security Officer: Lessons from Universitas Gadjah Mada’s Pilot Training,” International Journal of Nuclear Security, vol. 7, no. 1, art. 13, 2022.",
+       "doi": "10.7290/ijns07v97c"
+      },
+      {
+       "sitasi": "A. Y. Prawira, “Small Modular Reactors: Addressing Security and Safeguards Challenges,” APLN Policy Briefs (Issue 86), Asia-Pacific Leadership Network, 2022.",
+       "doi": ""
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "judul": "Forensik Nuklir dan Pertanggungjawaban Bahan Nuklir",
+     "deskripsi": "Forensik nuklir menjawab pertanyaan yang berbeda dari keselamatan reaktor: dari mana asal suatu bahan nuklir, berapa massanya, dan berapa pengayaannya — ketika bahan itu ditemukan di luar kendali regulator. Model kalibrasi dan evaluasi kinerja multichannel analyzer portabel dikembangkan untuk pengukuran forensik nuklir di lapangan, bekerja sama dengan BRIN dan mitra internasional. Kuantifikasi massa dan pengayaan pada serbuk UO2 curah memerlukan penanganan swaserapan (self-attenuation); metode assay yang tidak bergantung matriks sedang dikembangkan untuk keperluan ini.",
+     "jumlah_publikasi": 2,
+     "riset": [
+      "Pengembangan Metode Rekognisi Pola Spektrum Energi Gamma dari Detektor Sintilasi untuk Identifikasi Anomali Peristiwa Keselamatan dan Keamanan Nuklir, UGM, 2025"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "M. S. F. Husein, Sihana, R. M. Subekti, K. Indriana, E. Noerpitasari, Susanto, L. N. Thanh, “Calibration model development and performance evaluation of portable multichannel analyzer for in-situ nuclear forensics,” 2026.",
+       "doi": ""
+      },
+      {
+       "sitasi": "M. S. F. Husein, R. M. Subekti, Sihana, E. Noerpitasari, “Characterizing self-attenuation in UO2 powder gamma spectrometry: development of a matrix-independent assay for mass and enrichment quantification in bulk nuclear material,” 2026.",
+       "doi": ""
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "judul": "Sel Surya, Material Konversi Energi, dan Penyimpanan Energi",
+     "deskripsi": "Rekayasa sel surya silikon heterojunction dan hybrid Si/organik mencakup karakterisasi material kontak selektif berbasis oksida molibdenum, struktur interdigitated back contact, dan sel PV-Tower berjejak kecil untuk aplikasi internet of things. Analisis transien tegangan dikembangkan sebagai perangkat karakterisasi sambungan surya yang bersifat umum, dapat dipakai lintas jenis sel. Pada tingkat sistem, kajian mencakup pemompaan air tenaga surya berdiri sendiri, optimasi sudut kemiringan pembangkit surya terapung, dan penentuan kapasitas sistem PV-BESS dengan memperhitungkan degradasi baterai.",
+     "jumlah_publikasi": 8,
+     "riset": [
+      "Biomass and Textile Waste Characterization for Alternative Electrolyte for Green Hydrogen Production, UGM, 2025",
+      "Design and Construction of Hydrogen Production System with Solar and Wind Hybrid Power System, UGM, 2024",
+      "Hydrogen Production and Water Treatment using Photovoltaic-Electrochemical Reactor (PVEC), UGM, 2023",
+      "Si heterojunction solar cell for energy harvesting application, Singapore Ministry of Education, 2017–2019",
+      "Assessment for Grid-Connected Rooftop Photovoltaic in UGM, 2021–2022"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "A. A. Setiawan, A. T. Nugroho, D. A. H. Annajmi, R. R. Jati, M. Irfandi, Budiyono, W. Maulana, “Enhancing stand-alone PV pumping efficiency: An experimental study of low-tilt angle optimization in Southern Hemisphere season,” Journal of Solar Energy Research, vol. 11, no. 3, pp. 4011–4020, 2026.",
+       "doi": "10.22059/jser.2026.410950.1719"
+      },
+      {
+       "sitasi": "A. H. B. Azizah, J. Waluyo, A. A. Setiawan, “Optimization of the floating solar power plant design in variation of tilt angle (Case study: Mrica reservoir, Banjarnegara, Central Java),” AIP Conf. Proc. 3417, 050021, 2026.",
+       "doi": "10.1063/5.0343294"
+      },
+      {
+       "sitasi": "H. Raditya, R. Budiarto, R. Irnawan, “Optimization of PV-BESS System Capacity Considering Battery Degradation for Nighttime Peak Load Supply: A Case Study of Guluk-Guluk, Madura,” Eduvest — Journal of Universal Studies, vol. 6, no. 7, pp. 8010–8025, 2026.",
+       "doi": "10.59188/eduvest.v6i7.53297"
+      },
+      {
+       "sitasi": "A. B. Prakoso, Rusli, J. Wang, C. Lu, H. Wang, “PV-Tower solar cell for small footprint photovoltaic energy harvesting for the internet of things application,” Semiconductor Science and Technology, 2020.",
+       "doi": "10.1088/1361-6641/abbaec"
+      },
+      {
+       "sitasi": "C. Lu, Rusli, A. B. Prakoso, H. Wang, “Carrier selective solution processed Molybdenum Oxide Silicon heterojunctions solar cells with over 12% efficiency,” Semiconductor Science and Technology, 2020.",
+       "doi": "10.1088/1361-6641/ab8c29"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "judul": "Konversi Energi Termal dan Terbarukan: Panas Bumi, Hidro, Angin, dan Laut",
+     "deskripsi": "Panas bumi dikaji dari sisi termodinamika dan ekonomi: perancangan awal PLTP uap kering dengan sistem pembuangan gas, pengaruh perubahan suhu reservoir pada kinerja siklus Rankine organik, serta persoalan scaling silika pada pipa injeksi brine. Pembelajaran mesin ringan mulai dipakai untuk prediksi katup kondenser dan prakiraan efisiensi turbin pada pembangkit panas bumi, menyatukan pemodelan termodinamika dengan pendekatan berbasis data. Energi laut dikaji melalui sistem Oscillating Water Column, mencakup potensi di Pantai Baron serta analisis komputasional geometri underlip dan redaman power take-off.",
+     "jumlah_publikasi": 11,
+     "riset": [
+      "Kajian potensi energi gelombang laut dengan sistem Oscillating Water Column di Pantai Baron, Gunungkidul, 2022",
+      "Pemodelan termodinamika dan pembelajaran mesin untuk kinerja PLTP: siklus Rankine organik, katup kondenser Darajat, dan efisiensi turbin Kamojang 3, UGM, 2016–2025",
+      "Kajian dan penyusunan panduan pemilihan turbin angin untuk penerapan berbasis kinerja lokasi, UGM, 2020–2021",
+      "Pemanfaatan kawah bekas tambang sebagai pumped storage hydropower plant, UGM, 2020–2025",
+      "Pengembangan modul desain pembangkit listrik tenaga air, UGM, 2009"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "H. Ramadhan, R. Budiarto, Kusnanto, “Energy Recovery from Cooling Tower Blowdown Water for Micro-Hydropower Generation: A Case Study at Asam Asam Coal-Fired Power Plant,” Journal of Social Research, vol. 5, no. 7, pp. 2946–2959, 2026.",
+       "doi": "10.55324/josr.v5i7.3218"
+      },
+      {
+       "sitasi": "M. A. Bramantya, H. S. S. Rocharjo, A. P. Tenggara, R. Budiarto, “Computational analysis of underlip geometry and power take-off damping effects on oscillating water column performance,” Ocean Systems Engineering, vol. 15, no. 4, p. 423, 2025.",
+       "doi": "10.12989/ose.2025.15.4.423"
+      },
+      {
+       "sitasi": "O. Ropandi, Sihana, D. J. Suroso, “Lightweight Machine Learning for Condenser Valve Prediction in a Geothermal Power Plant: A Darajat Case Study,” Atlantis Highlights in Sustainable Development, 2025.",
+       "doi": "10.2991/978-94-6463-944-5_25"
+      },
+      {
+       "sitasi": "M. Rama, Sihana, D. J. Suroso, “Hybrid Thermodynamic and Machine Learning Workflow for Forecasting Turbine Efficiency at Kamojang 3 Geothermal Power Plant,” Atlantis Highlights in Sustainable Development, 2025.",
+       "doi": "10.2991/978-94-6463-944-5_28"
+      },
+      {
+       "sitasi": "D. Novitasari, Sarjiya, S. P. Hadi, R. Budiarto, Deendarlianto, “The climate and land-use changes impact on water availability for hydropower plants in Indonesia,” Energy Strategy Reviews, vol. 46, 101043, 2023.",
+       "doi": "10.1016/j.esr.2022.101043"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "judul": "Bioenergi dan Bahan Bakar Nabati",
+     "deskripsi": "Preparasi biodiesel dari biji nabati non-pangan — kemiri sunan, nyamplung, dan biji karet — dikerjakan melalui esterifikasi dan transesterifikasi in situ, lengkap dengan optimasi kondisi proses dan kajian kinetika reaksinya. Pemurnian biogas memakai zeolit alam dan biochar berbasis limbah peternakan dan pertanian, sekaligus mendaur ulang sludge biogas sehingga sistemnya mendekati nirlimbah. Peralatan termal berbahan bakar biomassa dikembangkan hingga tahap purwarupa: pembangkit listrik tenaga biomassa 10 kWe untuk wilayah 3T, mikro boiler untuk UMKM tahu, multigrain dryer dengan penukar kalor shell and tube, mesin uap piston hibrid surya–biomassa, serta distilator minyak atsiri portabel.",
+     "jumlah_publikasi": 12,
+     "riset": [
+      "Studi Parametrik Proses Simultan Ekstraksi dan (Trans)Esterifikasi dari Biji Kemiri Sunan, 2026",
+      "Riset Hilirisasi Teknologi Mikro Boiler Biomassa untuk UMKM Tahu, Matching Fund DIKTI dan PT Syahir Engineering Utama, 2021",
+      "Pengembangan PLTBm 10 kWe untuk elektrifikasi wilayah 3T, Matching Fund DIKTI dan PT PLN (Persero), 2022",
+      "Pengembangan multigrain dryer berbahan bakar biomassa: tungku, air pre-heater, dan optimasi CFD, 2024–2026",
+      "Pengembangan Purwarupa Mesin Uap Piston untuk Pembangkit Hibrida Solar Termal dan Biomassa Mikro, UGM, 2023"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "F. A. Jalil, K. Asif, N. Prabaningrum, Kusnanto, “Biodiesel Preparation by Optimization of Rubber Seed In Situ Esterification,” Journal of Renewable Energy and Environment, vol. 13, no. 2, pp. 1–11, 2026.",
+       "doi": "10.30501/jree.2026.499402.2232"
+      },
+      {
+       "sitasi": "F. Kasim, A. W. Harto, R. F. Barley, L. A. Kahfi, M. Y. A. Putra, F. A. Jalil, “Design and Optimization of Shell and Tube Heat Exchanger (STHE) in Continuous Flow Multigrain Dryer Fueled by Biomass Using CFD,” Journal of Advanced Research in Numerical Heat Transfer, 2025.",
+       "doi": "10.37934/arnht.34.1.5374"
+      },
+      {
+       "sitasi": "N. A. Mufidah, A. D. Cahyani, N. Prabaningrum, Kusnanto, “Acid Value Reduction of Calophyllum inophyllum Oil by Oilseeds In situ Esterification Using Sulfuric Acid Catalyzed Methanol and Isopropyl Alcohol Mixture,” IOP Conf. Ser.: Earth and Environmental Science, vol. 927, 012010, 2021.",
+       "doi": "10.1088/1755-1315/927/1/012010"
+      },
+      {
+       "sitasi": "A. Pertiwiningrum, M. A. Wuri, W. L. Pamb, L. M. Yusiati, A. W. Harto, N. A. Fitriyanto, “The Utilization of Biogas Sludge Biochar to Lead Zero Waste System in Biogas Implementation: The Effect of Volume on Carbon Dioxide and Methane Content,” International Journal of GEOMATE, vol. 20, no. 79, 2021.",
+       "doi": "10.21660/2021.79.gx388"
+      },
+      {
+       "sitasi": "N. Prabaningrum, Mondjo, G. Dwiputra, P. D. Anwar, A. N. Meilani, A. Istiqomah, “Optimization of In Situ Esterification of Reutealis trisperma Seeds,” AIP Conf. Proc. 2223, 020007, 2020.",
+       "doi": "10.1063/5.0004385"
+      }
+     ]
+    },
+    {
+     "no": 9,
+     "judul": "Perencanaan Sistem Energi, Transisi Energi, dan Kebijakan",
+     "deskripsi": "Perencanaan sistem energi wilayah dan kepulauan mencakup hybrid microgrid, integrasi energi terbarukan berbasis masyarakat, dan penyusunan Rencana Umum Energi Daerah. Pemilihan teknologi PLTN dikerjakan dengan pendekatan Multi-Criteria Decision Making, Technology Readiness Level, dan perbandingan Levelized Cost of Electricity — metode perencanaan, bukan metode desain reaktor. Kajian transisi energi menelaah sektor ketenagalistrikan Jawa-Bali dan Sumatera Utara menuju target Net Zero Emissions 2060, tata kelola adaptif Just Energy Transition Partnership, serta jejak keberlanjutan teknologi co-firing.",
+     "jumlah_publikasi": 13,
+     "riset": [
+      "DANIDA Fellowship Centre — Microgrid Technologies for Remote Indonesian Islands, 2021–2024",
+      "Indonesian–Australian Renewable Energy Super Grid, Australia Indonesia Centre, 2016–sekarang",
+      "Development of the Roadmap for Net Zero Carbon Buildings in Jakarta, 2024–sekarang",
+      "SMR Technology Selection: A Multi-Criteria Decision Model, PT PLN (Persero), 2025–2026",
+      "Technical Support for the Energy Transition Governance Framework, GIZ dan Komisi Pemberantasan Korupsi, 2025"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "T. S. P. Prima, A. A. Setiawan, N. Dewayanto, “Techno-Economic Analysis of The Potential For Hybrid Power Plant in Gunung Sewu Geopark, Pacitan Regency,” ASEAN Journal of System Engineering, vol. 9, no. 1, pp. 16–21, 2025.",
+       "doi": ""
+      },
+      {
+       "sitasi": "K. Multazam, J. Wintoko, A. A. Setiawan, “Economic Valuation of Floating Photovoltaic Power Plants Using Multivariable Risk-Based Financial Modeling,” ICoGEMT-4, vol. 4, 2025.",
+       "doi": ""
+      },
+      {
+       "sitasi": "R. Budiarto, B. G. Dewanto, “Unmanned aerial vehicles for assessing biomass and carbon stocks in mangrove forests,” Sustainable Futures, vol. 10, 101425, 2025 (Q1).",
+       "doi": "10.1016/j.sftr.2025.101425"
+      },
+      {
+       "sitasi": "M. I. Sutikno, Suhanan, A. A. Setiawan, “Energy Transition Planning in Achieving the 2060 Net-Zero Emissions Target in the Electricity Sector of North Sumatra Province,” International Journal of Engineering Business and Social Science, vol. 3, no. 2, pp. 180–192, 2024.",
+       "doi": ""
+      },
+      {
+       "sitasi": "M. Reza, A. A. Setiawan, J. Waluyo, “Energy Transition Analysis and Climate Action Strategy in the Power Sector: A Case Study of the Java-Bali System,” Journal of Physics: Conference Series, vol. 2828, 012004, 2024.",
+       "doi": "10.1088/1742-6596/2828/1/012004"
+      }
+     ]
+    }
+   ],
+   "statistik": {
+    "dosen": 12,
+    "kompetensi": 6,
+    "tema": 9,
+    "publikasi": 79
+   }
+  },
+  {
+   "kode": "proses-nuklir",
+   "nama": "Proses Nuklir",
+   "singkatan": "PN",
+   "halaman": "kbk-proses-nuklir",
+   "url": "/kbk-proses-nuklir/",
+   "ketua": {
+    "slug": "andang-widi-harto",
+    "nama": "Andang Widi Harto",
+    "gelar": "Prof., Ir., M.T., Dr.",
+    "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Prof.-Dr.-Ir.-Andang-Widi-Harto-S.T.-M.T.-IPU.-ASEAN-Eng-819x1024.jpg",
+    "url": "/andang-widi-harto/"
+   },
+   "gambar": "kbk/proses-nuklir.jpg",
+   "ringkasan": "Mengembangkan ilmu proses fisika dan kimia yang mendukung pemanfaatan reaksi, energi, radiasi nuklir, dan radioisotop beserta aspek keselamatan dan keamanannya.",
+   "sekilas": "Kelompok Bidang Keahlian (KBK) Proses Nuklir merupakan salah satu dari empat KBK di Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada. KBK ini bertujuan mengembangkan ilmu pengetahuan yang berkaitan dengan proses-proses fisika dan kimia yang mendukung pemanfaatan reaksi nuklir, energi nuklir, radiasi nuklir, dan radioisotop, serta aspek keselamatan dan keamanan yang terkait.",
+   "kompetensi": [
+    {
+     "no": 1,
+     "judul": "Proses fisika dan kimia untuk teknologi nuklir",
+     "deskripsi": "Proses-proses fisika dan kimia meliputi distilasi, ekstraksi, koagulasi, sentrifugasi, elektrolisis, eksitasi, pemanasan, pendinginan, reduksi, oksidasi, adsorpsi, absorpsi das"
+    },
+    {
+     "no": 2,
+     "judul": "Siklus bahan bakar, limbah, dan radioisotop",
+     "deskripsi": "Proses-proses tersebut digunakan untuk proses bahan bakar nuklir “front end”, proses bahan bakar nuklir “back end”, daur ulang bahan bakar nuklir, pengelolaan limbah radioaktif, dekontaminasi radioaktif, produksi radioisotope, pemisahan isotop"
+    },
+    {
+     "no": 3,
+     "judul": "Radiasi nuklir dan radioisotop untuk medis dan industri",
+     "deskripsi": "Pemanfaatan radiasi nuklir dan radioisotope di bidang medis (diagnose, terapi, kedokteran nuklir), industry, pertanian dan bidang lainnya"
+    },
+    {
+     "no": 4,
+     "judul": "Keselamatan radiasi",
+     "deskripsi": "Aspek keselamatan meliputi keselamatan paparan radiasi (interna, eksterna), dekontaminasi dan mencegah kontaminasi, manajemen kritikalitas"
+    },
+    {
+     "no": 5,
+     "judul": "Keamanan nuklir dan material radioaktif",
+     "deskripsi": "Keamanan nuklir dan material radioaktif."
+    }
+   ],
+   "anggota": [
+    {
+     "slug": "andang-widi-harto",
+     "nama": "Andang Widi Harto",
+     "gelar": "Prof., Ir., M.T., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Prof.-Dr.-Ir.-Andang-Widi-Harto-S.T.-M.T.-IPU.-ASEAN-Eng-819x1024.jpg",
+     "url": "/andang-widi-harto/",
+     "keahlian": "Rekayasa Nuklir (Reaktor Maju Pembangkit Daya)",
+     "peran": "Koordinator"
+    },
+    {
+     "slug": "kusnanto",
+     "nama": "Kusnanto",
+     "gelar": "Ir., Dr-Ing.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/21-819x1024.jpg",
+     "url": "/kusnanto/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Proses Material Nuklir)",
+     "peran": ""
+    },
+    {
+     "slug": "yudi-utomo-imardjoko",
+     "nama": "Yudi Utomo Imardjoko",
+     "gelar": "Ir., M.Sc., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/yudiutomo-imardjokoa.jpg",
+     "url": "/yudi-utomo-imardjoko/",
+     "keahlian": "Rekayasa Nuklir (Manajemen Pengelolaan Limbah Radioaktif)",
+     "peran": ""
+    },
+    {
+     "slug": "ester-wijayanti",
+     "nama": "Ester Wijayanti",
+     "gelar": "Ir., M.T.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/32-819x1024.jpg",
+     "url": "/ester-wijayanti/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Proses Bahan Bakar Nuklir)",
+     "peran": ""
+    },
+    {
+     "slug": "susetyo-hario-putero",
+     "nama": "Susetyo Hario Putero",
+     "gelar": "Ir., M.Eng.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2021/12/Susetyo.jpg",
+     "url": "/susetyo-hario-putero/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Proses Pengolahan Limbah Radioaktif)",
+     "peran": ""
+    },
+    {
+     "slug": "nunung-prabaningrum",
+     "nama": "Nunung Prabaningrum",
+     "gelar": "Ir., M.T., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/14-819x1024.jpg",
+     "url": "/nunung-prabaningrum/",
+     "keahlian": "Rekayasa Fisika (Teknologi Proses Energi Bio Terbarukan)",
+     "peran": ""
+    },
+    {
+     "slug": "anung-muharini",
+     "nama": "Anung Muharini",
+     "gelar": "Ir., M.T.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/13-819x1024.jpg",
+     "url": "/anung-muharini/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Penerapan Radioisotop dan Radioaktivitas Lingkungan)",
+     "peran": ""
+    },
+    {
+     "slug": "widya-rosita",
+     "nama": "Widya Rosita",
+     "gelar": "S.T., M.T., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/16-819x1024.jpg",
+     "url": "/widya-rosita/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Proses Mineral Nuklir)",
+     "peran": ""
+    },
+    {
+     "slug": "fitrotun-aliyah",
+     "nama": "Fitrotun Aliyah",
+     "gelar": "S.T., M.Eng., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/30-819x1024.jpg",
+     "url": "/fitrotun-aliyah/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Proteksi Radiasi Fisika Medis)",
+     "peran": ""
+    },
+    {
+     "slug": "m-arif-efendi",
+     "nama": "M. Arif Efendi",
+     "gelar": "S.Si., M.Sc., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/M.-Arif-Efendi-S.Si_.-M.Sc_.-Ph.D-819x1024.jpg",
+     "url": "/m-arif-efendi/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Radioterapi)",
+     "peran": ""
+    },
+    {
+     "slug": "yanuar-ady-setiawan",
+     "nama": "Yanuar Ady Setiawan",
+     "gelar": "S.T., M.S., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Yanuar-683x1024.jpeg",
+     "url": "/yanuar-ady-setiawan/",
+     "keahlian": "Rekayasa Nuklir (Reaktor Maju Produksi Isotop dan Radiasi )",
+     "peran": ""
+    },
+    {
+     "slug": "sita-gandes-pinasti",
+     "nama": "Sita Gandes Pinasti",
+     "gelar": "S.T., M.Sc.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2020/07/Foto-HRIS-Sita-Gandes-Pinasti-1024x1024.jpg",
+     "url": "/sita-gandes-pinasti/",
+     "keahlian": "Rekayasa Nuklir (Teknologi Dosimetri Fisika Medis)",
+     "peran": ""
+    }
+   ],
+   "tema": [
+    {
+     "no": 1,
+     "judul": "Pengembangan GAMA-AHR untuk produksi radioisotop medis",
+     "deskripsi": "GAMA AHR merupakan konsep reaktor yang lebih ditujukan untuk menghasilkan unsur radioisotop seperti Molybdenum-99. Karena lebih dikhususkan untuk menghasilkan radioisotop, pengembangan dan pembangunan reaktor ini tidak membutuhkan biaya investasi awal terlalu besar dan tidak memerlukan perancangan terlalu kompleks. Spesifikasi: daya 200 kWth, kapasitas 2500 six-day Ci Mo-99, bahan bakar larutan uranil nitrat 3,5% mol berpengayaan 19,75%, suhu operasi 80 °C.",
+     "jumlah_publikasi": 4,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Andang Widi Harto, Kusnanto, Alexander Agung, Diva Jati Kanaya, M. Yayan Adi Putra, Dynamic modeling and simulation of the GAMA-AHR, Nuclear Engineering and Design, Volume 438, July 2025, 114085, https://doi.org/10.1016/j.nucengdes.2025.114085",
+       "doi": "10.1016/j.nucengdes.2025.114085"
+      },
+      {
+       "sitasi": "Andang Widi Harto, Alexander Agung, M. Yayan Adi Putra, Rayhan Alghiffari Azizi, R. Andika Putra Dwijayanto, 2024, Neutronic characteristics of the GAMA aqueous homogeneous reactor (GAMA-AHR, Nuclear Engineering and Design, 424. 113311, https://doi.org/10.1016/j.nucengdes.2024.113311",
+       "doi": "10.1016/j.nucengdes.2024.113311"
+      },
+      {
+       "sitasi": "Andang Widi Harto, Agus Budhie Wijatnaa, Nunung Prabaningrum, Alexander Agung, Kusnanto, M. Yayan Adi Putra, Nuha Amiratul Afifah, Qosam Imaduddin, Estimation of the 99Mo production capacity and radioactive waste of the GAMA-AHR conceptual design, Annals of Nuclear Energy, Vol. 239, 112603, 2026, https://doi.org/10.1016/j.anucene.2026.112603",
+       "doi": "10.1016/j.anucene.2026.112603"
+      },
+      {
+       "sitasi": "Kusnanto , Andang Widi Harto, Nuha Amiratul Afifah, M. Yayan Adi Putra, Gaseous radioactive wastes treatment system of GAMA-AHR, Applied Radiation and Isotopes, Vol. 234, 112644, 2026, https://doi.org/10.1016/j.apradiso.2026.112644",
+       "doi": "10.1016/j.apradiso.2026.112644"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "judul": "Pengembangan akselerator dan sistem nuklir medis",
+     "deskripsi": "Akselerator memercepat partikel bermuatan hingga berenergi kinetik tinggi, dan dipakai di bidang penelitian, medis, industri, dan keamanan. Sistem nuklir medis mencakup diagnosis (MRI, X-ray, CT-scan, SPECT, PET-CT) dan terapi (foton, BNCT, proton, ion berat).",
+     "jumlah_publikasi": 14,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Syarip Syarip, Isdandy Rezki Febrianto, Djoko Slamet Pudjorahardjo, Taufik, Wijono, Aniti Payudan, Andang Widi Harto, “Design analysis of neutron source based on low energy cyclotron used for small-scale accelerator-driven system”, Applied Radiation and Isotopes, Vol. 230, 112473, 2026",
+       "doi": "10.1016/j.apradiso.2026.112473"
+      },
+      {
+       "sitasi": "Milah Fadhilah Kusuma Fasihu, Andang Widi Harto, Isman Mulyadi Triatmoko, Gede Sutrisna Wijaya, Yohannes Sardjono, “Radiation Dose Optimization of Breast Cancer with Proton Therapy Method Using Particle and Heavy Ion Transport Code System”, Jurnal Teknologi Reaktor Nuklir Tri Dasa Mega, Vol. 23 No. 2, 79-85, 2021",
+       "doi": "10.17146/tdm.2021.23.2.6290"
+      },
+      {
+       "sitasi": "Hafiz Fahrurrozi, Andang Widi Harto, Isman Mulyadi Triatmoko, Gede Sutrisna Wijaya, Yohannes Sardjono, “Dose Optimization On Liver Cancer Proton Therapy And Boron Neutron Capture Therapy Using Particle And Heavy Ions Transport Code System”, Jurnal Teknologi Reaktor Nuklir Tri Dasa Mega, Vol. 23 No. 1, 33–40, 2021",
+       "doi": "10.17146/tdm.2021.23.1.6183"
+      },
+      {
+       "sitasi": "Bemby Yulio Valenry, Andang Widi Harto, Yohannes Sardjono, “Pemodelan Kolimator di Radial Beamport Reaktor Kartini untuk Boron Neutron Capture Therapy”, Jurnal Teknologi Reaktor Nuklir Tri Dasa Mega, Vol. 16, No. 1, 11-20, 2014",
+       "doi": ""
+      },
+      {
+       "sitasi": "Nina Fauziah, Andang Widi Harto, Yohannes Sardjono, “A conceptual Design of Neutron Collimator in The Thermal Column of Kartini Research Reactor for in Vitro and in Vivo Test of Boron Neutron Capture Therapy”, Jurnal Teknologi Reaktor Nuklir Tri Dasa Mega, Vol. 15, No. 2, 112-119, 2013",
+       "doi": ""
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "judul": "Fisika medis dan proteksi radiasi",
+     "deskripsi": "Radioterapi, radiodiagnostik, kedokteran nuklir, pengukuran dosis radiasi, pengolahan citra, pengembangan dan kalibrasi detektor radiasi, serta perisai radiasi dan keselamatan.",
+     "jumlah_publikasi": 0,
+     "riset": [],
+     "publikasi": []
+    },
+    {
+     "no": 4,
+     "judul": "Peningkatan keselamatan pemanfaatan reaksi dan radiasi nuklir",
+     "deskripsi": "Keselamatan nuklir meliputi pengendalian reaksi nuklir dan pengendalian paparan radiasi, baik eksterna maupun interna. Penelitian terutama berkaitan dengan perisai radiasi, wadah bahan nuklir atau radioaktif, serta pengendalian reaksi berantai (prinsip 3C: control, cool, contain).",
+     "jumlah_publikasi": 7,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Pinasti, S. G.; Van Hoey, O.; Mihailescu, L.-C.; Vanhavere, F.; Pauly, N. ” Neutron spectrometry with DIAMON detector for characterisation of a newly built neutron calibration facility at SCK CEN” Journal of Instrumentation, Vol.20, (2025), DOI 10.1088/1748-0221/20/02/P02017",
+       "doi": "10.1088/1748-0221/20/02/P02017"
+      },
+      {
+       "sitasi": "Aliyah, F., Kambali, I., Setiawan, A.F., Radzi, Y.M., Rahman, A.A. “Utilization of steel slag from industrial waste for ionizing radiation shielding concrete: A systematic review”. Construction and Building Materials, 382, art. no. 131360. DOI: https://doi.org/10.1016/j.conbuildmat.2023.131360",
+       "doi": "10.1016/j.conbuildmat.2023.131360"
+      },
+      {
+       "sitasi": "Muhammad Farhan Ramadhany, Gede Sutresna Wijaya, Anung Muharini, “Assessment of Natural Radioactivity Concentration and Radiological Risk in Tanjung Enim’s Coal Mine, South Sumatra Indonesia”, Journal arXiv preprint arXiv:2204.10207, 2022. https://doi.org/10.21203/rs.3.rs-1469889/v3",
+       "doi": "10.21203/rs.3.rs-1469889/v3"
+      },
+      {
+       "sitasi": "Diana Fitria Anggraeni, Gede Sutrisna Wijaya, Anung Muharini , “Analysis of external radiation exposure from building materials using resrad-build (case study: perumnas bumi guwosari)”, IOP Conf. Series: Journal of Physics , vol. 1436, pp. 1-13, 2020. DOI: 10.1088/1742-6596/1436/1/012062 .",
+       "doi": "10.1088/1742-6596/1436/1/012062"
+      },
+      {
+       "sitasi": "Fernanda, V.F.E.; Ferdiansjah, F.; Kambali, I.; and Muharini, A., “Study of [Cu3 (C6H3 (COO) 3) 2 (H2O) 3] n (HKUST-1) Resistance to Gamma Radiation at Dose of 125 kGy to 200 kGy” Journal of Physics: Conference Series. (2024) DOI 10.1088/1742-6596/2828/1/012035",
+       "doi": "10.1088/1742-6596/2828/1/012035"
+      }
+     ]
+    },
+    {
+     "no": 5,
+     "judul": "Pemanfaatan teknologi nuklir di bidang kebencanaan",
+     "deskripsi": "Teknologi nuklir dipakai untuk memprediksi gempa bumi dan erupsi gunung api. Menjelang kejadian, deformasi batuan memudahkan pelepasan gas radon dari kerak bumi, sehingga deteksi radon dapat memantau aktivitas seismik dan vulkanik.",
+     "jumlah_publikasi": 5,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Putranto, C.A., Sunarno, Faridah, F., dan Pratama, T.O.,”Earthquake epicenter prediction from the Java-Bali radon gas telemonitoring station using machine learning”. International Journal of Advances in Applied Sciences (IJAAS), 14(1), pp. 39–45, 2025.DOI: http://doi.org/10.11591/ijaas.v14.i1.pp39-45",
+       "doi": "10.11591/ijaas.v14.i1.pp39-45"
+      },
+      {
+       "sitasi": "Pratama, T.O., Sunarno, Wijatna, A.B, Haryono, E. “Earthquake magnitude prediction in Indonesia using a supervised method based on cloud radon data”. International Journal of Reconfigurable and Embedded Systems (IJRES) p-ISSN 2089-4864, e-ISSN 2722-2608 (2024). DOI: http://doi.org/10.11591/ijres.v13.i3.pp577-585",
+       "doi": "10.11591/ijres.v13.i3.pp577-585"
+      },
+      {
+       "sitasi": "Sunarno, Herlambang L. F., Yakub Fahim Luckyarno, Memory Motivanisman Waruwu, Rony Wijaya, “Detection system for deterministic earthquake prediction based on radon concentration changes in Indonesia”, Journal of Engineering Science and Technology (JESTEC), vol. 15, no. 3., pp. 1787-1789, 2020. http://jestec.taylors.edu.my/Vol%2015%20issue%203%20June%202020/15_3_22.pdf.",
+       "doi": ""
+      },
+      {
+       "sitasi": "Sunarno, S., Pratama, T. O., Faridah, F., Ananto, N., Sari, H. K., Wijaya, R., Waruwu, M. M., “Earthquake magnitude prediction based on radon cloud data near Grindulu fault, Indonesia using the statistical method.” TELKOMNIKA Telecommunication Computing Electronics and Control, Vol. 23, No. 3, pp. 825–836, 2025. DOI: https://telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/26494",
+       "doi": ""
+      },
+      {
+       "sitasi": "Pratama, T.O., Sunarno, Hawibowo, S., Waruwu, M.M., Wijaya, R. “Deterministic system for earthquake early warning system based on radon gas concentration anomaly at yogyakarta region-Indonesia”. AIP Conference Proceedings, 2320, art. no. 040003. 2021 Link: https://aip.scitation.org/doi/10.1063/5.0037683",
+       "doi": "10.1063/5.0037683"
+      }
+     ]
+    },
+    {
+     "no": 6,
+     "judul": "Penerapan teknologi nuklir di bidang lingkungan, pertanian, arkeologi, dan pertambangan",
+     "deskripsi": "",
+     "jumlah_publikasi": 6,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Suharni, Prabaningrum, N., Kambali, I., “The PHITS Simulation Study For An Alternative Production Of P-32 Radioisotope By Secondary Neutron Bombardment Of S-32 Target”. Jurnal Teknologi Sciences and Engineering, 87(2), pp. 263–268, 2025.DOI: https://doi.org/10.11113/jurnalteknologi.v87.22324",
+       "doi": "10.11113/jurnalteknologi.v87.22324"
+      },
+      {
+       "sitasi": "Berliantoro, F. I., Muharini, A., (…). “Activity concentration of NORM at reclaimed ex-coal mines in South Sumatra, Indonesia”. Physics and Chemistry of the Earth, Parts A/B/C (2024). DOI: https://doi.org/10.1016/j.pce.2024.103595",
+       "doi": "10.1016/j.pce.2024.103595"
+      },
+      {
+       "sitasi": "Muhammad Farhan Ramadhany, Gede Sutresna Wijaya, Anung Muharini, “Assessment of Natural Radioactivity Concentration and Radiological Risk in Tanjung Enim’s Coal Mine, South Sumatra Indonesia”, Journal arXiv preprint arXiv:2204.10207, 2022. https://doi.org/10.21203/rs.3.rs-1469889/v3",
+       "doi": "10.21203/rs.3.rs-1469889/v3"
+      },
+      {
+       "sitasi": "Diana Fitria Anggraeni, Gede Sutrisna Wijaya, Anung Muharini , “Analysis of external radiation exposure from building materials using resrad-build (case study: perumnas bumi guwosari)”, IOP Conf. Series: Journal of Physics , vol. 1436, pp. 1-13, 2020. DOI: 10.1088/1742-6596/1436/1/012062 .",
+       "doi": "10.1088/1742-6596/1436/1/012062"
+      },
+      {
+       "sitasi": "Yanuar Rahman, Anung Muharini and Susetyo Hario Putero, “Analysis of strontium isothermal adsorption using metal-organic frameworks [HKUST-1] based on variation of operating temperatures and variations of main initial concentration”, AIP Conference Proceedings, Vol. 2223, 030007 (2020), https://doi.org/10.1063/5.0001005",
+       "doi": "10.1063/5.0001005"
+      }
+     ]
+    },
+    {
+     "no": 7,
+     "judul": "Teknologi siklus bahan bakar nuklir “front end” dan mineral ikutan",
+     "deskripsi": "",
+     "jumlah_publikasi": 5,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Rosita, W., Perdana, I.; Bendiyasa, I.M.; Anggara, F.; Petrus, H.T.B.M.; Prasetya, A.; Rodliyah, I. “Sequential alkaline-organic acid leaching process to enhance the recovery of rare earth elements from Indonesian coal fly ash”. Journal of Rare Earths, Volume 42(7), pp1366-1374 (2024). DOI: https://doi.org/10.1016/j.jre.2023.09.001",
+       "doi": "10.1016/j.jre.2023.09.001"
+      },
+      {
+       "sitasi": "Dea Anisa Ayu Besari, Ferian Anggara, Widya Rosita, Himawan TBM Petrus, “Characterization and Mode of Occurrence of Rare Earth Elements and Yttrium in Fly and Bottom ash from Coal-fired Power Plants in Java, Indonesia”, International Journal of Coal Science & Technology, 9 (1), pp.  1-16, 2022. http://dx.doi.org/10.1007/s40789-022-00476-2",
+       "doi": "10.1007/s40789-022-00476-2"
+      },
+      {
+       "sitasi": "Estelita Togatorop, Tomo Suzuki-Muresan, Andang Widi Harto, “A Review on the Solubility of Crystalline Zirconium Dioxide and Thorium Dioxide”, AIP Conference Proceedings, 2501 (1), pp. 030002, 2022. https://doi.org/10.1063/5.0093941",
+       "doi": "10.1063/5.0093941"
+      },
+      {
+       "sitasi": "Widya Rosita, I. Made Bendiyasa, Indra Perdana and Ferian Anggara, “Recovery of rare earth elements and Yttrium from Indonesia coal fly ash using sulphuric acid leaching”, AIP Conference Proceedings, Vol. 2223, 050004 (2020), https://doi.org/10.1063/5.0000836.",
+       "doi": "10.1063/5.0000836"
+      },
+      {
+       "sitasi": "Widya Rosita, I Made Bendiyasa, Indra Perdana, Ferian Anggara, “Sequential particle-size and magnetic separation for enrichment of rare-earth elements and yttrium in Indonesia coal fly ash”, Journal of Environmental Chemical Engineering, Vol. 8, issue 1, February 2020, Article number 103575. DOI: 10.1016/j.jece.2019.103575",
+       "doi": "10.1016/j.jece.2019.103575"
+      }
+     ]
+    },
+    {
+     "no": 8,
+     "judul": "Teknologi siklus bahan bakar nuklir “back end” dan daur ulang material radioaktif",
+     "deskripsi": "",
+     "jumlah_publikasi": 6,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Fernanda, V.F.E.; Ferdiansjah, F.; Kambali, I.; and Muharini, A., “Study of [Cu3 (C6H3 (COO) 3) 2 (H2O) 3] n (HKUST-1) Resistance to Gamma Radiation at Dose of 125 kGy to 200 kGy” Journal of Physics: Conference Series. (2024) DOI 10.1088/1742-6596/2828/1/012035",
+       "doi": "10.1088/1742-6596/2828/1/012035"
+      },
+      {
+       "sitasi": "Velicia, K.A.; Kambali, I.; Muharini, A.; and Ferdiansjah, F., “Study of Resistance of [Cu3 (C6H3 (COO) 3) 2 (H2O) 3] n (HKUST-1) To Electron Beam at Dosages of 0 to 150 kGy” Journal of Physics: Conference Series. (2024) DOI 10.1088/1742-6596/2828/1/012034.",
+       "doi": "10.1088/1742-6596/2828/1/012034"
+      },
+      {
+       "sitasi": "Diana Fitria Anggraeni, Gede Sutrisna Wijaya, Anung Muharini , “Analysis of external radiation exposure from building materials using resrad-build (case study: perumnas bumi guwosari)”, IOP Conf. Series: Journal of Physics , vol. 1436, pp. 1-13, 2020. DOI: 10.1088/1742-6596/1436/1/012062 .",
+       "doi": "10.1088/1742-6596/1436/1/012062"
+      },
+      {
+       "sitasi": "Susetyo Hario, Anung Muharini, Yanuar Rahman, Irfan Fahmuddin Ma’ruf, Ester Wijayanti, and Ferdiansjah, “The Comparation of MOF-5 and MOF-199 Ability in Adsorbing Strontium Waste”, Technology Reports of Kansai University, Volume 62, Issue 03, (2020), ISSN: 04532198, pp. 393-399. https://www.kansaiuniversityreports.com/article/the-comparation-of-mof-5-and-mof-199-ability-in-adsorbing-strontium-waste.",
+       "doi": ""
+      },
+      {
+       "sitasi": "Giovanni Alvin Prasetya, Ester Wijayanti and Ferdiansjah Ferdiansjah, “Dependence of temperature and initial concentration in cesium adsorption as experimental radioactive waste using metal organic frameworks [Zn4O(BDC)3]”, AIP Conference Proceedings, Vol. 2223, 030006 (2020), https://doi.org/10.1063/5.0003956.",
+       "doi": "10.1063/5.0003956"
+      }
+     ]
+    },
+    {
+     "no": 9,
+     "judul": "Dekontaminasi, dekomisioning, dan daur ulang material radioaktif",
+     "deskripsi": "",
+     "jumlah_publikasi": 2,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Gustri Nurliati, Nail Huga Dhiaulhaq, Rifdah Indriani Susanto, Tazkiya Syahidha,  Vivia Karen, Maulana Asgaf, Alfiansyah Malik Nugroho, Gregorius Donny Setiawan,  Susetyo Hario Putero , Nunung Prabaningrum, Widya Rosita, Agus Budhie Wijatna,  Raden Sumarbagiono , Moh Cecep Cepi Hikmat , Dadong Iskandar , Ilma Dwi Winarni,  Heru Sriwahyuni, Arie Budianti, Miki Arian Saputra, Suryantoro Suryantoro,  Moch Romlid , Mirawaty Mirawaty, Zeni Anggraini, Muhammad Yusuf; “Phytoremediation performance of various tropical plant species for environmental remediation of high 137Cs contaminated soils: A case study of Batan Indah soil”; Chemosphere 410 (2026) 145046; https://doi.org/10.1016/j.chemosphere.2026.145046",
+       "doi": "10.1016/j.chemosphere.2026.145046"
+      },
+      {
+       "sitasi": "Nurliati, Gustri; Romli, Moch.; Hikmat, Moh. Cecep Cepi; Sriwahyuni, Heru; Hidayati T.H., Nuril; Suryantoro, Suryantoro; Wisnubroto, Djarot Sulistio; Putero, Susetyo Hario, dkk. “Literature Survey and Analysis of Phytoremediation Strategies for Cs-137 Decontamination”. Nuclear Engineering and Design. Volume 427, October 2024, 113414. DOI: https://doi.org/10.1016/j.nucengdes.2024.113414",
+       "doi": "10.1016/j.nucengdes.2024.113414"
+      }
+     ]
+    }
+   ],
+   "statistik": {
+    "dosen": 12,
+    "kompetensi": 5,
+    "tema": 9,
+    "publikasi": 49
+   }
+  },
+  {
+   "kode": "multifisika",
+   "nama": "Multifisika",
+   "singkatan": "",
+   "halaman": "kbk-multifisika",
+   "url": "/kbk-multifisika/",
+   "ketua": {
+    "slug": "sentagi-sesotya-utami",
+    "nama": "Sentagi Sesotya Utami",
+    "gelar": "S.T., M.Sc., Ph.D.",
+    "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/17-819x1024.jpg",
+    "url": "/sentagi-sesotya-utami/"
+   },
+   "gambar": "kbk/multifisika.jpg",
+   "ringkasan": "Studi, penelitian, dan pengembangan teknologi yang melibatkan interaksi beberapa fenomena fisika, dari rekayasa fisika bangunan hingga material cerdas dan fisika konservasi.",
+   "sekilas": "KBK Multifisika melakukan studi, penelitian dan pengembangan teknologi yang melibatkan interaksi antara beberapa fenomena fisika yang beragam, baik itu mekanika, termodinamika, listrik, elektromagnetik, optika, akustik dan lain sebagainya. Bidang yang dikembangkan meliputi rekayasa fisika bangunan dan rekayasa multifisika multiskala dari bidang rekayasa material cerdas dan fisika konservasi.",
+   "kompetensi": [],
+   "anggota": [
+    {
+     "slug": "sentagi-sesotya-utami",
+     "nama": "Sentagi Sesotya Utami",
+     "gelar": "S.T., M.Sc., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/17-819x1024.jpg",
+     "url": "/sentagi-sesotya-utami/",
+     "keahlian": "Rekayasa Fisika (Fisika Bangunan dan Akustik)",
+     "peran": "Koordinator"
+    },
+    {
+     "slug": "m-kholid-ridwan",
+     "nama": "M. Kholid Ridwan",
+     "gelar": "S.T., M.Sc., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.Eng_.-Ir.-Mohammad-Kholid-Ridwan-S.T.-M.Sc_.-IPU.-ASEAN-Eng-819x1024.jpg",
+     "url": "/m-kholid-ridwan/",
+     "keahlian": "Rekayasa Fisika (Fisika Bangunan dan Energi)",
+     "peran": ""
+    },
+    {
+     "slug": "gea-oswah-fatah-parikesit",
+     "nama": "Gea Oswah Fatah Parikesit",
+     "gelar": "S.T., M.Sc., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/01/Formal-LatarPutih-1024x1018.jpg",
+     "url": "/gea-oswah-fatah-parikesit/",
+     "keahlian": "Rekayasa Fisika (Fisika Konservasi Material Budaya)",
+     "peran": ""
+    },
+    {
+     "slug": "nur-abdillah-siddiq",
+     "nama": "Nur Abdillah Siddiq",
+     "gelar": "Ir., S.T., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Ir.-Nur-Abdillah-Siddiq-S.T.-IPP.jpg",
+     "url": "/nur-abdillah-siddiq/",
+     "keahlian": "Rekayasa Fisika (Material Optik)",
+     "peran": ""
+    },
+    {
+     "slug": "ferdiansjah",
+     "nama": "Ferdiansjah",
+     "gelar": "S.T., M.Eng.Sc.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Ferdiansjah-S.T.-M.Eng_.Sc_-819x1024.jpg",
+     "url": "/ferdiansjah/",
+     "keahlian": "Rekayasa Fisika (Teknologi Perangkat Semikonduktor)",
+     "peran": ""
+    },
+    {
+     "slug": "lucyana-dwi-larasati",
+     "nama": "Lucyana Dwi Larasati",
+     "gelar": "S.T., M.S.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2021/12/Lucyana-Dwi-Larasati.jpeg",
+     "url": "/lucyana-dwi-larasati/",
+     "keahlian": "Rekayasa Fisika (Rekayasa Nanomaterial)",
+     "peran": ""
+    }
+   ],
+   "tema": [],
+   "statistik": {
+    "dosen": 6,
+    "kompetensi": 0,
+    "tema": 0,
+    "publikasi": 0
+   }
+  },
+  {
+   "kode": "instrumentasi",
+   "nama": "Instrumentasi",
+   "singkatan": "",
+   "halaman": "kbk-instrumentasi",
+   "url": "/kbk-instrumentasi/",
+   "ketua": {
+    "slug": "faridah",
+    "nama": "Faridah",
+    "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+    "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/23-819x1024.jpg",
+    "url": "/faridah/"
+   },
+   "gambar": "kbk/instrumentasi.jpg",
+   "ringkasan": "Mempelajari dan merancang sistem yang memanfaatkan fenomena rekayasa, dari instrumentasi lingkungan berbahaya dan otomasi proses hingga sistem cerdas dan manajemen baterai.",
+   "sekilas": "KBK Instrumentasi mempelajari fenomena yang dijumpai pada proses rekayasa, mengungkapkan dan menjelaskan mekanisme terjadinya fenomena tersebut secara ilmiah dan terukur, serta merancang sistem yang memanfaatkan fenomena tersebut untuk keperluan kesejahteraan manusia. Bidang instrumentasi mengembangkan di antaranya sistem instrumentasi untuk lingkungan berbahaya, otomasi proses, sistem cerdas dan tertanam, sistem manajemen baterai, dan instrumentasi untuk lingkungan terbangun berkelanjutan.",
+   "kompetensi": [],
+   "anggota": [
+    {
+     "slug": "faridah",
+     "nama": "Faridah",
+     "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/23-819x1024.jpg",
+     "url": "/faridah/",
+     "keahlian": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Terbangun Berkelanjutan)",
+     "peran": "Koordinator"
+    },
+    {
+     "slug": "nazrul-effendy",
+     "nama": "Nazrul Effendy",
+     "gelar": "Prof., Ir., S.T., M.Eng., PhD.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2022/03/Foto-Nazrul-berjas-resmi-20kb-1.jpg",
+     "url": "/nazrul-effendy/",
+     "keahlian": "Rekayasa Fisika (Sistem Cerdas dan Tertanam)",
+     "peran": ""
+    },
+    {
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana",
+     "gelar": "S.T., M.T., M.Sc., Dr.-Ing.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Ing.-Ir.-Awang-Noor-Indra-Wardana-S.T.-M.T.-M.Sc_.-IPM-819x1024.jpg",
+     "url": "/awang-n-i-wardana/",
+     "keahlian": "Rekayasa Fisika (Otomasi Proses)",
+     "peran": ""
+    },
+    {
+     "slug": "nopriadi",
+     "nama": "Nopriadi",
+     "gelar": "S.T., M.Sc., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Nopriadi-S.T.-M.Sc_.-Ph.D.-IPM-819x1024.jpg",
+     "url": "/nopriadi/",
+     "keahlian": "Rekayasa Fisika (Mesin Cerdas dan Instrumentasi untuk Kesehatan)",
+     "peran": ""
+    },
+    {
+     "slug": "agus-arif",
+     "nama": "Agus Arif",
+     "gelar": "Ir., M.T.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Ir.-Agus-Arif-M.T-819x1024.jpg",
+     "url": "/agus-arif/",
+     "keahlian": "Rekayasa Fisika (Sistem Manajemen Baterai)",
+     "peran": ""
+    },
+    {
+     "slug": "dwi-joko-suroso",
+     "nama": "Dwi Joko Suroso",
+     "gelar": "Ir., S.T., M.Eng., Dr. Eng.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Eng.-Ir.-Dwi-Joko-Suroso-S.T.-M.Eng_.-IPP-819x1024.jpg",
+     "url": "/dwi-joko-suroso/",
+     "keahlian": "Rekayasa Fisika (Teknologi Sensor dan Robotika)",
+     "peran": ""
+    },
+    {
+     "slug": "yakub-fahim-luckyarno",
+     "nama": "Yakub Fahim Luckyarno",
+     "gelar": "S.T., M.Eng., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Fafa-683x1024.jpg",
+     "url": "/yakub-fahim-luckyarno/",
+     "keahlian": "Rekayasa Fisika (Sistem Nirkabel)",
+     "peran": ""
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama",
+     "gelar": "S.T., M.Eng., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/39-819x1024.jpg",
+     "url": "/thomas-oka-pratama/",
+     "keahlian": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)",
+     "peran": ""
+    },
+    {
+     "slug": "gandha-satria-adi",
+     "nama": "Gandha Satria Adi",
+     "gelar": "S.T., M.Eng.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/04/Photo_Gandha.jpg",
+     "url": "/gandha-satria-adi/",
+     "keahlian": "Rekayasa Fisika (Teknologi Pengembangan Sensor)",
+     "peran": ""
+    }
+   ],
+   "tema": [],
+   "statistik": {
+    "dosen": 9,
+    "kompetensi": 0,
+    "tema": 0,
+    "publikasi": 0
+   }
+  }
+ ]
+}

@@ -1028,5 +1028,23 @@
    "info": null,
    "kategori": "Jurnal Internasional"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Fisika (Mesin Cerdas dan Instrumentasi untuk Kesehatan)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Nanyang Technological University, Singapore), Ph.D. (Tokyo Institute of Technology, Japan), IPM. (Persatuan Insinyur Indonesia)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

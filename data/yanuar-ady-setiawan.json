@@ -461,5 +461,28 @@
    "dana": "Rp. 10.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Reaktor Maju Produksi Isotop dan Radiasi )"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "S.T. (Universitas Gadjah Mada), M.S. (Texas A&M University, USA), Ph.D. (Ulsan National Institute of Science and Technology, Korea Selatan)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "Institute of Nuclear Materials Management (INMM)"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

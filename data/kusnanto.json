@@ -448,5 +448,28 @@
    "dana": "Rp. 10.000.000",
    "kategori": "Pengabdian kepada Masyarakat"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proses Material Nuklir)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "Ir. (Universitas Gadjah Mada), Dr-Ing. (RWTH Aachen, Germany)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [
+   {
+    "tahun": "",
+    "keterangan": "Direktur Produksi BUMN PT. Inuki (Persero) periode 2011-2016"
+   }
+  ],
+  "organisasi": [],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }

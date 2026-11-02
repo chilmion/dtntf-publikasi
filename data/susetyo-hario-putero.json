@@ -923,5 +923,28 @@
    "jenis_paten": "Paten",
    "kategori": "Paten & HKI"
   }
- ]
+ ],
+ "cv": {
+  "identitas": {
+   "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
+   "telepon_institusi": "(+62) (274) 580882",
+   "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proses Pengolahan Limbah Radioaktif)"
+  },
+  "pendidikan": [
+   {
+    "tahun": "",
+    "keterangan": "Ir. (Universitas Gadjah Mada), M.Eng. (Kyoto University, Japan), IPU. (Persatuan Insinyur Indonesia)"
+   }
+  ],
+  "sertifikat": [],
+  "pekerjaan": [],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "Institute of Nuclear Materials Management, International Association for Continuing Engineering Education, World Institute for Nuclear Security (WINS), Asosiasi Technopreneurship Indonesia"
+   }
+  ],
+  "penghargaan": [],
+  "kerjasama": []
+ }
 }
