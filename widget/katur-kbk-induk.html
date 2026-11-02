@@ -194,14 +194,41 @@
 .dtntf-kt .kt-tema li{padding:9px 0;border-top:1px solid var(--kt-line);font-size:15px;line-height:1.45}
 .dtntf-kt .kt-tema li:first-child{border-top:0}
 .dtntf-kt .kt-tema li a{color:var(--kt-navy)}
-.dtntf-kt .kt-daftar-kbk{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-.dtntf-kt .kt-daftar-kbk .kt-tile{min-height:260px}
-.dtntf-kt .kt-daftar-kbk .kt-h2{font-size:34px;letter-spacing:-1.5px;margin:0 0 10px}
-.dtntf-kt .kt-daftar-kbk .kt-kv{display:flex;gap:28px;flex-wrap:wrap;margin:14px 0 18px;font-size:15px}
-.dtntf-kt .kt-daftar-kbk .kt-kv b{display:block;font:400 28px var(--kt-f-judul);letter-spacing:-1.2px}
 @media (max-width:1024px){.dtntf-kt .kt-komp,.dtntf-kt .kt-anggota{grid-template-columns:repeat(2,1fr)}.dtntf-kt .kt-tema-isi{grid-template-columns:1fr}}
 @media (max-width:767px){.dtntf-kt .kt-komp,.dtntf-kt .kt-anggota,.dtntf-kt .kt-daftar-kbk{grid-template-columns:1fr}.dtntf-kt .kt-hero{padding:24px}.dtntf-kt .kt-hero p{font-size:16px}.dtntf-kt .kt-kartu-foto{height:280px}}
 
+/* kartu KBK dinamis: 4 varian bergilir; kontras dijaga (latar gelap → teks terang, latar terang → teks gelap) */
+.dtntf-kt .kt-daftar-kbk{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.dtntf-kt .kb{position:relative;overflow:hidden;border-radius:var(--kt-r);display:flex;flex-direction:column;justify-content:space-between;gap:20px;
+  padding:32px;min-height:400px;grid-column:span 6;isolation:isolate}
+.dtntf-kt .kb.w7{grid-column:span 7}.dtntf-kt .kb.w5{grid-column:span 5}
+.dtntf-kt .kb-teks{position:relative;z-index:2;display:flex;flex-direction:column;gap:10px}
+.dtntf-kt .kb-nama{font:400 34px/1.15 var(--kt-f-judul);letter-spacing:-1.6px;margin:0}
+.dtntf-kt .kb-ring{margin:0;font-size:16px;line-height:1.5;max-width:560px}
+.dtntf-kt .kb-ketua{margin:0;font-size:15px}
+.dtntf-kt .kb-kv{display:flex;gap:28px;flex-wrap:wrap;font-size:15px}
+.dtntf-kt .kb-kv b{display:block;font:400 30px var(--kt-f-judul);letter-spacing:-1.2px}
+.dtntf-kt .kb-bawah{position:relative;z-index:2;display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.dtntf-kt .kb-gbr{position:relative;z-index:2;border-radius:8px;overflow:hidden;height:170px;background:rgba(255,255,255,.7)}
+.dtntf-kt .kb-gbr img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+/* varian gambar penuh: lapisan gelap menjamin teks terang terbaca */
+.dtntf-kt .kb.img{background:var(--kt-navy2);color:#fff}
+.dtntf-kt .kb.img>.kb-fon{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover}
+.dtntf-kt .kb.img::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(7,24,44,.55) 0%,rgba(7,24,44,.66) 50%,rgba(7,24,44,.9) 100%)}
+.dtntf-kt .kb.img .kb-nama,.dtntf-kt .kb.img .kb-ring,.dtntf-kt .kb.img .kb-ketua,.dtntf-kt .kb.img .kb-kv,.dtntf-kt .kb.img .kt-kicker{color:#fff}
+.dtntf-kt .kb.img .kb-ketua a{color:var(--kt-lime)}
+.dtntf-kt .kb.lime{background:var(--kt-lime);color:var(--kt-navy2)}
+.dtntf-kt .kb.lime .kb-nama,.dtntf-kt .kb.lime .kt-kicker{color:var(--kt-navy2)}
+.dtntf-kt .kb.navy{background:var(--kt-navy);color:#fff}
+.dtntf-kt .kb.navy .kb-nama,.dtntf-kt .kb.navy .kt-kicker{color:#fff}
+.dtntf-kt .kb.navy .kb-ketua a{color:var(--kt-lime)}
+.dtntf-kt .kb.lime .kb-ketua a{color:var(--kt-navy);text-decoration:underline}
+.dtntf-kt .kb .kt-btn{background:var(--kt-lime);color:var(--kt-navy2)}
+.dtntf-kt .kb .kt-btn:hover{background:#fff}
+.dtntf-kt .kb.lime .kt-btn{background:var(--kt-navy);color:#fff}
+.dtntf-kt .kb.lime .kt-btn:hover{background:var(--kt-navy2)}
+@media (max-width:1024px){.dtntf-kt .kb,.dtntf-kt .kb.w7,.dtntf-kt .kb.w5{grid-column:1/-1}}
+@media (max-width:767px){.dtntf-kt .kb{padding:24px;min-height:0}.dtntf-kt .kb-nama{font-size:28px}}
 </style>
 
 <script>
@@ -230,19 +257,24 @@
 
   ambil(BASE + '/kbk/kbk.json').then(function (d) { render(d.kbk || []); })
     .catch(function (e) { akar.innerHTML = '<div class="kt-galat">Data KBK belum tersedia. (' + esc(e.message) + ')</div>'; });
-  var WARNA = ['navy pola', 'lime pola', 'abu', 'putih'];
+  // 4 varian bergilir: gambar penuh (lebar 7) · lime + gambar (5) · navy + gambar (5) · gambar penuh (7)
+  var VARIAN = [['img', 'w7'], ['lime', 'w5'], ['navy', 'w5'], ['img', 'w7']];
   function render(daftar) {
     akar.innerHTML = '<div class="kt-daftar-kbk">' + daftar.map(function (k, i) {
+      var v = VARIAN[i % VARIAN.length], gbr = k.gambar ? esc(BASE + '/' + k.gambar) : '';
       var k_ = k.ketua ? '<a href="' + esc(k.ketua.url) + '">' + esc(k.ketua.nama) + '</a>' : lorem(true);
-      return '<div class="kt-tile ' + WARNA[i % WARNA.length] + '"><div><span class="kt-kicker">KBK' + (k.singkatan ? ' · ' + esc(k.singkatan) : '') + '</span>' +
-        '<h2 class="kt-h2">' + (k.nama ? esc(k.nama) : lorem(true)) + '</h2>' +
-        '<p style="margin:0 0 8px">' + (k.ringkasan ? esc(k.ringkasan) : lorem()) + '</p>' +
-        '<p style="margin:0;font-size:15px">Ketua / koordinator: ' + k_ + '</p>' +
-        '<div class="kt-kv"><span><b>' + ((k.statistik || {}).dosen ? num(k.statistik.dosen) : '–') + '</b>dosen anggota</span>' +
-        '<span><b>' + ((k.statistik || {}).tema ? num(k.statistik.tema) : '–') + '</b>tema penelitian</span></div></div>' +
-        '<div><a class="kt-btn' + (WARNA[i % WARNA.length].indexOf('navy') === 0 ? '' : ' gelap') + '" href="' + esc(k.url) + '">Lihat KBK →</a></div></div>';
+      var teks = '<div class="kb-teks"><span class="kt-kicker" style="margin:0">KBK' + (k.singkatan ? ' · ' + esc(k.singkatan) : '') + '</span>' +
+        '<h2 class="kb-nama">' + (k.nama ? esc(k.nama) : lorem(true)) + '</h2>' +
+        '<p class="kb-ring">' + (k.ringkasan ? esc(k.ringkasan) : lorem()) + '</p>' +
+        '<p class="kb-ketua">Ketua / koordinator: ' + k_ + '</p></div>';
+      var bawah = '<div class="kb-bawah"><div class="kb-kv"><span><b>' + ((k.statistik || {}).dosen ? num(k.statistik.dosen) : '–') + '</b>dosen anggota</span>' +
+        '<span><b>' + ((k.statistik || {}).tema ? num(k.statistik.tema) : '–') + '</b>tema penelitian</span></div>' +
+        '<a class="kt-btn" href="' + esc(k.url) + '">Lihat KBK →</a></div>';
+      if (v[0] === 'img') {
+        return '<div class="kb img ' + v[1] + '">' + (gbr ? '<img class="kb-fon" src="' + gbr + '" alt="" loading="lazy">' : '') + teks + bawah + '</div>';
+      }
+      return '<div class="kb ' + v[0] + ' ' + v[1] + '">' + teks + (gbr ? '<div class="kb-gbr"><img src="' + gbr + '" alt="' + esc(k.nama || '') + '" loading="lazy"></div>' : '') + bawah + '</div>';
     }).join('') + '</div>';
   }
-
 })();
 </script>

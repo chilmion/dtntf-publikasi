@@ -30,12 +30,12 @@ HEAD = ("<!doctype html><meta charset=utf-8><meta name=viewport content='width=d
         ".uji .kanan{{flex:1;min-width:0}}"
         ".uji .grid-dosen{{display:flex;flex-wrap:wrap;gap:16px;align-items:stretch}}"
         ".uji .kartu{{width:calc(30% + 4px);flex-grow:1;max-width:calc(33.3% - 11px);display:flex;flex-direction:column;border:1px solid #E3E3E3;border-radius:10px;overflow:hidden}}"
-        ".uji .kartu img{{width:100%;height:360px;object-fit:cover;object-position:top center;display:block}}"
+        ".uji .kartu img{{width:100%;height:460px;object-fit:contain;background:#F5F5F5;object-position:top center;display:block}}"
         ".uji .kartu .isi{{padding:20px;display:flex;flex-direction:column;gap:6px;flex:1;min-height:200px;justify-content:space-between}}"
         ".uji .kartu h3{{font:400 22px/1.2 'Plus Jakarta Sans';letter-spacing:-1.3px;margin:0;color:#161616}}"
         ".uji .kartu a{{font:600 15px Barlow;color:#073C64;text-decoration:none}}"
         "@media(max-width:1024px){{.uji .kartu{{max-width:48%}}.uji h1{{font-size:40px}}}}"
-        "@media(max-width:767px){{.uji{{padding:32px 16px 48px}}.uji h1{{font-size:28px;letter-spacing:-1.8px}}.uji .profil{{flex-direction:column}}.uji .kiri{{flex:none;width:100%}}.uji .kartu{{max-width:100%;width:100%}}.uji .kartu img{{height:300px}}}}"
+        "@media(max-width:767px){{.uji{{padding:32px 16px 48px}}.uji h1{{font-size:28px;letter-spacing:-1.8px}}.uji .profil{{flex-direction:column}}.uji .kiri{{flex:none;width:100%}}.uji .kartu{{max-width:100%;width:100%}}.uji .kartu img{{height:400px}}}}"
         "</style><body><div class='uji'>")
 
 
