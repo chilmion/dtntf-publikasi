@@ -5,7 +5,7 @@ Buat elementor/katur-daftar-dosen.json — halaman daftar dosen dengan kartu yan
 Tiap dosen = satu container Elementor berisi:
   Image (foto, bawaan dari foto_url di dosen.csv)  → bisa diganti
   Heading (nama)                                    → bisa diedit
-  widget HTML (kelompok, gelar, bidang ilmu, skor & sitasi SINTA dari GitHub)
+  widget HTML (kelompok, gelar, bidang ilmu, sitasi Scopus dari GitHub)
   Tautan teks "selengkapnya →" (isi tautan profil detail sendiri; bawaan /<slug>/)
 Di atasnya: Heading + teks pengantar + widget HTML cari/filter.
 
@@ -36,8 +36,9 @@ def kartu(r, info, info_html):
 
     foto = be.widget("image", image={"url": r["foto_url"].strip(), "id": "", "alt": nama},
                      image_size="full", width=be.ukuran(100, "%"),
-                     height=be.ukuran(360), height_tablet=be.ukuran(320), height_mobile=be.ukuran(300),
-                     **{"object-fit": "cover", "object-position": "top center"},
+                     height=be.ukuran(460), height_tablet=be.ukuran(420), height_mobile=be.ukuran(400),
+                     **{"object-fit": "contain", "object-position": "top center"},
+                     _background_background="classic", _background_color="#F5F5F5",
                      image_border_radius={"unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": True})
     judul = be.widget("heading", title=nama, header_size="h3", title_color="#161616",
                       typography_typography="custom", typography_font_family="Plus Jakarta Sans",

@@ -158,11 +158,7 @@ def katur_profil():
     kiri = container([katur_html("katur-profil-kartu.html")], content_width="full",
                      width=ukuran(28, "%"), width_tablet=ukuran(34, "%"), width_mobile=ukuran(100, "%"),
                      flex_direction="column")
-    tentang = [judul_katur("Tentang", "h2", 40, -1.7),
-               teks_katur("<p>Tulis profil singkat dosen di sini: riwayat, minat, dan capaian. Bagian ini kamu "
-                          "desain sendiri di Elementor; nama, foto, kontak, pendidikan, dan data publikasi "
-                          "di sekitarnya terisi otomatis dari GitHub.</p>")]
-    kanan = container([katur_html("katur-profil-info.html")] + tentang + [katur_html("katur-profil-data.html")],
+    kanan = container([katur_html("katur-profil-cv.html")],
                       content_width="full", width=ukuran(72, "%"), width_tablet=ukuran(66, "%"),
                       width_mobile=ukuran(100, "%"), flex_direction="column", flex_gap=gap(40))
     baris = container([kiri, kanan], content_width="full", flex_direction="row",

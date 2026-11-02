@@ -1,7 +1,7 @@
 name: Perbarui data manual
 
-# Jalan cepat (tanpa scrape SINTA): hanya memasang isi manual/luaran.xlsx
-# ke data dosen lalu menerbitkan ulang. Dipicu otomatis saat berkas itu
+# Jalan cepat (tanpa scrape SINTA): hanya memasang isi manual/luaran.xlsx,
+# manual/profil-cv.xlsx (CV dosen), dan manual/kbk.xlsx (halaman KBK) ke data lalu menerbitkan ulang. Dipicu otomatis saat berkas itu
 # diunggah (mis. lewat scripts/unggah_manual.py), atau lewat tombol Run workflow.
 on:
   workflow_dispatch:
@@ -10,6 +10,8 @@ on:
     paths:
       - "manual/luaran.xlsx"
       - "manual/luaran.csv"
+      - "manual/profil-cv.xlsx"
+      - "manual/kbk.xlsx"
       - "scripts/manual.py"
 
 permissions:

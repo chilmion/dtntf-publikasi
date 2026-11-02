@@ -62,8 +62,8 @@ def _kolom_ke_indeks(ref):
     return n - 1
 
 
-def baca_xlsx(path):
-    """Baris-baris sheet pertama ('Luaran') sebagai list of list string."""
+def baca_xlsx(path, lembar="luaran"):
+    """Baris-baris satu lembar (bawaan 'Luaran', atau lembar pertama) sebagai list of list string."""
     with zipfile.ZipFile(path) as z:
         bersama = []
         if "xl/sharedStrings.xml" in z.namelist():
@@ -73,7 +73,11 @@ def baca_xlsx(path):
         rel = ET.fromstring(z.read("xl/_rels/workbook.xml.rels"))
         target = {r.get("Id"): r.get("Target") for r in rel}
         sheets = wb.find("m:sheets", NS).findall("m:sheet", NS)
-        pilih = next((s for s in sheets if s.get("name", "").lower() == "luaran"), sheets[0])
+        pilih = next((s for s in sheets if s.get("name", "").lower() == lembar.lower()), None)
+        if pilih is None:
+            if lembar != "luaran":
+                return []
+            pilih = sheets[0]
         t = target[pilih.get("{%s}id" % NS["r"])].lstrip("/")
         if not t.startswith("xl/"):
             t = "xl/" + t
@@ -112,10 +116,10 @@ def baca_csv(path):
     return list(csv.reader(io.StringIO(teks), dialek))
 
 
-def baca_berkas(path):
+def baca_berkas(path, lembar="luaran"):
     """Baca .xlsx / .csv → list of dict (kunci = nama kolom huruf kecil, plus _baris)."""
     path = pathlib.Path(path)
-    semua = baca_xlsx(path) if path.suffix.lower() == ".xlsx" else baca_csv(path)
+    semua = baca_xlsx(path, lembar) if path.suffix.lower() == ".xlsx" else baca_csv(path)
     if not semua:
         return []
     kepala = [re.sub(r"\s+", "_", (h or "").strip().lower()) for h in semua[0]]
@@ -232,6 +236,10 @@ def main():
     print(f"Manual: {ditambah} entri dipasang, {dilewati} dilewati (sudah ada dari SINTA)")
     for m in masalah:
         print("  ! " + m)
+    import profil_cv
+    profil_cv.pasang()
+    import kbk
+    kbk.bangun()
     agregat.main()
     return 0
 

@@ -2,10 +2,14 @@
 """
 Buat 38 templat Elementor profil dosen (satu berkas per dosen) di elementor/profil/<slug>.json.
 
-Isi tiap berkas: foto, nama, gelar, pendidikan, bidang ilmu/riset, keanggotaan, kontak
-(dari manual/dosen-info.csv + dosen.csv, yang bersumber dari halaman Dosen Tetap lama)
-sebagai widget Elementor BIASA (bisa diedit), ditambah widget HTML data GitHub
-(skor, grafik, metrik, luaran) yang sudah diisi data-slug dosen itu.
+Isi tiap berkas: foto, nama, gelar, tautan, tombol SINTA (dari dosen.csv + manual/dosen-info.csv)
+sebagai widget Elementor BIASA (bisa diedit), ditambah satu widget HTML `katur-profil-cv.html`
+(sudah diisi data-slug dosen itu) yang menyusun profil mengikuti CV: data diri, pendidikan,
+sertifikat, pekerjaan, organisasi, penghargaan, kerjasama & penelitian, HKI, jurnal, prosiding, buku.
+Tanpa Skor SINTA. Bagian kosong = lorem ipsum (kelas .kt-lorem) sampai data diisi.
+
+Selain 38 berkas di elementor/profil/, dibuat elementor/profil-38.zip (berkas JSON di akar ZIP,
+tanpa folder) untuk impor massal.
 
     python3 scripts/buat_profil_dosen.py [URL-data-GitHub-Pages]
 """
@@ -14,6 +18,7 @@ import csv
 import json
 import pathlib
 import sys
+import zipfile
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import buat_elementor as be  # noqa: E402
@@ -91,12 +96,11 @@ def profil(r, i, base, data_html):
     gelar = (r.get("gelar") or "").strip()
     kel = kelompok_dari(i.get("bidang_ilmu"))
 
-    # ---- kolom kiri: foto + kontak
-    foto = be.widget("image", image={"url": r["foto_url"].strip(), "id": ""}, image_size="full",
+    # ---- kolom kiri: foto + tautan (data diri, riwayat, dst. ada di widget HTML di kanan)
+    url_foto = (r.get("foto_url") or "").strip() or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto"
+    foto = be.widget("image", image={"url": url_foto, "id": "", "alt": nama}, image_size="full",
                      width=be.ukuran(100, "%"), image_border_radius=sudut(10))
     baris = []
-    if r.get("email"):
-        baris.append(f'<strong style="color:#fff">Email</strong><br><a href="mailto:{esc(r["email"])}" style="color:#fff">{esc(r["email"])}</a>')
     tautan = []
     for pasang in (i.get("tautan") or "").split(" ;; "):
         if "::" in pasang:
@@ -104,9 +108,7 @@ def profil(r, i, base, data_html):
             tautan.append(f'<a href="{esc(u)}" target="_blank" rel="noopener" style="color:#fff">{esc(lb)} ↗</a>')
     if tautan:
         baris.append('<strong style="color:#fff">Tautan</strong><br>' + "<br>".join(tautan))
-    if sid:
-        baris.append(f'<strong style="color:#fff">ID SINTA</strong><br>{sid}')
-    kontak = [kicker("Kontak", "#FFFFFF")]
+    kontak = [kicker("Tautan", "#FFFFFF")]
     if baris:
         kontak.append(teks("<p>" + "</p><p>".join(baris) + "</p>", "#FFFFFF", 16, None))
     if sid:
@@ -116,31 +118,14 @@ def profil(r, i, base, data_html):
                                 background_color=LIME, button_text_color=DARK, border_radius=sudut(99),
                                 typography_typography="custom", typography_font_family="Barlow",
                                 typography_font_weight="600", typography_font_size=be.ukuran_(14)))
-    kiri = be.container([foto, tile(kontak, NAVY)], content_width="full", width=be.ukuran(28, "%"),
+    kiri = be.container([foto] + ([tile(kontak, NAVY)] if (baris or sid) else []), content_width="full", width=be.ukuran(28, "%"),
                         width_tablet=be.ukuran(34, "%"), width_mobile=be.ukuran(100, "%"),
                         flex_direction="column", flex_gap=be.gap(16))
 
-    # ---- kolom kanan
+    # ---- kolom kanan: nama + widget CV
     kanan_isi = [kicker(kel), judul(nama)]
     if gelar:
         kanan_isi.append(teks(f"<p>{esc(gelar)}</p>", "#414142", 18, "secondary"))
-    if i.get("pendidikan"):
-        kanan_isi.append(tile([kicker("Pendidikan"), teks(f"<p>{esc(i['pendidikan'])}</p>")], "#FFFFFF", garis=True))
-    baris2 = []
-    if i.get("bidang_ilmu"):
-        baris2.append(tile([kicker("Bidang ilmu", DARK), subjudul(i["bidang_ilmu"], DARK)], LIME,
-                           40 if i.get("bidang_riset") else 100))
-    if i.get("bidang_riset"):
-        baris2.append(tile([kicker("Bidang riset", "#FFFFFF"), teks(f"<p>{esc(i['bidang_riset'])}</p>", "#FFFFFF", 16, None)],
-                           NAVY, 60 if i.get("bidang_ilmu") else 100))
-    if baris2:
-        b = be.container(baris2, content_width="full", flex_direction="row", flex_direction_mobile="column",
-                         flex_gap=be.gap(16), flex_align_items="stretch")
-        b["isInner"] = True
-        kanan_isi.append(b)
-    if i.get("lainnya"):
-        kanan_isi.append(tile([kicker("Keanggotaan & penghargaan"),
-                               teks("".join(f"<p>{esc(x)}</p>" for x in i["lainnya"].split(" | ") if x.strip()))], ABU))
     kanan_isi.append(be.widget("html", html=data_html.replace('data-slug=""', f'data-slug="{slug}"')))
     kanan = be.container(kanan_isi, content_width="full", width=be.ukuran(72, "%"), width_tablet=be.ukuran(66, "%"),
                          width_mobile=be.ukuran(100, "%"), flex_direction="column", flex_gap=be.gap(16))
@@ -156,7 +141,7 @@ def profil(r, i, base, data_html):
 def main():
     base = sys.argv[1] if len(sys.argv) > 1 else be.BASE
     be.BASE = base
-    data_html = (ROOT / "widget" / "katur-profil-data.html").read_text(encoding="utf-8").replace(be.PLACEHOLDER_BASE, base)
+    data_html = (ROOT / "widget" / "katur-profil-cv.html").read_text(encoding="utf-8").replace(be.PLACEHOLDER_BASE, base)
     with open(ROOT / "dosen.csv", newline="", encoding="utf-8") as f:
         dosen = list(csv.DictReader(f))
     with open(ROOT / "manual" / "dosen-info.csv", newline="", encoding="utf-8") as f:
@@ -167,7 +152,11 @@ def main():
         doc = {"version": "0.4", "title": f"DTNTF – Profil {r['nama'].strip()}", "type": "container",
                "content": [profil(r, info.get(r["slug"], {}), base, data_html)], "page_settings": []}
         (OUT / f"{r['slug']}.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    print(f"Tertulis {len(dosen)} berkas di elementor/profil/  (data-base = {base})")
+    zip_path = ROOT / "elementor" / "profil-38.zip"
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
+        for r in dosen:
+            z.write(OUT / f"{r['slug']}.json", arcname=f"{r['slug']}.json")   # datar: JSON di akar ZIP
+    print(f"Tertulis {len(dosen)} berkas di elementor/profil/ + {zip_path.name}  (data-base = {base})")
 
 
 if __name__ == "__main__":
