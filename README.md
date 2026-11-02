@@ -200,6 +200,12 @@ Bagian yang datanya belum ada (mis. seluruh isi Multifisika dan Instrumentasi) t
 
 Gambar hero tiap KBK: `manual/kbk-gambar/<kode>.jpg` (enet, proses-nuklir, multifisika, instrumentasi); timpa berkas dengan gambar lebih tajam bila ada, `kbk.py` menyalinnya ke `data/kbk/`.
 
+## Halaman Pengabdian
+
+`widget/katur-pengabdian.html` + `elementor/katur-pengabdian.json` (dibuat `python3 scripts/buat_pengabdian.py`), alamat `/pengabdian/`
+untuk menu *Riset & PPM → Pengabdian*. Seperti rekap publikasi tetapi hanya kategori *Pengabdian kepada Masyarakat* dari SINTA:
+statistik bento, grafik kegiatan per tahun, dosen paling aktif, dan daftar kegiatan yang bisa disaring (tahun, dosen, kata kunci).
+
 ## Pratinjau lokal
 
 ```bash

@@ -6,7 +6,7 @@ Jalankan server di folder repo, lalu buka alamatnya:
     python3 scripts/buat_uji.py
     python3 -m http.server 8000        # http://localhost:8000/uji-daftar-dosen.html
 
-Halaman: daftar dosen, 3 profil contoh (lengkap, minim, tanpa foto), induk KBK, 4 halaman KBK.
+Halaman: daftar dosen, pengabdian, 3 profil contoh (lengkap, minim, tanpa foto), induk KBK, 4 halaman KBK.
 Kerangka Elementor (foto, nama, kartu) ditiru dengan HTML biasa; widget aslinya dipakai apa adanya.
 """
 
@@ -88,6 +88,9 @@ def main():
     profil("andang-widi-harto", "uji-profil-lengkap.html", "data lengkap")
     profil(minim, "uji-profil-minim.html", "data minim, banyak lorem ipsum")
     profil("faridah", "uji-profil-tanpa-foto.html", "tanpa foto", tanpa_foto=True)
+
+    # --- Pengabdian
+    tulis("uji-pengabdian.html", "Uji – Pengabdian", widget("katur-pengabdian.html").replace('data-profil="/{slug}/"', 'data-profil="/{slug}/"'))
 
     # --- KBK
     d = json.loads((ROOT / "data" / "kbk" / "kbk.json").read_text(encoding="utf-8"))

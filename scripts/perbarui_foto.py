@@ -2,8 +2,8 @@
 """
 Perbarui kolom foto_url di dosen.csv dari halaman resmi https://tf.ugm.ac.id/dosen-tetap/.
 
-Tiap kartu di halaman itu = foto + nama (h3) + ID SINTA. Pencocokan: ID SINTA dulu,
-lalu nama (huruf kecil, tanpa gelar/tanda baca). Dosen yang tidak cocok dibiarkan
+Tiap kartu di halaman itu = foto + nama (h3) + ID SINTA. Pencocokan: nama dulu
+(huruf kecil, tanpa gelar/tanda baca; ID SINTA di halaman resmi pernah dobel untuk dua dosen), lalu ID SINTA. Dosen yang tidak cocok dibiarkan
 dan dilaporkan.
 
     python3 scripts/perbarui_foto.py            # tulis dosen.csv
@@ -19,10 +19,8 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 URL = "https://tf.ugm.ac.id/dosen-tetap/"
-# Foto di halaman resmi yang keliru (keputusan user, 2 Nov 2026) → foto manual yang benar
-PENGECUALIAN = {
-    "anung-muharini": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/08/foto-Anung-Muharini-1024x1024.jpg",
-}
+# Foto yang tidak boleh diambil dari halaman resmi (slug → URL foto yang benar); kosong = semua ikut halaman resmi
+PENGECUALIAN = {}
 
 
 def ambil(url):
@@ -62,7 +60,7 @@ def main():
         kolom, baris = rd.fieldnames, list(rd)
     ubah, tdk = 0, []
     for r in baris:
-        foto = PENGECUALIAN.get(r["slug"]) or per_id.get((r.get("sinta_id") or "").strip()) or per_nama.get(norm(r["nama"]))
+        foto = PENGECUALIAN.get(r["slug"]) or per_nama.get(norm(r["nama"])) or per_id.get((r.get("sinta_id") or "").strip())
         if not foto:
             tdk.append(r["nama"])
             continue
