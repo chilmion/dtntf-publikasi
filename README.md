@@ -143,13 +143,66 @@ Tiga templat siap impor (Templates → Saved Templates → Import Templates), me
 | Berkas | Isi |
 |---|---|
 | `elementor/katur-daftar-dosen.json` | Daftar dosen: kartu foto, saring Teknik Nuklir/Teknik Fisika, cari nama/bidang riset. Tautan ke profil lewat `data-profil="/{slug}/"`. |
-| `elementor/katur-daftar-dosen.json` (bisa diedit) | Daftar dosen dengan **kartu yang bisa diedit**: tiap dosen = satu container berisi Image (foto), Heading (nama), widget HTML (kelompok, gelar, bidang ilmu, skor & sitasi SINTA dari GitHub), dan tombol "Selengkapnya →" (isi tautan profil sendiri; bawaan `/<slug>/`). Ada bilah cari + filter. Dibuat `scripts/buat_daftar_dosen.py`. Versi serba-otomatis (satu widget) ada di `katur-daftar-dosen-otomatis.json`. |
-| `elementor/katur-profil-dosen.json` | Profil dosen: kartu kiri (foto, kontak, tautan), nama + pendidikan + bidang ilmu/riset, bagian "Tentang" yang kamu tulis sendiri, lalu data GitHub (skor, grafik, metrik, luaran). Cukup isi `data-slug` **sekali** di widget kartu; widget lain mengikutinya. Satu halaman untuk semua dosen juga bisa: kosongkan `data-slug`, buka `/halaman/?d=faridah`. |
+| `elementor/katur-daftar-dosen.json` (bisa diedit) | Daftar dosen dengan **kartu yang bisa diedit**: tiap dosen = satu container berisi Image (foto), Heading (nama), widget HTML (kelompok, gelar, bidang ilmu, sitasi Scopus dari GitHub), dan tombol "Selengkapnya →" (isi tautan profil sendiri; bawaan `/<slug>/`). Ada bilah cari + filter. Dibuat `scripts/buat_daftar_dosen.py`. Versi serba-otomatis (satu widget) ada di `katur-daftar-dosen-otomatis.json`. |
+| `elementor/katur-profil-dosen.json` | Profil dosen generik: kartu kiri (foto, kontak, tautan) + widget `katur-profil-cv.html` (susunan CV, lihat bagian *Profil dosen susunan CV*). Cukup isi `data-slug` **sekali** di widget kartu; widget CV mengikutinya. Satu halaman untuk semua dosen juga bisa: kosongkan `data-slug`, buka `/halaman/?d=faridah`. |
 | `elementor/katur-statistik.json` | Statistik departemen bergaya bento (angka dari metrik SINTA), lalu daftar luaran yang bisa disaring per kategori/tahun/kata kunci. |
 
-**38 templat profil siap impor (satu per dosen):** `elementor/profil/<slug>.json`, dibuat `python3 scripts/buat_profil_dosen.py`. Foto, nama, gelar, pendidikan, bidang ilmu/riset, keanggotaan, dan kontak sudah terisi (dari halaman Dosen Tetap lama) sebagai widget Elementor biasa yang bisa diedit; widget data GitHub di bawahnya sudah memakai `data-slug` dosen itu. Sumber isi: `manual/dosen-info.csv` + `dosen.csv`.
+**38 templat profil siap impor (satu per dosen):** `elementor/profil/<slug>.json`, dibuat `python3 scripts/buat_profil_dosen.py`. Foto, nama, gelar, tautan, dan tombol SINTA berupa widget Elementor biasa (bisa diedit); selebihnya satu widget HTML `katur-profil-cv.html` yang sudah diisi `data-slug` dosen itu. Untuk impor massal ada `elementor/profil-38.zip` (JSON di akar ZIP, tanpa folder).
 
-Font, warna, dan ukuran mengikuti kit Elementor situs katur (Plus Jakarta Sans + Barlow; navy `#073C64`, lime `#C8E86D`). Widget memakai variabel global Elementor bila ada, dan nilai bawaan bila tidak. Data pendukung: `manual/dosen-info.csv` (pendidikan, bidang ilmu/riset, homepage; diambil dari halaman Dosen Tetap lama) dan kolom `foto_url` di `dosen.csv`.
+Foto dosen diambil dari halaman resmi <https://tf.ugm.ac.id/dosen-tetap/>: `python3 scripts/perbarui_foto.py` mencocokkan per ID SINTA/nama dan memperbarui kolom `foto_url` di `dosen.csv`, lalu jalankan ulang `buat_profil_dosen.py` dan `buat_daftar_dosen.py`.
+
+## Profil dosen susunan CV
+
+Widget `widget/katur-profil-cv.html` menyusun halaman profil mengikuti contoh CV, **tanpa Skor SINTA**:
+
+1. Data diri (nama lengkap + gelar, jabatan fungsional, bidang kepakaran, institusi, email, telepon institusi)
+2. Riwayat pendidikan · 3. Sertifikat kompetensi · 4. Riwayat pekerjaan · 5. Organisasi profesi · 6. Penghargaan
+7. Pengalaman kerjasama dan penelitian (tabel No, Riset/Proyek, Tahun, Keterangan)
+8. Kekayaan intelektual (HKI/paten) · 9. Publikasi (jurnal) · 10. Prosiding seminar · 11. Buku
+
+Bagian 1–7 diisi dari **`manual/profil-cv.xlsx`** (satu berkas Excel untuk semua dosen; templat kosong
+`manual/templat-profil-cv.xlsx`, dibuat `python3 scripts/buat_templat_cv.py`). Satu lembar per bagian
+(Identitas, Pendidikan, Sertifikat, Pekerjaan, Organisasi, Penghargaan, Kerjasama); kolom `dosen` dipilih dari
+dropdown. Bagian 7 juga memuat Penelitian & Pengabdian dari SINTA. Bagian 8–11 otomatis dari SINTA
+(dan `manual/luaran.xlsx`). `scripts/profil_cv.py` (dipanggil `scripts/manual.py`) menaruh hasilnya di
+`data/<slug>.json` sebagai kunci `cv`. Nilai bawaan dari data yang sudah ada: pendidikan, bidang ilmu,
+keanggotaan, dan penghargaan dari `manual/dosen-info.csv`; institusi dan telepon = departemen.
+
+**Lorem ipsum = penanda data kosong.** Bagian yang belum ada datanya tidak disembunyikan; isinya teks
+lorem ipsum berkelas `.kt-lorem` (kuning, bergaris putus-putus, atribut `data-lorem`). Setelah datanya diisi
+dan `manual.py` dijalankan (otomatis lewat GitHub Actions saat berkas diunggah), teks itu diganti data asli.
+Cari yang tersisa dengan mencari `kt-lorem` di inspektur browser.
+
+**Privasi.** Tidak ada kolom alamat rumah, HP pribadi, tanggal lahir, jenis kelamin, NIP/NIDN. Jangan menambahnya.
+Folder `referensi-lokal/` (contoh CV dan PPT) ada di `.gitignore` dan tidak boleh di-commit.
+
+Cara memperbarui: isi `manual/profil-cv.xlsx` → di GitHub buka folder `manual/` → *Add file → Upload files*
+(timpa berkas lama) → workflow *Perbarui data manual* jalan otomatis (±2 menit).
+
+## Halaman KBK (Kelompok Bidang Keahlian)
+
+Lima halaman: induk `/kbk/` (kartu semua KBK) + satu halaman per KBK: `/kbk-enet/`, `/kbk-proses-nuklir/`,
+`/kbk-multifisika/`, `/kbk-instrumentasi/`. KBK **berbeda** dari kolom `kelompok` (Teknik Nuklir/Teknik Fisika);
+satu dosen boleh ada di beberapa KBK.
+
+| Berkas | Isi |
+|---|---|
+| `manual/kbk.xlsx` | Data semua KBK: lembar KBK, Kompetensi, Anggota, Tema, Riset, Publikasi (petunjuk di lembar *Petunjuk*; templat kosong `manual/templat-kbk.xlsx`) |
+| `scripts/kbk.py` | `manual/kbk.xlsx` → `data/kbk/kbk.json` (statistik dihitung otomatis; dipanggil `manual.py`) |
+| `widget/katur-kbk.html` | Satu halaman KBK (`data-kbk="enet"`): hero, statistik bento, kompetensi, anggota (kartu bergaya daftar dosen, menaut ke `/<slug>/`), tema penelitian |
+| `widget/katur-kbk-induk.html` | Halaman induk |
+| `elementor/katur-kbk-induk.json`, `elementor/kbk/<kode>.json` | Templat siap impor, dibuat `python3 scripts/buat_kbk.py` |
+
+Bagian yang datanya belum ada (mis. seluruh isi Multifisika dan Instrumentasi) tampil sebagai lorem ipsum
+(`.kt-lorem`) sampai lembar Excelnya diisi. Alamat halaman diatur di kolom `halaman` lembar KBK.
+
+## Pratinjau lokal
+
+```bash
+python3 scripts/manual.py        # pasang data CV & KBK ke data/ (hanya untuk uji; hasil resmi dibuat GitHub Actions)
+python3 scripts/buat_uji.py      # buat uji-daftar-dosen, uji-profil-*, uji-kbk-*
+python3 -m http.server 8000      # buka http://localhost:8000/uji-daftar-dosen.html
+```
 
 ## Input manual (luaran yang tidak ada di SINTA)
 

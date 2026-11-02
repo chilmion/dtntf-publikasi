@@ -195,8 +195,8 @@
     akar.innerHTML = (kel ? '<span class="kt-kicker">' + esc(kel) + '</span>' : '') +
       (x.gelar ? '<p class="kt-di-gelar">' + esc(x.gelar) + '</p>' : '') +
       (x.bidang_ilmu ? '<p class="kt-di-bidang">' + esc(x.bidang_ilmu) + '</p>' : '') +
-      (x.ada_data && (x.skor_sinta != null || x.sitasi_scopus != null)
-        ? '<div class="kt-di-stat"><span><b>' + num(x.skor_sinta) + '</b>Skor SINTA</span><span><b>' + num(x.sitasi_scopus) + '</b>Sitasi Scopus</span></div>' : '');
+      (x.ada_data && x.sitasi_scopus != null
+        ? '<div class="kt-di-stat"><span><b>' + num(x.sitasi_scopus) + '</b>Sitasi Scopus</span></div>' : '');
   }).catch(function () { akar.innerHTML = ''; });
 
 })();

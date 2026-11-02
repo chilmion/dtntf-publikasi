@@ -5,7 +5,7 @@ Buat elementor/katur-daftar-dosen.json — halaman daftar dosen dengan kartu yan
 Tiap dosen = satu container Elementor berisi:
   Image (foto, bawaan dari foto_url di dosen.csv)  → bisa diganti
   Heading (nama)                                    → bisa diedit
-  widget HTML (kelompok, gelar, bidang ilmu, skor & sitasi SINTA dari GitHub)
+  widget HTML (kelompok, gelar, bidang ilmu, sitasi Scopus dari GitHub)
   Tautan teks "selengkapnya →" (isi tautan profil detail sendiri; bawaan /<slug>/)
 Di atasnya: Heading + teks pengantar + widget HTML cari/filter.
 
