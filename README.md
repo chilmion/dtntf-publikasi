@@ -160,6 +160,8 @@ Widget `widget/katur-profil-cv.html` menyusun halaman profil mengikuti contoh CV
 7. Pengalaman kerjasama dan penelitian (tabel No, Riset/Proyek, Tahun, Keterangan)
 8. Kekayaan intelektual (HKI/paten) · 9. Publikasi (jurnal) · 10. Prosiding seminar · 11. Buku
 
+Di bawahnya blok **Data SINTA** seperti sebelumnya, hanya tanpa Skor SINTA: Penelitian, Pengabdian, kartu h-index/artikel/sitasi Scopus & Google Scholar, grafik (kuartil, luaran riset, artikel per tahun), dan tabel metrik Scopus/Scholar/WOS (`data-tampil="statistik,grafik,metrik"`).
+
 Bagian 1–7 diisi dari **`manual/profil-cv.xlsx`** (satu berkas Excel untuk semua dosen; templat kosong
 `manual/templat-profil-cv.xlsx`, dibuat `python3 scripts/buat_templat_cv.py`). Satu lembar per bagian
 (Identitas, Pendidikan, Sertifikat, Pekerjaan, Organisasi, Penghargaan, Kerjasama); kolom `dosen` dipilih dari
@@ -195,6 +197,8 @@ satu dosen boleh ada di beberapa KBK.
 
 Bagian yang datanya belum ada (mis. seluruh isi Multifisika dan Instrumentasi) tampil sebagai lorem ipsum
 (`.kt-lorem`) sampai lembar Excelnya diisi. Alamat halaman diatur di kolom `halaman` lembar KBK.
+
+Gambar hero tiap KBK: `manual/kbk-gambar/<kode>.jpg` (enet, proses-nuklir, multifisika, instrumentasi); timpa berkas dengan gambar lebih tajam bila ada, `kbk.py` menyalinnya ke `data/kbk/`.
 
 ## Pratinjau lokal
 

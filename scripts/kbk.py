@@ -11,6 +11,7 @@ Lembar di kbk.xlsx (baris pertama = nama kolom; petunjuk ada di lembar "Petunjuk
   Riset        kbk, tema (nomor), riset           (riset terkait, maks 5 ditampilkan)
   Publikasi    kbk, tema (nomor), sitasi, doi     (publikasi terpilih, maks 5 ditampilkan)
 
+Gambar hero: manual/kbk-gambar/<kode>.jpg (disalin ke data/kbk/).
 Satu dosen boleh ada di beberapa KBK. KBK ini BERBEDA dari kolom "kelompok"
 (Teknik Nuklir/Teknik Fisika) di agregat. Isian yang kosong = widget menampilkan
 lorem ipsum (kelas .kt-lorem). Statistik dihitung dari isi (dosen, kompetensi, tema,
@@ -22,6 +23,7 @@ publikasi).
 import csv
 import json
 import pathlib
+import shutil
 import sys
 import time
 
@@ -29,6 +31,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 MANUAL = ROOT / "manual"
 OUT = ROOT / "data" / "kbk" / "kbk.json"
 BERKAS = MANUAL / "kbk.xlsx"
+GAMBAR = MANUAL / "kbk-gambar"      # gambar hero: <kode>.jpg/.png/.webp (diganti dengan menimpa berkas)
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 
@@ -86,9 +89,14 @@ def bangun():
         komp = [{"no": i, "judul": r.get("judul", ""), "deskripsi": r.get("deskripsi", "")}
                 for i, r in enumerate(mine("Kompetensi"), 1)]
         jml_pub = sum(t["jumlah_publikasi"] or len(t["publikasi"]) for t in tema)
+        gambar = next((g for e in ("jpg", "jpeg", "png", "webp") for g in [GAMBAR / f"{kode}.{e}"] if g.exists()), None)
+        if gambar:
+            OUT.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(gambar, OUT.parent / gambar.name)
         halaman = (k.get("halaman") or f"kbk-{kode}").strip("/ ")
         hasil.append({"kode": kode, "nama": k.get("nama", ""), "singkatan": k.get("singkatan", ""),
                       "halaman": halaman, "url": f"/{halaman}/", "ketua": ketua,
+                      "gambar": f"kbk/{gambar.name}" if gambar else "",
                       "ringkasan": k.get("ringkasan", ""), "sekilas": k.get("sekilas", ""),
                       "kompetensi": komp, "anggota": anggota, "tema": tema,
                       "statistik": {"dosen": len(anggota), "kompetensi": len(komp), "tema": len(tema),
