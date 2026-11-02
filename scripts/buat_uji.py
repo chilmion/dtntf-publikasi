@@ -89,6 +89,17 @@ def main():
     profil(minim, "uji-profil-minim.html", "data minim, banyak lorem ipsum")
     profil("faridah", "uji-profil-tanpa-foto.html", "tanpa foto", tanpa_foto=True)
 
+    # --- Pengurus departemen (kartu Elementor ditiru dengan HTML biasa)
+    foto = {r["slug"]: r["foto_url"] for r in dosen}
+    pg = list(csv.DictReader(open(ROOT / "manual" / "pengurus.csv", newline="", encoding="utf-8")))
+    isi = '<div class="kt-pagehead">Departemen Teknik Nuklir dan Teknik Fisika · Periode 2026–2031</div><h1>Pengurus Departemen</h1>'
+    for kel in dict.fromkeys(r["kelompok"] for r in pg):
+        isi += f'<h2 style="font:400 40px \'Plus Jakarta Sans\';letter-spacing:-1.7px;margin:32px 0 16px">{esc(kel)}</h2><div class="grid-dosen">' + "".join(
+            f'<div class="kartu"><img src="{esc(foto.get(r["slug"]))}" alt=""><div class="isi"><div class="kt-pagehead">{esc(r["jabatan"])}</div>'
+            f'<h3 style="font-size:20px">{esc(r["nama_lengkap"])}</h3><a href="mailto:{esc(r["email"])}">{esc(r["email"])}</a>'
+            f'<a href="/{r["slug"]}/">Profil dosen →</a></div></div>' for r in pg if r["kelompok"] == kel) + "</div>"
+    tulis("uji-pengurus-departemen.html", "Uji – Pengurus Departemen", isi)
+
     # --- Pengabdian
     tulis("uji-pengabdian.html", "Uji – Pengabdian", widget("katur-pengabdian.html").replace('data-profil="/{slug}/"', 'data-profil="/{slug}/"'))
 

@@ -22,6 +22,7 @@ scraper Python (stdlib saja) -> JSON per dosen -> GitHub Pages -> widget HTML fe
 - `scripts/perbarui_foto.py` — foto dosen dari https://tf.ugm.ac.id/dosen-tetap/ → kolom `foto_url` di `dosen.csv` (cocok per ID SINTA, lalu nama). `scripts/buat_uji.py` — buat `uji-daftar-dosen/profil-*/kbk-*.html` untuk pratinjau.
 - Halaman Pengabdian (/pengabdian/, menu Riset & PPM): `widget/katur-pengabdian.html` + `elementor/katur-pengabdian.json` (`scripts/buat_pengabdian.py`); data = kategori Pengabdian dari agregat SINTA.
 - Foto dosen: pencocokan di `perbarui_foto.py` NAMA dulu (halaman resmi pernah menaruh ID SINTA sama untuk Anung dan Ari Bimo).
+- Halaman Pengurus Departemen (/pengurus-departemen/): `manual/pengurus.csv` → `scripts/buat_pengurus.py` → `elementor/katur-pengurus-departemen.json` (kartu Elementor editable, foto dari dosen.csv).
 - `scripts/xlsx_tulis.py` — penulis xlsx stdlib bersama (templat & berkas isian).
 - `scripts/buat_daftar_dosen.py` — `elementor/katur-daftar-dosen.json`: kartu dosen EDITABLE (container per dosen: Image + Heading + widget HTML `katur-dosen-info.html` + Button tautan profil), disaring widget `katur-dosen-filter.html` lewat kelas CSS `kt-kartu-dosen` / `kt-kel-*` (skrip filter harus membaca kartu setelah DOM siap, karena kartu ada di bawahnya).
 - `jalankan.sh` — cadangan: cron di mesin lokal ber-IP Indonesia.

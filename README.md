@@ -206,6 +206,14 @@ Gambar hero tiap KBK: `manual/kbk-gambar/<kode>.jpg` (enet, proses-nuklir, multi
 untuk menu *Riset & PPM → Pengabdian*. Seperti rekap publikasi tetapi hanya kategori *Pengabdian kepada Masyarakat* dari SINTA:
 statistik bento, grafik kegiatan per tahun, dosen paling aktif, dan daftar kegiatan yang bisa disaring (tahun, dosen, kata kunci).
 
+## Halaman Pengurus Departemen
+
+`elementor/katur-pengurus-departemen.json` (`python3 scripts/buat_pengurus.py`), alamat `/pengurus-departemen/`. Kartu bergaya daftar
+dosen (container Elementor yang bisa diedit: foto, jabatan, nama lengkap, email, tombol profil) dalam tiga kelompok: departemen &
+program studi, kepala laboratorium, ketua KBK. Isi dari `manual/pengurus.csv` (kolom kelompok, jabatan, slug, nama_lengkap, email);
+foto dari `dosen.csv` (foto resmi terbaru). Ubah periode di konstanta `PERIODE` skrip. Email lab Teknologi Energi Nuklir disalin dari
+halaman lama (`sekdep-tntf.ft@ugm.ac.id`); cek apakah memang itu.
+
 ## Pratinjau lokal
 
 ```bash

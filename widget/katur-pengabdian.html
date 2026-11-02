@@ -226,8 +226,6 @@
     g.push(stat('Tahun ' + (terakhir || ''), 'putih', 's4', num(terakhir ? per[terakhir] : 0), 'kegiatan di tahun terbaru', true));
     g.push(stat('Rentang tahun', 'sky', 's3', tahunUrut.length ? tahunUrut[0] + '–' + terakhir : '–', '', true));
     if (seri.length > 1) g.push('<div class="kt-tile navy pola s12"><h3 class="kt-h3">Kegiatan per tahun</h3>' + tahunan(seri) + '</div>');
-    if (dosenArr.length) g.push('<div class="kt-tile abu s12"><h3 class="kt-h3">Dosen paling aktif</h3><ol class="kt-top" style="color:var(--kt-ink)">' +
-      dosenArr.slice(0, 5).map(function (x, i) { return '<li><span class="no">' + (i + 1) + '</span><span>' + linkDosen(x) + '</span><b>' + num(x.n) + '</b></li>'; }).join('') + '</ol></div>');
     h.push('<div class="kt-grid">' + g.join('') + '</div>');
 
     h.push('<div class="kt-blok"><h2 class="kt-h2">Daftar kegiatan</h2><div class="kt-filter">' +
