@@ -87,6 +87,11 @@ def kelompok_dari(bidang):
     return "Teknik Nuklir" if b.startswith("rekayasa nuklir") else "Teknik Fisika" if b.startswith("rekayasa fisika") else "Dosen"
 
 
+def kelompok_info(i):
+    """Kelompok dari kolom `kelompok` di dosen-info.csv (penimpa manual), bila kosong dari awal bidang ilmu."""
+    return (i or {}).get("kelompok") or kelompok_dari((i or {}).get("bidang_ilmu"))
+
+
 def esc(s):
     return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -94,7 +99,7 @@ def esc(s):
 def profil(r, i, base, data_html):
     nama, slug, sid = r["nama"].strip(), r["slug"].strip(), (r.get("sinta_id") or "").strip()
     gelar = (r.get("gelar") or "").strip()
-    kel = kelompok_dari(i.get("bidang_ilmu"))
+    kel = kelompok_info(i)
 
     # ---- kolom kiri: foto + tautan (data diri, riwayat, dst. ada di widget HTML di kanan)
     url_foto = (r.get("foto_url") or "").strip() or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto"
