@@ -842,9 +842,10 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ir. Agus Arif, M.T.",
+   "bidang_kepakaran": "Instrumentasi dan Kendali; Kecerdasan Buatan; Pemrograman Komputer",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
-   "telepon_institusi": "(+62) (274) 580882",
-   "bidang_kepakaran": "Rekayasa Fisika (Sistem Manajemen Baterai)"
+   "telepon_institusi": "(+62) (274) 580882"
   },
   "pendidikan": [
    {
@@ -852,7 +853,24 @@
     "keterangan": "Ir. (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung)"
    }
   ],
-  "sertifikat": [],
+  "sertifikat": [
+   {
+    "tahun": "2025",
+    "keterangan": "Program elevAIte Indonesia: Pelatihan AI untuk Civitas Akademika UGM (PKTI007)"
+   },
+   {
+    "tahun": "2022",
+    "keterangan": "Program Pelatihan Festo Didactic"
+   },
+   {
+    "tahun": "2021",
+    "keterangan": "Sekolah Program Studi: Peran Program Studi dalam Merdeka Belajar-Kampus Merdeka (MBKM) dan Pencapaian Indikator Kinerja Utama (IKU) Perguruan Tinggi"
+   },
+   {
+    "tahun": "2020",
+    "keterangan": "Pelatihan Manajemen Karier Dosen"
+   }
+  ],
   "pekerjaan": [],
   "organisasi": [],
   "penghargaan": [],
