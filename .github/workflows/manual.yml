@@ -12,6 +12,7 @@ on:
       - "manual/luaran.csv"
       - "manual/profil-cv.xlsx"
       - "manual/kbk.xlsx"
+      - "manual/prodi-gambar/**"
       - "scripts/manual.py"
 
 permissions:

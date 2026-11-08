@@ -48,6 +48,8 @@ Kelompok mata kuliah wajib tersusun dari lima (5) kelompok mata kuliah yaitu pen
 | 6 | Peminatan Teknologi Energi Nuklir/Fisika Medis | 18 sks |
 | 7 | Pilihan bebas/transdisiplin | 16 sks |
 
+![Peta kurikulum Prodi Sarjana Teknik Nuklir](tn-peta-kurikulum.png)
+
 Program Sarjana Program Studi Teknik Nuklir menyediakan dua peminatan yaitu Peminatan Teknologi Energi Nuklir (TEN) yang mencakup pengembangan keahlian di bidang reaktor nuklir dan proses nuklir, serta Peminatan Fisika Medis. Mahasiswa wajib memilih satu dari dua kelompok peminatan tersebut yaitu dengan mengambil seluruh mata kuliah pilihan wajib peminatan (TEN/Fisika Medis) yang disediakan sebanyak masing-masing 18 SKS.
 
 Program Sarjana Program Studi Teknik Nuklir juga menyediakan mata kuliah pilihan bebas atau pemilihan minor yang dapat diambil di program studi lain. Tabel 2.18  adalah mata kuliah pilihan bebas yang disediakan 30 sks untuk memenuhi persyaratan jumlah mata kuliah pilihan bebas 16 sks.
@@ -62,6 +64,8 @@ Mahasiswa mempelajari prinsip pengoperasian dan analisis reaktor nuklir, peranca
 
 Peminatan ini juga memberikan landasan bagi pengembangan kompetensi dalam teknologi proses nuklir, aplikasi radiasi industri, dan prinsip keselamatan, keamanan, serta safeguards nuklir.
 
+![Peminatan Teknologi Energi Nuklir](tn-peminatan-ten.png)
+
 ### Fisika Medis
 
 Peminatan Fisika Medis berfokus pada penerapan prinsip fisika dan teknologi radiasi dalam bidang kesehatan, khususnya radiologi diagnostik dan intervensional, radioterapi, serta kedokteran nuklir.
@@ -70,11 +74,15 @@ Mahasiswa dibekali pengetahuan mengenai interaksi radiasi dengan materi biologis
 
 Kelompok mata kuliah peminatan Fisika Medis disusun mengacu pada surat edaran dari Asosiasi Institusi Pendidikan Fisika Medis Indonesia (AIPFMI) meliputi: Anatomi dan Fisiologi (prasyarat Biologi Dasar), Radiobiologi (prasyarat Biologi Dasar), Fisika kedokteran nuklir (prasyarat Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), Fisika Radiodiagnostik dan Intervensional (prasyarat: Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), Fisika radioterapi (prasyarat: Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), Fisika radiologi dan dosimetri (prasyarat: Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), dan Praktikum Fisika Medis (prasyarat: Praktikum Deteksi dan Pengukuran Radiasi).
 
+![Peminatan Fisika Medis](tn-peminatan-fisika-medis.png)
+
 ## Statistik Mahasiswa dan Alumni
 
 Program Sarjana Teknik Nuklir UGM telah menghasilkan lulusan yang berkontribusi dalam pengembangan teknologi, penelitian, industri, kesehatan, dan berbagai sektor profesional lainnya.
 
 Berdasarkan data akademik hingga Desember 2025, Program Sarjana Teknik Nuklir UGM telah menghasilkan 1.619 lulusan sejak tahun 1977, dengan jumlah mahasiswa aktif sebanyak 307 orang.
+
+![Lulusan dan mahasiswa Teknik Nuklir per angkatan, Desember 2025](tn-lulusan-per-angkatan.jpg)
 
 Lulusan Program Sarjana Teknik Nuklir memiliki peluang karier yang luas, baik pada sektor kenukliran maupun sektor nonkenukliran. Kompetensi fundamental dalam bidang keteknikan, analisis data, pemodelan, sistem, dan pemecahan masalah memungkinkan lulusan untuk beradaptasi dengan berbagai kebutuhan profesional.
 
@@ -83,6 +91,8 @@ Lulusan Program Sarjana Teknik Nuklir memiliki peluang karier yang luas, baik pa
 Hasil tracer study alumni periode 2020–2025 menunjukkan bahwa lulusan Teknik Nuklir UGM berkarier di berbagai bidang, antara lain industri manufaktur, jasa dan konsultansi, teknologi informasi, sektor kesehatan, pemerintahan, pendidikan, serta industri dan penelitian nuklir.
 
 Keberagaman sektor pekerjaan tersebut menunjukkan bahwa pendidikan Teknik Nuklir UGM tidak hanya menghasilkan kompetensi spesifik di bidang teknologi nuklir, tetapi juga kemampuan keteknikan dan profesional yang dapat diterapkan secara luas.
+
+![Hasil tracer study lulusan 2020–2025](tn-karier-alumni.png)
 
 ### Pengembangan Kompetensi Alumni
 
@@ -128,6 +138,8 @@ Topik tugas akhir mahasiswa dapat mencakup bidang teknologi energi nuklir, siste
 - Detektor (DET)
 - Keselamatan radiasi (RadSafe)
 
+![Jumlah mahasiswa per topik Teknologi Energi Nuklir, 2021–2024](tn-topik-ta-ten.jpg)
+
 ### Topik tugas akhir: Fisika Medis
 - Boron Neutron Capture Therapy (BNCT).
 - Carbon Ion Radiation Therapy (CIRT).
@@ -136,6 +148,8 @@ Topik tugas akhir mahasiswa dapat mencakup bidang teknologi energi nuklir, siste
 - Fast Neutron Therapy (FNT).
 - Design and Evaluation of Shielding for LINAC, Proton, carbon ion therapi.
 - Therapy Planning System (TPS).
+
+![Jumlah mahasiswa per topik Fisika Medis, 2021–2023](tn-topik-ta-fisika-medis.jpg)
 
 ## Laporan Kinerja Akademik
 
@@ -166,3 +180,7 @@ Bentuk kerja sama mencakup pengembangan program pendidikan, pelatihan dan pening
 Dalam pelaksanaan pembelajaran, program studi juga memanfaatkan fasilitas internal Departemen Teknik Nuklir dan Teknik Fisika serta fasilitas eksternal untuk mendukung kegiatan praktikum dan pengembangan kompetensi mahasiswa.
 
 Melalui kolaborasi yang berkelanjutan, Program Sarjana Teknik Nuklir UGM berupaya memperkuat kontribusi akademik dan profesional dalam pengembangan serta pemanfaatan teknologi nuklir untuk kepentingan masyarakat dan pembangunan nasional.
+
+![Kerja sama nasional](tn-mitra-nasional.png)
+
+![Kerja sama internasional](tn-mitra-internasional.png)

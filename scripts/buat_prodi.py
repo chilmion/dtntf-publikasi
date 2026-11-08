@@ -67,6 +67,12 @@ def blok(md):
             tutup()
             out.append(bp.tile([bp.subjudul(b[2:], bp.DARK)], bp.LIME))
             continue
+        m = re.fullmatch(r"!\[(.*?)\]\((.+?)\)", b.strip())
+        if m:   # gambar: berkas di manual/prodi-gambar/ (disalin ke data/prodi/ oleh manual.py)
+            tutup()
+            out.append(be.widget("image", image={"url": f"{be.BASE}/prodi/{m.group(2)}", "id": "", "alt": m.group(1)},
+                                 image_size="full", width=be.ukuran(100, "%"), image_border_radius=bp.sudut(10)))
+            continue
         if b.strip() == "[[lorem]]":
             tutup(); out.append(bp.teks(f'<p class="kt-lorem" data-lorem="1" style="{GAYA_LOREM}">{LOREM}</p>', "#7a5d00", 16, None)); continue
         if b.startswith("- "):
