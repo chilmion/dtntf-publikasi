@@ -398,17 +398,27 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ferdiansjah, S.T., M.Eng.Sc.",
+   "bidang_kepakaran": "Fabrikasi piranti optoelektronik; Fisika semikonduktor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
-   "telepon_institusi": "(+62) (274) 580882",
-   "bidang_kepakaran": "Rekayasa Fisika (Teknologi Perangkat Semikonduktor)"
+   "telepon_institusi": "(+62) (274) 580882"
   },
   "pendidikan": [
    {
     "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.Eng.Sc. (The University of New South Wales, Australia)"
+    "keterangan": "Magister Engineering Science (M.Eng.Sc.), The University of New South Wales, Australia"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
+  "sertifikat": [
+   {
+    "tahun": "2006",
+    "keterangan": "Pendidikan dan Pelatihan Prajabatan Golongan III"
+   }
+  ],
   "pekerjaan": [],
   "organisasi": [],
   "penghargaan": [],

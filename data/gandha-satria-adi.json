@@ -443,18 +443,36 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Gandha Satria Adi, S.T., M.Eng.",
+   "bidang_kepakaran": "Sensor gaya multiarah untuk kesehatan, presisi, dan structural health monitoring; Getaran mekanik; Pengolahan sinyal",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
-   "telepon_institusi": "(+62) (274) 580882",
-   "bidang_kepakaran": "Rekayasa Fisika (Teknologi Pengembangan Sensor)"
+   "telepon_institusi": "(+62) (274) 580882"
   },
   "pendidikan": [
    {
     "tahun": "",
-    "keterangan": "S.T., M.Eng. (Universitas Gadjah Mada)"
+    "keterangan": "Kandidat Doktor, Korea Advanced Institute of Science and Technology (KAIST), Korea Selatan"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Magister Engineering (M.Eng.), Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],
-  "pekerjaan": [],
+  "pekerjaan": [
+   {
+    "tahun": "2018",
+    "keterangan": "Tenaga Pengajar, Departemen Teknik Nuklir dan Teknik Fisika, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2012 - 2017",
+    "keterangan": "Peneliti, Universitas Gadjah Mada (Departemen Teknik Mesin dan Industri; Departemen Teknik Nuklir dan Teknik Fisika)"
+   }
+  ],
   "organisasi": [],
   "penghargaan": [],
   "kerjasama": []
