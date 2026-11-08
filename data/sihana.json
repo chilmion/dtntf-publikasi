@@ -1687,25 +1687,118 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dr.-Ing. Ir. Sihana, IPU.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Rekayasa Keselamatan, Keamanan dan Ketahanan Proliferasi Deterministik)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir. (Universitas Gadjah Mada), Dr-Ing. (TU Berlin, Germany), IPU. (Persatuan Insinyur Indonesia)"
+    "tahun": "2000",
+    "keterangan": "Doktor Prozesswissenschaften (Ilmu Proses), Technische Universität Berlin, Jerman"
+   },
+   {
+    "tahun": "1989",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2010",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Pendidikan Nasional"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2021 - 2026",
+    "keterangan": "Ketua Program Sarjana, Program Studi Teknik Nuklir"
+   },
+   {
+    "tahun": "2022",
+    "keterangan": "Ketua Program Studi Sarjana Teknik Nuklir"
+   },
+   {
+    "tahun": "2020 - 2022",
+    "keterangan": "Kepala Laboratorium Energi Terbarukan"
+   },
+   {
+    "tahun": "2011",
+    "keterangan": "Kepala Laboratorium Teknologi Proses dan Kimia Nuklir"
+   },
+   {
+    "tahun": "2010",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "1990",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
   "organisasi": [
    {
-    "tahun": "",
-    "keterangan": "International Association for Continuing Engineering Education, World Institute for Nuclear Security (WINS)"
+    "tahun": "2016",
+    "keterangan": "Anggota World Institute for Nuclear Security (WINS)"
+   },
+   {
+    "tahun": "2012",
+    "keterangan": "Anggota Himpunan Fisika Medis dan Biofisika Indonesia (KFMBI)"
    }
   ],
-  "penghargaan": [],
-  "kerjasama": []
+  "penghargaan": [
+   {
+    "tahun": "2021",
+    "keterangan": "Satyalancana Karya Satya XXX — Pemerintah Republik Indonesia"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Satyalancana Karya Satya XX — Republik Indonesia"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Kesetiaan 25 Tahun UGM — Universitas Gadjah Mada"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Anggota kajian Pengawasan dalam Pembangunan dan Pengoperasian Reaktor Daya",
+    "tahun": "2019",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Ketua kajian Survei Efektifitas Kajian FRZR",
+    "tahun": "2019",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Penanggung jawab penyusun Buku Perspektif BAPETEN tentang PLTN Pertama di Indonesia untuk Mendukung Proses NEPIO",
+    "tahun": "2018",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota kajian Pengawasan dalam Pembangunan dan Pengoperasian Reaktor Daya",
+    "tahun": "2018",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota pereviu dan penilaian Laporan Analisis Keselamatan Reaktor Daya Non-Komersial (RDNK)",
+    "tahun": "2018",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Ketua kajian Teknis untuk Mendukung Efektifitas Pengawasan Reaktor Daya",
+    "tahun": "2017",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Ketua kajian Teknologi Keselamatan dan Keamanan PLTN Terapung",
+    "tahun": "2016",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota kajian Proteksi Radiasi Reaktor Daya Non-Komersial (RDNK) Tahap Desain",
+    "tahun": "2015",
+    "keterangan": "BAPETEN"
+   }
+  ]
  }
 }

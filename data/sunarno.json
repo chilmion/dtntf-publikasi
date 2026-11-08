@@ -5499,20 +5499,118 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Prof. Ir. Sunarno, M.Eng., Ph.D., IPU.",
+   "jabatan_fungsional": "Guru Besar",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Prof., Ir. (Universitas Gadjah Mada), M.Eng., Ph.D. (Osaka University, Japan), IPU. (Persatuan Insinyur Indonesia)"
+    "tahun": "1995",
+    "keterangan": "Doktor Nuclear Engineering, Osaka University, Jepang"
+   },
+   {
+    "tahun": "1992",
+    "keterangan": "Magister Nuclear Engineering, Osaka University, Jepang"
+   },
+   {
+    "tahun": "1982",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [],
-  "penghargaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2020",
+    "keterangan": "Sertifikat Insinyur Profesional Utama — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2009",
+    "keterangan": "Sertifikat Dosen Profesional — Departemen Pendidikan Nasional"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2019 - 2021",
+    "keterangan": "Kepala Laboratorium Sensor dan Sistem Telekontrol"
+   },
+   {
+    "tahun": "2020",
+    "keterangan": "Anggota Komisi III (Etika, Moral, dan ke-UGM-an)"
+   },
+   {
+    "tahun": "2011 - 2016",
+    "keterangan": "Ketua Daerah Organisasi Amatir Radio"
+   },
+   {
+    "tahun": "2011 - 2015",
+    "keterangan": "Ketua Jurusan Teknik Fisika"
+   },
+   {
+    "tahun": "2009 - 2016",
+    "keterangan": "Kepala Laboratorium Sensor dan Sistem Telekontrol"
+   },
+   {
+    "tahun": "2008 - sekarang",
+    "keterangan": "Guru Besar"
+   },
+   {
+    "tahun": "2005 - 2009",
+    "keterangan": "Kepala Laboratorium Sensor dan Sistem Telekontrol, Jurusan Teknik Fisika"
+   },
+   {
+    "tahun": "2001 - 2011",
+    "keterangan": "Ketua Program Studi S2 Magister Rekayasa Keselamatan Industri (MRKI)"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "1996",
+    "keterangan": "Lektor Muda"
+   },
+   {
+    "tahun": "1987",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1983",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "2010 - sekarang",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2002 - sekarang",
+    "keterangan": "Anggota International Amateur Radio Union (IARU)"
+   },
+   {
+    "tahun": "2002 - sekarang",
+    "keterangan": "Anggota Organisasi Amatir Radio Indonesia"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2020",
+    "keterangan": "Kesetiaan 35 Tahun UGM"
+   },
+   {
+    "tahun": "2020",
+    "keterangan": "Sertifikat/Piagam — Kementerian Pendidikan dan Kebudayaan, Pusat Prestasi Nasional"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Satyalancana Karya Satya XXX — Republik Indonesia"
+   },
+   {
+    "tahun": "2008",
+    "keterangan": "Kesetiaan 25 Tahun UGM — Universitas Gadjah Mada"
+   }
+  ],
   "kerjasama": []
  }
 }

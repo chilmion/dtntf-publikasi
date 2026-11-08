@@ -1279,25 +1279,93 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dr.-Ing. Ir. Awang Noor Indra Wardana, S.T., M.T., M.Sc., IPM.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Otomasi Proses)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung), M.Sc. (Fachhochschule Karlsruhe, Germany), Dr.-Ing. (Universität Kassel, Germany), IPM. (Persatuan Insinyur Indonesia)"
+    "tahun": "2009",
+    "keterangan": "Doktor Sistem Tertanam (Embedded System), Universität Kassel, Jerman"
+   },
+   {
+    "tahun": "2005",
+    "keterangan": "Magister Teknologi Sistem Sensor (Sensor System Technology), Fachhochschule Karlsruhe, Jerman"
+   },
+   {
+    "tahun": "2004",
+    "keterangan": "Magister Instrumentasi dan Kontrol, Institut Teknologi Bandung"
+   },
+   {
+    "tahun": "1999",
+    "keterangan": "Sarjana Teknik Elektro (Kendali), Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2022",
+    "keterangan": "Sertifikat Insinyur Profesional — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2013",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Pendidikan dan Kebudayaan"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2021 - sekarang",
+    "keterangan": "Ketua Program Sarjana, Program Studi Teknik Fisika"
+   },
+   {
+    "tahun": "2019 - 2020",
+    "keterangan": "Ketua Laboratorium Komputasi"
+   },
+   {
+    "tahun": "2016 - 2020",
+    "keterangan": "Sekretaris Program Magister, Program Studi Teknik Fisika"
+   },
+   {
+    "tahun": "2012",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "2011 - 2015",
+    "keterangan": "Sekretaris Jurusan Teknik Fisika"
+   },
+   {
+    "tahun": "2010",
+    "keterangan": "Tenaga Pendidik"
+   },
+   {
+    "tahun": "1999 - 2010",
+    "keterangan": "Consulting Engineer, Asosiasi Semen Indonesia"
+   }
+  ],
   "organisasi": [
    {
-    "tahun": "",
-    "keterangan": "International Association for Automation and Robotics in Construction"
+    "tahun": "2016 - sekarang",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2016 - 2017",
+    "keterangan": "Anggota Institute of Electrical and Electronics Engineers (IEEE)"
+   },
+   {
+    "tahun": "2014 - sekarang",
+    "keterangan": "Anggota International Society of Automation"
+   },
+   {
+    "tahun": "2013 - sekarang",
+    "keterangan": "Anggota International Association for Automation and Robotics in Construction"
    }
   ],
-  "penghargaan": [],
+  "penghargaan": [
+   {
+    "tahun": "2002",
+    "keterangan": "Baden-Württemberg Stipendium — Baden-Württemberg Stiftung"
+   }
+  ],
   "kerjasama": []
  }
 }

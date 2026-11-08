@@ -1407,25 +1407,167 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dr. Ir. Alexander Agung, S.T., M.Sc., IPU.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Komputasi Multifisika dan Optimasi Sistem Nuklir)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Kungl Tekniska Högskolan, Sweden), Dr. (Technische Universiteit Delft, Netherlands), PostDoc (Chalmers University of Technology, Sweden), IPU (Persatuan Insinyur Indonesia)"
+    "tahun": "2007",
+    "keterangan": "Doktor Teknik Nuklir, Delft University of Technology, Belanda"
+   },
+   {
+    "tahun": "2000",
+    "keterangan": "Magister Teknik Energi, Royal Institute of Technology, Stockholm, Swedia"
+   },
+   {
+    "tahun": "1996",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2021",
+    "keterangan": "Sertifikat Insinyur Profesional — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2015",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Riset, Teknologi, dan Pendidikan Tinggi"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2021 - 2026",
+    "keterangan": "Ketua Departemen Teknik Fisika"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Ketua Tim Akreditasi, Departemen Teknik Nuklir dan Teknik Fisika FT-UGM"
+   },
+   {
+    "tahun": "2016 - 2021",
+    "keterangan": "Ketua Program Studi S1 Teknik Nuklir, DTNTF FT-UGM"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Editor in Chief, Jurnal TEKNOFISIKA"
+   },
+   {
+    "tahun": "2009",
+    "keterangan": "Lektor; Dewan Redaksi Jurnal Media Teknik, Fakultas Teknik UGM"
+   },
+   {
+    "tahun": "2008",
+    "keterangan": "Tim Akreditasi Program Studi Teknik Nuklir; Badan Pembina Penelitian Fakultas Teknik UGM"
+   },
+   {
+    "tahun": "2007",
+    "keterangan": "Wakil Pengurus Jurusan Bidang Akademik, Jurusan Teknik Fisika FT-UGM"
+   },
+   {
+    "tahun": "2006 - 2008",
+    "keterangan": "Tim Pelaksana Program Hibah Kompetisi A-2, Jurusan Teknik Fisika FT-UGM"
+   },
+   {
+    "tahun": "2002",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1998",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
   "organisasi": [
    {
+    "tahun": "2016",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Anggota Institute of Electrical and Electronics Engineers (IEEE)"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Anggota World Institute for Nuclear Security (WINS)"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Anggota American Nuclear Society"
+   },
+   {
     "tahun": "",
-    "keterangan": "American Nuclear Society (ANS), World Institute for Nuclear Security (WINS)"
+    "keterangan": "Anggota Himpunan Fisikawan Indonesia"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota Dutch Young Generation, Netherlands Nuclear Society"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota Himpunan Masyarakat Nuklir Indonesia"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota Swedish Nuclear Society"
    }
   ],
-  "penghargaan": [],
-  "kerjasama": []
+  "penghargaan": [
+   {
+    "tahun": "2020",
+    "keterangan": "Kesetiaan 15 Tahun UGM"
+   },
+   {
+    "tahun": "2019",
+    "keterangan": "Satyalancana Karya Satya XX — Pemerintah Republik Indonesia"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Penilaian Keselamatan Tingkat Tinggi dari Desain Keselamatan TMSR-500 (High Level Safety Assessment of TMSR-500 Safety Design)",
+    "tahun": "2022",
+    "keterangan": "PT Thorcon Power Indonesia"
+   },
+   {
+    "riset": "Anggota kajian Pengawasan dalam Pembangunan dan Pengoperasian Reaktor Daya",
+    "tahun": "2019",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota kajian Survei Efektifitas Kajian FRZR",
+    "tahun": "2019",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Ketua penyusun Buku Perspektif BAPETEN tentang PLTN Pertama di Indonesia untuk Mendukung Proses NEPIO",
+    "tahun": "2018",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota kajian Pengawasan dalam Pembangunan dan Pengoperasian Reaktor Daya",
+    "tahun": "2018",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota pereviu dan penilaian Laporan Analisis Keselamatan Reaktor Daya Non-Komersial (RDNK)",
+    "tahun": "2018",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota kajian Teknis untuk Mendukung Efektifitas Pengawasan Reaktor Daya",
+    "tahun": "2017",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota kajian Teknologi Keselamatan dan Keamanan PLTN Terapung",
+    "tahun": "2016",
+    "keterangan": "BAPETEN"
+   },
+   {
+    "riset": "Anggota kajian Proteksi Radiasi Reaktor Daya Non-Komersial (RDNK) Tahap Desain",
+    "tahun": "2015",
+    "keterangan": "BAPETEN"
+   }
+  ]
  }
 }

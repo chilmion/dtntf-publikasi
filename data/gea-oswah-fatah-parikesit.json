@@ -1133,20 +1133,52 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dr. Gea Oswah Fatah Parikesit, S.T., M.Sc.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Fisika Konservasi Material Budaya)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Institut Teknologi Bandung), M.Sc., Dr. (Technische Universiteit Delft, Netherlands)"
+    "tahun": "2008",
+    "keterangan": "Doktor Applied Physics, TU Delft"
+   },
+   {
+    "tahun": "2003",
+    "keterangan": "Magister Applied Physics, TU Delft"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Sarjana Teknik Fisika, Institut Teknologi Bandung"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2014",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Pendidikan dan Kebudayaan RI"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2021 - 2026",
+    "keterangan": "Ketua Program Magister, Program Studi Magister Teknik Fisika"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "2011",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
   "organisasi": [],
-  "penghargaan": [],
+  "penghargaan": [
+   {
+    "tahun": "2020",
+    "keterangan": "Senior Research Fellow, program \"Asia Scholars\", Grimwade Centre for Cultural Materials Conservation, University of Melbourne"
+   }
+  ],
   "kerjasama": []
  }
 }

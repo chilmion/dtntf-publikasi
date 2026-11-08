@@ -2772,20 +2772,117 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ir. Sentagi Sesotya Utami, S.T., M.Sc., Ph.D., IPU.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Fisika Bangunan dan Akustik)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Brigham Young University, USA), Ph.D. (University of Michigan, USA), IPU. (Persatuan Insinyur Indonesia)"
+    "tahun": "2012",
+    "keterangan": "Doktor Architectural Acoustics, University of Michigan, Ann Arbor, AS"
+   },
+   {
+    "tahun": "2005",
+    "keterangan": "Magister Acoustics (Physics), Brigham Young University, Provo, Utah, AS"
+   },
+   {
+    "tahun": "1998",
+    "keterangan": "Sarjana Building Technology (Architectural Engineering), Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [],
-  "penghargaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2022",
+    "keterangan": "Sertifikat Insinyur Profesional — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2013",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Pendidikan dan Kebudayaan"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Green Building (Greenship Professional) — Green Building Council Indonesia (GBCI)"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Green Building (Green Associate) — Green Building Council Indonesia (GBCI)"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2021 - 2026",
+    "keterangan": "Sekretaris Departemen Teknik Nuklir dan Teknik Fisika"
+   },
+   {
+    "tahun": "2021 - sekarang",
+    "keterangan": "Koordinator Tim Hijau Greenship UGM, Project Implementation Unit (PIU)"
+   },
+   {
+    "tahun": "2021",
+    "keterangan": "Ketua Kelompok Kerja Lingkungan Sehat, Aman, dan Ramah Difabel, Health Promoting University (HPU) UGM"
+   },
+   {
+    "tahun": "2020 - sekarang",
+    "keterangan": "Koordinator Tim Hijau BGH GIK UGM"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Ketua Program Sarjana, Program Studi Teknik Fisika"
+   },
+   {
+    "tahun": "2017 - sekarang",
+    "keterangan": "Koordinator Tim Borang UIGMWR, UGM"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "2010",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "2002",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "",
+    "keterangan": "Anggota Greenship Professional GBCI"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota Greens Associate GBCI"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota American Society of Acoustics (ASA)"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota The International Institute of Acoustics and Vibration (IIAV)"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2019",
+    "keterangan": "Pemenang Penghargaan Penelitian UGM Kategori Kolaboratif Klaster Saintek"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Kesetiaan 15 Tahun UGM — Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Satyalancana Karya Satya X — Kementerian Sekretariat Negara RI"
+   }
+  ],
   "kerjasama": []
  }
 }

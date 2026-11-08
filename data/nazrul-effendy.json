@@ -2052,25 +2052,102 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Prof. Ir. Nazrul Effendy, S.T., M.T., Ph.D., IPM., ASEAN Eng.",
+   "jabatan_fungsional": "Guru Besar",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Sistem Cerdas dan Tertanam)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Prof., Ir. (Universitas Gadjah Mada), S.T., M.Eng. (Universitas Gadjah Mada), PhD. (Sandwich PhD program between Chulalongkorn University and Tokyo Institute of Technology), IPM. (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)"
+    "tahun": "2009",
+    "keterangan": "Doktor Electrical Engineering, Chulalongkorn University"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Magister Electrical Engineering, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1998",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [
+  "sertifikat": [
+   {
+    "tahun": "2019",
+    "keterangan": "Sertifikat Profesi Insinyur — Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2019",
+    "keterangan": "Sertifikat Insinyur Profesional — Persatuan Insinyur Indonesia"
+   },
    {
     "tahun": "",
-    "keterangan": "Indonesian Association of Pattern recognition, Indonesian Society for Soft Computing, Indonesian Artificial Intelligence Society, Continental Automated Buildings Association (CABA), International building performance simulation association (IBPSA), International Association for Pattern Recognition (IAPR), International Association of Engineers (IAENG), Persatuan Insinyur Indonesia (PII)"
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Pendidikan Nasional"
    }
   ],
-  "penghargaan": [],
+  "pekerjaan": [
+   {
+    "tahun": "2021",
+    "keterangan": "Tim Perancang AI Assurance, BNI Life"
+   },
+   {
+    "tahun": "2021 - 2022",
+    "keterangan": "Kepala Laboratorium Komputasi"
+   },
+   {
+    "tahun": "2016 - 2019",
+    "keterangan": "Kepala Laboratorium Komputasi, Jurusan Teknik Fisika"
+   },
+   {
+    "tahun": "2011",
+    "keterangan": "Lektor Kepala"
+   },
+   {
+    "tahun": "2009",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1999",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "2017",
+    "keterangan": "Anggota International Association for Pattern Recognition"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Anggota Greenship Associate GBC"
+   },
+   {
+    "tahun": "2010",
+    "keterangan": "Anggota Indonesian Society for Soft-Computing"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2021",
+    "keterangan": "Satyalancana Karya Satya XX — Pemerintah Republik Indonesia"
+   },
+   {
+    "tahun": "2020",
+    "keterangan": "Kesetiaan 15 Tahun UGM"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Satyalancana Karya Satya X — Republik Indonesia"
+   }
+  ],
   "kerjasama": []
  }
 }

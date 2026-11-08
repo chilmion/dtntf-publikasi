@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-11-02T15:53:52+0000",
+ "diperbarui": "2026-11-08T00:50:17+0000",
  "kbk": [
   {
    "kode": "enet",
@@ -625,7 +625,10 @@
      "judul": "Pengembangan GAMA-AHR untuk produksi radioisotop medis",
      "deskripsi": "GAMA AHR merupakan konsep reaktor yang lebih ditujukan untuk menghasilkan unsur radioisotop seperti Molybdenum-99. Karena lebih dikhususkan untuk menghasilkan radioisotop, pengembangan dan pembangunan reaktor ini tidak membutuhkan biaya investasi awal terlalu besar dan tidak memerlukan perancangan terlalu kompleks. Spesifikasi: daya 200 kWth, kapasitas 2500 six-day Ci Mo-99, bahan bakar larutan uranil nitrat 3,5% mol berpengayaan 19,75%, suhu operasi 80 °C.",
      "jumlah_publikasi": 4,
-     "riset": [],
+     "riset": [
+      "Criticality Analysis of Subcritical Aqueous Homogeneous Assembly for Mo-99 production, PT INUKI, 2015–2016",
+      "Neutronic Analysis of Aqueous Homogeneous Reactor for Mo-99 Production, PT Ensterna Indonesia, 2017"
+     ],
      "publikasi": [
       {
        "sitasi": "Andang Widi Harto, Kusnanto, Alexander Agung, Diva Jati Kanaya, M. Yayan Adi Putra, Dynamic modeling and simulation of the GAMA-AHR, Nuclear Engineering and Design, Volume 438, July 2025, 114085, https://doi.org/10.1016/j.nucengdes.2025.114085",
@@ -687,7 +690,13 @@
      "judul": "Peningkatan keselamatan pemanfaatan reaksi dan radiasi nuklir",
      "deskripsi": "Keselamatan nuklir meliputi pengendalian reaksi nuklir dan pengendalian paparan radiasi, baik eksterna maupun interna. Penelitian terutama berkaitan dengan perisai radiasi, wadah bahan nuklir atau radioaktif, serta pengendalian reaksi berantai (prinsip 3C: control, cool, contain).",
      "jumlah_publikasi": 7,
-     "riset": [],
+     "riset": [
+      "Evaluasi Keselamatan Radiasi di sekitar Ruang Roentgen UGD RSU Islam Klaten, 2026",
+      "Pelatihan dan Pendampingan Penggunaan Perisai Pesawat Sinar-X Portable di Lapas Cebongan, Sleman, 2026",
+      "Rancang Bangun Purwarupa Perisai Pesawat Sinar-X Mobile di Lapas Cebongan untuk Meningkatkan Keselamatan Radiasi Operator, 2025",
+      "Evaluasi Keselamatan Radiasi Ruang Rontgen Gigi Panoramik RSU Islam Klaten, 2025",
+      "Evaluasi Keselamatan Radiasi di Ruang CT-Scan RSU Islam Klaten, 2024"
+     ],
      "publikasi": [
       {
        "sitasi": "Pinasti, S. G.; Van Hoey, O.; Mihailescu, L.-C.; Vanhavere, F.; Pauly, N. ” Neutron spectrometry with DIAMON detector for characterisation of a newly built neutron calibration facility at SCK CEN” Journal of Instrumentation, Vol.20, (2025), DOI 10.1088/1748-0221/20/02/P02017",
@@ -774,7 +783,9 @@
      "judul": "Teknologi siklus bahan bakar nuklir “front end” dan mineral ikutan",
      "deskripsi": "",
      "jumlah_publikasi": 5,
-     "riset": [],
+     "riset": [
+      "Pengembangan Potensi Pemanfaatan Mineral Radioaktif dan Mineral Ikutan Radioaktif untuk Pembangkit Listrik Tenaga Nuklir guna Kepentingan Smelter, MIND ID dan Pusat Studi Energi UGM, 2024"
+     ],
      "publikasi": [
       {
        "sitasi": "Rosita, W., Perdana, I.; Bendiyasa, I.M.; Anggara, F.; Petrus, H.T.B.M.; Prasetya, A.; Rodliyah, I. “Sequential alkaline-organic acid leaching process to enhance the recovery of rare earth elements from Indonesian coal fly ash”. Journal of Rare Earths, Volume 42(7), pp1366-1374 (2024). DOI: https://doi.org/10.1016/j.jre.2023.09.001",
@@ -803,7 +814,10 @@
      "judul": "Teknologi siklus bahan bakar nuklir “back end” dan daur ulang material radioaktif",
      "deskripsi": "",
      "jumlah_publikasi": 6,
-     "riset": [],
+     "riset": [
+      "Perancangan Fasilitas Daur Ulang Zat Radioaktif Terbungkus Tidak Terpakai, ORTN BRIN dengan Fakultas Teknik UGM, 2025",
+      "Perancangan Kontainer Zat Radioaktif Terbungkus Tidak Terpakai dari Unit Radioterapi Rumah Sakit, ORTN BRIN dengan Fakultas Teknik UGM, 2025"
+     ],
      "publikasi": [
       {
        "sitasi": "Fernanda, V.F.E.; Ferdiansjah, F.; Kambali, I.; and Muharini, A., “Study of [Cu3 (C6H3 (COO) 3) 2 (H2O) 3] n (HKUST-1) Resistance to Gamma Radiation at Dose of 125 kGy to 200 kGy” Journal of Physics: Conference Series. (2024) DOI 10.1088/1742-6596/2828/1/012035",
@@ -832,7 +846,11 @@
      "judul": "Dekontaminasi, dekomisioning, dan daur ulang material radioaktif",
      "deskripsi": "",
      "jumlah_publikasi": 2,
-     "riset": [],
+     "riset": [
+      "Pengolahan Tanah Terkontaminasi Material Radioaktif, ORTN BRIN dengan Fakultas Teknik UGM, 2025",
+      "Studi Dekontaminasi Gedung 10 Eks PT INUKI, ORTN BRIN dengan Fakultas Teknik UGM, 2025",
+      "Perencanaan Dekomisioning Reaktor Riset TRIGA 2000 Bandung, ORTN BRIN dengan Fakultas Teknik UGM, 2025"
+     ],
      "publikasi": [
       {
        "sitasi": "Gustri Nurliati, Nail Huga Dhiaulhaq, Rifdah Indriani Susanto, Tazkiya Syahidha,  Vivia Karen, Maulana Asgaf, Alfiansyah Malik Nugroho, Gregorius Donny Setiawan,  Susetyo Hario Putero , Nunung Prabaningrum, Widya Rosita, Agus Budhie Wijatna,  Raden Sumarbagiono , Moh Cecep Cepi Hikmat , Dadong Iskandar , Ilma Dwi Winarni,  Heru Sriwahyuni, Arie Budianti, Miki Arian Saputra, Suryantoro Suryantoro,  Moch Romlid , Mirawaty Mirawaty, Zeni Anggraini, Muhammad Yusuf; “Phytoremediation performance of various tropical plant species for environmental remediation of high 137Cs contaminated soils: A case study of Batan Indah soil”; Chemosphere 410 (2026) 145046; https://doi.org/10.1016/j.chemosphere.2026.145046",
@@ -868,7 +886,23 @@
    "gambar": "kbk/multifisika.jpg",
    "ringkasan": "Studi, penelitian, dan pengembangan teknologi yang melibatkan interaksi beberapa fenomena fisika, dari rekayasa fisika bangunan hingga material cerdas dan fisika konservasi.",
    "sekilas": "KBK Multifisika melakukan studi, penelitian dan pengembangan teknologi yang melibatkan interaksi antara beberapa fenomena fisika yang beragam, baik itu mekanika, termodinamika, listrik, elektromagnetik, optika, akustik dan lain sebagainya. Bidang yang dikembangkan meliputi rekayasa fisika bangunan dan rekayasa multifisika multiskala dari bidang rekayasa material cerdas dan fisika konservasi.",
-   "kompetensi": [],
+   "kompetensi": [
+    {
+     "no": 1,
+     "judul": "Material cerdas (rekayasa multifisika multiskala)",
+     "deskripsi": "Kajian dan karakterisasi material, pengujian skala laboratorium, fabrikasi, serta pengembangan dan pengujian di lapangan."
+    },
+    {
+     "no": 2,
+     "judul": "Fisika konservasi",
+     "deskripsi": "Rekayasa multifisika multiskala di bidang fisika konservasi."
+    },
+    {
+     "no": 3,
+     "judul": "Fisika bangunan",
+     "deskripsi": "Rekayasa fisika bangunan, termasuk integrasi pada bangunan dan kebutuhan industri."
+    }
+   ],
    "anggota": [
     {
      "slug": "sentagi-sesotya-utami",
@@ -925,11 +959,30 @@
      "peran": ""
     }
    ],
-   "tema": [],
+   "tema": [
+    {
+     "no": 1,
+     "judul": "Fabrikasi dan Karakterisasi Terahertz Metamaterial",
+     "deskripsi": "Penelitian material pada Laboratorium Komputasi Multifisika DTNTF.",
+     "jumlah_publikasi": 0,
+     "riset": [
+      "Fabrikasi dan Karakterisasi Terahertz Metamaterial (Laboratorium Komputasi Multifisika)"
+     ],
+     "publikasi": []
+    },
+    {
+     "no": 2,
+     "judul": "Simulasi Sistem Fisik dan Energi Bangunan",
+     "deskripsi": "Laboratorium Komputasi Multifisika berfokus pada penelitian simulasi sistem fisik, simulasi energi bangunan, dan kecerdasan buatan.",
+     "jumlah_publikasi": 0,
+     "riset": [],
+     "publikasi": []
+    }
+   ],
    "statistik": {
     "dosen": 6,
-    "kompetensi": 0,
-    "tema": 0,
+    "kompetensi": 3,
+    "tema": 2,
     "publikasi": 0
    }
   },
@@ -947,9 +1000,25 @@
     "url": "/faridah/"
    },
    "gambar": "kbk/instrumentasi.jpg",
-   "ringkasan": "Mempelajari dan merancang sistem yang memanfaatkan fenomena rekayasa, dari instrumentasi lingkungan berbahaya dan otomasi proses hingga sistem cerdas dan manajemen baterai.",
-   "sekilas": "KBK Instrumentasi mempelajari fenomena yang dijumpai pada proses rekayasa, mengungkapkan dan menjelaskan mekanisme terjadinya fenomena tersebut secara ilmiah dan terukur, serta merancang sistem yang memanfaatkan fenomena tersebut untuk keperluan kesejahteraan manusia. Bidang instrumentasi mengembangkan di antaranya sistem instrumentasi untuk lingkungan berbahaya, otomasi proses, sistem cerdas dan tertanam, sistem manajemen baterai, dan instrumentasi untuk lingkungan terbangun berkelanjutan.",
-   "kompetensi": [],
+   "ringkasan": "Mengembangkan keilmuan instrumentasi secara menyeluruh, dari fenomena fisis, pengukuran, dan pengolahan informasi hingga pengendalian sistem.",
+   "sekilas": "Kelompok Bidang Keahlian Instrumentasi DTNTF mengembangkan keilmuan instrumentasi secara menyeluruh, mulai dari pemahaman fenomena fisis, proses pengukuran, pengolahan informasi, hingga pengendalian sistem. Keilmuan ini mencakup pengembangan sensor, sistem akuisisi dan pengolahan data, sistem cerdas dan tertanam, kontroler, aktuator, serta integrasi sistem instrumentasi. Kekuatan KBK Instrumentasi terletak pada kemampuannya menghubungkan fenomena dan proses fisis dengan teknologi pengukuran dan pengendalian, sehingga sistem yang dikembangkan tidak hanya mampu mengukur, tetapi juga memahami kondisi objek, mengolah informasi, mengambil keputusan, dan melakukan aksi pengendalian secara terintegrasi.",
+   "kompetensi": [
+    {
+     "no": 1,
+     "judul": "Sistem Cerdas dan Tertanam",
+     "deskripsi": "Penerapan: instrumentasi kesehatan, sistem nirkabel, dan robotika."
+    },
+    {
+     "no": 2,
+     "judul": "Sistem Instrumentasi",
+     "deskripsi": "Penerapan: pengembangan sensor, lingkungan berbahaya, lingkungan terbangun berkelanjutan, dan sistem manajemen baterai."
+    },
+    {
+     "no": 3,
+     "judul": "Otomasi Proses",
+     "deskripsi": "Penerapan: otomasi proses dan sistem pengendalian."
+    }
+   ],
    "anggota": [
     {
      "slug": "faridah",
@@ -970,21 +1039,48 @@
      "peran": ""
     },
     {
-     "slug": "awang-n-i-wardana",
-     "nama": "Awang N. I. Wardana",
-     "gelar": "S.T., M.T., M.Sc., Dr.-Ing.",
-     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Ing.-Ir.-Awang-Noor-Indra-Wardana-S.T.-M.T.-M.Sc_.-IPM-819x1024.jpg",
-     "url": "/awang-n-i-wardana/",
-     "keahlian": "Rekayasa Fisika (Otomasi Proses)",
-     "peran": ""
-    },
-    {
      "slug": "nopriadi",
      "nama": "Nopriadi",
      "gelar": "S.T., M.Sc., Ph.D.",
      "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Nopriadi-S.T.-M.Sc_.-Ph.D.-IPM-819x1024.jpg",
      "url": "/nopriadi/",
      "keahlian": "Rekayasa Fisika (Mesin Cerdas dan Instrumentasi untuk Kesehatan)",
+     "peran": ""
+    },
+    {
+     "slug": "yakub-fahim-luckyarno",
+     "nama": "Yakub Fahim Luckyarno",
+     "gelar": "S.T., M.Eng., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Fafa-683x1024.jpg",
+     "url": "/yakub-fahim-luckyarno/",
+     "keahlian": "Rekayasa Fisika (Sistem Nirkabel)",
+     "peran": ""
+    },
+    {
+     "slug": "gandha-satria-adi",
+     "nama": "Gandha Satria Adi",
+     "gelar": "S.T., M.Eng.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/04/Photo_Gandha.jpg",
+     "url": "/gandha-satria-adi/",
+     "keahlian": "Rekayasa Fisika (Teknologi Pengembangan Sensor)",
+     "peran": ""
+    },
+    {
+     "slug": "sunarno",
+     "nama": "Sunarno",
+     "gelar": "Prof., Ir., M.Eng., Ph.D.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2018/02/SUNARNO-841x1024.jpg",
+     "url": "/sunarno/",
+     "keahlian": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)",
+     "peran": ""
+    },
+    {
+     "slug": "thomas-oka-pratama",
+     "nama": "Thomas Oka Pratama",
+     "gelar": "S.T., M.Eng., Dr.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/39-819x1024.jpg",
+     "url": "/thomas-oka-pratama/",
+     "keahlian": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)",
      "peran": ""
     },
     {
@@ -1006,39 +1102,131 @@
      "peran": ""
     },
     {
-     "slug": "yakub-fahim-luckyarno",
-     "nama": "Yakub Fahim Luckyarno",
-     "gelar": "S.T., M.Eng., Ph.D.",
-     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2019/02/Fafa-683x1024.jpg",
-     "url": "/yakub-fahim-luckyarno/",
-     "keahlian": "Rekayasa Fisika (Sistem Nirkabel)",
-     "peran": ""
-    },
-    {
-     "slug": "thomas-oka-pratama",
-     "nama": "Thomas Oka Pratama",
-     "gelar": "S.T., M.Eng., Dr.",
-     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/39-819x1024.jpg",
-     "url": "/thomas-oka-pratama/",
-     "keahlian": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)",
-     "peran": ""
-    },
-    {
-     "slug": "gandha-satria-adi",
-     "nama": "Gandha Satria Adi",
-     "gelar": "S.T., M.Eng.",
-     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2024/04/Photo_Gandha.jpg",
-     "url": "/gandha-satria-adi/",
-     "keahlian": "Rekayasa Fisika (Teknologi Pengembangan Sensor)",
+     "slug": "awang-n-i-wardana",
+     "nama": "Awang N. I. Wardana",
+     "gelar": "S.T., M.T., M.Sc., Dr.-Ing.",
+     "foto_url": "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/10/Dr.-Ing.-Ir.-Awang-Noor-Indra-Wardana-S.T.-M.T.-M.Sc_.-IPM-819x1024.jpg",
+     "url": "/awang-n-i-wardana/",
+     "keahlian": "Rekayasa Fisika (Otomasi Proses)",
      "peran": ""
     }
    ],
-   "tema": [],
+   "tema": [
+    {
+     "no": 1,
+     "judul": "Building Energy Management System (BEMS) Berbasis Soft Sensor dan AI",
+     "deskripsi": "Upaya menuju Zero Energy Building membutuhkan Building Energy Management System (BEMS) yang mampu memantau, memprediksi, dan mengoptimalkan konsumsi energi secara real-time. Penelitian ini mengembangkan BEMS berbasis soft sensor dan Artificial Intelligence (AI) dengan mengintegrasikan kondisi lingkungan dalam ruang, kenyamanan penghuni, dan konsumsi energi. Inovasinya meliputi soft sensor, sensor kenyamanan berbasis sinyal fisiologis, AI untuk pemodelan prediktif dan optimalisasi energi, serta Virtual Reality untuk visualisasi dan pemantauan.",
+     "jumlah_publikasi": 14,
+     "riset": [
+      "2025 – 2027 Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence — Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+      "2025 Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan. — Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+      "2024 Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas — Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+      "2023 – 2024 Penerapan Teknologi Soft Sensor Pada Sistem Manajemen Performansi Indoor Environment Quality (IEQ) dan Hemat Energi Untuk Bangunan Tropis — Kementerian Riset Teknologi Dan Pendidikan Tinggi",
+      "2021 – 2022 Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis. — Kementerian Riset Teknologi Dan Pendidikan Tinggi"
+     ],
+     "publikasi": [
+      {
+       "sitasi": "Faridah, F., Wijaya, D., Hadi, A. N., Pratama, T. O., Irhab, M. F., Ridwan, M. K., &amp; Putra, S. S. Data-driven indoor thermal comfort monitoring system based on soft sensors in the tropics. Science and Technology for the Built Environment, 32(10), 1417–1435, 2026. https://doi.org/10.1080/23744731.2026.2707451",
+       "doi": "10.1080/23744731.2026.2707451"
+      },
+      {
+       "sitasi": "Faridah, F., Wijaya, D.D., Hadi, A.N., Alexander, M.I., Pratama, T.O., Luckyarno, Y.F., Budiarto, R., Sunarno, S., Azvi, M.K., &amp; Prakasa, D.F. Adaptive daylight-linked lighting control system: Integrating spatial daylight factor and real-time sensing. Building Services Engineering Research &amp; Technology, 47, 795 – 819, 2026. DOI:10.1177/01436244261463526",
+       "doi": "10.1177/01436244261463526"
+      },
+      {
+       "sitasi": "Sari H.K., Faridah, Wibirama S., Sunarno, Suroso D.J. PPG-ECG Validation of a 25 Hz Board-Level Photoplethysmography Sensor for Future Thermal Comfort Experiments Under Resting Low-Motion Conditions, Journal Europeen des Systemes Automatises, 59 (6), pp. 1811 - 1821, 2026.DOI: 10.18280/jesa.590625",
+       "doi": "10.18280/jesa.590625"
+      },
+      {
+       "sitasi": "Setiawan, F., Faridah, Budiarto, R., Pratama, T.O., Wijaya, R., Prakoso, A.B. (2026). Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis. In: Mendonça, P., Wang, Y. (eds) Innovation in Green Building and Infrastructure. ICoGB 2024. Sustainable Civil Infrastructures. Springer, Cham. https://doi.org/10.1007/978-3-032-14648-9_36",
+       "doi": "10.1007/978-3-032-14648-9_36"
+      },
+      {
+       "sitasi": "Sobirin, I. et al. (2026). Design and Construction of Measurement Device for Ventilation Rate and Airflow Direction in Living Space. In: Mendonça, P., Wang, Y. (eds) Innovation in Green Building and Infrastructure. ICoGB 2024. Sustainable Civil Infrastructures. Springer, Cham. https://doi.org/10.1007/978-3-032-14648-9_35",
+       "doi": "10.1007/978-3-032-14648-9_35"
+      }
+     ]
+    },
+    {
+     "no": 2,
+     "judul": "Sistem Peringatan Dini Gempa Bumi",
+     "deskripsi": "",
+     "jumlah_publikasi": 5,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Monte Carlo Aggregating Method for Radon Precursor-Based Earthquake Parameter Prediction in Java, Indonesia",
+       "doi": ""
+      },
+      {
+       "sitasi": "Grindulu fault cloud radon data for earthquake magnitude prediction using machine learning",
+       "doi": ""
+      },
+      {
+       "sitasi": "Application of continuous radon gas concentration telemonitoring for predictive seismic hazard assessment in Manado, Indonesia",
+       "doi": ""
+      },
+      {
+       "sitasi": "Earthquake magnitude prediction in Indonesia using a supervised method based on cloud radon data",
+       "doi": ""
+      },
+      {
+       "sitasi": "Earthquake magnitude prediction based on radon cloud data near Grindulu fault, Indonesia using the statistical method",
+       "doi": ""
+      }
+     ]
+    },
+    {
+     "no": 3,
+     "judul": "Virtual Reality",
+     "deskripsi": "",
+     "jumlah_publikasi": 3,
+     "riset": [],
+     "publikasi": [
+      {
+       "sitasi": "Simultaneous Overfill and Foveated Rendering in VR Streaming: Metric Modeling and Joint Optimization Using Deep Reinforcement Learning",
+       "doi": ""
+      },
+      {
+       "sitasi": "Adaptive Foveated Rendering and Offloading in an Edge-Assisted Virtual Reality System",
+       "doi": ""
+      },
+      {
+       "sitasi": "Velocity- and Error-Aware Switching of Motion Prediction Models for Cloud Virtual Reality",
+       "doi": ""
+      }
+     ]
+    },
+    {
+     "no": 4,
+     "judul": "Sistem Cerdas Tertanam",
+     "deskripsi": "",
+     "jumlah_publikasi": 0,
+     "riset": [],
+     "publikasi": []
+    },
+    {
+     "no": 5,
+     "judul": "Sistem Manajemen Baterai",
+     "deskripsi": "",
+     "jumlah_publikasi": 0,
+     "riset": [],
+     "publikasi": []
+    },
+    {
+     "no": 6,
+     "judul": "Teknologi Sensor dan Robotika",
+     "deskripsi": "",
+     "jumlah_publikasi": 0,
+     "riset": [],
+     "publikasi": []
+    }
+   ],
    "statistik": {
-    "dosen": 9,
-    "kompetensi": 0,
-    "tema": 0,
-    "publikasi": 0
+    "dosen": 10,
+    "kompetensi": 3,
+    "tema": 6,
+    "publikasi": 22
    }
   }
  ]

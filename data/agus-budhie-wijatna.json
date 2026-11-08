@@ -1059,25 +1059,153 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Prof. Dr. Ir. Agus Budhie Wijatna, M.Si., IPM.",
+   "jabatan_fungsional": "Guru Besar",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Aplikasi Isotop Alam non Radioaktif)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Prof., Dr., Ir., M.Si. (Universitas Gadjah Mada), IPM. (Persatuan Insinyur Indonesia)"
+    "tahun": "2014",
+    "keterangan": "Doktor Ilmu Lingkungan, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1994",
+    "keterangan": "Magister Ilmu Lingkungan, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1981",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2019",
+    "keterangan": "Sertifikat Insinyur Profesional Madya — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2006",
+    "keterangan": "Sertifikat Dosen Profesional — Departemen Pendidikan Nasional"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2019",
+    "keterangan": "Guru Besar"
+   },
+   {
+    "tahun": "2018 - 2020",
+    "keterangan": "Anggota Senat Akademik Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Sekretaris Senat Fakultas Teknik UGM"
+   },
+   {
+    "tahun": "2016 - 2017",
+    "keterangan": "Kepala Laboratorium Teknologi Energi Nuklir"
+   },
+   {
+    "tahun": "2013 - 2016",
+    "keterangan": "Anggota/Sekretaris Komisi-3 Majelis Wali Amanah UGM"
+   },
+   {
+    "tahun": "2011 - 2012",
+    "keterangan": "Sekretaris Komite Riset Senat Akademik UGM"
+   },
+   {
+    "tahun": "2010 - 2012",
+    "keterangan": "Anggota Senat Akademik UGM"
+   },
+   {
+    "tahun": "2010 - 2011",
+    "keterangan": "Sekretaris Senat Fakultas Teknik UGM"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Lektor Kepala"
+   },
+   {
+    "tahun": "1996 - 2008",
+    "keterangan": "Kepala Laboratorium Analisis Radioaktivitas"
+   },
+   {
+    "tahun": "1996",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "1990",
+    "keterangan": "Lektor Madya"
+   },
+   {
+    "tahun": "1987",
+    "keterangan": "Lektor Muda"
+   },
+   {
+    "tahun": "1983 - 1996",
+    "keterangan": "Kepala Laboratorium Deteksi dan Pengukuran Radiasi"
+   },
+   {
+    "tahun": "1983",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
   "organisasi": [
    {
-    "tahun": "",
-    "keterangan": "World Institute for Nuclear Security (WINS)"
+    "tahun": "2016 - sekarang",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2015 - sekarang",
+    "keterangan": "Anggota World Institute for Nuclear Security (WINS)"
    }
   ],
-  "penghargaan": [],
-  "kerjasama": []
+  "penghargaan": [
+   {
+    "tahun": "2020",
+    "keterangan": "Kesetiaan 35 Tahun UGM"
+   },
+   {
+    "tahun": "2019",
+    "keterangan": "Satyalancana Karya Satya XXX — Pemerintah Republik Indonesia"
+   },
+   {
+    "tahun": "2008",
+    "keterangan": "Kesetiaan 25 Tahun UGM — Universitas Gadjah Mada"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Tim Peneliti Hidroisotop: Kajian Hidrologi, Hidrogeologi, dan Hidroisotop Daerah Madidi, Kabupaten Manado, Sulawesi Utara",
+    "tahun": "2018 - 2019",
+    "keterangan": "PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "riset": "Tim Peneliti Hidroisotop: Kajian Hidrologi dan Hidrogeologi di Kabupaten Langkat, Sumatera Utara",
+    "tahun": "2018 - 2019",
+    "keterangan": "PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "riset": "Tim Peneliti Hidroisotop: Kajian Hidrologi dan Hidrogeologi di Kabupaten Minahasa Utara, Sulawesi Utara",
+    "tahun": "2018 - 2019",
+    "keterangan": "PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "riset": "Tim Peneliti Hidroisotop: Kajian Hidrologi, Hidrogeologi, dan Hidroisotop Daerah Mabal, Kabupaten Badung, Bali",
+    "tahun": "2017 - 2018",
+    "keterangan": "PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "riset": "Tim Peneliti Hidroisotop: Kajian Hidrologi dan Hidrogeologi Daerah Pandaan, Kabupaten Pasuruan, Jawa Timur",
+    "tahun": "2017 - 2018",
+    "keterangan": "PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "riset": "Anggota peneliti: Kajian Hidrologi dan Hidrogeologi di Kabupaten Wonosobo, Jawa Tengah",
+    "tahun": "2016 - 2017",
+    "keterangan": "PT Tirta Investama (Aqua Danone)"
+   }
+  ]
  }
 }

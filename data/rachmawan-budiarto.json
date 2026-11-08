@@ -2355,25 +2355,221 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dr. Ir. Rachmawan Budiarto, S.T., M.T., IPU.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Sistem Energi Berkelanjutan)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T., M.T., Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia)"
+    "tahun": "2016",
+    "keterangan": "Doktor Teknik Mesin, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1998",
+    "keterangan": "Magister Teknik Sipil, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1995",
+    "keterangan": "Sarjana Teknik Sipil, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
+  "sertifikat": [
+   {
+    "tahun": "",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Pendidikan dan Kebudayaan"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Green Professional (G.P.) — Green Building Council Indonesia (GBCI)"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Sertifikat Insinyur Profesional — Persatuan Insinyur Indonesia"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2022",
+    "keterangan": "Kepala Program Pertukaran Mahasiswa Merdeka, Kemendikbudristek"
+   },
+   {
+    "tahun": "2021 - sekarang",
+    "keterangan": "Anggota Komite Internasional dan Hubungan Masyarakat, Badan Tetap Pengurus IABEE dan LAM Teknik"
+   },
+   {
+    "tahun": "2017 - 2022",
+    "keterangan": "Sekretaris Direktorat Pengabdian kepada Masyarakat UGM"
+   },
+   {
+    "tahun": "2017 - sekarang",
+    "keterangan": "Direktur Centre for Development of Sustainable Region (CDSR), Pusat Studi Energi (PSE) UGM"
+   },
+   {
+    "tahun": "2016 - 2017",
+    "keterangan": "Manager Wisdom Park UGM"
+   },
+   {
+    "tahun": "2015 - 2021",
+    "keterangan": "Member, Evaluation and Accreditation Committee, IABEE"
+   },
+   {
+    "tahun": "2011 - 2015",
+    "keterangan": "Kepala Bidang Hubungan Antar Lembaga, Pengurus Pusat Purna Paskibraka Indonesia (PPI)"
+   },
+   {
+    "tahun": "2010",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "2010 - 2018",
+    "keterangan": "Koordinator Pengembangan Energi Terbarukan (Non-Bioenergy), PSE UGM"
+   },
+   {
+    "tahun": "2009 - 2014",
+    "keterangan": "Anggota Bidang Pengabdian kepada Masyarakat, Pengurus Pusat Keluarga Alumni Gadjah Mada (KAGAMA)"
+   },
+   {
+    "tahun": "2007 - 2009",
+    "keterangan": "Sekretaris Jurusan Teknik Fisika"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1999",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
   "organisasi": [
    {
     "tahun": "",
-    "keterangan": "Asosiasi Technopreneurship Indonesia"
+    "keterangan": "Anggota Persatuan Insinyur Indonesia (PII)"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Member, Evaluation and Accreditation Committee, IABEE"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota Sertifikat Kompetensi Greenship"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Anggota Renewable Energy Based Smart Micro Grid, ITB – UGM – IPB"
    }
   ],
-  "penghargaan": [],
-  "kerjasama": []
+  "penghargaan": [
+   {
+    "tahun": "",
+    "keterangan": "Satyalancana Karya Satya 20 — Presiden Republik Indonesia"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Satyalancana Karya Satya 10 — Presiden Republik Indonesia"
+   },
+   {
+    "tahun": "",
+    "keterangan": "RCE Recognition Award, United Nations University: \"Preparing Green Economics Through Synergy Among Course in Engineering Physics Universitas Gadjah Mada\""
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Team member, The Energy Transition Partnership (ETP)",
+    "tahun": "2022",
+    "keterangan": "United Nations Office for Project Services (UNOPS)"
+   },
+   {
+    "riset": "Team member, Design and Feasibility Study of 10 kW Biomass Powerplant",
+    "tahun": "2022",
+    "keterangan": "PLN"
+   },
+   {
+    "riset": "Team leader, Sustainable Development Training – Affordable and Clean Energy: Solar Photovoltaics Development",
+    "tahun": "2021 - 2022",
+    "keterangan": "Sinarmas Group"
+   },
+   {
+    "riset": "Team member, Innovation and Investment for Inclusive Sustainable Economic Development (ISED) II Project",
+    "tahun": "2021 - sekarang",
+    "keterangan": "GIZ"
+   },
+   {
+    "riset": "Team member, Understanding the health risks of low-income housing in Kampung, Indonesia",
+    "tahun": "2021 - sekarang",
+    "keterangan": "Sumitomo Grant for Projects for Environmental Research"
+   },
+   {
+    "riset": "Team leader (Indonesia), Modernizing Cities via Smart Garden Alleys with Application in Makassar City",
+    "tahun": "2020 - sekarang",
+    "keterangan": "University of Colorado Boulder – US Department of State, Virginia Tech – UGM – ITB, National Science Foundation (NSF) AS"
+   },
+   {
+    "riset": "Team member, Centre of Excellence for Microalgae Biorefinery",
+    "tahun": "2020 - sekarang",
+    "keterangan": "Universitas Gadjah Mada, PUI-PT Grant – Kemenristek"
+   },
+   {
+    "riset": "Team member, Mastering Energy Supply for Isolated Areas (MESfIA)",
+    "tahun": "2019 - sekarang",
+    "keterangan": "Erasmus+"
+   },
+   {
+    "riset": "Team leader, Development of Business Model and Pilot Project on Rural Community Based Environment Friendly Energy System",
+    "tahun": "2021",
+    "keterangan": "Bank Indonesia"
+   },
+   {
+    "riset": "Team member, Roadmap for Energy Efficient Building and Construction for Indonesia",
+    "tahun": "2021",
+    "keterangan": "Danish Energy Partnership Program"
+   },
+   {
+    "riset": "Team member, Comprehensive & Integrated Action (CINTA) Penanganan Stunting melalui Peningkatan Layanan Kesehatan dan Kesejahteraan Masyarakat Berbasis Potensi Lokal di Nusa Tenggara Timur",
+    "tahun": "2021",
+    "keterangan": "Kedaireka"
+   },
+   {
+    "riset": "Team member, Framework for Sustainable and Renewable Energy Project in Indonesia",
+    "tahun": "2021",
+    "keterangan": "European Climate Foundation (ECF)"
+   },
+   {
+    "riset": "Team member, Development of Photovoltaics Supply Chain and Local Industry Capacity",
+    "tahun": "2020 - 2021",
+    "keterangan": "PUI-PT Grant – Kemenristek"
+   },
+   {
+    "riset": "Team leader, Analytical Toolkit for Energy Transition",
+    "tahun": "2020",
+    "keterangan": "Oxfam"
+   },
+   {
+    "riset": "Team member, Design of Wonogiri Regency Office Area (Sub Team Leader on Building Integrated Photovoltaics)",
+    "tahun": "2020",
+    "keterangan": "Pemerintah Kabupaten Wonogiri"
+   },
+   {
+    "riset": "Team member, Analysis on Socio-Economic Impact of Infrastructure Project",
+    "tahun": "2019 - 2020",
+    "keterangan": "Penjaminan Infrastruktur Indonesia"
+   },
+   {
+    "riset": "Team member, Development of Maluku and Papua Electrical System Masterplan",
+    "tahun": "2019",
+    "keterangan": "PLN"
+   },
+   {
+    "riset": "Team coordinator, Social and Technical Study on Renewable Energy",
+    "tahun": "2018 - 2019",
+    "keterangan": "SGP – UNDP"
+   },
+   {
+    "riset": "Team leader, Center of Development for Sustainable Region",
+    "tahun": "2017 - 2020",
+    "keterangan": "SHERA Grant, USAID – Kemenristekdikti"
+   }
+  ]
  }
 }
