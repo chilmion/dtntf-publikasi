@@ -596,14 +596,24 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Yakub Fahim Luckyarno, S.T., M.Eng., Ph.D.",
+   "jabatan_fungsional": "Asisten Ahli",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Sistem Nirkabel)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.Eng. (King Mongkut’s Institute of Technology Ladkrabang, Thailand), Ph.D. (Seoul National University of Science and Technology, Korea Selatan)"
+    "tahun": "2026",
+    "keterangan": "Doktor Engineering (Doctor of Philosophy in Engineering), Seoul National University of Science and Technology, Korea Selatan"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Magister Engineering, King Mongkut's Institute of Technology Ladkrabang, Thailand"
+   },
+   {
+    "tahun": "2014",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],

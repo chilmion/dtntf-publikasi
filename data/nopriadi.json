@@ -1031,14 +1031,24 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Nopriadi, S.T., M.Sc., Ph.D.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Mesin Cerdas dan Instrumentasi untuk Kesehatan)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Nanyang Technological University, Singapore), Ph.D. (Tokyo Institute of Technology, Japan), IPM. (Persatuan Insinyur Indonesia)"
+    "tahun": "2012",
+    "keterangan": "Doktor (Doctor of Philosophy), Tokyo Institute of Technology, Jepang"
+   },
+   {
+    "tahun": "2004",
+    "keterangan": "Magister Sains (Master of Science), Nanyang Technological University, Singapura"
+   },
+   {
+    "tahun": "1997",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],

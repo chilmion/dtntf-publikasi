@@ -1289,14 +1289,24 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ahmad Agus Setiawan, S.T., M.Sc., Ph.D.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Perencanaan Sistem Energi Terbarukan)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Kungl Tekniska Högskolan, Sweden), Ph.D (Curtin University of Technology, Australia)."
+    "tahun": "2009",
+    "keterangan": "Doktor (Doctor of Philosophy), Curtin University of Technology, Australia"
+   },
+   {
+    "tahun": "2003",
+    "keterangan": "Magister Sains (Master of Science), Royal Institute of Technology (KTH), Swedia"
+   },
+   {
+    "tahun": "1999",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],

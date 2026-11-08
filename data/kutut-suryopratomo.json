@@ -542,14 +542,20 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Kutut Suryopratomo, Ir., M.T., M.Sc.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Sistem Energi Bayu Hibrida)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir., M.T. (Universitas Gadjah Mada), M.Sc. (University of Magdeburg, Germany)"
+    "tahun": "2000",
+    "keterangan": "Magister, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1991",
+    "keterangan": "Insinyur, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],

@@ -519,14 +519,24 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "M. Arif Efendi, S.Si., M.Sc., Ph.D.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Radioterapi)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.Si. (Institut Pertanian Bogor), M.Sc. (Prince of Songkla University, Thailand), Ph.D. (Universiti Sains Malaysia)"
+    "tahun": "2024",
+    "keterangan": "Doktor (Doctor of Philosophy), Universiti Sains Malaysia"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Magister Sains (Master of Science), Prince of Songkla University, Thailand"
+   },
+   {
+    "tahun": "2014",
+    "keterangan": "Sarjana Sains, Institut Pertanian Bogor"
    }
   ],
   "sertifikat": [],

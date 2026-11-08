@@ -1198,14 +1198,20 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Nur Abdillah Siddiq, Ir., S.T., Dr.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Material Optik)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir. (Universitas Gadjah Mada), S.T., Dr. (Institut Teknologi Sepuluh Nopember), IPP. (Persatuan Insinyur Indonesia)"
+    "tahun": "2019",
+    "keterangan": "Doktor Ilmu Administrasi, Institut Teknologi Sepuluh Nopember"
+   },
+   {
+    "tahun": "2015",
+    "keterangan": "Sarjana Teknik, Institut Teknologi Sepuluh Nopember"
    }
   ],
   "sertifikat": [],

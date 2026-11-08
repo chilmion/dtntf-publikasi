@@ -931,14 +931,24 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dwi Joko Suroso, Ir., S.T., M.Eng., Dr. Eng.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Teknologi Sensor dan Robotika)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir., S.T (Universitas Gadjah Mada), M.Eng., Dr. Eng (King Mongkut’s Institute of Technology Ladkrabang, Thailand), IPP. (Persatuan Insinyur Indonesia)"
+    "tahun": "2023",
+    "keterangan": "Doktor Engineering, King Mongkut's Institute of Technology Ladkrabang, Thailand"
+   },
+   {
+    "tahun": "2012",
+    "keterangan": "Magister Engineering, King Mongkut's Institute of Technology Ladkrabang, Thailand"
+   },
+   {
+    "tahun": "2010",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],

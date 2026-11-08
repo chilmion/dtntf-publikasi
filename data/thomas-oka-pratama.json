@@ -675,14 +675,24 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Thomas Oka Pratama, S.T., M.Eng., Dr.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Berbahaya)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T., M.Eng., Dr. (Universitas Gadjah Mada)"
+    "tahun": "2025",
+    "keterangan": "Doktor, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2021",
+    "keterangan": "Magister, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2018",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],

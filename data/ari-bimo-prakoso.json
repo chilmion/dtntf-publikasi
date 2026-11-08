@@ -745,14 +745,20 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ari Bimo Prakoso, S.T., Ph.D.",
+   "jabatan_fungsional": "Lektor",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Sistem Energi Surya Hibrida)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), Ph.D. (Nanyang Technological University), IPM. (Persatuan Insinyur Indonesia)"
+    "tahun": "2017",
+    "keterangan": "Doktor (Doctor of Philosophy), Nanyang Technological University, Singapura"
+   },
+   {
+    "tahun": "2011",
+    "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],
