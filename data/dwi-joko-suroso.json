@@ -951,7 +951,12 @@
     "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
+  "sertifikat": [
+   {
+    "tahun": "",
+    "keterangan": "Insinyur Profesional Pratama (IPP) — Persatuan Insinyur Indonesia"
+   }
+  ],
   "pekerjaan": [],
   "organisasi": [],
   "penghargaan": [],

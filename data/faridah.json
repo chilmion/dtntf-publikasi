@@ -5185,7 +5185,12 @@
     "keterangan": "Sarjana Teknik, Institut Teknologi Sepuluh Nopember"
    }
   ],
-  "sertifikat": [],
+  "sertifikat": [
+   {
+    "tahun": "",
+    "keterangan": "Insinyur Profesional Utama (IPU) — Persatuan Insinyur Indonesia"
+   }
+  ],
   "pekerjaan": [],
   "organisasi": [],
   "penghargaan": [],

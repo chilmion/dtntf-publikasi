@@ -761,7 +761,12 @@
     "keterangan": "Sarjana Teknik, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
+  "sertifikat": [
+   {
+    "tahun": "",
+    "keterangan": "Insinyur Profesional Madya (IPM) — Persatuan Insinyur Indonesia"
+   }
+  ],
   "pekerjaan": [],
   "organisasi": [],
   "penghargaan": [],
