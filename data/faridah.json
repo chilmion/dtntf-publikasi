@@ -5165,14 +5165,24 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Faridah, Prof., Ir., S.T., M.Sc., Dr.",
+   "jabatan_fungsional": "Guru Besar",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Fisika (Instrumentasi untuk Lingkungan Terbangun Berkelanjutan)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Prof., Ir. (Universitas Gadjah Mada), S.T. (Institut Teknologi Sepuluh Nopember), M.Sc. (Nanyang Technological University, Singapore), Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia), ASEAN Eng. (ASEAN Federation of Engineering Organisations)"
+    "tahun": "2021",
+    "keterangan": "Doktor, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2003",
+    "keterangan": "Magister Sains (Master of Science), Nanyang Technological University, Singapura"
+   },
+   {
+    "tahun": "1999",
+    "keterangan": "Sarjana Teknik, Institut Teknologi Sepuluh Nopember"
    }
   ],
   "sertifikat": [],
