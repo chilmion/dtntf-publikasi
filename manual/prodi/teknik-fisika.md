@@ -18,7 +18,20 @@ Pilar kedua, teknik sistem, melatih lulusan untuk mengatasi permasalahan rekayas
 
 ## Kurikulum
 
-[[lorem]]
+Struktur keilmuan kurikulum Teknik Fisika digambarkan sebagai pohon: akar ilmu dasar, batang dasar keteknikan, dua cabang (teknologi proses dan integrasi sistem), dan buah berupa perancangan sistem teknik fisika.
+
+![Pohon kurikulum Teknik Fisika](tf-pohon-kurikulum.png)
+
+Komposisi beban studi (144–150 SKS) dan kesesuaiannya dengan persyaratan IABEE:
+
+| Kategori | SKS | Persentase | Syarat IABEE |
+|---|---|---|---|
+| Matematika & Ilmu Dasar | 30 | 20,83% | Min. 20% |
+| Topik Keteknikan | 61 | 42,36% | Min. 40% |
+| Pendidikan Umum | 23 | 15,97% | Max. 30% |
+| Pilihan Prodi | 12–18 | Max 12,50% | |
+| Pilihan Prodi/luar Prodi/Program Lain | 18 | 12,50% | |
+| **Total** | **144–150** | **100%** | |
 
 ## Statistik Mahasiswa dan Alumni
 

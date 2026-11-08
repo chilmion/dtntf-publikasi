@@ -240,6 +240,13 @@ def main():
     profil_cv.pasang()
     import kbk
     kbk.bangun()
+    gb = ROOT / "manual" / "prodi-gambar"      # gambar halaman prodi → data/prodi/ (dipakai buat_prodi.py)
+    if gb.is_dir():
+        import shutil
+        (ROOT / "data" / "prodi").mkdir(parents=True, exist_ok=True)
+        for g in gb.iterdir():
+            if g.is_file() and not g.name.startswith("."):
+                shutil.copyfile(g, ROOT / "data" / "prodi" / g.name)
     agregat.main()
     return 0
 
