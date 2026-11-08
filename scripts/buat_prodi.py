@@ -29,7 +29,7 @@ GAYA_LOREM = "font-style:italic;color:#7a5d00;background:#FFF6D6;border:1px dash
 
 
 def inline(s):
-    s = bp.esc(s)
+    s = bp.esc(s.replace("\u00a0", " "))   # PPT/Word sering memakai spasi tak-putus → teks tidak membungkus
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
 
 
