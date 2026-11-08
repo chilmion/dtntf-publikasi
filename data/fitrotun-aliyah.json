@@ -527,25 +527,79 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Fitrotun Aliyah, S.T., M.Eng.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proteksi Radiasi Fisika Medis)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T., M.Eng. (Universitas Gadjah Mada), Ph.D. (Universiti Sains Malaysia)"
+    "tahun": "2014",
+    "keterangan": "Magister Teknik Kimia, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2012",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [
+  "pekerjaan": [
    {
-    "tahun": "",
-    "keterangan": "World Institute for Nuclear Security (WINS)"
+    "tahun": "2022 - sekarang",
+    "keterangan": "Ketua Bidang Sosialisasi dan Edukasi Energi Bersih, Woman in Nuclear (WiN) Indonesia"
+   },
+   {
+    "tahun": "2017 - 2019",
+    "keterangan": "Manajer Grant dan Keuangan, Centre of Development for Sustainable Region (CDSR) — SHERA UGM"
+   },
+   {
+    "tahun": "2017 - 2018",
+    "keterangan": "Tim Peneliti Hidroisotop, Kajian Hidrologi, Hidrogeologi, dan Hidroisotop Daerah Mabal, Kabupaten Badung, Bali — PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "tahun": "2017 - 2018",
+    "keterangan": "Tim Peneliti Hidroisotop, Kajian Hidrologi, Hidrogeologi, dan Hidroisotop Daerah Pandaan, Kabupaten Pasuruan, Jawa Timur — PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "tahun": "2016 - 2017",
+    "keterangan": "Anggota Peneliti, Kajian Hidrologi dan Hidrogeologi di Kabupaten Wonosobo, Jawa Tengah — PT Tirta Investama (Aqua Danone)"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Tenaga Pengajar"
    }
   ],
-  "penghargaan": [],
-  "kerjasama": []
+  "organisasi": [
+   {
+    "tahun": "2022 - sekarang",
+    "keterangan": "Ketua Bidang Sosialisasi dan Edukasi Energi Bersih, Woman in Nuclear (WiN) Indonesia"
+   },
+   {
+    "tahun": "2021 - sekarang",
+    "keterangan": "Anggota Aliansi Fisikawan Medik Indonesia (AFISMI)"
+   },
+   {
+    "tahun": "2019 - sekarang",
+    "keterangan": "Anggota World Institute for Nuclear Security (WINS)"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2017",
+    "keterangan": "Intensive Course on Management of Technology — AUN/SEED-Net"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Penyusunan Pedoman Praktis Layanan Radiologi, Radioterapi, dan Kedokteran Nuklir Selama Pandemi COVID-19",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Sosialisasi Teknologi Nuklir Terkini untuk Guru SLTA di DIY",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   }
+  ]
  }
 }

@@ -642,20 +642,88 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ir. Ester Wijayanti, M.T.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proses Bahan Bakar Nuklir)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir., M.T. (Universitas Gadjah Mada)"
+    "tahun": "2002",
+    "keterangan": "Magister Teknik Kimia, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1990",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [],
-  "penghargaan": [],
-  "kerjasama": []
+  "sertifikat": [
+   {
+    "tahun": "2022",
+    "keterangan": "Sertifikat Tanda Registrasi Insinyur (STRI) — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2009",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Pendidikan Nasional"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2021 - 2026",
+    "keterangan": "Sekretaris Program Sarjana, Program Studi Teknik Nuklir"
+   },
+   {
+    "tahun": "2019 - 2021",
+    "keterangan": "Sekretaris Program Sarjana, Program Studi Teknik Nuklir"
+   },
+   {
+    "tahun": "2009",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "1993",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1991",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "2020 - sekarang",
+    "keterangan": "Wakil Sekretaris Jenderal, Himpunan Masyarakat Nuklir Indonesia"
+   },
+   {
+    "tahun": "2016 - sekarang",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2014 - sekarang",
+    "keterangan": "Wakil Ketua Dewan Pakar, Woman in Nuclear"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2017",
+    "keterangan": "Satyalancana Karya Satya XX — Republik Indonesia"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Kesetiaan 25 Tahun UGM — Universitas Gadjah Mada"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Tenaga Ahli, Pendampingan dan Konsulen Proteksi Radiasi Bunker LINAC Radioterapi",
+    "tahun": "2020",
+    "keterangan": "Rumah Sakit Umum Pusat"
+   },
+   {
+    "riset": "Pengawas Ahli Teknik Nuklir Renovasi Gedung Cobalt-60, RSUP Dr. Kariadi Semarang",
+    "tahun": "2014 - 2016",
+    "keterangan": "RSUP Dr. Kariadi"
+   }
+  ]
  }
 }

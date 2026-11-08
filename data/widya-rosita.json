@@ -917,20 +917,122 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dr. Widya Rosita, S.T., M.T.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proses Mineral Nuklir)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T., M,T., Dr. (Universitas Gadjah Mada), IPU. (Persatuan Insinyur Indonesia)"
+    "tahun": "2021",
+    "keterangan": "Doktor Teknik Kimia, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Magister Teknik Kimia, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1997",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [],
-  "penghargaan": [],
-  "kerjasama": []
+  "sertifikat": [
+   {
+    "tahun": "2022",
+    "keterangan": "Surat Tanda Registrasi Insinyur — Persatuan Insinyur Indonesia"
+   },
+   {
+    "tahun": "2011",
+    "keterangan": "Sertifikat Pendidik — Kementerian Pendidikan Nasional RI"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2012",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "2011 - 2015",
+    "keterangan": "Sekretaris Jurusan Bidang Kemahasiswaan dan Alumni"
+   },
+   {
+    "tahun": "2004 - 2006",
+    "keterangan": "Kepala Laboratorium Teknologi Proses Kimia Nuklir"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1999",
+    "keterangan": "Tenaga Pengajar"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Anggota Kajian Teknis untuk Mendukung Efektifitas Pengawasan Reaktor Daya — BAPETEN"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Anggota Kajian Teknologi Keselamatan dan Keamanan PLTN Terapung — BAPETEN"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "2016",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia (PII)"
+   },
+   {
+    "tahun": "2013",
+    "keterangan": "Anggota World Institute for Nuclear Security (WINS)"
+   },
+   {
+    "tahun": "2011",
+    "keterangan": "Anggota Woman In Nuclear (WIN)"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2021",
+    "keterangan": "Kesetiaan 15 Tahun UGM — Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2019",
+    "keterangan": "Best Paper ANSWER International Conference — Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Satyalancana Karya Satya X — Republik Indonesia"
+   },
+   {
+    "tahun": "2014",
+    "keterangan": "Sertifikat/Piagam Pembimbing PKM — Kementerian Pendidikan dan Kebudayaan"
+   },
+   {
+    "tahun": "2012",
+    "keterangan": "Sertifikat Paten — Kementerian Hukum dan HAM"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Reviewer Journal of Environmental Chemical Engineering",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Reviewer Jurnal Chemica, Universitas Ahmad Dahlan",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Reviewer Astechnova",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Reviewer Journal of Cleaner Production",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   }
+  ]
  }
 }

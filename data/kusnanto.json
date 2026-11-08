@@ -451,25 +451,84 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Dr.-Ing. Ir. Kusnanto",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Proses Material Nuklir)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir. (Universitas Gadjah Mada), Dr-Ing. (RWTH Aachen, Germany)"
+    "tahun": "1995",
+    "keterangan": "Doktor Teknik Mesin, RWTH Aachen, Jerman"
+   },
+   {
+    "tahun": "1986",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],
   "pekerjaan": [
    {
+    "tahun": "2021 - 2022",
+    "keterangan": "Kepala Laboratorium Teknologi Proses dan Kimia Nuklir"
+   },
+   {
+    "tahun": "2011 - 2016",
+    "keterangan": "Direktur Produksi, PT Industri Nuklir Indonesia (Persero)"
+   },
+   {
+    "tahun": "2009 - 2011",
+    "keterangan": "Kepala Laboratorium Teknologi Proses Kimia Nuklir, Jurusan Teknik Fisika"
+   },
+   {
     "tahun": "",
-    "keterangan": "Direktur Produksi BUMN PT. Inuki (Persero) periode 2011-2016"
+    "keterangan": "Ketua Jurusan Teknik Fisika, Fakultas Teknik UGM"
+   },
+   {
+    "tahun": "",
+    "keterangan": "Sekretaris Jurusan Teknik Fisika, Fakultas Teknik UGM"
+   },
+   {
+    "tahun": "1997 - sekarang",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1987",
+    "keterangan": "Tenaga Pengajar"
    }
   ],
   "organisasi": [],
-  "penghargaan": [],
-  "kerjasama": []
+  "penghargaan": [
+   {
+    "tahun": "2019",
+    "keterangan": "Satyalancana Karya Satya XXX — Republik Indonesia"
+   },
+   {
+    "tahun": "2014",
+    "keterangan": "Kesetiaan 25 Tahun UGM — Universitas Gadjah Mada"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Penyusunan Buku Saku Diseminasi Teknologi Nuklir untuk Guru SMA",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Pedoman Praktis Layanan Radiologi, Radioterapi, dan Kedokteran Nuklir Selama Pandemi COVID-19",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Buku Saku Keamanan Nuklir untuk Petugas Keamanan Terkait",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Sosialisasi Teknik Nuklir untuk Kalangan Pemuka Agama",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   }
+  ]
  }
 }

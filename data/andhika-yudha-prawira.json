@@ -117,14 +117,47 @@
  "publikasi": [],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Andhika Yudha Prawira, S.T., M.S.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882"
   },
-  "pendidikan": [],
+  "pendidikan": [
+   {
+    "tahun": "2019",
+    "keterangan": "Magister Nuclear and Quantum Engineering, Korea Advanced Institute of Science and Technology (KAIST), Korea Selatan"
+   },
+   {
+    "tahun": "2016",
+    "keterangan": "Sarjana, Universitas Gadjah Mada"
+   }
+  ],
   "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [],
-  "penghargaan": [],
+  "pekerjaan": [
+   {
+    "tahun": "2021",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "2019",
+    "keterangan": "Divisi Media, Asosiasi Peneliti Indonesia di Korea (APIK)"
+   },
+   {
+    "tahun": "2018",
+    "keterangan": "President, Institute of Nuclear Materials Management (INMM) KAIST Student Chapter"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "",
+    "keterangan": "Finalist at student business plan competition — International Congress on Advances in Nuclear Power Plants (ICAPP) 2020"
+   },
+   {
+    "tahun": "",
+    "keterangan": "RCA Scholarships — RCA Regional Office IAEA"
+   }
+  ],
   "kerjasama": []
  }
 }

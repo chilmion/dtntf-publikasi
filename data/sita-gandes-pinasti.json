@@ -423,25 +423,77 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Sita Gandes Pinasti, S.T., M.Sc.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Dosimetri Fisika Medis)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.Sc. (Ruprecht Karls Universität Heidelberg, Germany)"
+    "tahun": "2018",
+    "keterangan": "Magister Biomedical Engineering, Heidelberg University, Jerman"
+   },
+   {
+    "tahun": "2014",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [
+  "pekerjaan": [
    {
-    "tahun": "",
-    "keterangan": "European Federation of Organisations for Medical Physics (EFOMP), Aliansi Fisikawan Medik Indonesia (AFISMI)"
+    "tahun": "2020",
+    "keterangan": "Tenaga Pengajar"
    }
   ],
-  "penghargaan": [],
-  "kerjasama": []
+  "organisasi": [
+   {
+    "tahun": "2020 - 2022",
+    "keterangan": "Anggota AFISMI (Jakarta, Indonesia)"
+   },
+   {
+    "tahun": "2016 - 2018",
+    "keterangan": "Staf divisi akademik, FORMAL Jerman (Berlin, Jerman)"
+   },
+   {
+    "tahun": "2013 - 2014",
+    "keterangan": "Bendahara, Komunitas Muda Nuklir Nasional (KOMMUN) (Yogyakarta)"
+   },
+   {
+    "tahun": "2013 - 2014",
+    "keterangan": "Bendahara, PPMBR (Yogyakarta)"
+   },
+   {
+    "tahun": "2012 - 2013",
+    "keterangan": "Kepala divisi akademik, KMTF (Yogyakarta)"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2014",
+    "keterangan": "Piagam Penghargaan Setara Perak dalam penyusunan PKM Penelitian, PIMNAS ke-27 di UNDIP — Kementerian Pendidikan dan Kebudayaan, Direktorat Jenderal Pendidikan Tinggi"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Penerapan Irigasi Lahan Pertanian Berbasis Energi Surya di Kabupaten Bantul",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Buku Saku Diseminasi Teknologi Nuklir untuk Guru SMA",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Pedoman Praktis Layanan Radiologi, Radioterapi, dan Kedokteran Nuklir Selama Pandemi COVID-19",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Buku Saku Keamanan Nuklir untuk Petugas Keamanan Terkait",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   }
+  ]
  }
 }

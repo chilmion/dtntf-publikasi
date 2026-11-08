@@ -361,20 +361,75 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ir. Haryono Budi Santosa, M.Sc.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Rekayasa Keselamatan dan Keamanan Sistem Sosio-Teknikal Berbahaya)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir., M.Sc., Dr., (Universitas Gadjah Mada)"
+    "tahun": "2016",
+    "keterangan": "Magister Ilmu Lingkungan, Universitas Gadjah Mada"
+   },
+   {
+    "tahun": "1987",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
+  "sertifikat": [
+   {
+    "tahun": "2016",
+    "keterangan": "Sertifikat Dosen Profesional — Kementerian Riset, Teknologi, dan Pendidikan Tinggi"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "1996 - sekarang",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1988",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
   "organisasi": [],
-  "penghargaan": [],
-  "kerjasama": []
+  "penghargaan": [
+   {
+    "tahun": "2019",
+    "keterangan": "Satyalancana Karya Satya XXX"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Penyusunan Buku Saku Diseminasi Teknologi Nuklir untuk Guru SMA",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Pedoman Praktis Layanan Radiologi, Radioterapi, dan Kedokteran Nuklir Selama Pandemi COVID-19",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Buku Saku Keamanan Nuklir untuk Petugas Keamanan Terkait",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Sosialisasi Teknik Nuklir untuk Kalangan Pemuka Agama",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Sosialisasi Teknologi Nuklir Terkini untuk Guru SLTA di DIY",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Pelatihan Keamanan Nuklir untuk Petugas Keamanan",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   }
+  ]
  }
 }

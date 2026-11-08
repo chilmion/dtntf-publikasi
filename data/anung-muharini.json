@@ -691,20 +691,87 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ir. Anung Muharini, M.T.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Teknologi Penerapan Radioisotop dan Radioaktivitas Lingkungan)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir. (Universitas Gadjah Mada), M.T. (Institut Teknologi Bandung), IPM. (Persatuan Insinyur Indonesia)"
+    "tahun": "1998",
+    "keterangan": "Magister Teknik Lingkungan, Institut Teknologi Bandung"
+   },
+   {
+    "tahun": "1993",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
-  "pekerjaan": [],
-  "organisasi": [],
-  "penghargaan": [],
-  "kerjasama": []
+  "sertifikat": [
+   {
+    "tahun": "2009",
+    "keterangan": "Sertifikasi Dosen — Departemen Pendidikan Nasional Republik Indonesia"
+   }
+  ],
+  "pekerjaan": [
+   {
+    "tahun": "2006",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1996",
+    "keterangan": "Asisten Ahli Madya"
+   },
+   {
+    "tahun": "1994",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
+  "organisasi": [
+   {
+    "tahun": "2016 - sekarang",
+    "keterangan": "Anggota Persatuan Insinyur Indonesia"
+   }
+  ],
+  "penghargaan": [
+   {
+    "tahun": "2020",
+    "keterangan": "Kesetiaan 25 Tahun UGM — UGM"
+   },
+   {
+    "tahun": "2017",
+    "keterangan": "Satyalancana Karya Satya XX — Republik Indonesia"
+   }
+  ],
+  "kerjasama": [
+   {
+    "riset": "Penyusunan Buku Saku Diseminasi Teknologi Nuklir untuk Guru SMA",
+    "tahun": "2021",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Pedoman Praktis Layanan Radiologi, Radioterapi, dan Kedokteran Nuklir Selama Pandemi COVID-19",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Penyusunan Buku Saku Keamanan Nuklir untuk Petugas Keamanan Terkait",
+    "tahun": "2020",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Sosialisasi Teknologi Nuklir Terkini untuk Guru SLTA di DIY",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   },
+   {
+    "riset": "Pelatihan Keamanan Nuklir untuk Petugas Keamanan",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   }
+  ]
  }
 }

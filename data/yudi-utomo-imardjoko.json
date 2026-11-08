@@ -540,25 +540,64 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Ir. Yudi Utomo Imardjoko, M.Sc., Ph.D.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Manajemen Pengelolaan Limbah Radioaktif)"
   },
   "pendidikan": [
    {
-    "tahun": "",
-    "keterangan": "Ir. (Universitas Gadjah Mada), M.Sc., Ph.D. (Iowa State University, USA)"
+    "tahun": "1995",
+    "keterangan": "Doktor Nuclear Engineering, Amerika Serikat"
+   },
+   {
+    "tahun": "1991",
+    "keterangan": "Magister Nuclear Engineering, Iowa State University, Amerika Serikat"
+   },
+   {
+    "tahun": "1987",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
-  "sertifikat": [],
+  "sertifikat": [
+   {
+    "tahun": "2010",
+    "keterangan": "Sertifikat Dosen Profesional — Departemen Pendidikan Nasional"
+   }
+  ],
   "pekerjaan": [
    {
-    "tahun": "",
-    "keterangan": "Direktur Utama BUMN PT. Inuki (Persero) periode 2011-2016"
+    "tahun": "2011 - 2016",
+    "keterangan": "Anggota Direksi, PT Industri Nuklir Indonesia (INUKI) (Persero)"
+   },
+   {
+    "tahun": "2001",
+    "keterangan": "Lektor"
+   },
+   {
+    "tahun": "1998",
+    "keterangan": "Lektor Muda"
+   },
+   {
+    "tahun": "1996 - 2000",
+    "keterangan": "Ketua Jurusan Teknik Nuklir"
+   },
+   {
+    "tahun": "1996",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "1989",
+    "keterangan": "Tenaga Pengajar"
    }
   ],
   "organisasi": [],
-  "penghargaan": [],
+  "penghargaan": [
+   {
+    "tahun": "2019",
+    "keterangan": "Satyalancana Karya Satya XXX — Pemerintah Republik Indonesia"
+   }
+  ],
   "kerjasama": []
  }
 }

@@ -464,6 +464,7 @@
  ],
  "cv": {
   "identitas": {
+   "nama_lengkap": "Yanuar Ady Setiawan, S.T., M.S.",
    "institusi": "Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik, Universitas Gadjah Mada",
    "telepon_institusi": "(+62) (274) 580882",
    "bidang_kepakaran": "Rekayasa Nuklir (Reaktor Maju Produksi Isotop dan Radiasi )"
@@ -471,11 +472,28 @@
   "pendidikan": [
    {
     "tahun": "",
-    "keterangan": "S.T. (Universitas Gadjah Mada), M.S. (Texas A&M University, USA), Ph.D. (Ulsan National Institute of Science and Technology, Korea Selatan)"
+    "keterangan": "Kandidat Doktor, Ulsan National Institute of Science and Technology (UNIST), Korea Selatan"
+   },
+   {
+    "tahun": "2018",
+    "keterangan": "Magister Teknik Nuklir, Texas A&M University, College Station, Amerika Serikat"
+   },
+   {
+    "tahun": "2015",
+    "keterangan": "Sarjana Teknik Nuklir, Universitas Gadjah Mada"
    }
   ],
   "sertifikat": [],
-  "pekerjaan": [],
+  "pekerjaan": [
+   {
+    "tahun": "2021",
+    "keterangan": "Asisten Ahli"
+   },
+   {
+    "tahun": "2018",
+    "keterangan": "Tenaga Pengajar"
+   }
+  ],
   "organisasi": [
    {
     "tahun": "",
@@ -483,6 +501,12 @@
    }
   ],
   "penghargaan": [],
-  "kerjasama": []
+  "kerjasama": [
+   {
+    "riset": "Sosialisasi Teknologi Nuklir Terkini untuk Guru SLTA di DIY",
+    "tahun": "2019",
+    "keterangan": "Jasa layanan / pengabdian"
+   }
+  ]
  }
 }
