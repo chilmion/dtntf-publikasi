@@ -9,7 +9,13 @@ window.deployV2 = async function (slugUgm, opsi = {}) {
   const M = JSON.parse(localStorage.getItem('__peta2') || '{}');
   const slug = opsi.slug || D.slug;
   let s = JSON.stringify(D.elements), tukar = 0;
-  for (const [u, n] of Object.entries(G)) if (M[n] && s.includes(u)) { s = s.split(u).join(M[n].url); tukar++; }
+  // data staging menulis ulang tautan v1 menjadi relatif: gambar muncul sebagai '/wp-content/uploads/YYYY/MM/<berkas>' -> ganti juga
+  for (const [u, n] of Object.entries(G)) {
+    if (!M[n]) continue;
+    const rel = u.replace('https://v1.katur.online', '');
+    if (s.includes(u)) { s = s.split(u).join(M[n].url); tukar++; }
+    if (s.includes(rel)) { s = s.split(rel).join(M[n].url); tukar++; }
+  }
   for (const [a, b] of Object.entries(opsi.ganti || {})) s = s.split(a).join(b);
   const sisaV1 = (s.match(/v1\.katur/g) || []).length;
   const els = JSON.parse(s);
