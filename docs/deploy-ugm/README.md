@@ -23,6 +23,16 @@ Snapshot v1 lengkap ada di repo privat `chilmion/dtntf-wp-snapshot` (WXR, halama
 9. Template halaman `elementor_header_footer` menyembunyikan judul/penulis bawaan tema UGM.
 10. Menu: UGM memakai menu tema (Beranda, Profil, Program Studi, Riset & PPM, Akademik, Kemahasiswaan, Umum). Menu v2 belum dibuat. Opsi: templat Header Elementor Pro (Theme Builder) dengan kondisi hanya untuk halaman v2 + menu v2 terpisah; butuh ACC user.
 
+## Pembaruan 10 Nov 2026 (malam)
+- Header v2: templat Theme Builder id 16571 "Header Home v2 (DTNTF)", TERBIT; kondisi Singular > Laman by author > akun lab-komputasidtntf.ft (user id 742). Header v2 + Menu v2 hanya tampil di halaman buatan akun ini. Beranda & halaman UGM lain tidak terpengaruh. Nonaktifkan: draf-kan templat itu.
+- Menu v2: menu WP id 326, slug menu-v2, 39 item, belum dipasang ke lokasi menu. Tautan ke halaman yang belum ada akan 404.
+- FATAL, JANGAN DIULANG: jangan membuat templat lewat POST ke edit.php?action=elementor_new_post (membuat POS berita biasa; sempat terbit di daftar berita). Templat Theme Builder hanya lewat tombol resmi di UI. Dialog kondisi tampil: set select lewat JS (value + dispatch input & change); untuk author tambahkan Option value=742 ke select ke-4.
+- Setelah mengubah/menghapus pos, bersihkan cache halaman terkait (tombol Delete Cache di bilah admin) dan simpan ulang halaman v2 yang memuat daftar berita.
+- Urutan deploy per halaman (WAJIB): deployHalaman -> REST status 'private' -> deployHalaman lagi. Simpanan pertama saja membuat Custom JS Essential Addons tidak keluar (widget tetap "Memuat profil…").
+- Muat ulang halaman dua kali setelah simpan (CSS dibangun di permintaan kedua).
+- Peta aset per templat: data/ugm/peta.json (dibuat scripts/buat_aset_ugm.py).
+- Sudah ada di UGM: Home v2 16487 (publish), Andang 16511 (publish), Agus Arif 16574 (private, berfungsi). Profil lain dijalankan lewat loop di tab Chrome jurusan (sesi lokal); cek daftar halaman author 742 untuk status terbaru.
+
 ## ID di web UGM
 Home v2 = 16487 (publish, slug new). Andang Widi Harto = 16511 (private). Media Home v2: 23 gambar. Dosen & KBK & prodi: belum dipasang.
 
