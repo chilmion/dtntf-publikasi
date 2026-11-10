@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+.dtntf-kt{color:#636363;font-family:'Barlow',sans-serif}
+.dtntf-kt h1,.dtntf-kt h2,.dtntf-kt h3,.dtntf-kt h4,.dtntf-kt h5,.dtntf-kt h6{color:#161616;font-family:'Plus Jakarta Sans',sans-serif}
+.dtntf-kt b,.dtntf-kt strong{color:#161616}
+.dtntf-kt a{color:#073C64}
+.dtntf-kt td,.dtntf-kt th,.dtntf-kt p,.dtntf-kt span,.dtntf-kt li{font-family:'Barlow',sans-serif}
 
 .dtntf-kt{
   /* token = variabel global Elementor situs katur (fallback: nilai literalnya) */
