@@ -1,0 +1,147 @@
+{
+ "katur-daftar-dosen-otomatis": [
+  "katur-daftar-dosen"
+ ],
+ "katur-daftar-dosen": [
+  "katur-dosen-filter",
+  "katur-dosen-info"
+ ],
+ "katur-kbk-induk": [
+  "katur-kbk-induk"
+ ],
+ "katur-pengabdian": [
+  "katur-pengabdian"
+ ],
+ "katur-profil-dosen": [
+  "katur-profil-kartu"
+ ],
+ "katur-statistik": [
+  "katur-statistik"
+ ],
+ "kbk/enet": [
+  "katur-kbk"
+ ],
+ "kbk/instrumentasi": [
+  "katur-kbk"
+ ],
+ "kbk/multifisika": [
+  "katur-kbk"
+ ],
+ "kbk/proses-nuklir": [
+  "katur-kbk"
+ ],
+ "profil/agus-arif": [
+  "katur-profil-cv"
+ ],
+ "profil/agus-budhie-wijatna": [
+  "katur-profil-cv"
+ ],
+ "profil/ahmad-agus-setiawan": [
+  "katur-profil-cv"
+ ],
+ "profil/alexander-agung": [
+  "katur-profil-cv"
+ ],
+ "profil/andang-widi-harto": [
+  "katur-profil-cv"
+ ],
+ "profil/andhika-yudha-prawira": [
+  "katur-profil-cv"
+ ],
+ "profil/anung-muharini": [
+  "katur-profil-cv"
+ ],
+ "profil/ari-bimo-prakoso": [
+  "katur-profil-cv"
+ ],
+ "profil/awang-n-i-wardana": [
+  "katur-profil-cv"
+ ],
+ "profil/dwi-joko-suroso": [
+  "katur-profil-cv"
+ ],
+ "profil/ester-wijayanti": [
+  "katur-profil-cv"
+ ],
+ "profil/fadli-kasim": [
+  "katur-profil-cv"
+ ],
+ "profil/faridah": [
+  "katur-profil-cv"
+ ],
+ "profil/ferdiansjah": [
+  "katur-profil-cv"
+ ],
+ "profil/fitrotun-aliyah": [
+  "katur-profil-cv"
+ ],
+ "profil/gandha-satria-adi": [
+  "katur-profil-cv"
+ ],
+ "profil/gea-oswah-fatah-parikesit": [
+  "katur-profil-cv"
+ ],
+ "profil/haryono-budi-santosa": [
+  "katur-profil-cv"
+ ],
+ "profil/kusnanto": [
+  "katur-profil-cv"
+ ],
+ "profil/kutut-suryopratomo": [
+  "katur-profil-cv"
+ ],
+ "profil/lucyana-dwi-larasati": [
+  "katur-profil-cv"
+ ],
+ "profil/m-arif-efendi": [
+  "katur-profil-cv"
+ ],
+ "profil/m-kholid-ridwan": [
+  "katur-profil-cv"
+ ],
+ "profil/nazrul-effendy": [
+  "katur-profil-cv"
+ ],
+ "profil/nopriadi": [
+  "katur-profil-cv"
+ ],
+ "profil/nunung-prabaningrum": [
+  "katur-profil-cv"
+ ],
+ "profil/nur-abdillah-siddiq": [
+  "katur-profil-cv"
+ ],
+ "profil/rachmawan-budiarto": [
+  "katur-profil-cv"
+ ],
+ "profil/sentagi-sesotya-utami": [
+  "katur-profil-cv"
+ ],
+ "profil/sihana": [
+  "katur-profil-cv"
+ ],
+ "profil/sita-gandes-pinasti": [
+  "katur-profil-cv"
+ ],
+ "profil/sunarno": [
+  "katur-profil-cv"
+ ],
+ "profil/susetyo-hario-putero": [
+  "katur-profil-cv"
+ ],
+ "profil/thomas-oka-pratama": [
+  "katur-profil-cv"
+ ],
+ "profil/widya-rosita": [
+  "katur-profil-cv"
+ ],
+ "profil/yakub-fahim-luckyarno": [
+  "katur-profil-cv"
+ ],
+ "profil/yanuar-ady-setiawan": [
+  "katur-profil-cv"
+ ],
+ "profil/yudi-utomo-imardjoko": [
+  "katur-profil-cv"
+ ]
+}

@@ -10,6 +10,7 @@ Halaman WordPress hanya berisi markup widget + satu baris pemuat di kotak "Custo
 
     python3 scripts/buat_aset_ugm.py
 """
+import json
 import pathlib
 import re
 
@@ -43,13 +44,40 @@ def pemuat(nama):
 
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
+    peta_skrip = {}   # isi skrip widget -> nama aset
     for p in sorted((ROOT / "widget").glob("katur-*.html")):
         nama = p.stem
         css, js = pecah(nama)
         (OUT / f"{nama}.css").write_text(css, encoding="utf-8")
         (OUT / f"{nama}.js").write_text(js, encoding="utf-8")
+        peta_skrip[re.sub(r"\s+", "", "".join(re.findall(r"<script[^>]*>(.*?)</script>", p.read_text(encoding="utf-8"), re.S)))[:4000]] = nama
         print(f"data/ugm/{nama}.css ({len(css)}) .js ({len(js)})")
         assert not re.search(r"[&<>\"]", pemuat(nama))
+    # peta halaman: templat Elementor (tanpa .json) -> daftar aset yang harus dimuat
+    peta = {}
+    for f in sorted((ROOT / "elementor").rglob("*.json")):
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        aset = []
+
+        def cari(n):
+            if isinstance(n, dict):
+                h = (n.get("settings") or {}).get("html") if n.get("widgetType") == "html" else None
+                if h:
+                    k = re.sub(r"\s+", "", "".join(re.findall(r"<script[^>]*>(.*?)</script>", h, re.S)))[:4000]
+                    if k in peta_skrip and peta_skrip[k] not in aset:
+                        aset.append(peta_skrip[k])
+                for c in n.get("elements", []):
+                    cari(c)
+            elif isinstance(n, list):
+                for c in n:
+                    cari(c)
+        cari(d.get("content", d))
+        if aset:
+            peta[str(f.relative_to(ROOT / "elementor"))[:-5]] = aset
+    (OUT / "peta.json").write_text(json.dumps(peta, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 if __name__ == "__main__":
