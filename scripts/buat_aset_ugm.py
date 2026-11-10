@@ -19,6 +19,28 @@ OUT = ROOT / "data" / "ugm"
 BASE = "https://chilmion.github.io/dtntf-publikasi/data/ugm"
 
 
+# Selama staging di web UGM, slug final bentrok dengan halaman/berkas UGM yang sudah ada. Tautan di dalam widget kita
+# (kelas .dtntf-kt) ditulis ulang di browser. Kosongkan peta ini saat peluncuran (slug -v2 diganti nama asli).
+PETA_TAUTAN = {
+    "/kbk/": "/kbk-v2/",
+    "/kbk-proses-nuklir/": "/kbk-proses-nuklir-v2/",
+    "/kbk-multifisika/": "/kbk-multifisika-v2/",
+    "/kbk-instrumentasi/": "/kbk-instrumentasi-v2/",
+    "/pengurus-departemen/": "/pengurus-departemen-v2/",
+    "/ferdiansjah/": "/ferdiansjah-v2/",
+    "/nopriadi/": "/nopriadi-v2/",
+}
+
+
+def js_tautan():
+    if not PETA_TAUTAN:
+        return ""
+    return ("\n;(function(){var M=" + json.dumps(PETA_TAUTAN) + ";var t=0;function fix(){document.querySelectorAll('.dtntf-kt a[href]').forEach(function(a){"
+            "var h=a.getAttribute('href')||'';var p=h.replace(/^https?:\\/\\/tf\\.ugm\\.ac\\.id/,'');if(M[p])a.setAttribute('href',M[p])})}"
+            "function plan(){clearTimeout(t);t=setTimeout(fix,200)}"
+            "new MutationObserver(plan).observe(document.documentElement,{childList:true,subtree:true});plan()})();\n")
+
+
 def pecah(nama):
     t = (ROOT / "widget" / f"{nama}.html").read_text(encoding="utf-8")
     css = "\n".join(re.findall(r"<style[^>]*>(.*?)</style>", t, re.S))
@@ -33,7 +55,7 @@ def pecah(nama):
     js = "\n;\n".join(re.findall(r"<script[^>]*>(.*?)</script>", t, re.S))
     js = re.sub(r"document\.currentScript\.parentNode\.querySelector\(([^)]*)\)", "null", js)
     js = "(function(){function __go(){\n" + js + "\n}\nif(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__go)}else{__go()}})();\n"
-    return css, js
+    return css, js + js_tautan()
 
 
 def pemuat(nama):
