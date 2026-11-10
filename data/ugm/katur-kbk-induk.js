@@ -48,3 +48,5 @@
 
 }
 if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__go)}else{__go()}})();
+
+;(function(){var M={"/kbk/": "/kbk-v2/", "/kbk-proses-nuklir/": "/kbk-proses-nuklir-v2/", "/kbk-multifisika/": "/kbk-multifisika-v2/", "/kbk-instrumentasi/": "/kbk-instrumentasi-v2/", "/pengurus-departemen/": "/pengurus-departemen-v2/", "/ferdiansjah/": "/ferdiansjah-v2/", "/nopriadi/": "/nopriadi-v2/"};var t=0;function fix(){document.querySelectorAll('.dtntf-kt a[href]').forEach(function(a){var h=a.getAttribute('href')||'';var p=h.replace(/^https?:\/\/tf\.ugm\.ac\.id/,'');if(M[p])a.setAttribute('href',M[p])})}function plan(){clearTimeout(t);t=setTimeout(fix,200)}new MutationObserver(plan).observe(document.documentElement,{childList:true,subtree:true});plan()})();
