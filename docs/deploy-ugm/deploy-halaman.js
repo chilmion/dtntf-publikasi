@@ -1,6 +1,7 @@
 // Tempel ke javascript_tool pada tab wp-admin tf.ugm.ac.id (halaman admin biasa, bukan editor), lalu panggil:
 //   await deployHalaman({slug:'andang-widi-harto', judul:'Andang Widi Harto', tpl:'profil/andang-widi-harto', status:'private'})
 // tpl = jalur templat di elementor/ (tanpa .json); peta aset otomatis dari data/ugm/peta.json.
+// URUTAN WAJIB: deployHalaman -> REST set status 'private' -> deployHalaman lagi (simpan kedua) agar Custom JS Essential Addons keluar.
 // Hasil: {id, status, aset}. Halaman dibuat 'private' (atau 'draft'); JANGAN 'publish' tanpa ACC user.
 window.deployHalaman = async function ({slug, judul, tpl, status = 'private', template = 'elementor_header_footer', gambar = {}}) {
   const BASE = 'https://chilmion.github.io/dtntf-publikasi/data';
@@ -18,7 +19,7 @@ window.deployHalaman = async function ({slug, judul, tpl, status = 'private', te
   }
   // 2. nonce Elementor dari halaman editor (GET ini juga mengaktifkan mode Elementor untuk halaman baru)
   const html = await (await fetch('/wp-admin/post.php?post=' + id + '&action=elementor', {credentials: 'include'})).text();
-  const en = (html.match(/"_nonce":"([a-f0-9]{10})"/) || [])[1];
+  const en = (html.match(/"ajax":\{"url":"[^"]+","nonce":"([a-f0-9]{10})"/) || [])[1];
   if (!en) throw new Error('nonce Elementor tidak ketemu');
   // 3. templat, peta aset, ubah isi
   const T = await (await fetch(RAW + tpl + '.json', {cache: 'no-store'})).json();
