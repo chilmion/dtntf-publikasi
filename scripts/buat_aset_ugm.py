@@ -21,6 +21,8 @@ BASE = "https://chilmion.github.io/dtntf-publikasi/data/ugm"
 def pecah(nama):
     t = (ROOT / "widget" / f"{nama}.html").read_text(encoding="utf-8")
     css = "\n".join(re.findall(r"<style[^>]*>(.*?)</style>", t, re.S))
+    # token kit Elementor (--e-global-*) berbeda di tiap situs: pakai nilai cadangan v1 langsung
+    css = re.sub(r"var\(--e-global-[\w-]+\s*,\s*([^()]+?)\)", r"\1", css)
     js = "\n;\n".join(re.findall(r"<script[^>]*>(.*?)</script>", t, re.S))
     js = re.sub(r"document\.currentScript\.parentNode\.querySelector\(([^)]*)\)", "null", js)
     js = "(function(){function __go(){\n" + js + "\n}\nif(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__go)}else{__go()}})();\n"

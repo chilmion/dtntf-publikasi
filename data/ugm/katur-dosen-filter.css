@@ -1,14 +1,14 @@
 
 .dtntf-kt{
   /* token = variabel global Elementor situs katur (fallback: nilai literalnya) */
-  --kt-navy:var(--e-global-color-870ef80,#073C64);
-  --kt-navy2:var(--e-global-color-bf890a9,#1A2C43);
-  --kt-lime:var(--e-global-color-15e26ab,#C8E86D);
-  --kt-ink:var(--e-global-color-primary,#161616);
-  --kt-ink2:var(--e-global-color-secondary,#414142);
-  --kt-text:var(--e-global-color-text,#636363);
-  --kt-abu:var(--e-global-color-1e38924,#F5F5F5);
-  --kt-line:var(--e-global-color-accent,#E3E3E3);
+  --kt-navy:#073C64;
+  --kt-navy2:#1A2C43;
+  --kt-lime:#C8E86D;
+  --kt-ink:#161616;
+  --kt-ink2:#414142;
+  --kt-text:#636363;
+  --kt-abu:#F5F5F5;
+  --kt-line:#E3E3E3;
   --kt-lime-soft:#E6F4B8; --kt-sky:#DCEAF5;
   --kt-r:10px; --kt-pad:24px; --kt-gap:16px;
   --kt-f-judul:"Plus Jakarta Sans",sans-serif; --kt-f-teks:"Barlow",sans-serif;
