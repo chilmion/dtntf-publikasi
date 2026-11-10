@@ -37,6 +37,13 @@ Snapshot v1 lengkap ada di repo privat `chilmion/dtntf-wp-snapshot` (WXR, halama
 - Server UGM memberi 502/500 bila halaman diminta cepat berturut-turut: beri jeda >= 4 detik antar permintaan, coba ulang bila 5xx.
 - Status 10 Nov malam: 38 profil dosen sudah ada (private; Andang publish). Sisa: daftar dosen, KBK, pengurus, pengabdian, prodi, 6 halaman v2, 9 halaman menu.
 
+## Status 11 Nov 2026 (dini hari)
+- 68 halaman buatan akun 742 sudah TERBIT (tanpa masuk menu): 38 profil dosen, daftar dosen, kbk-v2 + 4 KBK, pengurus-departemen-v2, pengabdian, 18 halaman snapshot v1 (sejarah-v2, visi-dan-misi-v2, kontak-v2, laboratorium-v2, tenaga-kependidikan-v3 [v2 dipakai halaman UGM id 14292], kalender-akademik-v2, struktur-organisasi, akreditasi, layanan-akademik, publikasi-dan-riset, fasilitas-umum, galeri, mitra, kemahasiswaan, panduan-akademik-prodi-s1-teknik-nuklir, publikasi-v2, prodi, prodi-s1-teknik-fisika), iup-teknik-nuklir dan program-studi-magister-teknik-fisika (lorem), kategori-prestasi (contoh arsip kategori), Home v2 (new).
+- Halaman snapshot dipasang dengan aturan (globals->literal, heading #161616), BELUM diukur per elemen terhadap v1 seperti Home v2; cek font/warna saat QC. Widget html di kalender-akademik-v2 dan publikasi-dan-riset kehilangan script/style (kemungkinan rusak). MetForm di kontak-v2: plugin MetForm di UGM terpasang tapi NONAKTIF.
+- Fungsi: docs/deploy-ugm/deploy-halaman.js (widget kita) dan docs/deploy-ugm/deploy-v2.js (halaman snapshot dari data/staging-v2; dibuat oleh dtntf-wp-snapshot/scripts/siapkan_halaman_v2.py). Gambar halaman snapshot sudah diunggah (peta nama->id di localStorage '__peta2' tab Chrome; bila hilang, unggah ulang dari data/staging-v2/img).
+- Menu v2 sengaja TIDAK diubah (user: perlu redesain). Item kategori artikel akan ditautkan ke arsip kategori yang didesain ulang (contoh: kategori-prestasi).
+- Berkas sementara di repo publik yang harus dihapus setelah QC: data/staging-home/, data/staging-v2/.
+
 ## ID di web UGM
 Home v2 = 16487 (publish, slug new). Andang Widi Harto = 16511 (private). Media Home v2: 23 gambar. Dosen & KBK & prodi: belum dipasang.
 
