@@ -33,6 +33,10 @@ Snapshot v1 lengkap ada di repo privat `chilmion/dtntf-wp-snapshot` (WXR, halama
 - Peta aset per templat: data/ugm/peta.json (dibuat scripts/buat_aset_ugm.py).
 - Sudah ada di UGM: Home v2 16487 (publish), Andang 16511 (publish), Agus Arif 16574 (private, berfungsi). Profil lain dijalankan lewat loop di tab Chrome jurusan (sesi lokal); cek daftar halaman author 742 untuk status terbaru.
 
+- Slug dosen yang dipakai Media UGM (halaman lampiran) sehingga WordPress menambah -2: `ferdiansjah` dan `nopriadi`. Profil dipasang sebagai `ferdiansjah-v2` (id 16634) dan `nopriadi-v2` (id 16692). Pada daftar dosen, tautan kartu diganti lewat parameter `ganti` ('"/ferdiansjah/"' -> '"/ferdiansjah-v2/"').
+- Server UGM memberi 502/500 bila halaman diminta cepat berturut-turut: beri jeda >= 4 detik antar permintaan, coba ulang bila 5xx.
+- Status 10 Nov malam: 38 profil dosen sudah ada (private; Andang publish). Sisa: daftar dosen, KBK, pengurus, pengabdian, prodi, 6 halaman v2, 9 halaman menu.
+
 ## ID di web UGM
 Home v2 = 16487 (publish, slug new). Andang Widi Harto = 16511 (private). Media Home v2: 23 gambar. Dosen & KBK & prodi: belum dipasang.
 

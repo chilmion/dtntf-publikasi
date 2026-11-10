@@ -3,7 +3,7 @@
 // tpl = jalur templat di elementor/ (tanpa .json); peta aset otomatis dari data/ugm/peta.json.
 // URUTAN WAJIB: deployHalaman -> REST set status 'private' -> deployHalaman lagi (simpan kedua) agar Custom JS Essential Addons keluar.
 // Hasil: {id, status, aset}. Halaman dibuat 'private' (atau 'draft'); JANGAN 'publish' tanpa ACC user.
-window.deployHalaman = async function ({slug, judul, tpl, status = 'private', template = 'elementor_header_footer', gambar = {}}) {
+window.deployHalaman = async function ({slug, judul, tpl, status = 'private', template = 'elementor_header_footer', gambar = {}, ganti = {}}) {
   const BASE = 'https://chilmion.github.io/dtntf-publikasi/data';
   const RAW = 'https://raw.githubusercontent.com/chilmion/dtntf-publikasi/main/elementor/';
   const nonce = (window.wpApiSettings || {}).nonce;
@@ -25,7 +25,8 @@ window.deployHalaman = async function ({slug, judul, tpl, status = 'private', te
   const T = await (await fetch(RAW + tpl + '.json', {cache: 'no-store'})).json();
   const peta = await (await fetch(BASE + '/ugm/peta.json', {cache: 'no-store'})).json();
   const aset = peta[tpl] || [];
-  const els = JSON.parse(JSON.stringify(T.content));
+  let tj = JSON.stringify(T.content); for (const [a, b] of Object.entries(ganti)) tj = tj.split(a).join(b);   // mis. tautan {'"/ferdiansjah/"':'"/ferdiansjah-v2/"'}
+  const els = JSON.parse(tj);
   const C = {primary: '#161616', secondary: '#414142', text: '#636363', accent: '#E3E3E3', '870ef80': '#073C64', bf890a9: '#1A2C43', b70a650: '#003D79', '15e26ab': '#C8E86D', f184fe1: '#CAC0BE', '1e38924': '#F5F5F5', '5bd60dc': '#FFFFFF'};
   const walk = o => {
     if (Array.isArray(o)) { o.forEach(walk); return; }
