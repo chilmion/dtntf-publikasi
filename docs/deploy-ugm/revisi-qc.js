@@ -33,7 +33,7 @@ window.tataPage = function (slug, els) {
     if (!o || typeof o !== 'object') return;
     const st = o.settings || {};
     if (o.widgetType === 'elementskit-blog-posts' && st.ekit_blog_posts_column !== 'ekit-col-12') st.custom_css = cssSelector(CSS_EQ);
-    if (slug === 'akreditasi' && o.widgetType === 'heading' && (st.typography_font_size || {}).size === 32) { st.typography_font_size = px(22); st.typography_font_size_tablet = px(20); st.typography_font_size_mobile = px(18); st.align = 'center'; st.title_color = '#333333'; }
+    if (slug === 'akreditasi' && o.widgetType === 'heading' && (st.typography_font_size || {}).size === 32) { st.typography_font_size = px(22); st.typography_font_size_tablet = px(20); st.typography_font_size_mobile = px(18); st.align = 'center'; }   // warna dibiarkan (kartu navy: putih); jangan dipaksa gelap
     if (slug === 'sejarah-v2' && o.elType === 'container') {
       if (['row', 'row-reverse'].includes(st.flex_direction) && (o.elements || []).length >= 2 && (o.elements || []).some(x => x.widgetType === 'text-editor' || x.widgetType === 'heading') && (st.padding || {}).top !== '32') { st.flex_direction_mobile = 'column'; st.flex_gap_mobile = {column: '6', row: '6', isLinked: true, unit: 'px', size: 6}; }
       const p = st.padding; if (p && p.top === '40' && p.right === '50') st.padding_mobile = {unit: 'px', top: '24', right: '16', bottom: '24', left: '16', isLinked: false};
