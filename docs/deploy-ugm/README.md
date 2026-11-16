@@ -44,6 +44,14 @@ Snapshot v1 lengkap ada di repo privat `chilmion/dtntf-wp-snapshot` (WXR, halama
 - Menu v2 sengaja TIDAK diubah (user: perlu redesain). Item kategori artikel akan ditautkan ke arsip kategori yang didesain ulang (contoh: kategori-prestasi).
 - Berkas sementara di repo publik yang harus dihapus setelah QC: data/staging-home/, data/staging-v2/.
 
+## Revisi QC 16 Nov 2026
+- Sumber: dua Google Docs QC tim internal + masukan dosen (spasi, ukuran font, kontras). Skala: H1 56/44/32, H2 40/34/28, isi 17/16, kartu judul 22/18.
+- Skrip: docs/deploy-ugm/revisi-qc.js (skalaFont2, tataPage). deployV2 perlu patch lokal: opsi `ubah` (fungsi yang mengubah els sebelum disimpan), `sumber` (URL JSON templat, mis. elementor/*.json) dan `js` (isi Custom JS).
+- Aset: perbaikan widget berulang (info kartu dosen) dan warna b/heading (inherit) di scripts/buat_aset_ugm.py (PR #36).
+- Header v2 (id 16571): logo 22% + menu 76% satu baris. Menu v2 diedit tim (Program Studi -> Pendidikan), jangan ditimpa.
+- Tenaga Kependidikan yang benar = tenaga-kependidikan-v3 (v2 = halaman UGM id 14292).
+- Keputusan tertunda: form Kontak (opsi Elementor Pro Form, butuh email penerima), isi Layanan Akademik.
+
 ## ID di web UGM
 Home v2 = 16487 (publish, slug new). Andang Widi Harto = 16511 (private). Media Home v2: 23 gambar. Dosen & KBK & prodi: belum dipasang.
 
