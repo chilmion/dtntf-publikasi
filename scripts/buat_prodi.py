@@ -169,7 +169,7 @@ def label_kecil(s, warna):
 
 
 def angka(s, warna):
-    besar = 64 if len(s) <= 8 else 40   # teks panjang ("General Engineering") agar tidak meluber dari kartu
+    besar = 64 if len(s) <= 5 else 44 if len(s) <= 8 else 36   # skala agar teks panjang ("General Engineering", "144–150") tidak meluber
     w = be.judul_katur(s, "div", besar, -4 if besar == 64 else -2)
     w["settings"]["title_color"] = warna
     w["settings"].pop("__globals__", None)
