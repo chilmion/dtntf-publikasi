@@ -181,7 +181,7 @@ def kartu_bento(k):
     bg = {"lime": bp.LIME, "navy": bp.NAVY, "putih": "#FFFFFF", "abu": bp.ABU}[gaya]
     ink, isi = ("#FFFFFF", "rgba(255,255,255,.86)") if gaya == "navy" else (bp.DARK if gaya == "lime" else "#161616", bp.DARK if gaya == "lime" else "#636363")
     t = bp.tile([label_kecil(label, "#FFFFFF" if gaya == "navy" else bp.NAVY if gaya != "lime" else bp.DARK), angka(nilai, ink), bp.teks(f"<p>{inline(ket)}</p>", isi, 16, None)],
-                bg, 24, garis=(gaya == "putih"))
+                bg, 23, garis=(gaya == "putih"))
     t["settings"]["width_tablet"] = be.ukuran(48.5, "%")
     t["settings"]["flex_gap"] = be.gap(6)
     return t
@@ -210,7 +210,7 @@ def hero(judul, lead, hero_meta):
 
 def akordeon(judul, isi_md):
     tab = {"_id": be.eid()[:7], "tab_title": judul, "tab_content": html_blok(isi_md)}
-    a = be.widget("accordion", tabs=[tab], selected_icon={"value": "fas fa-plus", "library": "fa-solid"},
+    a = be.widget("toggle", tabs=[tab], selected_icon={"value": "fas fa-plus", "library": "fa-solid"},
                   selected_active_icon={"value": "fas fa-minus", "library": "fa-solid"}, icon_align="right",
                   title_html_tag="h3", border_width=be.ukuran(0), title_color="#161616", tab_active_color=bp.NAVY,
                   icon_color=bp.NAVY, icon_active_color=bp.NAVY, content_color="#636363",
