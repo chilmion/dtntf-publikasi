@@ -49,12 +49,15 @@ def pecah(nama):
     akar = sorted(set(re.findall(r'class="(dtntf-[a-z0-9-]+)', t)))
     dasar = "@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');\n"
     for a in akar:   # tema UGM menimpa warna/font teks; kembalikan nilai kit v1 (kalah spesifisitas oleh aturan widget sendiri)
-        dasar += (".%(a)s{color:#636363;font-family:'Barlow',sans-serif}\n.%(a)s h1,.%(a)s h2,.%(a)s h3,.%(a)s h4,.%(a)s h5,.%(a)s h6{color:#161616;font-family:'Plus Jakarta Sans',sans-serif}\n"
-                  ".%(a)s b,.%(a)s strong{color:#161616}\n.%(a)s a{color:#073C64}\n.%(a)s td,.%(a)s th,.%(a)s p,.%(a)s span,.%(a)s li{font-family:'Barlow',sans-serif}\n") % {"a": a}
+        dasar += (".%(a)s{color:#161616;font-family:'Barlow',sans-serif}\n.%(a)s h1,.%(a)s h2,.%(a)s h3,.%(a)s h4,.%(a)s h5,.%(a)s h6{color:inherit;font-family:'Plus Jakarta Sans',sans-serif}\n"
+                  ".%(a)s b,.%(a)s strong{color:inherit}\n.%(a)s a{color:#073C64}\n.%(a)s td,.%(a)s th,.%(a)s p,.%(a)s span,.%(a)s li{font-family:'Barlow',sans-serif}\n") % {"a": a}
     css = dasar + css
     js = "\n;\n".join(re.findall(r"<script[^>]*>(.*?)</script>", t, re.S))
+    sel = re.search(r"document\.currentScript\.parentNode\.querySelector\(('[^']*')\)", js)
     js = re.sub(r"document\.currentScript\.parentNode\.querySelector\(([^)]*)\)", "null", js)
-    js = "(function(){function __go(){\n" + js + "\n}\nif(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__go)}else{__go()}})();\n"
+    # skrip asli dijalankan sekali per widget; di sini satu berkas melayani semua elemen akar di halaman
+    ulang = ("var n=document.querySelectorAll(" + sel.group(1) + ").length;for(var i=0;i<Math.max(1,n);i++){__go()}") if sel else "__go()"
+    js = "(function(){function __go(){\n" + js + "\n}\nfunction __jalan(){" + ulang + "}\nif(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',__jalan)}else{__jalan()}})();\n"
     return css, js + js_tautan()
 
 
