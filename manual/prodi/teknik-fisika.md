@@ -1,3 +1,11 @@
+@hero judul=Mengenal Program Sarjana Teknik Fisika UGM
+@hero kicker=Program Sarjana · Departemen Teknik Nuklir dan Teknik Fisika
+@hero gambar=tf-hero.svg
+@kartu lime|Disiplin|General Engineering|Jembatan antara sains dasar (fisika) dan beragam aplikasi rekayasa
+@kartu putih|Beban studi|144–150|SKS, sesuai persyaratan IABEE
+@kartu navy|Pilar keilmuan|2|Fenomena multifisika dan teknik sistem
+@kartu abu|Bidang teknologi|4|Instrumentasi & kontrol, lingkungan terbangun & sistem energi, material, energi terbarukan
+
 ## Pengantar: Deskripsi Program Studi
 
 Fundamental Teknik Fisika terletak pada perannya sebagai jembatan esensial antara sains dasar (fisika) dan beragam aplikasi rekayasa yang secara kokoh membentuk ciri khasnya sebagai bidang General Engineering. Disiplin ini secara sadar tidak mengkotak-kotakkan keilmuan; sebaliknya, disiplin tersebut bertujuan mencetak insinyur yang memiliki kemampuan analisis fundamental yang tajam dengan cakupan keahlian yang sangat luas. Lulusan Program Sarjana Program Studi Teknik Fisika dibekali kerangka berpikir yang integral, berbasis pada dua pilar utama: fenomena multifisika dan teknik sistem.

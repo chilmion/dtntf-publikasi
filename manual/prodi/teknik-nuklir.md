@@ -1,3 +1,10 @@
+@hero kicker=Program Sarjana · Departemen Teknik Nuklir dan Teknik Fisika
+@hero gambar=tn-hero.svg
+@kartu lime|Akreditasi|Unggul|LAM Teknik, berlaku 21 April 2025–20 April 2030
+@kartu putih|Kurikulum 2026|144|SKS dengan pendekatan Outcome-Based Education
+@kartu navy|Peminatan|2|Teknologi Energi Nuklir dan Fisika Medis
+@kartu abu|Lulusan|1.619|sejak 1977 (data Desember 2025)
+
 ## Mengenal Program Sarjana Teknik Nuklir UGM
 
 Program Sarjana Teknik Nuklir merupakan salah satu program pendidikan tinggi yang diselenggarakan oleh Departemen Teknik Nuklir dan Teknik Fisika (DTNTF), Fakultas Teknik, Universitas Gadjah Mada. Program studi ini berfokus pada pengembangan ilmu pengetahuan, teknologi, dan rekayasa nuklir untuk mendukung pemanfaatan teknologi nuklir secara aman, bertanggung jawab, dan berkelanjutan.
