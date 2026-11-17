@@ -97,7 +97,7 @@
   // grid kartu: cols desktop (tablet 2, mobile 1), lebar anak dihitung dari jarak
   function Grid(items, o) {
     o = o || {}; const cols = o.cols || 3, gap = o.gap === undefined ? 24 : o.gap;
-    const pct = n => Math.floor((100 - ((n - 1) * gap / 11.8)) / n * 100) / 100;
+    const pct = n => Math.floor(((100 - ((n - 1) * gap / 11.8)) / n - 0.8) * 100) / 100;   // -0.8: sisa agar kolom terakhir tidak turun baris
     items.forEach(it => { it.settings.width = {unit: '%', size: pct(cols), sizes: []}; it.settings.width_tablet = {unit: '%', size: pct(2), sizes: []}; it.settings.width_mobile = {unit: '%', size: 100, sizes: []}; });
     return C(items, {dir: 'row', wrap: true, gap, align: o.align || 'stretch'});
   }
