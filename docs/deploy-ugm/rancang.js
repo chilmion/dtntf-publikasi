@@ -101,6 +101,39 @@
     items.forEach(it => { it.settings.width = {unit: '%', size: pct(cols), sizes: []}; it.settings.width_tablet = {unit: '%', size: pct(2), sizes: []}; it.settings.width_mobile = {unit: '%', size: 100, sizes: []}; });
     return C(items, {dir: 'row', wrap: true, gap, align: o.align || 'stretch'});
   }
+
+  // normalisasi gaya widget yang sudah ada (heading/teks/tombol/gambar/kartu) mengikuti skala standar
+  function norm(els, o) {
+    o = o || {};
+    const DARK = ['#073C64', '#1A2C43', '#003D79'];
+    const stripTy = s => { Object.keys(s).forEach(k => { if (/^typography_|^title_typography|^text_typography/.test(k)) delete s[k]; }); if (s.__globals__) { Object.keys(s.__globals__).forEach(k => { if (/typography|color/i.test(k)) delete s.__globals__[k]; }); } };
+    const walk = (arr, ctx) => (arr || []).forEach(n => {
+      const s = n.settings || (n.settings = {});
+      if (n.elType === 'container') {
+        const bg = (s.background_color || '').toUpperCase();
+        const dark = ctx.dark || DARK.includes(bg) || s.background_background === 'gradient';
+        const card = bg === '#FFFFFF' && ctx.depth > 0;
+        if (card) { s.border_radius = {unit: 'px', top: '16', right: '16', bottom: '16', left: '16', isLinked: true}; s.border_border = 'solid'; s.border_width = {unit: 'px', top: '1', right: '1', bottom: '1', left: '1', isLinked: true}; s.border_color = T.line; }
+        walk(n.elements, {dark, card: ctx.card || card, depth: ctx.depth + 1});
+        return;
+      }
+      if (n.widgetType === 'heading') {
+        const sz = (s.header_size || 'h2').toLowerCase(); stripTy(s);
+        const lvl = sz === 'h1' ? 'h1' : sz === 'h2' ? 'h2' : (sz === 'h3' || sz === 'h4') ? 'h3' : 'role';
+        if (lvl === 'role') Object.assign(s, ty('s', {typography_font_weight: '600', typography_font_family: 'Barlow'}), {title_color: ctx.dark ? 'rgba(255,255,255,0.85)' : T.navy});
+        else Object.assign(s, ty(lvl), {title_color: ctx.dark ? T.white : T.ink});
+      } else if (n.widgetType === 'text-editor') {
+        stripTy(s); Object.assign(s, ty(ctx.card ? 's' : 'p'), {text_color: ctx.dark ? 'rgba(255,255,255,0.9)' : (ctx.card ? T.muted : T.body)});
+      } else if (n.widgetType === 'button') {
+        stripTy(s); Object.assign(s, {typography_typography: 'custom', typography_font_family: 'Barlow', typography_font_size: S(15), typography_font_weight: '600'});
+      } else if (n.widgetType === 'image') {
+        s.image_border_radius = {unit: 'px', top: '12', right: '12', bottom: '12', left: '12', isLinked: true};
+      }
+      walk(n.elements, ctx);
+    });
+    walk(els, {dark: false, card: false, depth: 0});
+    return els;
+  }
   const crumb = (title, grup, grupUrl) => [['Beranda', '/new/'], grup ? [grup, grupUrl || ''] : null, [title]].filter(Boolean);
 
   // simpan dokumen Elementor halaman (status dipertahankan 'publish' kecuali opsi)
@@ -115,6 +148,6 @@
     if (!(r.ok && !/"success":false/.test(tx))) throw new Error('simpan: ' + tx.slice(0, 120));
     return 'ok ' + id;
   }
-  window.R = {T, TY, rid, S, P4, ty, wd, H, Pg, B, Im, C, Sec, Head, accent, Banner, Card, Grid, crumb, simpan, clean};
+  window.R = {T, TY, rid, S, P4, ty, wd, H, Pg, B, Im, C, Sec, Head, accent, Banner, Card, Grid, crumb, simpan, clean, norm};
   return 'R siap';
 })();
