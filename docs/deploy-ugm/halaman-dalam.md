@@ -27,6 +27,14 @@ Sejarah (garis waktu 5 periode), Visi dan Misi (4 entitas), Struktur Organisasi 
 Diberi banner dan/atau normalisasi: Pengurus Departemen, Dosen Tetap, Publikasi, Publikasi dan Riset, Pengabdian, KBK (indeks).
 Tidak diubah: Prodi TN/TF, IUP, Magister (sudah memakai rancangan v2/lorem), halaman KBK per kelompok.
 
+## Aset widget
+`scripts/buat_aset_ugm.py` kini menambahkan skala seragam ke semua widget Katur (H1 48, H2 36, H3 22; label kicker 13px; lencana foto 12px). Berlaku juga di profil dosen.
+
+## Catatan teknis tambahan
+- Lebar anak grid dihitung dari lebar 1180px dikurangi 0,8% (tanpa itu kolom terakhir turun baris karena pembulatan).
+- Galeri memakai grid widget Gambar (widget Gallery Elementor tidak menampilkan item di UGM).
+- Audit akhir (iframe 1440 dan 390): tanpa overflow horizontal, tanpa "Memuat…" macet; satu-satunya kontras rendah yang terdeteksi milik tombol WhatsApp dan tombol Cari (di luar halaman).
+
 ## Keputusan yang perlu user
 - Kategori daftar berita: Mitra = `kerjasama` (id 14), Mitra Pengabdian = `pengabdian-masyarakat` (106), Kemahasiswaan = `prestasi` (19) + `alumni` (6), Prestasi = 19.
 - Penerima email formulir Kontak masih bawaan situs.
