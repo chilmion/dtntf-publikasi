@@ -51,7 +51,14 @@ def pecah(nama):
     for a in akar:   # tema UGM menimpa warna/font teks; kembalikan nilai kit v1 (kalah spesifisitas oleh aturan widget sendiri)
         dasar += (".%(a)s{color:#161616;font-family:'Barlow',sans-serif}\n.%(a)s h1,.%(a)s h2,.%(a)s h3,.%(a)s h4,.%(a)s h5,.%(a)s h6{color:inherit;font-family:'Plus Jakarta Sans',sans-serif}\n"
                   ".%(a)s b,.%(a)s strong{color:inherit}\n.%(a)s a{color:#073C64}\n.%(a)s td,.%(a)s th,.%(a)s p,.%(a)s span,.%(a)s li{font-family:'Barlow',sans-serif}\n") % {"a": a}
-    css = dasar + css
+    # skala tipografi halaman dalam v2 (17 Nov 2026): judul seragam, label >= 13px (menimpa angka Katur v1)
+    skala = ""
+    for a in akar:
+        skala += (".%(a)s .kt-h1{font-size:48px;line-height:1.12;letter-spacing:-1.2px;word-spacing:0}\n.%(a)s .kt-h2{font-size:36px;line-height:1.15;letter-spacing:-.72px;word-spacing:0}\n"
+                  ".%(a)s .kt-h3{font-size:22px;line-height:1.3;letter-spacing:-.22px;word-spacing:0}\n.%(a)s .kt-kicker{font-size:13px;letter-spacing:.3px}\n.%(a)s .kt-lencana{font-size:12px}\n"
+                  "@media(max-width:1024px){.%(a)s .kt-h1{font-size:40px}.%(a)s .kt-h2{font-size:30px}}\n"
+                  "@media(max-width:767px){.%(a)s .kt-h1{font-size:32px}.%(a)s .kt-h2{font-size:28px}.%(a)s .kt-h3{font-size:20px}}\n") % {"a": a}
+    css = dasar + css + "\n" + skala
     js = "\n;\n".join(re.findall(r"<script[^>]*>(.*?)</script>", t, re.S))
     sel = re.search(r"document\.currentScript\.parentNode\.querySelector\(('[^']*')\)", js)
     js = re.sub(r"document\.currentScript\.parentNode\.querySelector\(([^)]*)\)", "null", js)
