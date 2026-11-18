@@ -10,22 +10,22 @@ window.deployPengurus = async function (halamanId) {
   const person = (p, k) => {
     const t = TIER[k], dark = !!t.dark;
     const img = wd('html', {html: '<img src="' + p.f + '" alt="' + p.n.replace(/"/g, '') + '" loading="lazy" style="display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 14%;border-radius:12px;background:#E3E3E3">'});
-    const name = H(p.n, 'h3', {dark}); Object.assign(name.settings, {typography_typography: 'custom', typography_font_family: 'Plus Jakarta Sans', typography_font_weight: '700', typography_font_size: px(t.name), typography_font_size_mobile: px(Math.min(t.name, 18)), typography_line_height: {unit: 'em', size: 1.25, sizes: []}, title_color: dark ? '#FFFFFF' : '#073C64'});
+    const name = H(p.n, 'h3', {dark}); Object.assign(name.settings, {typography_typography: 'custom', typography_font_family: 'Plus Jakarta Sans', typography_font_weight: '700', typography_font_size: px(t.name), typography_font_size_mobile: px(Math.min(t.name, 18)), typography_line_height: {unit: 'em', size: 1.25, sizes: []}, title_color: dark ? '#FFFFFF' : '#073C64', custom_css: 'selector .elementor-heading-title{overflow-wrap:anywhere}'});
     const role = Pg(p.r, {css: 'selector,selector p{font-family:Barlow,sans-serif;font-size:' + t.role + 'px;font-weight:600;line-height:1.35;margin:0;color:' + (dark ? '#C8E86D' : '#4A4A4A') + '}'});
     const mail = Pg('<a href="mailto:' + p.e + '">' + p.e + '</a>', {css: 'selector,selector p{font-family:Barlow,sans-serif;font-size:' + (t.role - 0.5) + 'px;margin:0;word-break:break-all}selector a{color:' + (dark ? 'rgba(255,255,255,.85)' : '#636363') + ';text-decoration:none}selector a:hover{color:' + (dark ? '#C8E86D' : '#003D79') + '}'});
     const left = C([img], {pad: Z, gap: 0, px: t.w}); left.settings._flex_size = 'none';
-    const right = C([role, name, mail], {pad: Z, gap: 6, justify: 'center'}); right.settings._flex_size = 'grow';
+    const right = C([role, name, mail], {pad: Z, gap: 6, justify: 'center'}); right.settings._flex_size = 'grow'; right.settings.custom_css = 'selector{min-width:0;flex:1 1 0%}';
     const c = C([left, right], {dir: 'row', align: 'center', gap: k === 't5' || k === 't4' ? 14 : 20, pad: k === 't1' ? [22, 22, 22, 22] : [14, 14, 14, 14], radius: 16, bg: dark ? T.navy : '#FFFFFF', border: dark ? undefined : T.line});
     return c;
   };
-  const row = (list, k, cols, gap) => { const pct = Math.floor(((100 - ((cols - 1) * gap / 11.8)) / cols - 0.8) * 100) / 100; const items = list.map(p => { const c = person(p, k); c.settings.width = px(0); c.settings.width = {unit: '%', size: pct, sizes: []}; c.settings.width_tablet = {unit: '%', size: 100, sizes: []}; c.settings.width_mobile = {unit: '%', size: 100, sizes: []}; c.settings.flex_wrap = 'nowrap'; return c; }); return C(items, {dir: 'row', wrap: true, gap, pad: Z, justify: 'center', align: 'stretch'}); };
+  const row = (list, k, cols, gap, just) => { const pct = Math.floor(((100 - ((cols - 1) * gap / 11.8)) / cols - 0.8) * 100) / 100; const items = list.map(p => { const c = person(p, k); c.settings.width = px(0); c.settings.width = {unit: '%', size: pct, sizes: []}; c.settings.width_tablet = {unit: '%', size: 100, sizes: []}; c.settings.width_mobile = {unit: '%', size: 100, sizes: []}; c.settings.flex_wrap = 'nowrap'; return c; }); return C(items, {dir: 'row', wrap: true, gap, pad: Z, justify: just || 'flex-start', align: 'stretch'}); };
   const head = txt => { const h = H(txt, 'h2'); Object.assign(h.settings, {typography_typography: 'custom', typography_font_family: 'Plus Jakarta Sans', typography_font_weight: '700', typography_font_size: px(30), typography_font_size_tablet: px(28), typography_font_size_mobile: px(24), title_color: '#073C64'}); return h; };
   const sec = (title, rows, bg) => Sec([head(title), ...rows], {bg, pt: 48, pb: 48});
   const els = [Banner('Pengurus Departemen', crumb('Pengurus Departemen', 'Tentang Kami')),
     sec('Pimpinan Departemen', [row(D.t1, 't1', 2, 24)], T.white),
     sec('Ketua Program Studi', [row(D.t2, 't2', 3, 20)], T.bg),
     sec('Sekretaris Program Studi', [row(D.t3, 't3', 2, 20)], T.white),
-    sec('Kepala Laboratorium', [row(D.t4.slice(0, 3), 't4', 3, 20), row(D.t4.slice(3), 't4', 3, 20)], T.bg),
+    sec('Kepala Laboratorium', [row(D.t4.slice(0, 3), 't4', 3, 20), row(D.t4.slice(3), 't4', 3, 20, 'center')], T.bg),
     sec('Koordinator Kelompok Bidang Keahlian (KBK)', [row(D.t5, 't5', 4, 20)], T.white)];
   const zero = (a, d) => a.forEach(e => { if (e.elType === 'container' && d > 0 && !e.settings.padding) e.settings.padding = {unit: 'px', top: '0', right: '0', bottom: '0', left: '0', isLinked: true}; zero(e.elements || [], d + 1); }); zero(els, 0);
   return await simpan(halamanId, els, {});
