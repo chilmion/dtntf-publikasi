@@ -14,7 +14,7 @@ window.deployFasilitas = async function (halamanId, sha) {
     if (!j.id) throw new Error('unggah gagal ' + k); M[k] = {id: j.id, url: j.source_url.replace(location.origin, '')}; localStorage.setItem('__fasFoto', JSON.stringify(M)); }
   // 2. foto fasilitas departemen yang sudah ada di pustaka media
   const cari = async q => { const r = await (await fetch('/wp-json/wp/v2/media?per_page=10&search=' + encodeURIComponent(q) + '&_fields=id,source_url,slug', H0)).json(); if (!r.length) throw new Error('foto tidak ada: ' + q); return {id: r[0].id, url: r[0].source_url.replace(location.origin, '')}; };
-  const O = {perpus: await cari('Perpustakaan-20220105'), akademik: await cari('DSC_5917'), cws: await cari('photo_2025-11-23'), toilet: await cari('Wastafel')};
+  const O = {perpus: await cari('Perpustakaan-20220105'), akademik: await cari('photo_2025-11-23'), cws: await cari('DSC_5917'), toilet: await cari('Wastafel')};
   const px = v => ({unit: 'px', size: v, sizes: []}); const WS = {unit: 'px', size: 0, sizes: []};
   const FTU = 'https://ft.ugm.ac.id/';
   const A = [  // fasilitas departemen (tanpa tautan)

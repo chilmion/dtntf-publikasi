@@ -32,7 +32,7 @@ Status: [ ] belum, [~] sedang, [x] selesai. "?" = perlu keputusan/bahan dari jur
 - [~] C5 (draf v1 selesai, menunggu revisi user; tf.ugm belum). Pengurus Departemen: foto lebih kecil dan close up, tata letak mengacu web lama + contoh web FT; jumlah Kadep/Sekdep 2, Kaprodi 3, Sekprodi 2, Kalab 3 (baris "Kalab 2" ?), KBK 4 (? foto baru atau potong ulang)
 - [x] C6 (v1 selesai, tf.ugm belum). Dosen Tetap: tautan langsung ke SINTA (lengkap), hapus jumlah sitasi di depan, foto lebih proporsional
 - [x] C7 (v1 selesai, tf.ugm belum). Tenaga Kependidikan: grup Koordinator / Teknisi Laboran / Staf, grid tanpa yang tertinggal
-- [ ] C8. Fasilitas umum: Ruang Tunggu jadi Co-working Space; tautan ke fasilitas FT dan UGM
+- [x] C8. Fasilitas umum: Ruang Tunggu jadi Co-working Space; tautan ke fasilitas FT dan UGM
 
 ## D. Halaman prodi (TN id 688, TF id 1763, MTF)
 - [ ] D1. Tautan dokumen kurikulum di bawah bagian kurikulum (? berkas)
@@ -90,3 +90,4 @@ Prasyarat: staf lab login di komputer jurusan (Chrome Windows). Header tf.ugm = 
 17. **Tenaga Kependidikan v2 (19 Nov 00.30)**: gelar sebaris dengan nama, Teknisi 2x2 (4 kartu), Koordinator 3 kolom, Staf 3x3; Budiyono: dua lab dipisah per baris (br), bukan titik koma. Tanpa celah kosong buatan.
 **Jebakan deploy**: setelah halaman dibangun ulang lewat skrip, kadang tampil tanpa gaya (foto raksasa) karena file CSS Elementor halaman belum dibuat ulang (v1 pakai SpeedyCache; tf.ugm mungkin juga). Obat: buka editor halaman, ubah apa saja kecil, `await $e.run('document/save/default')`, lalu muat ulang (tambahkan ?v=n). Selalu cek tampilan setelah deploy.
 18. **Tenaga Kependidikan v3 (19 Nov 00.45, final draf)**: template DISAMAKAN dengan Pengurus Departemen (label jabatan biru tebal di atas, nama navy tebal, gelar abu-abu di baris sendiri, foto 4:5). Tinggi label jabatan seragam per kelompok (Koordinator 5 baris, Teknisi/Staf 2 baris) -> nama sejajar antar kolom (diukur). Konfirmasi user: ejaan 'Winarno' benar; Budiyono boleh tampil dengan dua lab. Tipografi diset native di widget (bukan hanya CSS) agar tampil benar di editor.
+19. **Fasilitas Umum (v1 id 1693, 19 Nov 2026)**: bento grid berfoto, 3 bagian (Departemen, Fakultas Teknik, UGM). Ruang Tunggu diganti Co-working Space. Kartu menaut ke situs FT UGM/Ditmawa (tab eksternal). Gambar dari situs FT/Ditmawa (bukan Unsplash), skrip `docs/deploy-ugm/revisi/fasilitas.js` (`deployFasilitas(halamanId, sha)`) mengunggah dari `data/ugm/fasilitas/`. Catatan: kartu Perpustakaan UGM masih memakai foto ruang FT (placeholder). Setelah deploy: force-save CSS dari editor. Mobile belum dicek.
