@@ -1,5 +1,5 @@
 // Struktur Organisasi (revisi dosen 18 Nov 2026: resolusi). Bagan digambar ulang sebagai SVG vektor (tajam di semua ukuran), warna tema.
-// Diuji di v1 (halaman 1620). tf.ugm.ac.id: tab wp-admin biasa -> await deployStruktur(16890)
+// Diuji di v1 (halaman 1620). tf.ugm.ac.id: tab wp-admin biasa -> await deployStruktur(16890) ; lalu di editor halaman: nolPadding() (sejarah.js)
 window.deployStruktur = async function (halamanId) {
   if (!window.R) { const t = await (await fetch('https://raw.githubusercontent.com/chilmion/dtntf-publikasi/main/docs/deploy-ugm/rancang.js', {cache: 'no-store'})).text(); (0, eval)(t); }
   const {Banner, Sec, Head, Grid, Card, H, Pg, B, C, crumb, wd, simpan, T} = R;
@@ -35,10 +35,35 @@ window.deployStruktur = async function (halamanId) {
   s += tx(300, 327, ['Akademik dan Jaminan Mutu'], '#1A2C43', 11.5, 600);
   s += tx(1000, 312, ['Penelitian'], '#1A2C43', 11.5, 600);
   const svg = '<div class="dt-bagan"><svg viewBox="0 0 1100 770" role="img" aria-label="Bagan struktur organisasi Departemen Teknik Nuklir dan Teknik Fisika" font-family="Plus Jakarta Sans, Barlow, sans-serif"><defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1A2C43"/></marker></defs>' + s + '</svg></div><style>.dt-bagan{overflow-x:auto;-webkit-overflow-scrolling:touch}.dt-bagan svg{display:block;width:100%;min-width:760px;height:auto}</style>';
-  const prodi = [['S1 Teknik Nuklir', 'Program sarjana teknologi nuklir.', '/prodi/'], ['S1 Teknik Fisika', 'Program sarjana fisika terapan.', '/prodi-s1-teknik-fisika/'], ['IUP Teknik Nuklir', 'Program sarjana internasional.', '/iup-teknik-nuklir/'], ['Magister Teknik Fisika', 'Program magister.', '/program-studi-magister-teknik-fisika/']];
+  // Kartu program studi bergaya bento (foto latar + gradasi, ukuran 62/36 bergantian). Foto = Unsplash (ilustrasi), diunggah sekali ke pustaka situs.
+  const FOTO = {tn: '1630142895963-6996ae6b3a5b', tf: '1781330189305-d92d518dc28d', iup: '1766297247924-6638d54e7c89', mtf: '1759328381007-64559a862aa6'};
+  const U = JSON.parse(localStorage.getItem('__prodiFoto') || '{}');
+  for (const [k, id] of Object.entries(FOTO)) {
+    if (U[k]) continue;
+    const bl = await (await fetch('https://images.unsplash.com/photo-' + id + '?w=1200&fm=jpg&q=78&fit=max')).blob();
+    const j = await (await fetch('/wp-json/wp/v2/media', {method: 'POST', headers: {'X-WP-Nonce': wpApiSettings.nonce, 'Content-Disposition': 'attachment; filename="prodi-' + k + '.jpg"', 'Content-Type': 'image/jpeg'}, body: bl})).json();
+    if (!j.id) throw new Error('unggah foto gagal ' + k); U[k] = {id: j.id, url: j.source_url}; localStorage.setItem('__prodiFoto', JSON.stringify(U));
+  }
+  const Z = [0, 0, 0, 0];
+  const PR = [
+    {n: 'S1 Teknik Nuklir', d: 'Program sarjana teknologi nuklir.', u: '/prodi/', f: U.tn, w: 62, h: 360},
+    {n: 'S1 Teknik Fisika', d: 'Program sarjana fisika terapan.', u: '/prodi-s1-teknik-fisika/', f: U.tf, w: 36, h: 360},
+    {n: 'IUP Teknik Nuklir', d: 'Program sarjana internasional.', u: '/iup-teknik-nuklir/', f: U.iup, w: 36, h: 300},
+    {n: 'Magister Teknik Fisika', d: 'Program magister.', u: '/program-studi-magister-teknik-fisika/', f: U.mtf, w: 62, h: 300}];
+  const arrow = '<span class="dt-arr"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#073C64" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span><style>.dt-arr{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border-radius:50%;background:#C8E86D;transition:transform .3s}</style>';
+  const card = p => {
+    const h = H(p.n, 'h3', {dark: true}); h.settings.link = {url: p.u, is_external: '', nofollow: '', custom_attributes: ''};
+    Object.assign(h.settings, {typography_font_size: {unit: 'px', size: 30, sizes: []}, typography_font_size_mobile: {unit: 'px', size: 26, sizes: []}, typography_font_weight: '600'});
+    const d = Pg(p.d, {dark: true, css: 'selector,selector p{font-size:17px;margin:0;color:rgba(255,255,255,.92)}'});
+    const a = wd('html', {html: arrow, custom_css: 'selector{position:absolute;top:24px;right:24px;z-index:6}'});
+    const c = C([a, h, d], {dir: 'column', justify: 'flex-end', gap: 8, pad: [28, 28, 28, 28], padM: [22, 20, 22, 20], radius: 20, minH: p.h, w: p.w, wT: 100, wM: 100, css: 'selector{position:relative;overflow:hidden;transition:transform .35s ease,box-shadow .35s ease}selector:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(7,60,100,.28)}selector:hover .dt-arr{transform:translateX(4px)}selector .elementor-heading-title a{color:#fff}selector .elementor-heading-title a::after{content:"";position:absolute;inset:0;z-index:5}'});
+    Object.assign(c.settings, {background_background: 'classic', background_image: {url: p.f.url, id: p.f.id, size: '', source: 'library'}, background_position: 'center center', background_size: 'cover', background_overlay_background: 'gradient', background_overlay_color: 'rgba(7,60,100,0.10)', background_overlay_color_b: 'rgba(7,25,50,0.86)', background_overlay_gradient_angle: {unit: 'deg', size: 180, sizes: []}, background_overlay_color_stop: {unit: '%', size: 25, sizes: []}, background_overlay_opacity: {unit: 'px', size: 1, sizes: []}});
+    return c;
+  };
+  const row = (a, b) => C([card(a), card(b)], {dir: 'row', dirT: 'column', gap: 20, pad: Z, wrap: true, align: 'stretch'});
   const els = [Banner('Struktur Organisasi', crumb('Struktur Organisasi', 'Tentang Kami')),
     Sec([Head('Bagan organisasi', 'Susunan organisasi Departemen Teknik Nuklir dan Teknik Fisika, Fakultas Teknik UGM.'), Card([wd('html', {html: svg})], {pad: [24, 24, 24, 24], padM: [16, 12, 16, 12]})], {pb: 40}),
-    Sec([Head('Program studi di bawah departemen'), Grid(prodi.map(p => Card([H(p[0], 'h3'), Pg(p[1], {small: true, color: '#4A4A4A'}), B('Lihat program studi', p[2], {outline: true})], {gap: 12})), {cols: 4, gap: 20})], {bg: T.bg, pt: 56, pb: 56})];
+    Sec([Head('Program studi di bawah departemen'), C([row(PR[0], PR[1]), row(PR[2], PR[3])], {dir: 'column', gap: 20, pad: Z})], {bg: T.bg, pt: 56, pb: 56})];
   const zero = (a, d) => a.forEach(e => { if (e.elType === 'container' && d > 0 && !e.settings.padding) e.settings.padding = {unit: 'px', top: '0', right: '0', bottom: '0', left: '0', isLinked: true}; zero(e.elements || [], d + 1); }); zero(els, 0);
   return await simpan(halamanId, els, {});
 };
