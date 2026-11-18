@@ -45,9 +45,9 @@ Status: [ ] belum, [~] sedang, [x] selesai. "?" = perlu keputusan/bahan dari jur
 - [ ] E3. Mitra: logo + konten kerja sama yang ditonjolkan (BPBD, PLN, BRIN, ...) (? logo dan teks)
 
 ## F. Profil dosen (CV) & data SINTA
-- [ ] F1. Hapus: jabatan fungsional, institusi, telepon institusi, riwayat pekerjaan, penghargaan, tulisan "DATA SINTA"
-- [ ] F2. "Pengalaman kerja sama dan penelitian" jadi "Pengalaman kerja sama"
-- [ ] F3. Rupiah di penelitian dan PPM dari SINTA tidak ditampilkan (termasuk halaman Pengabdian, ?)
+- [x] F1 (v1 selesai untuk 38 profil, tf.ugm belum). Hapus: jabatan fungsional, institusi, telepon institusi, riwayat pekerjaan, penghargaan, tulisan "DATA SINTA"
+- [x] F2. "Pengalaman kerja sama dan penelitian" jadi "Pengalaman kerja sama"
+- [x] F3. Rupiah di penelitian dan PPM dari SINTA tidak ditampilkan (termasuk halaman Pengabdian, ?)
 
 ## Catatan konflik dengan keputusan lama (konfirmasi)
 - Akreditasi dulu di Tentang Kami; sekarang ke Pendidikan.
@@ -81,5 +81,6 @@ Prasyarat: staf lab login di komputer jurusan (Chrome Windows). Header tf.ugm = 
 10. **Pengurus Departemen**: `docs/deploy-ugm/revisi/pengurus.js` -> `deployPengurus(<id pengurus-departemen-v2>)`. Hierarki: Kadep+Sekdep 2 kolom (foto 200px, panel navy); Kaprodi 3 kolom (150px); Sekprodi 2 kolom (124px); Kalab 5 = 3+2 (104px); Koordinator KBK 4 kolom (98px). Foto close up (object-position atas). Data email Kalab TEN di manual/pengurus.csv salah (sama dengan Sekdep) -> pakai a_agung@ugm.ac.id.
 
 **WAJIB setelah tiap deploy halaman**: di tab editor halaman jalankan `await kernFix()` (`docs/deploy-ugm/revisi/kern.js`) agar jarak antar kata normal (kit Elementor memberi word-spacing 6px pada h1-h3), dan `await nolPadding()` (sejarah.js). Sudah dijalankan di v1 untuk Sejarah, Visi Misi, Struktur, Akreditasi, Pengurus.
-11. **Dosen Tetap**: `docs/deploy-ugm/revisi/dosen-tetap.js` -> di tab EDITOR halaman daftar dosen: `await dosenTetap()` lalu `await kernFix()`. Kartu mendatar (foto 112x140 kiri), sitasi dihapus, tombol "Profil SINTA" (pil outline) membuka profil SINTA penuh di tab baru; 38 dosen punya sinta_id. Simpan halaman ini lambat (~40 dtk); tunggu hingga status 'ok'.
+11. **Dosen Tetap (versi ringkas, SESUAI PERMINTAAN: layout asli tidak diubah)**: `docs/deploy-ugm/revisi/dosen-tetap.js` -> di tab EDITOR halaman daftar dosen: `await dosenTetap()` lalu `await kernFix()`. Hanya: tombol "Profil SINTA" (buka profil SINTA penuh, tab baru), jumlah sitasi dihapus, foto dicrop 4:5 fokus wajah (ukuran kartu/foto tetap). Percobaan awal kartu mendatar/foto kecil DIBATALKAN (restore revisi 1840). Simpan halaman ini lambat (beberapa menit).
 12. **Temuan tf.ugm.ac.id/new (18 Nov malam)**: Home v2 juga kena word-spacing kit (h1 6px, beberapa h3 4px) -> jalankan kernFix di Home v2 (16487) dan header jika perlu.
+13. **Profil dosen (F1-F3)**: widget/katur-profil-cv.html sudah diubah di repo; halaman yang sudah terpasang ditambal lewat `docs/deploy-ugm/revisi/profil-dosen.js` -> `await patchProfilDosen('semua', <daftar slug dosen.csv>)` di tab wp-admin (mengambil dokumen dari editor lalu simpan; 13 penggantian per halaman). Di v1 sudah jalan untuk 38 profil. Bagian dinomori ulang 1-9; tanpa jabatan fungsional, institusi, telepon, riwayat pekerjaan, penghargaan, 'Data SINTA', rupiah. Di tf.ugm.ac.id id halaman beda (cari lewat slug).
