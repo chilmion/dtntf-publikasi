@@ -25,7 +25,7 @@ Status: [ ] belum, [~] sedang, [x] selesai. "?" = perlu keputusan/bahan dari jur
 - [x] B1. Footer: Terhubung Bersama Kami (IG dtntf_ugm, YouTube UCO-95rJvaOPC_ujUxn5BK7w, FB dtntf.ft.ugm, X dtntf_ugm) + peta Google kecil di sampingnya (embed -7.7662333,110.3728); Layanan: Kontak diganti Layanan Akademik
 
 ## C. Tentang Kami
-- [ ] C1. Sejarah: timeline peta jalan dalam satu gambar; periode "2022–Sekarang: Ekspansi Global dan Nasional" (melebarkan kerja sama dengan perusahaan dan universitas); font tahun lebih besar, teks lebih tebal
+- [x] C1 (v1 selesai, tf.ugm belum). Sejarah: timeline peta jalan dalam satu gambar; periode "2022–Sekarang: Ekspansi Global dan Nasional" (melebarkan kerja sama dengan perusahaan dan universitas); font tahun lebih besar, teks lebih tebal
 - [ ] C2. Visi Misi: ukuran dan kontras font, visibilitas
 - [ ] C3. Struktur organisasi: resolusi gambar (? berkas asli resolusi tinggi)
 - [ ] C4. Sertifikat akreditasi: 5 slot (? berkas sertifikat)
@@ -60,3 +60,9 @@ Status: [ ] belum, [~] sedang, [x] selesai. "?" = perlu keputusan/bahan dari jur
 ## Peta halaman web jurusan (dari menu publik tf.ugm.ac.id/new/)
 Beranda /new/; Sejarah /sejarah-v2/; Visi dan Misi /visi-dan-misi-v2/; Struktur /struktur-organisasi/; Akreditasi /akreditasi/; Panduan Akademik /panduan-akademik-prodi-s1-teknik-nuklir/; Pengurus /pengurus-departemen-v2/; Dosen Tetap /daftar-dosen-departemen-teknik-nuklir-dan-teknik-fisika-ft-ugm/; Tenaga Kependidikan /tenaga-kependidikan-v3/; Laboratorium /laboratorium-v2/; Fasilitas Umum /fasilitas-umum/; Kalender /kalender-akademik-v2/; Prodi TF /prodi-s1-teknik-fisika/; Prodi TN /prodi/; IUP /iup-teknik-nuklir/; Magister /program-studi-magister-teknik-fisika/; Layanan Akademik /layanan-akademik/; Publikasi dan Riset /publikasi-dan-riset/; KBK /kbk-v2/ + /kbk-enet/ /kbk-proses-nuklir-v2/ /kbk-multifisika-v2/ /kbk-instrumentasi-v2/; Mitra /mitra/; Galeri /galeri/; Mitra Pengabdian /mitra-pengabdian/; Pengabdian /pengabdian/; Kemahasiswaan /kemahasiswaan/; Kontak /kontak-v2/.
 Catatan: menu tf.ugm.ac.id masih lama (belum ada revisi A: Akreditasi di Tentang Kami, Kontak di bawah Layanan).
+
+## Hasil perbandingan v1 vs web jurusan (18 Nov malam)
+- Halaman dalam jurusan dibangun ulang dengan `docs/deploy-ugm/rancang.js` (Banner, Sec, Card, Grid; skala 48/36/22/17). v1 masih tampilan lama. Cara menyamakan di v1: muat rancang.js di tab wp-admin v1 lalu `R.simpan(<id halaman v1>, elemen)`.
+- Halaman yang TIDAK ada di v1: IUP Teknik Nuklir, Magister TF, Layanan Akademik (di jurusan ada).
+- Id halaman v1: sejarah 779, visi-dan-misi 325, struktur 1620, akreditasi 727, panduan 538, pengurus 368, dosen tetap 1195, tenaga kependidikan 1632, laboratorium 514, fasilitas umum 1693, kalender 1707, prodi TF 1763, prodi TN 688, KBK 1920 (+1921, 1924, 1925, 1928), mitra 1750, galeri 1733, pengabdian 1917, kemahasiswaan 1721.
+- Sejarah v1 dibangun ulang (peta jalan HTML satu blok + 6 periode + periode 2022-Sekarang "Ekspansi Global dan Nasional"; typo asli diperbaiki: Kerjsama, penekakan, 20 16, 1999/200). Detail 2022-Sekarang perlu dilengkapi jurusan.
