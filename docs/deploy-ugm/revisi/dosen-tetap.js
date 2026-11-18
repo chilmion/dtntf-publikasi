@@ -23,6 +23,7 @@ window.dosenTetap = async function () {
     if (e.elType === 'container' && /kt-kartu-dosen/.test(cls)) {
       const kids = e.elements || [], img = kids.find(k => k.widgetType === 'image'), inner = kids.find(k => k.elType === 'container');
       const html = inner && inner.elements.find(k => k.widgetType === 'html'), btn = inner && inner.elements.find(k => k.widgetType === 'button');
+      set(e.id, {width: {unit: '%', size: 32.2, sizes: []}, width_tablet: {unit: '%', size: 48.5, sizes: []}, width_mobile: {unit: '%', size: 100, sizes: []}});
       let slug = ''; if (btn) { const u = (btn.settings.link || {}).url || ''; const last = u.replace(/\/$/, '').split('/').pop(); slug = BYID[last] || (SINTA[last] ? last : ''); }
       if (img) { const s = {custom_css: 'selector img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 12%}'}; if (M[slug]) s.image = {url: M[slug].url, id: M[slug].id, size: '', source: 'library'}; else tanpaFoto.push(slug); set(img.id, s); }
       if (inner) set(inner.id, {min_height: px(0), flex_justify_content: 'flex-start', padding: {unit: 'px', top: '16', right: '20', bottom: '20', left: '20', isLinked: false}, flex_gap: {column: '6', row: '6', isLinked: true, unit: 'px', size: 6}});
@@ -33,6 +34,7 @@ window.dosenTetap = async function () {
         custom_css: 'selector .elementor-button{width:44px;height:44px;padding:0;display:inline-flex;align-items:center;justify-content:center;transition:transform .25s,background .25s}selector .elementor-button-icon{margin:0}selector .elementor-button:hover{background:#073C64;color:#fff;transform:translateX(3px)}selector .elementor-button-icon svg,selector .elementor-button-icon i{fill:currentColor}'});
       n++;
     }
+    if (e.elType === 'container' && (e.elements || []).some(k => /kt-kartu-dosen/.test((k.settings && k.settings.css_classes) || ''))) set(e.id, {padding: P4(0), flex_gap: {column: '16', row: '16', isLinked: true, unit: 'px', size: 16}}); // grid kartu sejajar kolom cari
     if (e.elements) walk(e.elements);
   });
   walk(elementor.config.initial_document.elements);
