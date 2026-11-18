@@ -25,7 +25,7 @@ window.deployPengurus = async function (halamanId) {
     sec('Pimpinan Departemen', [row(D.t1, 't1', 2, 24)], T.white),
     sec('Ketua Program Studi', [row(D.t2, 't2', 3, 20)], T.bg),
     sec('Sekretaris Program Studi', [row(D.t3, 't3', 2, 20)], T.white),
-    sec('Kepala Laboratorium', [row(D.t4.slice(0, 3), 't4', 3, 20), row(D.t4.slice(3), 't4', 3, 20, 'center')], T.bg),
+    sec('Kepala Laboratorium', [row(D.t4.slice(0, 3), 't4', 3, 20), row(D.t4.slice(3), 't4', 3, 20)], T.bg),
     sec('Koordinator Kelompok Bidang Keahlian (KBK)', [row(D.t5, 't5', 4, 20)], T.white)];
   const zero = (a, d) => a.forEach(e => { if (e.elType === 'container' && d > 0 && !e.settings.padding) e.settings.padding = {unit: 'px', top: '0', right: '0', bottom: '0', left: '0', isLinked: true}; zero(e.elements || [], d + 1); }); zero(els, 0);
   return await simpan(halamanId, els, {});
