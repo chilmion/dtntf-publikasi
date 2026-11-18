@@ -1,0 +1,142 @@
+<!-- =========================================================================
+     MITRA DTNTF — logo mitra, sorotan kerja sama (bento), kabar kerja sama — gaya v1.katur.online
+     Elementor > widget "HTML". Ganti di <div>:
+       data-base : URL folder data di GitHub Pages (berisi mitra/mitra.json, mitra/artikel.json, logo, foto)
+     Data: data/mitra/mitra.json (logo + sorotan) dan data/mitra/artikel.json (kabar; sama dengan yang dipakai halaman Pengabdian).
+     ========================================================================= -->
+
+<div class="dtntf-kt kt-mitra" data-base="https://NAMA-AKUN.github.io/dtntf-profil/data">
+  <div class="kt-memuat">Memuat data mitra…</div>
+</div>
+
+<style>
+.dtntf-kt{
+  --kt-navy:var(--e-global-color-870ef80,#073C64);
+  --kt-navy2:var(--e-global-color-bf890a9,#1A2C43);
+  --kt-lime:var(--e-global-color-15e26ab,#C8E86D);
+  --kt-ink:var(--e-global-color-primary,#161616);
+  --kt-text:var(--e-global-color-text,#636363);
+  --kt-abu:var(--e-global-color-1e38924,#F5F5F5);
+  --kt-line:var(--e-global-color-accent,#E3E3E3);
+  --kt-r:10px;
+  --kt-f-judul:"Plus Jakarta Sans",sans-serif; --kt-f-teks:"Barlow",sans-serif;
+  font-family:var(--kt-f-teks); font-size:16px; line-height:1.5; font-weight:400;
+  color:var(--kt-text); max-width:1180px; margin:0 auto;
+}
+.dtntf-kt *{box-sizing:border-box}
+.dtntf-kt a{color:inherit}
+.dtntf-kt .kt-memuat,.dtntf-kt .kt-galat{padding:28px;text-align:center;background:var(--kt-abu);border-radius:var(--kt-r)}
+.dtntf-kt .kt-galat{color:#8a2b2b;background:#fdf1f1}
+.dtntf-kt .kt-h2{font-family:var(--kt-f-judul);font-weight:400;font-size:40px;line-height:1.2em;letter-spacing:-1.7px;word-spacing:0;color:var(--kt-ink);margin:0 0 8px}
+.dtntf-kt .kt-lead{margin:0 0 24px;font-size:17px}
+.dtntf-kt .kt-blok{margin-top:72px}
+.dtntf-kt .kt-blok:first-child{margin-top:0}
+
+/* logo mitra: kotak sama besar, abu-abu lalu berwarna saat disorot */
+.dtntf-kt .kt-logo-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.dtntf-kt .kt-logo{display:flex;align-items:center;justify-content:center;aspect-ratio:3/2;padding:22px;background:#fff;border:1px solid var(--kt-line);border-radius:var(--kt-r);text-align:center}
+.dtntf-kt .kt-logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.72;transition:filter .25s,opacity .25s}
+.dtntf-kt .kt-logo:hover img{filter:none;opacity:1}
+.dtntf-kt .kt-logo span{font:600 16px/1.3 var(--kt-f-judul);letter-spacing:-.3px;color:var(--kt-navy)}
+
+/* sorotan: bento (foto + gradien navy + lingkaran lime) */
+.dtntf-kt .kt-sorot{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:220px;gap:16px}
+.dtntf-kt .kt-so{position:relative;overflow:hidden;border-radius:var(--kt-r);background:var(--kt-navy2);color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:22px;grid-column:span 3}
+.dtntf-kt .kt-so.besar{grid-column:span 6;grid-row:span 2;padding:28px}
+.dtntf-kt .kt-so.l4{grid-column:span 4}
+.dtntf-kt .kt-so img.kt-so-foto{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.dtntf-kt .kt-so:hover img.kt-so-foto{transform:scale(1.04)}
+.dtntf-kt .kt-so.foto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,60,100,.06) 30%,rgba(7,25,50,.9) 100%)}
+.dtntf-kt .kt-so>*:not(img){position:relative;z-index:2}
+.dtntf-kt .kt-so h3{font-family:var(--kt-f-judul);font-weight:600;font-size:20px;line-height:1.2;letter-spacing:-.6px;margin:0 0 6px;color:inherit;word-spacing:0}
+.dtntf-kt .kt-so.besar h3{font-size:30px;letter-spacing:-1.1px}
+.dtntf-kt .kt-so p{margin:0;font-size:14.5px;line-height:1.4;opacity:.92;color:inherit;max-width:520px}
+.dtntf-kt .kt-so.navy{background:var(--kt-navy)}
+.dtntf-kt .kt-so.lime{background:var(--kt-lime);color:var(--kt-navy2)}
+.dtntf-kt .kt-so.putih{background:#fff;color:var(--kt-ink);border:1px solid var(--kt-line)}
+.dtntf-kt .kt-so.putih p{color:var(--kt-text)}
+.dtntf-kt .kt-so-logo{position:absolute!important;left:22px;top:20px;background:#fff;border-radius:8px;padding:8px 12px;height:44px;display:flex;align-items:center}
+.dtntf-kt .kt-so-logo img{height:100%;width:auto;display:block}
+.dtntf-kt .kt-so-panah{position:absolute!important;right:16px;top:16px;width:38px;height:38px;border-radius:50%;background:var(--kt-lime);color:var(--kt-navy2);display:flex;align-items:center;justify-content:center}
+.dtntf-kt .kt-so-panah svg{width:16px;height:16px}
+.dtntf-kt .kt-so h3 a{text-decoration:none}
+.dtntf-kt .kt-so h3 a::after{content:"";position:absolute;inset:0;z-index:3}
+
+/* kabar kerja sama: kartu sama besar, gaya situs FT UGM */
+.dtntf-kt .kt-kabar{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.dtntf-kt .kt-kb{display:flex;flex-direction:column;background:#fff;border:1px solid var(--kt-line);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;transition:border-color .2s,box-shadow .2s}
+.dtntf-kt .kt-kb:hover{border-color:var(--kt-navy);box-shadow:0 8px 24px rgba(7,60,100,.1)}
+.dtntf-kt .kt-kb-foto{aspect-ratio:16/10;background:var(--kt-abu);overflow:hidden}
+.dtntf-kt .kt-kb-foto img{width:100%;height:100%;object-fit:cover;display:block}
+.dtntf-kt .kt-kb-isi{display:flex;flex-direction:column;gap:8px;padding:18px 20px 20px;flex:1}
+.dtntf-kt .kt-kb time{font-size:13px;color:var(--kt-text)}
+.dtntf-kt .kt-kb h3{font:500 18px/1.35 var(--kt-f-judul);letter-spacing:-.4px;color:var(--kt-ink);margin:0;word-spacing:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;min-height:calc(1.35em * 3)}
+.dtntf-kt .kt-kb .kt-baca{margin-top:auto;padding-top:6px;font:600 12px var(--kt-f-teks);letter-spacing:.8px;text-transform:uppercase;color:var(--kt-navy)}
+
+@media (max-width:1024px){
+  .dtntf-kt .kt-logo-grid{grid-template-columns:repeat(4,1fr)}
+  .dtntf-kt .kt-kabar{grid-template-columns:repeat(2,1fr)}
+  .dtntf-kt .kt-sorot{grid-template-columns:repeat(6,1fr)}
+  .dtntf-kt .kt-so,.dtntf-kt .kt-so.l4{grid-column:span 3}
+  .dtntf-kt .kt-so.besar{grid-column:1/-1;grid-row:span 2}
+}
+@media (max-width:767px){
+  .dtntf-kt .kt-h2{font-size:28px}
+  .dtntf-kt .kt-blok{margin-top:48px}
+  .dtntf-kt .kt-logo-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+  .dtntf-kt .kt-logo{padding:16px}
+  .dtntf-kt .kt-sorot{grid-template-columns:1fr;grid-auto-rows:210px}
+  .dtntf-kt .kt-so,.dtntf-kt .kt-so.l4,.dtntf-kt .kt-so.besar{grid-column:1/-1;grid-row:span 1}
+  .dtntf-kt .kt-so.besar h3{font-size:24px}
+  .dtntf-kt .kt-kabar{grid-template-columns:1fr}
+}
+</style>
+
+<script>
+(function () {
+  var akar = document.currentScript.parentNode.querySelector('.kt-mitra')
+          || document.querySelector('.kt-mitra:not([data-kt-siap])');
+  if (!akar || akar.dataset.ktSiap) return;
+  akar.dataset.ktSiap = '1';
+  var BASE = (akar.getAttribute('data-base') || '').replace(/\/$/, '');
+  var esc = function (s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  };
+  var ambil = function (u) {
+    return fetch(u, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+  };
+  var BULAN = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+  var tgl = function (s) { var p = String(s || '').split('-'); return p.length === 3 ? (+p[2]) + ' ' + BULAN[+p[1] - 1] + ' ' + p[0] : ''; };
+  var PANAH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg>';
+
+  Promise.all([ambil(BASE + '/mitra/mitra.json'), ambil(BASE + '/mitra/artikel.json')]).then(function (r) { render(r[0], r[1]); })
+    .catch(function (e) { akar.innerHTML = '<div class="kt-galat">Data mitra belum tersedia. (' + esc(e.message) + ')</div>'; });
+
+  function render(m, a) {
+    var h = [];
+    h.push('<section class="kt-blok"><h2 class="kt-h2">Mitra kerja sama</h2><p class="kt-lead">Industri, lembaga pemerintah, dan perguruan tinggi yang bekerja sama dengan DTNTF dalam pendidikan, penelitian, dan pengabdian.</p>' +
+      '<div class="kt-logo-grid">' + (m.logo || []).map(function (l) {
+        return '<div class="kt-logo" title="' + esc(l.nama) + '">' + (l.gambar ? '<img src="' + esc(BASE + '/' + l.gambar) + '" alt="' + esc(l.nama) + '" loading="lazy">' : '<span>' + esc(l.nama) + '</span>') + '</div>';
+      }).join('') + '</div></section>');
+
+    h.push('<section class="kt-blok"><h2 class="kt-h2">Sorotan kerja sama</h2><p class="kt-lead">Kerja sama yang sedang berjalan dan hasil yang sudah terlihat.</p><div class="kt-sorot">' +
+      (m.sorotan || []).map(function (s) {
+        var kelas = 'kt-so' + (s.gambar ? ' foto' : '') + (s.ukuran === 'besar' ? ' besar' : '') + (s.lebar === 4 ? ' l4' : '') + (s.warna ? ' ' + s.warna : '');
+        var judul = s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.judul) + '</a>' : esc(s.judul);
+        return '<div class="' + kelas + '">' + (s.gambar ? '<img class="kt-so-foto" src="' + esc(BASE + '/' + s.gambar) + '" alt="" loading="lazy">' : '') +
+          (s.logo ? '<span class="kt-so-logo"><img src="' + esc(BASE + '/' + s.logo) + '" alt=""></span>' : '') +
+          (s.url ? '<span class="kt-so-panah" aria-hidden="true">' + PANAH + '</span>' : '') +
+          '<h3>' + judul + '</h3><p>' + esc(s.ket) + '</p></div>';
+      }).join('') + '</div></section>');
+
+    h.push('<section class="kt-blok"><h2 class="kt-h2">Kabar kerja sama</h2><p class="kt-lead">Kegiatan terbaru bersama mitra.</p><div class="kt-kabar">' +
+      (a.artikel || []).map(function (x) {
+        return '<a class="kt-kb" href="' + esc(x.url) + '" target="_blank" rel="noopener"><div class="kt-kb-foto"><img src="' + esc(BASE + '/' + x.gambar) + '" alt="" loading="lazy"></div>' +
+          '<div class="kt-kb-isi"><time datetime="' + esc(x.tanggal) + '">' + tgl(x.tanggal) + '</time><h3>' + esc(x.judul) + '</h3><span class="kt-baca">Baca selengkapnya</span></div></a>';
+      }).join('') + '</div></section>');
+    akar.innerHTML = h.join('');
+  }
+})();
+</script>
