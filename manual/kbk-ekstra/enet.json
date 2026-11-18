@@ -1,0 +1,29 @@
+{
+ "galeri": [
+  {
+   "gambar": "kbk/galeri-enet-1.jpg",
+   "judul": "Dokumentasi riset",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-enet-2.jpg",
+   "judul": "Laboratorium",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-enet-3.jpg",
+   "judul": "Kegiatan penelitian",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-enet-4.jpg",
+   "judul": "Pengujian",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-enet-5.jpg",
+   "judul": "Diskusi riset",
+   "contoh": true
+  }
+ ]
+}

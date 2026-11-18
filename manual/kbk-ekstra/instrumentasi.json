@@ -87,7 +87,7 @@
     "thomas-oka-pratama",
     "yakub-fahim-luckyarno",
     "sentagi-sesotya-utami",
-    "Kholid Ridwan",
+    "m-kholid-ridwan",
     "rachmawan-budiarto",
     "dwi-joko-suroso"
    ],
@@ -232,6 +232,40 @@
     }
    ],
    "tema": 1
+  }
+ ],
+ "galeri": [
+  {
+   "gambar": "kbk/galeri-instrumentasi-1.jpg",
+   "judul": "Rapat koordinasi tim"
+  },
+  {
+   "gambar": "kbk/galeri-instrumentasi-2.jpg",
+   "judul": "Pengujian panel kontrol"
+  },
+  {
+   "gambar": "kbk/galeri-instrumentasi-3.jpg",
+   "judul": "Model 3D gedung"
+  },
+  {
+   "gambar": "kbk/galeri-instrumentasi-4.jpg",
+   "judul": "Smart switch di ruang lab"
+  },
+  {
+   "gambar": "kbk/galeri-instrumentasi-5.jpg",
+   "judul": "Pengujian sensor di ruang akustik"
+  },
+  {
+   "gambar": "kbk/galeri-instrumentasi-6.jpg",
+   "judul": "Peta sebaran intensitas cahaya"
+  },
+  {
+   "gambar": "kbk/galeri-instrumentasi-7.jpg",
+   "judul": "Pemasangan perangkat ukur"
+  },
+  {
+   "gambar": "kbk/galeri-instrumentasi-8.jpg",
+   "judul": "Prototipe perangkat sensor"
   }
  ]
 }

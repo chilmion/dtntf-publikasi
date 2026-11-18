@@ -68,6 +68,8 @@ def _ekstra(kode, dosen):
         h["bidang"] = [{**b, "dosen": [org(x) for x in b.get("dosen", [])]} for b in e["bidang"]]
     if e.get("peta_jalan"):
         h["peta_jalan"] = {**e["peta_jalan"], "gambar": gambar(e["peta_jalan"].get("gambar"))}
+    if e.get("galeri"):
+        h["galeri"] = [{**g, "gambar": gambar(g.get("gambar"))} for g in e["galeri"]]
     if e.get("riset"):
         h["riset"] = [{**r, "tim": [org(x) for x in r.get("tim", [])], "ketua": org(r["ketua"]) if r.get("ketua") else None,
                        "gambar": gambar(r.get("gambar"))} for r in e["riset"]]

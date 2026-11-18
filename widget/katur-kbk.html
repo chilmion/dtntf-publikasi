@@ -183,7 +183,8 @@
 .dtntf-kt .kt-kartu{display:flex;flex-direction:column;background:#fff;border:1px solid var(--kt-line);border-radius:var(--kt-r);overflow:hidden;text-decoration:none;color:inherit}
 .dtntf-kt a.kt-kartu:hover{border-color:var(--kt-navy)}
 .dtntf-kt .kt-kartu-foto{position:relative;aspect-ratio:4/5;background:var(--kt-abu)}
-.dtntf-kt .kt-kartu-foto img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+.dtntf-kt .kt-kartu-foto{overflow:hidden}
+.dtntf-kt .kt-kartu-foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
 .dtntf-kt .kt-kartu-foto .kt-lencana{position:absolute;left:8px;top:8px;font-size:10px;padding:5px 9px}
 .dtntf-kt .kt-lencana{font:600 12px/1 var(--kt-f-teks);letter-spacing:.8px;text-transform:uppercase;background:var(--kt-lime);color:var(--kt-navy2);padding:7px 12px;border-radius:999px}
 .dtntf-kt .kt-kartu-isi{padding:12px 14px 14px;display:flex;flex-direction:column;gap:4px;flex:1}
@@ -237,6 +238,17 @@
 .dtntf-kt .kt-paten b{display:block;font-weight:500;color:var(--kt-ink)}
 .dtntf-kt .kt-paten{font-size:14px;color:var(--kt-text)}
 @media (max-width:1024px){.dtntf-kt .kt-tema-atas.berfoto{grid-template-columns:1fr}.dtntf-kt .kt-komp.kt-komp-bidang{grid-template-columns:1fr}}
+
+/* galeri riset: bento (kotak berbeda ukuran, keterangan di atas gradien navy) */
+.dtntf-kt .kt-galeri{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:190px;gap:16px}
+.dtntf-kt .kt-gal{position:relative;overflow:hidden;border-radius:var(--kt-r);background:var(--kt-navy2);margin:0}
+.dtntf-kt .kt-gal img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.dtntf-kt .kt-gal:hover img{transform:scale(1.04)}
+.dtntf-kt .kt-gal::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,60,100,0) 45%,rgba(7,25,50,.82) 100%);pointer-events:none}
+.dtntf-kt .kt-gal figcaption{position:absolute;left:18px;right:18px;bottom:14px;z-index:2;color:#fff;font:500 15px/1.3 var(--kt-f-teks)}
+.dtntf-kt .kt-gal.besar figcaption{font:400 22px/1.2 var(--kt-f-judul);letter-spacing:-.8px}
+.dtntf-kt .kt-gal .kt-contoh{position:absolute;right:12px;top:12px;z-index:2;font:600 11px/1 var(--kt-f-teks);letter-spacing:.6px;text-transform:uppercase;color:#7a5d00;background:#FFF6D6;border:1px dashed #D9B84A;border-radius:999px;padding:5px 9px}
+@media (max-width:767px){.dtntf-kt .kt-galeri{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;gap:12px}.dtntf-kt .kt-gal{grid-column:span 1!important;grid-row:span 1!important}.dtntf-kt .kt-gal.besar{grid-column:1/-1!important;grid-row:span 2!important}}
 </style>
 
 <script>
@@ -312,6 +324,21 @@
       '<details class="kt-lipat"><summary>Baca selengkapnya</summary>' + paras.slice(1).map(function (x) { return '<p style="margin:10px 0 0;max-width:900px">' + esc(x) + '</p>'; }).join('') + lengkap + '</details></div>';
   }
 
+  var POLA = { 3: [[8, 2], [4, 1], [4, 1]], 4: [[6, 2], [6, 1], [3, 1], [3, 1]], 5: [[6, 2], [3, 1], [3, 1], [3, 1], [3, 1]],
+               6: [[6, 2], [3, 1], [3, 1], [3, 1], [3, 1], [12, 1]], 7: [[6, 2], [3, 1], [3, 1], [3, 1], [3, 1], [4, 1], [4, 1], [4, 1]] };
+  function galeri(g) {
+    var n = Math.min(g.length, 8), pola = POLA[n >= 8 ? 7 : n];
+    if (!pola) return '';
+    var pakai = g.slice(0, n >= 8 ? 8 : n);
+    if (n >= 8) pola = [[6, 2], [3, 1], [3, 1], [3, 1], [3, 1], [4, 1], [4, 1], [4, 1]];
+    return '<div class="kt-galeri">' + pakai.slice(0, pola.length).map(function (x, i) {
+      return '<figure class="kt-gal' + (i === 0 ? ' besar' : '') + '" style="grid-column:span ' + pola[i][0] + ';grid-row:span ' + pola[i][1] + '">' +
+        '<img src="' + esc(BASE + '/' + x.gambar) + '" alt="' + esc(x.judul || 'Dokumentasi riset') + '" loading="lazy">' +
+        (x.contoh ? '<span class="kt-contoh" data-lorem="1">Gambar contoh</span>' : '') +
+        (x.judul ? '<figcaption>' + esc(x.judul) + '</figcaption>' : '') + '</figure>';
+    }).join('') + '</div>';
+  }
+
   function render(k) {
     var st = k.statistik || {}, h = [];
     // a. hero: teks di kiri, visual KBK di kanan
@@ -324,6 +351,7 @@
     // b. statistik bento
     h.push('<div class="kt-grid" style="margin-top:16px">' + stat('lime pola', st.dosen, 'Dosen anggota') + stat('putih', st.kompetensi, 'Bidang kompetensi') +
       stat('abu', st.tema, 'Tema penelitian') + stat('navy pola', st.publikasi, 'Publikasi terpilih') + '</div>');
+    if (k.galeri && k.galeri.length >= 3) h.push(sec('Galeri riset', galeri(k.galeri)));
     // c. kompetensi
     var bdg = k.bidang || [];
     var dosenLink = function (d) { return d.url ? '<a href="' + esc(d.url) + '">' + esc(d.nama) + '</a>' : esc(d.nama); };

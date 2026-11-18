@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-11-19T01:31:49+0700",
+ "diperbarui": "2026-11-19T02:03:04+0700",
  "kbk": [
   {
    "kode": "enet",
@@ -459,6 +459,33 @@
      ]
     }
    ],
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-enet-1.jpg",
+     "judul": "Dokumentasi riset",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-2.jpg",
+     "judul": "Laboratorium",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-3.jpg",
+     "judul": "Kegiatan penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-4.jpg",
+     "judul": "Pengujian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-5.jpg",
+     "judul": "Diskusi riset",
+     "contoh": true
+    }
+   ],
    "statistik": {
     "dosen": 12,
     "kompetensi": 6,
@@ -863,6 +890,33 @@
      ]
     }
    ],
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-proses-nuklir-1.jpg",
+     "judul": "Dokumentasi riset",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-2.jpg",
+     "judul": "Laboratorium",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-3.jpg",
+     "judul": "Kegiatan penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-4.jpg",
+     "judul": "Pengujian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-5.jpg",
+     "judul": "Diskusi riset",
+     "contoh": true
+    }
+   ],
    "statistik": {
     "dosen": 12,
     "kompetensi": 5,
@@ -977,6 +1031,33 @@
      "jumlah_publikasi": 0,
      "riset": [],
      "publikasi": []
+    }
+   ],
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-multifisika-1.jpg",
+     "judul": "Dokumentasi riset",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-2.jpg",
+     "judul": "Pengujian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-3.jpg",
+     "judul": "Ruang penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-4.jpg",
+     "judul": "Kegiatan penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-5.jpg",
+     "judul": "Diskusi riset",
+     "contoh": true
     }
    ],
    "statistik": {
@@ -1202,7 +1283,10 @@
        "url": "/sentagi-sesotya-utami/"
       },
       {
-       "nama": "Kholid Ridwan"
+       "slug": "m-kholid-ridwan",
+       "nama": "M. Kholid Ridwan",
+       "gelar": "S.T., M.Sc., Dr.",
+       "url": "/m-kholid-ridwan/"
       },
       {
        "slug": "rachmawan-budiarto",
@@ -1510,6 +1594,40 @@
     "gambar": "kbk/instrumentasi-peta-jalan.jpg",
     "alt": "Peta jalan penelitian BEMS berbasis soft sensor dan AI, 2018 sampai 2028"
    },
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-instrumentasi-1.jpg",
+     "judul": "Rapat koordinasi tim"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-2.jpg",
+     "judul": "Pengujian panel kontrol"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-3.jpg",
+     "judul": "Model 3D gedung"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-4.jpg",
+     "judul": "Smart switch di ruang lab"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-5.jpg",
+     "judul": "Pengujian sensor di ruang akustik"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-6.jpg",
+     "judul": "Peta sebaran intensitas cahaya"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-7.jpg",
+     "judul": "Pemasangan perangkat ukur"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-8.jpg",
+     "judul": "Prototipe perangkat sensor"
+    }
+   ],
    "statistik": {
     "dosen": 10,
     "kompetensi": 3,

@@ -1,0 +1,29 @@
+{
+ "galeri": [
+  {
+   "gambar": "kbk/galeri-proses-nuklir-1.jpg",
+   "judul": "Dokumentasi riset",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-proses-nuklir-2.jpg",
+   "judul": "Laboratorium",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-proses-nuklir-3.jpg",
+   "judul": "Kegiatan penelitian",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-proses-nuklir-4.jpg",
+   "judul": "Pengujian",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-proses-nuklir-5.jpg",
+   "judul": "Diskusi riset",
+   "contoh": true
+  }
+ ]
+}
