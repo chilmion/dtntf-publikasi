@@ -10,13 +10,16 @@ window.deployVisiMisi = async function (halamanId) {
     {k: 'Program Studi Magister', n: 'Magister Teknik Fisika', vis: 'Menjadi sebuah program studi magister yang mampu melakukan pendidikan, penelitian, dan pengabdian kepada masyarakat di bidang Teknik Fisika yang terfokus pada visi keilmuan teknologi sistem multifisika dengan berkualitas di tingkat internasional, yang unggul, dan berlandaskan jiwa Pancasila.', mis: ['Menyelenggarakan pendidikan, penelitian, dan pengabdian kepada masyarakat di bidang Teknik Fisika yang unggul dan berkualitas dan menjalin kerja sama dengan institusi lain di bidang Teknik Fisika secara nasional dan internasional.']}
   ];
   const big = (t, dark) => Pg(t, {css: 'selector,selector p{font-family:"Plus Jakarta Sans",sans-serif;font-size:28px;line-height:1.4;font-weight:500;letter-spacing:-.01em;color:' + (dark ? '#FFFFFF' : '#073C64') + ';margin:0}'});
-  const lab = (t, dark) => Pg('<strong>' + t + '</strong>', {css: 'selector,selector p,selector strong{font-family:Barlow,sans-serif;font-size:16px;font-weight:700;letter-spacing:.02em;color:' + (dark ? '#C8E86D' : '#003D79') + ';margin:0}'});
+  const lab = (t, dark) => Pg('<strong>' + t + '</strong>', {css: 'selector,selector p,selector strong{font-family:Barlow,sans-serif;font-family:"Plus Jakarta Sans",sans-serif;font-size:32px;font-weight:800;line-height:1.15;letter-spacing:-.02em;color:' + (dark ? '#C8E86D' : '#073C64') + ';margin:0}@media(max-width:767px){selector,selector p,selector strong{font-size:26px}}'});
   const ol = arr => Pg('<ol>' + arr.map(x => '<li>' + x + '</li>').join('') + '</ol>', {css: 'selector ol{margin:0;padding-left:1.4em}selector li{font-family:Barlow,sans-serif;font-size:19px;line-height:1.65;color:#161616;margin-bottom:14px;padding-left:.3em}selector li::marker{font-weight:700;color:#073C64}selector li:last-child{margin-bottom:0}'});
   const sec = E.map((e, i) => { const dep = i === 0;
-    const left = C([Pg(e.k, {css: 'selector,selector p{font-family:Barlow,sans-serif;font-size:16px;font-weight:600;color:#636363;margin:0}'}), H(e.n, 'h2')], {gap: 8, pad: Z, w: 28, wT: 100, wM: 100});
+    const left = C([Pg(e.k, {css: 'selector,selector p{font-family:Barlow,sans-serif;font-size:16px;font-weight:600;color:#636363;margin:0}'}), Object.assign(H(e.n, 'h2'), {}) ], {gap: 8, pad: Z, w: 28, wT: 100, wM: 100});
     const visi = C([lab('Visi', dep), big(e.vis, dep)], {gap: 14, pad: [32, 32, 32, 32], padM: [24, 22, 24, 22], radius: 16, bg: dep ? T.navy : '#FFFFFF', border: dep ? undefined : T.line});
     const misi = C([lab('Misi', false), ol(e.mis)], {gap: 14, pad: Z});
     const right = C([visi, misi], {gap: 28, pad: Z, w: 67, wT: 100, wM: 100});
     return Sec([C([left, right], {dir: 'row', dirT: 'column', gap: 40, pad: Z, align: 'flex-start', wrap: true})], {bg: i % 2 ? T.bg : T.white, pt: 56, pb: 56}); });
-  return await simpan(halamanId, [Banner('Visi dan Misi', crumb('Visi dan Misi', 'Tentang Kami')), ...sec], {});
+  /* judul bagian H2: 40/34/30 bold 700 navy (typography_typography custom) */
+  const els = [Banner('Visi dan Misi', crumb('Visi dan Misi', 'Tentang Kami')), ...sec];
+  els.forEach(function w(n){ (n.elements||[]).forEach(function(c){ if (c.widgetType==='heading' && c.settings.header_size==='h2') Object.assign(c.settings,{typography_typography:'custom',typography_font_family:'Plus Jakarta Sans',typography_font_weight:'700',typography_font_size:{unit:'px',size:40,sizes:[]},typography_font_size_tablet:{unit:'px',size:34,sizes:[]},typography_font_size_mobile:{unit:'px',size:30,sizes:[]},title_color:'#073C64'}); w(c); }); });
+  return await simpan(halamanId, els, {});
 };
