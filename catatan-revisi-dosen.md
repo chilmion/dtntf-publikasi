@@ -29,7 +29,7 @@ Status: [ ] belum, [~] sedang, [x] selesai. "?" = perlu keputusan/bahan dari jur
 - [x] C2 (v1 selesai, tf.ugm belum). Visi Misi: ukuran dan kontras font, visibilitas
 - [x] C3 (v1 selesai, tf.ugm belum). Struktur organisasi: resolusi gambar (? berkas asli resolusi tinggi)
 - [x] C4 (v1 selesai, tf.ugm belum). Sertifikat akreditasi: 5 slot (? berkas sertifikat)
-- [ ] C5. Pengurus Departemen: foto lebih kecil dan close up, tata letak mengacu web lama + contoh web FT; jumlah Kadep/Sekdep 2, Kaprodi 3, Sekprodi 2, Kalab 3 (baris "Kalab 2" ?), KBK 4 (? foto baru atau potong ulang)
+- [~] C5 (draf v1 selesai, menunggu revisi user; tf.ugm belum). Pengurus Departemen: foto lebih kecil dan close up, tata letak mengacu web lama + contoh web FT; jumlah Kadep/Sekdep 2, Kaprodi 3, Sekprodi 2, Kalab 3 (baris "Kalab 2" ?), KBK 4 (? foto baru atau potong ulang)
 - [ ] C6. Dosen Tetap: tautan langsung ke SINTA (lengkap), hapus jumlah sitasi di depan, foto lebih proporsional
 - [ ] C7. Tenaga Kependidikan: grup Koordinator / Teknisi Laboran / Staf, grid tanpa yang tertinggal
 - [ ] C8. Fasilitas umum: Ruang Tunggu jadi Co-working Space; tautan ke fasilitas FT dan UGM
@@ -78,3 +78,4 @@ Prasyarat: staf lab login di komputer jurusan (Chrome Windows). Header tf.ugm = 
 7. **Struktur Organisasi**: `docs/deploy-ugm/revisi/struktur.js` -> `deployStruktur(16890)`. Bagan digambar ulang sebagai SVG vektor (isi sama dengan gambar lama 1024x723); kartu prodi menaut ke /prodi/, /prodi-s1-teknik-fisika/, /iup-teknik-nuklir/, /program-studi-magister-teknik-fisika/ (dua terakhir belum ada di v1).
 8. **Struktur: kartu Program Studi** gaya bento (foto latar + gradasi navy, ukuran 62%/36% bergantian, panah lime, kartu seluruhnya bertaut). Sudah masuk struktur.js. Foto Unsplash (ilustrasi; IUP = dua peneliti di lab).
 9. **Akreditasi**: `docs/deploy-ugm/revisi/akreditasi.js` -> `deployAkreditasi(16893)`. 5 slot (kotak ke-6 kosong di jurusan dibuang), dikelompokkan 3 kolom: S1 TN (LAM, IABEE), S1 TF (LAM, IABEE), Magister (LAM); klik = berkas penuh. Lalu nolPadding() di editor halaman.
+10. **Pengurus Departemen**: `docs/deploy-ugm/revisi/pengurus.js` -> `deployPengurus(<id pengurus-departemen-v2>)`. Hierarki: Kadep+Sekdep 2 kolom (foto 200px, panel navy); Kaprodi 3 kolom (150px); Sekprodi 2 kolom (124px); Kalab 5 = 3+2 (104px); Koordinator KBK 4 kolom (98px). Foto close up (object-position atas). Data email Kalab TEN di manual/pengurus.csv salah (sama dengan Sekdep) -> pakai a_agung@ugm.ac.id.
