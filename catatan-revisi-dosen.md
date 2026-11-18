@@ -30,7 +30,7 @@ Status: [ ] belum, [~] sedang, [x] selesai. "?" = perlu keputusan/bahan dari jur
 - [x] C3 (v1 selesai, tf.ugm belum). Struktur organisasi: resolusi gambar (? berkas asli resolusi tinggi)
 - [x] C4 (v1 selesai, tf.ugm belum). Sertifikat akreditasi: 5 slot (? berkas sertifikat)
 - [~] C5 (draf v1 selesai, menunggu revisi user; tf.ugm belum). Pengurus Departemen: foto lebih kecil dan close up, tata letak mengacu web lama + contoh web FT; jumlah Kadep/Sekdep 2, Kaprodi 3, Sekprodi 2, Kalab 3 (baris "Kalab 2" ?), KBK 4 (? foto baru atau potong ulang)
-- [ ] C6. Dosen Tetap: tautan langsung ke SINTA (lengkap), hapus jumlah sitasi di depan, foto lebih proporsional
+- [x] C6 (v1 selesai, tf.ugm belum). Dosen Tetap: tautan langsung ke SINTA (lengkap), hapus jumlah sitasi di depan, foto lebih proporsional
 - [ ] C7. Tenaga Kependidikan: grup Koordinator / Teknisi Laboran / Staf, grid tanpa yang tertinggal
 - [ ] C8. Fasilitas umum: Ruang Tunggu jadi Co-working Space; tautan ke fasilitas FT dan UGM
 
@@ -81,3 +81,5 @@ Prasyarat: staf lab login di komputer jurusan (Chrome Windows). Header tf.ugm = 
 10. **Pengurus Departemen**: `docs/deploy-ugm/revisi/pengurus.js` -> `deployPengurus(<id pengurus-departemen-v2>)`. Hierarki: Kadep+Sekdep 2 kolom (foto 200px, panel navy); Kaprodi 3 kolom (150px); Sekprodi 2 kolom (124px); Kalab 5 = 3+2 (104px); Koordinator KBK 4 kolom (98px). Foto close up (object-position atas). Data email Kalab TEN di manual/pengurus.csv salah (sama dengan Sekdep) -> pakai a_agung@ugm.ac.id.
 
 **WAJIB setelah tiap deploy halaman**: di tab editor halaman jalankan `await kernFix()` (`docs/deploy-ugm/revisi/kern.js`) agar jarak antar kata normal (kit Elementor memberi word-spacing 6px pada h1-h3), dan `await nolPadding()` (sejarah.js). Sudah dijalankan di v1 untuk Sejarah, Visi Misi, Struktur, Akreditasi, Pengurus.
+11. **Dosen Tetap**: `docs/deploy-ugm/revisi/dosen-tetap.js` -> di tab EDITOR halaman daftar dosen: `await dosenTetap()` lalu `await kernFix()`. Kartu mendatar (foto 112x140 kiri), sitasi dihapus, tombol "Profil SINTA" (pil outline) membuka profil SINTA penuh di tab baru; 38 dosen punya sinta_id. Simpan halaman ini lambat (~40 dtk); tunggu hingga status 'ok'.
+12. **Temuan tf.ugm.ac.id/new (18 Nov malam)**: Home v2 juga kena word-spacing kit (h1 6px, beberapa h3 4px) -> jalankan kernFix di Home v2 (16487) dan header jika perlu.
