@@ -10,10 +10,10 @@ window.deployProdiDokumen = async function () {
     '.pd-cover small{font-size:7px;line-height:1.3;font-weight:600;letter-spacing:.02em;opacity:.85;display:block}' +
     '.pd-cover b{font-size:13px;line-height:1.2;font-weight:800;display:block}' +
     '.pd-cover i{font-style:normal;font-size:7px;font-weight:700;color:#C8E86D}' +
-    '.pd-body{min-width:0}.pd-body h4{margin:0 0 4px;font-size:17px;line-height:1.3;font-weight:700;color:#073C64;word-spacing:0}' +
+    '.pd-body{min-width:0}.pd-body h4{margin:0 0 4px;font-size:17px;line-height:1.3;font-weight:700;color:#073C64!important;word-spacing:0!important;letter-spacing:0!important;font-family:"Plus Jakarta Sans",sans-serif!important}' +
     '.pd-body p{margin:0 0 14px;font-size:14px;line-height:1.5;color:#5B6670}' +
-    '.pd-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:999px;background:#073C64;color:#fff;font-size:14px;font-weight:600;text-decoration:none;line-height:1}' +
-    '.pd-btn:hover{background:#C8E86D;color:#073C64}.pd-btn svg{width:16px;height:16px}</style>';
+    '.pd-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:999px;background:#073C64;color:#fff!important;font-size:14px;font-weight:600;text-decoration:none!important;line-height:1;word-spacing:0!important}' +
+    '.pd-btn:hover{background:#C8E86D;color:#073C64!important}.pd-cover b,.pd-cover small,.pd-cover i{word-spacing:0!important;color:inherit}.pd-cover i{color:#C8E86D}.pd-btn svg{width:16px;height:16px}</style>';
   const IC = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>';
   const kartu = (judul, ket, sampul, tag) => '<div class="pd-card"><div class="pd-cover"><small>DEPARTEMEN TEKNIK NUKLIR DAN TEKNIK FISIKA · UGM</small><b>' + sampul + '</b><i>' + tag + '</i></div>' +
     '<div class="pd-body"><h4>' + judul + '</h4><p>' + ket + '</p><a class="pd-btn" role="button" aria-disabled="true" title="Dokumen segera tersedia">' + IC + 'Unduh dokumen</a></div></div>';
