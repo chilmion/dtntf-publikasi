@@ -26,7 +26,7 @@ Status: [ ] belum, [~] sedang, [x] selesai. "?" = perlu keputusan/bahan dari jur
 
 ## C. Tentang Kami
 - [x] C1 (v1 selesai, tf.ugm belum). Sejarah: timeline peta jalan dalam satu gambar; periode "2022–Sekarang: Ekspansi Global dan Nasional" (melebarkan kerja sama dengan perusahaan dan universitas); font tahun lebih besar, teks lebih tebal
-- [ ] C2. Visi Misi: ukuran dan kontras font, visibilitas
+- [x] C2 (v1 selesai, tf.ugm belum). Visi Misi: ukuran dan kontras font, visibilitas
 - [ ] C3. Struktur organisasi: resolusi gambar (? berkas asli resolusi tinggi)
 - [ ] C4. Sertifikat akreditasi: 5 slot (? berkas sertifikat)
 - [ ] C5. Pengurus Departemen: foto lebih kecil dan close up, tata letak mengacu web lama + contoh web FT; jumlah Kadep/Sekdep 2, Kaprodi 3, Sekprodi 2, Kalab 3 (baris "Kalab 2" ?), KBK 4 (? foto baru atau potong ulang)
@@ -74,3 +74,4 @@ Prasyarat: staf lab login di komputer jurusan (Chrome Windows). Header tf.ugm = 
 3. **Footer** (v1 id 1991): sosmed 4 tautan (IG, YouTube, FB, X; TikTok dihapus), peta Google kecil di sampingnya, Layanan: Kontak -> Layanan Akademik. Footer tf.ugm bukan template v1: terapkan elemennya manual di template footer tf.ugm (atau pasang HTML widget).
 4. **Sejarah**: `docs/deploy-ugm/revisi/sejarah.js` -> `deploySejarah(16872)` di tab wp-admin tf.ugm, lalu `nolPadding()` di tab editor halaman itu. Foto Unsplash (ilustrasi), isi 2022-Sekarang satu kalimat.
 5. Aturan umum halaman rancang.js: setelah `R.simpan`, kontainer bersarang tanpa padding perlu dinolkan (`nolPadding`), kalau tidak teks bergeser 30px dan garis aksen banner jadi kotak hijau.
+6. **Visi dan Misi**: `docs/deploy-ugm/revisi/visi-misi.js` -> `deployVisiMisi(16875)`; lalu di editor jalankan `nolPadding()` (dari sejarah.js) untuk garis aksen banner. Visi jadi blok besar 28px (Departemen = panel navy), Misi daftar bernomor 19px.
