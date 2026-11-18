@@ -42,6 +42,38 @@ def _int(x, bawaan=0):
         return bawaan
 
 
+def _ekstra(kode, dosen):
+    """Bahan tambahan dari dosen KBK (manual/kbk-ekstra/<kode>.json): bidang keahlian per dosen, peta jalan, penelitian unggulan
+    (tim, deskripsi, publikasi, paten, pendanaan), dokumentasi. Nama slug diselesaikan ke profil dosen; teks lain dibiarkan apa adanya.
+    Gambar di folder yang sama disalin ke data/kbk/."""
+    f = MANUAL / "kbk-ekstra" / f"{kode}.json"
+    if not f.exists():
+        return {}
+    e = json.loads(f.read_text(encoding="utf-8"))
+
+    def org(x):
+        r = dosen.get(x)
+        return ({"slug": x, "nama": r["nama"].strip(), "gelar": (r.get("gelar") or "").strip(), "url": f"/{x}/"} if r else {"nama": x})
+
+    def gambar(g):
+        if g:
+            src = MANUAL / "kbk-ekstra" / pathlib.Path(g).name
+            if src.exists():
+                OUT.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(src, OUT.parent / src.name)
+        return g
+
+    h = {}
+    if e.get("bidang"):
+        h["bidang"] = [{**b, "dosen": [org(x) for x in b.get("dosen", [])]} for b in e["bidang"]]
+    if e.get("peta_jalan"):
+        h["peta_jalan"] = {**e["peta_jalan"], "gambar": gambar(e["peta_jalan"].get("gambar"))}
+    if e.get("riset"):
+        h["riset"] = [{**r, "tim": [org(x) for x in r.get("tim", [])], "ketua": org(r["ketua"]) if r.get("ketua") else None,
+                       "gambar": gambar(r.get("gambar"))} for r in e["riset"]]
+    return h
+
+
 def bangun():
     import manual
     if not BERKAS.exists():
@@ -93,13 +125,23 @@ def bangun():
         if gambar:
             OUT.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(gambar, OUT.parent / gambar.name)
+        ekstra = _ekstra(kode, dosen)
+        for r in ekstra.pop("riset", []):   # penelitian unggulan dari dosen melengkapi tema bernomor sama
+            if 1 <= _int(r.get("tema")) <= len(tema):
+                t = tema[_int(r["tema"]) - 1]
+                t.update({"tim": r["tim"], "ketua": r["ketua"], "gambar": r["gambar"], "deskripsi_lengkap": r.get("deskripsi", []),
+                          "deskripsi": (r.get("deskripsi") or [t["deskripsi"]])[0], "publikasi": r.get("publikasi", t["publikasi"]),
+                          "paten": r.get("paten", []), "pendanaan": r.get("pendanaan", [])})
+                if r.get("pendanaan") or r.get("publikasi"):
+                    t["riset"] = []
+        jml_pub = sum(t["jumlah_publikasi"] or len(t["publikasi"]) for t in tema)
         halaman = (k.get("halaman") or f"kbk-{kode}").strip("/ ")
         hasil.append({"kode": kode, "nama": k.get("nama", ""), "singkatan": k.get("singkatan", ""),
                       "halaman": halaman, "url": f"/{halaman}/", "ketua": ketua,
                       "gambar": f"kbk/{gambar.name}" if gambar else "",
                       "ringkasan": k.get("ringkasan", ""), "sekilas": k.get("sekilas", ""),
-                      "kompetensi": komp, "anggota": anggota, "tema": tema,
-                      "statistik": {"dosen": len(anggota), "kompetensi": len(komp), "tema": len(tema),
+                      "kompetensi": komp, "anggota": anggota, "tema": tema, **ekstra,
+                      "statistik": {"dosen": len(anggota), "kompetensi": len(komp), "tema": len(tema) or len(ekstra.get("riset", [])),
                                     "publikasi": jml_pub}})
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({"diperbarui": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "kbk": hasil},
