@@ -1,5 +1,5 @@
 // Dosen Tetap (revisi dosen 18 Nov 2026), versi 2 setelah masukan: layout kartu tetap, TAPI
-//  (1) ruang vertikal dirapatkan (kontainer teks tanpa tinggi minimum 400px), (2) tombol menjadi ikon panah bulat saja (buka profil SINTA penuh),
+//  (1) ruang vertikal dirapatkan (kontainer teks tanpa tinggi minimum 400px), (2) tombol menjadi teks kecil "Profil lengkap →" ke halaman profil dosen (/<slug>/),
 //  (3) foto diseragamkan: file hasil crop wajah 4:5 (data/ugm/foto-dosen/<slug>.jpg, diunggah ke media situs; peta slug->{id,url} di localStorage '__fotoDosen').
 // Urutan di tab wp-admin biasa: unggah foto (lihat fotoDosenUnggah di bawah), lalu di tab EDITOR halaman daftar dosen:  await dosenTetap()  lalu  await kernFix().
 window.fotoDosenUnggah = async function (sha, slugs) {
@@ -28,10 +28,10 @@ window.dosenTetap = async function () {
       if (img) { const s = {custom_css: 'selector img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center 12%}'}; if (M[slug]) s.image = {url: M[slug].url, id: M[slug].id, size: '', source: 'library'}; else tanpaFoto.push(slug); set(img.id, s); }
       if (inner) set(inner.id, {min_height: px(0), flex_justify_content: 'flex-start', padding: {unit: 'px', top: '16', right: '20', bottom: '20', left: '20', isLinked: false}, flex_gap: {column: '6', row: '6', isLinked: true, unit: 'px', size: 6}});
       if (html) { let h = String(html.settings.html); const s = h.indexOf('(x.ada_data && x.sitasi_scopus != null'); if (s >= 0) { const en = h.indexOf(": '')", s) + ": '')".length; h = h.slice(0, s) + "''" + h.slice(en); set(html.id, {html: h}); } }
-      if (btn && slug) set(btn.id, {text: '', selected_icon: {value: 'fas fa-arrow-right', library: 'fa-solid'}, icon_align: 'left', align: 'left', _element_width: 'auto', _margin: {unit: 'px', top: '10', right: '0', bottom: '0', left: '0', isLinked: false},
-        link: {url: 'https://sinta.kemdiktisaintek.go.id/authors/profile/' + SINTA[slug], is_external: 'on', nofollow: '', custom_attributes: 'aria-label|Lihat profil lengkap ' + slug + ' di SINTA,title|Lihat profil lengkap di SINTA'},
-        button_text_color: '#073C64', background_color: '#C8E86D', border_radius: P4(999), text_padding: P4(13), border_border: '', typography_typography: 'custom', typography_font_size: px(16),
-        custom_css: 'selector .elementor-button{width:44px;height:44px;padding:0;display:inline-flex;align-items:center;justify-content:center;transition:transform .25s,background .25s}selector .elementor-button-icon{margin:0}selector .elementor-button:hover{background:#073C64;color:#fff;transform:translateX(3px)}selector .elementor-button-icon svg,selector .elementor-button-icon i{fill:currentColor}'});
+      if (btn && slug) set(btn.id, {text: 'Profil lengkap \u2192', selected_icon: {value: '', library: ''}, align: 'left', _element_width: 'auto', _margin: {unit: 'px', top: '8', right: '0', bottom: '0', left: '0', isLinked: false},
+        link: {url: '/' + slug + '/', is_external: '', nofollow: '', custom_attributes: ''},
+        button_text_color: '#003D79', background_color: 'rgba(0,0,0,0)', border_radius: P4(0), text_padding: P4(0), border_border: '', typography_typography: 'custom', typography_font_size: px(14), typography_font_weight: '600',
+        custom_css: 'selector .elementor-button{width:auto;height:auto;padding:0;background:transparent;border-radius:0;box-shadow:none}selector .elementor-button:hover{background:transparent;color:#073C64;text-decoration:underline}'});
       n++;
     }
     if (e.elType === 'container' && (e.elements || []).some(k => /kt-kartu-dosen/.test((k.settings && k.settings.css_classes) || ''))) set(e.id, {padding: P4(0), flex_gap: {column: '16', row: '16', isLinked: true, unit: 'px', size: 16}}); // grid kartu sejajar kolom cari
