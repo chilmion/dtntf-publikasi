@@ -3,7 +3,7 @@
 // Dipakai di EDITOR Elementor halaman prodi (v1 id 688; tf.ugm.ac.id id 688): await deployProdiDokumen()
 // Sisip: (1) setelah paragraf terakhir bagian "Kurikulum" (sebelum judul "Bidang Peminatan"), (2) setelah paragraf terakhir "Laporan Kinerja Akademik" (sebelum judul "Mitra dan Kerja Sama").
 window.deployProdiDokumen = async function () {
-  const CSS = '<style>.pd-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:20px;margin:28px 0 8px;max-width:1120px}' +
+  const CSS = '<style>.pd-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(440px,1fr));gap:20px;margin:28px 0 8px;max-width:1120px}' +
     '.pd-card{display:flex;gap:18px;align-items:center;padding:18px;border:1px solid #E3E3E3;border-radius:16px;background:#fff}' +
     '.pd-cover{flex:0 0 104px;aspect-ratio:3/4;border-radius:8px;background:linear-gradient(165deg,#073C64 0%,#1A2C43 100%);color:#fff;padding:11px 10px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;box-shadow:0 6px 16px rgba(7,60,100,.22)}' +
     '.pd-cover::after{content:"";position:absolute;left:0;right:0;bottom:0;height:5px;background:#C8E86D}' +
