@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Pengabdian untuk tf (native, desain v1): statistik bento, grafik 'Kegiatan per tahun' (PNG berangka, 2016-2026, label per 5 tahun), kegiatan bersama mitra.
-Grafik: scripts/buat_grafik_pengabdian.py -> data/ugm/pengabdian-per-tahun.png (diunggah ke media tf: dtntf-pengabdian-per-tahun.png).
+Grafik: scripts/buat_grafik_pengabdian.py -> data/ugm/pengabdian-per-tahun.png (diunggah ke media tf: dtntf-pengabdian-per-tahun-scaled.png).
 Data statis dari agregat SINTA saat build (daftar kegiatan terfilter v1 tidak ada: butuh skrip)."""
 import json, pathlib, sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -25,7 +25,7 @@ TOTAL = sum(SERI.values()); PUNCAK = max(SERI, key=SERI.get)
 def main():
     stat = bm.baris([bk.tile_angka("lime", TOTAL, "Kegiatan 2016–2026"), bk.tile_angka("putih", len(DOS), "Dosen terlibat"),
                      bk.tile_angka("abu", SERI[PUNCAK], f"Tahun puncak ({PUNCAK})"), bk.tile_angka("navy", SERI[2026], "Kegiatan tahun 2026")], judul="Statistik")
-    grafik = be.widget("image", image={"url": bm.B + "dtntf-pengabdian-per-tahun.png", "id": "", "alt": "Grafik kegiatan pengabdian kepada masyarakat per tahun, 2016 sampai 2026: " +
+    grafik = be.widget("image", image={"url": bm.B + "dtntf-pengabdian-per-tahun-scaled.png", "id": "", "alt": "Grafik kegiatan pengabdian kepada masyarakat per tahun, 2016 sampai 2026: " +
                                        ", ".join(f"{y} {n}" for y, n in sorted(SERI.items()))}, image_size="full", width=be.ukuran(100, "%"), _title="Grafik kegiatan per tahun")
     sec_g = bm.blok("Kegiatan per tahun", "Jumlah kegiatan pengabdian kepada masyarakat DTNTF per tahun, 2016–2026 (sumber: SINTA).", [grafik], "#FFFFFF")
     kabar = [bm.baris([bm.kabar(x) for x in bm.A[i:i + 3]], "center", "Kabar") for i in range(0, len(bm.A), 3)]
