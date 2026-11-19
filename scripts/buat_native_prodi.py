@@ -225,6 +225,7 @@ if __name__ == "__main__":
         h = bpr.halaman_v2(md) if "@hero" in md else bpr.halaman(md, judul)[0]
         s = json.dumps({"version": "0.4", "title": judul, "type": "container", "content": [h], "page_settings": []}, ensure_ascii=False)
         s = re.sub(r"https://chilmion\.github\.io/dtntf-publikasi/data/prodi/([A-Za-z0-9_.-]+)", lambda m: URLS.get(m.group(1).rsplit(".", 1)[0], m.group(0)), s)
+        s = s.replace("[[lorem]]", bpr.LOREM)
         assert "<style" not in s and "<svg" not in s and "<script" not in s and '"widgetType": "html"' not in s, nama
         (ROOT / "elementor" / "native" / f"prodi-{nama}.json").write_text(s, encoding="utf-8")
         print("ok", nama, len(s))
