@@ -17,7 +17,7 @@ PR = [("S1 Teknik Nuklir", "Program sarjana teknologi nuklir.", "sejarah-1630142
 
 
 def main():
-    bagan = be.widget("image", image={"url": B + "dtntf-struktur-bagan.png", "id": "", "alt": "Bagan struktur organisasi Departemen Teknik Nuklir dan Teknik Fisika: Ketua Departemen, Sekretaris, Kantor Urusan Administrasi, program studi, KBK, dan laboratorium"},
+    bagan = be.widget("image", image={"url": B + "dtntf-struktur-bagan-scaled.png", "id": "", "alt": "Bagan struktur organisasi Departemen Teknik Nuklir dan Teknik Fisika: Ketua Departemen, Sekretaris, Kantor Urusan Administrasi, program studi, KBK, dan laboratorium"},
                       image_size="full", width=be.ukuran(100, "%"), _title="Bagan organisasi")
     kar = be.container([bagan], content_width="full", flex_direction="column", background_background="classic", background_color="#FFFFFF", border_border="solid",
                        border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True}, border_color=bp.GARIS,
