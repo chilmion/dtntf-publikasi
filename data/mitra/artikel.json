@@ -1,0 +1,59 @@
+{
+ "keterangan": "Kabar kegiatan kerja sama dengan mitra (judul, tanggal, dan foto dari halaman Mitra tf.ugm.ac.id; tautan ke artikel aslinya).",
+ "artikel": [
+  {
+   "judul": "PT SUCOFINDO dan Fakultas Teknik UGM Jalin Kerja Sama Pengembangan SDM melalui Program Pendidikan Magister dan Profesi",
+   "tanggal": "2026-06-18",
+   "gambar": "mitra/artikel/suco-magister.jpg",
+   "url": "https://tf.ugm.ac.id/2026/06/18/pt-sucofindo-dan-fakultas-teknik-ugm-jalin-kerja-sama-pengembangan-sdm-melalui-program-pendidikan-magister-dan-profesi/"
+  },
+  {
+   "judul": "BPBD Jawa Timur Kunjungi Laboratorium SSTK DTNTF UGM, Bahas Inovasi Kebencanaan dan Peluang Kerja Sama",
+   "tanggal": "2026-06-11",
+   "gambar": "mitra/artikel/bpbd.jpg",
+   "url": "https://tf.ugm.ac.id/2026/06/11/bpbd-jawa-timur-kunjungi-laboratorium-sstk-dtntf-ugm-bahas-inovasi-kebencanaan-dan-peluang-kerja-sama/"
+  },
+  {
+   "judul": "UGM Sambut Peserta Pelatihan Pengenalan Teknologi Nuklir (Advanced) PT SUCOFINDO",
+   "tanggal": "2026-06-09",
+   "gambar": "mitra/artikel/suco-pelatihan.jpg",
+   "url": "https://tf.ugm.ac.id/2026/06/09/pelatihannuklirsucofindo/"
+  },
+  {
+   "judul": "DTNTF FT UGM Perkuat Ketangguhan Komunitas melalui Sosialisasi dan Pelatihan Sistem Peringatan Dini Kebencanaan di DIY dan Jawa Tengah",
+   "tanggal": "2026-05-07",
+   "gambar": "mitra/artikel/peringatan-dini.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/07/dtntf-ft-ugm-perkuat-ketangguhan-komunitas-melalui-sosialisasi-dan-pelatihan-sistem-peringatan-dini-kebencanaan-di-diy-dan-jawa-tengah/"
+  },
+  {
+   "judul": "DTNTF FT UGM Perkuat Keselamatan Radiasi melalui Rancang Bangun Purwarupa Perisai Pesawat Sinar-X Mobile di Lapas Cebongan Sleman",
+   "tanggal": "2026-05-07",
+   "gambar": "mitra/artikel/sinar-x-lapas.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/07/dtntf-ft-ugm-perkuat-keselamatan-radiasi-melalui-rancang-bangun-purwarupa-perisai-pesawat-sinar-x-mobile-di-lapas-cebongan-sleman/"
+  },
+  {
+   "judul": "DTNTF FT UGM Dorong Transformasi Rumah Sakit Hijau melalui Training Audit Energi di RSU Islam Klaten",
+   "tanggal": "2026-05-06",
+   "gambar": "mitra/artikel/rs-hijau.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/06/dtntf-ft-ugm-dorong-transformasi-rumah-sakit-hijau-melalui-training-audit-energi-di-rsu-islam-klaten/"
+  },
+  {
+   "judul": "DTNTF FT UGM Hadirkan Inovasi Pertanian Cerdas melalui Sistem Kendali Traktor Tangan Berbasis Radio 2.4GHz di Desa Salamrejo, Sentolo, Kulon Progo",
+   "tanggal": "2026-05-06",
+   "gambar": "mitra/artikel/traktor.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/06/dtntf-ft-ugm-hadirkan-inovasi-pertanian-cerdas-melalui-sistem-kendali-traktor-tangan-berbasis-radio-2-4ghz-di-desa-salamrejo-sentolo-kulon-progo/"
+  },
+  {
+   "judul": "DTNTF FT UGM Dorong Ketangguhan Ekonomi Masyarakat Sleman melalui Pelatihan Teknologi Tepat Guna Penyulingan Minyak Atsiri",
+   "tanggal": "2026-05-05",
+   "gambar": "mitra/artikel/atsiri.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/05/dtntf-ft-ugm-dorong-ketangguhan-ekonomi-masyarakat-sleman-melalui-pelatihan-teknologi-tepat-guna-penyulingan-minyak-atsiri/"
+  },
+  {
+   "judul": "DTNTF FT UGM Perkuat Budaya Keselamatan Radiasi melalui Evaluasi Rontgen Gigi Panoramik RSU Islam Klaten",
+   "tanggal": "2026-05-05",
+   "gambar": "mitra/artikel/rontgen-klaten.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/05/dtntf-ft-ugm-perkuat-budaya-keselamatan-radiasi-melalui-evaluasi-rontgen-gigi-panoramik-rsu-islam-klaten/"
+  }
+ ]
+}

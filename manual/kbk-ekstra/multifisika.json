@@ -1,0 +1,44 @@
+{
+ "galeri": [
+  {
+   "gambar": "kbk/galeri-multifisika-1.jpg",
+   "judul": "Dokumentasi riset",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-multifisika-2.jpg",
+   "judul": "Pengujian",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-multifisika-3.jpg",
+   "judul": "Ruang penelitian",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-multifisika-4.jpg",
+   "judul": "Kegiatan penelitian",
+   "contoh": true
+  },
+  {
+   "gambar": "kbk/galeri-multifisika-5.jpg",
+   "judul": "Diskusi riset",
+   "contoh": true
+  }
+ ],
+ "peta_jalan": {
+  "judul": "Peta jalan penelitian KBK Multifisika",
+  "gambar": "kbk/peta-multifisika-1.jpg",
+  "alt": "Peta jalan penelitian KBK Multifisika",
+  "lainnya": [
+   {
+    "gambar": "kbk/peta-multifisika-2.jpg",
+    "judul": "Fisika konservasi: material untuk instrumen musik"
+   },
+   {
+    "gambar": "kbk/peta-multifisika-3.jpg",
+    "judul": "Bangunan nir emisi karbon dan energi kawasan"
+   }
+  ]
+ }
+}

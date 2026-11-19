@@ -60,3 +60,36 @@ Home v2 = 16487 (publish, slug new). Andang Widi Harto = 16511 (private). Media 
 
 ## Berkas sementara di repo publik (hapus setelah selesai)
 `data/staging-home/*` (gambar + home.json untuk Home v2).
+
+## Skala tipografi Home v2 (17 Nov 2026, revisi 2; acuan halaman lain)
+Diatur manual per widget (bukan kit global). Desktop / tablet / mobile:
+- H1 hero 64 / 48 / 36 (line-height 1.1)
+- H2 judul bagian 36 / 30 / 28 (1.15) — termasuk "Hiliriset" (dulu H1 34)
+- H3 judul kartu 22 / 22 / 20 (1.3) — dulu H2 24 / H4 32
+- Isi 17 / 16 / 16 (1.6); tanggal/keterangan 15 / 15 / 14; strip atas >= 13
+- Menu header 17px, tanpa kotak saat hover/aktif (hanya warna #003D79)
+Catatan teknis: editor Elementor Home v2 kadang gagal memuat pratinjau (SecurityError lintas-origin). Simpan lewat `elementorCommon.ajax.addRequest('save_builder', ...)` dengan `elementor.config.initial_document.elements` yang sudah diubah.
+- Jarak huruf (letter-spacing): H1 -0.025em, H2 -0.02em, H3 -0.01em, isi 0, tombol +0.02em. Bobot: H1/H2 400, H3 500. Judul Plus Jakarta Sans; isi/tombol/daftar Barlow. Blog posts (Berita Terbaru) masih beda; dirapikan di revisi 6.
+
+## Home v2: revisi 3-6 (17 Nov 2026)
+- Hero: tombol utama lime (Mulai Perjalananmu) + tombol kedua outline (Lihat Program Studi, tautan #program); 16px, tinggi 52px, dalam wadah baris (gap 14px; kolom di mobile).
+- Program (id elemen `program`): 3 kartu tanpa tombol, seluruh kartu tautan ke /prodi/, /prodi-s1-teknik-fisika/, /program-studi-magister-teknik-fisika/ (stretched link lewat CSS). Statistik dari manual/prodi/*.md; data Magister bertanda [Contoh] (belum ada sumber).
+- Acara: kategori WP "Acara" (id 328) + 4 artikel contoh (id 17181, 17183, 17185, 17187; foto Unsplash, sumber di deskripsi media). Widget ekit-blog-posts `h3r0ac4`, mode "Category Post" (`is_manual_selection` kosong; nilai "recent" mengabaikan kategori).
+- Berita: widget `4f348d1f`, kategori Berita (id 8), 3 kartu; gambar 200px, tinggi kartu sama (equal_height).
+- Hapus artikel contoh Acara bila sudah ada acara sungguhan (judul diawali "[Contoh]").
+- Acara Home v2 (rev. 17 Nov): foto kiri (`h3r0im1`) + daftar kanan (`h3r0ls1`, kelas `dt-acara-daftar`). Blok tanggal besar dibuat skrip kecil di `eael_custom_js` halaman (membaca baris pertama isi artikel: "Sabtu, 6 Desember 2026, 09.00 WIB, Tempat"). Aturan skrip: tanpa karakter `& < > "` DAN tanpa backslash (backslash hilang saat keluar; pakai [0-9] dan spasi, bukan \d \s). Simpan dua kali agar skrip keluar. Panah tombol digambar CSS murni (data:URI di custom CSS dibuang server). Format isi artikel Acara wajib: baris pertama tanggal + jam + tempat.
+
+## Home v2: poin 7 (17 Nov 2026)
+- Judul bagian (Program, Acara, Berita, Fasilitas, MOOC) rata tengah; padding vertikal bagian 3/4/6/7 = 80 (tablet 64, mobile 48).
+- Widget video Elementor bawaan ("Choose your video") di kartu Profil Alumni diganti teks; kartu MOOC: gambar 150px landscape (object-fit cover), judul "[Contoh] ..." rata kiri.
+- PERINGATAN simpan via save_builder: selalu muat ulang editor sebelum tiap simpan (initial_document basi menimpa perubahan sebelumnya). Server UGM sering 502; beri jeda 40 dtk.
+- Angka kartu fasilitas (5+ Mitra Kerjasama, 5+ KBK, 5+ Profesor dan Doktor) masih data contoh dari v1; ganti data nyata.
+
+
+## Home v2: revisi 8 (17 Nov 2026)
+- Tautan tombol: Mulai Perjalananmu -> /sejarah-v2/; Profil Alumni -> /kemahasiswaan/; Rekayasa -> /visi-dan-misi-v2/; Mitra -> /mitra/; KBK -> /kbk/; Fasilitas/Laboratorium ke halamannya. Kartu MOOC belum bertautan.
+- Bagian "Masa depanmu dimulai dengan pilihan yang tepat" mengikuti v1.katur.online: lebar kotak 1280px, tinggi baris 400/440px, kartu angka (Mitra, KBK) dengan ikon panah bertautan (`white-space:nowrap` pada judul agar tidak terbungkus).
+- Latar kartu: Fasilitas = slideshow foto (media 16839, 16841, 16838; 4,5 dtk, fade); Laboratorium = slideshow foto lab (16811, 16814, 16812, 16813, 16810); Profil Alumni = latar video (`background_video_link`, saat ini video demo Elementor sebagai placeholder; ganti bila ada video nyata). Isi di atas video perlu `z-index` lewat custom CSS.
+- Keunggulan Akademik: logo IABEE (media 17384), BAN-PT (17385), LAM Teknik (17400) di kotak putih (gambar diperkecil 280px).
+- Header (template 16571, widget menu `ca1b78c`): panel submenu ElementsKit dulu terpisah ~6px dari menu sehingga menutup saat kursor lewat. Perbaikan: `top:calc(100% - 12px)` plus jembatan `.elementskit-dropdown::before` setinggi 24px (penanda `/*PONTON*/`). Strip atas selebar baris logo (boxed 1300) agar sejajar kiri dengan logo.
+- Belum diverifikasi di mobile 390px. Data contoh: angka 5+, statistik Magister, kartu MOOC, artikel "[Contoh]" Acara.

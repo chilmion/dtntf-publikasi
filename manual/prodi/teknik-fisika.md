@@ -41,6 +41,8 @@ Komposisi beban studi (144–150 SKS) dan kesesuaiannya dengan persyaratan IABEE
 | Pilihan Prodi/luar Prodi/Program Lain | 18 | 12,50% | |
 | **Total** | **144–150** | **100%** | |
 
+[[dokumen Dokumen Kurikulum Teknik Fisika|Struktur mata kuliah dan komposisi beban studi Program Sarjana Teknik Fisika.|Kurikulum;Teknik Fisika|S1 TEKNIK FISIKA · PDF]]
+
 ## Statistik Mahasiswa dan Alumni
 
 [[lorem]]
@@ -52,6 +54,11 @@ Komposisi beban studi (144–150 SKS) dan kesesuaiannya dengan persyaratan IABEE
 ## Laporan Kinerja Akademik
 
 [[lorem]]
+
+[[dokumen Laporan Kinerja Akademik TA 2024/2025|Laporan kinerja Program Sarjana Teknik Fisika tahun akademik 2024/2025.|Laporan;Kinerja;2024/2025|S1 TEKNIK FISIKA · PDF]]
+[[dokumen Laporan Kinerja Akademik TA 2023/2024|Laporan kinerja Program Sarjana Teknik Fisika tahun akademik 2023/2024.|Laporan;Kinerja;2023/2024|S1 TEKNIK FISIKA · PDF]]
+[[dokumen Laporan Kinerja Akademik TA 2022/2023|Laporan kinerja Program Sarjana Teknik Fisika tahun akademik 2022/2023.|Laporan;Kinerja;2022/2023|S1 TEKNIK FISIKA · PDF]]
+[[dokumen Laporan Kinerja Akademik TA 2021/2022|Laporan kinerja Program Sarjana Teknik Fisika tahun akademik 2021/2022.|Laporan;Kinerja;2021/2022|S1 TEKNIK FISIKA · PDF]]
 
 ## Mitra
 

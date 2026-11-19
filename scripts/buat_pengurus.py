@@ -18,6 +18,8 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import buat_elementor as be  # noqa: E402
 import buat_profil_dosen as bp  # noqa: E402
+import native_tipografi as nt  # noqa: E402
+import copy  # noqa: E402
 
 ROOT = be.ROOT
 PERIODE = "2026–2031"
@@ -69,7 +71,7 @@ def main():
             bp.teks("<p>Ketua dan sekretaris departemen, ketua program studi, kepala laboratorium, dan ketua kelompok bidang keahlian (KBK).</p>", "#636363", 18)]
     for kel in dict.fromkeys(r["kelompok"] for r in baris):
         grid = be.container([kartu(r, foto.get(r["slug"])) for r in baris if r["kelompok"] == kel], content_width="full",
-                            flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(16), flex_align_items="stretch", _title=f"Kartu {kel}")
+                            flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(16), flex_align_items="stretch", flex_justify_content="center", _title=f"Kartu {kel}")
         grid["isInner"] = True
         anak += [be.judul_katur(kel, "h2", 40, -1.7), grid]
     doc = {"version": "0.4", "title": "DTNTF Katur – Pengurus Departemen (/pengurus-departemen/)", "type": "container",

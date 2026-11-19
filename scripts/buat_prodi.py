@@ -33,6 +33,49 @@ def inline(s):
     return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
 
 
+def dimensi(nama):
+    """Lebar asli gambar (PNG/JPEG) di data/prodi/ atau manual/prodi-gambar/, agar tidak ditarik melebihi ukuran asli (buram)."""
+    import struct
+    for d in ("data/prodi", "manual/prodi-gambar"):
+        f = ROOT / d / nama
+        if f.exists():
+            b = f.read_bytes()
+            if b[:8] == b"\x89PNG\r\n\x1a\n":
+                return struct.unpack(">I", b[16:20])[0]
+            i = 2
+            while i < len(b) - 9:
+                if b[i] != 0xFF:
+                    i += 1; continue
+                if b[i + 1] in (0xC0, 0xC1, 0xC2):
+                    return struct.unpack(">H", b[i + 7:i + 9])[0]
+                i += 2 + struct.unpack(">H", b[i + 2:i + 4])[0]
+    return None
+
+
+DOK_CSS = ("<style>.pd-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,440px),1fr));gap:20px;margin:20px 0 8px}"
+           ".pd-card{display:flex;gap:18px;align-items:center;padding:18px;border:1px solid #E3E3E3;border-radius:16px;background:#fff}"
+           ".pd-cover{flex:0 0 104px;aspect-ratio:3/4;border-radius:8px;background:linear-gradient(165deg,#073C64 0%,#1A2C43 100%);color:#fff;padding:11px 10px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;box-shadow:0 6px 16px rgba(7,60,100,.22)}"
+           ".pd-cover::after{content:\"\";position:absolute;left:0;right:0;bottom:0;height:5px;background:#C8E86D}"
+           ".pd-cover small,.pd-cover b,.pd-cover i{word-spacing:0!important;color:#fff;display:block}.pd-cover small{font-size:7px;line-height:1.3;font-weight:600;opacity:.85}"
+           ".pd-cover b{font-size:13px;line-height:1.2;font-weight:800}.pd-cover i{font-style:normal;font-size:7px;font-weight:700;color:#C8E86D}"
+           ".pd-body{min-width:0}.pd-body h4{margin:0 0 4px!important;font-size:17px!important;line-height:1.3!important;font-weight:700!important;color:#073C64!important;word-spacing:0!important;letter-spacing:0!important;font-family:'Plus Jakarta Sans',sans-serif!important}"
+           ".pd-body p{margin:0 0 14px!important;font-size:14px;line-height:1.5;color:#5B6670}"
+           ".pd-btn{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:999px;background:#073C64;color:#fff!important;font-size:14px;font-weight:600;text-decoration:none!important;line-height:1;word-spacing:0!important}"
+           ".pd-btn:hover{background:#C8E86D;color:#073C64!important}.pd-btn svg{width:16px;height:16px}</style>")
+DOK_IKON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 20h16"/></svg>'
+
+
+def dok_kartu(judul, ket, sampul, tag, url=""):
+    """Kartu dokumen bersampul + tombol Unduh. url kosong = tombol belum bertaut (berkas belum ada)."""
+    a = f'<a class="pd-btn" href="{url}">' if url else '<a class="pd-btn" role="button" aria-disabled="true" title="Dokumen segera tersedia">'
+    return (f'<div class="pd-card"><div class="pd-cover"><small>DEPARTEMEN TEKNIK NUKLIR DAN TEKNIK FISIKA · UGM</small><b>{inline(sampul).replace(";", "<br>")}</b><i>{inline(tag)}</i></div>'
+            f'<div class="pd-body"><h4>{inline(judul)}</h4><p>{inline(ket)}</p>{a}{DOK_IKON}Unduh dokumen</a></div></div>')
+
+
+def dok_grid(daftar):
+    return DOK_CSS + '<div class="pd-grid">' + "".join(dok_kartu(*d) for d in daftar) + "</div>"
+
+
 def tabel_html(baris):
     sel = lambda b: [c.strip() for c in b.strip().strip("|").split("|")]  # noqa: E731
     kepala, isi = sel(baris[0]), [sel(b) for b in baris[2:]]
@@ -105,7 +148,7 @@ def kapital(s):
 
 def html_blok(md):
     """Markdown sederhana → HTML ber-gaya inline (untuk isi akordeon / kartu; atribut style lolos dari server UGM)."""
-    out, para, bul, tab = [], [], [], []
+    out, para, bul, tab, dok = [], [], [], [], []
     H = "font-family:'Plus Jakarta Sans',sans-serif;font-weight:400;color:#161616;"
 
     def tutup():
@@ -122,13 +165,22 @@ def html_blok(md):
         b = baris.rstrip()
         if not b.strip():
             tutup(); continue
+        if dok and not b.strip().startswith("[[dokumen"):
+            out.append(dok_grid(dok)); dok.clear()
         if b.startswith("### "):
             tutup(); out.append(f"<h4 style=\"{H}font-size:22px;letter-spacing:-1px;margin:22px 0 8px\">{inline(b[4:])}</h4>"); continue
         if b.startswith("> "):
             tutup(); out.append(f"<div style=\"background:{bp.LIME};color:{bp.DARK};border-radius:10px;padding:16px 20px;margin:0 0 12px;font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;letter-spacing:-.8px\">{inline(b[2:])}</div>"); continue
+        md_ = re.fullmatch(r"\[\[dokumen (.+?)\]\]", b.strip())
+        if md_:
+            tutup(); dok.append([x.strip() for x in md_.group(1).split("|")]); continue
         m = re.fullmatch(r"!\[(.*?)\]\((.+?)\)", b.strip())
+        if m and m.group(2).startswith("svg:"):   # SVG buatan scripts/buat_prodi_svg.py, disisipkan inline (tajam, font mengikuti halaman)
+            tutup()
+            out.append("<div style='margin:8px 0 20px'>" + (ROOT / "data" / "prodi" / "svg" / (m.group(2)[4:] + ".svg")).read_text(encoding="utf-8").replace("\n", "") + "</div>"); continue
         if m:
-            tutup(); out.append(f"<img src=\"{be.BASE}/prodi/{m.group(2)}\" alt=\"{bp.esc(m.group(1))}\" style=\"width:100%;height:auto;border-radius:10px;margin:8px 0 16px;display:block\">"); continue
+            tutup(); w = dimensi(m.group(2)); mw = f"max-width:{w}px;" if w else ""
+            out.append(f"<img src=\"{be.BASE}/prodi/{m.group(2)}\" alt=\"{bp.esc(m.group(1))}\" style=\"width:100%;{mw}height:auto;border-radius:10px;margin:8px 0 16px;display:block\">"); continue
         if b.strip() == "[[lorem]]":
             tutup(); out.append(f'<p class="kt-lorem" data-lorem="1" style="{GAYA_LOREM}">{LOREM}</p>'); continue
         if b.startswith("- "):
@@ -141,6 +193,8 @@ def html_blok(md):
             tutup()
         para.append(b.strip())
     tutup()
+    if dok:
+        out.append(dok_grid(dok))
     return "".join(out)
 
 
@@ -261,7 +315,9 @@ def halaman_v2(md):
 
 def main():
     for nama, judul in (("teknik-nuklir", "DTNTF Katur – Prodi Sarjana Teknik Nuklir (/prodi/)"),
-                        ("teknik-fisika", "DTNTF Katur – Prodi S1 Teknik Fisika (/prodi-s1-teknik-fisika/)")):
+                        ("teknik-fisika", "DTNTF Katur – Prodi S1 Teknik Fisika (/prodi-s1-teknik-fisika/)"),
+                        ("iup-teknik-nuklir", "DTNTF Katur – IUP Teknik Nuklir (/iup-teknik-nuklir/)"),
+                        ("magister-teknik-fisika", "DTNTF Katur – Magister Teknik Fisika (/program-studi-magister-teknik-fisika/)")):
         be._n[0] = 0
         md = (ROOT / "manual" / "prodi" / f"{nama}.md").read_text(encoding="utf-8")
         h = halaman_v2(md) if "@hero" in md else halaman(md, judul)[0]

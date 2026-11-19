@@ -1,0 +1,109 @@
+{
+ "logo": [
+  {
+   "nama": "PT Pertamina",
+   "gambar": "mitra/logo/pertamina.png"
+  },
+  {
+   "nama": "PT Telkom Indonesia",
+   "gambar": "mitra/logo/telkom.png"
+  },
+  {
+   "nama": "BRIN",
+   "gambar": "mitra/logo/brin.png"
+  },
+  {
+   "nama": "Kementerian PUPR",
+   "gambar": "mitra/logo/pupr.webp"
+  },
+  {
+   "nama": "BAPETEN"
+  },
+  {
+   "nama": "PT PLN (Persero)"
+  },
+  {
+   "nama": "PT SUCOFINDO"
+  },
+  {
+   "nama": "BPBD Jawa Timur"
+  },
+  {
+   "nama": "PT PAL Indonesia"
+  },
+  {
+   "nama": "ThorCon Power Indonesia"
+  },
+  {
+   "nama": "IAEA"
+  },
+  {
+   "nama": "Universitas Negeri Yogyakarta",
+   "gambar": "mitra/logo/uny.png"
+  },
+  {
+   "nama": "Universitas Sebelas Maret",
+   "gambar": "mitra/logo/uns.png"
+  },
+  {
+   "nama": "Universitas Muhammadiyah Surakarta",
+   "gambar": "mitra/logo/ums.png"
+  },
+  {
+   "nama": "UIN Sunan Kalijaga",
+   "gambar": "mitra/logo/uin-suka.png"
+  }
+ ],
+ "sorotan": [
+  {
+   "judul": "PT SUCOFINDO",
+   "ket": "Pengembangan SDM lewat program Magister dan Profesi, serta pelatihan teknologi nuklir tingkat lanjut.",
+   "gambar": "mitra/artikel/suco-magister.jpg",
+   "url": "https://tf.ugm.ac.id/2026/06/18/pt-sucofindo-dan-fakultas-teknik-ugm-jalin-kerja-sama-pengembangan-sdm-melalui-program-pendidikan-magister-dan-profesi/",
+   "ukuran": "besar"
+  },
+  {
+   "judul": "BPBD Jawa Timur",
+   "ket": "Inovasi kebencanaan di laboratorium SSTK.",
+   "gambar": "mitra/artikel/bpbd.jpg",
+   "url": "https://tf.ugm.ac.id/2026/06/11/bpbd-jawa-timur-kunjungi-laboratorium-sstk-dtntf-ugm-bahas-inovasi-kebencanaan-dan-peluang-kerja-sama/"
+  },
+  {
+   "judul": "RSU Islam Klaten",
+   "ket": "Audit energi rumah sakit hijau dan evaluasi rontgen gigi panoramik.",
+   "gambar": "mitra/artikel/rs-hijau.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/06/dtntf-ft-ugm-dorong-transformasi-rumah-sakit-hijau-melalui-training-audit-energi-di-rsu-islam-klaten/"
+  },
+  {
+   "judul": "PT Telkom Indonesia dan BPBD",
+   "ket": "IoT kebencanaan berbasis LoRa: prototipe, paten, dan publikasi.",
+   "warna": "navy",
+   "logo": "mitra/logo/telkom.png"
+  },
+  {
+   "judul": "Lapas Cebongan Sleman",
+   "ket": "Purwarupa perisai pesawat sinar-X mobile.",
+   "gambar": "mitra/artikel/sinar-x-lapas.jpg",
+   "url": "https://tf.ugm.ac.id/2026/05/07/dtntf-ft-ugm-perkuat-keselamatan-radiasi-melalui-rancang-bangun-purwarupa-perisai-pesawat-sinar-x-mobile-di-lapas-cebongan-sleman/"
+  },
+  {
+   "judul": "Mitra internasional",
+   "ket": "IAEA, SSM Swedia dan Chalmers University of Technology, University of Colorado Boulder, Pennsylvania State University, Queen Mary University of London.",
+   "warna": "lime",
+   "lebar": 4
+  },
+  {
+   "judul": "Regulator dan lembaga riset nasional",
+   "ket": "BAPETEN, BRIN, Kementerian ESDM, Kementerian PUPR, dan Ditjen Pendidikan Tinggi.",
+   "warna": "putih",
+   "lebar": 4
+  },
+  {
+   "judul": "Pelatihan Teknologi Nuklir",
+   "ket": "Peserta pelatihan lanjutan PT SUCOFINDO di UGM.",
+   "gambar": "mitra/artikel/suco-pelatihan.jpg",
+   "url": "https://tf.ugm.ac.id/2026/06/09/pelatihannuklirsucofindo/",
+   "lebar": 4
+  }
+ ]
+}

@@ -128,7 +128,7 @@
   function lencana(p) {
     if (p.kuartil) return p.kuartil;
     if (p.akreditasi && !/unknown/i.test(p.akreditasi)) return p.akreditasi;
-    return p.jenis_paten || p.dana || (p.isbn ? 'ISBN ' + p.isbn : '') || '';
+    return p.jenis_paten || (p.isbn ? 'ISBN ' + p.isbn : '') || '';
   }
   function luaran(p) {
     var lb = lencana(p);
@@ -151,18 +151,14 @@
     var kv = function (lb, isi, lebar) { return '<div' + (lebar ? ' class="s-penuh"' : '') + '><span class="kt-kicker">' + lb + '</span><b>' + isi + '</b></div>'; };
     h.push(bagian(1, 'Data diri', '<div class="kt-pasang">' +
       kv('Nama lengkap', esc(id.nama_lengkap || ((d.nama || '') + (d.gelar ? ', ' + d.gelar : ''))), true) +
-      kv('Jabatan fungsional', id.jabatan_fungsional ? esc(id.jabatan_fungsional) : lorem(true)) +
       kv('Bidang kepakaran', id.bidang_kepakaran ? esc(id.bidang_kepakaran) : lorem(true)) +
-      kv('Institusi', id.institusi ? esc(id.institusi) : lorem(true), true) +
       kv('Email', d.email ? '<a href="mailto:' + esc(d.email) + '">' + esc(d.email) + '</a>' : lorem(true)) +
-      kv('Telepon institusi', id.telepon_institusi ? esc(id.telepon_institusi) : lorem(true)) + '</div>'));
+      '</div>'));
 
     // 2-6. riwayat
     h.push(bagian(2, 'Riwayat pendidikan', riwayat(cv.pendidikan)));
     h.push(bagian(3, 'Sertifikat kompetensi', riwayat(cv.sertifikat)));
-    h.push(bagian(4, 'Riwayat pekerjaan', riwayat(cv.pekerjaan)));
-    h.push(bagian(5, 'Organisasi profesi', riwayat(cv.organisasi)));
-    h.push(bagian(6, 'Penghargaan', riwayat(cv.penghargaan)));
+    h.push(bagian(4, 'Organisasi profesi', riwayat(cv.organisasi)));
 
     // 7. Pengalaman kerjasama dan penelitian: baris dari manual/profil-cv.xlsx (Penelitian & Pengabdian SINTA ada di bagian terpisah di bawah)
     var baris = (cv.kerjasama || []).map(function (x) { return { riset: x.riset, tahun: x.tahun, ket: x.keterangan }; });
@@ -176,25 +172,25 @@
       return '<div class="kt-lintas"><table class="kt-tabel kt-kj">' + (pertama ? '<thead><tr><th>No</th><th>Riset / Proyek</th><th>Tahun</th><th>Keterangan</th></tr></thead>' : '') +
         '<tbody>' + isi + '</tbody></table></div>';
     };
-    h.push(bagian(7, 'Pengalaman kerjasama dan penelitian', baris.length
+    h.push(bagian(5, 'Pengalaman kerjasama', baris.length
       ? lipat(baris, barisKj, tabel)
       : '<div class="kt-lintas"><table class="kt-tabel kt-kj"><thead><tr><th>No</th><th>Riset / Proyek</th><th>Tahun</th><th>Keterangan</th></tr></thead><tbody>' +
         '<tr class="kt-lorem" data-lorem="1"><td>1</td><td>' + LOREM_PENDEK + '</td><td>0000</td><td>' + LOREM_PENDEK + '</td></tr></tbody></table></div>'));
 
     // 8-11. luaran dari SINTA / luaran.xlsx
     var kat = function (re) { return pub.filter(function (p) { return re.test(p.kategori || '') || re.test(p.sumber || ''); }); };
-    h.push(bagian(8, 'Kekayaan intelektual (HKI / paten)', daftarLuaran(pub.filter(function (p) { return p.sumber === 'paten' || /paten/i.test(p.kategori || ''); }))));
+    h.push(bagian(6, 'Kekayaan intelektual (HKI / paten)', daftarLuaran(pub.filter(function (p) { return p.sumber === 'paten' || /paten/i.test(p.kategori || ''); }))));
     var jurnalIntl = pub.filter(function (p) { return p.kategori === 'Jurnal Internasional'; });
     var jurnalNas = pub.filter(function (p) { return p.kategori === 'Jurnal Nasional'; });
     var j = '';
     if (jurnalIntl.length) j += '<p class="kt-sub" style="margin-top:0">Jurnal internasional · ' + jurnalIntl.length + '</p>' + daftarLuaran(jurnalIntl);
     if (jurnalNas.length) j += '<p class="kt-sub">Jurnal nasional · ' + jurnalNas.length + '</p>' + daftarLuaran(jurnalNas);
-    h.push(bagian(9, 'Publikasi (jurnal)', j || loremP()));
-    h.push(bagian(10, 'Prosiding seminar', daftarLuaran(pub.filter(function (p) { return p.kategori === 'Prosiding Internasional'; }))));
-    h.push(bagian(11, 'Buku', daftarLuaran(pub.filter(function (p) { return p.sumber === 'buku' || /^Book/.test(p.kategori || ''); }))));
+    h.push(bagian(7, 'Publikasi (jurnal)', j || loremP()));
+    h.push(bagian(8, 'Prosiding seminar', daftarLuaran(pub.filter(function (p) { return p.kategori === 'Prosiding Internasional'; }))));
+    h.push(bagian(9, 'Buku', daftarLuaran(pub.filter(function (p) { return p.sumber === 'buku' || /^Book/.test(p.kategori || ''); }))));
 
     // Data SINTA tambahan (di luar urutan CV; tanpa Skor SINTA): penelitian, pengabdian, statistik, grafik, metrik
-    h.push('<h2 class="kt-h2 kt-blok" style="margin-top:56px">Data SINTA</h2>');
+    h.push('<div class="kt-blok" style="margin-top:56px"></div>');
     h.push(bagian('', 'Penelitian', daftarLuaran(pub.filter(function (p) { return p.sumber === 'penelitian'; }))));
     h.push(bagian('', 'Pengabdian kepada masyarakat', daftarLuaran(pub.filter(function (p) { return p.sumber === 'ppm'; }))));
     var sc = m.scopus || {}, gs = m.scholar || {}, g = d.grafik || {};

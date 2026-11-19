@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-11-17T07:03:14+0000",
+ "diperbarui": "2026-11-19T11:19:13+0700",
  "kbk": [
   {
    "kode": "enet",
@@ -459,6 +459,80 @@
      ]
     }
    ],
+   "peta_jalan": {
+    "judul": "Bidang ilmu dan peta jalan penelitian KBK Energi Nuklir dan Energi Terbarukan",
+    "gambar": "kbk/peta-enet-1.jpg",
+    "alt": "Bidang ilmu dan peta jalan penelitian KBK Energi Nuklir dan Energi Terbarukan",
+    "lainnya": [
+     {
+      "gambar": "kbk/peta-enet-2.jpg",
+      "judul": "Reaktor produksi isotop (Gama-AHR)"
+     },
+     {
+      "gambar": "kbk/peta-enet-3.jpg",
+      "judul": "Pengembangan PLTN terapung (Gama-Float)"
+     },
+     {
+      "gambar": "kbk/peta-enet-4.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (3)"
+     },
+     {
+      "gambar": "kbk/peta-enet-5.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (4)"
+     },
+     {
+      "gambar": "kbk/peta-enet-6.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (5)"
+     },
+     {
+      "gambar": "kbk/peta-enet-7.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (6)"
+     },
+     {
+      "gambar": "kbk/peta-enet-8.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (7)"
+     },
+     {
+      "gambar": "kbk/peta-enet-9.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (8)"
+     },
+     {
+      "gambar": "kbk/peta-enet-10.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (9)"
+     },
+     {
+      "gambar": "kbk/peta-enet-11.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (10)"
+     }
+    ]
+   },
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-enet-1.jpg",
+     "judul": "Dokumentasi riset",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-2.jpg",
+     "judul": "Laboratorium",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-3.jpg",
+     "judul": "Kegiatan penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-4.jpg",
+     "judul": "Pengujian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-enet-5.jpg",
+     "judul": "Diskusi riset",
+     "contoh": true
+    }
+   ],
    "statistik": {
     "dosen": 12,
     "kompetensi": 6,
@@ -863,6 +937,56 @@
      ]
     }
    ],
+   "peta_jalan": {
+    "judul": "Peta jalan penelitian KBK Proses Nuklir",
+    "gambar": "kbk/peta-proses-nuklir-1.jpg",
+    "alt": "Peta jalan penelitian KBK Proses Nuklir",
+    "lainnya": [
+     {
+      "gambar": "kbk/peta-proses-nuklir-2.jpg",
+      "judul": "Siklus bahan bakar nuklir (front end dan back end)"
+     },
+     {
+      "gambar": "kbk/peta-proses-nuklir-3.jpg",
+      "judul": "Keselamatan dan keamanan radiasi"
+     },
+     {
+      "gambar": "kbk/peta-proses-nuklir-4.jpg",
+      "judul": "Aplikasi radioisotop dan radiasi"
+     },
+     {
+      "gambar": "kbk/peta-proses-nuklir-5.jpg",
+      "judul": "Fisika medis"
+     }
+    ]
+   },
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-proses-nuklir-1.jpg",
+     "judul": "Dokumentasi riset",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-2.jpg",
+     "judul": "Laboratorium",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-3.jpg",
+     "judul": "Kegiatan penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-4.jpg",
+     "judul": "Pengujian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-proses-nuklir-5.jpg",
+     "judul": "Diskusi riset",
+     "contoh": true
+    }
+   ],
    "statistik": {
     "dosen": 12,
     "kompetensi": 5,
@@ -977,6 +1101,48 @@
      "jumlah_publikasi": 0,
      "riset": [],
      "publikasi": []
+    }
+   ],
+   "peta_jalan": {
+    "judul": "Peta jalan penelitian KBK Multifisika",
+    "gambar": "kbk/peta-multifisika-1.jpg",
+    "alt": "Peta jalan penelitian KBK Multifisika",
+    "lainnya": [
+     {
+      "gambar": "kbk/peta-multifisika-2.jpg",
+      "judul": "Fisika konservasi: material untuk instrumen musik"
+     },
+     {
+      "gambar": "kbk/peta-multifisika-3.jpg",
+      "judul": "Bangunan nir emisi karbon dan energi kawasan"
+     }
+    ]
+   },
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-multifisika-1.jpg",
+     "judul": "Dokumentasi riset",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-2.jpg",
+     "judul": "Pengujian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-3.jpg",
+     "judul": "Ruang penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-4.jpg",
+     "judul": "Kegiatan penelitian",
+     "contoh": true
+    },
+    {
+     "gambar": "kbk/galeri-multifisika-5.jpg",
+     "judul": "Diskusi riset",
+     "contoh": true
     }
    ],
    "statistik": {
@@ -1115,22 +1281,16 @@
     {
      "no": 1,
      "judul": "Building Energy Management System (BEMS) Berbasis Soft Sensor dan AI",
-     "deskripsi": "Upaya menuju Zero Energy Building membutuhkan Building Energy Management System (BEMS) yang mampu memantau, memprediksi, dan mengoptimalkan konsumsi energi secara real-time. Penelitian ini mengembangkan BEMS berbasis soft sensor dan Artificial Intelligence (AI) dengan mengintegrasikan kondisi lingkungan dalam ruang, kenyamanan penghuni, dan konsumsi energi. Inovasinya meliputi soft sensor, sensor kenyamanan berbasis sinyal fisiologis, AI untuk pemodelan prediktif dan optimalisasi energi, serta Virtual Reality untuk visualisasi dan pemantauan.",
+     "deskripsi": "Bangunan merupakan salah satu penyumbang emisi gas rumah kaca yang signifikan, terutama akibat konsumsi energi untuk memenuhi kenyamanan termal dan visual penghuni. Upaya menuju Zero Energy Building membutuhkan Building Energy Management System (BEMS) yang mampu memantau, memprediksi, dan mengoptimalkan konsumsi energi secara real-time. Namun, penerapan BEMS masih menghadapi tantangan berupa kebutuhan sensor yang banyak, biaya instalasi tinggi, serta keterbatasan kemampuan prediktif.",
      "jumlah_publikasi": 14,
-     "riset": [
-      "2025 – 2027 Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence — Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
-      "2025 Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan. — Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
-      "2024 Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas — Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
-      "2023 – 2024 Penerapan Teknologi Soft Sensor Pada Sistem Manajemen Performansi Indoor Environment Quality (IEQ) dan Hemat Energi Untuk Bangunan Tropis — Kementerian Riset Teknologi Dan Pendidikan Tinggi",
-      "2021 – 2022 Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis. — Kementerian Riset Teknologi Dan Pendidikan Tinggi"
-     ],
+     "riset": [],
      "publikasi": [
       {
-       "sitasi": "Faridah, F., Wijaya, D., Hadi, A. N., Pratama, T. O., Irhab, M. F., Ridwan, M. K., &amp; Putra, S. S. Data-driven indoor thermal comfort monitoring system based on soft sensors in the tropics. Science and Technology for the Built Environment, 32(10), 1417–1435, 2026. https://doi.org/10.1080/23744731.2026.2707451",
+       "sitasi": "Faridah, F., Wijaya, D., Hadi, A. N., Pratama, T. O., Irhab, M. F., Ridwan, M. K., & Putra, S. S. Data-driven indoor thermal comfort monitoring system based on soft sensors in the tropics. Science and Technology for the Built Environment, 32(10), 1417–1435, 2026.",
        "doi": "10.1080/23744731.2026.2707451"
       },
       {
-       "sitasi": "Faridah, F., Wijaya, D.D., Hadi, A.N., Alexander, M.I., Pratama, T.O., Luckyarno, Y.F., Budiarto, R., Sunarno, S., Azvi, M.K., &amp; Prakasa, D.F. Adaptive daylight-linked lighting control system: Integrating spatial daylight factor and real-time sensing. Building Services Engineering Research &amp; Technology, 47, 795 – 819, 2026. DOI:10.1177/01436244261463526",
+       "sitasi": "Faridah, F., Wijaya, D.D., Hadi, A.N., Alexander, M.I., Pratama, T.O., Luckyarno, Y.F., Budiarto, R., Sunarno, S., Azvi, M.K., & Prakasa, D.F. Adaptive daylight-linked lighting control system: Integrating spatial daylight factor and real-time sensing. Building Services Engineering Research & Technology, 47, 795 – 819, 2026. DOI:10.1177/01436244261463526",
        "doi": "10.1177/01436244261463526"
       },
       {
@@ -1138,12 +1298,179 @@
        "doi": "10.18280/jesa.590625"
       },
       {
-       "sitasi": "Setiawan, F., Faridah, Budiarto, R., Pratama, T.O., Wijaya, R., Prakoso, A.B. (2026). Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis. In: Mendonça, P., Wang, Y. (eds) Innovation in Green Building and Infrastructure. ICoGB 2024. Sustainable Civil Infrastructures. Springer, Cham. https://doi.org/10.1007/978-3-032-14648-9_36",
+       "sitasi": "Setiawan, F., Faridah, Budiarto, R., Pratama, T.O., Wijaya, R., Prakoso, A.B. (2026). Enhancing Zero-Energy Building Performance Through IoT-Based Renewable Energy Monitoring: A Quantitative Analysis. In: Mendonça, P., Wang, Y. (eds) Innovation in Green Building and Infrastructure. ICoGB 2024. Sustainable Civil Infrastructures. Springer, Cham.",
        "doi": "10.1007/978-3-032-14648-9_36"
       },
       {
-       "sitasi": "Sobirin, I. et al. (2026). Design and Construction of Measurement Device for Ventilation Rate and Airflow Direction in Living Space. In: Mendonça, P., Wang, Y. (eds) Innovation in Green Building and Infrastructure. ICoGB 2024. Sustainable Civil Infrastructures. Springer, Cham. https://doi.org/10.1007/978-3-032-14648-9_35",
+       "sitasi": "Sobirin, I. et al. (2026). Design and Construction of Measurement Device for Ventilation Rate and Airflow Direction in Living Space. In: Mendonça, P., Wang, Y. (eds) Innovation in Green Building and Infrastructure. ICoGB 2024. Sustainable Civil Infrastructures. Springer, Cham.",
        "doi": "10.1007/978-3-032-14648-9_35"
+      },
+      {
+       "sitasi": "Faridah, Utami S.S., Wijaya D.D.A., Yanti R.J., Putra W.S., Adrian B.. \"An indoor airflow distribution predictor using machine learning for a real-time healthy Building monitoring system in the tropics\", Building Services Engineering Research and Technology, 45(3), pp. 293 – 315, 2024. DOI: 10.1177/01436244241231354.",
+       "doi": "10.1177/01436244241231354"
+      },
+      {
+       "sitasi": "Faridah, Utami S.S., Yanti R.J., Sunarno, Nurjani E., Wijaya R.. \"Optimal thermal sensors placement based on indoor thermal environment characterization by using CFD model\", Journal of Applied Engineering Science, 19(3), pp. 628 – 641, 2021. DOI: 10.5937/jaes0-28985.",
+       "doi": "10.5937/jaes0-28985"
+      },
+      {
+       "sitasi": "Faridah, Waruwu M.M., Wijayanto T., Budiarto R., Pratama R.C., Prayogi S.E., Nadiya N.M., Yanti R.J.. \"Feasibility study to detect occupant thermal sensation using a low-cost thermal camera for indoor environments in Indonesia\", Building Services Engineering Research and Technology, 42(4), pp. 389 – 404, 2021. DOI: 10.1177/0143624421994015.",
+       "doi": "10.1177/0143624421994015"
+      },
+      {
+       "sitasi": "Pratama R., Faridah, Achmad B., Avoressi D.D., Waruwu M.M., Luckyarno Y.F.. \"Personal thermal comfort prediction based on EEG signal\", Journal of Engineering Science and Technology, 16(6), pp. 4582 – 4599, 2021.",
+       "doi": ""
+      },
+      {
+       "sitasi": "Faridah, Sunarno, Utami S.S., Nurjani E., Hanif M.I., Waruwu M.M., Wijaya R.. \"Optimisation of the data point configurations in a Building environmental monitoring system\", International Journal of Communication Networks and Distributed Systems, 27(3), pp. 259 – 281, 2021. DOI: 10.1504/IJCNDS.2021.118121.",
+       "doi": "10.1504/IJCNDS.2021.118121"
+      },
+      {
+       "sitasi": "Yanti R.J., Faridah, Mustika I.W., Ariananda D.D., Utami S.S.. \"Analysis of Gaussian process to predict thermal sensor placement for controlling energy consumption on the educational Building\", AIP Conference Proceedings, 2020. DOI: 10.1063/5.0000923.",
+       "doi": "10.1063/5.0000923"
+      },
+      {
+       "sitasi": "Kurniawan I., Faridah, Utami S.S.. \"Characterizing of climate chamber thermal environment using the CFD simulation method using IES VE\", AIP Conference Proceedings, 2020. DOI: 10.1063/5.0000924.",
+       "doi": "10.1063/5.0000924"
+      },
+      {
+       "sitasi": "Hidayat I., Faridah, Utami S.S.. \"Activity Based Smart Lighting Control for Energy Efficient Building by Neural Network Model\", E3S Web of Conferences, 2018. DOI: 10.1051/e3sconf/20184301017.",
+       "doi": "10.1051/e3sconf/20184301017"
+      },
+      {
+       "sitasi": "Utami S.S.., Faridah, Azizi N.A., Kencanawati E., Tanjung M.A., Achmad B.. \"Energy Monitoring System for Existing Buildings in Indonesia\", E3S Web of Conferences, 2018. DOI: 10.1051/e3sconf/20184201003.",
+       "doi": "10.1051/e3sconf/20184201003"
+      }
+     ],
+     "tim": [
+      {
+       "slug": "faridah",
+       "nama": "Faridah",
+       "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+       "url": "/faridah/"
+      },
+      {
+       "slug": "thomas-oka-pratama",
+       "nama": "Thomas Oka Pratama",
+       "gelar": "S.T., M.Eng., Dr.",
+       "url": "/thomas-oka-pratama/"
+      },
+      {
+       "slug": "yakub-fahim-luckyarno",
+       "nama": "Yakub Fahim Luckyarno",
+       "gelar": "S.T., M.Eng., Ph.D.",
+       "url": "/yakub-fahim-luckyarno/"
+      },
+      {
+       "slug": "sentagi-sesotya-utami",
+       "nama": "Sentagi Sesotya Utami",
+       "gelar": "S.T., M.Sc., Ph.D.",
+       "url": "/sentagi-sesotya-utami/"
+      },
+      {
+       "slug": "m-kholid-ridwan",
+       "nama": "M. Kholid Ridwan",
+       "gelar": "S.T., M.Sc., Dr.",
+       "url": "/m-kholid-ridwan/"
+      },
+      {
+       "slug": "rachmawan-budiarto",
+       "nama": "Rachmawan Budiarto",
+       "gelar": "S.T., M.T., Dr.",
+       "url": "/rachmawan-budiarto/"
+      },
+      {
+       "slug": "dwi-joko-suroso",
+       "nama": "Dwi Joko Suroso",
+       "gelar": "Ir., S.T., M.Eng., Dr. Eng.",
+       "url": "/dwi-joko-suroso/"
+      }
+     ],
+     "ketua": {
+      "slug": "faridah",
+      "nama": "Faridah",
+      "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+      "url": "/faridah/"
+     },
+     "gambar": "kbk/instrumentasi-dokumentasi.jpg",
+     "deskripsi_lengkap": [
+      "Bangunan merupakan salah satu penyumbang emisi gas rumah kaca yang signifikan, terutama akibat konsumsi energi untuk memenuhi kenyamanan termal dan visual penghuni. Upaya menuju Zero Energy Building membutuhkan Building Energy Management System (BEMS) yang mampu memantau, memprediksi, dan mengoptimalkan konsumsi energi secara real-time. Namun, penerapan BEMS masih menghadapi tantangan berupa kebutuhan sensor yang banyak, biaya instalasi tinggi, serta keterbatasan kemampuan prediktif.",
+      "Penelitian ini mengembangkan BEMS berbasis Soft Sensor dan Artificial Intelligence (AI) dengan mengintegrasikan tiga aspek utama, yaitu kondisi lingkungan dalam ruang, kenyamanan penghuni, dan konsumsi energi. Inovasi yang dikembangkan meliputi soft sensor untuk mengurangi kebutuhan sensor fisik, sensor kenyamanan berbasis sinyal fisiologis untuk pemantauan kenyamanan secara real-time, AI untuk pemodelan prediktif dan optimalisasi energi, serta Virtual Reality (VR) untuk visualisasi dan pemantauan bangunan secara interaktif."
+     ],
+     "paten": [
+      {
+       "tahun": "2026",
+       "judul": "Sistem Evaluasi Kenyamanan Termal Lingkungan Ruang Huni Berbasis Kontrol Hierarkis dan Sinkronisasi Data",
+       "jenis": "Paten",
+       "nomor": "P00202003280"
+      },
+      {
+       "tahun": "2026",
+       "judul": "Sistem Monitor Bangunan Sehat Berbasis Kualitas Udara Dalam Ruangan, Kadar Karbon Dioksida, Volume Dan Arah Aliran Udara",
+       "jenis": "Paten",
+       "nomor": "IDP000101727"
+      },
+      {
+       "tahun": "2026",
+       "judul": "Antenna Omnidirectional Frekuensi Uhv 915-923 Mhz Gain Tinggi Sebagai Gerbang Komunikasi Data Darurat Kebencanaan Non-Provider Seluler",
+       "jenis": "Paten Sederhana",
+       "nomor": "IDS000012039"
+      },
+      {
+       "tahun": "2026",
+       "judul": "Antenna Directional Frekuensi Uhv 920 Mhz Gain Tinggi Sebagai Gerbang Komunikasi Data Darurat Kebencanaan Daerah Remote",
+       "jenis": "Paten Sederhana",
+       "nomor": "IDS000013234"
+      },
+      {
+       "tahun": "2026",
+       "judul": "Timbangan Sampah Digital IoT dengan Algoritma Cerdas untuk Pelacakan dan Pemilahan Limbah",
+       "jenis": "Paten Sederhana",
+       "nomor": "IDS000013246"
+      },
+      {
+       "tahun": "2025",
+       "judul": "Sistem Uji Kualitas Serat Alami Berbasis Uji Tarik dengan Rangkaian Strain Gauge",
+       "jenis": "Paten",
+       "nomor": "IDP000097695"
+      },
+      {
+       "tahun": "2023",
+       "judul": "Sistem Pemantau dan Pemetaan Intensitas Sumber Cahaya Natural untuk Tata Cahaya di Dalam Ruangan",
+       "jenis": "Paten Sederhana",
+       "nomor": "IDS000007336"
+      }
+     ],
+     "pendanaan": [
+      {
+       "periode": "2025 – 2027",
+       "judul": "Pengembangan Sistem Manajemen Energi Bangunan Near Zero-Energy Berbasis Teknologi Digital Twin-Virtual Reality dan Artificial Intelligence",
+       "sumber": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi"
+      },
+      {
+       "periode": "2025",
+       "judul": "Pengembangan Prototipe Kontrol Cerdas Pencahayaan Ruang berbasis Teknologi Soft Sensor untuk Sistem Managemen Energi Bangunan",
+       "sumber": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi"
+      },
+      {
+       "periode": "2024",
+       "judul": "Prototipe Sistem Monitoring dan Kontrol Multi-Parameter untuk Bangunan Hijau Berbasis Teknologi Cerdas",
+       "sumber": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi"
+      },
+      {
+       "periode": "2023 – 2024",
+       "judul": "Penerapan Teknologi Soft Sensor Pada Sistem Manajemen Performansi Indoor Environment Quality (IEQ) dan Hemat Energi Untuk Bangunan Tropis",
+       "sumber": "Kementerian Riset Teknologi Dan Pendidikan Tinggi"
+      },
+      {
+       "periode": "2021 – 2022",
+       "judul": "Sistem Pendukung Tata Kelola Lingkungan Sehat dalam Bangunan Hemat Energi di Iklim Tropis",
+       "sumber": "Kementerian Riset Teknologi Dan Pendidikan Tinggi"
+      },
+      {
+       "periode": "2018 – 2020",
+       "judul": "Pola Persebaran Kuantitatif Kenyamanan Huni Bangunan di Indonesia sebagai Respon Kondisi Geografis Wilayah",
+       "sumber": "Kementerian Riset Teknologi Dan Pendidikan Tinggi"
       }
      ]
     },
@@ -1220,6 +1547,171 @@
      "jumlah_publikasi": 0,
      "riset": [],
      "publikasi": []
+    }
+   ],
+   "bidang": [
+    {
+     "subkbk": "Sistem Cerdas dan Tertanam",
+     "bidang": "Sistem Cerdas dan Tertanam",
+     "en": "Intelligent and Embedded System",
+     "dosen": [
+      {
+       "slug": "nazrul-effendy",
+       "nama": "Nazrul Effendy",
+       "gelar": "Prof., Ir., S.T., M.Eng., PhD.",
+       "url": "/nazrul-effendy/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Sistem Cerdas dan Tertanam",
+     "bidang": "Mesin Cerdas dan Instrumentasi untuk Kesehatan",
+     "en": "Intelligent Machine and Instrumentation for Health",
+     "dosen": [
+      {
+       "slug": "nopriadi",
+       "nama": "Nopriadi",
+       "gelar": "S.T., M.Sc., Ph.D.",
+       "url": "/nopriadi/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Sistem Cerdas dan Tertanam",
+     "bidang": "Sistem Nirkabel",
+     "en": "Wireless System",
+     "dosen": [
+      {
+       "slug": "yakub-fahim-luckyarno",
+       "nama": "Yakub Fahim Luckyarno",
+       "gelar": "S.T., M.Eng., Ph.D.",
+       "url": "/yakub-fahim-luckyarno/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Sistem Cerdas dan Tertanam",
+     "bidang": "Teknologi Pengembangan Sensor",
+     "en": "Sensor Development Technology",
+     "dosen": [
+      {
+       "slug": "gandha-satria-adi",
+       "nama": "Gandha Satria Adi",
+       "gelar": "S.T., M.Eng.",
+       "url": "/gandha-satria-adi/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Sistem Instrumentasi",
+     "bidang": "Instrumentasi untuk Lingkungan Berbahaya",
+     "en": "Instrumentation for Hazardous Environment",
+     "dosen": [
+      {
+       "slug": "sunarno",
+       "nama": "Sunarno",
+       "gelar": "Prof., Ir., M.Eng., Ph.D.",
+       "url": "/sunarno/"
+      },
+      {
+       "slug": "thomas-oka-pratama",
+       "nama": "Thomas Oka Pratama",
+       "gelar": "S.T., M.Eng., Dr.",
+       "url": "/thomas-oka-pratama/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Sistem Instrumentasi",
+     "bidang": "Instrumentasi untuk Lingkungan Terbangun Berkelanjutan",
+     "en": "Instrumentation for Sustainable Built Environment",
+     "dosen": [
+      {
+       "slug": "faridah",
+       "nama": "Faridah",
+       "gelar": "Prof., Ir., S.T., M.Sc., Dr.",
+       "url": "/faridah/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Sistem Instrumentasi",
+     "bidang": "Sistem Manajemen Baterai",
+     "en": "Battery Management System",
+     "dosen": [
+      {
+       "slug": "agus-arif",
+       "nama": "Agus Arif",
+       "gelar": "Ir., M.T.",
+       "url": "/agus-arif/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Sistem Instrumentasi",
+     "bidang": "Teknologi Sensor dan Robotika",
+     "en": "Sensor and Robotics Technology",
+     "dosen": [
+      {
+       "slug": "dwi-joko-suroso",
+       "nama": "Dwi Joko Suroso",
+       "gelar": "Ir., S.T., M.Eng., Dr. Eng.",
+       "url": "/dwi-joko-suroso/"
+      }
+     ]
+    },
+    {
+     "subkbk": "Otomasi Proses",
+     "bidang": "Otomasi Proses",
+     "en": "Process Automation",
+     "dosen": [
+      {
+       "slug": "awang-n-i-wardana",
+       "nama": "Awang N. I. Wardana",
+       "gelar": "S.T., M.T., M.Sc., Dr.-Ing.",
+       "url": "/awang-n-i-wardana/"
+      }
+     ]
+    }
+   ],
+   "peta_jalan": {
+    "judul": "Peta jalan penelitian: BEMS berbasis soft sensor dan AI",
+    "gambar": "kbk/instrumentasi-peta-jalan.jpg",
+    "alt": "Peta jalan penelitian BEMS berbasis soft sensor dan AI, 2018 sampai 2028",
+    "lainnya": []
+   },
+   "galeri": [
+    {
+     "gambar": "kbk/galeri-instrumentasi-1.jpg",
+     "judul": "Rapat koordinasi tim"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-2.jpg",
+     "judul": "Pengujian panel kontrol"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-3.jpg",
+     "judul": "Model 3D gedung"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-4.jpg",
+     "judul": "Smart switch di ruang lab"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-5.jpg",
+     "judul": "Pengujian sensor di ruang akustik"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-6.jpg",
+     "judul": "Peta sebaran intensitas cahaya"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-7.jpg",
+     "judul": "Pemasangan perangkat ukur"
+    },
+    {
+     "gambar": "kbk/galeri-instrumentasi-8.jpg",
+     "judul": "Prototipe perangkat sensor"
     }
    ],
    "statistik": {

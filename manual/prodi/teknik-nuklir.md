@@ -61,6 +61,8 @@ Program Sarjana Program Studi Teknik Nuklir menyediakan dua peminatan yaitu Pemi
 
 Program Sarjana Program Studi Teknik Nuklir juga menyediakan mata kuliah pilihan bebas atau pemilihan minor yang dapat diambil di program studi lain. Tabel 2.18  adalah mata kuliah pilihan bebas yang disediakan 30 sks untuk memenuhi persyaratan jumlah mata kuliah pilihan bebas 16 sks.
 
+[[dokumen Dokumen Kurikulum 2026|Struktur mata kuliah, capaian pembelajaran, dan peta kurikulum Program Sarjana Teknik Nuklir.|Kurikulum;2026|S1 TEKNIK NUKLIR · PDF]]
+
 ## Bidang Peminatan
 
 ### Teknologi Energi Nuklir
@@ -71,7 +73,7 @@ Mahasiswa mempelajari prinsip pengoperasian dan analisis reaktor nuklir, peranca
 
 Peminatan ini juga memberikan landasan bagi pengembangan kompetensi dalam teknologi proses nuklir, aplikasi radiasi industri, dan prinsip keselamatan, keamanan, serta safeguards nuklir.
 
-![Peminatan Teknologi Energi Nuklir](tn-peminatan-ten.png)
+![Peminatan Teknologi Energi Nuklir](svg:tn-peminatan-ten)
 
 ### Fisika Medis
 
@@ -81,7 +83,7 @@ Mahasiswa dibekali pengetahuan mengenai interaksi radiasi dengan materi biologis
 
 Kelompok mata kuliah peminatan Fisika Medis disusun mengacu pada surat edaran dari Asosiasi Institusi Pendidikan Fisika Medis Indonesia (AIPFMI) meliputi: Anatomi dan Fisiologi (prasyarat Biologi Dasar), Radiobiologi (prasyarat Biologi Dasar), Fisika kedokteran nuklir (prasyarat Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), Fisika Radiodiagnostik dan Intervensional (prasyarat: Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), Fisika radioterapi (prasyarat: Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), Fisika radiologi dan dosimetri (prasyarat: Biologi Dasar, Fisika Atom dan Inti, Deteksi dan Pengukuran Radiasi), dan Praktikum Fisika Medis (prasyarat: Praktikum Deteksi dan Pengukuran Radiasi).
 
-![Peminatan Fisika Medis](tn-peminatan-fisika-medis.png)
+![Peminatan Fisika Medis](svg:tn-peminatan-fisika-medis)
 
 ## Statistik Mahasiswa dan Alumni
 
@@ -89,7 +91,7 @@ Program Sarjana Teknik Nuklir UGM telah menghasilkan lulusan yang berkontribusi 
 
 Berdasarkan data akademik hingga Desember 2025, Program Sarjana Teknik Nuklir UGM telah menghasilkan 1.619 lulusan sejak tahun 1977, dengan jumlah mahasiswa aktif sebanyak 307 orang.
 
-![Lulusan dan mahasiswa Teknik Nuklir per angkatan, Desember 2025](tn-lulusan-per-angkatan.jpg)
+![Lulusan dan mahasiswa Teknik Nuklir per angkatan, Desember 2025](svg:tn-lulusan-per-angkatan)
 
 Lulusan Program Sarjana Teknik Nuklir memiliki peluang karier yang luas, baik pada sektor kenukliran maupun sektor nonkenukliran. Kompetensi fundamental dalam bidang keteknikan, analisis data, pemodelan, sistem, dan pemecahan masalah memungkinkan lulusan untuk beradaptasi dengan berbagai kebutuhan profesional.
 
@@ -99,7 +101,7 @@ Hasil tracer study alumni periode 2020–2025 menunjukkan bahwa lulusan Teknik N
 
 Keberagaman sektor pekerjaan tersebut menunjukkan bahwa pendidikan Teknik Nuklir UGM tidak hanya menghasilkan kompetensi spesifik di bidang teknologi nuklir, tetapi juga kemampuan keteknikan dan profesional yang dapat diterapkan secara luas.
 
-![Hasil tracer study lulusan 2020–2025](tn-karier-alumni.png)
+![Hasil tracer study lulusan 2020–2025](svg:tn-karier-alumni)
 
 ### Pengembangan Kompetensi Alumni
 
@@ -145,7 +147,7 @@ Topik tugas akhir mahasiswa dapat mencakup bidang teknologi energi nuklir, siste
 - Detektor (DET)
 - Keselamatan radiasi (RadSafe)
 
-![Jumlah mahasiswa per topik Teknologi Energi Nuklir, 2021–2024](tn-topik-ta-ten.jpg)
+![Jumlah mahasiswa per topik Teknologi Energi Nuklir, 2021–2024](svg:tn-topik-ta-ten)
 
 ### Topik tugas akhir: Fisika Medis
 - Boron Neutron Capture Therapy (BNCT).
@@ -156,7 +158,7 @@ Topik tugas akhir mahasiswa dapat mencakup bidang teknologi energi nuklir, siste
 - Design and Evaluation of Shielding for LINAC, Proton, carbon ion therapi.
 - Therapy Planning System (TPS).
 
-![Jumlah mahasiswa per topik Fisika Medis, 2021–2023](tn-topik-ta-fisika-medis.jpg)
+![Jumlah mahasiswa per topik Fisika Medis, 2021–2023](svg:tn-topik-ta-fisika-medis)
 
 ## Laporan Kinerja Akademik
 
@@ -173,6 +175,11 @@ Program studi juga melaksanakan peninjauan kurikulum secara berkala dengan mempe
 Sebagai bagian dari transparansi dan akuntabilitas akademik, halaman ini menyajikan ringkasan capaian kinerja program studi, perkembangan kualitas pendidikan, hasil evaluasi kurikulum, serta dokumentasi kegiatan peningkatan mutu akademik.
 
 Melalui mekanisme evaluasi dan perbaikan berkelanjutan, Program Sarjana Teknik Nuklir UGM berupaya mempertahankan relevansi, kualitas, dan daya saing lulusannya di tingkat nasional maupun internasional.
+
+[[dokumen Laporan Kinerja Akademik TA 2024/2025|Laporan kinerja Program Sarjana Teknik Nuklir tahun akademik 2024/2025.|Laporan;Kinerja;2024/2025|S1 TEKNIK NUKLIR · PDF]]
+[[dokumen Laporan Kinerja Akademik TA 2023/2024|Laporan kinerja Program Sarjana Teknik Nuklir tahun akademik 2023/2024.|Laporan;Kinerja;2023/2024|S1 TEKNIK NUKLIR · PDF]]
+[[dokumen Laporan Kinerja Akademik TA 2022/2023|Laporan kinerja Program Sarjana Teknik Nuklir tahun akademik 2022/2023.|Laporan;Kinerja;2022/2023|S1 TEKNIK NUKLIR · PDF]]
+[[dokumen Laporan Kinerja Akademik TA 2021/2022|Laporan kinerja Program Sarjana Teknik Nuklir tahun akademik 2021/2022.|Laporan;Kinerja;2021/2022|S1 TEKNIK NUKLIR · PDF]]
 
 ## Mitra dan Kerja Sama
 
