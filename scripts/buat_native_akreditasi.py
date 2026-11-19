@@ -9,10 +9,10 @@ import buat_native_orang as bo  # noqa: E402
 
 ROOT = be.ROOT
 B = "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/11/"
-G = [("S1 Teknik Nuklir", [("Sertifikat Akreditasi", "akreditasi-1.jpeg"), ("Akreditasi LAM Teknik Program Studi S1 Teknik Nuklir", "akreditasi-2.png"),
-                           ("Akreditasi IABEE Program Studi S1 Teknik Nuklir", "akreditasi-3.png")]),
-     ("S1 Teknik Fisika", [("Akreditasi LAM Teknik Program Studi S1 Teknik Fisika", "akreditasi-4.jpeg"), ("Akreditasi IABEE Program Studi S1 Teknik Fisika", "akreditasi-5.png")]),
-     ("Magister Teknik Fisika", [("Akreditasi LAM Teknik Program Magister, Program Studi Teknik Fisika", None)])]
+G = [("S1 Teknik Nuklir", [("Akreditasi LAM Teknik Program Studi S1 Teknik Nuklir", "akreditasi-1.jpeg"), ("Akreditasi IABEE Program Studi S1 Teknik Nuklir", "akreditasi-2.png")]),
+     ("S1 Teknik Fisika", [("Akreditasi LAM Teknik Program Studi S1 Teknik Fisika", "akreditasi-3.png"), ("Akreditasi IABEE Program Studi S1 Teknik Fisika", "akreditasi-4.jpeg")]),
+     ("Magister Teknik Fisika", [("Akreditasi LAM Teknik Program Magister, Program Studi Teknik Fisika", "akreditasi-5.png")])]
+# Catatan: judul asli di halaman tf tidak cocok dengan gambar; pemetaan ini hasil membaca isi tiap sertifikat (19 Nov).
 
 
 def kartu(judul, img):
