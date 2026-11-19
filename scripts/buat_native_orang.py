@@ -36,7 +36,7 @@ def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False, pas=Fals
         mail = bp.teks(f'<p><a href="mailto:{email}" style="color:{c_gel}">{email}</a></p>', c_gel, 12 if pas else 13, None)
         anak = [atas, mail]
     kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), _flex_size="shrink", width=be.ukuran(100, "%"),
-                         flex_justify_content="space-between", min_height=be.ukuran(h, "px"), min_height_mobile=be.ukuran(0, "px"), _title="Teks kartu")
+                         flex_justify_content="space-between" if email else "flex-start", min_height=be.ukuran(h, "px"), min_height_mobile=be.ukuran(0, "px"), _title="Teks kartu")
     pct = {2: 48.5, 3: 31.5, 4: 23.5}[cols]
     return be.container([gambar, kanan], content_width="full", flex_direction="row", flex_align_items="stretch" if pas else "flex-start",
                         flex_gap=be.gap(18 if tier != "staf" else 14), width=be.ukuran(pct, "%"), width_tablet=be.ukuran(48.5, "%"),
