@@ -9,8 +9,8 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 
 ## 1. Tentang Kami (dikerjakan pertama)
 - [x] Sejarah 16872: dibangun ulang dari v1 (peta jalan timeline tanpa foto + periode berkartu foto) — menunggu cek user
-- [ ] Visi dan Misi: selaraskan tipografi/gaya v1
-- [ ] Struktur Organisasi: selaras v1 (bagan jadi gambar PNG)
+- [x] Visi dan Misi 16875: native dari v1 — menunggu cek user
+- [x] Struktur Organisasi 16890: native dari v1, bagan PNG — menunggu cek user
 - [x] Pengurus Departemen: ACC user 19 Nov (desain v1, judul center, Alexander<->Kholid) — id 16793
 - [x] Dosen Tetap: tombol sejajar, tanpa judul bagian (id 16763); foto seragam AI menyusul
 - [ ] Detail dosen (38 profil): angka bagian center + lebih besar
