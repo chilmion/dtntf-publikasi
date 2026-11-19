@@ -22,7 +22,8 @@ def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False, pas=Fals
     h = round(w * 1.25)
     gambar = be.widget("image", image={"url": foto, "id": "", "alt": alt}, image_size="full", width=be.ukuran(100, "%"),
                        height=be.ukuran(h, "px"), image_border_radius=bp.sudut(12), _title="Foto " + nama,
-                       _element_width="initial", _element_custom_width=be.ukuran(w, "px"), **{"object-fit": "cover", "object-position": "center 12%"})
+                       _element_width="initial", _element_custom_width=be.ukuran(w, "px"), _flex_size="none",
+                       **{"object-fit": "cover", "object-position": "center 12%"})
     c_lab, c_nama, c_gel = ("#C8E86D", "#FFFFFF", "#D6E2EC") if navy else ("#003D79", "#073C64", "#636363")
     anak = [be.widget("text-editor", editor=f"<p>{label}</p>", text_color=c_lab, typography_typography="custom",
                       typography_font_family="Barlow", typography_font_weight="700", typography_font_size=be.ukuran_(rl),
