@@ -16,8 +16,11 @@ BORDER = {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "i
 BULAN = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
 
 
+ALIAS = {"sucofindo.png": "sucofindo-1.png"}   # nama berkas di media tf (sudah ada berkas bernama sama)
+
+
 def url(p):
-    nama = p.split("/")[-1]
+    nama = ALIAS.get(p.split("/")[-1], p.split("/")[-1])
     return B + "dtntf-mitra-" + nama.rsplit(".", 1)[0] + "." + nama.rsplit(".", 1)[1]
 
 
