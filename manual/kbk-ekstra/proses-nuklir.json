@@ -25,5 +25,28 @@
    "judul": "Diskusi riset",
    "contoh": true
   }
- ]
+ ],
+ "peta_jalan": {
+  "judul": "Peta jalan penelitian KBK Proses Nuklir",
+  "gambar": "kbk/peta-proses-nuklir-1.jpg",
+  "alt": "Peta jalan penelitian KBK Proses Nuklir",
+  "lainnya": [
+   {
+    "gambar": "kbk/peta-proses-nuklir-2.jpg",
+    "judul": "Siklus bahan bakar nuklir (front end dan back end)"
+   },
+   {
+    "gambar": "kbk/peta-proses-nuklir-3.jpg",
+    "judul": "Keselamatan dan keamanan radiasi"
+   },
+   {
+    "gambar": "kbk/peta-proses-nuklir-4.jpg",
+    "judul": "Aplikasi radioisotop dan radiasi"
+   },
+   {
+    "gambar": "kbk/peta-proses-nuklir-5.jpg",
+    "judul": "Fisika medis"
+   }
+  ]
+ }
 }

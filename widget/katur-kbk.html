@@ -249,6 +249,13 @@
 .dtntf-kt .kt-gal.besar figcaption{font:400 22px/1.2 var(--kt-f-judul);letter-spacing:-.8px}
 .dtntf-kt .kt-gal .kt-contoh{position:absolute;right:12px;top:12px;z-index:2;font:600 11px/1 var(--kt-f-teks);letter-spacing:.6px;text-transform:uppercase;color:#7a5d00;background:#FFF6D6;border:1px dashed #D9B84A;border-radius:999px;padding:5px 9px}
 @media (max-width:767px){.dtntf-kt .kt-galeri{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;gap:12px}.dtntf-kt .kt-gal{grid-column:span 1!important;grid-row:span 1!important}.dtntf-kt .kt-gal.besar{grid-column:1/-1!important;grid-row:span 2!important}}
+
+.dtntf-kt .kt-peta-lain{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:16px}
+.dtntf-kt .kt-peta-kartu{display:flex;flex-direction:column;border:1px solid var(--kt-line);border-radius:var(--kt-r);overflow:hidden;background:#fff;text-decoration:none;color:inherit}
+.dtntf-kt .kt-peta-kartu:hover{border-color:var(--kt-navy)}
+.dtntf-kt .kt-peta-kartu img{width:100%;aspect-ratio:16/10;object-fit:contain;background:#fff;display:block}
+.dtntf-kt .kt-peta-kartu span{padding:12px 16px;border-top:1px solid var(--kt-line);font:500 15px/1.35 var(--kt-f-teks);color:var(--kt-ink)}
+@media (max-width:767px){.dtntf-kt .kt-peta-lain{grid-template-columns:1fr}}
 </style>
 
 <script>
@@ -369,7 +376,13 @@
     // d. anggota
     var ag = (k.anggota || []).map(function (a) { return kartu(a, k.ketua); }).join('') || kartuLorem() + kartuLorem() + kartuLorem();
     h.push(sec('Anggota', '<div class="kt-anggota">' + ag + '</div>'));
-    if (k.peta_jalan && k.peta_jalan.gambar) h.push(sec('Peta jalan penelitian', '<figure class="kt-peta"><img src="' + esc(BASE + '/' + k.peta_jalan.gambar) + '" alt="' + esc(k.peta_jalan.alt || k.peta_jalan.judul || 'Peta jalan penelitian') + '" loading="lazy"></figure>'));
+    if (k.peta_jalan && k.peta_jalan.gambar) {
+      var pj = k.peta_jalan, lain = pj.lainnya || [];
+      h.push(sec('Peta jalan penelitian', '<figure class="kt-peta"><img src="' + esc(BASE + '/' + pj.gambar) + '" alt="' + esc(pj.alt || pj.judul || 'Peta jalan penelitian') + '" loading="lazy"></figure>' +
+        (lain.length ? '<div class="kt-peta-lain">' + lain.map(function (x) {
+          return '<a class="kt-peta-kartu" href="' + esc(BASE + '/' + x.gambar) + '" target="_blank" rel="noopener"><img src="' + esc(BASE + '/' + x.gambar) + '" alt="' + esc(x.judul) + '" loading="lazy"><span>' + esc(x.judul) + '</span></a>';
+        }).join('') + '</div>' : '')));
+    }
     // e. tema penelitian
     var tm = (k.tema || []).length ? k.tema.map(tema).join('') : tema({ no: 1 }) + tema({ no: 2 });
     h.push(sec('Tema penelitian', tm));

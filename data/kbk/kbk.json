@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-11-19T02:03:04+0700",
+ "diperbarui": "2026-11-19T11:19:13+0700",
  "kbk": [
   {
    "kode": "enet",
@@ -459,6 +459,53 @@
      ]
     }
    ],
+   "peta_jalan": {
+    "judul": "Bidang ilmu dan peta jalan penelitian KBK Energi Nuklir dan Energi Terbarukan",
+    "gambar": "kbk/peta-enet-1.jpg",
+    "alt": "Bidang ilmu dan peta jalan penelitian KBK Energi Nuklir dan Energi Terbarukan",
+    "lainnya": [
+     {
+      "gambar": "kbk/peta-enet-2.jpg",
+      "judul": "Reaktor produksi isotop (Gama-AHR)"
+     },
+     {
+      "gambar": "kbk/peta-enet-3.jpg",
+      "judul": "Pengembangan PLTN terapung (Gama-Float)"
+     },
+     {
+      "gambar": "kbk/peta-enet-4.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (3)"
+     },
+     {
+      "gambar": "kbk/peta-enet-5.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (4)"
+     },
+     {
+      "gambar": "kbk/peta-enet-6.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (5)"
+     },
+     {
+      "gambar": "kbk/peta-enet-7.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (6)"
+     },
+     {
+      "gambar": "kbk/peta-enet-8.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (7)"
+     },
+     {
+      "gambar": "kbk/peta-enet-9.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (8)"
+     },
+     {
+      "gambar": "kbk/peta-enet-10.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (9)"
+     },
+     {
+      "gambar": "kbk/peta-enet-11.jpg",
+      "judul": "Peta jalan penelitian bidang ilmu (10)"
+     }
+    ]
+   },
    "galeri": [
     {
      "gambar": "kbk/galeri-enet-1.jpg",
@@ -890,6 +937,29 @@
      ]
     }
    ],
+   "peta_jalan": {
+    "judul": "Peta jalan penelitian KBK Proses Nuklir",
+    "gambar": "kbk/peta-proses-nuklir-1.jpg",
+    "alt": "Peta jalan penelitian KBK Proses Nuklir",
+    "lainnya": [
+     {
+      "gambar": "kbk/peta-proses-nuklir-2.jpg",
+      "judul": "Siklus bahan bakar nuklir (front end dan back end)"
+     },
+     {
+      "gambar": "kbk/peta-proses-nuklir-3.jpg",
+      "judul": "Keselamatan dan keamanan radiasi"
+     },
+     {
+      "gambar": "kbk/peta-proses-nuklir-4.jpg",
+      "judul": "Aplikasi radioisotop dan radiasi"
+     },
+     {
+      "gambar": "kbk/peta-proses-nuklir-5.jpg",
+      "judul": "Fisika medis"
+     }
+    ]
+   },
    "galeri": [
     {
      "gambar": "kbk/galeri-proses-nuklir-1.jpg",
@@ -1033,6 +1103,21 @@
      "publikasi": []
     }
    ],
+   "peta_jalan": {
+    "judul": "Peta jalan penelitian KBK Multifisika",
+    "gambar": "kbk/peta-multifisika-1.jpg",
+    "alt": "Peta jalan penelitian KBK Multifisika",
+    "lainnya": [
+     {
+      "gambar": "kbk/peta-multifisika-2.jpg",
+      "judul": "Fisika konservasi: material untuk instrumen musik"
+     },
+     {
+      "gambar": "kbk/peta-multifisika-3.jpg",
+      "judul": "Bangunan nir emisi karbon dan energi kawasan"
+     }
+    ]
+   },
    "galeri": [
     {
      "gambar": "kbk/galeri-multifisika-1.jpg",
@@ -1592,7 +1677,8 @@
    "peta_jalan": {
     "judul": "Peta jalan penelitian: BEMS berbasis soft sensor dan AI",
     "gambar": "kbk/instrumentasi-peta-jalan.jpg",
-    "alt": "Peta jalan penelitian BEMS berbasis soft sensor dan AI, 2018 sampai 2028"
+    "alt": "Peta jalan penelitian BEMS berbasis soft sensor dan AI, 2018 sampai 2028",
+    "lainnya": []
    },
    "galeri": [
     {

@@ -25,5 +25,52 @@
    "judul": "Diskusi riset",
    "contoh": true
   }
- ]
+ ],
+ "peta_jalan": {
+  "judul": "Bidang ilmu dan peta jalan penelitian KBK Energi Nuklir dan Energi Terbarukan",
+  "gambar": "kbk/peta-enet-1.jpg",
+  "alt": "Bidang ilmu dan peta jalan penelitian KBK Energi Nuklir dan Energi Terbarukan",
+  "lainnya": [
+   {
+    "gambar": "kbk/peta-enet-2.jpg",
+    "judul": "Reaktor produksi isotop (Gama-AHR)"
+   },
+   {
+    "gambar": "kbk/peta-enet-3.jpg",
+    "judul": "Pengembangan PLTN terapung (Gama-Float)"
+   },
+   {
+    "gambar": "kbk/peta-enet-4.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (3)"
+   },
+   {
+    "gambar": "kbk/peta-enet-5.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (4)"
+   },
+   {
+    "gambar": "kbk/peta-enet-6.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (5)"
+   },
+   {
+    "gambar": "kbk/peta-enet-7.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (6)"
+   },
+   {
+    "gambar": "kbk/peta-enet-8.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (7)"
+   },
+   {
+    "gambar": "kbk/peta-enet-9.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (8)"
+   },
+   {
+    "gambar": "kbk/peta-enet-10.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (9)"
+   },
+   {
+    "gambar": "kbk/peta-enet-11.jpg",
+    "judul": "Peta jalan penelitian bidang ilmu (10)"
+   }
+  ]
+ }
 }
