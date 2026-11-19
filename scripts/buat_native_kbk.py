@@ -8,6 +8,7 @@ import json, pathlib, sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import buat_elementor as be  # noqa: E402
 import buat_profil_dosen as bp  # noqa: E402
+import native_tipografi as nt  # noqa: E402
 
 ROOT = be.ROOT
 U = ROOT / "data" / "kbk" / "urls-tf.json"
@@ -253,7 +254,9 @@ def main():
         print("\n".join(sorted(x for x in s if x))); return
     for k in d["kbk"]:
         be._n[0] = 0
-        s = json.dumps({"version": "0.4", "title": "KBK " + k["nama"], "type": "container", "content": [halaman(k)], "page_settings": []}, ensure_ascii=False)
+        hh = halaman(k)
+        nt.terapkan(hh)
+        s = json.dumps({"version": "0.4", "title": "KBK " + k["nama"], "type": "container", "content": [hh], "page_settings": []}, ensure_ascii=False)
         assert "<style" not in s and "<svg" not in s and "<script" not in s and '"widgetType": "html"' not in s
         (ROOT / "elementor" / "native" / f"kbk-{k['kode']}.json").write_text(s, encoding="utf-8")
         print("ok", k["kode"], len(s))

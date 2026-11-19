@@ -18,6 +18,8 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import buat_elementor as be  # noqa: E402
 import buat_profil_dosen as bp  # noqa: E402
+import native_tipografi as nt  # noqa: E402
+import copy  # noqa: E402
 
 ROOT = be.ROOT
 PERIODE = "2026–2031"
@@ -75,7 +77,10 @@ def main():
     doc = {"version": "0.4", "title": "DTNTF Katur – Pengurus Departemen (/pengurus-departemen/)", "type": "container",
            "content": [be.halaman_katur(anak)], "page_settings": []}
     (ROOT / "elementor" / "katur-pengurus-departemen.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    (ROOT / "elementor" / "native" / "pengurus.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
+    d2 = copy.deepcopy(doc)
+    for e in d2["content"]:
+        nt.terapkan(e)
+    (ROOT / "elementor" / "native" / "pengurus.json").write_text(json.dumps(d2, ensure_ascii=False), encoding="utf-8")
     print(f"Tertulis elementor/katur-pengurus-departemen.json ({len(baris)} kartu)")
 
 

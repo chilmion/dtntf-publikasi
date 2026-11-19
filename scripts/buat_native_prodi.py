@@ -10,6 +10,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import buat_prodi as bpr  # noqa: E402
 import buat_elementor as be  # noqa: E402
 import buat_profil_dosen as bp  # noqa: E402
+import native_tipografi as nt  # noqa: E402
 
 ROOT = be.ROOT
 PNG = ROOT / "data" / "prodi" / "png-tf"
@@ -223,6 +224,7 @@ if __name__ == "__main__":
         be._n[0] = 0
         md = (ROOT / "manual" / "prodi" / f"{nama}.md").read_text(encoding="utf-8")
         h = bpr.halaman_v2(md) if "@hero" in md else bpr.halaman(md, judul)[0]
+        nt.terapkan(h)
         s = json.dumps({"version": "0.4", "title": judul, "type": "container", "content": [h], "page_settings": []}, ensure_ascii=False)
         s = re.sub(r"https://chilmion\.github\.io/dtntf-publikasi/data/prodi/([A-Za-z0-9_.-]+)", lambda m: URLS.get(m.group(1).rsplit(".", 1)[0], m.group(0)), s)
         s = s.replace("[[lorem]]", bpr.LOREM)
