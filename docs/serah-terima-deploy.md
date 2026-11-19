@@ -42,7 +42,10 @@ Status: ✅ selesai dan diperiksa · 🟡 sebagian/draf · ⬜ belum. Kolom v1 =
 | H | **Home** isi tengah: mirror desain Home tf "new" ke Home katur (v1) | ✅ v1 id 265 = salinan render Home tf /new/ dalam satu widget HTML (catatan 27–29) | – | — | arah sebaliknya dari yang lain: v1 mengikuti tf; di tf tidak ada deploy Home baru kecuali kernFix Home v2 (16487) |
 | — | Sejarah/Struktur dst: **kernFix + nolPadding** setelah tiap deploy | ✅ | ⬜ | `kern.js`, `sejarah.js` | wajib; Home v2 tf juga kena word-spacing |
 
-Halaman yang belum ada di v1 sama sekali: **Layanan Akademik** (ada di tf). Kalender Akademik dan Panduan Akademik: urutan menu sudah, isi halaman tidak diubah.
+Halaman yang belum ada di v1: **Layanan Akademik**. Di tf halaman ini SUDAH ADA (/layanan-akademik/, 6 kartu), jadi tidak perlu dibuat untuk tf; cukup arahkan item menu Layanan ke sana. Kalender Akademik dan Panduan Akademik: urutan menu sudah, isi halaman tidak diubah.
+
+## Aturan KBK saat deploy (keputusan user)
+KBK yang bahannya belum lengkap tetap dideploy dengan **lorem ipsum placeholder** untuk bagian kosong (tidak disembunyikan, tidak mengarang data); gambar contoh berlabel "Gambar contoh". Widget sudah otomatis. Detail: `catatan-revisi-dosen.md` entri 30.
 
 ## Urutan deploy yang disarankan di tf (hari ini)
 
