@@ -96,7 +96,7 @@ def pengurus():
     grup = [("Pimpinan Departemen", pilih(lambda j: j in ("Ketua Departemen", "Sekretaris Departemen")), 2, "pimp", True, "#FFFFFF"),
             ("Ketua Program Studi", urut(pilih(lambda j: j.startswith("Ketua Program Studi")), ["Nuklir", "Fisika", "Magister"]), 3, "peng", False, "#F5F5F5"),
             ("Sekretaris Program Studi", urut(pilih(lambda j: j.startswith("Sekretaris Program Studi")), ["Nuklir", "Fisika"]), 2, "peng", False, "#FFFFFF"),
-            ("Kepala Laboratorium", pilih(lambda j: j.startswith("Kepala Laboratorium")), 3, "peng", False, "#F5F5F5"),
+            ("Kepala Laboratorium", urut(pilih(lambda j: j.startswith("Kepala Laboratorium")), ["Sensor", "Energi Terbarukan", "Komputasi", "Proses", "Teknologi Energi Nuklir"]), 3, "peng", False, "#F5F5F5"),
             ("Koordinator Kelompok Bidang Keahlian (KBK)", pilih(lambda j: j.startswith("Koordinator KBK")), 4, "peng", False, "#FFFFFF")]
     out = []
     for judul, rs, cols, tier, navy, bg in grup:
