@@ -18,9 +18,9 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 - [x] Fasilitas Umum 16901: bento v1 native + 3 penggantian teks + urutan baru — menunggu cek user
 
 ## 2. Pendidikan
-- [ ] Gaya seragam di Kalender Akademik, Panduan Akademik, Akreditasi (acuan: halaman Panduan Akademik tf)
-- [ ] Panduan Akademik: kartu TN 2 tombol (Reguler, IUP) + kartu TF + Magister
-- [ ] Akreditasi: kelompok per prodi (S1 TN, S1 TF, Magister), center
+- [x] Gaya seragam Kalender, Panduan, Akreditasi — kartu dokumen/sertifikat (id 16887, 16913, 16893) — menunggu cek user
+- [x] Panduan Akademik: kartu TN 2 tombol + kartu TF + Magister (tautan PDF IUP/TF/Magister kosong)
+- [x] Akreditasi per prodi, center (judul LAM/IABEE yang tertukar sudah dibenarkan)
 - [x] Prodi S1 TN, S1 TF, IUP, Magister: Laporan Akademik 1 kolom, kartu dokumen dirapikan (sampul ringkas), tipografi skala Home — LIVE ulang 19 Nov (SHA de76ab0)
 - [ ] Kartu "Panduan Akademik" dan "Laporan Kinerja" per prodi (tautan kosong)
 
