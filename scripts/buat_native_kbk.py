@@ -23,11 +23,13 @@ def img(path):
 
 
 def gambar(path, alt, lebar=100, tinggi=None, judul=None, **kw):
-    s = dict(image={"url": img(path), "id": "", "alt": alt}, image_size="full", width=be.ukuran(lebar, "%"),
+    s = dict(image={"url": img(path), "id": "", "alt": alt}, image_size="full", width=be.ukuran(100, "%"),
              image_border_radius=bp.sudut(10), _title=judul or ("Gambar: " + alt[:40]))
     if tinggi:
         s.update(height=be.ukuran(tinggi, "px"), height_mobile=be.ukuran(min(tinggi, 240), "px"))
         s["object-fit"] = "cover"
+    if lebar < 100:
+        s.update(_element_width="initial", _element_custom_width=be.ukuran(lebar, "%"), _element_custom_width_mobile=be.ukuran(100, "%"))
     s.update(kw)
     return be.widget("image", **s)
 
