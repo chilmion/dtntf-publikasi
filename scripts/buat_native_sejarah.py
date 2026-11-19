@@ -9,7 +9,7 @@ import buat_native_orang as bo  # noqa: E402
 import native_tipografi as nt  # noqa: E402
 
 ROOT = be.ROOT
-P = json.loads((ROOT / "data" / "sejarah-v1.json").read_text(encoding="utf-8"))
+P = json.loads((ROOT / "manual" / "halaman" / "sejarah-v1.json").read_text(encoding="utf-8"))
 FOTO = "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/11/sejarah-%s.jpg"
 BORDER = {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True}
 
