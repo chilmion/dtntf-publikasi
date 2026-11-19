@@ -5,7 +5,7 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 ## 0. Global (sudah / berjalan)
 - [x] Menu: KBK "Kelompok Bidang Keahlian (KBK)" 2 kolom, Publikasi dan Riset + Mitra 3 kolom (header CSS, catatan 43). Header sudah OK.
 - [x] Home: tetap versi sekarang.
-- [ ] Footer: pakai footer terbaru v1 (perlu template footer baru di tf; kondisi tampil di halaman buatan akun lab).
+- [x] Footer v1 hanya di halaman new 16487 — menunggu cek user
 
 ## 1. Tentang Kami (dikerjakan pertama)
 - [x] Sejarah 16872: dibangun ulang dari v1 (peta jalan timeline tanpa foto + periode berkartu foto) — menunggu cek user
@@ -18,9 +18,9 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 - [x] Fasilitas Umum 16901: bento v1 native + 3 penggantian teks + urutan baru — menunggu cek user
 
 ## 2. Pendidikan
-- [ ] Gaya seragam di Kalender Akademik, Panduan Akademik, Akreditasi (acuan: halaman Panduan Akademik tf)
-- [ ] Panduan Akademik: kartu TN 2 tombol (Reguler, IUP) + kartu TF + Magister
-- [ ] Akreditasi: kelompok per prodi (S1 TN, S1 TF, Magister), center
+- [x] Gaya seragam Kalender, Panduan, Akreditasi — kartu dokumen/sertifikat (id 16887, 16913, 16893) — menunggu cek user
+- [x] Panduan Akademik: kartu TN 2 tombol + kartu TF + Magister (tautan PDF IUP/TF/Magister kosong)
+- [x] Akreditasi per prodi, center (judul LAM/IABEE yang tertukar sudah dibenarkan)
 - [x] Prodi S1 TN, S1 TF, IUP, Magister: Laporan Akademik 1 kolom, kartu dokumen dirapikan (sampul ringkas), tipografi skala Home — LIVE ulang 19 Nov (SHA de76ab0)
 - [ ] Kartu "Panduan Akademik" dan "Laporan Kinerja" per prodi (tautan kosong)
 
@@ -28,17 +28,17 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 - [x] KBK x4 LIVE ulang dengan tipografi skala Home (SHA de76ab0); KBK Instrumentasi tanpa Anggota
 - [ ] Halaman induk KBK /kbk/ (2 kolom, judul center)
 - [ ] Publikasi dan Riset
-- [ ] Mitra Penelitian (halaman baru) dan Mitra Pengabdian (halaman baru): templat sama, logo berwarna (logo dicari terakhir)
+- [x] Mitra Penelitian 16907 dan Mitra Pengabdian 17246: templat sama, logo berwarna (7 logo belum ada berkasnya: BAPETEN, PLN, SUCOFINDO, BPBD, PT PAL, ThorCon, IAEA) — menunggu cek user
 
 ## 4. Pengabdian
-- [ ] Pengabdian: angka di grafik, 2016–2026 per 5 tahun (grafik PNG)
+- [x] Pengabdian 16798: grafik PNG berangka 2016–2026 per 5 tahun — menunggu cek user
 
 ## 5. Kemahasiswaan & Alumni
-- [ ] "Prestasi dan Mahasiswa" + "Prestasi dan Kabar Alumni": masing-masing hero video (placeholder YouTube DTNTF) + grid artikel
+- [x] Kemahasiswaan 16910: dua section, hero video YouTube DTNTF + grid artikel — menunggu cek user
 
 ## 6. Layanan
-- [ ] Layanan Akademik: 6 kartu "SOP …" (judul kosong kecuali SOP Tugas Akhir, SOP Kerja Praktek)
-- [ ] Laboratorium: tombol Selengkapnya di semua lab, baris bawah center
+- [x] Layanan Akademik 16896: kartu SOP — menunggu cek user
+- [x] Laboratorium 16881: tombol di semua lab, baris bawah center — menunggu cek user
 
 ## 7. Terakhir
 - [ ] Logo mitra (cari di internet); video hero placeholder (cek kanal YouTube DTNTF)
