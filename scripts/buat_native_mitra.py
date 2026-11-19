@@ -38,7 +38,7 @@ def logo(l):
                         typography_font_weight="600", typography_font_size=be.ukuran_(15), align="center", _title="Nama " + l["nama"])
     return be.container([isi], content_width="full", flex_justify_content="center", flex_align_items="center", min_height=be.ukuran(110, "px"), background_background="classic",
                         background_color="#FFFFFF", border_border="solid", border_width=BORDER, border_color=bp.GARIS, border_radius=bp.sudut(14), padding=bp.ruang(16),
-                        width=be.ukuran(18.4, "%"), width_tablet=be.ukuran(31.5, "%"), width_mobile=be.ukuran(48, "%"), _title="Mitra " + l["nama"])
+                        width=be.ukuran(18.4, "%"), width_tablet=be.ukuran(31.5, "%"), width_mobile=be.ukuran(46, "%"), _title="Mitra " + l["nama"])
 
 
 def sorot(s, w):
@@ -87,8 +87,9 @@ def baris(ks, justify="flex-start", judul="Baris"):
                         padding=bp.ruang(0), _title=judul)
 
 
-def blok(judul, sub, isi, bg):
-    return be.container([be.widget("heading", title=judul, header_size="h2", title_color="#161616", _title="Judul bagian"), bp.teks(f"<p>{sub}</p>", "#636363", 17, None)] + isi,
+def blok(judul, sub, isi, bg, judul_tampil=True):
+    kepala = [be.widget("heading", title=judul, header_size="h2", title_color="#161616", _title="Judul bagian"), bp.teks(f"<p>{sub}</p>", "#636363", 17, None)] if judul_tampil else []
+    return be.container(kepala + isi,
                         content_width="full", flex_direction="column", flex_gap=be.gap(16), background_background="classic", background_color=bg, border_radius=bp.sudut(10),
                         padding=bp.ruang(40), padding_mobile=bp.ruang(20), _title="Bagian " + judul)
 
@@ -103,7 +104,7 @@ def halaman(judul, induk):
     anak = [blok("Mitra kerja sama", "Industri, lembaga pemerintah, dan perguruan tinggi yang bekerja sama dengan DTNTF dalam pendidikan, penelitian, dan pengabdian.",
                  [baris([logo(l) for l in D["logo"]], "center", "Logo mitra")], "#FFFFFF"),
             blok("Sorotan kerja sama", "Kerja sama yang sedang berjalan dan hasil yang sudah terlihat.", sorot_rows, "#F5F5F5"),
-            blok("Kabar kerja sama", "Kegiatan terbaru bersama mitra.", kabar_rows, "#FFFFFF")]
+            blok("Kabar kerja sama", "Kegiatan terbaru bersama mitra.", kabar_rows, "#FFFFFF", False)]  # QC 20 Nov: judul + subjudul dihapus, artikel tetap
     return bo.halaman(anak, judul, induk)
 
 

@@ -15,6 +15,15 @@ TF = "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/11/"
 TIER = {"koor": (150, 20, 14.5, 5), "tek": (124, 19, 14.5, 2), "staf": (104, 17, 14, 2), "peng": (110, 19, 13, 3), "pimp": (165, 24, 13, 2)}
 
 
+def _tengah_mobile(e):
+    """Di ponsel foto di atas dan teks rata tengah (revisi QC mobile 20 Nov)."""
+    st = e.get("settings", {})
+    if e.get("widgetType") in ("text-editor", "heading"):
+        st["align_mobile"] = "center"
+    for a in e.get("elements", []):
+        _tengah_mobile(a)
+
+
 def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False, pas=False):
     w, nm, rl, lines = TIER[tier]
     if pas:   # pengurus: ukuran mengikuti v1 (teks kecil, nama tebal) agar muat dalam tinggi foto
@@ -23,6 +32,7 @@ def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False, pas=Fals
     gambar = be.widget("image", image={"url": foto, "id": "", "alt": alt}, image_size="full", width=be.ukuran(100, "%"),
                        height=be.ukuran(h, "px"), image_border_radius=bp.sudut(12), _title="Foto " + nama,
                        _element_width="initial", _element_custom_width=be.ukuran(w, "px"), _flex_size="none",
+                       _element_custom_width_mobile=be.ukuran(150, "px"), height_mobile=be.ukuran(188, "px"), align_mobile="center",
                        **{"object-fit": "cover", "object-position": "center 12%"})
     c_lab, c_nama, c_gel = ("#C8E86D", "#FFFFFF", "#D6E2EC") if navy else ("#003D79", "#073C64", "#636363")
     anak = [be.widget("text-editor", editor=f"<p>{label}</p>", text_color=c_lab, typography_typography="custom",
@@ -37,10 +47,12 @@ def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False, pas=Fals
         anak = [atas, mail]
     kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), _flex_size="shrink", width=be.ukuran(100, "%"),
                          flex_justify_content="space-between" if email else "flex-start", min_height=be.ukuran(h, "px"), min_height_mobile=be.ukuran(0, "px"), _title="Teks kartu")
+    _tengah_mobile(kanan)
     pct = {2: 48.5, 3: 31.5, 4: 23.5}[cols]
     return be.container([gambar, kanan], content_width="full", flex_direction="row", flex_align_items="stretch" if pas else "flex-start",
+                        flex_align_items_mobile="center",
                         flex_gap=be.gap(18 if tier != "staf" else 14), width=be.ukuran(pct, "%"), width_tablet=be.ukuran(48.5, "%"),
-                        width_mobile=be.ukuran(100, "%"), flex_direction_mobile="row", background_background="classic", background_color="#073C64" if navy else "#FFFFFF",
+                        width_mobile=be.ukuran(100, "%"), flex_direction_mobile="column", background_background="classic", background_color="#073C64" if navy else "#FFFFFF",
                         border_border="solid", border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
                         border_color="#073C64" if navy else bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), _title="Kartu: " + nama)
 
