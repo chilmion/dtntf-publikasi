@@ -115,3 +115,11 @@
 .dtntf-kt.kt-dfilter{max-width:none}
 .dtntf-kt .kt-toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
 .dtntf-kt .kt-kosong-d{display:none;padding:32px 0;text-align:center}
+
+.dtntf-kt .kt-h1{font-size:48px;line-height:1.12;letter-spacing:-1.2px;word-spacing:0}
+.dtntf-kt .kt-h2{font-size:36px;line-height:1.15;letter-spacing:-.72px;word-spacing:0}
+.dtntf-kt .kt-h3{font-size:22px;line-height:1.3;letter-spacing:-.22px;word-spacing:0}
+.dtntf-kt .kt-kicker{font-size:13px;letter-spacing:.3px}
+.dtntf-kt .kt-lencana{font-size:12px}
+@media(max-width:1024px){.dtntf-kt .kt-h1{font-size:40px}.dtntf-kt .kt-h2{font-size:30px}}
+@media(max-width:767px){.dtntf-kt .kt-h1{font-size:32px}.dtntf-kt .kt-h2{font-size:28px}.dtntf-kt .kt-h3{font-size:20px}}
