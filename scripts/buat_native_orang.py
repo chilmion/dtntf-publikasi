@@ -47,11 +47,27 @@ def bagian(judul, kartu_list, bg):
                         background_color=bg, border_radius=bp.sudut(10), padding=bp.ruang(40), padding_mobile=bp.ruang(20), _title="Bagian " + judul)
 
 
+def banner(judul, induk="Tentang Kami"):
+    remah = bp.teks(f'<p><a href="/" style="color:#C8E86D">Beranda</a> / {induk} / {judul}</p>', "#FFFFFF", 14, None)
+    h = be.widget("heading", title=judul, header_size="h1", title_color="#FFFFFF", typography_typography="custom",
+                  typography_font_family="Plus Jakarta Sans", typography_font_weight="400", typography_font_size=be.ukuran_(48),
+                  typography_font_size_mobile=be.ukuran_(32), typography_line_height={"unit": "em", "size": 1.15, "sizes": []},
+                  typography_letter_spacing={"unit": "em", "size": -0.02, "sizes": []}, _title="Judul halaman")
+    bar = be.container([], content_width="full", width=be.ukuran(64, "px"), height=be.ukuran(4, "px"), background_background="classic",
+                       background_color="#C8E86D", padding=bp.ruang(0), _title="Garis lime")
+    return be.container([remah, h, bar], content_width="full", flex_direction="column", flex_gap=be.gap(12), background_background="gradient",
+                        background_color="#073C64", background_color_b="#1A2C43", background_gradient_angle={"unit": "deg", "size": 135, "sizes": []},
+                        border_radius=bp.sudut(10), padding=bp.ruang(40), padding_mobile=bp.ruang(24), _title="Banner halaman")
+
+
 def halaman(anak, judul):
-    top = be.halaman_katur(anak)
+    top = be.halaman_katur([banner(judul)] + anak)
     top["settings"]["_title"] = judul
     top["settings"]["flex_gap"] = be.gap(24)
     nt.terapkan(top)
+    # banner memakai ukuran sendiri (setelah normalisasi)
+    b = top["elements"][0]["elements"][1]["settings"]
+    b.update(typography_font_size=be.ukuran_(48), typography_font_size_tablet=be.ukuran_(40), typography_font_size_mobile=be.ukuran_(32))
     return {"version": "0.4", "title": judul, "type": "container", "content": [top], "page_settings": []}
 
 
