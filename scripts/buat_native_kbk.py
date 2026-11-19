@@ -231,8 +231,7 @@ def halaman(k):
     if len(k.get("galeri") or []) >= 3:
         anak.append(galeri(k["galeri"]))
     anak.append(kompetensi(k))
-    if k["kode"] != "instrumentasi":   # revisi 19 Nov: section Anggota KBK Instrumentasi dihapus
-        anak.append(anggota(k))
+    # revisi 19 Nov + koreksi user (checkpoint 1): section Anggota dihapus di SEMUA KBK (anggota() tetap ada bila nanti diperlukan)
     p = peta(k)
     if p:
         anak.append(p)
