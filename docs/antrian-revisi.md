@@ -8,14 +8,14 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 - [ ] Footer: pakai footer terbaru v1 (perlu template footer baru di tf; kondisi tampil di halaman buatan akun lab).
 
 ## 1. Tentang Kami (dikerjakan pertama)
-- [x] Sejarah: halaman tf (16872) sudah timeline teks tanpa foto (69 container, 0 gambar); tidak perlu diubah — cek visual user
+- [x] Sejarah 16872: dibangun ulang dari v1 (peta jalan timeline tanpa foto + periode berkartu foto) — menunggu cek user
 - [ ] Visi dan Misi: selaraskan tipografi/gaya v1
 - [ ] Struktur Organisasi: selaras v1 (bagan jadi gambar PNG)
 - [x] Pengurus Departemen: ACC user 19 Nov (desain v1, judul center, Alexander<->Kholid) — id 16793
 - [x] Dosen Tetap: tombol sejajar, tanpa judul bagian (id 16763); foto seragam AI menyusul
 - [ ] Detail dosen (38 profil): angka bagian center + lebih besar
 - [x] Tenaga Kependidikan: ACC user (id 16884)
-- [~] Fasilitas Umum 16901: 2 teks diganti (Aksesibilitas Difabel, Co-working Space) di desain lama tf; bento v1 8 kartu + urutan baru belum (perlu generator native)
+- [x] Fasilitas Umum 16901: bento v1 native + 3 penggantian teks + urutan baru — menunggu cek user
 
 ## 2. Pendidikan
 - [ ] Gaya seragam di Kalender Akademik, Panduan Akademik, Akreditasi (acuan: halaman Panduan Akademik tf)
