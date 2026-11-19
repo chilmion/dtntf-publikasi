@@ -115,3 +115,45 @@ if __name__ == "__main__":
         assert "<style" not in s and '"widgetType": "html"' not in s
         (ROOT / "elementor" / "native" / f"{nama}.json").write_text(s, encoding="utf-8")
         print("ok", nama, len(s))
+
+
+def dosen():
+    """Dosen Tetap (v1: kartu foto 4:5, kelompok, nama, gelar, bidang, tombol 'Profil lengkap'); tanpa filter (native): dikelompokkan."""
+    rows = sorted(csv.DictReader(open(ROOT / "dosen.csv", newline="", encoding="utf-8")), key=lambda r: r["nama"].strip().lower())
+    info = {x["slug"]: x for x in csv.DictReader(open(ROOT / "manual" / "dosen-info.csv", newline="", encoding="utf-8"))}
+    grup = {"Teknik Nuklir": [], "Teknik Fisika": []}
+    for r in rows:
+        i = info.get(r["slug"].strip())
+        kel = bp.kelompok_info(i) or "Teknik Fisika"
+        nama, gelar = r["nama"].strip(), (r.get("gelar") or "").strip()
+        foto = be.widget("image", image={"url": (r.get("foto_url") or "").strip() or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", "id": "", "alt": nama},
+                         image_size="full", width=be.ukuran(100, "%"), height=be.ukuran(330, "px"), height_mobile=be.ukuran(300, "px"),
+                         image_border_radius=bp.sudut(10), _title="Foto " + nama, **{"object-fit": "cover", "object-position": "top center"})
+        anak = [foto, bp.kicker(kel.upper(), bp.NAVY), be.widget("heading", title=nama, header_size="h3", title_color="#161616", _title="Nama")]
+        if gelar:
+            anak.append(bp.teks(f"<p>{bp.esc(gelar)}</p>", "#7a7a7a", 14, None))
+        if (i or {}).get("bidang_ilmu"):
+            anak.append(bp.teks(f"<p>{bp.esc(i['bidang_ilmu'])}</p>", "#003D79", 14, None))
+        anak.append(be.widget("button", text="Profil lengkap", link={"url": f"/{r['slug'].strip()}/", "is_external": "", "nofollow": "", "custom_attributes": ""},
+                              align="left", background_color="rgba(0,0,0,0)", button_text_color="#073C64", border_border="solid",
+                              border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
+                              border_color="#073C64", border_radius=bp.sudut(999), typography_typography="custom", typography_font_family="Barlow",
+                              typography_font_weight="600", typography_font_size=be.ukuran_(14),
+                              text_padding={"unit": "px", "top": "9", "right": "18", "bottom": "9", "left": "18", "isLinked": False}))
+        k = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(8), background_background="classic", background_color="#FFFFFF",
+                         border_border="solid", border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
+                         border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), width=be.ukuran(23.5, "%"),
+                         width_tablet=be.ukuran(48.5, "%"), width_mobile=be.ukuran(100, "%"), _title="Kartu " + nama)
+        grup.setdefault(kel, []).append(k)
+    out = []
+    for j, (kel, ks) in enumerate(g for g in grup.items() if g[1]):
+        out.append(bagian(f"{kel} ({len(ks)} dosen)", ks, ["#FFFFFF", "#F5F5F5"][j % 2]))
+    return halaman(out, "Dosen Tetap")
+
+
+if __name__ == "__main__":
+    d = dosen()
+    s = json.dumps(d, ensure_ascii=False)
+    assert "<style" not in s and '"widgetType": "html"' not in s
+    (ROOT / "elementor" / "native" / "dosen-tetap.json").write_text(s, encoding="utf-8")
+    print("ok dosen-tetap", len(s))
