@@ -69,12 +69,13 @@ def main():
             bp.teks("<p>Ketua dan sekretaris departemen, ketua program studi, kepala laboratorium, dan ketua kelompok bidang keahlian (KBK).</p>", "#636363", 18)]
     for kel in dict.fromkeys(r["kelompok"] for r in baris):
         grid = be.container([kartu(r, foto.get(r["slug"])) for r in baris if r["kelompok"] == kel], content_width="full",
-                            flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(16), flex_align_items="stretch", _title=f"Kartu {kel}")
+                            flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(16), flex_align_items="stretch", flex_justify_content="center", _title=f"Kartu {kel}")
         grid["isInner"] = True
         anak += [be.judul_katur(kel, "h2", 40, -1.7), grid]
     doc = {"version": "0.4", "title": "DTNTF Katur – Pengurus Departemen (/pengurus-departemen/)", "type": "container",
            "content": [be.halaman_katur(anak)], "page_settings": []}
     (ROOT / "elementor" / "katur-pengurus-departemen.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
+    (ROOT / "elementor" / "native" / "pengurus.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
     print(f"Tertulis elementor/katur-pengurus-departemen.json ({len(baris)} kartu)")
 
 
