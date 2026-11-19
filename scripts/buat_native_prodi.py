@@ -81,17 +81,17 @@ bpr.hero = hero
 def _h(tek, ukur, warna, bobot="700", tag="h4", font="Plus Jakarta Sans", spasi=0):
     return be.widget("heading", title=tek, header_size=tag, title_color=warna, typography_typography="custom",
                      typography_font_family=font, typography_font_weight=bobot, typography_font_size=be.ukuran_(ukur),
-                     typography_letter_spacing={"unit": "px", "size": spasi, "sizes": []})
+                     typography_letter_spacing={"unit": "px", "size": spasi, "sizes": []},
+                     typography_line_height={"unit": "em", "size": 1.15, "sizes": []})
 
 
 def kartu_dok(judul, ket, sampul, tag, url=""):
     link = {"url": url, "is_external": "", "nofollow": "", "custom_attributes": ""}
-    cover = be.container([_h("DEPARTEMEN TEKNIK NUKLIR DAN TEKNIK FISIKA · UGM", 8, "#FFFFFF", "600", "span", "Barlow"),
-                          _h(sampul.replace(";", " "), 15, "#FFFFFF", "800", "span"),
-                          _h(tag, 8, "#C8E86D", "700", "span", "Barlow")],
-                         content_width="full", flex_direction="column", justify_content="space-between", width=be.ukuran(112, "px"),
-                         width_mobile=be.ukuran(100, "%"), background_background="classic", background_color="#073C64",
-                         border_radius=bp.sudut(8), padding=bp.ruang(12), flex_gap=be.gap(10), _title="Sampul dokumen")
+    cover = be.container([_h("DTNTF · UGM", 9, "#C8E86D", "700", "span", "Barlow"),
+                          _h(sampul.replace(";", " "), 16, "#FFFFFF", "800", "span")],
+                         content_width="full", flex_direction="column", justify_content="space-between", width=be.ukuran(104, "px"),
+                         width_mobile=be.ukuran(100, "%"), flex_gap=be.gap(14), background_background="classic", background_color="#073C64",
+                         border_radius=bp.sudut(8), padding=bp.ruang(12), _title="Sampul dokumen")
     tombol = be.widget("button", text="Unduh dokumen", link=link, align="left", background_color="#073C64", button_text_color="#FFFFFF",
                        border_radius=bp.sudut(999), typography_typography="custom", typography_font_family="Barlow",
                        typography_font_weight="600", typography_font_size=be.ukuran_(14),
@@ -99,10 +99,10 @@ def kartu_dok(judul, ket, sampul, tag, url=""):
     isi = be.container([_h(judul, 17, "#073C64"), bp.teks(f"<p>{bpr.inline(ket)}</p>", "#5B6670", 14, None), tombol],
                        content_width="full", flex_direction="column", flex_gap=be.gap(8), flex_size="grow", _title="Isi kartu dokumen")
     return be.container([cover, isi], content_width="full", flex_direction="row", flex_direction_mobile="column",
-                        flex_gap=be.gap(18), flex_align_items="center", width=be.ukuran(100, "%"),
+                        flex_gap=be.gap(16), flex_align_items="center", width=be.ukuran(100, "%"),
                         background_background="classic", background_color="#FFFFFF", border_border="solid",
                         border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
-                        border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(18), _title="Kartu dokumen: " + judul)
+                        border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), _title="Kartu dokumen: " + judul)
 
 
 def widget_blok(md):
