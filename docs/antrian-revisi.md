@@ -11,10 +11,10 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 - [ ] Sejarah: timeline tanpa foto
 - [ ] Visi dan Misi: selaraskan tipografi/gaya v1
 - [ ] Struktur Organisasi: selaras v1 (bagan jadi gambar PNG)
-- [ ] Pengurus Departemen: sinkron desain v1 (sekarang masih versi lama di tf); Alexander <-> Kholid; baris bawah center
-- [ ] Dosen Tetap: tombol "Profil lengkap" (tanpa panah); foto seragam
+- [x] Pengurus Departemen: ACC user 19 Nov (desain v1, judul center, Alexander<->Kholid) — id 16793
+- [x] Dosen Tetap: tombol sejajar, tanpa judul bagian (id 16763); foto seragam AI menyusul
 - [ ] Detail dosen (38 profil): angka bagian center + lebih besar
-- [ ] Tenaga Kependidikan: sinkron desain v1 (masih versi lama di tf); Sabar terakhir
+- [x] Tenaga Kependidikan: ACC user (id 16884)
 - [ ] Fasilitas Umum: 3 penggantian teks + urutan baru (cek screenshot)
 
 ## 2. Pendidikan
