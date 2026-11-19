@@ -46,7 +46,7 @@ def h(tek, ukur, warna="#161616", tag="h3", bobot="400", spasi=-1.3, font="Plus 
 
 
 def kol(anak, lebar=None, judul=None, **kw):
-    s = dict(content_width="full", flex_direction="column", flex_gap=be.gap(10), _title=judul or "Kolom")
+    s = dict(content_width="full", flex_direction="column", flex_gap=be.gap(10), padding=bp.ruang(0), _title=judul or "Kolom")
     if lebar:
         s.update(width=be.ukuran(lebar, "%"), width_mobile=be.ukuran(100, "%"))
     s.update(kw)
@@ -54,7 +54,7 @@ def kol(anak, lebar=None, judul=None, **kw):
 
 
 def baris(anak, judul="Baris", gap=16, **kw):
-    s = dict(content_width="full", flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(gap), flex_direction_mobile="column", _title=judul)
+    s = dict(content_width="full", flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(gap), flex_direction_mobile="column", padding=bp.ruang(0), _title=judul)
     s.update(kw)
     return be.container(anak, **s)
 
@@ -106,11 +106,11 @@ def galeri(g):
     besar = gambar(g[0]["gambar"], cap(g[0]), 100, 440, "Foto besar")
     kecil = [gambar(x["gambar"], cap(x), 48.5, 214) for x in g[1:5]]
     kanan = baris(kecil, "Foto kecil", 12)
-    atas = baris([kol([besar], 50, "Foto besar"), kol([kanan], 50, "Foto kecil", flex_gap=be.gap(12))], "Galeri atas", 16)
+    atas = baris([kol([besar], 49, "Foto besar"), kol([kanan], 49, "Foto kecil", flex_gap=be.gap(12))], "Galeri atas", 16)
     anak = [atas]
     sisa = g[5:]
     if sisa:
-        w = 100 / len(sisa) - 1.5
+        w = 100 / len(sisa) - 2.5
         anak.append(baris([gambar(x["gambar"], cap(x), w, 220) for x in sisa], "Galeri bawah", 16))
     return seksi("Galeri riset", anak)
 
