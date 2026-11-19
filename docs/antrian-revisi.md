@@ -28,7 +28,7 @@ Aturan kerja: tiap grup dikerjakan penuh (revisi Google Docs 19 Nov + desain ter
 - [x] KBK x4 LIVE ulang dengan tipografi skala Home (SHA de76ab0); KBK Instrumentasi tanpa Anggota
 - [ ] Halaman induk KBK /kbk/ (2 kolom, judul center)
 - [ ] Publikasi dan Riset
-- [ ] Mitra Penelitian (halaman baru) dan Mitra Pengabdian (halaman baru): templat sama, logo berwarna (logo dicari terakhir)
+- [x] Mitra Penelitian 16907 dan Mitra Pengabdian 17246: templat sama, logo berwarna (7 logo belum ada berkasnya: BAPETEN, PLN, SUCOFINDO, BPBD, PT PAL, ThorCon, IAEA) — menunggu cek user
 
 ## 4. Pengabdian
 - [ ] Pengabdian: angka di grafik, 2016–2026 per 5 tahun (grafik PNG)
