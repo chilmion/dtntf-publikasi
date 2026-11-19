@@ -88,11 +88,11 @@ def _h(tek, ukur, warna, bobot="700", tag="h4", font="Plus Jakarta Sans", spasi=
 
 def kartu_dok(judul, ket, sampul, tag, url=""):
     link = {"url": url, "is_external": "", "nofollow": "", "custom_attributes": ""}
-    cover = be.container([_h("DTNTF · UGM", 9, "#C8E86D", "700", "span", "Barlow"),
-                          _h(sampul.replace(";", " "), 16, "#FFFFFF", "800", "span")],
-                         content_width="full", flex_direction="column", justify_content="space-between", width=be.ukuran(104, "px"),
-                         width_mobile=be.ukuran(100, "%"), flex_gap=be.gap(14), background_background="classic", background_color="#073C64",
-                         border_radius=bp.sudut(8), padding=bp.ruang(12), _title="Sampul dokumen")
+    cover = be.container([_h("DTNTF · UGM", 11, "#C8E86D", "700", "span", "Barlow"),
+                          _h(sampul.replace(";", " "), 22, "#FFFFFF", "800", "span")],
+                         content_width="full", flex_direction="column", justify_content="space-between", width=be.ukuran(240, "px"),
+                         width_mobile=be.ukuran(100, "%"), flex_gap=be.gap(18), background_background="classic", background_color="#073C64",
+                         border_radius=bp.sudut(8), padding=bp.ruang(16), _title="Sampul dokumen")
     tombol = be.widget("button", text="Unduh dokumen", link=link, align="left", background_color="#073C64", button_text_color="#FFFFFF",
                        border_radius=bp.sudut(999), typography_typography="custom", typography_font_family="Barlow",
                        typography_font_weight="600", typography_font_size=be.ukuran_(14),
