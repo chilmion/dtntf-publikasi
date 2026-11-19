@@ -1,0 +1,41 @@
+[
+ {
+  "k": "Departemen",
+  "n": "Departemen Teknik Nuklir dan Teknik Fisika",
+  "vis": "Menjadi lembaga pendidikan tinggi yang mengembangkan bidang Teknik nuklir dan Teknik Fisika yang inovatif, tangguh, unggul secara nasional dan bereputasi internasional, serta senantiasa mengabdi pada kepentingan bangsa dan kemanusiaan berdasarkan Pancasila.",
+  "mis": [
+   "Menyelenggarakan pendidikan untuk menghasilkan lulusan yang berintegritas, beretika, dan mumpuni di bidang Teknik Nuklir dan Teknik Fisika yang mengabdi kepada kepentingan bangsa dan kemanusiaan.",
+   "Melaksanakan penelitian dan pengabdian kepada masyarakat yang unggul, inovatif, dan strategis di bidang Teknik Nuklir dan Teknik Fisika untuk kepentingan bangsa dan kemanusiaan.",
+   "Mengembangkan sinergi yang luas dengan lembaga di dalam dan di luar negeri.",
+   "Menjalankan tata kelola organisasi yang baik, yang berorientasi pada kepentingan sivitas akademika Departemen Teknik Nuklir dan Teknik Fisika."
+  ]
+ },
+ {
+  "k": "Program Studi Sarjana",
+  "n": "Teknik Nuklir",
+  "vis": "Menjadi lembaga pendidikan tinggi yang unggul di bidang teknologi nuklir.",
+  "mis": [
+   "Menyelenggarakan pendidikan yang berkualitas tinggi untuk menghasilkan sarjana Teknik Nuklir yang mampu bersaing di dunia kerja nasional dan internasional.",
+   "Menyelenggarakan penelitian dan pemberdayaan masyarakat dalam bidang teknologi nuklir.",
+   "Menjalin kerjasama yang erat dengan pemangku kepentingan (stakeholder) di bidang pendidikan, penelitian dan pemanfaatan teknologi."
+  ]
+ },
+ {
+  "k": "Program Studi Sarjana",
+  "n": "Teknik Fisika",
+  "vis": "Menjadi lembaga pendidikan unggul yang memenuhi kebutuhan masyarakat akan sarjana bidang Teknik Fisika.",
+  "mis": [
+   "Menyelenggarakan pendidikan bagi, penelitian untuk, dan pemberdayaan kepada masyarakat dalam bidang Teknik Fisika.",
+   "Menumbuhkan suasana akademik yang menggairahkan iklim belajar dan mengembangkan ilmu pengetahuan dan teknologi bidang Teknik Fisika.",
+   "Menjalin kerjasama dengan masyarakat pengguna dalam bidang pendidikan, penelitian dan pemberdayaan masyarakat."
+  ]
+ },
+ {
+  "k": "Program Studi Magister",
+  "n": "Magister Teknik Fisika",
+  "vis": "Menjadi sebuah program studi magister yang mampu melakukan pendidikan, penelitian, dan pengabdian kepada masyarakat di bidang Teknik Fisika yang terfokus pada visi keilmuan teknologi sistem multifisika dengan berkualitas di tingkat internasional, yang unggul, dan berlandaskan jiwa Pancasila.",
+  "mis": [
+   "Menyelenggarakan pendidikan, penelitian, dan pengabdian kepada masyarakat di bidang Teknik Fisika yang unggul dan berkualitas dan menjalin kerja sama dengan institusi lain di bidang Teknik Fisika secara nasional dan internasional."
+  ]
+ }
+]
