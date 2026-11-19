@@ -28,7 +28,7 @@ def kol(anak, lebar, judul_="Kolom"):
 
 def main():
     lambang = be.widget("image", image={"url": B + "dtntf-footer-lambang-ugm-putih.png", "id": "", "alt": "Lambang Universitas Gadjah Mada"}, image_size="full",
-                        width=be.ukuran(88, "px"), _title="Lambang UGM")
+                        width=be.ukuran(88, "px"), align="left", _title="Lambang UGM")
     alamat = be.widget("text-editor", editor="<p style=\"margin:0\"><strong>Departemen Teknik Nuklir &amp; Teknik Fisika<br>Fakultas Teknik, Universitas Gadjah Mada</strong><br>Jl. Grafika 2, Yogyakarta 55281, Indonesia<br>"
                        "Phone/Fax: +62-274-580882<br>Email: <a href=\"mailto:dtntf.ft@ugm.ac.id\" style=\"color:#FFFFFF\">dtntf.ft@ugm.ac.id</a></p>",
                        text_color="#FFFFFF", typography_typography="custom", typography_font_family="Barlow", typography_font_size=be.ukuran_(15), _title="Alamat")
@@ -40,8 +40,10 @@ def main():
         {"_id": be.eid()[:7], "social_icon": {"value": "fab fa-x-twitter", "library": "fa-brands"}, "link": {"url": "https://x.com/dtntf_ugm", "is_external": "on", "nofollow": "", "custom_attributes": ""}}],
         shape="rounded", align="left", icon_color="custom", icon_primary_color="#FFFFFF", icon_secondary_color="#073C64",
         icon_size={"unit": "px", "size": 14, "sizes": []}, icon_padding={"unit": "em", "size": 0.7, "sizes": []}, _title="Ikon sosial")
-    peta = be.widget("google_maps", address="Departemen Teknik Nuklir dan Teknik Fisika UGM, Jl. Grafika 2, Yogyakarta", zoom={"unit": "px", "size": 15, "sizes": []},
-                     height={"unit": "px", "size": 140, "sizes": []}, _title="Peta kecil")
+    # iframe Google Maps DIBLOKIR kebijakan keamanan tf (frame-src hanya self + YouTube) -> gambar peta statis (OpenStreetMap) bertaut ke Google Maps
+    peta = be.widget("image", image={"url": B + "dtntf-footer-peta.png", "id": "", "alt": "Peta lokasi Departemen Teknik Nuklir dan Teknik Fisika UGM (Jl. Grafika 2, Yogyakarta)"},
+                     image_size="full", width=be.ukuran(100, "%"), image_border_radius=bp.sudut(10), link_to="custom",
+                     link={"url": "https://maps.app.goo.gl/NPn45c4r3v4Mxj257", "is_external": "on", "nofollow": "", "custom_attributes": ""}, _title="Peta kecil")
     akreditasi = be.container([be.widget("image", image={"url": B + "dtntf-footer-iabee.png", "id": "", "alt": "IABEE"}, image_size="full", width=be.ukuran(100, "%"), _element_width="initial",
                                          _element_custom_width=be.ukuran(56, "px"), _title="IABEE"),
                                be.widget("image", image={"url": B + "dtntf-footer-ban-pt.png", "id": "", "alt": "BAN-PT"}, image_size="full", width=be.ukuran(100, "%"), _element_width="initial",
