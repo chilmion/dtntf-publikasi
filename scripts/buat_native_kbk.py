@@ -229,7 +229,9 @@ def halaman(k):
                    tile_angka("abu", st.get("tema"), "Tema penelitian"), tile_angka("navy", st.get("publikasi"), "Publikasi terpilih")], "Statistik")]
     if len(k.get("galeri") or []) >= 3:
         anak.append(galeri(k["galeri"]))
-    anak += [kompetensi(k), anggota(k)]
+    anak.append(kompetensi(k))
+    if k["kode"] != "instrumentasi":   # revisi 19 Nov: section Anggota KBK Instrumentasi dihapus
+        anak.append(anggota(k))
     p = peta(k)
     if p:
         anak.append(p)

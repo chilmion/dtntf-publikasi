@@ -99,7 +99,7 @@ def kartu_dok(judul, ket, sampul, tag, url=""):
     isi = be.container([_h(judul, 17, "#073C64"), bp.teks(f"<p>{bpr.inline(ket)}</p>", "#5B6670", 14, None), tombol],
                        content_width="full", flex_direction="column", flex_gap=be.gap(8), flex_size="grow", _title="Isi kartu dokumen")
     return be.container([cover, isi], content_width="full", flex_direction="row", flex_direction_mobile="column",
-                        flex_gap=be.gap(18), flex_align_items="center", width=be.ukuran(48, "%"), width_tablet=be.ukuran(100, "%"),
+                        flex_gap=be.gap(18), flex_align_items="center", width=be.ukuran(100, "%"),
                         background_background="classic", background_color="#FFFFFF", border_border="solid",
                         border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
                         border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(18), _title="Kartu dokumen: " + judul)
