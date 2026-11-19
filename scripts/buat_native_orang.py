@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+"""
+Pengurus Departemen + Tenaga Kependidikan untuk tf.ugm.ac.id, desain v1 terbaru (kartu baris: foto 4:5 di kiri, label jabatan
+biru tebal, nama navy tebal, gelar/email kecil; bagian ber-latar putih/abu), 100% widget native.
+    python3 scripts/buat_native_orang.py -> elementor/native/pengurus.json, tendik.json
+"""
+import csv, json, pathlib, sys
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import buat_elementor as be  # noqa: E402
+import buat_profil_dosen as bp  # noqa: E402
+import native_tipografi as nt  # noqa: E402
+
+ROOT = be.ROOT
+TF = "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/11/"
+TIER = {"koor": (150, 20, 14.5, 5), "tek": (124, 19, 14.5, 2), "staf": (104, 17, 14, 2), "peng": (130, 19, 14, 3)}
+
+
+def kartu(foto, alt, label, nama, gelar, email, tier, cols):
+    w, nm, rl, lines = TIER[tier]
+    h = round(w * 1.25)
+    gambar = be.widget("image", image={"url": foto, "id": "", "alt": alt}, image_size="full", width=be.ukuran(100, "%"),
+                       height=be.ukuran(h, "px"), image_border_radius=bp.sudut(12), _title="Foto " + nama,
+                       _element_width="initial", _element_custom_width=be.ukuran(w, "px"), **{"object-fit": "cover", "object-position": "center 12%"})
+    anak = [be.widget("text-editor", editor=f"<p>{label}</p>", text_color="#003D79", typography_typography="custom",
+                      typography_font_family="Barlow", typography_font_weight="700", typography_font_size=be.ukuran_(rl),
+                      typography_line_height={"unit": "em", "size": 1.4, "sizes": []}, _title="Jabatan"),
+            be.widget("heading", title=nama, header_size="h3", title_color="#073C64", _title="Nama")]
+    if gelar:
+        anak.append(bp.teks(f"<p>{gelar}</p>", "#636363", 14, None))
+    if email:
+        anak.append(bp.teks(f'<p><a href="mailto:{email}" style="color:#073C64">{email}</a></p>', "#636363", 14, None))
+    kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0),
+                         flex_size="grow", _title="Teks kartu")
+    pct = {2: 48.5, 3: 31.5}[cols]
+    return be.container([gambar, kanan], content_width="full", flex_direction="row", flex_align_items="flex-start",
+                        flex_gap=be.gap(18 if tier != "staf" else 14), width=be.ukuran(pct, "%"), width_tablet=be.ukuran(48.5, "%"),
+                        width_mobile=be.ukuran(100, "%"), flex_direction_mobile="row", background_background="classic", background_color="#FFFFFF",
+                        border_border="solid", border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
+                        border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), _title="Kartu: " + nama)
+
+
+def bagian(judul, kartu_list, bg):
+    grid = be.container(kartu_list, content_width="full", flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(16),
+                        flex_justify_content="center", flex_align_items="stretch", padding=bp.ruang(0), _title="Kartu " + judul)
+    h2 = be.widget("heading", title=judul, header_size="h2", title_color="#161616", _title="Judul bagian")
+    return be.container([h2, grid], content_width="full", flex_direction="column", flex_gap=be.gap(24), background_background="classic",
+                        background_color=bg, border_radius=bp.sudut(10), padding=bp.ruang(40), padding_mobile=bp.ruang(20), _title="Bagian " + judul)
+
+
+def halaman(anak, judul):
+    top = be.halaman_katur(anak)
+    top["settings"]["_title"] = judul
+    top["settings"]["flex_gap"] = be.gap(24)
+    nt.terapkan(top)
+    return {"version": "0.4", "title": judul, "type": "container", "content": [top], "page_settings": []}
+
+
+def pengurus():
+    foto = {r["slug"]: (r.get("foto_url") or "").strip() for r in csv.DictReader(open(ROOT / "dosen.csv", newline="", encoding="utf-8"))}
+    baris = list(csv.DictReader(open(ROOT / "manual" / "pengurus.csv", newline="", encoding="utf-8")))
+    out, bgs = [], ["#FFFFFF", "#F5F5F5"]
+    for i, kel in enumerate(dict.fromkeys(r["kelompok"] for r in baris)):
+        ks = []
+        for r in (x for x in baris if x["kelompok"] == kel):
+            nama = r["nama_lengkap"]
+            main, _, gel = nama.partition(", ")
+            ks.append(kartu(foto.get(r["slug"]) or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", nama, r["jabatan"], main, gel, r["email"], "peng", 3))
+        out.append(bagian(kel, ks, bgs[i % 2]))
+    return halaman(out, "Pengurus Departemen")
+
+
+def tendik():
+    koor = [("Sukiyat", "Koordinator Urusan Akademik, Kemahasiswaan dan Alumni", "Sukiyat-408x510-1.jpg"),
+            ("Andi Sudarmanto, S.Sos.", "Koordinator Urusan Administrasi Umum, SDM, Penelitian dan Pengabdian pada Masyarakat, dan Kerjasama", "Andi-Sudarmanto-S.Sos_-408x510-1.jpg"),
+            ("Johan Purwanto, S.Sos.", "Koordinator Urusan Aset, Sarana Prasarana, SHE, dan IT", "Johan-Purwanto-S.Sos_-408x510-1.jpg")]
+    tek = [("Ardina Mei Devinta Suryana, S.S.T.", "Lab. Teknologi Energi Nuklir", "WhatsApp-Image-2026-10-08-at-15.36.52-394x510-1.jpg"),
+           ("Winarno", "Lab. Sensor dan Sistem Telekontrol", "Winarno-408x510-1.jpg"),
+           ("Budiyono", "Lab. Energi Terbarukan<br>Lab. Teknologi Proses dan Kimia Nuklir", "Budiyono-408x510-1.jpg"),
+           ("Roma Setiawan, S.Pd.", "Lab. Komputasi Multifisika", "Roma-Setiawan-S.Pd_-408x510-1.jpg")]
+    staf = [("Sukini, S.Kom.", "Pengelola Layanan Akademik", "Perempuan-DTNTF-408x510-1.jpg"), ("Triyanto", "Pengelola Layanan Akademik", "Triyanto-408x510-1.jpg"),
+            ("Riny Wasita, A.Md.", "Pengelola Layanan Akademik", "1-408x510-1.jpg"), ("Safrudin", "Pengelola Keuangan", "Safrudin-408x510-1.jpg"),
+            ("Parjiyo", "Pengelola Sarana dan Prasarana", "Parjiyo-408x510-1.jpg"), ("Widarto", "Pengelola Kepegawaian", "Widarto.jpg"),
+            ("Arbiyhuno Lalintyo", "Pengelola Administrasi Umum", "Arbiyhuno-Lalintyo.jpg"), ("Slamet Haryadi", "Pengelola Penelitian", "Slamet-Haryadi.jpg"),
+            ("Sabar", "Pramu Bakti", "Sabar-408x510-1.jpg")]   # revisi 19 Nov: Sabar terakhir
+
+    def ks(lst, tier, cols):
+        r = []
+        for n, j, f in lst:
+            main, _, gel = n.partition(", ")
+            r.append(kartu(TF + f, n, j, main, gel, "", tier, cols))
+        return r
+    return halaman([bagian("Koordinator", ks(koor, "koor", 3), "#FFFFFF"), bagian("Teknisi dan Laboran", ks(tek, "tek", 2), "#F5F5F5"),
+                    bagian("Staf", ks(staf, "staf", 3), "#FFFFFF")], "Tenaga Kependidikan")
+
+
+if __name__ == "__main__":
+    for nama, d in (("pengurus", pengurus()), ("tendik", tendik())):
+        s = json.dumps(d, ensure_ascii=False)
+        assert "<style" not in s and '"widgetType": "html"' not in s
+        (ROOT / "elementor" / "native" / f"{nama}.json").write_text(s, encoding="utf-8")
+        print("ok", nama, len(s))

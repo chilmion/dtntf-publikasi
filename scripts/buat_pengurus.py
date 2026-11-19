@@ -77,10 +77,6 @@ def main():
     doc = {"version": "0.4", "title": "DTNTF Katur – Pengurus Departemen (/pengurus-departemen/)", "type": "container",
            "content": [be.halaman_katur(anak)], "page_settings": []}
     (ROOT / "elementor" / "katur-pengurus-departemen.json").write_text(json.dumps(doc, ensure_ascii=False), encoding="utf-8")
-    d2 = copy.deepcopy(doc)
-    for e in d2["content"]:
-        nt.terapkan(e)
-    (ROOT / "elementor" / "native" / "pengurus.json").write_text(json.dumps(d2, ensure_ascii=False), encoding="utf-8")
     print(f"Tertulis elementor/katur-pengurus-departemen.json ({len(baris)} kartu)")
 
 
