@@ -38,7 +38,8 @@ def main():
         {"_id": be.eid()[:7], "social_icon": {"value": "fab fa-youtube", "library": "fa-brands"}, "link": {"url": "https://www.youtube.com/channel/UCO-95rJvaOPC_ujUxn5BK7w", "is_external": "on", "nofollow": "", "custom_attributes": ""}},
         {"_id": be.eid()[:7], "social_icon": {"value": "fab fa-facebook", "library": "fa-brands"}, "link": {"url": "https://www.facebook.com/dtntf.ft.ugm/", "is_external": "on", "nofollow": "", "custom_attributes": ""}},
         {"_id": be.eid()[:7], "social_icon": {"value": "fab fa-x-twitter", "library": "fa-brands"}, "link": {"url": "https://x.com/dtntf_ugm", "is_external": "on", "nofollow": "", "custom_attributes": ""}}],
-        shape="rounded", align="left", _title="Ikon sosial")
+        shape="rounded", align="left", icon_color="custom", icon_primary_color="#FFFFFF", icon_secondary_color="#073C64",
+        icon_size={"unit": "px", "size": 14, "sizes": []}, icon_padding={"unit": "em", "size": 0.7, "sizes": []}, _title="Ikon sosial")
     peta = be.widget("google_maps", address="Departemen Teknik Nuklir dan Teknik Fisika UGM, Jl. Grafika 2, Yogyakarta", zoom={"unit": "px", "size": 15, "sizes": []},
                      height={"unit": "px", "size": 140, "sizes": []}, _title="Peta kecil")
     akreditasi = be.container([be.widget("image", image={"url": B + "dtntf-footer-iabee.png", "id": "", "alt": "IABEE"}, image_size="full", width=be.ukuran(100, "%"), _element_width="initial",
