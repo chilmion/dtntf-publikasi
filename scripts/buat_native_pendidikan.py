@@ -39,13 +39,13 @@ def panduan():
              for t, f in lap]
     lk = bo.bagian("Laporan Kinerja Akademik", [be.container(kartu, content_width="full", flex_direction="column", flex_gap=be.gap(16), padding=bp.ruang(0), _title="Daftar laporan")],
                    "#F5F5F5", True)
-    return bo.halaman([kur, lk], "Panduan Akademik")
+    return bo.halaman([kur, lk], "Panduan Akademik", "Pendidikan")
 
 
 def kalender():
     k = bnp.kartu_dok("Kalender Akademik TA 2026/2027", "Jadwal kegiatan akademik semester gasal dan genap.", "Kalender;Akademik;2026/2027", "DEPARTEMEN · PDF",
                       U + "266-2026_KEPTOR_KALENDER_AKADEMIK.pdf")
-    return bo.halaman([bo.bagian("Kalender Akademik TA 2026/2027", [k], "#FFFFFF", True)], "Kalender Akademik")
+    return bo.halaman([bo.bagian("Kalender Akademik TA 2026/2027", [k], "#FFFFFF", True)], "Kalender Akademik", "Pendidikan")
 
 
 def main():

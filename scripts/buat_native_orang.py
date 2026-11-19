@@ -66,8 +66,8 @@ def banner(judul, induk="Tentang Kami"):
                         border_radius=bp.sudut(10), padding=bp.ruang(40), padding_mobile=bp.ruang(24), _title="Banner halaman")
 
 
-def halaman(anak, judul):
-    top = be.halaman_katur([banner(judul)] + anak)
+def halaman(anak, judul, induk="Tentang Kami"):
+    top = be.halaman_katur([banner(judul, induk)] + anak)
     top["settings"]["_title"] = judul
     top["settings"]["flex_gap"] = be.gap(24)
     nt.terapkan(top)
