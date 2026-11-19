@@ -7,7 +7,7 @@ import buat_profil_dosen as bp  # noqa: E402
 import buat_native_orang as bo  # noqa: E402
 
 ROOT = be.ROOT
-E = json.loads((ROOT / "data" / "visimisi-v1.json").read_text(encoding="utf-8"))
+E = json.loads((ROOT / "manual" / "halaman" / "visimisi-v1.json").read_text(encoding="utf-8"))
 BORDER = {"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True}
 
 
