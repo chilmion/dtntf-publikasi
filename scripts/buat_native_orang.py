@@ -34,7 +34,7 @@ def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False, pas=Fals
         atas = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), _title="Jabatan dan nama")
         mail = bp.teks(f'<p><a href="mailto:{email}" style="color:{c_gel}">{email}</a></p>', c_gel, 12 if pas else 13, None)
         anak = [atas, mail]
-    kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), flex_size="grow",
+    kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), _flex_size="grow",
                          flex_justify_content="space-between", min_height=be.ukuran(h, "px"), min_height_mobile=be.ukuran(0, "px"), _title="Teks kartu")
     pct = {2: 48.5, 3: 31.5, 4: 23.5}[cols]
     return be.container([gambar, kanan], content_width="full", flex_direction="row", flex_align_items="stretch" if pas else "flex-start",
@@ -151,14 +151,14 @@ def dosen():
             teks.append(bp.teks(f"<p>{bp.esc(gelar)}</p>", "#7a7a7a", 14, None))
         if (i or {}).get("bidang_ilmu"):
             teks.append(bp.teks(f"<p>{bp.esc(i['bidang_ilmu'])}</p>", "#003D79", 14, None))
-        blok = be.container(teks, content_width="full", flex_direction="column", flex_gap=be.gap(8), padding=bp.ruang(0), flex_size="grow", _title="Teks kartu")
+        blok = be.container(teks, content_width="full", flex_direction="column", flex_gap=be.gap(8), padding=bp.ruang(0), _flex_size="grow", _title="Teks kartu")
         tombol = be.widget("button", text="Profil lengkap", link={"url": f"/{r['slug'].strip()}/", "is_external": "", "nofollow": "", "custom_attributes": ""},
                            align="left", background_color="rgba(0,0,0,0)", button_text_color="#073C64", border_border="solid",
                            border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
                            border_color="#073C64", border_radius=bp.sudut(999), typography_typography="custom", typography_font_family="Barlow",
                            typography_font_weight="600", typography_font_size=be.ukuran_(14),
                            text_padding={"unit": "px", "top": "9", "right": "18", "bottom": "9", "left": "18", "isLinked": False})
-        ks.append(be.container([foto, blok, tombol], content_width="full", flex_direction="column", flex_gap=be.gap(10), background_background="classic",
+        ks.append(be.container([foto, blok, tombol], content_width="full", flex_direction="column", flex_justify_content="space-between", flex_gap=be.gap(10), background_background="classic",
                                background_color="#FFFFFF", border_border="solid",
                                border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
                                border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), width=be.ukuran(23.5, "%"),
