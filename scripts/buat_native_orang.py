@@ -12,37 +12,40 @@ import native_tipografi as nt  # noqa: E402
 
 ROOT = be.ROOT
 TF = "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/11/"
-TIER = {"koor": (150, 20, 14.5, 5), "tek": (124, 19, 14.5, 2), "staf": (104, 17, 14, 2), "peng": (130, 19, 14, 3)}
+TIER = {"koor": (150, 20, 14.5, 5), "tek": (124, 19, 14.5, 2), "staf": (104, 17, 14, 2), "peng": (110, 19, 13, 3), "pimp": (165, 24, 13, 2)}
 
 
-def kartu(foto, alt, label, nama, gelar, email, tier, cols):
+def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False):
     w, nm, rl, lines = TIER[tier]
     h = round(w * 1.25)
     gambar = be.widget("image", image={"url": foto, "id": "", "alt": alt}, image_size="full", width=be.ukuran(100, "%"),
                        height=be.ukuran(h, "px"), image_border_radius=bp.sudut(12), _title="Foto " + nama,
                        _element_width="initial", _element_custom_width=be.ukuran(w, "px"), **{"object-fit": "cover", "object-position": "center 12%"})
-    anak = [be.widget("text-editor", editor=f"<p>{label}</p>", text_color="#003D79", typography_typography="custom",
+    c_lab, c_nama, c_gel = ("#C8E86D", "#FFFFFF", "rgba(255,255,255,.85)") if navy else ("#003D79", "#073C64", "#636363")
+    anak = [be.widget("text-editor", editor=f"<p>{label}</p>", text_color=c_lab, typography_typography="custom",
                       typography_font_family="Barlow", typography_font_weight="700", typography_font_size=be.ukuran_(rl),
                       typography_line_height={"unit": "em", "size": 1.4, "sizes": []}, _title="Jabatan"),
-            be.widget("heading", title=nama, header_size="h3", title_color="#073C64", _title="Nama")]
+            be.widget("heading", title=nama, header_size="h3", title_color=c_nama, _title="Nama")]
     if gelar:
-        anak.append(bp.teks(f"<p>{gelar}</p>", "#636363", 14, None))
+        anak.append(bp.teks(f"<p>{gelar}</p>", c_gel, 14, None))
     if email:
-        anak.append(bp.teks(f'<p><a href="mailto:{email}" style="color:#073C64">{email}</a></p>', "#636363", 14, None))
-    kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0),
-                         flex_size="grow", _title="Teks kartu")
-    pct = {2: 48.5, 3: 31.5}[cols]
+        atas = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), _title="Jabatan dan nama")
+        mail = bp.teks(f'<p><a href="mailto:{email}" style="color:{c_gel}">{email}</a></p>', c_gel, 13, None)
+        anak = [atas, mail]
+    kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), flex_size="grow",
+                         flex_justify_content="space-between", min_height=be.ukuran(h, "px"), min_height_mobile=be.ukuran(0, "px"), _title="Teks kartu")
+    pct = {2: 48.5, 3: 31.5, 4: 23.5}[cols]
     return be.container([gambar, kanan], content_width="full", flex_direction="row", flex_align_items="flex-start",
                         flex_gap=be.gap(18 if tier != "staf" else 14), width=be.ukuran(pct, "%"), width_tablet=be.ukuran(48.5, "%"),
-                        width_mobile=be.ukuran(100, "%"), flex_direction_mobile="row", background_background="classic", background_color="#FFFFFF",
+                        width_mobile=be.ukuran(100, "%"), flex_direction_mobile="row", background_background="classic", background_color="#073C64" if navy else "#FFFFFF",
                         border_border="solid", border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
-                        border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), _title="Kartu: " + nama)
+                        border_color="#073C64" if navy else bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), _title="Kartu: " + nama)
 
 
-def bagian(judul, kartu_list, bg):
+def bagian(judul, kartu_list, bg, tengah=False):
     grid = be.container(kartu_list, content_width="full", flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(16),
                         flex_justify_content="center", flex_align_items="stretch", padding=bp.ruang(0), _title="Kartu " + judul)
-    h2 = be.widget("heading", title=judul, header_size="h2", title_color="#161616", _title="Judul bagian")
+    h2 = be.widget("heading", title=judul, header_size="h2", title_color="#161616", _title="Judul bagian", **({"align": "center"} if tengah else {}))
     return be.container([h2, grid], content_width="full", flex_direction="column", flex_gap=be.gap(24), background_background="classic",
                         background_color=bg, border_radius=bp.sudut(10), padding=bp.ruang(40), padding_mobile=bp.ruang(20), _title="Bagian " + judul)
 
@@ -74,14 +77,23 @@ def halaman(anak, judul):
 def pengurus():
     foto = {r["slug"]: (r.get("foto_url") or "").strip() for r in csv.DictReader(open(ROOT / "dosen.csv", newline="", encoding="utf-8"))}
     baris = list(csv.DictReader(open(ROOT / "manual" / "pengurus.csv", newline="", encoding="utf-8")))
-    out, bgs = [], ["#FFFFFF", "#F5F5F5"]
-    for i, kel in enumerate(dict.fromkeys(r["kelompok"] for r in baris)):
+
+    def pilih(f):
+        return [r for r in baris if f(r["jabatan"])]
+    urut = lambda rs, kunci: sorted(rs, key=lambda r: next((i for i, k in enumerate(kunci) if k in r["jabatan"]), 99))  # noqa: E731
+    grup = [("Pimpinan Departemen", pilih(lambda j: j in ("Ketua Departemen", "Sekretaris Departemen")), 2, "pimp", True, "#FFFFFF"),
+            ("Ketua Program Studi", urut(pilih(lambda j: j.startswith("Ketua Program Studi")), ["Nuklir", "Fisika", "Magister"]), 3, "peng", False, "#F5F5F5"),
+            ("Sekretaris Program Studi", urut(pilih(lambda j: j.startswith("Sekretaris Program Studi")), ["Nuklir", "Fisika"]), 2, "peng", False, "#FFFFFF"),
+            ("Kepala Laboratorium", pilih(lambda j: j.startswith("Kepala Laboratorium")), 3, "peng", False, "#F5F5F5"),
+            ("Koordinator Kelompok Bidang Keahlian (KBK)", pilih(lambda j: j.startswith("Koordinator KBK")), 4, "peng", False, "#FFFFFF")]
+    out = []
+    for judul, rs, cols, tier, navy, bg in grup:
         ks = []
-        for r in (x for x in baris if x["kelompok"] == kel):
+        for r in rs:
             nama = r["nama_lengkap"]
             main, _, gel = nama.partition(", ")
-            ks.append(kartu(foto.get(r["slug"]) or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", nama, r["jabatan"], main, gel, r["email"], "peng", 3))
-        out.append(bagian(kel, ks, bgs[i % 2]))
+            ks.append(kartu(foto.get(r["slug"]) or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", nama, r["jabatan"], main, gel, r["email"], tier, cols, navy))
+        out.append(bagian(judul, ks, bg, True))
     return halaman(out, "Pengurus Departemen")
 
 
@@ -109,19 +121,12 @@ def tendik():
                     bagian("Staf", ks(staf, "staf", 3), "#FFFFFF")], "Tenaga Kependidikan")
 
 
-if __name__ == "__main__":
-    for nama, d in (("pengurus", pengurus()), ("tendik", tendik())):
-        s = json.dumps(d, ensure_ascii=False)
-        assert "<style" not in s and '"widgetType": "html"' not in s
-        (ROOT / "elementor" / "native" / f"{nama}.json").write_text(s, encoding="utf-8")
-        print("ok", nama, len(s))
-
 
 def dosen():
-    """Dosen Tetap (v1: kartu foto 4:5, kelompok, nama, gelar, bidang, tombol 'Profil lengkap'); tanpa filter (native): dikelompokkan."""
+    """Dosen Tetap (v1): satu grid tanpa judul bagian; kartu = foto, kelompok, nama, gelar, bidang (tumbuh), tombol di dasar kartu (sejajar)."""
     rows = sorted(csv.DictReader(open(ROOT / "dosen.csv", newline="", encoding="utf-8")), key=lambda r: r["nama"].strip().lower())
     info = {x["slug"]: x for x in csv.DictReader(open(ROOT / "manual" / "dosen-info.csv", newline="", encoding="utf-8"))}
-    grup = {"Teknik Nuklir": [], "Teknik Fisika": []}
+    ks = []
     for r in rows:
         i = info.get(r["slug"].strip())
         kel = bp.kelompok_info(i) or "Teknik Fisika"
@@ -129,31 +134,31 @@ def dosen():
         foto = be.widget("image", image={"url": (r.get("foto_url") or "").strip() or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", "id": "", "alt": nama},
                          image_size="full", width=be.ukuran(100, "%"), height=be.ukuran(330, "px"), height_mobile=be.ukuran(300, "px"),
                          image_border_radius=bp.sudut(10), _title="Foto " + nama, **{"object-fit": "cover", "object-position": "top center"})
-        anak = [foto, bp.kicker(kel.upper(), bp.NAVY), be.widget("heading", title=nama, header_size="h3", title_color="#161616", _title="Nama")]
+        teks = [bp.kicker(kel.upper(), bp.NAVY), be.widget("heading", title=nama, header_size="h3", title_color="#161616", _title="Nama")]
         if gelar:
-            anak.append(bp.teks(f"<p>{bp.esc(gelar)}</p>", "#7a7a7a", 14, None))
+            teks.append(bp.teks(f"<p>{bp.esc(gelar)}</p>", "#7a7a7a", 14, None))
         if (i or {}).get("bidang_ilmu"):
-            anak.append(bp.teks(f"<p>{bp.esc(i['bidang_ilmu'])}</p>", "#003D79", 14, None))
-        anak.append(be.widget("button", text="Profil lengkap", link={"url": f"/{r['slug'].strip()}/", "is_external": "", "nofollow": "", "custom_attributes": ""},
-                              align="left", background_color="rgba(0,0,0,0)", button_text_color="#073C64", border_border="solid",
-                              border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
-                              border_color="#073C64", border_radius=bp.sudut(999), typography_typography="custom", typography_font_family="Barlow",
-                              typography_font_weight="600", typography_font_size=be.ukuran_(14),
-                              text_padding={"unit": "px", "top": "9", "right": "18", "bottom": "9", "left": "18", "isLinked": False}))
-        k = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(8), background_background="classic", background_color="#FFFFFF",
-                         border_border="solid", border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
-                         border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), width=be.ukuran(23.5, "%"),
-                         width_tablet=be.ukuran(48.5, "%"), width_mobile=be.ukuran(100, "%"), _title="Kartu " + nama)
-        grup.setdefault(kel, []).append(k)
-    out = []
-    for j, (kel, ks) in enumerate(g for g in grup.items() if g[1]):
-        out.append(bagian(f"{kel} ({len(ks)} dosen)", ks, ["#FFFFFF", "#F5F5F5"][j % 2]))
-    return halaman(out, "Dosen Tetap")
+            teks.append(bp.teks(f"<p>{bp.esc(i['bidang_ilmu'])}</p>", "#003D79", 14, None))
+        blok = be.container(teks, content_width="full", flex_direction="column", flex_gap=be.gap(8), padding=bp.ruang(0), flex_size="grow", _title="Teks kartu")
+        tombol = be.widget("button", text="Profil lengkap", link={"url": f"/{r['slug'].strip()}/", "is_external": "", "nofollow": "", "custom_attributes": ""},
+                           align="left", background_color="rgba(0,0,0,0)", button_text_color="#073C64", border_border="solid",
+                           border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
+                           border_color="#073C64", border_radius=bp.sudut(999), typography_typography="custom", typography_font_family="Barlow",
+                           typography_font_weight="600", typography_font_size=be.ukuran_(14),
+                           text_padding={"unit": "px", "top": "9", "right": "18", "bottom": "9", "left": "18", "isLinked": False})
+        ks.append(be.container([foto, blok, tombol], content_width="full", flex_direction="column", flex_gap=be.gap(10), background_background="classic",
+                               background_color="#FFFFFF", border_border="solid",
+                               border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
+                               border_color=bp.GARIS, border_radius=bp.sudut(16), padding=bp.ruang(14), width=be.ukuran(23.5, "%"),
+                               width_tablet=be.ukuran(48.5, "%"), width_mobile=be.ukuran(100, "%"), _title="Kartu " + nama))
+    grid = be.container(ks, content_width="full", flex_direction="row", flex_wrap="wrap", flex_gap=be.gap(16), flex_align_items="stretch",
+                        flex_justify_content="flex-start", padding=bp.ruang(0), _title="Daftar dosen")
+    return halaman([grid], "Dosen Tetap")
 
 
 if __name__ == "__main__":
-    d = dosen()
-    s = json.dumps(d, ensure_ascii=False)
-    assert "<style" not in s and '"widgetType": "html"' not in s
-    (ROOT / "elementor" / "native" / "dosen-tetap.json").write_text(s, encoding="utf-8")
-    print("ok dosen-tetap", len(s))
+    for nama, d in (("pengurus", pengurus()), ("tendik", tendik()), ("dosen-tetap", dosen())):
+        s = json.dumps(d, ensure_ascii=False)
+        assert "<style" not in s and '"widgetType": "html"' not in s
+        (ROOT / "elementor" / "native" / f"{nama}.json").write_text(s, encoding="utf-8")
+        print("ok", nama, len(s))
