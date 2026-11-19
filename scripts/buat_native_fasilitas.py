@@ -39,8 +39,8 @@ def kartu(n, d, img, url, w, h):
                         width=be.ukuran(w, "%"), width_tablet=be.ukuran(100, "%"), width_mobile=be.ukuran(100, "%"), overflow="hidden",
                         background_background="classic", background_image={"url": B + img if not img.startswith("http") else img, "id": "", "size": "", "source": "library"},
                         background_position="center center", background_size="cover", background_repeat="no-repeat",
-                        background_overlay_background="gradient", background_overlay_color="rgba(7,60,100,0.06)", background_overlay_color_b="rgba(7,60,100,0.82)",
-                        background_overlay_gradient_angle={"unit": "deg", "size": 180, "sizes": []}, background_overlay_color_stop={"unit": "%", "size": 35, "sizes": []},
+                        background_overlay_background="gradient", background_overlay_color="rgba(7,60,100,0.12)", background_overlay_color_b="rgba(7,60,100,0.94)",
+                        background_overlay_gradient_angle={"unit": "deg", "size": 180, "sizes": []}, background_overlay_color_stop={"unit": "%", "size": 10, "sizes": []},
                         _title="Kartu " + n)
 
 
