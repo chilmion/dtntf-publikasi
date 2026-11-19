@@ -10,6 +10,9 @@ Dibuat 19 Nov 2026 ± 04.00. Sumber rinci: `catatan-revisi-dosen.md` (entri 1–
    - Sandi, captcha, 2FA: hanya staf yang mengisi. Claude tidak menyentuhnya.
 2. **Data yang masih kurang** — daftar lengkap di bagian "Data yang masih kurang" di bawah.
 
+## STATUS DEPLOY tf (diperbarui 19 Nov, sesi tf)
+Sudah live di tf: **menu** dan **header** (Pendidikan 2 kolom, Kontak). **Terhenti**: Chrome Windows (komputer jurusan) terputus saat sesi berjalan. **Penghalang**: akun lab menyaring `<style>`/`<svg>`/`<script>` saat simpan (catatan 35); halaman berbasis HTML widget bergaya perlu akun dengan `unfiltered_html` sungguhan. Yang masih mungkin dari akun ini (widget native saja, harus dites per halaman): Visi Misi, Akreditasi, Pengurus, Tenaga Kependidikan, Dosen Tetap, profil dosen.
+
 ## Prasyarat sebelum deploy
 
 - Sesi admin tf aktif di Chrome Windows (user: staf lab).
@@ -23,10 +26,10 @@ Status: ✅ selesai dan diperiksa · 🟡 sebagian/draf · ⬜ belum. Kolom v1 =
 
 | # | Item | v1 | tf | Skrip / cara | Catatan |
 |---|------|----|----|--------------|---------|
-| A | **Menu** (A1–A5): Akreditasi + Panduan ke Pendidikan (2 kolom), Layanan Akademik ke Layanan, urutan Penelitian, Kontak top-level | ✅ | ⬜ | REST `wp/v2/menu-items` + header 16571 (`/*PENDIDIKAN2*/`) | id item beda di tf; `nav-menus.php` di tf 404. Cek 8 menu muat di 1300px |
-| A' | **Header** (logo + menu 2 baris, CSS dari tf) | ✅ | 🟡 | tambahkan kolom Pendidikan + Kontak saja | v1 meniru tf, jadi di tf hanya 2 tambahan |
-| B | **Footer** (sosmed 4 tautan, peta kecil, Layanan Akademik) | ✅ | ⬜ | terapkan elemen manual di template footer tf | footer tf bukan template v1 |
-| C1 | Sejarah | ✅ | ⬜ | `sejarah.js` `deploySejarah(16872)` | foto Unsplash ilustrasi; isi 2022–sekarang satu kalimat |
+| A | **Menu** (A1–A5): Akreditasi + Panduan ke Pendidikan (2 kolom), Layanan Akademik ke Layanan, urutan Penelitian, Kontak top-level | ✅ | ✅ (19 Nov, REST; catatan 34) | REST `wp/v2/menu-items` + header 16571 (`/*PENDIDIKAN2*/`) | id item beda di tf; `nav-menus.php` di tf 404. Cek 8 menu muat di 1300px |
+| A' | **Header** (logo + menu 2 baris, CSS dari tf) | ✅ | ✅ Pendidikan 2 kolom + Kontak (lewat pemulihan CSS; JANGAN simpan header lagi, catatan 34) | tambahkan kolom Pendidikan + Kontak saja | v1 meniru tf, jadi di tf hanya 2 tambahan |
+| B | **Footer** (sosmed 4 tautan, peta kecil, Layanan Akademik) | ✅ | ⬜ ditunda: tf tidak punya footer/template footer, butuh keputusan (catatan 36) | terapkan elemen manual di template footer tf | footer tf bukan template v1 |
+| C1 | Sejarah | ✅ | ⛔ dicoba lalu dipulihkan: butuh `unfiltered_html` (catatan 35) | `sejarah.js` `deploySejarah(16872)` | foto Unsplash ilustrasi; isi 2022–sekarang satu kalimat |
 | C2 | Visi dan Misi | ✅ | ⬜ | `visi-misi.js` `deployVisiMisi(16875)` | |
 | C3 | Struktur Organisasi (bagan SVG, kartu prodi bento) | ✅ | ⬜ | `struktur.js` `deployStruktur(16890)` | tautan IUP/Magister baru ada setelah halamannya ada |
 | C4 | Akreditasi (5 slot) | ✅ | ⬜ | `akreditasi.js` `deployAkreditasi(16893)` | |
