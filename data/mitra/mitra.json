@@ -17,25 +17,31 @@
    "gambar": "mitra/logo/pupr.webp"
   },
   {
-   "nama": "BAPETEN"
+   "nama": "BAPETEN",
+   "gambar": "mitra/logo/bapeten.png"
   },
   {
-   "nama": "PT PLN (Persero)"
+   "nama": "PT PLN (Persero)",
+   "gambar": "mitra/logo/pln.png"
   },
   {
-   "nama": "PT SUCOFINDO"
+   "nama": "PT SUCOFINDO",
+   "gambar": "mitra/logo/sucofindo.png"
   },
   {
-   "nama": "BPBD Jawa Timur"
+   "nama": "BPBD Jawa Timur",
+   "gambar": "mitra/logo/bpbd.png"
   },
   {
-   "nama": "PT PAL Indonesia"
+   "nama": "PT PAL Indonesia",
+   "gambar": "mitra/logo/pal.png"
   },
   {
    "nama": "ThorCon Power Indonesia"
   },
   {
-   "nama": "IAEA"
+   "nama": "IAEA",
+   "gambar": "mitra/logo/iaea.png"
   },
   {
    "nama": "Universitas Negeri Yogyakarta",
