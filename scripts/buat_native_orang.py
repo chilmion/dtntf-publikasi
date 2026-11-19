@@ -15,8 +15,10 @@ TF = "https://tf.ugm.ac.id/wp-content/uploads/sites/7/2026/11/"
 TIER = {"koor": (150, 20, 14.5, 5), "tek": (124, 19, 14.5, 2), "staf": (104, 17, 14, 2), "peng": (110, 19, 13, 3), "pimp": (165, 24, 13, 2)}
 
 
-def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False):
+def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False, pas=False):
     w, nm, rl, lines = TIER[tier]
+    if pas:   # pengurus: ukuran mengikuti v1 (teks kecil, nama tebal) agar muat dalam tinggi foto
+        w, nm, rl = {2: (102, 19, 12.5), 3: (123, 18, 12.5), 4: (88, 16, 12)}[cols] if tier == "peng" else (164, 24, 13)
     h = round(w * 1.25)
     gambar = be.widget("image", image={"url": foto, "id": "", "alt": alt}, image_size="full", width=be.ukuran(100, "%"),
                        height=be.ukuran(h, "px"), image_border_radius=bp.sudut(12), _title="Foto " + nama,
@@ -25,17 +27,17 @@ def kartu(foto, alt, label, nama, gelar, email, tier, cols, navy=False):
     anak = [be.widget("text-editor", editor=f"<p>{label}</p>", text_color=c_lab, typography_typography="custom",
                       typography_font_family="Barlow", typography_font_weight="700", typography_font_size=be.ukuran_(rl),
                       typography_line_height={"unit": "em", "size": 1.4, "sizes": []}, _title="Jabatan"),
-            be.widget("heading", title=nama, header_size="h3", title_color=c_nama, _title="Nama")]
+            be.widget("heading", title=nama, header_size="h3", title_color=c_nama, _title="Nama", **({"_nm": nm} if pas else {}))]
     if gelar:
-        anak.append(bp.teks(f"<p>{gelar}</p>", c_gel, 14, None))
+        anak.append(bp.teks(f"<p>{gelar}</p>", c_gel, 13 if pas else 14, None))
     if email:
         atas = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), _title="Jabatan dan nama")
-        mail = bp.teks(f'<p><a href="mailto:{email}" style="color:{c_gel}">{email}</a></p>', c_gel, 13, None)
+        mail = bp.teks(f'<p><a href="mailto:{email}" style="color:{c_gel}">{email}</a></p>', c_gel, 12 if pas else 13, None)
         anak = [atas, mail]
     kanan = be.container(anak, content_width="full", flex_direction="column", flex_gap=be.gap(6), padding=bp.ruang(0), flex_size="grow",
                          flex_justify_content="space-between", min_height=be.ukuran(h, "px"), min_height_mobile=be.ukuran(0, "px"), _title="Teks kartu")
     pct = {2: 48.5, 3: 31.5, 4: 23.5}[cols]
-    return be.container([gambar, kanan], content_width="full", flex_direction="row", flex_align_items="flex-start",
+    return be.container([gambar, kanan], content_width="full", flex_direction="row", flex_align_items="stretch" if pas else "flex-start",
                         flex_gap=be.gap(18 if tier != "staf" else 14), width=be.ukuran(pct, "%"), width_tablet=be.ukuran(48.5, "%"),
                         width_mobile=be.ukuran(100, "%"), flex_direction_mobile="row", background_background="classic", background_color="#073C64" if navy else "#FFFFFF",
                         border_border="solid", border_width={"unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": True},
@@ -69,6 +71,16 @@ def halaman(anak, judul):
     top["settings"]["flex_gap"] = be.gap(24)
     nt.terapkan(top)
     # banner memakai ukuran sendiri (setelah normalisasi)
+    def pas(e):
+        st = e.get("settings", {})
+        if e.get("widgetType") == "heading" and "_nm" in st:
+            n = st.pop("_nm")
+            st.update(typography_font_weight="700", typography_font_size=be.ukuran_(n), typography_font_size_tablet=be.ukuran_(n),
+                      typography_font_size_mobile=be.ukuran_(min(n, 18)), typography_line_height={"unit": "em", "size": 1.2, "sizes": []},
+                      typography_letter_spacing={"unit": "em", "size": -0.01, "sizes": []})
+        for a in e.get("elements", []):
+            pas(a)
+    pas(top)
     b = top["elements"][0]["elements"][1]["settings"]
     b.update(typography_font_size=be.ukuran_(48), typography_font_size_tablet=be.ukuran_(40), typography_font_size_mobile=be.ukuran_(32))
     return {"version": "0.4", "title": judul, "type": "container", "content": [top], "page_settings": []}
@@ -92,7 +104,7 @@ def pengurus():
         for r in rs:
             nama = r["nama_lengkap"]
             main, _, gel = nama.partition(", ")
-            ks.append(kartu(foto.get(r["slug"]) or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", nama, r["jabatan"], main, gel, r["email"], tier, cols, navy))
+            ks.append(kartu(foto.get(r["slug"]) or "https://placehold.co/400x500/E8EEF4/073C64?text=Foto", nama, r["jabatan"], main, gel, r["email"], tier, cols, navy, True))
         out.append(bagian(judul, ks, bg, True))
     return halaman(out, "Pengurus Departemen")
 
